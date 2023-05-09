@@ -1,0 +1,10 @@
+---
+layout: base
+---
+<ul id="ul-collected-websites">
+</ul>
+<script type="module">
+    import { synthesize } from "/js/polymerase.js";
+
+    $(document).ready(() => synthesize.collectedWebsites("{{ page.cw_category }}"));
+</script>

@@ -1,0 +1,11 @@
+---
+layout: base
+---
+{{ content }}
+<ul id="ul-acgn-records">
+</ul>
+<script type="module">
+    import { synthesize } from "/js/polymerase.js";
+
+    $(document).ready(() => synthesize.ACGNRecords("{{ page.record_category }}"));
+</script>

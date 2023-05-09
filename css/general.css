@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #111;
+    color: #fefefe;
+    font-family: "Space Grotesk", sans-serif;
+    height: 100%;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+a {
+    color: #b4b4b4;
+    text-decoration: none;
+    transition: opacity 0.3s;
+    opacity: 1.0;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+p {
+    font-size: 26px;
+    margin: 30px 0px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ffffff80;
+    border-bottom: 1px solid #646464cc;
+    height: 0;
+    margin: 15px auto;
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: "○";
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 1.2em;
+    padding-left: 1em;
+}
+
+::selection {
+    background-color: #00a290;
+    color: #eee;
+}
+
+.serif {
+    font-family: "Georgia", "Times New Roman", "Times", serif;
+}
+
+.mono {
+    font-family: "Ubuntu Mono", "DejaVu Sans Mono", "Fira Mono", "Monaco", "Consolas", "Courier New", monospace;
+}
+
+.container {
+    height: fit-content;
+    margin: auto;
+    padding-bottom: 200px;
+    position: relative;
+    top: 18%;
+    width: 50%;
+}
+
+.top-title {
+    color: white;
+    font-size: 72px;
+    margin: 30px 0px;
+}
+
+.normal-link {
+    color: pink;
+}
+
+.great-link {
+    color: #fefefe;
+    font-size: 34px;
+    margin: 30px 0px 30px 50px;
+}
+
+.preload {
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+}
+
