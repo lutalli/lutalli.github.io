@@ -5,7 +5,7 @@ const firebaseConfig = {
     databaseURL: "https://luta-no-uta-db-default-rtdb.europe-west1.firebasedatabase.app/"
 }
 
-const websiteCategorySeq = "ritkevspy";
+const websiteCategorySeq = "RITKEVSPY";
 
 const app = initializeApp(firebaseConfig);
 
@@ -29,10 +29,9 @@ class synthesize {
     static websiteCategories() {
 	onValue(child(dbRef, "collected-websites"), (snapshot) => {
 	    for (let i = 0; i < websiteCategorySeq.length; i++) {
-		var cate = websiteCategorySeq[i];
-		var cateDisplay = cate.toUpperCase();
+		var cate = websiteCategorySeq[i]
 		var data = snapshot.child(`category-${cate}`).val();
-		$("#div-website-categories").append(`<a class="great-link" style="color: ${data["color"]}" href="/collected-websites/${cate}">${cateDisplay}</a>`);
+		$("#div-website-categories").append(`<a class="great-link" style="color: ${data["color"]}" href="/collected-websites/${cate}">${cate}</a>`);
 	    }
 	});
     }
