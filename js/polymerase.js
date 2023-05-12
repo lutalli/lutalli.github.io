@@ -19,7 +19,7 @@ class synthesize {
 	    var color = snapshot.child("color").val();
 	    var sites = snapshot.child("sites").val();
 	    sites.forEach((site) => {
-		$("#ul-collected-websites").append(`<li><a href="${site["link"]}" style="color: ${color}">${site["title"]}</a></li>`);
+		$("#ul-collected-websites").append(`<li><a href="${site["link"]}" style="color: ${color}">${site["title"]}</a></li>\n`);
 	    });
 
 	    MathJax.typeset();
@@ -31,7 +31,7 @@ class synthesize {
 	    for (let i = 0; i < websiteCategorySeq.length; i++) {
 		var cate = websiteCategorySeq[i]
 		var data = snapshot.child(`category-${cate}`).val();
-		$("#div-website-categories").append(`<a class="great-link" style="color: ${data["color"]}" href="/collected-websites/${cate}">${cate}</a>`);
+		$("#div-website-categories").append(`<a class="great-link" style="color: ${data["color"]}" href="/collected-websites/${cate}">${cate}</a>\n`);
 	    }
 	});
     }
@@ -51,7 +51,7 @@ class synthesize {
 		if (record["title-en"] != ".") {
 		    title += `&emsp;<span style="color: #f7f7f7;">✱</span>&emsp;<b>${record["title-en"]}</b>`;
 		}
-		$("#ul-acgn-records").append(`<li><span style="color: ${color};">${title}</span><br />${record["detail-cn"]}&emsp;<span style="color: #f7f7f7;">|</span>&emsp;${record["detail-en"]}</li>`);
+		$("#ul-acgn-records").append(`<li><span style="color: ${color};">${title}</span><br />${record["detail-cn"]}&emsp;<span style="color: #f7f7f7;">|</span>&emsp;${record["detail-en"]}</li>\n`);
 	    });
 	});
     }
