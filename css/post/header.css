@@ -1,0 +1,34 @@
+header {
+    background-color: #eee;
+    border-bottom: 2px #ddd solid;
+    font-family: "Space Grotesk";
+    margin-top: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#header-shell {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.header-core {
+    display: inline-block;
+}
+
+.header-core a {
+    opacity: 90%;
+}
+
+#header-core-left a {
+    color: #222;
+}
+
+#header-core-right a {
+    color: #444;
+}
+
+#header-core-right {
+    float: right;
+}

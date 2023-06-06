@@ -1,0 +1,47 @@
+body {
+    font-family: serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+a:hover {
+    opacity: 65% !important;
+}
+
+h1 a, h2 a, h3 a {
+    color: #222 !important;
+}
+
+code {
+    font-family: "Monaco", "JetBrains Mono", "Source Code Pro", "Ubuntu Mono", monospace;
+}
+
+.post-shell {
+    width: 50%;
+    margin: 86px auto 32px auto;
+}
+
+.post-limbo {
+    font-family: "Playfair";
+}
+
+.post-limbo h1 {
+    font-size: 46px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.post-limbo p {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.bulletless {
+    list-style-type: none;
+}
+

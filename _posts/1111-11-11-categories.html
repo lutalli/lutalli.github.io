@@ -1,0 +1,22 @@
+---
+layout: post
+title: Post categories
+categories: post meta
+ignore_date: true
+---
+
+{% for cate in site.categories %}
+    {% capture cate_name %}{{ cate | first }}{% endcapture %}
+    {% unless cate_name == "post" %}
+	{% assign cate_name_display = cate_name %}
+	{% if cate_name == "meta" %}
+	    {% assign cate_name_display = "Meta" %}
+	{% endif %}
+	<h2>{{ cate_name_display }}</h2>
+	<ul class="bulletless">
+	    {% for post in site.categories[cate_name] %}
+		<li><a href="{{ post.url }}">{{ post.title }}</a> | {{ post.date | date: "%b %d, %Y" }}</li>
+	    {% endfor %}
+	</ul>
+    {% endunless %}
+{% endfor %}

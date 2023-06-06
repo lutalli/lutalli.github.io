@@ -1,0 +1,79 @@
+.post-core {
+    font-family: "Playfair";
+    margin-top: 48px;
+}
+
+.post-core h1 {
+    font-size: 37px;
+    margin: 2em auto 1em 0;
+}
+
+.post-core h2 {
+    font-size: 32px;
+    margin: 1.8em auto 0.8em 0;
+}
+
+.post-core h3 {
+    font-size: 28px;
+    margin: 1.6em auto 0.6em 0;
+}
+
+.post-core p {
+    font-size: 22px;
+    margin: 1.3em auto 1.3em 0;
+}
+
+.post-core blockquote {
+    background-color: #eee;
+    border-left: 4px #ccc solid;
+    color: #555;
+    margin: 1em 0 1em 0;
+    padding: 0.8em 2.4em 0.8em 2.4em;
+}
+
+.post-core ol {
+    font-size: 22px;
+    margin: 1em 2em 1em 2em;
+    padding: 0 1em 0 1em;
+}
+
+.post-core ul {
+    font-size: 22px;
+    margin: 1em 2em 1em 2em;
+    padding: 0 1em 0 1em;
+}
+
+.post-core li {
+    padding-left: 0.25em;
+}
+
+.post-core li:not(:last-child) {
+    margin-bottom: 0.4em;
+}
+
+.post-core hr {
+    border: 1px #999 solid;
+    width: 65%;
+    margin: 40px auto 40px auto;
+}
+
+.post-core a {
+    color: #4884c0;
+}
+
+.post-core .MathJax[display="true"] {
+    font-size: 125% !important;
+}
+
+.post-core p code {
+    background: #eee;
+    border-radius: 8px;
+    color: #222;
+    font-size: 15px !important;
+    padding: 5px 8px;
+}
+
+.post-core .highlight code {
+    padding: 2em 3em !important;
+    font-size: 14px !important;
+}

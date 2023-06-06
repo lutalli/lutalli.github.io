@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{{ page.title }}</title>
-
-        <link href="/css/general.css" type="text/css" rel="stylesheet" />
+        <link href="/css/page/general.css" type="text/css" rel="stylesheet" />
         <link href="/css/colors.css" type="text/css" rel="stylesheet" />
 
         <link href="/res/favicon.ico" type="image/x-icon" rel="icon" />
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,400,700" />
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -23,6 +23,8 @@
                 $("body").removeClass("preload");
             });
         </script>
+
+        <title>{{ page.title }}</title>
     </head>
 
     <body class="preload">

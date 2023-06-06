@@ -83,6 +83,7 @@ li {
     color: #fefefe;
     font-size: 34px;
     margin: 30px 0px 30px 50px;
+    white-space: nowrap;
 }
 
 .preload {

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/css/post/general.css" type="text/css" rel="stylesheet" />
+        <link href="/css/post/header.css" type="text/css" rel="stylesheet" />
+        <link href="/css/post/core.css" type="text/css" rel="stylesheet" />
+        <link href="/css/colors.css" type="text/css" rel="stylesheet" />
+
+        <link href="/res/favicon.ico" type="image/x-icon" rel="icon" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,400,700" />
+	<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+	<script>hljs.highlightAll();</script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+	<title>{{ page.title }}</title>
+    </head>
+    <body>
+	<header>
+	    <div id="header-shell">
+		<div class="header-core" id="header-core-left"><a href="/"><b>Luta no Uta</b></a></div>
+		<div class="header-core" id="header-core-right"><a href="/">Home</a>&emsp;•&emsp;<a href="/post/meta/1111/11/11/categories.html">Categories</a></div>
+	    </div>
+	</header>
+	<div id="ground">
+	    <div class="post-shell">
+		<div class="post-limbo">
+		    <h1>{{ page.title }}</h1>
+		    {% unless page.ignore_date %}
+		    <p>Published: {{ page.date | date: "%b %d, %Y" }}</p>
+		    {% endunless %}
+		</div>
+		<div class="post-core">
+		    {{ content }}
+		</div>
+	    </div>
+	</div>
+
+	<script type="text/javascript">
+	    $(document).ready(() => {
+		$(":header").each((_, heading) => {
+		    if (heading.id) {
+			$(heading).wrapInner(`<a href="#${heading.id}"></a>`);
+		    }
+		});
+	    });
+	</script>
+    </body>
+</html>
