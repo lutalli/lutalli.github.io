@@ -51,11 +51,11 @@ code { font-family: "Monaco", "JetBrains Mono", "Source Code Pro", "Ubuntu Mono"
 
 @media (max-device-width: 900px) {
     .post-limbo h1 {
-	font-size: 72px;
+	font-size: 100px;
     }
     
     .post-limbo p {
-	font-size: 38px;
+	font-size: 48px;
     }
 
     .post-shell {

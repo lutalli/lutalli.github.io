@@ -36,7 +36,7 @@ header {
 
 @media (max-device-width: 900px) {
     #header-shell {
-	font-size: 28px;
+	font-size: 34px;
 	width: 80% !important;
     }
 }
