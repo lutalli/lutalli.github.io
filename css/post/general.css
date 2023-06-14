@@ -49,7 +49,15 @@ code { font-family: "Monaco", "JetBrains Mono", "Source Code Pro", "Ubuntu Mono"
     list-style-type: none;
 }
 
-@media (max-device-width: 600px) {
+@media (max-device-width: 900px) {
+    .post-limbo h1 {
+	font-size: 72px;
+    }
+    
+    .post-limbo p {
+	font-size: 38px;
+    }
+
     .post-shell {
 	width: 90% !important;
     }

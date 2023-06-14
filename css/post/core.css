@@ -20,7 +20,7 @@
 
 .post-core p {
     font-size: 22px;
-    margin: 1.3em 0 1.3em 0;
+    margin: 1.3em 0;
 }
 
 .post-core blockquote {
@@ -99,8 +99,7 @@
 
 .post-core th:last-child,
 .post-core td:last-child {
-    padding: 0.3em;
-}
+    padding: 0.3em; }
 
 .post-core .ref-table tr,
 .post-core .ref-table th,
@@ -132,5 +131,46 @@
 .post-core .ref-table th:last-child,
 .post-core .ref-table td:last-child {
     padding: 0.3em 0;
+}
+
+@media (max-device-width: 900px) {
+    .post-core h1 {
+	font-size: 64px;
+	margin: 1.7em 0 0.9em 0;
+    }
+    
+    .post-core h2 {
+	font-size: 58px;
+	margin: 1.4em 0 0.6em 0;
+    }
+
+    .post-core h3 {
+	font-size: 45px;
+	margin: 1.1em 0 0.4em 0;
+    }
+
+    .post-core p {
+	font-size: 34px;
+	margin: 0.8em 0;
+    }
+
+    .post-core ol,
+    .post-core ul {
+	font-size: 34px;
+	margin: 0.8em;
+	padding: 0 0.8em;
+    }
+
+    .post-core hr {
+	width: 80%;
+    }
+
+    .post-core .highlight code {
+	font-size: 26px !important;
+    }
+
+    .post-core table {
+	font-size: 34px;
+    }
 }
 

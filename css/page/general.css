@@ -94,3 +94,24 @@ li {
 	transition: none !important;
 }
 
+@media (max-device-width: 900px) {
+    .top-title {
+	font-size: 92px;
+    }
+
+    .great-link {
+	font-size: 54px;
+    }
+
+    .container {
+	width: 80%;
+    }
+
+    p {
+	font-size: 38px;
+    }
+
+    ul, ol {
+	font-size: 34px;
+    }
+}

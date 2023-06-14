@@ -8,6 +8,7 @@ header {
 }
 
 #header-shell {
+    font-size: 18px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -33,9 +34,9 @@ header {
     float: right;
 }
 
-@media (max-device-width: 600px) {
+@media (max-device-width: 900px) {
     #header-shell {
+	font-size: 28px;
 	width: 80% !important;
-	font-size: 26px !important;
     }
 }
