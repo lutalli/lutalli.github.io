@@ -16,17 +16,21 @@ h1 a, h2 a, h3 a {
     color: #222 !important;
 }
 
-code {
-    font-family: "Monaco", "JetBrains Mono", "Source Code Pro", "Ubuntu Mono", monospace;
+code { font-family: "Monaco", "JetBrains Mono", "Source Code Pro", "Ubuntu Mono", monospace;
+}
+
+#ground {
+    margin-bottom: 12em;
 }
 
 .post-shell {
-    width: 50%;
+    width: 61.8%;
     margin: 86px auto 32px auto;
 }
 
 .post-limbo {
     font-family: "Playfair";
+    margin-bottom: 70px;
 }
 
 .post-limbo h1 {
@@ -43,5 +47,11 @@ code {
 
 .bulletless {
     list-style-type: none;
+}
+
+@media (max-device-width: 600px) {
+    .post-shell {
+	width: 90% !important;
+    }
 }
 

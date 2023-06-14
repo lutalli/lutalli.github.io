@@ -32,3 +32,10 @@ header {
 #header-core-right {
     float: right;
 }
+
+@media (max-device-width: 600px) {
+    #header-shell {
+	width: 80% !important;
+	font-size: 26px !important;
+    }
+}
