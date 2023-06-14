@@ -4,8 +4,8 @@ title: Post categories
 categories: post meta
 ignore_date: true
 ---
-{% assign CATES = "math, meta" | split: ", " %}
-{% assign CATES_DISP = "Mathematics, Meta" | split: ", " %}
+{% assign CATES = "math, misc, meta" | split: ", " %}
+{% assign CATES_DISP = "Mathematics, Miscellaneous, Meta" | split: ", " %}
 
 {% for cate in CATES %}
     {% unless cate == "post" %}

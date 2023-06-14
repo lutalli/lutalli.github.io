@@ -127,7 +127,7 @@ $$ f^{-1}[Y] = \{x:f(x)\in Y\} = \mathrm{ran}(f^{-1}{\upharpoonright_Y}) $$
 <table class="ref-table">
     <tr>
 	<th>[J]</th>
-	<td>Thomas Jech, <i>Set Theory</i> (The Third Millennium Edition, Revised and Expanded), Springer, 2002, pp. 10-12</td>
+	<td>Thomas Jech, <cite>Set Theory</cite> (The Third Millennium Edition, Revised and Expanded), Springer, 2002, pp. 10-12</td>
     </tr>
     <tr>
 	<th>[Wr]</th>
