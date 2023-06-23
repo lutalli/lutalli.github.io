@@ -154,6 +154,11 @@
 	margin: 0.8em 0;
     }
 
+    .post-core p code {
+	border-radius: 16px !important;
+	font-size: 34px !important;
+    }
+
     .post-core .MJX-TEX {
 	font-size: 48px;
     }
