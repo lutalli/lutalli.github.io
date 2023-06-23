@@ -35,6 +35,12 @@ header {
 }
 
 @media (max-device-width: 900px) {
+    header {
+	border-width: 4px !important;
+	padding-top: 28px !important;
+	padding-bottom: 28px !important;
+    }
+
     #header-shell {
 	font-size: 34px;
 	width: 80% !important;
