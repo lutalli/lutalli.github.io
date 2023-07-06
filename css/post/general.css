@@ -29,7 +29,7 @@ code { font-family: "Monaco", "JetBrains Mono", "Source Code Pro", "Ubuntu Mono"
 }
 
 .post-limbo {
-    font-family: "Playfair";
+    font-family: "Playfair", "Noto Serif SC", serif;
     margin-bottom: 70px;
 }
 
