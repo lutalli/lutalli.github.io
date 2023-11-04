@@ -48,18 +48,3 @@ code { font-family: "Monaco", "JetBrains Mono", "Source Code Pro", "Ubuntu Mono"
 .bulletless {
     list-style-type: none;
 }
-
-@media (max-device-width: 900px) {
-    .post-limbo h1 {
-	font-size: 100px;
-    }
-    
-    .post-limbo p {
-	font-size: 48px;
-    }
-
-    .post-shell {
-	width: 90% !important;
-    }
-}
-
