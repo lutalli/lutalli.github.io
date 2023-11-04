@@ -23,6 +23,7 @@ class synthesize {
 	    });
 
 	    MathJax.typeset();
+	    $("#ul-collected-websites").addClass("loaded");
 	});
     }
 
@@ -33,6 +34,7 @@ class synthesize {
 		var data = snapshot.child(`category-${cate}`).val();
 		$("#div-website-categories").append(`<a class="great-link" style="color: ${data["color"]}" href="/collected-websites/${cate}">${cate}</a>\n`);
 	    }
+	    $("#div-website-categories").addClass("loaded");
 	});
     }
 
@@ -54,6 +56,7 @@ class synthesize {
 		$("#ul-acgn-records").append(`<li><span style="color: ${color};">${title}</span><br />${record["detail-cn"]}&emsp;<span style="color: #f7f7f7;">|</span>&emsp;${record["detail-en"]}</li>\n`);
 	    });
 	});
+	$("#ul-acgn-records").addClass("loaded");	
     }
 }
 

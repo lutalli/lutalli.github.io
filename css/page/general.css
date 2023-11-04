@@ -94,6 +94,15 @@ li {
 	transition: none !important;
 }
 
+.to-load {
+    opacity: 0.0 !important;
+    transition: opacity 1.1s ease-out;
+}
+
+.loaded {
+    opacity: 1.0 !important;
+}
+
 @media (max-device-width: 900px) {
     .top-title {
 	font-size: 92px;
