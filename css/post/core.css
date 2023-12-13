@@ -23,7 +23,7 @@
     margin: 1.3em 0;
 }
 
-.post-core strong {
+.post-core strong, h1, h2, h3 {
     font-weight: 700;
     font-family: "Gelasio", "Noto Sans SC", serif;
 }
@@ -33,7 +33,7 @@
     border-left: 4px #ccc solid;
     color: #555;
     margin: 1em 0 1em 0;
-    padding: 0.8em 2.4em 0.8em 2.4em;
+    padding: 0.4em 2.4em 0.4em 2.4em;
 }
 
 .post-core ol {
