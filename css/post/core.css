@@ -1,6 +1,6 @@
 .post-core {
     color: #222;
-    font-family: "Playfair", "Noto Serif SC", serif;
+    font-family: "Gelasio", "Noto Serif SC", serif;
 }
 
 .post-core h1 {
@@ -9,18 +9,23 @@
 }
 
 .post-core h2 {
-    font-size: 34px;
+    font-size: 32px;
     margin: 2.8em 0 1.1em 0;
 }
 
 .post-core h3 {
-    font-size: 28px;
+    font-size: 26px;
     margin: 2em 0 0.6em 0;
 }
 
 .post-core p {
     font-size: 22px;
     margin: 1.3em 0;
+}
+
+.post-core strong {
+    font-weight: 700;
+    font-family: "Gelasio", "Noto Sans SC", serif;
 }
 
 .post-core blockquote {
@@ -62,7 +67,7 @@
 }
 
 .post-core .MJX-TEX {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .post-core p code {
