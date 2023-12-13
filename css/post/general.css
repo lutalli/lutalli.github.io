@@ -16,7 +16,8 @@ h1 a, h2 a, h3 a {
     color: #222 !important;
 }
 
-code { font-family: "Monaco", "JetBrains Mono", "Source Code Pro", "Ubuntu Mono", monospace;
+code {
+    font-family: "Ubuntu Mono", "Source Code Pro", "JetBrains Mono", "Monaco", monospace;
 }
 
 #ground {
@@ -34,13 +35,14 @@ code { font-family: "Monaco", "JetBrains Mono", "Source Code Pro", "Ubuntu Mono"
 }
 
 .post-limbo h1 {
-    font-size: 46px;
+    font-size: 40px;
     margin-top: 20px;
     margin-bottom: 4px;
 }
 
 .post-limbo p {
-    font-size: 20px;
+    color: #444;
+    font-size: 22px;
     margin-top: 0px;
     margin-bottom: 8px;
 }
