@@ -1,6 +1,6 @@
 .post-core {
     color: #222;
-    font-family: "Gelasio", "Noto Serif SC", serif;
+    font-family: "Literata", "Noto Serif SC", serif;
 }
 
 .post-core h1 {
@@ -21,11 +21,12 @@
 .post-core p {
     font-size: 20px;
     margin: 1.3em 0;
+    line-height: 1.4;
 }
 
 .post-core strong, h1, h2, h3 {
     font-weight: 700;
-    font-family: "Gelasio", "Noto Sans SC", serif;
+    font-family: "Literata", "Noto Sans SC", serif;
 }
 
 .post-core blockquote {
