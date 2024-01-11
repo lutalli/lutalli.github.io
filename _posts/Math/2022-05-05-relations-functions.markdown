@@ -6,7 +6,7 @@ categories: post math
 
 ## Relations
 
-**Definition 1.**&emsp; An *$n$-ary relation* is a set of $n$-ary tuples. A $2$-ary relation is called a *binary relation*. If $R$ is a binary relation, then $(u,v)\in R$ can also be written as $u\,R\,v$ (read as "$R$ holds between $u$ and $v$").
+**Definition 1.**&ensp;An *$n$-ary relation* is a set of $n$-ary tuples. A $2$-ary relation is called a *binary relation*. If $R$ is a binary relation, then $(u,v)\in R$ can also be written as $u\,R\,v$ (read as "$R$ holds between $u$ and $v$").
 
 The *domain* of a binary relation $R$ is
 
@@ -24,11 +24,11 @@ Any set $Y$ could be considered as the *codomain* or *set of destination* of a b
 
 A binary relation $R$ is said to be *between* or *over* the sets $X$ and $Y$, if $R\subset X\times Y$.
 
-**Definition 2.**&emsp; Let $R\subset U\times V$ and $S\subset V\times W$ be binary relations. The *composition* of $R$ and $S$ is (notice the different orders in which the two sets come in different notations)
+**Definition 2.**&ensp;Let $R\subset U\times V$ and $S\subset V\times W$ be binary relations. The *composition* of $R$ and $S$ is (notice the different orders in which the two sets come in different notations)
 
 $$ S\circ R\quad\text{or}\quad RS\quad\text{or}\quad R{;}S = \{(u,w):\exists v\in V(u\,R\,v\land v\,S\,w)\} $$
 
-**Definition 3.**&emsp; The *converse* or *transpose* of a binary relation $R$ is
+**Definition 3.**&ensp;The *converse* or *transpose* of a binary relation $R$ is
 
 $$ \breve{R}\quad\text{or}\quad R^\mathsf{T} = \{(v,u):(u,v)\in R\} $$
 
@@ -36,7 +36,7 @@ That means $u\,R\,v$ if and only if $v\,R^\mathsf{T}\,u$.
 
 ### Homogeneous relations
 
-**Definition 4.**&emsp; A binary relation is *homogeneous*, if its codomain is the same as its domain. That is, a binary relation $R$ between $U$ and $U$ for some set $U$. We then say $R$ is *on* or *over* $U$.
+**Definition 4.**&ensp;A binary relation is *homogeneous*, if its codomain is the same as its domain. That is, a binary relation $R$ between $U$ and $U$ for some set $U$. We then say $R$ is *on* or *over* $U$.
 
 A homogeneous relation $R$ over $U$ could have the following properties:
 
@@ -68,7 +68,7 @@ For more information, see [[Wh]](https://en.wikipedia.org/wiki/Homogeneous_relat
 
 ## Functions
 
-**Definition 5.**&emsp; A *function*, a *mapping* or a *correspondence* is a binary relation such that every element in its domain corresponds to exactly one element in its range. That is, a binary relation $f$ with domain $X$ and range $Y$ that satisfies
+**Definition 5.**&ensp;A *function*, a *mapping* or a *correspondence* is a binary relation such that every element in its domain corresponds to exactly one element in its range. That is, a binary relation $f$ with domain $X$ and range $Y$ that satisfies
 
 $$ \forall x\in X\,\forall y,y'\in Y\;(x\,f\,y\land x\,f\,y' \to y=y') $$
 
@@ -80,13 +80,13 @@ The *identity function* (or *identity relation*) over a set $X$, denoted by $\ma
 
 ### Injections, surjections and bijections
 
-**Definition 6.**&emsp; An *injective* or *one-to-one* function, or an *injection*, is a function such that every element in its range corresponds to exactly one element in its domain. In symbols, it's a function $f$ such that
+**Definition 6.**&ensp;An *injective* or *one-to-one* function, or an *injection*, is a function such that every element in its range corresponds to exactly one element in its domain. In symbols, it's a function $f$ such that
 
 $$ \forall x,x'\in\mathrm{dom}(f)\;(f(x)=f(x')\to x=x') $$
 
 In this case, the converse of $f$ is also a function, which is called the *inverse* of $f$ and denoted by $f^{-1}$.
 
-**Definition 7.**&emsp; $f$ is a function *from* $X$ *to* or *into* $Y$,
+**Definition 7.**&ensp;$f$ is a function *from* $X$ *to* or *into* $Y$,
 
 $$ f : X \to Y $$
 
@@ -100,7 +100,7 @@ A *bijective function*, a *bijection*, is an injective and surjective function.
 
 <br />
 
-**Definition 8.**&emsp; The *restriction* of a function $f$ to a set $X$ is
+**Definition 8.**&ensp;The *restriction* of a function $f$ to a set $X$ is
 
 $$ f{|_X} \quad\text{or}\quad f{\upharpoonright_X} = \{(x,y)\in f:x\in X\} $$
 
@@ -112,7 +112,7 @@ The *composition* of functions $f$ and $g$ is
 
 $$ f\circ g = \{(x,z):\exists y\;(f(x)=y\land g(y)=z)\} $$
 
-**Definition 9.**&emsp; The *image* of $X$ *under* $f$ is
+**Definition 9.**&ensp;The *image* of $X$ *under* $f$ is
 
 $$ f\text{“}X \quad\mathrm{or}\quad f[X] = \{f(x):x\in X\} = \mathrm{ran}(f{\upharpoonright_X}) $$
 
