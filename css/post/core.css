@@ -71,7 +71,7 @@
     font-size: 23px;
 }
 
-.post-core p code {
+.post-core code:not(.hljs) {
     background: #eee;
     border-radius: 8px;
     color: #222;
@@ -79,10 +79,10 @@
     padding: 5px 8px;
 }
 
-.post-core .highlight code {
+.post-core code.hljs {
     border-radius: 10px;
-    padding: 2em 3em !important;
     font-size: 16px !important;
+    padding: 2em 3em !important;
 }
 
 .post-core table {
