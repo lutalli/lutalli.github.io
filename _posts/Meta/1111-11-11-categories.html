@@ -24,7 +24,7 @@ ignore_date: true
 	{% endif %}
     {% endfor %}
     {% if zh_post_exists == true %}
-	<h2 style="margin: 1.8em 0 0.6em 0 !important;">{{ CATES_DISP[forloop.index0] }} (ZH)</h2>
+	<h2 style="margin: 1.8em 0 0.6em 0 !important;">{{ CATES_DISP[forloop.index0] }} [ZH]</h2>
 	<ul class="bulletless">
 	    {% for post in site.categories[cate] %}
 		{% if post.language == "ZH" %}
@@ -32,5 +32,8 @@ ignore_date: true
 		{% endif %}
 	    {% endfor %}
 	</ul>
+    {% endif %}
+    {% if cate == "yume" %}
+    <p>Other dreams are still being edited (there're quite a lot).</p>
     {% endif %}
 {% endfor %}
