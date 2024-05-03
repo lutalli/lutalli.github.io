@@ -108,3 +108,14 @@ References table:
 	<td>Content Content Content Content Content Content Content Content Content </td>
     </tr>
 </table>
+
+### Images
+
+Text text text text text text text text text text text text text
+
+<figure>
+    <img style="width: 60%;" src="/res/Test/Otonashi_Ayana.webp" alt="Otonashi Ayana" />
+    <figcaption>Otonashi Ayana (image caption)</figcaption>
+</figure>
+
+Text text text text text text text text text text text text text

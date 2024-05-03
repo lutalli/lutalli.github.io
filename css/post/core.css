@@ -111,8 +111,8 @@
 }
 
 .post-core .ref-table th {
-    vertical-align: top;
     text-align: right;
+    vertical-align: top;
 }
 
 .post-core .ref-table td {
@@ -122,8 +122,7 @@
 .post-core .ref-table {
     margin-left: 0;
     margin-right: 0;
-    min-width: 0 !important;
-    max-width: 100% !important;
+    min-width: 0 !important; max-width: 100% !important;
 }
 
 .post-core .ref-table th:not(:last-child),
@@ -134,4 +133,23 @@
 .post-core .ref-table th:last-child,
 .post-core .ref-table td:last-child {
     padding: 0.3em 0;
+}
+
+.post-core img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    min-width: 5%;
+}
+
+.post-core figure {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.post-core figcaption {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-align: center;
 }
