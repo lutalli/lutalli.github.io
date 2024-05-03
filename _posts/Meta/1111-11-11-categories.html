@@ -4,8 +4,8 @@ title: Post Categories
 categories: post meta
 ignore_date: true
 ---
-{% assign CATES = "math, yume, misc, meta" | split: ", " %}
-{% assign CATES_DISP = "Mathematics, Dream Diary, Miscellaneous, Meta" | split: ", " %}
+{% assign CATES = "math, art, yume, misc, meta" | split: ", " %}
+{% assign CATES_DISP = "Mathematics, Art, Dream Diary, Miscellaneous, Meta" | split: ", " %}
 
 {% for cate in CATES %}
     <h2 style="margin: 1.8em 0 0.6em 0 !important;">{{ CATES_DISP[forloop.index0] }}</h2>
