@@ -3,6 +3,8 @@ layout: post
 title: Lutalli's Handwritten Font of Madoka Runes
 categories: post art
 ---
+This post is also reposted on [Reddit](https://www.reddit.com/r/MadokaMagica/comments/1dt1hzd/lutallis_handwritten_font_of_madoka_runes/).
+
 *Madoka Runes* are the runes that appeared in the anime [Puella Magi Madoka Magica](https://en.wikipedia.org/wiki/Puella_Magi_Madoka_Magica), originally created by [Gekidan Inu Curry](https://en.wikipedia.org/wiki/Gekidan_Inu_Curry). The table of Madoka Runes basically covers the [German alphabet](https://en.wikipedia.org/wiki/German_alphabet) — which is identical to the English alphabet A, B, ..., Z plus Ä, Ö, Ü and ß — as well as the numerals 0, 1, ... 9. For more details, read [this page](https://wiki.puella-magi.net/Deciphering_the_runes) on Puella Magi Wiki.
 
 In the following my own handwritten font of Madoka Runes is presented. Concept: Fast-to-write, minimal, letter-like rather than rune-like.
