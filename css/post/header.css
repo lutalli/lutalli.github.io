@@ -1,10 +1,9 @@
 header {
-    background-color: #eee;
-    border-bottom: 3px #ddd solid;
+    background-color: #111;
+    color: #eee;
     font-family: "Space Grotesk";
     margin-top: 0;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 24px 0;
 }
 
 #header-shell {
@@ -23,11 +22,11 @@ header {
 }
 
 #header-core-left a {
-    color: #222;
+    color: #eee;
 }
 
 #header-core-right a {
-    color: #444;
+    color: #ddd;
 }
 
 #header-core-right {

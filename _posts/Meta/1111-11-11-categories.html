@@ -12,7 +12,7 @@ ignore_date: true
     <ul class="bulletless">
 	{% for post in site.categories[cate] %}
 	    {% unless post.language == "ZH" %}
-		<li><a href="{{ post.url }}">{{ post.title }}</a>{% unless post.ignore_date %} | {{ post.date | date: "%b %d, %Y" }}{% endunless %}{% if language %} | {{ post.language }}{% endif %}</li>
+	    <li><a href="{{ post.url }}">{{ post.title }}</a>{% unless post.ignore_date %} <code style="color: #ccc !important">{{ post.date | date: "%b %d, %Y" }}</code>{% endunless %}{% if language %} | {{ post.language }}{% endif %}</li>
 	    {% endunless %}
 	{% endfor %}
     </ul>
@@ -24,11 +24,11 @@ ignore_date: true
 	{% endif %}
     {% endfor %}
     {% if zh_post_exists == true %}
-	<h2 style="margin: 1.8em 0 0.6em 0 !important;">{{ CATES_DISP[forloop.index0] }} [ZH]</h2>
+	<h2 style="margin: 1.8em 0 0.6em 0 !important;">{{ CATES_DISP[forloop.index0] }} <sup>ZH</sup></h2>
 	<ul class="bulletless">
 	    {% for post in site.categories[cate] %}
 		{% if post.language == "ZH" %}
-		    <li><a href="{{ post.url }}">{{ post.title }}</a>{% unless post.ignore_date %} | {{ post.date | date: "%b %d, %Y" }}{% endunless %}{% if language %} | {{ post.language }}{% endif %}</li>
+		    <li><a href="{{ post.url }}">{{ post.title }}</a>{% unless post.ignore_date %} <code style="color: #ccc !important">{{ post.date | date: "%b %d, %Y" }}</code>{% endunless %}{% if language %} | {{ post.language }}{% endif %}</li>
 		{% endif %}
 	    {% endfor %}
 	</ul>

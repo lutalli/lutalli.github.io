@@ -1,6 +1,5 @@
 .post-core {
-    color: #222;
-    font-family: "Literata", "Noto Serif SC", serif;
+    color: #ddd;
 }
 
 .post-core h1 {
@@ -21,20 +20,25 @@
 .post-core p {
     font-size: 20px;
     margin: 1.3em 0;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 .post-core strong, h1, h2, h3 {
     font-weight: 700;
-    font-family: "Literata", "Noto Sans SC", serif;
 }
 
 .post-core blockquote {
-    background-color: #eee;
-    border-left: 4px #ccc solid;
-    color: #555;
-    margin: 1em 0 1em 0;
-    padding: 0.4em 2.4em 0.4em 2.4em;
+    background-color: #1a1a1a;
+    border-left: 6px #333 solid;
+    border-right: 6px #333 solid;
+    border-radius: 10px;
+    color: #ccc;
+    margin: 0;
+    padding: 1em 2em;
+}
+
+.post-core blockquote > p {
+    margin: 0
 }
 
 .post-core ol {
@@ -58,13 +62,13 @@
 }
 
 .post-core hr {
-    border: 1px #999 solid;
+    border: 1px #6f70b9 solid;
     width: 65%;
     margin: 80px auto 80px auto;
 }
 
 .post-core a {
-    color: #696bee;
+    color: #6f70b9;
 }
 
 .post-core .MJX-TEX {
@@ -72,20 +76,22 @@
 }
 
 .post-core code:not(.hljs) {
-    background: #eee;
+    background: #2a2a2a;
     border-radius: 8px;
-    color: #222;
+    color: #ddd;
     font-size: 15px !important;
-    padding: 5px 8px;
+    padding: 3px 8px;
 }
 
 .post-core code.hljs {
+    background: #141414;
     border-radius: 10px;
     font-size: 16px !important;
     padding: 2em 3em !important;
 }
 
 .post-core table {
+    background: #141414;
     border-collapse: collapse;
     font-size: 20px;
     margin: 0.2em auto;
@@ -96,12 +102,12 @@
 .post-core tr,
 .post-core th,
 .post-core td {
-    border: 1px #bbb solid;
+    border: 2px #343453 solid;
 }
 
 .post-core th,
 .post-core td {
-    padding: 14px 20px;
+    padding: 20px 50px;
 }
 
 .post-core .ref-table tr,
@@ -120,6 +126,7 @@
 }
 
 .post-core .ref-table {
+    background: none;
     margin-left: 0;
     margin-right: 0;
     min-width: 0 !important; max-width: 100% !important;

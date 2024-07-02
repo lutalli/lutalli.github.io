@@ -81,12 +81,28 @@ Inline code piece: `System.Math.Log10(double)`
 
 Code block:
 
-```python
-def main():
-    print("Hello World")
+```javascript
+const similar = "oO08 iIlL1 g9qCGQ"
+const diacritics_etc = "â é ù ï ø ç Ã Ē Æ œ"
 
-if __init__ == "__main__":
-    main()
+window.toggleFavorite = (alias) => {
+    try {
+        let favorites = JSON.parse(localStorage.getItem('favorites')) || []
+        if (favorites.indexOf(alias) > -1) {
+            favorites = favorites.filter((v) => {
+                return v !== alias
+            })
+        } else {
+            favorites.push(alias)
+        }
+        localStorage.setItem('favorites', JSON.stringify(Array.from(new Set(favorites))))
+    } catch (err) {
+        // eslint-disable-next-line no-console
+        console.error('could not save favorite', err)
+    }
+    renderSelectList()
+    return false
+}
 ```
 
 ### Tables
