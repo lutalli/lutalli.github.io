@@ -76,7 +76,7 @@
 }
 
 .post-core code:not(.hljs) {
-    background: #2a2a2a;
+    background: #242424;
     border-radius: 8px;
     color: #ddd;
     font-size: 15px !important;
@@ -84,14 +84,14 @@
 }
 
 .post-core code.hljs {
-    background: #141414;
+    background: #101010;
     border-radius: 10px;
     font-size: 16px !important;
     padding: 2em 3em !important;
 }
 
 .post-core table {
-    background: #141414;
+    background: #101010;
     border-collapse: collapse;
     font-size: 20px;
     margin: 0.2em auto;
