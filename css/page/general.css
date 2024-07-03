@@ -73,8 +73,9 @@ li {
     color: white;
     display: block;
     font-size: 72px;
-    margin: 30px 0px;
+    margin: 30px auto;
     text-align: center;
+    width: fit-content;
 }
 
 .normal-link {
@@ -85,9 +86,9 @@ li {
     color: #fefefe;
     display: block;
     font-size: 34px;
-    margin: 30px 0px 30px 0px;
+    margin: 30px auto;
     text-align: center;
-    white-space: nowrap;
+    width: fit-content;
 }
 
 .preload {
