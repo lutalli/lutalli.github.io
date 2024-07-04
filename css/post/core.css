@@ -88,7 +88,7 @@
 }
 
 .post-core mjx-container[display="true"] {
-    overflow: scroll;
+    overflow-x: scroll;
 }
 
 .post-core code:not(.hljs) {
