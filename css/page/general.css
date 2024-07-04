@@ -23,7 +23,7 @@ a:hover {
 }
 
 p {
-    font-size: 26px;
+    font-size: 20px; /* mobile */
     margin: 30px 0px;
 }
 
@@ -36,7 +36,7 @@ hr {
 }
 
 ul {
-    font-size: 20px;
+    font-size: 16px; /* mobile */
     list-style-type: "○";
     margin-top: 40px;
     padding-left: 20px;
@@ -65,14 +65,14 @@ li {
     margin: auto;
     padding-bottom: 200px;
     position: relative;
-    top: 18%;
-    width: 50%;
+    top: 8%; /* mobile */
+    width: 80%; /* mobile */
 }
 
 .top-title {
     color: white;
     display: block;
-    font-size: 72px;
+    font-size: 54px; /* mobile */
     margin: 30px auto;
     text-align: center;
     width: fit-content;
@@ -106,4 +106,23 @@ li {
 
 .loaded {
     opacity: 1.0 !important;
+}
+
+@media only screen and (min-width: 700px) {
+    .container {
+	top: 18%;
+	width: 50%;
+    }
+
+    .top-title {
+	font-size: 72px;
+    }
+
+    p {
+	font-size: 26px;
+    }
+
+    ul {
+	font-size: 20px;
+    }
 }
