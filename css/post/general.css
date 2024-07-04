@@ -28,27 +28,44 @@ code {
 
 .post-shell {
     color: #ddd;
-    width: 61.8%;
-    margin: 86px auto 32px auto;
+    margin: 40px auto 20px auto; /* mobile */
+    width: 80%; /* mobile */
 }
 
 .post-limbo {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 .post-limbo h1 {
-    font-size: 40px;
-    margin-top: 20px;
-    margin-bottom: 4px;
+    color: #999;
+    font-size: 30px; /* mobile */
+    margin-top: 10px; /* mobile */
+    margin-bottom: 5px;
 }
 
 .post-limbo p {
     color: #555586;
-    font-size: 22px;
+    font-size: 18px; /* mobile */
     margin-top: 0px;
     margin-bottom: 8px;
 }
 
-.bulletless {
-    list-style-type: none;
+@media only screen and (min-width: 700px) {
+    .post-shell {
+	margin: 86px auto 32px auto;
+	width: 61.8%;
+    }
+
+    .post-limbo {
+	margin-bottom: 70px;
+    }
+
+    .post-limbo h1 {
+	font-size: 40px;
+	margin-top: 20px;
+    }
+
+    .post-limbo p {
+	font-size: 22px;
+    }
 }

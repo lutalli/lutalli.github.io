@@ -130,7 +130,7 @@ References table:
 Text text text text text text text text text text text text text
 
 <figure>
-    <img style="width: 60%;" src="/res/Test/Otonashi_Ayana.webp" alt="Otonashi Ayana" />
+    <img src="/res/Test/Otonashi_Ayana.webp" alt="Otonashi Ayana" width="60%" />
     <figcaption>Otonashi Ayana (image caption)</figcaption>
 </figure>
 
