@@ -23,6 +23,11 @@ ignore_date: true
 	    {% break %}
 	{% endif %}
     {% endfor %}
+    {% if cate == "yume" %}
+    <p>English translations are coming soon.</p>
+    {% elsif cate == "misc" %}
+    <p>Nothing here yet.</p>
+    {% endif %}
     {% if zh_post_exists == true %}
 	<h2 style="margin: 1.8em 0 0.6em 0 !important;">{{ CATES_DISP[forloop.index0] }} <sup>ZH</sup></h2>
 	<ul class="bulletless">
@@ -34,6 +39,6 @@ ignore_date: true
 	</ul>
     {% endif %}
     {% if cate == "yume" %}
-    <p>Other dreams are still being edited (there're quite a lot).</p>
+    <p>More dream records are coming soon. The numerous firsthand drafts of dream records I've written down over these years, which are quite rough, have to be edited and polished before being published.</p>
     {% endif %}
 {% endfor %}
