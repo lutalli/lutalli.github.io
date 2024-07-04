@@ -3,18 +3,21 @@
 }
 
 .post-core h1 {
-    font-size: 32px; /* mobile */
-    margin: 2em 0 0.6em 0; /* mobile */
+    font-size: 30px; /* mobile */
+    margin-top: 2em; /* mobile */
+    margin-bottom: 0;
 }
 
 .post-core h2 {
-    font-size: 28px; /* mobile */
-    margin: 1.4em 0 0.4em 0; /* mobile */
+    font-size: 26px; /* mobile */
+    margin-top: 1.4em; /* mobile */
+    margin-bottom: 0;
 }
 
 .post-core h3 {
     font-size: 22px; /* mobile */
-    margin: 1.2em 0 0.3em 0; /* mobile */
+    margin-top: 1.2em; /* mobile */
+    margin-bottom: 0;
 }
 
 .post-core p {
@@ -187,17 +190,20 @@
 @media only screen and (min-width: 700px) {
     .post-core h1 {
 	font-size: 38px;
-	margin: 3em 0 1em 0;
+	margin-top: 3em;
+	margin-bottom: 0;
     }
 
     .post-core h2 {
 	font-size: 32px;
-	margin: 1.8em 0 0.6em 0;
+	margin-top: 1.8em;
+	margin-bottom: 0;
     }
 
     .post-core h3 {
 	font-size: 26px;
-	margin: 1.4em 0 0.6em 0;
+	margin-top: 1.4em;
+	margin-bottom: 0;
     }
 
     .post-core p {
