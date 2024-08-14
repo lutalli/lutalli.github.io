@@ -5,20 +5,28 @@ categories: meta
 ignore_date: true
 permalink: /post/:title/
 ---
+
 {% assign CATES = "math, art, yume, misc, meta" | split: ", " %}
 {% assign CATES_DISP = "Mathematics, Art, Dream Diary, Miscellaneous, Meta" | split: ", " %}
 
 {% for cate in CATES %}
-    {% assign zh_posts_exist = false %}
 
     <h2>{{ CATES_DISP[forloop.index0] }}</h2>
     <ul class="bulletless">
 	{% for post in site.categories[cate] %}
-	    {% if post.tags contains "zh" %}
-		{% assign zh_posts_exist = true %}
-	    {% else %}
-		<li>{% exhibit post %}</li>
-	    {% endif %}
+	    {% unless post.tags contains "zh" %}
+		{% if post.tags contains "pinned" %}
+		    <li>{% exhibit post %}</li>
+		{% endif %}
+	    {% endunless %}
+	{% endfor %}
+	
+	{% for post in site.categories[cate] %}
+	    {% unless post.tags contains "zh" %}
+		{% unless post.tags contains "pinned" %}
+		    <li>{% exhibit post %}</li>
+		{% endunless %}
+	    {% endunless %}
 	{% endfor %}
     </ul>
 
@@ -29,12 +37,30 @@ permalink: /post/:title/
 	<p>Nothing here yet.</p>
     {% endif %}
 
+    {% assign zh_posts_exist = false %}
+    {% for post in site.categories[cate] %}
+	{% if post.tags contains "zh" %}
+	    {% assign zh_posts_exist = true %}
+	    {% break %}
+	{% endif %}
+    {% endfor %}
+
     {% if zh_posts_exist %}
 	<h2>{{ CATES_DISP[forloop.index0] }} <sup>ZH</sup></h2>
 	<ul class="bulletless">
 	    {% for post in site.categories[cate] %}
 		{% if post.tags contains "zh" %}
-		    <li>{% exhibit post %}</li>
+		    {% if post.tags contains "pinned" %}
+			<li>{% exhibit post %}</li>
+		    {% endif %}
+		{% endif %}
+	    {% endfor %}
+
+	    {% for post in site.categories[cate] %}
+		{% if post.tags contains "zh" %}
+		    {% unless post.tags contains "pinned" %}
+			<li>{% exhibit post %}</li>
+		    {% endunless %}
 		{% endif %}
 	    {% endfor %}
 	</ul>
