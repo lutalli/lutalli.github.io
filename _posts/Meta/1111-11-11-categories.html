@@ -9,36 +9,37 @@ permalink: /post/:title/
 {% assign CATES_DISP = "Mathematics, Art, Dream Diary, Miscellaneous, Meta" | split: ", " %}
 
 {% for cate in CATES %}
+    {% assign zh_posts_exist = false %}
+
     <h2>{{ CATES_DISP[forloop.index0] }}</h2>
     <ul class="bulletless">
 	{% for post in site.categories[cate] %}
-	    {% unless post.language == "ZH" %}
-	    <li>{% exhibit post %}</li>
-	    {% endunless %}
+	    {% if post.tags contains "zh" %}
+		{% assign zh_posts_exist = true %}
+	    {% else %}
+		<li>{% exhibit post %}</li>
+	    {% endif %}
 	{% endfor %}
     </ul>
-    {% assign zh_post_exists = false %}
-    {% for post in site.categories[cate] %}
-	{% if post.language == "ZH" %}
-	    {% assign zh_post_exists = true %}
-	    {% break %}
-	{% endif %}
-    {% endfor %}
+
+
     {% if cate == "yume" %}
-    <p>English transition of the dreams will arrive someday.</p>
-    {% elsif cate == "misc" %}
-    <p>Nothing here yet.</p>
+	<p>English transition of the dreams will arrive someday.</p>
+    {% elsif site.categories[cate] == nil %}
+	<p>Nothing here yet.</p>
     {% endif %}
-    {% if zh_post_exists == true %}
+
+    {% if zh_posts_exist %}
 	<h2>{{ CATES_DISP[forloop.index0] }} <sup>ZH</sup></h2>
 	<ul class="bulletless">
 	    {% for post in site.categories[cate] %}
-		{% if post.language == "ZH" %}
-		<li>{% exhibit post %}</li>
+		{% if post.tags contains "zh" %}
+		    <li>{% exhibit post %}</li>
 		{% endif %}
 	    {% endfor %}
 	</ul>
     {% endif %}
+
     {% if cate == "yume" %}
     <p>More dream records are coming soon. The numerous firsthand drafts of dream records I've written down over these years, which are quite rough, have to be edited and polished before being published.</p>
     {% endif %}
