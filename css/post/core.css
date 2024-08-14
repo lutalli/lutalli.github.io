@@ -138,6 +138,7 @@
 .post-core th,
 .post-core td {
     padding: 1em; /* mobile */
+    min-width: 2em; /* mobile */
 }
 
 .post-core .ref-table tr,
@@ -266,6 +267,7 @@
     .post-core th,
     .post-core td {
 	padding: 1em 2em;
+	min-width: 4em;
     }
 
     .post-core figcaption {
