@@ -1,7 +1,7 @@
 ---
 layout: post
 title: This is a Test Blog
-categories: post meta
+categories: meta
 ---
 # H1 Test
 

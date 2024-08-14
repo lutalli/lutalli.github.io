@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Basic Concepts of Relations and Functions
-categories: post math
+categories: math
 ---
 
 ## Relations

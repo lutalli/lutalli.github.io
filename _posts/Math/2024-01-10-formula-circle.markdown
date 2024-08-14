@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Formula for Determining Circle Passing through Three Points
-categories: post math
+categories: math
 ---
 **Formula 1.**&ensp;Suppose $P_1(x_1,y_1)$ and $P_2(x_2,y_2)$ are two different points. Then the perpendicular bisector of $P_1P_2$ has the equation
 

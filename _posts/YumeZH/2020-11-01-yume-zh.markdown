@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2020 年 11 月梦
-categories: post yume
+categories: yume
 tags: zh
 ignore_date: true
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2021 年 04 月梦
-categories: post yume
+categories: yume
 tags: zh
 ignore_date: true
 ---

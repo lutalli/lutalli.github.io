@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Descriptive Limit
-categories: post math
+categories: math
 ---
 
 ## §1&emsp;Concepts
