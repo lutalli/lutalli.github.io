@@ -48,14 +48,14 @@
     font-size: 16px; /* mobile */
     margin-top: 1em;
     margin-bottom: 1em;
-    padding: 0; /* mobile */
+    padding: 0 0 0 1.2em; /* mobile */
 }
 
 .post-core ul {
     font-size: 16px; /* mobile */
     margin-top: 1em;
     margin-bottom: 1em;
-    padding: 0; /* mobile */
+    padding: 0 0 0 1.2em; /* mobile */
 }
 
 .post-core li::marker {
