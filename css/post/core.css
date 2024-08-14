@@ -58,6 +58,10 @@
     padding: 0; /* mobile */
 }
 
+.post-core li::marker {
+    color: #6f70b9;
+}
+
 .post-core li {
     padding-left: 0.25em;
 }
