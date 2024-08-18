@@ -86,6 +86,10 @@
     color: #6f70b9;
 }
 
+.post-core du {
+    border-bottom: 4px double;
+}
+
 .post-core .MathJax {
     min-width: 0 !important;
 }
