@@ -1,0 +1,41 @@
+[2024-08-27 10:09:21] Debug: EasyRPG Player 0.8 (2023-04-29) started
+[2024-08-27 10:09:21] Debug: =======================================
+[2024-08-27 10:09:21] Debug: CLI: 
+[2024-08-27 10:09:21] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2024-08-27 10:09:21] Debug: Seeded the RNG with 1724724560.
+[2024-08-27 10:09:21] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2024-08-27 10:09:21] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2024-08-27 10:09:21] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2024-08-27 10:09:21] Debug: Detected encoding: ibm-5348_P100-1997
+[2024-08-27 10:09:21] Debug: Game and Save Directory:
+[2024-08-27 10:09:21] Debug: 1: [Native] 
+[2024-08-27 10:09:21] Debug: Loading game Test Yume Nikki Fan Game
+[2024-08-27 10:09:21] Debug: Analyzing RPG_RT RPG_RT.exe
+[2024-08-27 10:09:21] Debug: EXEReader: EXFONT resource found (DE 0xe9f20; 0xeff60; len 0x2168)
+[2024-08-27 10:09:21] Debug: ExFont loaded from RPG_RT
+[2024-08-27 10:09:21] Debug: EXEReader: VERSIONINFO resource found (DE 0xea210; 0xfbea4; len 0x2ec)
+[2024-08-27 10:09:21] Debug: RPG_RT information: version=1.1.2.1 logos=1 i386=true easyrpg=false
+[2024-08-27 10:09:21] Debug: Engine configured as: 2k=false 2k3=true MajorUpdated=true Eng=true
+[2024-08-27 10:09:21] Debug: Adding D:\Gaming\Steam\steamapps\common\RPG Maker 2003\RTP to RTP path
+[2024-08-27 10:09:21] Debug: RTP is "Official English" (675/675)
+[2024-08-27 10:09:21] Debug: Patch configuration: dynrpg=false maniac=false key-patch=false common-this=false pic-unlock=false 2k3-commands=false
+[2024-08-27 10:09:21] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
+[2024-08-27 10:09:21] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-27 10:09:21] Debug: Cannot find: Font/Font
+[2024-08-27 10:09:21] Debug: Cannot find: Font/Font2
+[2024-08-27 10:09:22] Debug: Resolution changed to 320x240
+[2024-08-27 10:09:22] Debug: Loaded Map Map0001.lmu
+[2024-08-27 10:09:22] Debug: Tree: MAP0001
+[2024-08-27 10:09:23] Debug: Game uses RTP "Official English"
+[2024-08-27 10:09:30] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
+[2024-08-27 10:09:30] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-27 10:09:30] Debug: Resolution changed to 320x240
+[2024-08-27 10:09:30] Debug: Loaded Map Map0001.lmu
+[2024-08-27 10:09:30] Debug: Tree: MAP0001
+[2024-08-27 10:09:40] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
+[2024-08-27 10:09:40] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
+[2024-08-27 10:09:40] Debug: Resolution changed to 320x240
+[2024-08-27 10:09:41] Debug: Loaded Map Map0001.lmu
+[2024-08-27 10:09:41] Debug: Tree: MAP0001
+[2024-08-27 10:09:49] Debug: Actor 1: Removing item 44 (of type 2) from equipment slot 2 (needs type 1)
+[2024-08-27 10:09:49] Debug: Actor 1: Removing item 67 from equipment slot 4 (Not equippable by this actor)
