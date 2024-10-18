@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #b4b4b4;
+    color: pink;
     text-decoration: none;
     transition: opacity 0.3s;
     opacity: 1.0;
@@ -76,10 +76,6 @@ li {
     margin: 30px auto;
     text-align: center;
     width: fit-content;
-}
-
-.casual-link {
-    color: pink;
 }
 
 .axial-link {
