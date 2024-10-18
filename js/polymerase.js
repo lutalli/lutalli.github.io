@@ -1,4 +1,4 @@
-const collectedWebsitesColors = {
+const remarkedWebsitesColors = {
     "E": "#6cf",
     "I": "#9f9",
     "K": "#6ff",
@@ -17,20 +17,22 @@ const ACGNRecordsColors = {
     "visual-novels": "#59f3eb"
 }
 
-const collectedWebsitesCategories = Object.keys(collectedWebsitesColors);
+const remarkedWebsitesCategories = Object.keys(remarkedWebsitesColors);
 
 class synthesize {
-    static collectedWebsites(category) {
-	fetch(`/db/collected-websites/${category}.json`)
+    static remarkedWebsites(category) {
+	fetch(`/db/remarked-websites/${category}.json`)
 	    .then((resp) => resp.json())
 	    .then((json) => json.forEach((site) => {
-		$("#ul-collected-websites").append(`<li><a href="${site["link"]}" style="color: ${collectedWebsitesColors[category]};">${site["title"]}</a></li>\n`);
+		$("#ul-remarked-websites").append(`<li><a href="${site["link"]}" style="color: ${remarkedWebsitesColors[category]};">${site["title"]}</a></li>\n`);
+
+		MathJax.typeset();
 	    }));
     }
 
-    static collectedWebsitesCategories() {
-	collectedWebsitesCategories.forEach((category) => {
-	    $("#div-website-categories").append(`<a class="great-link" style="color: ${collectedWebsitesColors[category]}" href="/collected-websites/${category}">${category}</a>\n`);
+    static remarkedWebsitesCategories() {
+	remarkedWebsitesCategories.forEach((category) => {
+	    $("#div-remarked-websites-categories").append(`<a class="great-link" style="color: ${remarkedWebsitesColors[category]}" href="/remarked-websites/${category}">${category}</a>\n`);
 	})
     }
 

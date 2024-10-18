@@ -1,0 +1,10 @@
+---
+layout: page
+---
+<ul id="ul-remarked-websites">
+</ul>
+<script type="module">
+    import { synthesize } from "/js/polymerase.js";
+
+    $(document).ready(() => synthesize.remarkedWebsites("{{ page.RW_category }}"));
+</script>
