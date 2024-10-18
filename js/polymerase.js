@@ -25,8 +25,6 @@ class synthesize {
 	    .then((resp) => resp.json())
 	    .then((json) => json.forEach((site) => {
 		$("#ul-remarked-websites").append(`<li><a href="${site["link"]}" style="color: ${remarkedWebsitesColors[category]};">${site["title"]}</a></li>\n`);
-
-		MathJax.typeset();
 	    }));
     }
 
