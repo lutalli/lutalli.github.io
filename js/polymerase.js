@@ -1,4 +1,4 @@
-const remarkedWebsitesColors = {
+const remarkedWebsiteColors = {
     "E": "#6cf",
     "I": "#9f9",
     "K": "#6ff",
@@ -10,45 +10,45 @@ const remarkedWebsitesColors = {
     "Y": "#f9c"
 };
 
-const ACGNRecordsColors = {
+const mediaLogColors = {
     "animes": "#ff99c0",
-    "light-novels": "#4ffca6",
+    "light_novels": "#4ffca6",
     "mangas": "#66c2ff",
-    "visual-novels": "#59f3eb"
+    "visual_novels": "#59f3eb"
 }
 
-const remarkedWebsitesCategories = Object.keys(remarkedWebsitesColors);
+const remarkedWebsitesCategories = Object.keys(remarkedWebsiteColors);
 
 class synthesize {
     static remarkedWebsites(category) {
 	fetch(`/db/remarked-websites/${category}.json`)
 	    .then((resp) => resp.json())
 	    .then((json) => json.forEach((site) => {
-		$("#ul-remarked-websites").append(`<li><a href="${site["link"]}" style="color: ${remarkedWebsitesColors[category]};">${site["title"]}</a></li>\n`);
+		$("#ul-remarked-websites").append(`<li><a href="${site["link"]}" style="color: ${remarkedWebsiteColors[category]};">${site["title"]}</a></li>\n`);
 	    }));
     }
 
     static remarkedWebsitesCategories() {
 	remarkedWebsitesCategories.forEach((category) => {
-	    $("#div-remarked-websites-categories").append(`<a class="great-link" style="color: ${remarkedWebsitesColors[category]}" href="/remarked-websites/${category}">${category}</a>\n`);
+	    $("#div-remarked-websites-categories").append(`<a class="axial-link" style="color: ${remarkedWebsiteColors[category]}" href="/remarked-websites/${category}">${category}</a>\n`);
 	})
     }
 
-    static ACGNRecords(category) {
-	fetch(`/db/acgn-records/${category}.json`)
+    static mediaLogs(category) {
+	fetch(`/db/media-logs/${category}.json`)
 	    .then((resp) => resp.json())
-	    .then((json) => json.forEach((record) => {
+	    .then((json) => json.forEach((log) => {
 		var title = "";
-		if (record["title-original"] != ".") {
-		    title += `<b>${record["title-original"]}</b>`;
+		if (log["title-original"] != ".") {
+		    title += `<b>${log["title-original"]}</b>`;
 		}
-		if (record["title-cn"] != ".") {
-		    title += `&emsp;<span style="color: #f7f7f7;">✱</span>&emsp;<b>${record["title-cn"]}</b>`;
+		if (log["title-cn"] != ".") {
+		    title += `&emsp;<span style="color: #f7f7f7;">✱</span>&emsp;<b>${log["title-cn"]}</b>`;
 		}
-		if (record["title-en"] != ".") {
-		    title += `&emsp;<span style="color: #f7f7f7;">✱</span>&emsp;<b>${record["title-en"]}</b>`;
+		if (log["title-en"] != ".") {
+		    title += `&emsp;<span style="color: #f7f7f7;">✱</span>&emsp;<b>${log["title-en"]}</b>`;
 		}
-		$("#ul-acgn-records").append(`<li><span style="color: ${ACGNRecordsColors[category]};">${title}</span><br />${record["detail-cn"]}&emsp;<span style="color: #f7f7f7;">|</span>&emsp;${record["detail-en"]}</li>\n`);
+		$("#ul-media-logs").append(`<li><span style="color: ${mediaLogColors[category]};">${title}</span><br />${log["detail-cn"]}&emsp;<span style="color: #f7f7f7;">|</span>&emsp;${log["detail-en"]}</li>\n`);
 	    }));
     }
 }

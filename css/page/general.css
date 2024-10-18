@@ -69,7 +69,7 @@ li {
     width: 80%; /* mobile */
 }
 
-.top-title {
+.headline {
     color: white;
     display: block;
     font-size: 54px; /* mobile */
@@ -78,11 +78,11 @@ li {
     width: fit-content;
 }
 
-.normal-link {
+.casual-link {
     color: pink;
 }
 
-.great-link {
+.axial-link {
     color: #fefefe;
     display: block;
     font-size: 34px;
@@ -105,7 +105,7 @@ li {
 	width: 50%;
     }
 
-    .top-title {
+    .headline {
 	font-size: 72px;
     }
 
