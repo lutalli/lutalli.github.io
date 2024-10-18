@@ -1,0 +1,42 @@
+[
+    {
+	"link": "https://www.tumblr.com",
+	"title": "Tumblr"
+    },
+    {
+	"link": "https://x.com",
+	"title": "𝕏 (Twitter)"
+    },
+    {
+	"link": "https://www.facebook.com",
+	"title": "Facebook"
+    },
+    {
+	"link": "https://www.medium.com",
+	"title": "Medium"
+    },
+    {
+	"link": "https://www.lofter.com",
+	"title": "Lofter"
+    },
+    {
+	"link": "https://www.4chan.org",
+	"title": "4chan"
+    },
+    {
+	"link": "https://www.reddit.com",
+	"title": "Reddit"
+    },
+    {
+	"link": "https://stackexchange.com",
+	"title": "StackExchange"
+    },
+    {
+	"link": "https://quora.com",
+	"title": "Quora"
+    },
+    {
+	"link": "https://github.com",
+	"title": "GitHub"
+    }
+]

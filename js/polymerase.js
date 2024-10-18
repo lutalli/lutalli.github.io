@@ -1,48 +1,43 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
-import { getDatabase, ref, onValue, child } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js";
+const collectedWebsitesColors = {
+    "E": "#6cf",
+    "I": "#9f9",
+    "K": "#6ff",
+    "P": "#f9f",
+    "R": "#cf9",
+    "S": "#c9f",
+    "T": "#9fc",
+    "V": "#9cf",
+    "Y": "#f9c"
+};
 
-const firebaseConfig = {
-    databaseURL: "https://luta-no-uta-db-default-rtdb.europe-west1.firebasedatabase.app/"
+const ACGNRecordsColors = {
+    "animes": "#ff99c0",
+    "light-novels": "#4ffca6",
+    "mangas": "#66c2ff",
+    "visual-novels": "#59f3eb"
 }
 
-const websiteCategorySeq = "RITKEVSPY";
-
-const app = initializeApp(firebaseConfig);
-
-const db = getDatabase(app);
-
-const dbRef = ref(db);
+const collectedWebsitesCategories = Object.keys(collectedWebsitesColors);
 
 class synthesize {
     static collectedWebsites(category) {
-	onValue(child(dbRef, `collected-websites/category-${category}`), (snapshot) => {
-	    var color = snapshot.child("color").val();
-	    var sites = snapshot.child("sites").val();
-	    sites.forEach((site) => {
-		$("#ul-collected-websites").append(`<li><a href="${site["link"]}" style="color: ${color}">${site["title"]}</a></li>\n`);
-	    });
-
-	    MathJax.typeset();
-	    $("#ul-collected-websites").addClass("loaded");
-	});
+	fetch(`/db/collected-websites/${category}.json`)
+	    .then((resp) => resp.json())
+	    .then((json) => json.forEach((site) => {
+		$("#ul-collected-websites").append(`<li><a href="${site["link"]}" style="color: ${collectedWebsitesColors[category]};">${site["title"]}</a></li>\n`);
+	    }));
     }
 
-    static websiteCategories() {
-	onValue(child(dbRef, "collected-websites"), (snapshot) => {
-	    for (let i = 0; i < websiteCategorySeq.length; i++) {
-		var cate = websiteCategorySeq[i]
-		var data = snapshot.child(`category-${cate}`).val();
-		$("#div-website-categories").append(`<a class="great-link" style="color: ${data["color"]}" href="/collected-websites/${cate}">${cate}</a>\n`);
-	    }
-	    $("#div-website-categories").addClass("loaded");
-	});
+    static collectedWebsitesCategories() {
+	collectedWebsitesCategories.forEach((category) => {
+	    $("#div-website-categories").append(`<a class="great-link" style="color: ${collectedWebsitesColors[category]}" href="/collected-websites/${category}">${category}</a>\n`);
+	})
     }
 
     static ACGNRecords(category) {
-	onValue(child(dbRef, `acgn-records/${category}`), (snapshot) => {
-	    var color = snapshot.child("color").val();
-	    var records = snapshot.child("records").val();
-	    records.forEach((record) => {
+	fetch(`/db/acgn-records/${category}.json`)
+	    .then((resp) => resp.json())
+	    .then((json) => json.forEach((record) => {
 		var title = "";
 		if (record["title-original"] != ".") {
 		    title += `<b>${record["title-original"]}</b>`;
@@ -53,10 +48,8 @@ class synthesize {
 		if (record["title-en"] != ".") {
 		    title += `&emsp;<span style="color: #f7f7f7;">✱</span>&emsp;<b>${record["title-en"]}</b>`;
 		}
-		$("#ul-acgn-records").append(`<li><span style="color: ${color};">${title}</span><br />${record["detail-cn"]}&emsp;<span style="color: #f7f7f7;">|</span>&emsp;${record["detail-en"]}</li>\n`);
-	    });
-	});
-	$("#ul-acgn-records").addClass("loaded");	
+		$("#ul-acgn-records").append(`<li><span style="color: ${ACGNRecordsColors[category]};">${title}</span><br />${record["detail-cn"]}&emsp;<span style="color: #f7f7f7;">|</span>&emsp;${record["detail-en"]}</li>\n`);
+	    }));
     }
 }
 

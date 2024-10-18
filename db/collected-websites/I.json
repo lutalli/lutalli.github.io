@@ -1,0 +1,86 @@
+[
+    {
+	"link": "https://google.com",
+	"title": "Google"
+    },
+    {
+	"link": "https://duckduckgo.com",
+	"title": "DuckDuckGo"
+    },
+    {
+	"link": "https://yandex.com",
+	"title": "Yandex"
+    },
+    {
+	"link": "https://mapio.net",
+	"title": "Mapio"
+    },
+    {
+	"link": "https://wikipedia.org",
+	"title": "Wikipedia"
+    },
+    {
+	"link": "https://fandom.com",
+	"title": "Fandom"
+    },
+    {
+	"link": "https://ctan.org",
+	"title": "CTAN (The Comprehensive \\( \\TeX \\) Archive Network)"
+    },
+    {
+	"link": "https://archive.org",
+	"title": "Internet Archive"
+    },
+    {
+	"link": "https://arxiv.org",
+	"title": "arXiv"
+    },
+    {
+	"link": "https://wuli.wiki",
+	"title": "小时百科"
+    },
+    {
+	"link": "https://oi-wiki.org",
+	"title": "OI Wiki"
+    },
+    {
+	"link": "https://nicechord.com",
+	"title": "好和弦 (NiceChord)"
+    },
+    {
+	"link": "https://wiki.lingshangkaihua.com",
+	"title": "日本麻雀百科"
+    },
+    {
+	"link": "https://ticalc.org",
+	"title": "ticalc.org"
+    },
+    {
+	"link": "https://omnimaga.org",
+	"title": "Omnimaga"
+    },
+    {
+	"link": "https://tiplanet.org",
+	"title": "TI-Planet"
+    },
+    {
+	"link": "https://neugierde.github.io/cantors-attic",
+	"title": "Cantor's Attic"
+    },
+    {
+	"link": "https://oeis.org",
+	"title": "OEIS (The On-Line Encyclopedia of Integer Sequences)"
+    },
+    {
+	"link": "https://planetmath.org",
+	"title": "PlanetMath"
+    },
+    {
+	"link": "https://conwaylife.com/wiki",
+	"title": "LifeWiki"
+    },
+    {
+	"link": "https://www.nasa.gov",
+	"title": "NASA"
+    }
+]
