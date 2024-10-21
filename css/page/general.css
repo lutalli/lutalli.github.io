@@ -32,7 +32,6 @@ hr {
     border-top: 1px solid #ffffff80;
     border-bottom: 1px solid #646464cc;
     height: 0;
-    margin: 15px auto;
 }
 
 ul {
@@ -70,21 +69,42 @@ li {
 }
 
 .headline {
+    border-bottom: 2px solid #eee9;
+    border-radius: 2px;
+    margin: 10px auto;
+    text-align: center;
+    width: fit-content;
+}
+
+.headline a {
     color: white;
     display: block;
-    font-size: 54px; /* mobile */
-    margin: 30px auto;
-    width: fit-content;
+    font-size: 48px; /* mobile */
+    font-variant: small-caps;
+    line-height: 1;
+    margin: 12px auto;
+}
+
+.trunk {
+    margin-top: 75px;
 }
 
 .axial-link {
     color: #eee;
     display: block;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 600;
-    margin: 30px auto;
+    margin: 45px auto;
+    text-align: center;
     text-shadow: 0px 4px #685988;
     width: fit-content;
+}
+
+.vacuum {
+    color: #eee4;
+    display: block;
+    font-size: 34px;
+    margin: auto;
 }
 
 .preload {
@@ -97,12 +117,12 @@ li {
 
 @media only screen and (min-width: 700px) {
     .container {
-	top: 18%;
+	top: 16%;
 	width: 50%;
     }
 
     .headline {
-	font-size: 72px;
+	font-size: 60px;
     }
 
     p {

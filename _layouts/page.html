@@ -37,8 +37,9 @@
     <body class="preload">
         <div class="container">
 	    {% if page.headline %}
-            <a class="headline" href="/">{{ page.headline }}</a>
-            <hr />
+	    <div class="headline">
+		<a href="/">{{ page.headline }}</a>
+	    </div>
 	    {% endif %}
             {{ content }}
         </div>
