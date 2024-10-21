@@ -80,7 +80,6 @@ li {
     color: white;
     display: block;
     font-size: 48px; /* mobile */
-    font-variant: small-caps;
     line-height: 1;
     margin: 12px auto;
 }
@@ -115,6 +114,18 @@ li {
 
 .remarked-website-categories a {
     color: #eee;
+}
+
+.remarked-websites {
+    font-size: 24px;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.remarked-websites li {
+    padding-left: 0;
+    margin-bottom: 1.3em;
 }
 
 .preload {

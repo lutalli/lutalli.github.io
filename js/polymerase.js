@@ -1,13 +1,13 @@
 const remarkedWebsiteColors = {
-    "E": "#6cf",
-    "I": "#9f9",
-    "K": "#6ff",
-    "P": "#f9f",
-    "R": "#cf9",
-    "S": "#c9f",
-    "T": "#9fc",
-    "V": "#9cf",
-    "Y": "#f9c"
+    "epsilon": "#6cf",
+    "iota": "#9f9",
+    "beta": "#6ff",
+    "pi": "#f9f",
+    "rho": "#cf9",
+    "sigma": "#c9f",
+    "tau": "#9fc",
+    "mu": "#9cf",
+    "psi": "#f9c"
 };
 
 const AMLVColors = {
@@ -17,8 +17,6 @@ const AMLVColors = {
     "visual_novels": "#59f3eb"
 };
 
-const remarkedWebsitesCategories = Object.keys(remarkedWebsiteColors);
-
 class synthesize {
     static remarkedWebsites(category) {
 	fetch(`/db/remarked-websites/${category}.json`)
@@ -26,12 +24,6 @@ class synthesize {
 	    .then((json) => json.forEach((site) => {
 		$("#ul-remarked-websites").append(`<li><a href="${site["link"]}" style="color: ${remarkedWebsiteColors[category]};">${site["title"]}</a></li>\n`);
 	    }));
-    }
-
-    static remarkedWebsitesCategories() {
-	remarkedWebsitesCategories.forEach((category) => {
-	    $("#div-remarked-websites-categories").append(`<a class="axial-link" style="color: ${remarkedWebsiteColors[category]}" href="/media-logs/remarked-websites/${category}">${category}</a>\n`);
-	})
     }
 
     static AMLVLogs(category) {

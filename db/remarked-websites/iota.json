@@ -25,7 +25,7 @@
     },
     {
 	"link": "https://ctan.org",
-	"title": "CTAN (The Comprehensive TeX Archive Network)"
+	"title": "CTAN<br>(The Comprehensive TeX Archive Network)"
     },
     {
 	"link": "https://archive.org",
@@ -36,40 +36,12 @@
 	"title": "arXiv"
     },
     {
-	"link": "https://wuli.wiki",
-	"title": "小时百科"
-    },
-    {
-	"link": "https://oi-wiki.org",
-	"title": "OI Wiki"
-    },
-    {
-	"link": "https://nicechord.com",
-	"title": "好和弦 (NiceChord)"
-    },
-    {
-	"link": "https://wiki.lingshangkaihua.com",
-	"title": "日本麻雀百科"
-    },
-    {
-	"link": "https://ticalc.org",
-	"title": "ticalc.org"
-    },
-    {
-	"link": "https://omnimaga.org",
-	"title": "Omnimaga"
-    },
-    {
-	"link": "https://tiplanet.org",
-	"title": "TI-Planet"
-    },
-    {
 	"link": "https://neugierde.github.io/cantors-attic",
 	"title": "Cantor's Attic"
     },
     {
 	"link": "https://oeis.org",
-	"title": "OEIS (The On-Line Encyclopedia of Integer Sequences)"
+	"title": "OEIS<br>(The On-Line Encyclopedia of Integer Sequences)"
     },
     {
 	"link": "https://planetmath.org",
@@ -78,9 +50,5 @@
     {
 	"link": "https://conwaylife.com/wiki",
 	"title": "LifeWiki"
-    },
-    {
-	"link": "https://www.nasa.gov",
-	"title": "NASA"
     }
 ]

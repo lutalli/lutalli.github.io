@@ -12,14 +12,6 @@
 	"title": "Danbooru"
     },
     {
-	"link": "https://e-hentai.org",
-	"title": "E-Hentai"
-    },
-    {
-	"link": "https://gelbooru.me",
-	"title": "Gelbooru"
-    },
-    {
 	"link": "https://konachan.net",
 	"title": "Konachan.net"
     },
@@ -30,10 +22,6 @@
     {
 	"link": "https://wallhaven.cc",
 	"title": "Wallhaven"
-    },
-    {
-	"link": "https://wallpaperscraft.com",
-	"title": "WallpapersCraft"
     },
     {
 	"link": "http://www.rw-designer.com",
@@ -49,10 +37,14 @@
     },
     {
 	"link": "http://illusionaryscore.web.fc2.com/score.html",
-	"title": "Illusionary Score (Touhou Piano Score Compilation)"
+	"title": "Illusionary Score<br>(Touhou Piano Score Compilation)"
     },
     {
-	"link": "https://archive.org",
-	"title": "Internet Archive"
+	"link": "https://musescore.com",
+	"title": "MuseScore"
+    },
+    {
+	"link": "https://imslp.org",
+	"title": "IMSLP<br>(International Music Score Library Project)"
     }
 ]

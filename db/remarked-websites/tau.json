@@ -4,10 +4,6 @@
 	"title": "Overleaf"
     },
     {
-	"link": "https://tampermonkey.net",
-	"title": "Tampermonkey"
-    },
-    {
 	"link": "https://translate.google.com",
 	"title": "Google Translate"
     },
@@ -36,18 +32,6 @@
 	"title": "Desmos"
     },
     {
-	"link": "https://artbreeder.com",
-	"title": "Artbreeder"
-    },
-    {
-	"link": "https://novelai.net",
-	"title": "NovelAI"
-    },
-    {
-	"link": "https://picrew.me",
-	"title": "Picrew"
-    },
-    {
 	"link": "https://www.dcode.fr",
 	"title": "dCode.fr"
     },
@@ -56,19 +40,15 @@
 	"title": "diagrams.net"
     },
     {
-	"link": "https://mjai.ekyu.moe/zh-cn.html",
-	"title": "麻將 AI 工具 (Mahjong AI Utilities)"
-    },
-    {
-	"link": "https://amae-koromo.sapk.ch",
-	"title": "雀魂牌谱屋 (MajSoul Stats)"
-    },
-    {
 	"link": "https://symbl.cc",
 	"title": "SYMBL"
     },
     {
 	"link": "https://st.ayaka.one",
 	"title": "Seiku Project Stickers"
+    },
+    {
+	"link": "https://www.photopea.com",
+	"title": "Photopea"
     }
 ]
