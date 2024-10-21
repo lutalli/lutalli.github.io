@@ -10,12 +10,12 @@ const remarkedWebsiteColors = {
     "Y": "#f9c"
 };
 
-const mediaLogColors = {
+const AMLVColors = {
     "animes": "#ff99c0",
     "light_novels": "#4ffca6",
     "mangas": "#66c2ff",
     "visual_novels": "#59f3eb"
-}
+};
 
 const remarkedWebsitesCategories = Object.keys(remarkedWebsiteColors);
 
@@ -30,11 +30,11 @@ class synthesize {
 
     static remarkedWebsitesCategories() {
 	remarkedWebsitesCategories.forEach((category) => {
-	    $("#div-remarked-websites-categories").append(`<a class="axial-link" style="color: ${remarkedWebsiteColors[category]}" href="/remarked-websites/${category}">${category}</a>\n`);
+	    $("#div-remarked-websites-categories").append(`<a class="axial-link" style="color: ${remarkedWebsiteColors[category]}" href="/media-logs/remarked-websites/${category}">${category}</a>\n`);
 	})
     }
 
-    static mediaLogs(category) {
+    static AMLVLogs(category) {
 	fetch(`/db/media-logs/${category}.json`)
 	    .then((resp) => resp.json())
 	    .then((json) => json.forEach((log) => {
@@ -48,7 +48,7 @@ class synthesize {
 		if (log["title-en"] != ".") {
 		    title += `&emsp;<span style="color: #f7f7f7;">✱</span>&emsp;<b>${log["title-en"]}</b>`;
 		}
-		$("#ul-media-logs").append(`<li><span style="color: ${mediaLogColors[category]};">${title}</span><br />${log["detail-cn"]}&emsp;<span style="color: #f7f7f7;">|</span>&emsp;${log["detail-en"]}</li>\n`);
+		$("#ul-media-logs").append(`<li><span style="color: ${AMLVColors[category]};">${title}</span><br />${log["detail-cn"]}&emsp;<span style="color: #f7f7f7;">|</span>&emsp;${log["detail-en"]}</li>\n`);
 	    }));
     }
 }
