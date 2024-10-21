@@ -116,14 +116,14 @@ li {
     color: #eee;
 }
 
-.remarked-websites {
-    font-size: 24px;
+.media-logs {
+    font-size: 20px;
     list-style-type: none;
     text-align: center;
     padding-left: 0;
 }
 
-.remarked-websites li {
+.media-logs li {
     padding-left: 0;
     margin-bottom: 1.3em;
 }

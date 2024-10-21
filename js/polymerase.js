@@ -30,17 +30,11 @@ class synthesize {
 	fetch(`/db/media-logs/${category}.json`)
 	    .then((resp) => resp.json())
 	    .then((json) => json.forEach((log) => {
-		var title = "";
-		if (log["title-original"] != ".") {
-		    title += `<b>${log["title-original"]}</b>`;
-		}
-		if (log["title-cn"] != ".") {
-		    title += `&emsp;<span style="color: #f7f7f7;">✱</span>&emsp;<b>${log["title-cn"]}</b>`;
-		}
+		var title = `<b>${log["title-original"]}</b>`;
 		if (log["title-en"] != ".") {
-		    title += `&emsp;<span style="color: #f7f7f7;">✱</span>&emsp;<b>${log["title-en"]}</b>`;
+		    title += `<br /><b>${log["title-en"]}</b>`;
 		}
-		$("#ul-media-logs").append(`<li><span style="color: ${AMLVColors[category]};">${title}</span><br />${log["detail-cn"]}&emsp;<span style="color: #f7f7f7;">|</span>&emsp;${log["detail-en"]}</li>\n`);
+		$("#ul-amlv-logs").append(`<li><span style="color: ${AMLVColors[category]};">${title}</span><br />${log["detail-en"]}</li>\n`);
 	    }));
     }
 }
