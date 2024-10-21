@@ -86,6 +86,7 @@ li {
 
 .trunk {
     margin-top: 75px;
+    text-align: center;
 }
 
 .axial-link {
@@ -126,14 +127,6 @@ li {
 .media-logs li {
     padding-left: 0;
     margin-bottom: 1.3em;
-}
-
-.preload {
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
-    transition: none !important;
 }
 
 @media only screen and (min-width: 700px) {

@@ -34,12 +34,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <body class="preload">
+    <body>
         <div class="container">
 	    {% if page.headline %}
-	    <div class="headline">
-		<a href="/">{{ page.headline }}</a>
-	    </div>
+	    {% if page.previous %}
+		<div class="headline">
+		    <a href="{{ page.previous }}">{{ page.headline }}</a>
+		</div>
+	    {% else %}
+		<div class="headline">
+		    <a href="/">{{ page.headline }}</a>
+		</div>
+	    {% endif %}
 	    {% endif %}
             {{ content }}
         </div>
