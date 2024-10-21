@@ -92,19 +92,29 @@ li {
 .axial-link {
     color: #eee;
     display: block;
+    text-align: center;
+    text-shadow: 0px 4px #685988;
     font-size: 30px;
     font-weight: 600;
     margin: 45px auto;
-    text-align: center;
-    text-shadow: 0px 4px #685988;
     width: fit-content;
 }
 
-.vacuum {
-    color: #eee4;
-    display: block;
-    font-size: 34px;
+.remarked-website-categories {
     margin: auto;
+}
+
+.remarked-website-categories th {
+    text-align: center;
+    text-shadow: 0px 4px #685988;
+    font-size: 34px;
+    font-weight: 600;
+    height: 80px;
+    width: 80px;
+}
+
+.remarked-website-categories a {
+    color: #eee;
 }
 
 .preload {
