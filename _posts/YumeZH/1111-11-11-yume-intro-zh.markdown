@@ -2,7 +2,7 @@
 layout: post
 title: 梦日记说明书
 categories: yume
-tags: zh pinned
+tags: zh outer
 ignore_date: true
 permalink: /post/:title/
 ---

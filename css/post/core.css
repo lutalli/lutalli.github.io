@@ -76,6 +76,12 @@
     margin-right: 0; /* mobile */
 }
 
+.post-core .diary-list {
+    gap: 8px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .post-core hr {
     border: 1px #6f70b9 solid;
     width: 90%; /* mobile */

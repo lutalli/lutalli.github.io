@@ -11,62 +11,66 @@ permalink: /post/:title/
 
 {% for cate in CATES %}
 
-    <h2>{{ CATES_DISP[forloop.index0] }}</h2>
-    <ul class="bulletless">
-	{% for post in site.categories[cate] %}
-	    {% unless post.tags contains "zh" %}
-		{% if post.tags contains "pinned" %}
-		    <li>{% exhibit post %}</li>
-		{% endif %}
-	    {% endunless %}
-	{% endfor %}
-	
-	{% for post in site.categories[cate] %}
-	    {% unless post.tags contains "zh" %}
-		{% unless post.tags contains "pinned" %}
-		    <li>{% exhibit post %}</li>
-		{% endunless %}
-	    {% endunless %}
-	{% endfor %}
-    </ul>
+{% assign cate_disp = CATES_DISP[forloop.index0] %}
+{% assign en_posts = site.categories[cate] | without_tag: "zh" %}
+{% assign zh_posts = site.categories[cate] | with_tag: "zh" %}
+{% assign zh_exists = 0 %}
+{% if zh_posts != empty %}
+    {% assign zh_exists = 1 %}
+{% endif %}
 
+{% for rendering_zh in (0 .. zh_exists) %}
 
-    {% if cate == "yume" %}
-	<p>English transition of the dreams will arrive someday.</p>
-    {% elsif site.categories[cate] == nil %}
-	<p>Nothing here yet.</p>
+    {% if rendering_zh == 1 %}
+	{% assign posts = zh_posts %}
+	<h2>{{ cate_disp }} <sup>ZH</sup></h2>
+    {% else %}
+	{% assign posts = en_posts %}
+	<h2>{{ cate_disp }}</h2>
     {% endif %}
 
-    {% assign zh_posts_exist = false %}
-    {% for post in site.categories[cate] %}
-	{% if post.tags contains "zh" %}
-	    {% assign zh_posts_exist = true %}
-	    {% break %}
-	{% endif %}
-    {% endfor %}
-
-    {% if zh_posts_exist %}
-	<h2>{{ CATES_DISP[forloop.index0] }} <sup>ZH</sup></h2>
+    {% if cate == "yume" %}
+	{% assign diaries = posts | without_tag: "outer" %}
+	{% assign outers = posts | with_tag: "outer" %}
 	<ul class="bulletless">
-	    {% for post in site.categories[cate] %}
-		{% if post.tags contains "zh" %}
-		    {% if post.tags contains "pinned" %}
-			<li>{% exhibit post %}</li>
-		    {% endif %}
-		{% endif %}
+	    {% for outer in outers %}
+		{% exhibit outer %}
 	    {% endfor %}
-
-	    {% for post in site.categories[cate] %}
-		{% if post.tags contains "zh" %}
-		    {% unless post.tags contains "pinned" %}
-			<li>{% exhibit post %}</li>
+	</ul>
+	{% for year in (2020 .. 2024) reversed %}
+	    {% assign year_disp = year | append: "" %}
+	    <h3>{{ year }}</h3>
+	    <ul class="bulletless diary-list">
+		{% for month in (1 .. 12) %}
+		    {% assign month_disp = month | prepend: "00" | slice: -2, 2 %}
+		    {% assign diary_url = "" %}
+		    {% for diary in diaries %}
+			{% assign diary_year = diary.date | date: "%Y" %}
+			{% assign diary_month = diary.date | date: "%m" %}
+			{% if diary_year == year_disp and diary_month == month_disp %}
+			    {% assign diary_url = diary.url %}
+			    {% break %}
+			{% endif %}
+		    {% endfor %}
+		    {% unless diary_url == "" %}
+			<li><code><a href="{{ diary_url }}">{{ month_disp }}</a></code></li>
+		    {% else %}
+			<li><code>{{ month_disp }}</code></li>
 		    {% endunless %}
-		{% endif %}
+		{% endfor %}
+	    </ul>
+	{% endfor %}
+    {% else %}
+	<ul class="bulletless">
+	    {% for post in posts %}
+		<li>{% exhibit post %}</li>
 	    {% endfor %}
+	    {% if posts == empty %}
+		<p>Nothing here.</p>
+	    {% endif %}
 	</ul>
     {% endif %}
 
-    {% if cate == "yume" %}
-    <p>More dream records are coming soon. The numerous firsthand drafts of dream records I've written down over these years, which are quite rough, have to be edited and polished before being published.</p>
-    {% endif %}
+{% endfor %}
+
 {% endfor %}
