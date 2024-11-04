@@ -59,6 +59,10 @@ li {
     font-family: "Ubuntu Mono", "DejaVu Sans Mono", "Fira Mono", "Monaco", "Consolas", "Courier New", monospace;
 }
 
+.fraktur {
+    font-family: "UnifrakturMaguntia"
+}
+
 .container {
     height: fit-content;
     margin: auto;

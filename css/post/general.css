@@ -22,6 +22,10 @@ code {
     font-family: "Ubuntu Mono", "Source Code Pro", "JetBrains Mono", "Monaco", monospace !important;
 }
 
+.fraktur {
+    font-family: "UnifrakturMaguntia";
+}
+
 #ground {
     margin-bottom: 12em;
 }
