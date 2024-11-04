@@ -10,9 +10,9 @@ categories: math
 
 **Definition 1.2.**&ensp;A **(formal) language** over an alphabet $\Sigma$ is a subset of $\Sigma^*$, which is usually defined by certain rules.
 
-**Definition 1.3.**&ensp;A **semantic rule** or **evaluation rule** $\varepsilon$ is a function that designates a unique value to every word $w$ of a language $L$. This value, $\varepsilon(w)$, is called the **interpretation** or the **evaluation** of $w$.
+**Definition 1.3.**&ensp;A **semantic rule** or **evaluation rule** $\varepsilon$ is a function that designates a value to every word $w$ of a language $L$. This value, $\varepsilon(w)$, is called the **interpretation** or the **evaluation** of $w$.
 
-**Definition 1.4.**&ensp;A **measuring rule** is a special evaluation rule that assigns every word a natural number carrying the meaning of the **length** or the **complexity** of the word. A trivial measuring rule is to measure a word with the number of its letters (the cardinality): $\mu(w):=\|w\|$.
+**Definition 1.4.**&ensp;A **measuring rule** is a special evaluation rule that assigns every word a natural number carrying the meaning of the **length** or the **complexity** of the word. A trivial measuring rule is to measure a word with the number of its letters.
 
 **Definition 1.5.**&ensp;Given a language $L$, an evaluation rule $\varepsilon$ and a measuring rule $\mu$ of $L$, then $\mathfrak{L}=(L,\varepsilon,\mu)$ is called a **langauge model**. If all possible evaluations, $\varepsilon[L] = \\{\varepsilon(w):w\in L\\}$, are well-ordered by a relation $\prec$, then $(L,\varepsilon,\mu,\prec)$ is called a **well-ordered language model**.
 
@@ -115,7 +115,7 @@ then
 
 $$ \varepsilon(t') = \varepsilon(a\cdot(b+c)\cdot r) = \varepsilon((a\cdot b+a\cdot c)\cdot r) > \varepsilon((a\cdot b+c)\cdot r) = \varepsilon(t). $$
 
-For $\varepsilon(b)>1$, the symmetric tactic is applied. <span style="float: right;">$\clubsuit$</span>
+For $\varepsilon(b)>1$, the symmetric tactic is applied. <qed>$\clubsuit$</qed>
 
 However, there is still more than one possibility in the product-of-sums form (1). With $N=8$ for example, there're
 
@@ -264,7 +264,7 @@ Then $\varepsilon(p)=U(f(n))$ and $\mu(p)=A+B+2+n+n-1=A+B+2n+1$, so
 
 $$ \Omega_{\mathfrak{P}}(A+B+2n+1) \geq U(f(n)). $$
 
-Since $U\circ f$ grows faster than $f$ while $n\mapsto A+B+2n+1$ is just a linear mapping of $n$, $\Omega_{\mathfrak{P}}$ grows faster than $f$. <span style="float: right;">$\clubsuit$</span>
+Since $U\circ f$ grows faster than $f$ while $n\mapsto A+B+2n+1$ is just a linear mapping of $n$, $\Omega_{\mathfrak{P}}$ grows faster than $f$. <qed>$\clubsuit$</qed>
 
 This shows $\Omega_{\mathfrak{P}}$ is not computable, because all computable functions are definable in $\mathfrak{P}$.
 

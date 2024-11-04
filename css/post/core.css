@@ -30,6 +30,10 @@
     font-weight: 700;
 }
 
+.post-core strong {
+    color: #8070a4;
+}
+
 .post-core blockquote {
     background-color: #1a1a1a;
     border-left: 6px #333 solid;
@@ -106,6 +110,11 @@
 
 .post-core mjx-container[display="true"] {
     overflow-x: scroll;
+}
+
+.post-core qed {
+    float: right;
+    color: #8070a4;
 }
 
 .post-core code:not(.hljs) {
