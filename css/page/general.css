@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: pink;
+    color: #715791;
     text-decoration: none;
     transition: opacity 0.3s;
     opacity: 1.0;
@@ -69,17 +69,18 @@ li {
 }
 
 .headline {
-    border-bottom: 2px solid #eee9;
-    border-radius: 2px;
+    border: 3px dashed #685988;
     margin: 10px auto;
+    padding: 1em;
     text-align: center;
     width: fit-content;
 }
 
 .headline a {
-    color: white;
+    color: #fffa;
     display: block;
     font-size: 48px; /* mobile */
+    font-weight: 600;
     line-height: 1;
     margin: 12px auto;
 }
