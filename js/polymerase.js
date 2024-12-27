@@ -11,9 +11,9 @@ const remarkedWebsiteColors = {
 };
 
 const AMLVColors = {
-    "animes": "#ff99c0",
+    "anime": "#ff99c0",
     "light_novels": "#4ffca6",
-    "mangas": "#66c2ff",
+    "manga": "#66c2ff",
     "visual_novels": "#59f3eb"
 };
 
