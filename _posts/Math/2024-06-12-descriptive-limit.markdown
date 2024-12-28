@@ -4,90 +4,91 @@ title: Descriptive Limit
 categories: math
 ---
 
-## §1&emsp;Concepts
+## §1&emsp;Conception
 
-**Definition 1.1.**&ensp;Any set could be considered as an **alphabet**. Its elements are then called **letters**. Any finite sequence of letters is called a **word** over the alphabet. The set of all words over an alphabet $\Sigma$ is denoted by $\Sigma^*$.
+**Definition 1.1.**&ensp;Any set could be observed as an **alphabet**. Its elements are then called **letters**. Any sequence of letters is called a **word** over the alphabet. The set of all words over an alphabet $\Sigma$ is denoted by $\Sigma^\ast$.
 
-**Definition 1.2.**&ensp;A **(formal) language** over an alphabet $\Sigma$ is a subset of $\Sigma^*$, which is usually defined by certain rules.
+**Definition 1.2.**&ensp;A **(formal) language** over an alphabet $\Sigma$ is a subset of $\Sigma^\ast$.
 
-**Definition 1.3.**&ensp;A **semantic rule** or **evaluation rule** $\varepsilon$ is a function that designates a value to every word $w$ of a language $L$. This value, $\varepsilon(w)$, is called the **interpretation** or the **evaluation** of $w$.
+**Definition 1.3.**&ensp;A **semantic rule** or **evaluation rule** $\varepsilon$ of a language $L$ is a function whose domain is $L$. For any $w\in L$, the value $\varepsilon(w)$ is called the **interpretation** or the **evaluation** of $w$.
 
-**Definition 1.4.**&ensp;A **measuring rule** is a special evaluation rule that assigns every word a natural number carrying the meaning of the **length** or the **complexity** of the word. A trivial measuring rule is to measure a word with the number of its letters.
+**Definition 1.4.**&ensp;A **measuring rule** is a special evaluation rule that assigns every word a real number representing its **length** or **complexity**. A trivial example is measuring a word by counting its letters.
 
-**Definition 1.5.**&ensp;Given a language $L$, an evaluation rule $\varepsilon$ and a measuring rule $\mu$ of $L$, then $\mathfrak{L}=(L,\varepsilon,\mu)$ is called a **langauge model**. If all possible evaluations, $\varepsilon[L] = \\{\varepsilon(w):w\in L\\}$, are well-ordered by a relation $\prec$, then $(L,\varepsilon,\mu,\prec)$ is called a **well-ordered language model**.
+**Definition 1.5.**&ensp;Given a language $L$, an evaluation rule $\varepsilon$ and a measuring rule $\mu$, the structure $\mathfrak{L}=(L,\varepsilon,\mu)$ is called a **langauge model**. If all possible evaluations, $\varepsilon[L] = \\{\varepsilon(w):w\in L\\}$, are well-ordered by a relation $\preceq$, then $(L,\varepsilon,\mu,\preceq)$ is called a **well-ordered language model**.
 
-**Definition 1.6.**&ensp;Suppose $\mathfrak{L}=(L,\varepsilon,\mu,\prec)$ is a well-ordered language model. Its **descriptive limit** within length $N$ ($N\in\mathbb{N}$) is the $\prec$-maximal possible evaluation of a word from $L$ whose $\mu$-length is not greater than $N$, if the maximum exists. This is denoted by $\Omega\_{\mathfrak{L}}(N)$. In symbols,
+**Definition 1.6.**&ensp;Let $\mathfrak{L}=(L,\varepsilon,\mu,\preceq)$ be a well-ordered language model. Its **descriptive limit** within length $
+\lambda$ ($\lambda\in\mathbb{R}$) is the $\preceq$-maximal possible evaluation of a word from $L$ whose $\mu$-length is not greater than $\lambda$ (if it exists). This is denoted by $\Omega\_{\mathfrak{L}}(\lambda)$. In symbols,
 
-$$ \Omega_{\mathfrak{L}}(N) = \max_\prec\{\varepsilon(w):w\in L\land\mu(w)\leq N\}. $$
+$$ \Omega_{\mathfrak{L}}(\lambda) = \max_\preceq\{\varepsilon(w):w\in L\land\mu(w)\leq\lambda\}. $$
 
-Obviously, for any $N<M$, $\Omega_\mathfrak{L}(N) \preceq \Omega_\mathfrak{L}(M)$.
+If $\mathfrak{L}$ is fixed during the context, we may write $\Omega_\frak{L}(\lambda)$ simply as $\Omega(\lambda)$.
+
+Obviously, $\Omega_\mathfrak{L}(\lambda) \preceq \Omega_\mathfrak{L}(\lambda')$ for any $\lambda\leq\lambda'$.
 
 ## §2&emsp;Examples
 
 ### §2.1&emsp;Mathematical Expressions
 
-Mathematical expressions form a well-ordered language model if the calculated results are well-ordered, like all common expressions that produce natural numbers:
+Mathematical expressions with numeric evaluations in $\mathbb{R}$ make a well-ordered language model:
 
 $$ \begin{gathered} 
     \begin{align*}
-	1 + 2 + 3 + 4 + 5 &= 15 \\
-	(2+2)^{2+2} &= 256 \\
-	2\cdot(3\cdot(5\cdot(7+11))) &= 540
+	(1+2)^{3+4} &= 2187; \\
+    \frac{2^3 + 3^2}{4!} &= \frac{17}{24}; \\
+    \ln\sqrt{\sin{\mathrm{e}}} &\approx -0.445; \\
+    \int_0^\infty x^{-x}\;\mathrm{d}x &\approx 1.995;
     \end{align*} \\
     \vdots
 \end{gathered} $$
 
-We could specify the range of interested expressions by defining a language $E$ as follows:
+We shall now narrow down our interested expressions by defining a language model $\mathfrak{E}=(E,\varepsilon,\mu)$ as follows.
 
-- Every word (expression) of $E$ follows the trivial syntax of a mathematical expression;
-- Every word (expression) of $E$ is only allowed to include $+$, $\cdot$, and $1$ (as well as brackets, which are inessential).
+- All words of $E$ follow the syntax of mathematical expressions with alphabet $\\{+, \cdot, 1\\}$ (and brackets, but we do not involve them into the discussion as they are inessential). Example elements from $E$ are
 
-Examples for elements of $E$ are:
+  $$ \begin{gather*}
+      (1+1)\cdot(1+1)\cdot(1+1), \\
+      (1+1+1)\cdot(1+1+1), \\
+      1+1+1+1+1+1, \\
+      \vdots
+  \end{gather*} $$
 
-$$ \begin{gather*}
-    (1+1)\cdot(1+1)\cdot(1+1), \\
-    (1+1+1)\cdot(1+1+1), \\
-    1+1+1+1+1+1, \\
-    \vdots
-\end{gather*} $$
+- The expressions are evaluated in the way as how arithmetical expressions are typically calculated:
 
-Further we could define the evaluation rule $\varepsilon$ as the usual way to calculate such expressions:
+  $$ \begin{gathered}
+      \begin{align*}
+      \varepsilon((1+1)\cdot(1+1)\cdot(1+1)) &= 8; \\
+      \varepsilon((1+1+1)\cdot(1+1+1)) &= 9; \\
+      \varepsilon(1+1+1+1+1+1) &= 6;
+      \end{align*} \\
+      \vdots
+  \end{gathered} $$
 
-$$ \begin{gathered}
-    \begin{align*}
-	\varepsilon((1+1)\cdot(1+1)\cdot(1+1)) &= 8 \\
-	\varepsilon((1+1+1)\cdot(1+1+1)) &= 9 \\
-	\varepsilon(1+1+1+1+1+1) &= 6
-    \end{align*} \\
-    \vdots
-\end{gathered} $$
+  $\mathfrak{E}$ is now well-ordered since $\varepsilon[E]=\mathbb{N}^+$.
 
-And define the measuring as the number of occurrences of $1$'s:
+- The expressions are measured by the number of occurrences of $1$'s:
 
-$$ \begin{gathered}
-    \begin{align*}
-	\mu((1+1)\cdot(1+1)\cdot(1+1)) &= 6 \\
-	\mu((1+1+1)\cdot(1+1+1)) &= 6 \\
-	\mu(1+1+1+1+1+1) &= 6
-    \end{align*} \\
-    \vdots
-\end{gathered} $$
+  $$ \begin{gathered}
+      \begin{align*}
+      \mu((1+1)\cdot(1+1)\cdot(1+1)) &= 6; \\
+      \mu((1+1+1)\cdot(1+1+1)) &= 6; \\
+      \mu(1+1+1+1+1+1) &= 6;
+      \end{align*} \\
+      \vdots
+  \end{gathered} $$
 
-In this case, counting only $1$'s appears more natural than counting $+$'s and $\cdot$'s as well because $+$ and $\cdot$, namely all the operators in $E$, are binary. That means every time an expression is extended by an operator, a $1$ must be followed. So the number of $1$'s included in an expression from $E$ already represents its length pretty well.
+  Counting $1$'s only is more natural than counting everything together because all operators in $E$ ($+$ and $\cdot$) are binary, which means the number of $1$'s and the number of operators are always linear related.
 
-**Problem 2.1.**&ensp;Let $\mathfrak{E}=(E,\varepsilon,\mu)$ be the language model defined above. Then it is well-ordered by $<$ on $\mathbb{N}$. Find a formula for $\Omega_{\mathfrak{E}}(N)$.
+**Problem 2.1.**&ensp;Find a formula for $\Omega_{\mathfrak{E}}(\lambda)$ ($\lambda\in\mathbb{N}^+$).
 
-If we had removed multiplication from $E$ and it had become $\\{+,1\\}$, $\Omega_{\mathfrak{E}}(N)$ would simply be $N$, since an expression could only be extended by ${}+1$ each time and its evaluation would be the same as the number of $1$'s. With $E=\\{+,\cdot,1\\}$, though, the problem is a tiny bit harder.
+Firstly we prove the following lemma.
 
-In order to understand the problem better, we first prove the following lemma:
-
-**Lemma 2.1.**&ensp;An expression from $\mathfrak{E}$ with the maximal evaluation within some length $N$ must be *a product of sums*, i.e. it has to look like
+**Lemma 2.1.**&ensp;An expression from $\mathfrak{E}$ that has the maximal evaluation within some length $\lambda$ must be *a product of sums*, i.e. it has to be in the form
 
 $$ \begin{equation}
     (1+\cdots+1)\cdot(1+\cdots+1)\cdot\,\cdots\,\cdot(1+\cdots+1).
 \end{equation} $$
 
-***Proof.***&ensp;We only need to show that expressions which don't look like (1) can't be maximal. Examples of such expressions are:
+***Proof.***&ensp;We show that an expression can not be maximal if it does not look like (1). Examples of such expressions are
 
 $$ \begin{gather*}
     ((1+1)\cdot(1+1)+1)\cdot(1+1), \\
@@ -95,29 +96,17 @@ $$ \begin{gather*}
     \vdots
 \end{gather*} $$
 
-All these kinds of expressions can be written as
-
-$$ t = (a\cdot b+c)\cdot r, $$
-
-where $a$, $b$, $c$ and $r$ (for "the rest") are *subexpressions*. $r$ could be $1$. We need to find another expression $t'$ with $\mu(t')=\mu(t)$ but $\varepsilon(t')>\varepsilon(t)$. If $\varepsilon(a)=\varepsilon(b)=1$, take
-
-$$ t' := (1+1+c)\cdot r, $$
-
-then
+Any of them can be written as $t = (a\cdot b+c)\cdot r$, where $a$, $b$, $c$ and $r$ are *subexpressions* ($r$ could also be $1$). We need to find another expression $t'$ with $\mu(t')=\mu(t)$ but $\varepsilon(t')>\varepsilon(t)$. If $\varepsilon(a)=\varepsilon(b)=1$, take $t' = (1+1+c)\cdot r$, then $\mu(t')=\mu(t)$ and
 
 $$ \varepsilon(t') = \varepsilon((1+1+c)\cdot r) > \varepsilon((1\cdot 1+c)\cdot r) = \varepsilon((a\cdot b+c)\cdot r) = \varepsilon(t). $$
 
-Assume $\varepsilon(a)>1$. Take
-
-$$ t' = a\cdot(b+c)\cdot r, $$
-
-then
+If $\varepsilon(a)>1$, take $t' = a\cdot(b+c)\cdot r$, then $\mu(t')=\mu(t)$ and
 
 $$ \varepsilon(t') = \varepsilon(a\cdot(b+c)\cdot r) = \varepsilon((a\cdot b+a\cdot c)\cdot r) > \varepsilon((a\cdot b+c)\cdot r) = \varepsilon(t). $$
 
-For $\varepsilon(b)>1$, the symmetric tactic is applied. <qed>$\clubsuit$</qed>
+For $\varepsilon(b)>1$ analog. <qed>$\square$</qed>
 
-However, there is still more than one possibility in the product-of-sums form (1). With $N=8$ for example, there're
+However, more than one possible expressions could have the product-of-sums form (1). For example, with $\lambda=8$ there are
 
 $$ \begin{gather*}
     (1+1+1+1)\cdot(1+1+1+1), \\
@@ -126,89 +115,85 @@ $$ \begin{gather*}
     \vdots
 \end{gather*} $$
 
-Which of them is maximal? If we write the sums as $s_i$, then the product-of-sums form (1) becomes
+Which of them has the maximal evaluation? If we write the sums as $s_i$, then the product-of-sums form (1) becomes $s_1\cdot s_2\cdot\,\cdots\,\cdot s_k$ ($k$ is variable). Notice the sums are only sums of $1$'s, which means the value of every $s_i$ is the same as the number of $1$'s included in it. Since the length of an expression is defined as the total number of $1$'s, we have
 
-$$ s_1\cdot s_2\cdot\,\cdots\,\cdot s_k $$
+$$ \varepsilon(s_1)+\varepsilon(s_2)+\cdots+\varepsilon(s_k) = \lambda. $$
 
-($k$ is variable). Notice the sums are only sums of $1$'s, which means the value of every $s_i$ is the same as the number of $1$'s it includes. Since in our case the length of an expression is defined as the total number of $1$'s, we have
+So the problem becomes: What is the maximal possible product of natural numbers that add up to $\lambda$?
 
-$$ \varepsilon(s_1)+\varepsilon(s_2)+\cdots+\varepsilon(s_k) = N. $$
+Let's consider the same problem but in $\mathbb{R}^+$ first: Let $x_1$, $x_2$, $\cdots$, $x_k$ be positive real numbers such that
 
-The actual problem is namely: What is the maximal possible product of natural numbers that add up to $N$?
+$$ x_1+x_2+\cdots+x_k = \lambda, $$
 
-Let's consider the same problem but with *positive real numbers* first: Let $x_1$, $x_2$, $\cdots$, $x_k$ be numbers in $\mathbb{R}^+$ such that
+where $\lambda\in\mathbb{R}^+$ is given. Find the maximum of the product $x_1x_2\cdots x_k$.
 
-$$ x_1+x_2+\cdots+x_k = S, $$
+For a fixed $k$, using the relation between arithmetic and geometric means, we have
 
-where $S\in\mathbb{R}^+$ is a given number. Find the maximum of $x_1x_2\cdots x_k$.
+$$ \max{(x_1x_2\cdots x_k)^{\frac{1}{k}}} = \frac{x_1+x_2+\cdots+x_k}{k} = \frac{\lambda}{k}, $$
 
-To solve this, apply the *inequality of arithmetic and geometric means*, which tells us
+so
 
-$$ (x_1x_2\cdots x_k)^{\frac{1}{k}} \leq \frac{x_1+x_2+\cdots+x_k}{k} = \frac{S}{k}, $$
+$$ \max x_1x_2\cdots x_k = \left(\frac{\lambda}{k}\right)^k. $$
 
-so, for a fixed $k$,
+For real numbers $x>0$, define
 
-$$ \max x_1x_2\cdots x_k = \left(\frac{S}{k}\right)^k. $$
+$$ f(x) = \left(\frac{\lambda}{x}\right)^x, $$
 
-Define for real numbers $x>0$
+then we can conclude from $f$'s derivative that $f$ reaches its maximum at $x=\lambda/\mathrm{e}$. So $x_1x_2\cdots x_k$ becomes maximal either when $k=\lfloor \lambda/\mathrm{e}\rfloor$ or when $k=\lceil \lambda/\mathrm{e}\rceil$. Approximately we can say
 
-$$ f(x) = \left(\frac{S}{x}\right)^x, $$
+$$ \max x_1x_2\cdots x_k \approx \mathrm{e}^{\frac{\lambda}{\mathrm{e}}}. $$
 
-then we can conclude from $f$'s derivative that $f$ reaches its maximum at $x=S/\mathrm{e}$. So $x_1x_2\cdots x_k$ becomes maximal when either $k=\lfloor S/\mathrm{e}\rfloor$ or $k=\lceil S/\mathrm{e}\rceil$. Approximately we can say
+We now expect the original problem to have a similar solution. And indeed it is the case (notice that $\mathrm{e}\approx 3$):
 
-$$ \max x_1x_2\cdots x_k \approx \mathrm{e}^{\frac{S}{\mathrm{e}}}. $$
+***Solution to Problem 2.1.***&ensp;For $\lambda\leq 3$, the solution is trivial. Assume $\lambda\geq 4$. Then
 
-We now expect our original problem, the one with *natural numbers*, to have a similar solution.
-
-Indeed, the accurate solution to Problem 2.1 is as follows (notice the fact that $\mathrm{e}\approx 3$):
-
-***Solution to Problem 2.1.***&ensp;For $N<4$, the answer is trivial. Assume $N\geq 4$. Then
-
-$$ \Omega_{\mathfrak{E}}(N) = \begin{cases}
-    3^{\frac{N}{3}} & \text{if $N\equiv 0\mod 3$;} \\
-    3^{\frac{N-4}{3}}\cdot 2^2 & \text{if $N\equiv 1\mod 3$;} \\
-    3^{\frac{N-2}{3}}\cdot 2 & \text{if $N\equiv 2\mod 3$.}
+$$ \Omega_{\mathfrak{E}}(\lambda) = \begin{cases}
+    3^{\frac{\lambda}{3}} & \text{if $\lambda\equiv 0\mod 3$;} \\
+    3^{\frac{\lambda-4}{3}}\cdot 2^2 & \text{if $\lambda\equiv 1\mod 3$;} \\
+    3^{\frac{\lambda-2}{3}}\cdot 2 & \text{if $\lambda\equiv 2\mod 3$.}
 \end{cases} $$
 
 The proof is left as an exercise to the reader.
 
 ### §2.2&emsp;Programming Languages
 
-All computer programs written in a certain language (Python, C#, Haskell, etc.) form a well-ordered language model, if their outputs are well-ordered (e.g. natural numbers). The following script is a "word" from the language Python:
+All computer programs written in a regular language (Python, C#, Haskell, etc.) form a well-ordered language model, if their outputs are well-ordered (e.g. natural numbers). The following script is a "word" from the language Python:
 
 ```Python
 a = 32 + 2 * 7
 print(a * a * a)
 ```
 
-It outputs $110592$, if interpreted according to Python standard. Factors like version number, personal programming environment, etc. might matter in practice, but in this article they are ignored and it's assumed that everything shall run regularly conforming to theory.
+It should output $110592$, if interpreted according to Python standard. Minor factors like version number, programming environment and so on might matter in practice, but they are ignored in this article as everything is discussed on a theoretical level.
 
-Similar to last section, we could narrow down our interested programs by defining a language $P$:
+Similar to last section, we shall defining a language model $\mathfrak{P}=(P,\varepsilon,\mu)$ as follows.
 
-- Every program follows Python syntax ($P\subset\mathsf{Python}$);
-- Every program $P$ is only allowed to include the following keywords, operators and constants:
+- Every program in $P$ obeys Python syntax and has the following alphabet:
 
-```Python
-def return if else elif and or not
-print
-+ - == < > 0 1 =
-```
+  ```Python
+  def return if else elif and or not
+  + - == < > 0 1 =
+  print
+  ```
 
-as well as some negligible characters like spaces, brackets, commata, colons, etc. Since `def` and `=` are included, labels of newly defined functions and variables are also allowed. It should be pointed out that these symbols are discussed on syntax level, which means for example, even though single `1`'s are allowed, but constants like `1111`, which looks like a composition of four `1`'s, are forbidden.
-- The last line of every program must output a natural number via `print`. `print` is not allowed to be placed anywhere else.
+  as well as some negligible characters like spaces, brackets, commas, colons, etc. Since `def` and `=` are included, labels for newly defined functions and variables are also allowed.
 
-The evaluation $\varepsilon$ of every program in $P$ is defined as its output.
+  It should be pointed out that the letters from the alphabet are discussed on a syntactical level. For example, while single `0`'s and `1`'s are allowed, constants like `10`, `1111`, etc. are not.
 
-The measuring rule $\mu$ is defined as follows. Each appearance of the following symbols,
+- Every program in $P$ must output a natural number via `print` in the last line. `print` can not be placed elsewhere.
 
-```Python
-if else elif and or not
-+ - == < > 0 1 =
-```
+  $\mathfrak{P}$ is then well-ordered since $\varepsilon[P]=\mathbb{Z}$.
 
-as well as labels of functions and variables is counted as $1$. `def`, `return`, `print` and other negligible characters like spaces and brackets are not being counted.
+- The evaluation of every program in $P$ is defined as its output.
 
-Then $\mathfrak{P}=(P,\varepsilon,\mu,<)$ is a well-ordered language model.
+- The measuring is defined as follows. Each occurence of the following symbols
+
+  ```Python
+  if else elif and or not
+  + - == < > 0 1 =
+  ```
+
+  as well as labels for functions and variables is counted as $1$. `def`, `return`, `print` and other negligible characters like spaces and brackets are not counted.
 
 Examples from $\mathfrak{P}$: The following program has a $\mu$-length of $19$ and outputs $25$:
 
@@ -228,17 +213,15 @@ def f(n):
 print(f(f(f(f(f(f(1)))))))
 ```
 
-Now let's ask the same question: Is there a formula for $\Omega_{\mathfrak{P}}(N)$?
+Now the same question: Is there a formula for $\Omega_{\mathfrak{P}}(\lambda)$ ($\lambda\in\mathbb{N}^+$)?
 
-The answer is, in terms of $N$, we *can not* express or even estimate $\Omega_{\mathfrak{P}}(N)$ in the usual way. That means $\Omega_{\mathfrak{P}}$ is [uncomputable](https://en.wikipedia.org/wiki/Computable_function). This is shown by the following property of $\Omega_{\mathfrak{P}}$:
+The answer is, we *can not* express or even estimate $\Omega_{\mathfrak{P}}(\lambda)$ in a usual way, because $\Omega_{\mathfrak{P}}$ is [uncomputable](https://en.wikipedia.org/wiki/Computable_function). This is shown by the following property of $\Omega_{\mathfrak{P}}$.
 
 **Theorem 2.1.**&ensp;*$\Omega_{\mathfrak{P}}$ grows faster than any function that is definable in $\mathfrak{P}$.*
 
-That a function $f$ grows faster than $g$, means
+That a function $f$ grows faster than $g$, means for any $h\in\mathbb{N}^+$, there exists $N\in\mathbb{N}^+$ such that for all $n\geq N$, $f(n)-g(n)\geq h$.
 
-$$ \lim_{n\to\infty}\frac{f(n)}{g(n)} = \infty. $$
-
-That a function is definable in $\mathfrak{P}$, means we are able to implement the function by programming in Python, while obeying the rules stated before. For example, we can define the function $\exp:n\mapsto 2^n$ as follows:
+That a function is definable, means we are able to implement the function in $\mathfrak{P}$. For example, we can define the function $\exp:n\mapsto 2^n$ as follows:
 
 ```Python
 def multiply(a, b):
@@ -252,7 +235,7 @@ def exp(n):
     return multiply(1 + 1, exp(n - 1))
 ```
 
-***Proof.***&ensp;We only need to show that $\Omega_{\mathfrak{P}}$ grows faster than all definable functions that are *positive* and *strictly increasing*. Let $f$ be such a function. The idea is that once we can define a function, we can upgrade it. Suppose the definition of $f$ has a $\mu$-length of $A$ in total. In order to upgrade $f$, we define an *upgrading function* $U$ in the program such that $U\circ f$ grows faster than $f$. For example, take $U:n\mapsto 2^n$ or $U:n\mapsto n!$. Suppose the definition of $U$ has a $\mu$-length of $B$. Now consider the program $p$
+***Proof.***&ensp;It is sufficient to show that $\Omega_{\mathfrak{P}}$ grows faster than all definable functions that are *positive* and *strictly increasing*. Let $f$ be such a function. The idea is that once we can define a function in $\mathfrak{P}$, we can also "upgrade" it in $\mathfrak{P}$. Suppose the $\mu$-length of $f$'s one possible definition is $A$. In order to upgrade $f$, we define an *upgrader* $U$ in the program such that $U\circ f$ grows faster than $f$. For example, choose $U:n\mapsto 2^n$ or $U:n\mapsto n!$. Suppose the $\mu$-length of $U$'s definition is $B$. Construct the program $p$ as
 
 ```Python
 [ definition of f ] # μ-length == A
@@ -264,23 +247,21 @@ Then $\varepsilon(p)=U(f(n))$ and $\mu(p)=A+B+2+n+n-1=A+B+2n+1$, so
 
 $$ \Omega_{\mathfrak{P}}(A+B+2n+1) \geq U(f(n)). $$
 
-Since $U\circ f$ grows faster than $f$ while $n\mapsto A+B+2n+1$ is just a linear mapping of $n$, $\Omega_{\mathfrak{P}}$ grows faster than $f$. <qed>$\clubsuit$</qed>
+Since $U\circ f$ grows faster than $f$ and $n\mapsto A+B+2n+1$ is just a linear mapping of $n$, $\Omega_{\mathfrak{P}}$ grows faster than $f$. <qed>$\square$</qed>
 
-This shows $\Omega_{\mathfrak{P}}$ is not computable, because all computable functions are definable in $\mathfrak{P}$.
+This shows $\Omega_{\mathfrak{P}}$ is uncomputable, because all computable functions are definable in $\mathfrak{P}$.
 
 ## §3&emsp;Miscellaneous
 
 ### §3.1&emsp;Sublimation
 
-Let $\mathfrak{P}$ be the language model discussed in §2.2. We already know $\Omega_{\mathfrak{P}}$ grows faster than all functions that can be defined in $\mathfrak{P}$, which is pretty ill. Of course there're other functions that grow faster than $\Omega_{\mathfrak{P}}$, like
+Let $\mathfrak{P}$ be the language model discussed in §2.2. We already know $\Omega_{\mathfrak{P}}$ grows faster than all functions defineable in $\mathfrak{P}$. But of course there are functions that grow faster than $\Omega_{\mathfrak{P}}$, like
 
 $$ \Omega_{\mathfrak{P}}^2,\quad 2^{\Omega_{\mathfrak{P}}},\quad \Omega_{\mathfrak{P}}^{\Omega_{\mathfrak{P}}},\quad\text{etc.} $$
 
-However, we can actually build a function that grows even faster than *all* these kind of functions, by adding $\Omega_{\mathfrak{P}}$ itself to the language.
+And we can also build a function that grows even faster than *all* these kind of functions, by adding $\Omega_{\mathfrak{P}}$ itself to the alphabet: Define $P^+=P\cup\\{\Omega_{\mathfrak{P}}\\}$. Define $\varepsilon^+$ (and $\mu^+$) as the same as $\varepsilon$ (and $\mu$) but with $\Omega_{\mathfrak{P}}$ involved. In practice we can do this by adding a function `omega` that outputs the values of $\Omega_{\mathfrak{P}}$ to the alphabet and every occurence of `omega` is measured as $1$. Then $\mathfrak{P}^+=(P^+,\varepsilon^+,\mu^+)$ is an extended language model from $\mathfrak{P}$. The function $\Omega_{\mathfrak{P}^+}$ now grows faster than $\Omega_{\mathfrak{P}}$ as well as all its compositions with computable functions, since all these compositions are definable in $\mathfrak{P}^+$.
 
-Define $P^+=P\cap\\{\Omega_{\mathfrak{P}}\\}$. Define $\varepsilon^+$ as the same as $\varepsilon$ but with $\Omega_{\mathfrak{P}}$ involved. Define $\mu^+$ as the same as $\mu$ with $\Omega_{\mathfrak{P}}$ counted as $1$. Then $\mathfrak{P}^+=(P^+,\epsilon^+,\mu^+,<)$ is an extended language model from $\mathfrak{P}$. Obviously, the function $\Omega_{\mathfrak{P}^+}$ grows faster than $\Omega_{\mathfrak{P}}$, as well as *all compositions of computable functions and $\Omega_{\mathfrak{P}}$*, since all these compositions are definable in $\mathfrak{P}^+$.
-
-I shall (temporarily) call the extending of a language model by its own descriptive limit function a **sublimation**. The $\mathfrak{P}^+$ defined above is the sublimation of $\mathfrak{P}$; in symbols, $\mathfrak{P}^+=\mathrm{su}(\mathfrak{P})$ if we write $\mathrm{su}(\mathfrak{L})$ for the sublimation of $\mathfrak{L}$. Now consider the sublimation of $\mathfrak{P}^+$, which is $\mathrm{su}(\mathrm{su}(\mathfrak{P}))$. Its descriptive limit function, $\Omega_{\mathrm{su}(\mathrm{su}(\mathfrak{L}))}$, should grow faster than $\Omega_{\mathfrak{P}}$, $\Omega_{\mathfrak{P}^+}$, and all their compositions with computable functions. We see how the $\Omega$-function is brought to "a higher layer" every time the language model gets sublimated:
+We temporarily call the extension of a language model by its own descriptive limit function a **sublimation** (if it is doable). The $\mathfrak{P}^+$ defined above is the sublimation of $\mathfrak{P}$. In symbols, $\mathfrak{P}^+=\mathrm{su}(\mathfrak{P})$ if we write $\mathrm{su}(\mathfrak{L})$ for the sublimation of $\mathfrak{L}$. Now consider the sublimation of $\mathfrak{P}^+$, namely $\mathrm{su}(\mathrm{su}(\mathfrak{P}))$. Its descriptive limit function, $\Omega_{\mathrm{su}(\mathrm{su}(\mathfrak{L}))}$, should grow faster than $\Omega_{\mathfrak{P}}$, $\Omega_{\mathfrak{P}^+}$ and all their compositions with computable functions. We see how the $\Omega$-function is brought to "a higher layer" after every sublimation:
 
 $$ \begin{gathered}
     \begin{align*}
@@ -292,13 +273,13 @@ $$ \begin{gathered}
     \vdots
 \end{gathered} $$
 
-If we add both $\Omega_{\mathfrak{P}}$ and $\mathrm{su}$ to $\mathfrak{P}$, it becomes its **supersublimation** $\mathrm{ssu}(\mathfrak{P})$, which is super powerful because its descriptive limit $\Omega_{\mathrm{ssu}(\mathfrak{L})}$ now grows faster than all functions listed above, since all $\Omega_0$, $\Omega_1$, $\Omega_2$, $\cdots$ are definable in $\mathrm{ssu}(\mathfrak{P})$. We may denote $\Omega_{\mathrm{ssu}(\mathfrak{P})}$ as $\Omega_\omega$, as the scene here is comparable with the concept of the first infinite ordinal: $\omega=\\{0,1,2,\cdots\\}$.
+If we add both $\Omega_{\mathfrak{P}}$ and $\mathrm{su}$ to $\mathfrak{P}$, it becomes its **supersublimation** $\mathrm{ssu}(\mathfrak{P})$, which is super powerful because its descriptive limit $\Omega_{\mathrm{ssu}(\mathfrak{L})}$ grows faster than all functions listed above, since all $\Omega_0$, $\Omega_1$, $\Omega_2$, $\cdots$ are definable in $\mathrm{ssu}(\mathfrak{P})$. It is reasonable to denote $\Omega_{\mathrm{ssu}(\mathfrak{P})}$ as $\Omega_\omega$, since the scenario here is comparable with the first infinite ordinal $\omega=\\{0,1,2,\cdots\\}$.
 
-For sure we can continue the things by adding the supersublimation concept $\mathrm{ssu}$ to the language, and so on and so on. This progress doesn't seem to have an end.
+We can continue the progress by adding the supersublimation $\mathrm{ssu}$ to the alphabet as well — It does not seem to have an end.
 
 ### §3.2&emsp;Inverse
 
-The inverse of descriptive limit, $\Omega^{-1}$, basically says the minimal length/complexity that a word must have, in order to describe a certain object. This is an equivalence to [Колмогoров-complexity](https://en.wikipedia.org/wiki/Kolmogorov_complexity). Using this concept, we can mathematically define the **descriptive complexity** of a natural number, for example. Consider again the language model $\mathfrak{E}$ defined in §2.1. The shortest expression that gives $27$ has length $9$:
+The inverse of descriptive limit, $\Omega^{-1}$, basically tells the minimal length/complexity that a word must have, in order to describe a certain object. This is an equivalence to [Колмогoров-complexity](https://en.wikipedia.org/wiki/Kolmogorov_complexity). With this concept, we can mathematically define the **descriptive complexity** of a natural number (for example). Consider again the language model $\mathfrak{E}$ defined in §2.1. The shortest expression that gives $27$ has length $9$:
 
 $$ (1+1+1)\cdot(1+1+1)\cdot(1+1+1) = 27, $$
 
@@ -309,4 +290,4 @@ $$ \begin{align*}
     \text{or}\quad & (1+1+1)\cdot(1+1+1+1)\cdot(1+1)+1+1 = 26.
 \end{align*} $$
 
-Thus we can say, in $\mathfrak{E}$, the number $26$ is more complex than $27$, even though $26$ is smaller.
+That means, working in $\mathfrak{E}$, it takes more effort to describe the number $26$ than $27$. So we can say the number $26$ is more complex than $27$ — or $27$ is more simple / regular than $26$ — even though $26$ is smaller than $27$.
