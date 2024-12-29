@@ -2,8 +2,8 @@
 layout: post
 title: 2021 年 06 月梦
 updated: 2024-12-05
-categories: yume
-tags: zh
+categories: dream
+tags: zh diary
 ---
 
 ## 2021 年 6 月 11 日

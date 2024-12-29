@@ -6,7 +6,7 @@ ignore_date: true
 permalink: /post/:title/
 ---
 
-{% assign CATES = "math, art, yume, misc, meta" | split: ", " %}
+{% assign CATES = "math, art, dream, misc, meta" | split: ", " %}
 {% assign CATES_DISP = "Mathematics, Art, Dream Diary, Miscellaneous, Meta" | split: ", " %}
 
 {% for cate in CATES %}
@@ -29,9 +29,9 @@ permalink: /post/:title/
 	<h2>{{ cate_disp }}</h2>
     {% endif %}
 
-    {% if cate == "yume" %}
-	{% assign diaries = posts | without_tag: "outer" %}
-	{% assign outers = posts | with_tag: "outer" %}
+    {% if cate == "dream" %}
+	{% assign diaries = posts | with_tag: "diary" %}
+	{% assign outers = posts | without_tag: "diary" %}
 	<ul class="bulletless">
 	    {% for outer in outers %}
 		{% exhibit outer %}
