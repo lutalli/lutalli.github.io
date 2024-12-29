@@ -53,7 +53,7 @@
 		<div class="post-limbo">
 		    <h1>{{ page.title }}</h1>
 		    {% unless page.ignore_date %}
-		    <p>Published: {{ page.date | date: "%b %d, %Y" }}</p>
+		    <p>Published: {{ page.date | date: "%b %d, %Y" }}&ensp;⁞&ensp;Updated: {{ page.updated | date: "%b %d, %Y" }}</p>
 		    {% endunless %}
 		</div>
 		<div class="post-core">

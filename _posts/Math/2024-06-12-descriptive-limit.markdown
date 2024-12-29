@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Descriptive Limit
+updated: 2024-12-27
 categories: math
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lutalli's Handwritten Font of Madoka Runes
+updated: 2024-07-01
 categories: art
 ---
 This post is also reposted on [Reddit](https://www.reddit.com/r/MadokaMagica/comments/1dt1hzd/lutallis_handwritten_font_of_madoka_runes/).

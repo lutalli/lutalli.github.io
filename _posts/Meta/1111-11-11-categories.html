@@ -45,8 +45,9 @@ permalink: /post/:title/
 		    {% assign month_disp = month | prepend: "00" | slice: -2, 2 %}
 		    {% assign diary_url = "" %}
 		    {% for diary in diaries %}
-			{% assign diary_year = diary.date | date: "%Y" %}
-			{% assign diary_month = diary.date | date: "%m" %}
+			{% assign slug_split = diary.slug | split: "-" %}
+			{% assign diary_year = slug_split[2] %}
+			{% assign diary_month = slug_split[3] %}
 			{% if diary_year == year_disp and diary_month == month_disp %}
 			    {% assign diary_url = diary.url %}
 			    {% break %}

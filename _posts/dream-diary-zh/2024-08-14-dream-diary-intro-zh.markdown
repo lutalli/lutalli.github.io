@@ -1,10 +1,9 @@
 ---
 layout: post
 title: 梦日记说明书
+updated: 2024-11-05
 categories: yume
 tags: zh outer
-ignore_date: true
-permalink: /post/:title/
 ---
 ## 内容
 

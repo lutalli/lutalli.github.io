@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 2020 年 10 月梦
+updated: 2024-08-18
 categories: yume
 tags: zh
-ignore_date: true
 ---
 ## 2020 年 10 月 20 日
 
