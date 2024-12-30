@@ -7,11 +7,11 @@
 
         <link href="/res/favicon.ico" type="image/x-icon" rel="icon" />
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap">
+	<link href="https://fonts.googleapis.com" rel="preconnect" />
+	<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet" />
 
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/base16/atelier-plateau.min.css">
 
@@ -44,7 +44,7 @@
     <body>
 	<header>
 	    <div id="header-shell">
-		<div class="header-core" id="header-core-left"><a class="fraktur" href="/"><b>Codex de Luta</b></a></div>
+		<div class="header-core" id="header-core-left"><a class="fraktur" href="/" style="font-size: 20px;"><b>Codex de Luta</b></a></div>
 		<div class="header-core" id="header-core-right"><a href="/post/all">All Posts</a>&emsp;<a href="/feed.xml">RSS</a></div>
 	    </div>
 	</header>
@@ -53,7 +53,9 @@
 		<div class="post-limbo">
 		    <h1>{{ page.title }}</h1>
 		    {% unless page.ignore_date %}
-		    <p>Published: {{ page.date | date: "%b %d, %Y" }}&ensp;⁞&ensp;Updated: {{ page.updated | date: "%b %d, %Y" }}</p>
+		    <p>Published: {{ page.date | date: "%b %d, %Y" }}</p>
+		    <p class="post-limbo-separator">&ensp;⁞&ensp;</p>
+		    <p>Updated: {{ page.updated | date: "%b %d, %Y" }}</p>
 		    {% endunless %}
 		</div>
 		<div class="post-core">

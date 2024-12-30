@@ -5,7 +5,7 @@ html {
 body {
     background-color: #111;
     color: #fefefe;
-    font-family: "Space Grotesk", sans-serif;
+    font-family: "Exo 2", sans-serif;
     height: 100%;
     margin: 0;
     overflow-y: scroll;
@@ -51,16 +51,12 @@ li {
     color: #eee;
 }
 
-.serif {
-    font-family: "Georgia", "Times New Roman", "Times", serif;
-}
-
 .mono {
-    font-family: "Ubuntu Mono", "DejaVu Sans Mono", "Fira Mono", "Monaco", "Consolas", "Courier New", monospace;
+    font-family: "Source Code Pro", "JetBrains Mono", "Monaco", "Ubuntu Mono", monospace !important;
 }
 
 .fraktur {
-    font-family: "UnifrakturMaguntia"
+    font-family: "UnifrakturMaguntia" !important;
 }
 
 .container {
@@ -74,7 +70,6 @@ li {
 
 .headline {
     border: 3px dashed #685988;
-    font-variant: small-caps;
     margin: 10px auto;
     padding: 1em;
     text-align: center;

@@ -3,25 +3,25 @@
 }
 
 .post-core h1 {
-    font-size: 30px; /* mobile */
+    font-size: 34px; /* mobile */
     margin-top: 2em; /* mobile */
     margin-bottom: 0;
 }
 
 .post-core h2 {
-    font-size: 26px; /* mobile */
+    font-size: 30px; /* mobile */
     margin-top: 1.4em; /* mobile */
     margin-bottom: 0;
 }
 
 .post-core h3 {
-    font-size: 22px; /* mobile */
+    font-size: 26px; /* mobile */
     margin-top: 1.2em; /* mobile */
     margin-bottom: 0;
 }
 
 .post-core p {
-    font-size: 16px; /* mobile */
+    font-size: 20px; /* mobile */
     margin: 1em 0; /* mobile */
     line-height: 1.5; 
 }
@@ -31,10 +31,9 @@
 }
 
 .post-core blockquote {
-    background-color: #1a1a1a;
-    border-left: 6px #333 solid;
-    border-right: 6px #333 solid;
-    border-radius: 10px;
+    background-color: #191919;
+    border-left: 4px #343455 solid;
+    border-right: 4px #343455 solid;
     color: #ccc;
     margin: 10px 0;
     padding: 0.8em 1.4em; /* mobile */
@@ -45,14 +44,14 @@
 }
 
 .post-core ol {
-    font-size: 16px; /* mobile */
+    font-size: 20px; /* mobile */
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 0 0 0 1.2em; /* mobile */
 }
 
 .post-core ul {
-    font-size: 16px; /* mobile */
+    font-size: 20px; /* mobile */
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 0 0 0 1.2em; /* mobile */
@@ -101,7 +100,7 @@
 }
 
 .post-core mjx-math {
-    font-size: 20px; /* mobile */
+    font-size: 22px; /* mobile */
 }
 
 .post-core mjx-container[display="true"] {
@@ -124,7 +123,7 @@
 .post-core code.hljs {
     background: #101010;
     border-radius: 10px;
-    font-size: 13px !important; /* mobile */
+    font-size: 15px !important; /* mobile */
     padding: 1.3em !important; /* mobile */
 }
 
@@ -138,7 +137,7 @@
 .post-core table {
     background: #101010;
     border-collapse: collapse;
-    font-size: 15px; /* mobile */
+    font-size: 18px; /* mobile */
     margin: 10px auto;
     max-width: 100%; /* mobile */
     min-width: 80%; /* mobile */
@@ -215,19 +214,19 @@
     }
 
     .post-core h2 {
-	font-size: 32px;
+	font-size: 34px;
 	margin-top: 1.8em;
 	margin-bottom: 0;
     }
 
     .post-core h3 {
-	font-size: 26px;
+	font-size: 30px;
 	margin-top: 1.4em;
 	margin-bottom: 0;
     }
 
     .post-core p {
-	font-size: 20px;
+	font-size: 22px;
 	margin: 1.3em 0;
     }
 
@@ -236,13 +235,13 @@
     }
 
     .post-core ol {
-	font-size: 20px;
+	font-size: 22px;
 	margin: 1em;
 	padding: 0 1em;
     }
     
     .post-core ul {
-	font-size: 20px;
+	font-size: 22px;
 	margin: 1em;
 	padding: 0 1em;
     }
@@ -257,11 +256,11 @@
     }
 
     .post-core .MJX-TEX {
-	font-size: 23px;
+	font-size: 24px;
     }
 
     .post-core code:not(.hljs) {
-	font-size: 15px !important;
+	font-size: 16px !important;
     }
     
     .post-core code.hljs {
@@ -274,7 +273,7 @@
 	margin: unset;
     }
     .post-core table {
-	font-size: 20px;
+	font-size: 22px;
 	max-width: 80%;
 	min-width: 50%;
     }

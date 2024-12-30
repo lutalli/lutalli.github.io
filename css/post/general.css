@@ -1,7 +1,7 @@
 body {
     background: #141414;
     color: #fefefe;
-    font-family: "Space Grotesk", "Noto Sans SC", sans-serif;
+    font-family: "Exo 2", "Noto Sans SC", sans-serif;
     margin: 0;
 }
 
@@ -19,7 +19,7 @@ h1 a, h2 a, h3 a {
 }
 
 code {
-    font-family: "Ubuntu Mono", "Source Code Pro", "JetBrains Mono", "Monaco", monospace !important;
+    font-family: "Source Code Pro", "JetBrains Mono", "Monaco", "Ubuntu Mono", monospace !important;
 }
 
 .fraktur {
@@ -42,16 +42,21 @@ code {
 
 .post-limbo h1 {
     color: #999;
-    font-size: 30px; /* mobile */
+    font-size: 34px; /* mobile */
     margin-top: 10px; /* mobile */
     margin-bottom: 5px;
 }
 
 .post-limbo p {
+    display: block; /* mobile */
     color: #555586;
     font-size: 18px; /* mobile */
     margin-top: 0px;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
+}
+
+.post-limbo-separator {
+    display: none !important; /* mobile */
 }
 
 @media only screen and (min-width: 700px) {
@@ -65,11 +70,21 @@ code {
     }
 
     .post-limbo h1 {
-	font-size: 40px;
+	font-size: 38px;
 	margin-top: 20px;
     }
 
     .post-limbo p {
 	font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .post-limbo p {
+	display: inline-block;
+    }
+
+    .post-limbo-separator {
+	display: inline-block !important;
     }
 }
