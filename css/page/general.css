@@ -100,11 +100,11 @@ li {
     width: fit-content;
 }
 
-.remarked-website-categories {
+.bookmarked-website-categories {
     margin: auto;
 }
 
-.remarked-website-categories th {
+.bookmarked-website-categories th {
     text-align: center;
     font-size: 34px;
     font-weight: 600;
@@ -112,7 +112,7 @@ li {
     width: 80px;
 }
 
-.remarked-website-categories a {
+.bookmarked-website-categories a {
     color: #eee;
 }
 

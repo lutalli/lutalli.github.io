@@ -2,11 +2,11 @@
 layout: page
 ---
 <div class="trunk">
-    <ul class="media-logs" id="ul-remarked-websites">
+    <ul class="media-logs" id="ul-bookmarked-websites">
     </ul>
 </div>
 <script type="module">
     import { synthesize } from "/js/polymerase.js";
 
-    $(document).ready(() => synthesize.remarkedWebsites("{{ page.RW_category }}"));
+    $(document).ready(() => synthesize.bookmarkedWebsites("{{ page.RW_category }}"));
 </script>

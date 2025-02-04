@@ -1,4 +1,4 @@
-const remarkedWebsiteColors = {
+const bookmarkedWebsiteColors = {
     "epsilon": "#6cf",
     "iota": "#9f9",
     "beta": "#6ff",
@@ -18,11 +18,11 @@ const AMLVColors = {
 };
 
 class synthesize {
-    static remarkedWebsites(category) {
-	fetch(`/db/remarked-websites/${category}.json`)
+    static bookmarkedWebsites(category) {
+	fetch(`/db/bookmarked-websites/${category}.json`)
 	    .then((resp) => resp.json())
 	    .then((json) => json.forEach((site) => {
-		$("#ul-remarked-websites").append(`<li><a href="${site["link"]}" style="color: ${remarkedWebsiteColors[category]};">${site["title"]}</a></li>\n`);
+		$("#ul-bookmarked-websites").append(`<li><a href="${site["link"]}" style="color: ${bookmarkedWebsiteColors[category]};">${site["title"]}</a></li>\n`);
 	    }));
     }
 
