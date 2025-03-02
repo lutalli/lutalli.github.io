@@ -108,12 +108,12 @@ References table:
 
 <table class="ref-table">
     <tr>
-	<th>[Ref1]</th>
-	<td>Content Content Content Content Content Content</td>
+        <th>[Ref1]</th>
+        <td>Content Content Content Content Content Content</td>
     </tr>
     <tr>
-	<th>[R]</th>
-	<td>Content Content Content Content Content Content Content Content Content </td>
+        <th>[R]</th>
+        <td>Content Content Content Content Content Content Content Content Content </td>
     </tr>
 </table>
 
