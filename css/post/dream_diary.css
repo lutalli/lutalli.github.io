@@ -1,0 +1,40 @@
+.post-core dr-t {
+    color: #999;
+}
+
+.post-core dr-tt {
+    color: #555;
+}
+
+.post-core dr-persp::before {
+    content: "⊙ ";
+}
+
+.post-core dr-recog::before {
+    content: "❮"
+}
+
+.post-core dr-recog::after {
+    content: "❯"
+}
+
+.post-core dr-think {
+    border-bottom: dotted 4px;
+}
+
+.post-core dr-ref::before {
+    content: "➔ ";
+}
+
+.post-core dr-comm::before {
+    content: "✜ ";
+}
+
+.post-core dr-contra::after {
+    content: "✸";
+}
+
+.post-core dr-fog::before {
+    content: "▒▒";
+}
+
