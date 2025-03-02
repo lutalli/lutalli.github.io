@@ -1,41 +1,52 @@
 ---
 layout: post
-title: This is a Test Blog
-updated: 2024-11-04
+title: Post CSS Exhibition
+updated: 2025-03-02
 categories: meta
 ---
-# H1 Test
+
+### Body Text
 
 Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text
 
 Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text
 
-## H2 Test
+# H1 Heading
 
-Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text
+Text text text text text text text text text text text text text
 
-### H3 Test
+## H2 Heading
 
-Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text
+Text text text text text text text text text text text text text
+
+### H3 Heading
+
+Text text text text text text text text text text text text text
+
+### Text Formatting
 
 *Italic text* **Bold text** ***Bold italic text***
+
+### Quotes
 
 > Quotes text Quotes text Quotes text Quotes text Quotes text Quotes text Quotes text Quotes text Quotes text Quotes text Quotes text Quotes text Quotes text
 >> Nested quotes text Nested quotes text Nested quotes text Nested quotes text Nested quotes text Nested quotes text Nested quotes text Nested quotes text
 
-Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text
+### Lists
+
+Text text text text text text text text text text text text text
 
 1. Simple
 2. Ordered
 3. List
 
-Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text
+Text text text text text text text text text text text text text
 
 - Causal
 - Unordered
 - List
 
-Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text
+Text text text text text text text text text text text text text
 
 1. Ordered
 2. List
@@ -48,14 +59,13 @@ Body text Body text Body text Body text Body text Body text Body text Body text 
     - Nested
 5. Lists
 
-### Horizontal rule
+### Horizontal Rules
 
 ---
 
 ### Links
-Link in body text: [Hydra](https://en.wikipedia.org/wiki/Hydra_(genus))
 
-> Link in quotes: [Voynich manuscript](https://en.wikipedia.org/wiki/Voynich_manuscript)
+Hydra hydra [hydra](https://en.wikipedia.org/wiki/Hydra_(genus)) hydra hydra hydra hydra hydra hydra
 
 ### TeX equations
 
@@ -67,11 +77,11 @@ $$ \sum_{n=1}^\infty\frac{1}{n^2} = \zeta(2) = \frac{\pi^2}{6} $$
 
 $$ \det A = \begin{vmatrix} a & c \\ b & d \end{vmatrix} = ad - bc $$
 
-### Codes
+### Code
 
-Inline code piece: `System.Math.Log10(double)`
+Inline code pieces: `System.Math.Log10(double)`
 
-Code block:
+Biggy code blocks:
 
 ```javascript
 const similar = "oO08 iIlL1 g9qCGQ"
@@ -101,10 +111,10 @@ window.toggleFavorite = (alias) => {
 
 | Item | Item Item Item Item Item Item Item Item |
 | :--- | :--- |
-| Item2 Item2 Item2 | Item2 Item2 Item2 |
-| Item3 Item3 | Item3 Item3 Item3 Item3 Item3 |
+| Item Item Item | Item Item Item |
+| Item Item | Item Item Item Item Item |
 
-References table:
+References tables:
 
 <table class="ref-table">
     <tr>
@@ -122,8 +132,8 @@ References table:
 Text text text text text text text text text text text text text
 
 <figure>
-    <img src="/res/TestBlog/Otonashi_Ayana.webp" alt="Otonashi Ayana" width="60%" />
-    <figcaption>Otonashi Ayana (image caption)</figcaption>
+    <img src="/res/CSSExhibition/otonashi_ayana.png" alt="Otonashi Ayana" width="60%" />
+    <figcaption>Otonashi Ayana<br />(Image Caption)</figcaption>
 </figure>
 
 Text text text text text text text text text text text text text
