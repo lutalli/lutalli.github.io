@@ -36,7 +36,7 @@
     border-right: 4px #343455 solid;
     color: #ccc;
     margin: 10px 0;
-    padding: 0.8em 1.4em; /* mobile */
+    padding: 1em 1.8em; /* mobile */
 }
 
 .post-core blockquote > p {
@@ -227,7 +227,7 @@
     }
 
     .post-core blockquote {
-	padding: 1em 1.4em;
+	padding: 1.5em 2.4em;
     }
 
     .post-core ol {
