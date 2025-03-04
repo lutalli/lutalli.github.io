@@ -123,6 +123,10 @@
     padding: 1.3em !important; /* mobile */
 }
 
+.post-core code.hljs.language-txt {
+    white-space: pre-wrap;
+}
+
 .post-core .date-mark {
     color: #ccc !important;
     display: block; /* mobile */
