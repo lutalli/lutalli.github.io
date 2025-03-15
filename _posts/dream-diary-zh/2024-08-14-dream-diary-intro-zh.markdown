@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于梦日记
-updated: 2024-11-05
+updated: 2025-03-03
 categories: dream
 tags: zh
 ---
