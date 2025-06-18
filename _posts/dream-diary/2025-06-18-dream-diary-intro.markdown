@@ -62,11 +62,11 @@ The following notation system is used to support these goals.
     </tr>
     <tr>
         <td style="text-align: center;"><dr-persp>text</dr-persp></td>
-        <td style="text-align: left;">Perspective.<br /><dr-t><dr-persp>game</dr-persp></dr-t> does not mean "I was playing a game at computer", rather "only the screen of a game was present in the dream" - there was no computer or someone explicitly using the computer (if there were, I would say so). It is as if the game was in fullscreen mode in the dream and the concept of "I" was fused into the game.</td>
+        <td style="text-align: left;">Perspective.<br />For example, <dr-t><dr-persp>game</dr-persp></dr-t> does not mean "I was playing a game at computer", rather "only the screen of a game was present in the dream" - there was no computer or someone explicitly using the computer (if there were, I would say so). It is as if the game was in fullscreen mode in the dream and the concept of "I" was fused into the game.</td>
     </tr>
     <tr>
         <td style="text-align: center;"><dr-recog>text</dr-recog></td>
-        <td style="text-align: left;">Fuzzy recognition.<br />Most of the narrative describes what I clearly recognized (which I would call a <em>direct recognition</em>). In contrast, fuzzy recognition captures impressions that felt familiar but weren't fully identifiable.<br /><dr-recog>cat</dr-recog> means something that gave me the feeling of a cat but I wouldn't say <em>was</em> a cat.</td>
+        <td style="text-align: left;">Fuzzy recognition.<br />Most of the narrative describes what I clearly recognized (which I would call a <em>direct recognition</em>). In contrast, fuzzy recognition captures impressions that felt familiar but weren't fully identifiable.<br />For example, <dr-recog>cat</dr-recog> means something that gave me the feeling of a cat but I wouldn't say <em>was</em> a cat.</td>
     </tr>
     <tr>
         <td style="text-align: center;"><dr-think>text</dr-think></td>
