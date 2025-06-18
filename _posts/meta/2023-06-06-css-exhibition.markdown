@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Post CSS Exhibition
-updated: 2025-03-02
+title: CSS Exhibition
+updated: 2025-06-18
 categories: meta
 ---
 
