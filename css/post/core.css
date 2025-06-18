@@ -45,16 +45,16 @@
 
 .post-core ol {
     font-size: 20px; /* mobile */
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
     padding: 0 0 0 1.2em; /* mobile */
 }
 
 .post-core ul {
     font-size: 20px; /* mobile */
     line-height: 1.5;
-    margin-top: 0.25em;
-    margin-bottom: 0.25em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
     padding: 0 0 0 1.2em; /* mobile */
 }
 
