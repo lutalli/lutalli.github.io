@@ -19,7 +19,7 @@
 }
 
 .post-core dr-think {
-    border-bottom: dotted 4px;
+    border-bottom: dotted 4px #999;
 }
 
 .post-core dr-ref::before {
