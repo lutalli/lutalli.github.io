@@ -1,7 +1,7 @@
 body {
     background-color: var(--col-b-2);
     color: var(--col-t-3);
-    font-family: "Exo 2", "Noto Sans SC", sans-serif;
+    font-family: "Exo 2", sans-serif;
     margin: 0;
 }
 
