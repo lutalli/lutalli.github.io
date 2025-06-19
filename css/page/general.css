@@ -52,7 +52,7 @@ li {
 }
 
 .mono {
-    font-family: "Source Code Pro", "JetBrains Mono", "Monaco", "Ubuntu Mono", monospace !important;
+    font-family: "Lekton";
 }
 
 .fraktur {
@@ -126,6 +126,13 @@ li {
 .media-logs li {
     padding-left: 0;
     margin-bottom: 1.3em;
+}
+
+.color-showcase {
+    font-family: "Lekton";
+    font-size: 26px;
+    padding: 1em;
+    text-align: center;
 }
 
 @media only screen and (min-width: 700px) {
