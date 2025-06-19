@@ -115,14 +115,14 @@
     background: #242424;
     border-radius: 8px;
     color: var(--col-t-3);
-    font-size: 13px !important; /* mobile */
-    padding: 3px 8px;
+    font-size: 17px !important; /* mobile */
+    padding: 6px 10px;
 }
 
 .post-core code.hljs {
     background: var(--col-b-1);
     border-radius: 10px;
-    font-size: 15px !important; /* mobile */
+    font-size: 17px !important; /* mobile */
     padding: 1.3em !important; /* mobile */
 }
 
@@ -131,10 +131,7 @@
 }
 
 .post-core .date-mark {
-    color: var(--col-t-2) !important;
-    display: block; /* mobile */
-    margin-left: auto; /* mobile */
-    width: fit-content; /* mobile */
+    color: var(--col-t-1) !important;
 }
 
 .post-core table {
@@ -262,18 +259,17 @@
     }
 
     .post-core code:not(.hljs) {
-	font-size: 16px !important;
+	font-size: 19px !important;
     }
     
     .post-core code.hljs {
-	font-size: 16px !important;
+	font-size: 19px !important;
 	padding: 2em 3em !important;
     }
 
     .post-core .date-mark {
-	display: inline-block;
-	margin: unset;
     }
+
     .post-core table {
 	font-size: 22px;
 	max-width: 80%;

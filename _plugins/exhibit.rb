@@ -10,7 +10,7 @@ module Jekyll
 
     def render(context)
       post = context[@arg.strip]
-      date_mark = post['ignore_date'] ? '' : %( <code class="date-mark">#{post['date'].strftime('%b %d, %Y')}</code>)
+      date_mark = post['ignore_date'] ? '' : %( <span class="date-mark">/ #{post['date'].strftime('%b %d, %Y')}</span>)
 
       %(<a href=\"#{post['url']}\">#{post['title']}</a>#{date_mark})
     end
