@@ -66,8 +66,8 @@ tags: zh
         <td style="text-align: left;">模糊认知。<br />日记大部分描述的是我对事物的直接认知，而模糊认知描述的是给我熟悉感觉但无法完全辨认的印象。例如，<br /><dr-recog>猫</dr-recog> 指梦中一个给我「猫」的感受、但不能说「就是猫」的事物。</td>
     </tr>
     <tr>
-        <td style="text-align: center;"><dr-think>text</dr-think></td>
-        <td style="text-align: left;">心理活动。<br />用于<strong>句子</strong>：表示梦中内心的想法、认知，可以认为是「我想 ...」「我觉得 ...」「我以为 ...」的缩写。<br />用于<strong>词语</strong>：表示该词语携带着梦中的心理感受。<br />例如，<dr-think>竟然</dr-think> 可以表示梦中对某件事感到惊讶。</td>
+        <td style="text-align: center;"><dr-inner>text</dr-inner></td>
+        <td style="text-align: left;">心理活动。<br />用于<strong>句子</strong>：表示梦中内心的想法、认知，可以认为是「我想 ...」「我觉得 ...」「我以为 ...」的缩写。<br />用于<strong>词语</strong>：表示该词语携带着梦中的心理感受。<br />例如，<dr-inner>竟然</dr-inner> 可以表示梦中对某件事感到惊讶。</td>
     </tr>
     <tr>
         <td style="text-align: center;"><blockquote>text</blockquote></td>

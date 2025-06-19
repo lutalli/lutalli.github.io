@@ -18,7 +18,7 @@
     content: "❯"
 }
 
-.post-core dr-think {
+.post-core dr-inner {
     border-bottom: dotted 4px var(--col-t-1);
 }
 

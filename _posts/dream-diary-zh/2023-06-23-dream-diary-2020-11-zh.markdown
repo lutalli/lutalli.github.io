@@ -9,7 +9,7 @@ tags: zh diary
 
 ### A-1
 
-我和妈妈、表姐等人在<dr-recog>面包店</dr-recog>购物。德语的写作考试开始了。我需要写语文老师布置的作文。我根据漫画《[少女终末旅行](https://zh.wikipedia.org/zh-cn/%E5%B0%91%E5%A5%B3%E7%B5%82%E6%9C%AB%E6%97%85%E8%A1%8C)》的《生命》一章，开始写一篇叫「生命是什么」的作文。<dr-think>这是德语考试。</dr-think>我划掉全文。考试时间还剩下 4 秒 <dr-t>慌张</dr-t>。
+我和妈妈、表姐等人在<dr-recog>面包店</dr-recog>购物。德语的写作考试开始了。我需要写语文老师布置的作文。我根据漫画《[少女终末旅行](https://zh.wikipedia.org/zh-cn/%E5%B0%91%E5%A5%B3%E7%B5%82%E6%9C%AB%E6%97%85%E8%A1%8C)》的《生命》一章，开始写一篇叫「生命是什么」的作文。<dr-inner>这是德语考试。</dr-inner>我划掉全文。考试时间还剩下 4 秒 <dr-t>慌张</dr-t>。
 
 ### A-2
 
@@ -21,11 +21,11 @@ tags: zh diary
 
 ## 2020 年 11 月 08 日
 
-我仔细拉好了蚊帐。<dr-think>可是</dr-think>蚊帐的左右两侧各有一个破洞。
+我仔细拉好了蚊帐。<dr-inner>可是</dr-inner>蚊帐的左右两侧各有一个破洞。
 
 ## 2020 年 11 月 31 日
 
-&#8203;<dr-t><dr-persp>卧室内在窗前朝外看</dr-persp></dr-t> <dr-tt>昏暗的天空</dr-tt> <dr-t>绯黑色</dr-t> 一只可怕的昆虫飞过来。我用红色激光笔照射它，它的体表出现灼伤，体型变大，形态改变。<dr-think>「诱导变异」。</dr-think> 昆虫飞入卧室，血液洒满了地面。它<dr-think>还未</dr-think>飞走，我<dr-think>就</dr-think>出了门。我回到房间，<dr-think>没有清理干净就出门是一种错误。</dr-think>床上出现了一些很小的虫子 <dr-t><dr-recog>刚孵化</dr-recog></dr-t>。床上出现了另一群奇形怪状、五颜六色的虫子。
+&#8203;<dr-t><dr-persp>卧室内在窗前朝外看</dr-persp></dr-t> <dr-tt>昏暗的天空</dr-tt> <dr-t>绯黑色</dr-t> 一只可怕的昆虫飞过来。我用红色激光笔照射它，它的体表出现灼伤，体型变大，形态改变。<dr-inner>「诱导变异」。</dr-inner> 昆虫飞入卧室，血液洒满了地面。它<dr-inner>还未</dr-inner>飞走，我<dr-inner>就</dr-inner>出了门。我回到房间，<dr-inner>没有清理干净就出门是一种错误。</dr-inner>床上出现了一些很小的虫子 <dr-t><dr-recog>刚孵化</dr-recog></dr-t>。床上出现了另一群奇形怪状、五颜六色的虫子。
 
 &#8203;<dr-t><dr-comm>梦中和醒后都没有觉得这些虫子恶心。虫子模糊的形象具有艺术性。</dr-comm></dr-t>
 

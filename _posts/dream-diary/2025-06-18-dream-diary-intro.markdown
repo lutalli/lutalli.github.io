@@ -69,8 +69,8 @@ The following notation system is used to support these goals.
         <td style="text-align: left;">Fuzzy recognition.<br />Most of the narrative describes what I clearly recognized (which I would call a <em>direct recognition</em>). In contrast, fuzzy recognition captures impressions that felt familiar but weren't fully identifiable.<br />For example, <dr-recog>cat</dr-recog> means something that gave me the feeling of a cat but I wouldn't say <em>was</em> a cat.</td>
     </tr>
     <tr>
-        <td style="text-align: center;"><dr-think>text</dr-think></td>
-        <td style="text-align: left;">Inner experience.<br />When applied to a <em>sentence</em>: Indicates a thought process, perception, or assumption. It can be considered as a shorthand for expressions like "I think ..." or "I assume ...".<br />When applied to a <em>word</em>: Suggests that the word carries an inner feeling in the dream. For example, <dr-think>however</dr-think> may reflect a feeling that something was unexpected or illogical.</td>
+        <td style="text-align: center;"><dr-inner>text</dr-inner></td>
+        <td style="text-align: left;">Inner experience.<br />When applied to a <em>sentence</em>: Indicates a thought process, perception, or assumption. It can be considered as a shorthand for expressions like "I think ..." or "I assume ...".<br />When applied to a <em>word</em>: Suggests that the word carries an inner feeling in the dream. For example, <dr-inner>however</dr-inner> may reflect a feeling that something was unexpected or illogical.</td>
     </tr>
     <tr>
         <td style="text-align: center;"><blockquote>text</blockquote></td>
