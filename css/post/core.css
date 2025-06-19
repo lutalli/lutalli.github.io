@@ -1,7 +1,3 @@
-.post-core {
-    color: #ddd;
-}
-
 .post-core h1 {
     font-size: 34px; /* mobile */
     margin-top: 2em; /* mobile */
@@ -30,11 +26,17 @@
     font-weight: 700;
 }
 
+.post-core h1 a,
+.post-core h2 a,
+.post-core h3 a {
+    color: var(--col-t-2) !important;
+}
+
 .post-core blockquote {
-    background-color: #191919;
+    background-color: var(--col-b-3);
     border-left: 4px #343455 solid;
     border-right: 4px #343455 solid;
-    color: #ccc;
+    color: var(--col-t-3);
     margin: 10px 0;
     padding: 1em 1.8em; /* mobile */
 }
@@ -59,7 +61,7 @@
 }
 
 .post-core li::marker {
-    color: #6f70b9;
+    color: var(--col-s-2);
 }
 
 .post-core li {
@@ -83,13 +85,13 @@
 }
 
 .post-core hr {
-    border: 1px #6f70b9 solid;
+    border: 1px var(--col-s-1) solid;
     width: 90%; /* mobile */
     margin: 50px auto; /* mobile */
 }
 
 .post-core a {
-    color: #6f70b9;
+    color: var(--col-s-2);
 }
 
 .post-core .MathJax {
@@ -106,19 +108,19 @@
 
 .post-core qed {
     float: right;
-    color: #8070a4;
+    color: var(--col-s-2);
 }
 
 .post-core code:not(.hljs) {
     background: #242424;
     border-radius: 8px;
-    color: #ddd;
+    color: var(--col-t-3);
     font-size: 13px !important; /* mobile */
     padding: 3px 8px;
 }
 
 .post-core code.hljs {
-    background: #101010;
+    background: var(--col-b-1);
     border-radius: 10px;
     font-size: 15px !important; /* mobile */
     padding: 1.3em !important; /* mobile */
@@ -129,14 +131,14 @@
 }
 
 .post-core .date-mark {
-    color: #ccc !important;
+    color: var(--col-t-2) !important;
     display: block; /* mobile */
     margin-left: auto; /* mobile */
     width: fit-content; /* mobile */
 }
 
 .post-core table {
-    background: #101010;
+    background: var(--col-b-1);
     border-collapse: collapse;
     font-size: 18px; /* mobile */
     line-height: 1.5;
@@ -148,7 +150,7 @@
 .post-core tr,
 .post-core th,
 .post-core td {
-    border: 2px #343453 solid;
+    border: 2px var(--col-s-1) solid;
 }
 
 .post-core th,
@@ -201,10 +203,10 @@
 }
 
 .post-core figcaption {
+    color: var(--col-t-2);
     font-size: 14px; /* mobile */
     margin-top: 4px;
     margin-bottom: 4px;
-    opacity: 0.8;
     text-align: center;
 }
 

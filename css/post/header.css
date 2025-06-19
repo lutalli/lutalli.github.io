@@ -1,6 +1,6 @@
 header {
-    background-color: #101010;
-    color: #eee;
+    background-color: var(--col-b-1);
+    color: var(--col-t-3);
     font-family: "Exo 2";
     margin-top: 0;
     padding: 24px 0;
@@ -22,11 +22,11 @@ header {
 }
 
 #header-core-left a {
-    color: #eee;
+    color: var(--col-t-2);
 }
 
 #header-core-right a {
-    color: #ddd;
+    color: var(--col-t-2);
 }
 
 #header-core-right {

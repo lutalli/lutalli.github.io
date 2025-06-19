@@ -1,9 +1,9 @@
 .post-core dr-t {
-    color: #999;
+    color: var(--col-t-2);
 }
 
 .post-core dr-tt {
-    color: #555;
+    color: var(--col-t-3);
 }
 
 .post-core dr-persp::before {
@@ -19,7 +19,7 @@
 }
 
 .post-core dr-think {
-    border-bottom: dotted 4px #999;
+    border-bottom: dotted 4px var(--col-t-1);
 }
 
 .post-core dr-ref::before {

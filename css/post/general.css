@@ -1,6 +1,6 @@
 body {
-    background: #141414;
-    color: #fefefe;
+    background-color: var(--col-b-2);
+    color: var(--col-t-3);
     font-family: "Exo 2", "Noto Sans SC", sans-serif;
     margin: 0;
 }
@@ -12,10 +12,6 @@ a {
 
 a:hover {
     opacity: 65% !important;
-}
-
-h1 a, h2 a, h3 a {
-    color: #ddd !important;
 }
 
 code {
@@ -31,7 +27,7 @@ code {
 }
 
 .post-shell {
-    color: #ddd;
+    color: var(--col-t-3);
     margin: 40px auto 20px auto; /* mobile */
     width: 80%; /* mobile */
 }
@@ -41,7 +37,7 @@ code {
 }
 
 .post-limbo h1 {
-    color: #999;
+    color: var(--col-t-1);
     font-size: 34px; /* mobile */
     margin-top: 10px; /* mobile */
     margin-bottom: 5px;
@@ -49,7 +45,7 @@ code {
 
 .post-limbo p {
     display: block; /* mobile */
-    color: #555586;
+    color: var(--col-s-1);
     font-size: 18px; /* mobile */
     margin-top: 0px;
     margin-bottom: 0px;
