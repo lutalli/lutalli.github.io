@@ -2,8 +2,8 @@
 layout: post
 title: 关于梦日记
 updated: 2025-06-18
-categories: dream
-tags: zh
+categories: dream-diary-zh
+plankton: true
 ---
 ## 内容
 

@@ -2,8 +2,7 @@
 layout: post
 title: 2021 年 04 月梦
 updated: 2025-03-02
-categories: dream
-tags: zh diary
+categories: dream-diary-zh
 ---
 ## 2021 年 04 月 03 日
 

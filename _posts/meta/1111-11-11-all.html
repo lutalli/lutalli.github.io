@@ -6,38 +6,35 @@ ignore_date: true
 permalink: /post/:title/
 ---
 
-{% assign CATES = "math, art, dream, misc, meta" | split: ", " %}
-{% assign CATES_DISP = "Mathematics, Art, Dream Diary, Miscellaneous, Meta" | split: ", " %}
+{% assign CATES = "math, math-diary, art, dream-diary, dream-diary-zh, misc, meta" | split: ", " %}
+{% assign CATES_DISP = "Mathematics, Math Diary, Art, Dream Diary, Dream Diary (ZH), Miscellaneous, Meta" | split: ", " %}
 
 {% for cate in CATES %}
 
-{% assign cate_disp = CATES_DISP[forloop.index0] %}
-{% assign en_posts = site.categories[cate] | without_tag: "zh" %}
-{% assign zh_posts = site.categories[cate] | with_tag: "zh" %}
-{% assign zh_exists = 0 %}
-{% if zh_posts != empty %}
-    {% assign zh_exists = 1 %}
-{% endif %}
+    {% assign cate_disp = CATES_DISP[forloop.index0] %}
 
-{% for rendering_zh in (0 .. zh_exists) %}
+    <h2>{{ cate_disp }}</h2>
 
-    {% if rendering_zh == 1 %}
-	{% assign posts = zh_posts %}
-	<h2>{{ cate_disp }} <sup>ZH</sup></h2>
-    {% else %}
-	{% assign posts = en_posts %}
-	<h2>{{ cate_disp }}</h2>
-    {% endif %}
+    {% assign posts = site.categories[cate] %}
 
-    {% if cate == "dream" %}
-	{% assign diaries = posts | with_tag: "diary" %}
-	{% assign outers = posts | without_tag: "diary" %}
+    {% if cate contains "-diary" %}
+	{% assign diaries = posts | reject: "plankton", true %}
+	{% assign plankters = posts | where: "plankton", true %}
 	<ul class="bulletless">
-	    {% for outer in outers %}
-		{% exhibit outer %}
+	    {% for plankter in plankters %}
+		{% exhibit plankter %}
 	    {% endfor %}
 	</ul>
-	{% for year in (2020 .. 2024) reversed %}
+	{% if cate == "dream-diary" %}
+	    {% continue %}
+	{% elsif cate == "dream-diary-zh" %}
+	    {% assign year_start = 2020 %}
+	    {% assign year_end = 2021 %}
+	{% elsif cate == "math-diary" %}
+	    {% assign year_start = 2025 %}
+	    {% assign year_end = 2025 %}
+	{% endif %}
+	{% for year in (year_start .. year_end) reversed %}
 	    {% assign year_disp = year | append: "" %}
 	    <h3>{{ year }}</h3>
 	    <ul class="bulletless diary-list">
@@ -71,7 +68,5 @@ permalink: /post/:title/
 	    {% endif %}
 	</ul>
     {% endif %}
-
-{% endfor %}
 
 {% endfor %}

@@ -2,7 +2,8 @@
 layout: post
 title: About Dream Diary
 updated: 2025-06-18
-categories: dream
+categories: dream-diary
+plankton: true
 ---
 ## What it is about
 
