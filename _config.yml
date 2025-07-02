@@ -6,6 +6,8 @@ description:
 baseurl: "" 
 url: "" 
 
+permalink: /:categories/:title
+
 plugins:
   - jekyll-feed
 
