@@ -1,20 +1,20 @@
 ---
 layout: post
 title: 2020 年 11 月梦
-updated: 2025-03-02
+updated: 2025-07-24
 categories: dream-diary-zh
 ---
 ## 2020 年 11 月 04 日
 
-### A-1
+### I-1
 
-我和妈妈、表姐等人在<dr-recog>面包店</dr-recog>购物。德语的写作考试开始了。我需要写语文老师布置的作文。我根据漫画《[少女终末旅行](https://zh.wikipedia.org/zh-cn/%E5%B0%91%E5%A5%B3%E7%B5%82%E6%9C%AB%E6%97%85%E8%A1%8C)》的《生命》一章，开始写一篇叫「生命是什么」的作文。<dr-inner>这是德语考试。</dr-inner>我划掉全文。考试时间还剩下 4 秒 <dr-t>慌张</dr-t>。
+我和妈妈、表姐（Π-6）等人在<dr-recog>面包店</dr-recog>购物。德语的写作考试开始了。我需要写语文老师（Π-2）布置的作文。我根据漫画《[少女终末旅行](https://zh.wikipedia.org/zh-cn/%E5%B0%91%E5%A5%B3%E7%B5%82%E6%9C%AB%E6%97%85%E8%A1%8C)》的《生命》一章，开始写一篇叫「生命是什么」的作文。<dr-inner>这是德语考试。</dr-inner>我划掉全文。考试时间还剩下 4 秒 <dr-t>慌张</dr-t>。
 
-### A-2
+### I-2
 
 「接近第一人称的某人」与「<dr-fog />的某人」在五楼的「会议室」里讨论什么。
 
-### B
+### II
 
 &#8203;<dr-t><dr-persp>第三人称</dr-persp></dr-t> <dr-tt>生不如死</dr-tt> 我在发烧。
 

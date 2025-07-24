@@ -11,11 +11,11 @@
 }
 
 .post-core dr-recog::before {
-    content: "❮"
+    content: "[ "
 }
 
 .post-core dr-recog::after {
-    content: "❯"
+    content: " ]"
 }
 
 .post-core dr-inner {
@@ -36,5 +36,9 @@
 
 .post-core dr-fog::before {
     content: "▒▒";
+}
+
+.post-core dr-def::before {
+    content: ":= "
 }
 

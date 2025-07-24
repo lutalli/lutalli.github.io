@@ -22,7 +22,7 @@ After waking up from a sleep session, once I decide to record a dream, I will fi
 
 Many such drafts have been piled up in the past several years. Though, due to procrastination, most of them haven't been edited yet. That's why only a few dreams are currently present on the website.
 
-The dream diary is published in monthly bundles. Individual dreams from the same sleep session are labeled chronologically using capital latin letters: **A**, **B**, **C** and so on. The date assigned to a sleep session is the date on which the sleep session *ended*. Sometimes a dream is divided into several sections, which are further labeled with Arabic numerals, e.g. **B-1**, **B-2**, **B-3**.
+The dream diary is published in monthly bundles. Individual dreams from the same sleep session are labeled chronologically using Roman numerals: **I**, **II**, **III** and so on. The date assigned to a sleep session is the date on which the sleep session *ended*. Sometimes a dream is divided into several sections, which are further labeled with Arabic numerals, e.g. **II-1**, **II-2**, **III-3**.
 
 > The *dreams* from a sleep session are stories that are clearly disconnected from one another. The discontinuity may result from sleep phases that have no dreams or gaps in memory. The *sections* indicate brief skips within the same dream.
 
@@ -93,6 +93,18 @@ The following notation system is used to support these goals.
         <td style="text-align: center;"><dr-contra /></td>
         <td style="text-align: left;">Highlights a contradiction in the dream.</td>
     </tr>
+    <tr>
+        <td style="text-align: center;"><dr-def>text</dr-def></td>
+        <td style="text-align: left;">Define a temporary placeholder (mostly for a character).</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">Π-$n$</td>
+        <td style="text-align: left;">Global placeholder for a real-world individual (see below).</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">Λ-$n$</td>
+        <td style="text-align: left;">Global placeholder for a real-world location (see below).</td>
+    </tr>
 </table>
 
 <table class="ref-table">
@@ -102,4 +114,36 @@ The following notation system is used to support these goals.
     </tr>
 </table>
 
+## Real-World Individuals and Locations
 
+Throughout the diary, "Π-$n$" refers to real-world individuals and "Λ-$n$" refers to real-world locations. This system is introduced for several reasons:
+
+- Some people and places appear repeatedly in the dreams;
+- Sometimes I want to indicate the real-world connection without giving too many details;
+- It allows the reader to recognize when the same real-world person or location appeared across different dreams.
+
+The following are the real-world individuals that have been assigned such placeholders so far:
+
+| Placeholder | Individual |
+| :-: | :-- |
+| Π-1 | A friend of mine. |
+| Π-2 | A Chinese teacher of mine. |
+| Π-3 | An aunt of mine. |
+| Π-4 | The daughter of Π-3. |
+| Π-5 | A chemistry teacher of mine. |
+| Π-6 | A sister-in-law of mine. |
+| Π-7 | A colleague of my mom. |
+
+The following are the real-world locations that have been assigned such placeholders so far:
+
+| Placeholder | Location |
+| :-: | :-- |
+| Λ-1 | A school. |
+| Λ-2 | A classroom in Λ-1. |
+| Λ-3 | A classroom in Λ-1. |
+| Λ-4 | A school. |
+| Λ-5 | A dorm in Λ-1. |
+| Λ-6 | A lecture hall in Λ-1. |
+| Λ-7 | An Art classroom in Λ-1. |
+| Λ-8 | My grandpa and grandma's house. |
+| Λ-9 | My mom's studio in the past. |

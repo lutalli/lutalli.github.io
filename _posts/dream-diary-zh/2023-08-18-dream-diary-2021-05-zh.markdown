@@ -1,16 +1,16 @@
 ---
 layout: post
 title: 2021 年 05 月梦
-updated: 2025-03-02
+updated: 2025-07-24
 categories: dream-diary-zh
 ---
 ## 2021 年 5 月 5 日
 
-### A
+### I
 
-&#8203;<dr-t>宿舍</dr-t> <dr-tt>昏暗</dr-tt> 我养了一只白猫。
+&#8203;<dr-t>宿舍（Λ-2 / Λ-3）</dr-t> <dr-tt>昏暗</dr-tt> 我养了一只白猫。
 
-### B
+### II
 
 &#8203;<dr-t>公交车站</dr-t> <dr-tt>长凳</dr-tt> <dr-t>广告牌</dr-t> 几个人在等车。我手里有一支枪。我朝别处开了一枪——<dr-inner>似乎是个机会</dr-inner>——<dr-inner>立马</dr-inner>朝自己右太阳穴开了一枪。我的头部破裂、流血，没有疼痛感。<dr-t>意识模糊</dr-t> 旁人看向我。眼前越来越亮。<dr-inner>这就是死亡。</dr-inner>我到达了「死后之地」。
 
@@ -18,7 +18,7 @@ categories: dream-diary-zh
 
 ## 2021 年 5 月 15 日
 
-我已经死过一次 <dr-t><dr-comm>应该与<a href="/dream/2023/08/18/dream-diary-2021-05-zh.html#b">梦境 2021-05-05-B</a>无关</dr-comm></dr-t>。复活，时间线重置。我的记忆没有被清除，所以我知道接下来会发生的事。一个女孩 <dr-t><dr-comm>下文称为 H</dr-comm></dr-t>，粉头发，身高较矮，背着一个包 <dr-t><dr-ref><a href="https://zh.moegirl.org.cn/zh/%E5%8F%A4%E6%89%8B%E6%A2%A8%E8%8A%B1">古手梨花</a></dr-ref></dr-t>。根据对重置前时间线的记忆，我要和 H 走过一段路，然后爬上一座山。
+我已经死过一次 <dr-t><dr-comm>应该与<a href="/dream/2023/08/18/dream-diary-2021-05-zh.html#b">梦境 2021-05-05-B</a>无关</dr-comm></dr-t>。复活，时间线重置。我的记忆没有被清除，所以我知道接下来会发生的事。一个女孩 <dr-t><dr-def>H</dr-def></dr-t>，粉头发，身高较矮，背着一个包 <dr-t><dr-ref><a href="https://zh.moegirl.org.cn/zh/%E5%8F%A4%E6%89%8B%E6%A2%A8%E8%8A%B1">古手梨花</a></dr-ref></dr-t>。根据对重置前时间线的记忆，我要和 H 走过一段路，然后爬上一座山。
 
 &#8203;<dr-t>田野之间的石路</dr-t> 秋天的红、春天的青绿和亮白。我想拍下眼前暗红色的场景，<dr-inner>但是</dr-inner>我没有拍。一辆面包车挡住视角，H <dr-inner>早已</dr-inner>走到了面包车的后面。我向前赶，面包车里走出一个陌生人，声称「认识我」，问我「是不是<dr-fog />」。我敷衍道「关系太复杂了」，继续向前赶。流水、小溪，水两边是规整的石路 <dr-t><dr-recog>园林</dr-recog></dr-t>。<dr-t>枫树林内</dr-t> 头顶上方的树梢围成一个近似圆形的缺口<dr-t><dr-ref>《<a href="https://zh.wikipedia.org/wiki/%E8%A7%81%E8%AF%81%E8%80%85">The Witness</a>》</dr-ref></dr-t>，从不同的角度看过去能看到不同的颜色。<dr-t>露天的长廊内</dr-t> 上方的颜色在不停变化。<dr-t><dr-persp>从远处看长廊</dr-persp></dr-t> 长廊的顶部排列着五彩斑斓的透明长方体 <dr-t><dr-recog>彩虹</dr-recog></dr-t>。H <dr-inner>也</dr-inner>想拍照，<dr-inner>但是</dr-inner>她把手机拿出来后<dr-inner>又</dr-inner>放了回去。
 
