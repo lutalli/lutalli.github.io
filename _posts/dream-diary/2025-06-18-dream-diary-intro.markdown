@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About Dream Diary
-updated: 2025-06-18
+updated: 2025-07-24
 categories: dream-diary
 plankton: true
 ---
