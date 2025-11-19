@@ -1,0 +1,8 @@
+title: Lutalli
+
+permalink: /:categories/:title
+
+plugins:
+  - jekyll-feed
+
+highlighter: none

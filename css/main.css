@@ -1,0 +1,49 @@
+body {
+    background-color: var(--col-x2);
+    color: var(--col-y0);
+    font-family: var(--font-main);
+    font-size: 0.8em; /* @ */
+    margin: 0;
+}
+
+a {
+    color: var(--col-y1);
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+a:hover {
+    opacity: 65% !important;
+}
+
+.panel {
+    background-color: var(--col-x0);
+    border-radius: 15px;
+    margin: 15px auto;
+    overflow: auto;
+    width: 90%; /* @ */
+}
+
+.panel > div {
+    margin: 20px; /* @ */
+}
+
+::selection {
+    background-color: var(--col-y1);
+    color: var(--col-x2);
+}
+
+@media only screen and (min-width: 700px) {
+    body {
+	font-size: 1.2em;
+    }
+
+    .panel {
+	width: 68%;
+    }
+
+    .panel > div {
+	margin: 30px 40px;
+    }
+}
+

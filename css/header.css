@@ -1,0 +1,16 @@
+#header-left {
+    display: inline-block;
+    font-family: var(--font-mono);
+}
+
+#header-right {
+    display: inline-block;
+    float: right;
+    font-family: var(--font-mono);
+}
+
+#header-right a:not(:last-child) {
+    display: inline-block;
+    margin-right: 1em;
+}
+

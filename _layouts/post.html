@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<link href="/css/variables.css" type="text/css" rel="stylesheet" />
+	<link href="/css/header.css" type="text/css" rel="stylesheet" />
+	<link href="/css/headline.css" type="text/css" rel="stylesheet" />
+	<link href="/css/content.css" type="text/css" rel="stylesheet" />
+	<link href="/css/main.css" type="text/css" rel="stylesheet" />
+
+        <link href="/res/favicon.ico" type="image/x-icon" rel="icon" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+	<script>
+	    MathJax = {
+		tex: {
+		    inlineMath: {"[+]": [["$", "$"]]}
+		},
+		output: {
+		    scale: 1.05
+		}
+	    }
+	</script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@catppuccin/highlightjs@1.0.1/css/catppuccin-mocha.css">
+	<script>hljs.highlightAll();</script>
+
+	<title>{{ page.title }} • {{ site.title }}</title>
+    </head>
+    <body>
+	<div id="space">
+	    <header>
+		<div class="panel">
+		    <div id="header-left"><a href="/">{{ site.title }}</a></div>
+		    <div id="header-right">
+			<a href="/posts/all">Posts</a>
+			<a href="/links">Links</a>
+			<a href="/about">About</a>
+		    </div>
+		</div>
+	    </header>
+	    <div class="panel">
+		<div class="headline">
+		    <h1>{{ page.title }}</h1>
+		    {% if page.categories contains "post" %}
+		    <p>🅟 {{ page.date | date: "%b %d, %Y" }}</p>
+		    <p>&ensp;</p>
+		    <p>🅤 {{ page.updated | date: "%b %d, %Y" }}</p>
+		    {% endif %}
+		</div>
+	    </div>
+	    <div class="panel">
+		{% unless page.empty %}
+		<div class="content">
+		    {{ content }}
+		</div>
+		{% endunless %}
+	    </div>
+	</div>
+    </body>
+</html>
+

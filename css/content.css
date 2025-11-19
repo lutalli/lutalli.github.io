@@ -1,0 +1,184 @@
+.content p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+.content h1 {
+    font-size: 1.8em;
+    margin-bottom: 0.8em;
+    margin-top: 1.3em;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.4em;
+    margin-top: 1.4em;
+}
+
+.content h3 {
+    font-size: 1.32em;
+    margin-bottom: 0.4em;
+    margin-top: 1.2em;
+}
+
+.content h1,
+.content h2,
+.content h3 {
+    color: var(--col-y1);
+}
+
+.content blockquote {
+    background-color: var(--col-x1);
+    border-bottom: 5px solid var(--col-x2);
+    border-radius: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.1em 1em;
+}
+
+.content ol,
+.content ul {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-left: 2.5em;
+}
+
+.content li > ol,
+.content li > ul {
+    font-size: 1em;
+}
+
+.content li {
+    padding-left: 0.3em;
+}
+
+.content ul ul,
+.content ul ol,
+.content ol ul,
+.content ol ol {
+    padding-left: 1.25em;
+}
+
+.content li::marker {
+    color: var(--col-y1);
+}
+
+.content ul > li::marker {
+    content: "🞴 ";
+}
+
+.content ul ul > li::marker,
+.content ol ul > li::marker {
+    content: "🞉 ";
+}
+
+.content ul ol,
+.content ol ol {
+    list-style-type: lower-alpha;
+}
+
+.content .post-listing a::after {
+    content: none;
+}
+
+.content hr {
+    border: 1px solid var(--col-x2);
+    border-radius: 2px;
+    margin-top: 2.7em;
+    margin-bottom: 2.7em;
+    width: 80%; /* @ */
+}
+
+.content a::after {
+    content: " ⮨";
+}
+
+.content mjx-container[display="true"] {
+    overflow: scroll initial;
+}
+
+.content :not(pre) code {
+    background-color: var(--col-x1);
+    border-bottom: 3px solid var(--col-x2);
+    border-radius: 5px;
+    font-family: var(--font-mono);
+    font-size: 0.8em;
+    padding: 0.3em 0.5em;
+}
+
+.content pre code {
+    background-color: var(--col-x1) !important;
+    border-bottom: 5px solid var(--col-x2);
+    border-radius: 5px;
+    font-family: var(--font-mono);
+    font-size: 0.8em;
+    overflow-x: scroll;
+    padding: 1em;
+}
+
+.content table {
+    border-collapse: collapse;
+    margin: 1em auto;
+    width: 100%; /* @ */
+}
+
+.content th,
+.content td {
+    border: 2px var(--col-x2) solid;
+    padding: 0.8em;
+}
+
+.content table.references th,
+.content table.references td {
+    border: none !important;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    vertical-align: top;
+}
+
+.content table.references th {
+    padding-left: 1em;
+    padding-right: 0.3em;
+    text-align: right;
+}
+
+.content table.references td {
+    padding-left: 0.3em;
+    padding-right: 0;
+}
+
+.content img {
+    display: block;
+    margin: 0.3em auto 0.3em auto;
+    max-width: 100%;
+}
+
+.content img.framed {
+    border: 2px solid var(--col-y1);
+    border-radius: 3px;
+}
+
+.content figcaption {
+    font-size: 0.85em;
+    text-align: center;
+}
+
+.content figure {
+    margin: 1.2em 0;
+}
+
+@media only screen and (min-width: 700px) {
+    .content hr {
+	width: 60%;
+    }
+
+    .content table:not(.references) {
+	max-width: 100%;
+	min-width: 60%;
+	width: fit-content;
+    }
+}
