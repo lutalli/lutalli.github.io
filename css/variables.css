@@ -5,7 +5,7 @@
     --col-y0: #cdd6f4;
     --col-y1: #b4befe;
 
-    --font-main: "Space Grotesk", sans-serif;
-    --font-mono: "Space Mono", monospace;
+    --font-main: "Space Grotesk", "Noto Sans Symbols", "Noto Sans Symbols 2", sans-serif;
+    --font-mono: "Space Mono", "Noto Sans Symbols", "Noto Sans Symbols 2", monospace;
 }
 

@@ -68,12 +68,12 @@
 }
 
 .content ul > li::marker {
-    content: "🞴 ";
+    content: "🞲 ";
 }
 
 .content ul ul > li::marker,
 .content ol ul > li::marker {
-    content: "🞉 ";
+    content: "🞇 ";
 }
 
 .content ul ol,
