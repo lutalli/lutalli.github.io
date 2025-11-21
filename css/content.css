@@ -68,12 +68,12 @@
 }
 
 .content ul > li::marker {
-    content: "🞲 ";
+    content: "# ";
 }
 
 .content ul ul > li::marker,
 .content ol ul > li::marker {
-    content: "🞇 ";
+    content: "> ";
 }
 
 .content ul ol,
@@ -94,7 +94,7 @@
 }
 
 .content a::after {
-    content: " ⮨";
+    content: " ↩";
 }
 
 .content mjx-container[display="true"] {
@@ -171,9 +171,15 @@
     margin: 1.2em 0;
 }
 
-qed {
+.content .math-qed {
     float: right;
     color: var(--col-y1);
+}
+
+.content .math-h {
+    color: var(--col-y1);
+    font-weight: bold;
+    margin-right: 0.8em;
 }
 
 @media only screen and (min-width: 700px) {
