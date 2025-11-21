@@ -171,6 +171,11 @@
     margin: 1.2em 0;
 }
 
+qed {
+    float: right;
+    color: var(--col-y1);
+}
+
 @media only screen and (min-width: 700px) {
     .content hr {
 	width: 60%;
