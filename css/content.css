@@ -103,11 +103,10 @@
 
 .content :not(pre) code {
     background-color: var(--col-x1);
-    border-bottom: 3px solid var(--col-x2);
-    border-radius: 5px;
+    border-radius: 7px;
     font-family: var(--font-mono);
     font-size: 0.8em;
-    padding: 0.3em 0.5em;
+    padding: 0.13em 0.5em;
 }
 
 .content pre code {
