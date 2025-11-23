@@ -2,7 +2,7 @@
 layout: post
 title: CSS Exhibition
 categories: post misc
-updated: 2025-11-19
+updated: 2025-11-22
 ---
 ## Body Text
 
@@ -112,7 +112,7 @@ window.toggleFavorite = (alias) => {
 | Item Item Item | Item Item Item |
 | Item Item | Item Item Item Item Item |
 
-### References Tables:
+### References
 
 <table class="references">
     <tr>
