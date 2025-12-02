@@ -4,7 +4,7 @@ title: Links
 ---
 [YouTube](https://www.youtube.com/@lutalli)
 
-[Phantosti (Tumblr)](https://phantosti.tumblr.com)
+[Phantosti](https://phantosti.tumblr.com) on Tumblr
 
-[Lutalli's Witness](https://lut-witness.tumblr.com)
+[Lutalli's Witness](https://lut-witness.tumblr.com) on Tumblr
 
