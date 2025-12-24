@@ -2,7 +2,7 @@
 layout: post
 title: Some Websites / Webpages I Liked
 categories: post misc
-updated: 2025-12-14
+updated: 2025-12-24
 ---
 - [skribbl.io](https://skribbl.io)
 - [YNO Project](https://ynoproject.net)
@@ -15,5 +15,6 @@ updated: 2025-12-14
 - [Photopea](https://www.photopea.com)
 - [dCode.fr](https://www.dcode.fr)
 - [ConwayLife.com](https://conwaylife.com)
+- [YTRoulette](https://ytroulette.com)
 - [Tips for mathematical handwriting](https://johnkerl.org/doc/ortho/ortho.html) by John Kerl
 
