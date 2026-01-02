@@ -2,7 +2,7 @@ body {
     background-color: var(--col-x2);
     color: var(--col-y0);
     font-family: var(--font-main);
-    font-size: 0.8em; /* @ */
+    font-size: 0.65em; /* @ */
     margin: 0;
 }
 
@@ -21,7 +21,7 @@ a:hover {
     border-radius: 15px;
     margin: 15px auto;
     overflow: auto;
-    width: 90%; /* @ */
+    width: 92%; /* @ */
 }
 
 .panel > div {
