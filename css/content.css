@@ -98,7 +98,8 @@
 }
 
 .content mjx-container[display="true"] {
-    overflow: scroll initial;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .content :not(pre) code {
