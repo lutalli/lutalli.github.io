@@ -2,7 +2,7 @@ body {
     background-color: var(--col-x2);
     color: var(--col-y0);
     font-family: var(--font-main);
-    font-size: 0.65em; /* @ */
+    font-size: 0.75em; /* @ */
     margin: 0;
 }
 
