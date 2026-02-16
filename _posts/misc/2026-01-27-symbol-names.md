@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: carbon
 title: What Are These Symbols Called?
-categories: post misc
+categories: misc
 updated: 2026-01-27
 ---
 

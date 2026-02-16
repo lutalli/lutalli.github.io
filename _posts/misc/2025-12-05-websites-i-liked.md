@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: carbon
 title: Some Websites / Webpages I Liked
-categories: post misc
+categories: misc
 updated: 2026-01-07
 ---
 - [skribbl.io](https://skribbl.io)

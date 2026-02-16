@@ -17,6 +17,8 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<script src="/js/jquery-4.0.0.slim.min.js"></script>
+
 	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 	<script>
 	    MathJax = {
@@ -48,8 +50,10 @@
 	    <div class="panel">
 		<div class="headline">
 		    <h1>{{ page.title }}</h1>
-		    {% if page.categories contains "post" %}
+		    {% if page.date %}
 		    <p>🅟 {{ page.date | date: "%b %d, %Y" }}</p>
+		    {% endif %}
+		    {% if page.updated %}
 		    <p>&ensp;</p>
 		    <p>🅤 {{ page.updated | date: "%b %d, %Y" }}</p>
 		    {% endif %}
@@ -63,6 +67,20 @@
 		{% endunless %}
 	    </div>
 	</div>
+
+	{% if page.categories contains "codex" %}
+	<script>
+	    $(function () {
+		$("span.math-h").each(function () {
+		    let heading = $(this).text();
+		    let headingSplit = heading.replaceAll(".", "").split(" ");
+		    let hash = headingSplit[0];
+		    $(this).attr("id", hash);
+		    $(this).wrapInner(`<a href="#${hash}"></a>`);
+		});
+	    });
+	</script>
+	{% endif %}
     </body>
 </html>
 

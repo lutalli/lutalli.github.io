@@ -1,4 +1,4 @@
 ---
-layout: post
+layout: carbon
 redirect_to: /posts
 ---

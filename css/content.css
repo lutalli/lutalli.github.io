@@ -179,6 +179,19 @@
 .content .math-h {
     color: var(--col-y1);
     font-weight: bold;
+}
+
+.content .math-h a {
+    color: var(--col-y1) !important;
+}
+
+.content .math-h a::after {
+    content: none !important;
+}
+
+.content .math-hs {
+    color: var(--col-y1);
+    font-weight: bold;
     margin-right: 0.8em;
 }
 

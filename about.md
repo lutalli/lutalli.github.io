@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: carbon
 title: About
 ---
 Lutalli's personal website. Initiated in 2020.

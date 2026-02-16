@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: carbon
 title: Links 
 ---
 [YouTube](https://www.youtube.com/@lutalli)

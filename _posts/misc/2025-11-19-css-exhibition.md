@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: carbon
 title: CSS Exhibition
-categories: post misc
+categories: misc
 updated: 2025-11-22
 ---
 ## Body Text
