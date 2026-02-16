@@ -1,0 +1,24 @@
+---
+layout: carbon
+title: Math Codex
+---
+
+{% assign AREAS = "set-theory" | split: ":" %}
+{% assign AREAS_DISP = "Set Theory" | split: ":" %}
+
+{% assign all_posts = site.categories["codex"] %}
+
+{% for area in AREAS %}
+
+<h2>{{ AREAS_DISP[forloop.index0] }}</h2>
+
+{% assign posts = all_posts | where: "area", area %}
+
+<ul class="post-listing">
+    {% for post in posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a> <code>{{ post.date | date: "%b %d, %Y" }}</code></li>
+    {% endfor %}
+</ul>
+
+{% endfor %}
+
