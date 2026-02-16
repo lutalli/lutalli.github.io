@@ -81,20 +81,12 @@
     list-style-type: lower-alpha;
 }
 
-.content .post-listing a::after {
-    content: none;
-}
-
 .content hr {
     border: 1px solid var(--col-x2);
     border-radius: 2px;
     margin-top: 2.7em;
     margin-bottom: 2.7em;
     width: 80%; /* @ */
-}
-
-.content a::after {
-    content: " ⮨";
 }
 
 .content mjx-container[display="true"] {
@@ -183,10 +175,6 @@
 
 .content .math-h a {
     color: var(--col-y1) !important;
-}
-
-.content .math-h a::after {
-    content: none !important;
 }
 
 .content .math-hs {
