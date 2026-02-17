@@ -6,7 +6,7 @@ title: Math Codex
 {% assign AREAS = "set-theory" | split: ":" %}
 {% assign AREAS_DISP = "Set Theory" | split: ":" %}
 
-{% assign all_posts = site.categories["codex"] %}
+{% assign all_posts = site.categories["codex"] | sort: "title" %}
 
 {% for area in AREAS %}
 
