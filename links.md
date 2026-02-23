@@ -2,9 +2,10 @@
 layout: carbon
 title: Links 
 ---
+
 [YouTube](https://www.youtube.com/@lutalli)
 
-[Brodmann Area 17](https://luta-witness.tumblr.com) on Tumblr
+[Brodmann Area 17](https://brodmann-area-17.tumblr.com) on Tumblr
 
 [Lutalli's Witness](https://luta-witness.tumblr.com) on Tumblr
 
