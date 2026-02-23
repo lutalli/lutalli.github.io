@@ -11,8 +11,8 @@ title: Codex
 
 {% if area == "set-theory" %}
     <h2>Set Theory</h2>
-    {% assign SECTIONS = "sets|relations" | split: "|" %}
-    {% assign SECTIONS_DISP = "Sets|Relations" | split: "|" %}
+    {% assign SECTIONS = "sets|relations|functions|orders|" | split: "|" %}
+    {% assign SECTIONS_DISP = "Sets|Relations|Functions|Orders" | split: "|" %}
 {% endif %}
 
 {% for section in SECTIONS %}
