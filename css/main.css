@@ -2,7 +2,7 @@ body {
     background-color: var(--col-x2);
     color: var(--col-y0);
     font-family: var(--font-main);
-    font-size: 0.75em; /* @ */
+    font-size: 0.8em; /* @ */
     margin: 0;
 }
 
@@ -18,10 +18,10 @@ a:hover {
 
 .panel {
     background-color: var(--col-x0);
-    border-radius: 15px;
+    border-radius: 0; /* @ */
     margin: 15px auto;
     overflow: auto;
-    width: 92%; /* @ */
+    width: 100%; /* @ */
 }
 
 .panel > div {
@@ -39,6 +39,7 @@ a:hover {
     }
 
     .panel {
+	border-radius: 15px;
 	width: 68%;
     }
 
