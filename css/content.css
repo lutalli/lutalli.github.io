@@ -44,7 +44,7 @@
     line-height: 1.5em;
     margin-bottom: 1em;
     margin-top: 1em;
-    padding-left: 1.2em; /* @ */
+    padding-left: 1.2em;
 }
 
 .content li > ol,
@@ -53,7 +53,7 @@
 }
 
 .content li {
-    padding-left: 0.3em;
+    padding-left: 0.4em;
 }
 
 .content ul ul,
@@ -73,7 +73,7 @@
 
 .content ul ul > li::marker,
 .content ol ul > li::marker {
-    content: "🞅 ";
+    content: "> ";
 }
 
 .content ul ol,
@@ -186,11 +186,6 @@
 @media only screen and (min-width: 700px) {
     .content hr {
 	width: 60%;
-    }
-
-    .content ul,
-    .content ol {
-	padding-left: 2.5em;
     }
 
     .content table:not(.references) {
