@@ -1,6 +1,8 @@
-set-theory:
-  - "sets"
-  - "relations"
-  - "functions"
-  - "orders"
+-
+  field: "set-theory"
+  topics:
+    - "sets"
+    - "relations"
+    - "functions"
+    - "orders"
 

@@ -3,7 +3,7 @@ layout: carbon
 ---
 
 {% assign codex = site.categories["codex"] %}
-{% assign posts = codex | where: "field": page.field | where: "topic", page.topic | sort: "ordinal" %}
+{% assign posts = codex | where: "field", page.field | where: "topic", page.topic | sort: "ordinal" %}
 
 <ul>
     {% for post in posts %}

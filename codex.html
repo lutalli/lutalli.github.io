@@ -3,12 +3,15 @@ layout: carbon
 title: Codex
 ---
 
-{% for field in site.data.codex %}
+{% for F in site.data.codex %}
 
-<h2>{{ site.data.disp[field] }}</h2>
+<h2>{{ site.data.disp[F.field] }}</h2>
 
 <ul>
-    {% for topic in site.data.codex[field] %}
-    <li><a href="/codex/{{ field }}/{{ topic }}">{{ site.data.disp[topic] }}</a></li>
+    {% for topic in F.topics %}
+    <li><a href="/codex/{{ F.field }}/{{ topic }}">{{ site.data.disp[topic] }}</a></li>
+    {% endfor %}
 </ul>
+
+{% endfor %}
 
