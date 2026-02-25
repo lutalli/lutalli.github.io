@@ -49,14 +49,21 @@
 	    </header>
 	    <div class="panel">
 		<div class="headline">
+		    {% if page.layout == "catalog" %}
+		    <h1>Codex > {{ site.data.disp[page.field] }} > {{ site.data.disp[page.topic] }}</h1>
+		    {% else %}
 		    <h1>{{ page.title }}</h1>
+		    {% endif %}
 		    {% if page.date %}
 		    <p>🅟 {{ page.date | date: "%b %d, %Y" }}</p>
 		    {% endif %}
 		    {% if page.updated %}
-		    <p>&ensp;</p>
-		    <p>🅤 {{ page.updated | date: "%b %d, %Y" }}</p>
+		    <p>&ensp; 🅤 {{ page.updated | date: "%b %d, %Y" }}</p>
 		    {% endif %}
+		    {% if page.field and page.layout != "catalog" %}
+		    <p style="float: right; font-variant: small-caps;">&ensp;<a href="/codex/{{ page.field }}/{{ page.topic }}">{{ site.data.disp[page.field] }} > {{ site.data.disp[page.topic] }}</a></p>
+		    {% endif %}
+		    <div style="clear: both"></div>
 		</div>
 	    </div>
 	    <div class="panel">
