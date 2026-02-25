@@ -1,0 +1,14 @@
+---
+layout: carbon
+title: Codex
+---
+
+{% for field in site.data.codex %}
+
+<h2>{{ site.data.disp[field] }}</h2>
+
+<ul>
+    {% for topic in site.data.codex[field] %}
+    <li><a href="/codex/{{ field }}/{{ topic }}">{{ site.data.disp[topic] }}</a></li>
+</ul>
+
