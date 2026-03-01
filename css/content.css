@@ -81,6 +81,14 @@
     list-style-type: lower-alpha;
 }
 
+.content ol.par-roman {
+    list-style-type: upper-roman;
+}
+
+.content ol.par-roman li::marker {
+    content: "(" counter(list-item, upper-roman) ")";
+}
+
 .content hr {
     border: 1px solid var(--col-x2);
     border-radius: 2px;
@@ -186,6 +194,11 @@
 @media only screen and (min-width: 700px) {
     .content hr {
 	width: 60%;
+    }
+
+    .content ul,
+    .content ol {
+	padding-left: 2.7em;
     }
 
     .content table:not(.references) {
