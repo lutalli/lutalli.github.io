@@ -78,7 +78,7 @@
 	{% if page.categories contains "codex" %}
 	<script>
 	    $(function () {
-		$("span.math-h").each(function () {
+		$(".codex-h").each(function () {
 		    let heading = $(this).text();
 		    let headingSplit = heading.replaceAll(".", "").split(" ");
 		    let hash = headingSplit[0];
