@@ -110,8 +110,9 @@
 .content :not(pre) code {
     background-color: var(--col-x1);
     border-radius: 7px;
-    font-family: var(--font-mono);
+    font-family: var(--font-0);
     font-size: 0.8em;
+    font-variation-settings: "MONO" 1;
     padding: 0.08em 0.5em;
 }
 
@@ -119,8 +120,9 @@
     background-color: var(--col-x1) !important;
     border-bottom: 5px solid var(--col-x2);
     border-radius: 5px;
-    font-family: var(--font-mono);
+    font-family: var(--font-0);
     font-size: 0.8em;
+    font-variation-settings: "MONO" 1;
     overflow-x: scroll;
     padding: 1em;
 }

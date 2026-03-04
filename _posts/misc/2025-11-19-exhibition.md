@@ -1,8 +1,8 @@
 ---
 layout: carbon
-title: CSS Exhibition
+title: Exhibition
 categories: misc
-updated: 2025-11-22
+updated: 2026-03-04
 ---
 ## Body Text
 
@@ -24,7 +24,11 @@ The quick brown fox jumps over the lazy dog.
 
 ## Text Formatting
 
-*Italic text* **Bold text** ***Bold italic text***
+*The quick brown fox jumps over the lazy dog.*
+
+**The quick brown fox jumps over the lazy dog.**
+
+***The quick brown fox jumps over the lazy dog.***
 
 ## Quotes
 

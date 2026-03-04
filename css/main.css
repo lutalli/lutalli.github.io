@@ -1,9 +1,18 @@
 body {
     background-color: var(--col-x2);
     color: var(--col-y0);
-    font-family: var(--font-main);
     font-size: 0.8em; /* @ */
+    font-family: var(--font-0);
+    font-variation-settings: "MONO" 0, "CASL" 0, "wght" 400, "slnt" 0, "CRSV" 0.5;
     margin: 0;
+}
+
+em {
+    font-variation-settings: "CASL" 1, "slnt" -15, "CRSV" 1;
+}
+
+strong, h1, h2, h3, h4, th {
+    font-variation-settings: "CASL" 1, "wght" 800;
 }
 
 a {

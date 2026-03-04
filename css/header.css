@@ -1,12 +1,12 @@
 #header-left {
     display: inline-block;
-    font-family: var(--font-mono);
+    font-variation-settings: "MONO" 1;
 }
 
 #header-right {
     display: inline-block;
     float: right;
-    font-family: var(--font-mono);
+    font-variation-settings: "MONO" 1;
 }
 
 #header-right a:not(:last-child) {
