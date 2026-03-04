@@ -116,27 +116,22 @@ window.toggleFavorite = (alias) => {
 | Item Item Item | Item Item Item |
 | Item Item | Item Item Item Item Item |
 
-### References
+### Footnotes
 
-<table class="references">
-    <tr>
-        <th>[A]</th>
-        <td>The quick brown fox jumps over the lazy dog.</td>
-    </tr>
-    <tr>
-        <th>[B]</th>
-        <td>The quick brown fox jumps over the lazy dog.</td>
-    </tr>
-</table>
+The quick brown fox[^ref-a] jumps over the lazy dog[^ref-b].
 
 ### Images
 
 The quick brown fox jumps over the lazy dog.
 
-<figure>
-    <img class="framed" src="/res/css-exhibition/otonashi_ayana.png" alt="Otonashi Ayana" width="80%" />
-    <figcaption>Image Caption</figcaption>
-</figure>
+{: .figure }
+![Otonashi Ayana](/res/css-exhibition/otonashi_ayana.png "Image Caption"){: .framed width="60%" }
 
 The quick brown fox jumps over the lazy dog.
+
+### References
+
+[^ref-a]: The quick brown fox jumps over the lazy dog.
+
+[^ref-b]: The quick brown fox jumps over the lazy dog.
 

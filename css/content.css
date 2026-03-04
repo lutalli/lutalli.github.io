@@ -139,25 +139,6 @@
     padding: 0.8em;
 }
 
-.content table.references th,
-.content table.references td {
-    border: none !important;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-    vertical-align: top;
-}
-
-.content table.references th {
-    padding-left: 1em;
-    padding-right: 0.3em;
-    text-align: right;
-}
-
-.content table.references td {
-    padding-left: 0.3em;
-    padding-right: 0;
-}
-
 .content img {
     display: block;
     margin: 0.3em auto 0.3em auto;
@@ -181,6 +162,10 @@
 .content .qed {
     float: right;
     color: var(--col-y1);
+}
+
+.content .centered {
+    text-align: center;
 }
 
 .content .accent {
