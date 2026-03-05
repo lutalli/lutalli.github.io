@@ -1,12 +1,14 @@
+header p {
+    margin: 0;
+}
+
 #header-left {
-    display: inline-block;
-    font-variation-settings: "MONO" 1;
+    margin-right: auto;
+    font-variant: small-caps;
 }
 
 #header-right {
-    display: inline-block;
-    float: right;
-    font-variation-settings: "MONO" 1;
+    font-variant: small-caps;
 }
 
 #header-right a:not(:last-child) {

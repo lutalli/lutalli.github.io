@@ -11,11 +11,8 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&family=Noto+Sans+Symbols:wght@100..900&display=swap" rel="stylesheet">
-
-	 <link href="https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,400..800,0..1,0.5..1,0..1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,400..800,0..1,0.5..1,0..1&display=swap" rel="stylesheet">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -41,31 +38,29 @@
 	<div id="space">
 	    <header>
 		<div class="panel">
-		    <div id="header-left"><a href="/">{{ site.title }}</a></div>
-		    <div id="header-right">
-			<a href="/codex">Codex</a>
-			<a href="/posts">Posts</a>
-			<a href="/links">Links</a>
+		    <div style="display: flex">
+			<div id="header-left"><p>
+			    <a href="/codex">Codex</a>
+			    {% if page.topic %}
+			    &gt; <a href="/codex/{{ page.field }}/{{ page.topic }}">{{ site.data.disp[page.topic] }} ({{ site.data.disp[page.field] }})</a>
+			    {% endif %}
+			</p></div>
+			<div id="header-right">
+			    <a href="/posts">Posts</a>
+			    <a href="/links">Links</a>
+			</div>
 		    </div>
 		</div>
 	    </header>
 	    <div class="panel">
 		<div class="headline">
-		    {% if page.layout == "catalog" %}
-		    <h1>Codex > {{ site.data.disp[page.field] }} > {{ site.data.disp[page.topic] }}</h1>
-		    {% else %}
 		    <h1>{{ page.title }}</h1>
-		    {% endif %}
 		    {% if page.date %}
 		    <p>🅟 {{ page.date | date: "%b %d, %Y" }}</p>
 		    {% endif %}
 		    {% if page.updated %}
 		    <p>&ensp; 🅤 {{ page.updated | date: "%b %d, %Y" }}</p>
 		    {% endif %}
-		    {% if page.field and page.layout != "catalog" %}
-		    <p style="float: right; font-variant: small-caps;">&ensp;<a href="/codex/{{ page.field }}/{{ page.topic }}">{{ site.data.disp[page.field] }} > {{ site.data.disp[page.topic] }}</a></p>
-		    {% endif %}
-		    <div style="clear: both"></div>
 		</div>
 	    </div>
 	    <div class="panel">
