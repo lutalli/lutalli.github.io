@@ -43,7 +43,7 @@ Each entry is either an *axiom*, a *definition*, a *proposition* or a *remark* (
 
 ### Why?
 
-Why label entries like this rather than using the conventional format like "Definition 3.12"?
+Why not the conventional format, like "Definition 3.12", "Theorem 5.4"?
 
 The more familiar system, which labels entries based on the order of their occurrences, works well for *static* texts. However, Codex is designed to be *dynamic*, meaning that entries are expected to be added, removed and rearranged every now and then. With the conventional system, such changes would require a lot of renumbering.
 
