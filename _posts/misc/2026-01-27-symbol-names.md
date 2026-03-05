@@ -2,7 +2,7 @@
 layout: carbon
 title: What Are These Symbols Called?
 categories: misc
-updated: 2026-01-27
+updated: 2026-03-05
 ---
 
 In the following table, "AmE", "NAmE" and "BrE" refer to American English, North American English and British English, respectively.
@@ -13,7 +13,7 @@ In the following table, "AmE", "NAmE" and "BrE" refer to American English, North
 | `` ` `` | Backtick / Backquote / Grave accent |
 | `!` | Exclamation point<sup>AmE</sup> / Exclamation mark<sup>BrE</sup> |
 | `@` | At sign / Commercial at (commat) / Address Sign |
-| `#` | Number sign / Hash<sup>1</sup> / Pound sign<sup>NAmE</sup> |
+| `#` | Number sign / Hash[^1] / Pound sign<sup>NAmE</sup> |
 | `$` | Dollar sign / Peso sign |
 | `%` | Percent sign |
 | `^` | Caret |
@@ -22,7 +22,7 @@ In the following table, "AmE", "NAmE" and "BrE" refer to American English, North
 | `( )` | Parentheses<sup>AmE</sup> (sg. *parenthesis*) / Brackets<sup>BrE</sup> / Round brackets<sup>BrE</sup> |
 | `[ ]` | Brackets<sup>AmE</sup> / Square brackets<sup>BrE</sup> |
 | `{ }` | Braces<sup>AmE</sup> / Curly brackets<sup>BrE</sup> / Curly braces |
-| `-` | Hyphen / Dash / Minus<sup>2</sup> |
+| `-` | Hyphen / Dash / Minus[^2] |
 | `_` | Underscore / Underline |
 | `+` | Plus sign |
 | `=` | Equal sign<sup>AmE</sup> / Equals sign<sup>BrE</sup> |
@@ -42,14 +42,6 @@ In the following table, "AmE", "NAmE" and "BrE" refer to American English, North
 
 ### Footnotes
 
-<table class="references">
-    <tr>
-        <th>1</th>
-        <td>Strictly speaking, it is incorrect to call the symbol <code>#</code> itself a <i>hashtag</i>. </td>
-    </tr>
-    <tr>
-        <th>2</th>
-        <td>Educate yourself about the difference between <i>hyphen</i>, <i>en dash</i>, <i>em dash</i> and <i>minus</i>.</td>
-    </tr>
-</table>
+[^1]: Strictly speaking, it is incorrect to call the symbol `#` itself a *hashtag*.
+[^2]: These symbols are different: *hyphen*, *en dash*, *em dash* and *minus*.
 
