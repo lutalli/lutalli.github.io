@@ -4,6 +4,8 @@ title: Some Websites / Webpages I Liked
 categories: misc
 updated: 2026-01-07
 ---
+
+{: .no-indent }
 - [skribbl.io](https://skribbl.io)
 - [YNO Project](https://ynoproject.net)
 - [suznooto](https://suznooto.com/)
@@ -15,7 +17,6 @@ updated: 2026-01-07
 - [Photopea](https://www.photopea.com)
 - [dCode.fr](https://www.dcode.fr)
 - [ConwayLife.com](https://conwaylife.com)
-- [YTRoulette](https://ytroulette.com)
 - [Tips for mathematical handwriting](https://johnkerl.org/doc/ortho/ortho.html) by John Kerl
 - [hack.chat](https://hack.chat)
 
