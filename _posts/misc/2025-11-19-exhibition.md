@@ -124,8 +124,8 @@ The quick brown fox[^ref-a] jumps over the lazy dog[^ref-b].
 
 The quick brown fox jumps over the lazy dog.
 
-{: .figure }
-![Otonashi Ayana](/res/css-exhibition/otonashi_ayana.png "Image Caption"){: .framed width="60%" }
+{:.figure}
+![Otonashi Ayana](/res/css-exhibition/otonashi_ayana.png "Image Caption"){:.framed width="60%"}
 
 The quick brown fox jumps over the lazy dog.
 

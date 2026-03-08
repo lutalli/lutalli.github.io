@@ -5,7 +5,7 @@ categories: misc
 updated: 2026-01-07
 ---
 
-{: .no-indent }
+{:.no-indent}
 - [skribbl.io](https://skribbl.io)
 - [YNO Project](https://ynoproject.net)
 - [suznooto](https://suznooto.com/)
