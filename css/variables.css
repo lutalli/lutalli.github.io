@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "Recursive";
+    src: url("/res/fonts/Recursive_VF_1.085.woff2") format("woff2-variations");
+    font-weight: 300 800;
+}
+
+@font-face {
+    font-family: "Noto Sans Symbols";
+    src: url("/res/fonts/NotoSansSymbols-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Noto Sans Symbols 2";
+    src: url("/res/fonts/NotoSansSymbols2-Regular.ttf");
+}
+
 :root {
     --col-x0: #11111b;
     --col-x1: #181825;
