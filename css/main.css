@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--col-x2);
     color: var(--col-y0);
@@ -13,6 +17,8 @@ em {
 
 strong, h1, h2, h3, h4, th {
     font-variation-settings: "CASL" 1, "wght" 800;
+    scroll-margin-top: 10em;
+    scroll-snap-margin-top: 10em; /* Safari 11 or older */
 }
 
 a {

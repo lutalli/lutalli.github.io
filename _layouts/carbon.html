@@ -69,20 +69,6 @@
 		{% endunless %}
 	    </div>
 	</div>
-
-	{% if page.categories contains "codex" %}
-	<script>
-	    $(function () {
-		$(".codex-h").each(function () {
-		    let heading = $(this).text();
-		    let headingSplit = heading.replaceAll(".", "").split(" ");
-		    let hash = headingSplit[0];
-		    $(this).attr("id", hash);
-		    $(this).wrapInner(`<a href="#${hash}"></a>`);
-		});
-	    });
-	</script>
-	{% endif %}
     </body>
 </html>
 
