@@ -13,11 +13,14 @@
 
 	<script src="/js/jquery-4.0.0.slim.min.js"></script>
 
-	<script async src="/js/mathjax-4.0.0.js"></script>
+	<script src="/js/mathjax/tex-chtml.js" defer></script>
 	<script>
 	    MathJax = {
 		tex: {
 		    inlineMath: {"[+]": [["$", "$"]]}
+		},
+		output: {
+		    fontPath: "/js/mathjax/mathjax-newcm-font"
 		}
 	    }
 	</script>
