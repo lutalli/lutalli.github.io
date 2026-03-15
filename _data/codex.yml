@@ -8,7 +8,7 @@
     - "ordinals"
     - "cardinals"
 -
-  field: "group-theory"
+  field: "abstract-algebra"
   topics:
     - "groups"
 

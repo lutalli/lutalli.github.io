@@ -163,6 +163,7 @@
     color: var(--col-y1);
     content: "□";
     float: right;
+    font-family: "Noto Sans Symbols 2" !important;
 }
 
 .content .centered {
