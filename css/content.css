@@ -179,11 +179,6 @@
     color: var(--col-y1);
 }
 
-.content .codex-h {
-    scroll-margin-top: 10em;
-    scroll-snap-margin-top: 10em; /* Safari 11 or older */
-}
-
 @media only screen and (min-width: 700px) {
     .content hr {
 	width: 60%;
