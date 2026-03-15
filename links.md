@@ -3,13 +3,18 @@ layout: carbon
 title: Links 
 ---
 
+{:.centered}
 [YouTube](https://www.youtube.com/@lutalli)
 
-[Brodmann Area 17](https://brodmann-area-17.tumblr.com) on Tumblr
-
-[Lutalli's Witness](https://luta-witness.tumblr.com) on Tumblr
-
-[The Supermarkets](https://the-supermarkets.tumblr.com) on Tumblr
-
+{:.centered}
 [eBay](https://www.ebay.de/usr/lutalli_meo)
+
+{:.centered}
+[Brodmann Area 17](https://brodmann-area-17.tumblr.com)
+
+{:.centered}
+[Lutalli's Witness](https://luta-witness.tumblr.com)
+
+{:.centered}
+[The Supermarkets](https://the-supermarkets.tumblr.com)
 
