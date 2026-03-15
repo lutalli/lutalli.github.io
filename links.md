@@ -9,6 +9,8 @@ title: Links
 {:.centered}
 [eBay](https://www.ebay.de/usr/lutalli_meo)
 
+---
+
 {:.centered}
 [Brodmann Area 17](https://brodmann-area-17.tumblr.com)
 
@@ -17,4 +19,9 @@ title: Links
 
 {:.centered}
 [The Supermarkets](https://the-supermarkets.tumblr.com)
+
+---
+
+{:.centered}
+[RSS Feed](/feed.xml)
 
