@@ -2,53 +2,57 @@
 layout: carbon
 title: Exhibition
 categories: misc
-updated: 2026-03-04
+updated: 2026-03-16
 ---
 ## Body Text
 
-The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices augue a erat sagittis iaculis. Pellentesque ac ultricies libero, eget interdum enim. Morbi ultricies et tellus id accumsan. Pellentesque pellentesque risus non velit placerat consectetur. Aenean eget dignissim libero, ut laoreet dolor. Sed cursus mauris purus, eu rutrum metus congue quis. Mauris aliquam arcu in elementum suscipit. Mauris id tincidunt elit. Duis elementum ligula ut nibh mattis faucibus. Suspendisse ipsum ante, euismod id nisl eu, varius placerat nibh.
 
-The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+Praesent eu pharetra risus. Fusce leo lorem, convallis at elementum vel, lobortis et nunc. Donec feugiat metus odio, nec dictum ante hendrerit a. Integer scelerisque magna orci, a pellentesque est.
 
 # H1 Heading
 
-The quick brown fox jumps over the lazy dog.
+Praesent luctus ornare condimentum. Donec euismod vel dolor sed rutrum. Maecenas eros eros, dapibus a rutrum at, imperdiet eu nisl. Integer porta nulla at.
 
 ## H2 Heading
 
-The quick brown fox jumps over the lazy dog.
+Mauris sollicitudin sodales pharetra. Nunc lobortis nec libero scelerisque cursus. Integer sed sagittis nunc. Aenean ut blandit purus. Vivamus varius sem urna, vitae dapibus neque gravida.
 
 ### H3 Heading
 
-The quick brown fox jumps over the lazy dog.
+Fusce rutrum molestie aliquam. In hac habitasse platea dictumst. Maecenas libero justo, venenatis et vehicula sed, sagittis rutrum odio. Sed.
 
 ## Text Formatting
 
-*The quick brown fox jumps over the lazy dog.*
+Aenean ac dui ac lacus dictum varius.
 
-**The quick brown fox jumps over the lazy dog.**
+*Donec elementum lacus vel risus egestas vulputate.*
 
-***The quick brown fox jumps over the lazy dog.***
+**Nam posuere neque sed risus vestibulum, non maximus dolor hendrerit.**
+
+***Mauris pellentesque non lorem et imperdiet.***
+
+~~Curabitur accumsan euismod urna quis interdum.~~
 
 ## Quotes
 
-> The quick brown fox jumps over the lazy dog.
+> Proin congue gravida augue, lacinia tincidunt ex lobortis et. Morbi et ex augue. Etiam gravida quis mi vel varius. Sed quis efficitur ex. Vestibulum sem quam, vestibulum in lacinia elementum, interdum at libero. Etiam porta sem nec cursus scelerisque. Sed vitae dignissim felis.
 
 ## Lists
 
-The quick brown fox jumps over the lazy dog.
+Nullam in tincidunt lorem.
 
 1. Simple
 2. Ordered
 3. List
 
-The quick brown fox jumps over the lazy dog.
+Nulla nisi libero, feugiat et leo id, facilisis pellentesque urna.
 
 - Casual
 - Unordered
 - List
 
-The quick brown fox jumps over the lazy dog.
+Etiam mollis pellentesque tellus eu aliquam.
 
 1. Ordered
 2. List
@@ -61,77 +65,94 @@ The quick brown fox jumps over the lazy dog.
     - Nested
 5. List
 
-## Horizontal Rules
+Nullam molestie turpis non magna sodales cursus.
 
----
+{:.par-upper-roman}
+1. Upper
+2. Roman
+3. With
+4. Parentheses
 
 ## Links
 
-Check out [Nautilus](https://en.wikipedia.org/wiki/Nautilus) on Wikipedia.
+The dummy text on this page was generated from [Lorem Ipsum](https://www.lipsum.com/).
 
 ## TeX Equations
 
-Inline equations: $a^2+b^2=c^2$, $\sqrt{\sin n\pi}$, $\bigcup_{n\in\mathbb{N}}I_n$.
+Maecenas vitae sollicitudin $a^2+b^2=c^2$ mi. Donec in sem a tortor dapibus $\bigcup_{i\in I} A_i$ elementum at at libero. Duis sodales dictum nisi, sed eleifend mauris accumsan a. Nullam at orci $\operatorname{id}$ nunc ultrices sagittis. $\mathbb{Q}uisque$ vel ante scelerisque, aliquet orci quis, elementum felis. Ut mauris augue, tristique sed $\varphi:X\to Y$ feugiat eleifend, consectetur vel lacus. Proin tempus feugiat $\mathbf{sapien}$ sed dapibus.
 
-Display equations:
+$$ \sum_{n=1}^\infty\frac{1}{n^2} = \zeta(2) = \frac{\pi^2}{6}. $$
 
-$$ \sum_{n=1}^\infty\frac{1}{n^2} = \zeta(2) = \frac{\pi^2}{6}; $$
+Cras vel gravida mauris. Vestibulum a nulla $\lim_{n\to\infty}F(2n)$ blandit, luctus velit malesuada, iaculis purus.
 
 $$ \det A = \begin{vmatrix} a & c \\ b & d \end{vmatrix} = ad - bc. $$
 
 ### Code
 
-Inline code pieces: `System.Math.Log10(double)`.
-
-Biggy code blocks:
+Fusce rhoncus tellus sit amet `System.Math.Log10(double)` elementum varius. Vestibulum odio justo, ornare sed nibh vel, `dignissim` egestas diam.
 
 ```javascript
-const similar = "oO08 iIlL1 g9qCGQ"
+import { Cookies } from './cookies.js'
+import { Samples } from './samples.js'
+
+const numerals = 1234567890
+const similar = "oO08 iIlL1 g9qCGQ 8%& <([{}])> .,;: ~-_="
 const diacritics_etc = "â é ù ï ø ç Ã Ē Æ œ"
 
-window.toggleFavorite = (alias) => {
-    try {
-        let favorites = JSON.parse(localStorage.getItem('favorites')) || []
-        if (favorites.indexOf(alias) > -1) {
-            favorites = favorites.filter((v) => {
-                return v !== alias
-            })
-        } else {
-            favorites.push(alias)
+export class Language {
+    el = document.getElementById('select-language')
+    samples = new Samples
+
+    // set initial value and start listening
+    init () {
+        if (Cookies.get('language')) {
+            this.el.value = Cookies.get('language')
         }
-        localStorage.setItem('favorites', JSON.stringify(Array.from(new Set(favorites))))
-    } catch (err) {
-        // eslint-disable-next-line no-console
-        console.error('could not save favorite', err)
+        this.el.onchange = () => {
+            this.set()
+        }
+        this.set()
     }
-    renderSelectList()
-    return false
+
+    set () {
+        const lang = this.el.value
+
+        window.CMeditor.doc.setValue(this.samples.get(lang))
+        window.CMeditor.setOption('mode', lang.toLowerCase())
+        window.CMeditor.refresh()
+
+        Cookies.set('language', lang)
+    }
 }
 ```
 
+(Code sample from [Programming Fonts](https://www.programmingfonts.org))
+
 ### Tables
 
-| Item | Item Item Item Item Item Item Item Item |
+| Vehicula sed nibh | sit amet |
 | :--- | :--- |
-| Item Item Item | Item Item Item |
-| Item Item | Item Item Item Item Item |
+| cras |  mauris venenatis euismod |
+| erat neque sollicitudin | ipsum |
 
 ### Footnotes
 
-The quick brown fox[^ref-a] jumps over the lazy dog[^ref-b].
+Suspendisse porta[^1] ultricies risus in blandit[^2].
 
 ### Images
 
-The quick brown fox jumps over the lazy dog.
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
 {:.figure}
 ![Otonashi Ayana](/res/css-exhibition/otonashi_ayana.png "Image Caption"){:.framed width="60%"}
 
-The quick brown fox jumps over the lazy dog.
+Curabitur luctus massa non blandit lobortis.
 
-### References
+## Horizontal Rules
 
-[^ref-a]: The quick brown fox jumps over the lazy dog.
+---
 
-[^ref-b]: The quick brown fox jumps over the lazy dog.
+[^1]: Phasellus eu mauris augue. Cras non elit.
+
+[^2]: Vivamus id tellus vestibulum, rhoncus odio at, facilisis eros.
 
