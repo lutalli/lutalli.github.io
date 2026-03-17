@@ -95,11 +95,11 @@
 }
 
 .content hr {
-    border: 1px solid var(--col-x2);
+    border: 2px dashed var(--col-x2);
     border-radius: 2px;
     margin-top: 3em;
     margin-bottom: 3em;
-    width: 80%; /* @ */
+    width: 100%;
 }
 
 .content mjx-container[display="true"] {
@@ -180,10 +180,6 @@
 }
 
 @media only screen and (min-width: 700px) {
-    .content hr {
-	width: 60%;
-    }
-
     .content ul,
     .content ol {
 	padding-left: 2.7em;
