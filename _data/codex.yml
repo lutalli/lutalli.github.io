@@ -1,6 +1,6 @@
 - - set-theory
   - - - sets
-      - [ CLS, UNI, ZF, AC, EMP, BLD, SUB, U, PR, SG, ROS, IT, DJ, SDIF, DMG, SYD, P, TUP, CAR, TRA ]
+      - [ CLS, UNI, ZF, AC, EMP, BLD, SUB, U, PR, SING, ROS, IT, DJ, SDIF, DMG, SYD, P, TUP, CAR, TRA ]
     - - relations
       - [ R, ID, RCL, EQV, RU, RIT, RCV, CP, RST, IM, WF ]
     - - functions
@@ -13,8 +13,8 @@
       - [ EQU, CA, CSUC, ALF, CARD ]
 - - number-theory
   - - - divisibility
-      - [ DIV ]
+      - [ DIV, EVEN ]
 - - abstract-algebra
   - - - groups
-      - [ MAG, SUBS, MORD, SEM, MO, GRP, SUBG, SYG ]
+      - [ MAG, SUBS, MORD, SEM, MO, GRP, SG, DP, CONJ, NSG, COS, SYG ]
 
