@@ -79,7 +79,7 @@ The dummy text on this page was generated from [Lorem Ipsum](https://www.lipsum.
 
 ## TeX Equations
 
-Maecenas vitae sollicitudin $a^2+b^2=c^2$ mi. Donec in sem a tortor dapibus $\bigcup_{i\in I} A_i$ elementum at at libero. Duis sodales dictum nisi, sed eleifend mauris accumsan a. Nullam at orci $\operatorname{id}$ nunc ultrices sagittis. $\mathbb{Q}uisque$ vel ante scelerisque, aliquet orci quis, elementum felis. Ut mauris augue, tristique sed $\varphi:X\to Y$ feugiat eleifend, consectetur vel lacus. Proin tempus feugiat $\mathbf{sapien}$ sed dapibus.
+Maecenas vitae sollicitudin $a^2+b^2=c^2$ mi. Donec in sem a tortor dapibus $\bigcup_{i\in I} A_i$ elementum at at libero. Duis sodales dictum nisi, sed eleifend mauris accumsan a. Nullam at orci $\operatorname{id}$ nunc ultrices sagittis. $\Q uisque$ vel ante scelerisque, aliquet orci quis, elementum felis. Ut mauris augue, tristique sed $\varphi:X\to Y$ feugiat eleifend, consectetur vel lacus. Proin tempus feugiat $\mathbf{sapien}$ sed dapibus.
 
 $$ \sum_{n=1}^\infty\frac{1}{n^2} = \zeta(2) = \frac{\pi^2}{6}. $$
 

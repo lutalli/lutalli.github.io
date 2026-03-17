@@ -2,7 +2,6 @@ art: "Art"
 misc: "Misc"
 
 set-theory: "Set Theory"
-
 sets: "Sets"
 relations: "Relations"
 functions: "Functions"
@@ -10,7 +9,9 @@ orders: "Orders"
 ordinals: "Ordinals"
 cardinals: "Cardinals"
 
-abstract-algebra: "Abstract Algebra"
+number-theory: "Number Theory"
+divisibility: "Divisibility"
 
+abstract-algebra: "Abstract Algebra"
 groups: "Groups"
 

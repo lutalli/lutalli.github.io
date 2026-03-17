@@ -8,6 +8,10 @@
     - "ordinals"
     - "cardinals"
 -
+  field: "number-theory"
+  topics:
+    - "divisibility"
+-
   field: "abstract-algebra"
   topics:
     - "groups"

@@ -17,7 +17,36 @@
 	<script>
 	    MathJax = {
 		tex: {
-		    inlineMath: {"[+]": [["$", "$"]]}
+		    inlineMath: { "[+]": [["$", "$"]] },
+		    macros: {
+			"N": "\\mathbb{N}",
+			"Z": "\\mathbb{Z}",
+			"Q": "\\mathbb{Q}",
+			"R": "\\mathbb{R}",
+			"C": "\\mathbb{C}",
+			"V": "\\mathbb{V}",
+			"SS": "\\mathfrak{S}",
+			"powerset": "\\mathcal{P}",
+			"Ord": "\\mathbf{Ord}",
+			"dom": "\\operatorname{dom}",
+			"ran": "\\operatorname{ran}",
+			"field": "\\operatorname{field}",
+			"id": "\\operatorname{id}",
+			"suc": "\\operatorname{suc}",
+			"inj": "\\operatorname{inj}",
+			"sur": "\\operatorname{sur}",
+			"bij": "\\operatorname{bij}",
+			// "hom": "\\operatorname{hom}",
+			"mon": "\\operatorname{mon}",
+			"epi": "\\operatorname{epi}",
+			"iso": "\\operatorname{iso}",
+			"endo": "\\operatorname{end}",
+			"aut": "\\operatorname{aut}",
+			"inv": "\\operatorname{inv}",
+			"ZF": "\\mathsf{ZF}",
+			"AC": "\\mathsf{AC}",
+			"ZFC": "\\mathsf{ZFC}"
+		    }
 		},
 		output: {
 		    fontPath: "/js/mathjax/mathjax-newcm-font"
