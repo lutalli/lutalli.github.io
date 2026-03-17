@@ -32,7 +32,7 @@
 .content blockquote {
     background-color: var(--col-x1);
     border-bottom: 5px solid var(--col-x2);
-    border-radius: 5px;
+    border-radius: 10px;
     margin-left: 0;
     margin-right: 0;
     padding: 0.1em 1em;
@@ -95,8 +95,10 @@
 }
 
 .content hr {
-    border: 2px dashed var(--col-x2);
-    border-radius: 2px;
+    border-top: 8px dotted var(--col-x2);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
     margin-top: 3em;
     margin-bottom: 3em;
     width: 100%;
