@@ -6,3 +6,11 @@ plugins:
   - jekyll-feed
 
 highlighter: none
+
+collections_dir: collections
+
+collections:
+  codex:
+    output: true
+    permalink: /codex/:title
+

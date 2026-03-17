@@ -9,12 +9,15 @@ title: Codex
 
 {% for F in site.data.codex %}
 
-<h2>{{ site.data.disp[F.field] }}</h2>
+{% assign field = F[0] %}
+
+<h2>{{ site.data.disp[field] }}</h2>
 
 <ul>
-    {% for topic in F.topics %}
-    <li><a href="/codex/{{ F.field }}/{{ topic }}">{{ site.data.disp[topic] }}</a></li>
-    {% endfor %}
+{% for T in F[1] %}
+    {% assign topic = T[0] %}
+    <li><a href="/codex/{{ field }}/{{ topic }}">{{ site.data.disp[topic] }}</a></li>
+{% endfor %}
 </ul>
 
 {% endfor %}

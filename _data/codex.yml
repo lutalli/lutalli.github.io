@@ -1,18 +1,20 @@
--
-  field: "set-theory"
-  topics:
-    - "sets"
-    - "relations"
-    - "functions"
-    - "orders"
-    - "ordinals"
-    - "cardinals"
--
-  field: "number-theory"
-  topics:
-    - "divisibility"
--
-  field: "abstract-algebra"
-  topics:
-    - "groups"
+- - set-theory
+  - - - sets
+      - [ CLS, UNI, ZF, AC, EMP, BLD, SUB, U, PR, SG, ROS, IT, DJ, SDIF, DMG, SYD, P, TUP, CAR, TRA ]
+    - - relations
+      - [ R, ID, RCL, EQV, RU, RIT, RCV, CP, RST, IM, WF ]
+    - - functions
+      - [ F, OCL, INJ, SUR, BIJ, FINV, MOR ]
+    - - orders
+      - [ PRO, PO, TO, OMOR, MA, GR, MAX, UPB, SUP, WO, WOT ]
+    - - ordinals
+      - [ ORD, OTP, SUC, IND, LO, N, FIN, IDC, TIDC, SEQ, OSL, OCON, ONOR, TREC, OAR ]
+    - - cardinals
+      - [ EQU, CA, CSUC, ALF, CARD ]
+- - number-theory
+  - - - divisibility
+      - [ DIV ]
+- - abstract-algebra
+  - - - groups
+      - [ MAG, SUBS, MORD, SEM, MO, GRP, SUBG, SYG ]
 
