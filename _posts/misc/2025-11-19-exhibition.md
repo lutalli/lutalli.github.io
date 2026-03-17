@@ -144,7 +144,7 @@ Suspendisse porta[^1] ultricies risus in blandit[^2].
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
 {:.figure}
-![Otonashi Ayana](/res/css-exhibition/otonashi_ayana.png "Image Caption"){:.framed width="60%"}
+![Otonashi Ayana](/res/css-exhibition/otonashi_ayana.png "Image Caption"){:.framed width="500px"}
 
 Curabitur luctus massa non blandit lobortis.
 
