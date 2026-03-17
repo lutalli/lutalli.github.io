@@ -108,12 +108,12 @@
 }
 
 .content :not(pre) code {
-    background-color: var(--col-x1);
+    background-color: var(--col-x2);
     border-radius: 7px;
     font-family: var(--font-0);
     font-size: 0.8em;
     font-variation-settings: "MONO" 1;
-    padding: 0.08em 0.5em;
+    padding: 0.18em 0.5em;
 }
 
 .content pre code {
