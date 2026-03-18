@@ -16,5 +16,7 @@
       - [ DIV, EVEN ]
 - - abstract-algebra
   - - - groups
-      - [ MAG, SUBS, MORD, SEM, MO, GRP, SG, DP, CONJ, NSG, COS, SYG ]
+      - [ MAG, SUBS, MORD, SEM, MO, GRP, SG, DP, CONJ, NSG, COS, SGI, LAG, QG, GEN, PER, GMOR, SYG, CAY, PAR, ALT ]
+    - - rings
+      - [ RING ]
 

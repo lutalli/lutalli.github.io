@@ -25,6 +25,7 @@
 			"R": "\\mathbb{R}",
 			"C": "\\mathbb{C}",
 			"V": "\\mathbb{V}",
+			"AA": "\\mathfrak{A}",
 			"SS": "\\mathfrak{S}",
 			"powerset": "\\mathcal{P}",
 			"Ord": "\\mathbf{Ord}",
@@ -36,7 +37,7 @@
 			"inj": "\\operatorname{inj}",
 			"sur": "\\operatorname{sur}",
 			"bij": "\\operatorname{bij}",
-			// "hom": "\\operatorname{hom}",
+			// \hom is already defined
 			"mon": "\\operatorname{mon}",
 			"epi": "\\operatorname{epi}",
 			"iso": "\\operatorname{iso}",
@@ -46,12 +47,30 @@
 			"ZF": "\\mathsf{ZF}",
 			"AC": "\\mathsf{AC}",
 			"ZFC": "\\mathsf{ZFC}",
-			"conj": "\\operatorname{conj}"
+			"conj": "\\operatorname{conj}",
+			"im": "\\operatorname{im}",
+			// \ker is already defined
+			"par": "\\operatorname{par}",
+
+			// Space here to avoid conflict with Liquid tags
+			//	 	      ↓
+			"prerel": ["\\mathrel{ {}_{#1}{#2}}", 2]
 		    }
 		},
 		output: {
 		    fontPath: "/js/mathjax/mathjax-newcm-font"
-		}
+		},
+		// https://stackoverflow.com/a/42774146
+		startup: {
+		    ready() {
+			MathJax.startup.defaultReady();
+			const {Token} = MathJax._.input.tex.Token;
+			const {MapHandler} = MathJax._.input.tex.MapHandler;
+			const delimiter = MapHandler.getMap('delimiter');
+			delimiter.add('\\llbracket', new Token('\\llbracket', '\u27E6'));
+			delimiter.add('\\rrbracket', new Token('\\rrbracket', '\u27E7'));
+		    }
+		} 
 	    }
 	</script>
 
