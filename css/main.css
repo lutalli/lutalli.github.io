@@ -63,7 +63,8 @@ a:hover {
 
     .panel {
 	border-radius: 15px;
-	width: 68%;
+	max-width: 90%;
+	width: 48em;
     }
 
     .panel > div {

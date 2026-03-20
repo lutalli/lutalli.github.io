@@ -1,5 +1,6 @@
 title: Lutalli
 
+url: https://lutalli.com
 permalink: /:categories/:title
 
 plugins:

@@ -8,18 +8,18 @@
     - - orders
       - [ PRO, PO, TO, OH, MA, GR, MAX, BND, SUP, DKCP, WO, WOT ]
     - - ordinals
-      - [ ORD, OT, SUC, IND, LO, N, FIN, IDC, TIDC, SEQ, OLS, OCT, ONO, TREC, OAR ]
+      - [ ORD, OT, SUC, IND, LO, N, FIN, CNT, IDC, TIDC, SEQ, OLS, OCT, ONO, TREC, OAR ]
     - - cardinals
       - [ EQU, CA, CSUC, ALF, CARD ]
 - - abstract-algebra
   - - - groups
-      - [ MAG, SUBS, MORD, SEM, MO, SMO, MOH, GRP, SG, GH, DP, CONJ, NSG, COS, SGI, LAG, QG, GEN, PER, SYG, CAY, PAR, ALT ]
+      - [ MAG, SUBS, MORD, SEM, MO, SMO, MOH, GRP, SG, GH, DP, CONJ, NSG, COS, SGI, LAG, QG, GEN, PER, SYG, CAY, PAR, ALT, OG ]
     - - rings
-      - [ RING, SR, RH ]
+      - [ RING, SR, RH, OR ]
     - - fields
-      - [ FLD, SF, FH ]
+      - [ FLD, SF, FH, OF ]
     - - number-systems
-      - [ NN, ZZ, QQ ]
+      - [ NN, ZZ, QQ, RR ]
 - - number-theory
   - - - divisibility
       - [ DIV, EVEN ]
