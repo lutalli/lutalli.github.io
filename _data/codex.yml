@@ -1,22 +1,26 @@
 - - set-theory
   - - - sets
-      - [ CLS, UNI, ZF, AC, EMP, BLD, SUB, U, PR, SING, ROS, IT, DJ, SDIF, DMG, SYD, P, TUP, CAR, TRA ]
+      - [ CLS, UNI, ZF, AC, EMP, BLD, SUB, U, PAIR, SING, ROS, IT, DJ, SD, DMG, SYD, P, TUP, CAR, TR ]
     - - relations
-      - [ R, ID, RCL, EQV, RU, RIT, RCV, CP, RST, IM, WF ]
+      - [ R, ID, RCL, EQV, RU, RIT, CV, CP, RST, IM, WF ]
     - - functions
-      - [ F, OCL, INJ, SUR, BIJ, FINV, MOR ]
+      - [ F, OCL, INJ, SUR, BIJ, FI, MOR ]
     - - orders
-      - [ PRO, PO, TO, OMOR, MA, GR, MAX, UPB, SUP, WO, WOT ]
+      - [ PRO, PO, TO, OH, MA, GR, MAX, BND, SUP, DKCP, WO, WOT ]
     - - ordinals
-      - [ ORD, OTP, SUC, IND, LO, N, FIN, IDC, TIDC, SEQ, OSL, OCON, ONOR, TREC, OAR ]
+      - [ ORD, OT, SUC, IND, LO, N, FIN, IDC, TIDC, SEQ, OLS, OCT, ONO, TREC, OAR ]
     - - cardinals
       - [ EQU, CA, CSUC, ALF, CARD ]
+- - abstract-algebra
+  - - - groups
+      - [ MAG, SUBS, MORD, SEM, MO, SMO, MOH, GRP, SG, GH, DP, CONJ, NSG, COS, SGI, LAG, QG, GEN, PER, SYG, CAY, PAR, ALT ]
+    - - rings
+      - [ RING, SR, RH ]
+    - - fields
+      - [ FLD, SF, FH ]
+    - - number-systems
+      - [ NN, ZZ, QQ ]
 - - number-theory
   - - - divisibility
       - [ DIV, EVEN ]
-- - abstract-algebra
-  - - - groups
-      - [ MAG, SUBS, MORD, SEM, MO, GRP, SG, DP, CONJ, NSG, COS, SGI, LAG, QG, GEN, PER, GMOR, SYG, CAY, PAR, ALT ]
-    - - rings
-      - [ RING ]
 
