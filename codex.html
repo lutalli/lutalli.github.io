@@ -7,16 +7,16 @@ title: Codex
     <li><em><a href="/codex/intro">Introduction</a></em></li>
 </ul>
 
-{% for F in site.data.codex %}
+{% for B in site.data.codex %}
 
-{% assign field = F[0] %}
+{% assign branch = B[0] %}
 
-<h2>{{ site.data.disp[field] }}</h2>
+<h2>{{ site.data.disp[branch] }}</h2>
 
 <ul>
-{% for T in F[1] %}
+{% for T in B[1] %}
     {% assign topic = T[0] %}
-    <li><a href="/codex/{{ field }}/{{ topic }}">{{ site.data.disp[topic] }}</a></li>
+    <li><a href="/codex/{{ branch }}/{{ topic }}">{{ site.data.disp[topic] }}</a></li>
 {% endfor %}
 </ul>
 

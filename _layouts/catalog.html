@@ -2,11 +2,11 @@
 layout: carbon
 ---
 
-{% assign posts = site.codex | where: "field", page.field | where: "topic", page.topic %}
+{% assign posts = site.codex | where: "branch", page.branch | where: "topic", page.topic %}
 
-{% for F in site.data.codex %}
-    {% if F[0] == page.field %}
-	{% assign T_layer = F[1] %}
+{% for B in site.data.codex %}
+    {% if B[0] == page.branch %}
+	{% assign T_layer = B[1] %}
 	{% break %}
     {% endif %}
 {% endfor %}

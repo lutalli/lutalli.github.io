@@ -6,11 +6,11 @@ module Catalog
     safe true
 
     def generate(site)
-      site.data['codex'].each do |field_layer|
-        field = field_layer[0]
-        field_layer[1].each do |topic_layer|
+      site.data['codex'].each do |branch_layer|
+        branch = branch_layer[0]
+        branch_layer[1].each do |topic_layer|
           topic = topic_layer[0]
-          site.pages << CatalogPage.new(site, field, topic)
+          site.pages << CatalogPage.new(site, branch, topic)
         end
       end
     end
@@ -19,28 +19,28 @@ module Catalog
   # Class for the catalog page
   class CatalogPage < Jekyll::Page
     # rubocop:disable Lint/MissingSuper
-    def initialize(site, field, topic)
+    def initialize(site, branch, topic)
       @site = site
       @base = site.source
-      @dir = "codex/#{field}"
+      @dir = "codex/#{branch}"
 
       @basename = topic
       @ext = '.html'
       @name = @basename + @ext
 
-      init_data(field, topic)
+      init_data(branch, topic)
     end
     # rubocop:enable Lint/MissingSuper
 
-    def title(field, topic)
-      "#{@site.data['disp'][field]} (#{@site.data['disp'][topic]})"
+    def title(branch, topic)
+      "#{@site.data['disp'][branch]} (#{@site.data['disp'][topic]})"
     end
 
-    def init_data(field, topic)
+    def init_data(branch, topic)
       @data = {
         'layout' => 'catalog',
-        'title' => title(field, topic),
-        'field' => field,
+        'title' => title(branch, topic),
+        'branch' => branch,
         'topic' => topic
       }
     end
