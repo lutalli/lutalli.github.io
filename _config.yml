@@ -8,8 +8,6 @@ plugins:
 
 highlighter: none
 
-collections_dir: collections
-
 collections:
   codex:
     output: true
