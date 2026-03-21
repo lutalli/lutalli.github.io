@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 module Catalog
-  class Generator < Jekyll::Generator
+  # Generate Codex catalog pages
+  class CatalogGenerator < Jekyll::Generator
     safe true
 
     def generate(site)
@@ -15,7 +16,9 @@ module Catalog
     end
   end
 
+  # Class for the catalog page
   class CatalogPage < Jekyll::Page
+    # rubocop:disable Lint/MissingSuper
     def initialize(site, field, topic)
       @site = site
       @base = site.source
@@ -25,13 +28,18 @@ module Catalog
       @ext = '.html'
       @name = @basename + @ext
 
-      field_disp = site.data['disp'][field]
-      topic_disp = site.data['disp'][topic]
-      title = "#{topic_disp} (#{field_disp})"
+      init_data(field, topic)
+    end
+    # rubocop:enable Lint/MissingSuper
 
+    def title(field, topic)
+      "#{@site.data['disp'][field]} (#{@site.data['disp'][topic]})"
+    end
+
+    def init_data(field, topic)
       @data = {
         'layout' => 'catalog',
-        'title' => title,
+        'title' => title(field, topic),
         'field' => field,
         'topic' => topic
       }

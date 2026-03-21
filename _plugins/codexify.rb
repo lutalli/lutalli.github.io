@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module Jekyll
+  # Generate Codex heading from a string of the form "XX-YY:ZZ"
   module CodexifyFilter
     def codexify(input)
       args = input.split(':')
