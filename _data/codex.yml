@@ -12,8 +12,10 @@
     - - cardinals
       - [ EQU, CA, CSUC, ALF, CARD ]
 - - abstract-algebra
-  - - - groups
-      - [ MAG, SUBS, MORD, SEM, MO, SMO, MOH, GRP, SG, GH, DP, CONJ, NSG, COS, SGI, LAG, QG, GEN, PER, SYG, CAY, PAR, ALT, OG ]
+  - - - magmas
+      - [ MAG, BIG, SUBS, MORD, SEM, MO, SMO, MOH, COS ]
+    - - groups
+      - [ GRP, SG, GH, DP, CONJ, NSG, SGI, LAG, QG, GEN, PER, SYG, CAY, PAR, ALT, OG ]
     - - rings
       - [ RING, SR, RH, OR ]
     - - fields
@@ -23,4 +25,7 @@
 - - number-theory
   - - - divisibility
       - [ DIV, EVEN ]
+- - combinatorics
+  - - - enumerations
+      - [ FAC, BC ]
 

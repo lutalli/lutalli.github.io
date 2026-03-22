@@ -10,11 +10,15 @@ ordinals: "Ordinals"
 cardinals: "Cardinals"
 number-systems: "Number Systems"
 
-number-theory: "Number Theory"
-divisibility: "Divisibility"
-
 abstract-algebra: "Abstract Algebra"
+magmas: "Magmas"
 groups: "Groups"
 rings: "Rings"
 fields: "Fields"
+
+number-theory: "Number Theory"
+divisibility: "Divisibility"
+
+combinatorics: "Combinatorics"
+enumerations: "Enumerations"
 
