@@ -1,6 +1,6 @@
 - - set-theory
   - - - sets
-      - [ CLS, UNI, ZF, AC, EMP, BLD, SUB, U, PAIR, SING, ROS, IT, DJ, SD, DMG, SYD, P, TUP, CAR, TR ]
+      - [ CLS, UNI, ZF, AC, EMP, BLD, SUB, SSUB, U, PAIR, SING, ROS, IT, DJ, DU, SD, DMG, SYD, P, TUP, CAR, TR ]
     - - relations
       - [ R, ID, RCL, EQV, RU, RIT, CV, CP, RST, IM, WF ]
     - - functions
@@ -10,14 +10,14 @@
     - - ordinals
       - [ ORD, OT, SUC, IND, LO, N, FIN, CNT, IDC, TIDC, SEQ, OLS, OCT, ONO, TREC, OAR ]
     - - cardinals
-      - [ EQU, CA, CSUC, ALF, CARD ]
+      - [ EQU, CA, CSUC, ALF, CARD, CDAR ]
 - - abstract-algebra
   - - - magmas
-      - [ MAG, BIG, SUBS, MORD, SEM, MO, SMO, MOH, COS ]
+      - [ MAG, SUBS, MORD, SEM, MO, SMO, MOH, COS ]
     - - groups
       - [ GRP, SG, GH, DP, CONJ, NSG, SGI, LAG, QG, GEN, PER, SYG, CAY, PAR, ALT, OG ]
     - - rings
-      - [ RING, SR, RH, OR ]
+      - [ RING, SR, RH, OR, BI ]
     - - fields
       - [ FLD, SF, FH, OF ]
     - - number-systems
@@ -27,5 +27,5 @@
       - [ DIV, EVEN ]
 - - combinatorics
   - - - enumerations
-      - [ FAC, BC ]
+      - [ FAC, COMB, PERM ]
 

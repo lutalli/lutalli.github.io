@@ -33,6 +33,7 @@
 			"ran": "\\operatorname{ran}",
 			"field": "\\operatorname{field}",
 			"id": "\\operatorname{id}",
+			"fun": "\\operatorname{fun}",
 			"inj": "\\operatorname{inj}",
 			"sur": "\\operatorname{sur}",
 			"bij": "\\operatorname{bij}",
@@ -66,8 +67,8 @@
 			const {Token} = MathJax._.input.tex.Token;
 			const {MapHandler} = MathJax._.input.tex.MapHandler;
 			const delimiter = MapHandler.getMap('delimiter');
-			delimiter.add('\\llbracket', new Token('\\llbracket', '\u27E6'));
-			delimiter.add('\\rrbracket', new Token('\\rrbracket', '\u27E7'));
+			delimiter.add('\\llbra', new Token('\\llbra', '\u27E6'));
+			delimiter.add('\\rrbra', new Token('\\rrbra', '\u27E7'));
 		    }
 		} 
 	    }
