@@ -19,16 +19,22 @@
 		tex: {
 		    inlineMath: { "[+]": [["$", "$"]] },
 		    macros: {
+			"ZF": "\\mathsf{ZF}",
+			"AC": "\\mathsf{AC}",
+			"ZFC": "\\mathsf{ZFC}",
 			"N": "\\mathbb{N}",
 			"Z": "\\mathbb{Z}",
 			"Q": "\\mathbb{Q}",
 			"R": "\\mathbb{R}",
 			"C": "\\mathbb{C}",
 			"V": "\\mathbb{V}",
+			"Ord": "\\mathbf{Ord}",
+			"Card": "\\mathbf{Card}",
 			"AA": "\\mathfrak{A}",
 			"SS": "\\mathfrak{S}",
+
 			"powerset": "\\mathcal{P}",
-			"Ord": "\\mathbf{Ord}",
+			"symd": "\\mathbin{\\triangle}",
 			"dom": "\\operatorname{dom}",
 			"ran": "\\operatorname{ran}",
 			"field": "\\operatorname{field}",
@@ -44,9 +50,6 @@
 			"endo": "\\operatorname{end}",
 			"aut": "\\operatorname{aut}",
 			"inv": "\\operatorname{inv}",
-			"ZF": "\\mathsf{ZF}",
-			"AC": "\\mathsf{AC}",
-			"ZFC": "\\mathsf{ZFC}",
 			"conj": "\\operatorname{conj}",
 			"im": "\\operatorname{im}",
 			// \ker is already defined
@@ -54,7 +57,16 @@
 
 			// Space here to avoid conflict with Liquid tags
 			//	 	      ↓
-			"prerel": ["\\mathrel{ {}_{#1}{#2}}", 2]
+			"prerel": ["\\mathrel{ {}_{#1}{#2}}", 2],
+			"limp": "\\leftarrow",
+			"rimp": "\\rightarrow",
+			"lrimp": "\\leftrightarrow",
+			"divides": "\\mid",
+			"equ": "\\approx",
+			"lequ": "\\lesssim",
+			"gequ": "\\gtrsim",
+			"lnequ": "\\lnsim",
+			"gnequ": "\\gnsim"
 		    }
 		},
 		output: {

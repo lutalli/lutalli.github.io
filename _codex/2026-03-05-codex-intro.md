@@ -1,7 +1,9 @@
 ---
 layout: carbon
-title: Introduction to Codex
+title: "Codex: Introduction"
 updated: 2026-03-26
+permalink: /codex/intro
+meta: true
 ---
 
 **Codex** is my personal math journal.
@@ -55,13 +57,13 @@ Using individual, symbolic labels avoids the problem, as the order doesn't matte
 
   - It reduces the need for parentheses.
 
-- In logical formulas, $\rightarrow$ is used for material implication instead of $\Rightarrow$.
+- In logical formulas, $\rimp$ is used for material implication instead of $\Rightarrow$.
 
   - $\Rightarrow$ is reserved for implication in the meta langauge, i.e. as a shorthand for words like *so that*, *it follows that*, *therefore* in the argumentation. Example: If $x\in\R$, then
 
     $$ x^2\geq 0 \quad\Rightarrow\quad x^2+9\geq 9 \quad\Rightarrow\quad \sqrt{x^2+9}\geq 3. $$
 
-    Meanwhile, $\rightarrow$ is a binary operator in logic, just like $\land$ and $\lor$.
+    Meanwhile, $\rimp$ is a binary operator in logic, just like $\land$ and $\lor$.
 
   - The same applies for $\leftrightarrow$.
 
@@ -83,12 +85,12 @@ Using individual, symbolic labels avoids the problem, as the order doesn't matte
 
   - The inverse function of an injection $f$ is precisely the converse relation of $f$.
 
-- $X\approx Y$ for "$X$ and $Y$ are [equinumerous](/codex/EQU)";<br />
-  $X\lesssim Y$ for "$X$ is not greater than $Y$";<br />
-  $X\lnsim Y$ for "$X$ is strictly smaller than $Y$".
+- $X\equ Y$ for "$X$ and $Y$ are [equinumerous](/codex/EQU)";<br />
+  $X\lequ Y$ for "$X$ is not greater than $Y$";<br />
+  $X\lnequ Y$ for "$X$ is strictly smaller than $Y$".
 
-  - $(\approx,\lesssim)$ is analogous to $(=,\leq)$.
-  - $\lnsim$ instead of $<$ to avoid ambiguity.
+  - $(\equ,\lequ)$ is analogous to $(=,\leq)$.
+  - $\lnequ$ instead of $<$ to avoid ambiguity.
   - $\sim$ is reserved for denoting a general [relation](/codex/R).
 
 - $\N$ for the set of [natural numbers](/codex/N), including $0$.
@@ -117,9 +119,9 @@ I made up the following notations / definitions; they are probably unconventiona
 {:.no-indent}
 - By default, we work in $\ZF$ or $\ZFC$.
 
-- \[$\leftarrow\AC$\] means a result or a definition relies on $\AC$.
+- \[$\limp\AC$\] means a result or a definition relies on $\AC$.
 
-  \[$\rightarrow\AC$\] means a result implies $\AC$.
+  \[$\rimp\AC$\] means a result implies $\AC$.
 
-  \[$\leftrightarrow\AC$\] means a result is equivalent to $\AC$.
+  \[$\lrimp\AC$\] means a result is equivalent to $\AC$.
 

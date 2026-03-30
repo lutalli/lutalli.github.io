@@ -9,7 +9,7 @@ module Codex
 
     def generate(site)
       site.collections['codex'].docs.each do |page|
-        next if page.data['slug'] == 'intro'
+        next if page['meta']
 
         add_data(page)
       end
