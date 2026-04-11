@@ -2,7 +2,7 @@
   - - - sets
       - [ CLS, UNI, ZF, AC, EMP, BLD, SUB, U, PAIR, SING, ROS, IT, DJ, DU, SD, DMG, SYD, P, TUP, CAR, TR ]
     - - relations
-      - [ R, ID, RCL, EQV, RU, RIT, CV, CP, RST, IM, WF ]
+      - [ R, ID, RCL, EQV, CV, CP, RST, IM, WF ]
     - - functions
       - [ F, OCL, INJ, SUR, BIJ, FI, MOR ]
     - - orders
@@ -17,15 +17,17 @@
     - - groups
       - [ GRP, SG, GH, DP, CONJ, NSG, SGI, LAG, QG, GEN, PER, SYG, CAY, PAR, ALT, OG ]
     - - rings
-      - [ RING, SR, RH, OR, BI ]
+      - [ RING, SR, RH, OR, RDP, BI, RF, IVB, KD, ZD, DOM, IDOM, FRAC, CHAR ]
     - - fields
       - [ FLD, SF, FH, OF ]
     - - number-systems
-      - [ NN, ZZ, QQ, RR ]
+      - [ NN, ZZ, QQ, RR, CC ]
+    - - polynoms
+      - [ FPS, POLY, RE ]
 - - number-theory
   - - - divisibility
       - [ DIV, EVEN ]
 - - combinatorics
   - - - enumerations
-      - [ FAC, COMB, PERM ]
+      - [ FAC, PERM, COMB ]
 

@@ -183,6 +183,18 @@
     color: var(--col-y1);
 }
 
+.content .adjunctive {
+    float: right;
+}
+
+.content .adjunctive::before {
+    content: "[";
+}
+
+.content .adjunctive::after {
+    content: "]";
+}
+
 @media only screen and (min-width: 700px) {
     .content ul,
     .content ol {

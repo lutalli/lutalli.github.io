@@ -33,7 +33,7 @@ module Catalog
     # rubocop:enable Lint/MissingSuper
 
     def title(branch, topic)
-      "#{@site.data['disp'][branch]} (#{@site.data['disp'][topic]})"
+      "#{@site.data['disp'][topic]} (#{@site.data['disp'][branch]})"
     end
 
     def init_data(branch, topic)
