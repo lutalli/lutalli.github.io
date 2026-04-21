@@ -1,29 +1,37 @@
 - - set-theory
-  - - - sets
+  - - - basics-st
       - [ CLS, UNI, ZF, AC, EMP, BLD, SUB, U, PAIR, SING, ROS, IT, DJ, DU, SD, DMG, SYD, P, TUP, CAR, TR ]
     - - relations
       - [ R, ID, RCL, EQV, CV, CP, RST, IM, WF ]
     - - functions
-      - [ F, OCL, INJ, SUR, BIJ, FI, MOR ]
+      - [ F, OCL, INJ, SUR, BIJ, FI, MOR, IVO, ADST ]
     - - orders
-      - [ PRO, PO, TO, OH, MA, GR, MAX, BND, SUP, DKCP, WO, WOT ]
+      - [ PRO, TPRO, PO, TO, OH, MA, GR, MAX, BND, SUP, DKCP, WO, WOT ]
     - - ordinals
       - [ ORD, OT, SUC, IND, LO, N, FIN, CNT, IDC, TIDC, SEQ, OLS, OCT, ONO, TREC, OAR ]
     - - cardinals
       - [ EQU, CA, CSUC, ALF, CARD, CDAR, SSUB ]
 - - abstract-algebra
   - - - magmas
-      - [ MAG, SUBS, MORD, SEM, MO, SMO, MOH, COS ]
+      - [ MAG, SMAG, MAGH, MORD, COS, SEM, SSEM, SEMH, NEU, INV, MO, SMO, MOH ]
     - - groups
-      - [ GRP, SG, GH, DP, CONJ, NSG, SGI, LAG, QG, GEN, PER, SYG, CAY, PAR, ALT, OG ]
+      - [ GRP, SG, GH, DP, CONJ, SGI, LAG, NSG, QG, GEN, PER, SYG, CAY, PAR, ALT, OG ]
     - - rings
-      - [ RING, SR, RH, OR, RDP, BI, RF, IVB, KD, ZD, DOM, IDOM, FRAC, CHAR ]
+      - [ RING, SR, RH, OR, RDP, BI, RF, ZD, DOM, IDOM, FRAC, CHAR ]
     - - fields
       - [ FLD, SF, FH, OF ]
     - - number-systems
-      - [ NN, ZZ, QQ, RR, CC ]
+      - [ NN, ZZ, QQ, RR ]
     - - polynoms
       - [ FPS, POLY, RE ]
+    - - misc-aa
+      - [ IVB, KD ]
+- - linear-algebra
+  - - - vector-spaces
+      - [ MD, VS, SVS ]
+- - topology
+  - - - basics-t
+      - [ MT, SNOR, NOR ]
 - - number-theory
   - - - divisibility
       - [ DIV, EVEN ]

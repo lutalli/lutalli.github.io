@@ -2,7 +2,7 @@ art: "Art"
 misc: "Misc"
 
 set-theory: "Set Theory"
-sets: "Sets"
+basics-st: "Basics"
 relations: "Relations"
 functions: "Functions"
 orders: "Orders"
@@ -16,6 +16,13 @@ rings: "Rings"
 fields: "Fields"
 number-systems: "Number Systems"
 polynoms: "Polynoms"
+misc-aa: "Miscellaneous"
+
+linear-algebra: "Linear Algebra"
+vector-spaces: "Vector Spaces"
+
+topology: "Topology"
+basics-t: "Basics"
 
 number-theory: "Number Theory"
 divisibility: "Divisibility"
