@@ -31,7 +31,7 @@
       - [ MD, VS, SVS ]
 - - topology
   - - - basics-t
-      - [ MT, SNOR, NOR ]
+      - [ MT, SNOR, NOR, DIAM ]
 - - number-theory
   - - - divisibility
       - [ DIV, EVEN ]
