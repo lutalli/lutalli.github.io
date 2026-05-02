@@ -116,7 +116,6 @@
     border-radius: 7px;
     font-family: var(--font-0);
     font-size: 0.8em;
-    font-variation-settings: "MONO" 1;
     padding: 0.18em 0.5em;
 }
 
@@ -126,7 +125,6 @@
     border-radius: 5px;
     font-family: var(--font-0);
     font-size: 0.8em;
-    font-variation-settings: "MONO" 1;
     overflow-x: scroll;
     padding: 1em;
 }

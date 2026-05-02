@@ -1,7 +1,29 @@
 @font-face {
-    font-family: "Recursive";
-    src: url("/res/fonts/Recursive_VF_1.085.woff2") format("woff2-variations");
-    font-weight: 300 800;
+    font-family: "Courier Prime";
+    src: url("/res/fonts/CourierPrime-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Courier Prime";
+    src: url("/res/fonts/CourierPrime-Italic.ttf");
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Courier Prime";
+    src: url("/res/fonts/CourierPrime-Bold.ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Courier Prime";
+    src: url("/res/fonts/CourierPrime-BoldItalic.ttf");
+    font-style: italic;
+    font-weight: bold;
 }
 
 @font-face {
@@ -21,6 +43,6 @@
     --col-y0: #cdd6f4;
     --col-y1: #b4befe;
 
-    --font-0: "Recursive", "Noto Sans Symbols", "Noto Sans Symbols 2", monospace;
+    --font-0: "Courier Prime", "Noto Sans Symbols", "Noto Sans Symbols 2", monospace;
 }
 
