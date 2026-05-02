@@ -6,15 +6,15 @@ layout: carbon
 
 {% for B in site.data.codex %}
     {% if B[0] == page.branch %}
-	{% assign T_layer = B[1] %}
-	{% break %}
+    {% assign T_layer = B[1] %}
+    {% break %}
     {% endif %}
 {% endfor %}
 
 {% for T in T_layer %}
     {% if T[0] == page.topic %}
-	{% assign sorted_slugs = T[1] %}
-	{% break %}
+    {% assign sorted_slugs = T[1] %}
+    {% break %}
     {% endif %}
 {% endfor %}
 
@@ -22,14 +22,14 @@ layout: carbon
 {% for slug in sorted_slugs %}
     {% assign post_found = false %}
     {% for post in posts %}
-	{% if post.slug == slug %}
-	    {% assign post_found = true %}
-	    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-	    {% break %}
-	{% endif %}
+    {% if post.slug == slug %}
+        {% assign post_found = true %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% break %}
+    {% endif %}
     {% endfor %}
     {% unless post_found %}
-	<li>Unknown slug: {{ slug }}</li>
+    <li>Unknown slug: {{ slug }}</li>
     {% endunless %}
 {% endfor %}
 </ul>

@@ -1,147 +1,148 @@
 <!DOCTYPE html>
 <html>
     <head>
-	<link href="/css/variables.css" type="text/css" rel="stylesheet" />
-	<link href="/css/header.css" type="text/css" rel="stylesheet" />
-	<link href="/css/headline.css" type="text/css" rel="stylesheet" />
-	<link href="/css/content.css" type="text/css" rel="stylesheet" />
-	<link href="/css/main.css" type="text/css" rel="stylesheet" />
+        <link href="/css/variables.css" type="text/css" rel="stylesheet" />
+        <link href="/css/header.css" type="text/css" rel="stylesheet" />
+        <link href="/css/headline.css" type="text/css" rel="stylesheet" />
+        <link href="/css/content.css" type="text/css" rel="stylesheet" />
+        <link href="/css/main.css" type="text/css" rel="stylesheet" />
 
         <link href="/res/favicon.ico" type="image/x-icon" rel="icon" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<script src="/js/jquery-4.0.0.slim.min.js"></script>
+        <script src="/js/jquery-4.0.0.slim.min.js"></script>
 
-	<script src="/js/mathjax/tex-chtml.js" defer></script>
-	<script>
-	    MathJax = {
-		tex: {
-		    inlineMath: { "[+]": [["$", "$"]] },
-		    macros: {
-				"ZF": "\\mathsf{ZF}",
-				"AC": "\\mathsf{AC}",
-				"ZFC": "\\mathsf{ZFC}",
-				"N": "\\mathbb{N}",
-				"Z": "\\mathbb{Z}",
-				"Q": "\\mathbb{Q}",
-				"R": "\\mathbb{R}",
-				"C": "\\mathbb{C}",
-				"V": "\\mathbb{V}",
-				"Ord": "\\mathbf{Ord}",
-				"Card": "\\mathbf{Card}",
-				"AA": "\\mathfrak{A}",
-				"SS": "\\mathfrak{S}",
+        <script src="/js/mathjax/tex-chtml.js" defer></script>
+        <script>
+            MathJax = {
+                tex: {
+                    inlineMath: { "[+]": [["$", "$"]] },
+                    macros: {
+                        "ZF": "\\mathsf{ZF}",
+                        "AC": "\\mathsf{AC}",
+                        "ZFC": "\\mathsf{ZFC}",
+                        "N": "\\mathbb{N}",
+                        "Z": "\\mathbb{Z}",
+                        "Q": "\\mathbb{Q}",
+                        "R": "\\mathbb{R}",
+                        "C": "\\mathbb{C}",
+                        "V": "\\mathbb{V}",
+                        "Ord": "\\mathbf{Ord}",
+                        "Card": "\\mathbf{Card}",
+                        "AA": "\\mathfrak{A}",
+                        "SS": "\\mathfrak{S}",
 
-				"powerset": "\\mathcal{P}",
-				"symd": "\\mathbin{\\triangle}",
-				"dom": "\\operatorname{dom}",
-				"ran": "\\operatorname{ran}",
-				"field": "\\operatorname{field}",
-				"id": "\\operatorname{id}",
-				"fun": "\\operatorname{fun}",
-				"inj": "\\operatorname{inj}",
-				"sur": "\\operatorname{sur}",
-				"bij": "\\operatorname{bij}",
-				// \hom is already defined
-				"mon": "\\operatorname{mon}",
-				"epi": "\\operatorname{epi}",
-				"iso": "\\operatorname{iso}",
-				"endo": "\\operatorname{end}",
-				"aut": "\\operatorname{aut}",
-				"inv": "\\operatorname{inv}",
-				"conj": "\\operatorname{conj}",
-				"im": "\\operatorname{im}",
-				// \ker is already defined
-				"par": "\\operatorname{par}",
-				"fract": "\\operatorname{frac}",
-				"chara": "\\operatorname{char}",
-				"upper": "\\operatorname{upper}",
-				"lower": "\\operatorname{lower}",
-				"init": "\\operatorname{init}",
+                        "powerset": "\\mathcal{P}",
+                        "symd": "\\mathbin{\\triangle}",
+                        "dom": "\\operatorname{dom}",
+                        "ran": "\\operatorname{ran}",
+                        "field": "\\operatorname{field}",
+                        "id": "\\operatorname{id}",
+                        "fun": "\\operatorname{fun}",
+                        "inj": "\\operatorname{inj}",
+                        "sur": "\\operatorname{sur}",
+                        "bij": "\\operatorname{bij}",
+                        // \hom is already defined
+                        "mon": "\\operatorname{mon}",
+                        "epi": "\\operatorname{epi}",
+                        "iso": "\\operatorname{iso}",
+                        "endo": "\\operatorname{end}",
+                        "aut": "\\operatorname{aut}",
+                        "inv": "\\operatorname{inv}",
+                        "conj": "\\operatorname{conj}",
+                        "im": "\\operatorname{im}",
+                        // \ker is already defined
+                        "par": "\\operatorname{par}",
+                        "fract": "\\operatorname{frac}",
+                        "chara": "\\operatorname{char}",
+                        "upper": "\\operatorname{upper}",
+                        "lower": "\\operatorname{lower}",
+                        "init": "\\operatorname{init}",
+                        "diam": "\\operatorname{diam}",
 
-				// Space here to avoid conflict with Liquid tags
-				//	 	      ↓
-				"prerel": ["\\mathrel{ {}_{#1}{#2}}", 2],
-				"limp": "\\leftarrow",
-				"rimp": "\\rightarrow",
-				"lrimp": "\\leftrightarrow",
-				"Limp": "\\Leftarrow",
-				"Rimp": "\\Rightarrow",
-				"Lrimp": "\\Leftrightarrow",
-				"divides": "\\mid",
-				"ndivides": "\\nmid",
-				"equ": "\\approx",
-				"lequ": "\\lesssim",
-				"gequ": "\\gtrsim",
-				"lnequ": "\\lnsim",
-				"gnequ": "\\gnsim"
-		    }
-		},
-		output: {
-		    fontPath: "/js/mathjax/mathjax-newcm-font",
-			linebreaks: {
-				inline: false
-			}
-		},
-		// https://stackoverflow.com/a/42774146
-		startup: {
-		    ready() {
-			MathJax.startup.defaultReady();
-			const {Token} = MathJax._.input.tex.Token;
-			const {MapHandler} = MathJax._.input.tex.MapHandler;
-			const delimiter = MapHandler.getMap('delimiter');
-			delimiter.add('\\llbra', new Token('\\llbra', '\u27E6'));
-			delimiter.add('\\rrbra', new Token('\\rrbra', '\u27E7'));
-		    }
-		} 
-	    }
-	</script>
+                        // Space here to avoid conflict with Liquid tags
+                        //                    ↓
+                        "prerel": ["\\mathrel{ {}_{#1}{#2}}", 2],
+                        "limp": "\\leftarrow",
+                        "rimp": "\\rightarrow",
+                        "lrimp": "\\leftrightarrow",
+                        "Limp": "\\Leftarrow",
+                        "Rimp": "\\Rightarrow",
+                        "Lrimp": "\\Leftrightarrow",
+                        "divides": "\\mid",
+                        "ndivides": "\\nmid",
+                        "equ": "\\approx",
+                        "lequ": "\\lesssim",
+                        "gequ": "\\gtrsim",
+                        "lnequ": "\\lnsim",
+                        "gnequ": "\\gnsim"
+                    }
+                },
+                output: {
+                    fontPath: "/js/mathjax/mathjax-newcm-font",
+                    linebreaks: {
+                        inline: false
+                    }
+                },
+                // https://stackoverflow.com/a/42774146
+                startup: {
+                    ready() {
+                        MathJax.startup.defaultReady();
+                        const {Token} = MathJax._.input.tex.Token;
+                        const {MapHandler} = MathJax._.input.tex.MapHandler;
+                        const delimiter = MapHandler.getMap('delimiter');
+                        delimiter.add('\\llbra', new Token('\\llbra', '\u27E6'));
+                        delimiter.add('\\rrbra', new Token('\\rrbra', '\u27E7'));
+                    }
+                } 
+            }
+        </script>
 
-	<link rel="stylesheet" href="/js/highlight/styles/default.min.css">
-	<link rel="stylesheet" href="/js/highlight/styles/catppuccin-mocha.css">
-	<script src="/js/highlight/highlight.min.js"></script>
-	<script>hljs.highlightAll();</script>
+        <link rel="stylesheet" href="/js/highlight/styles/default.min.css">
+        <link rel="stylesheet" href="/js/highlight/styles/catppuccin-mocha.css">
+        <script src="/js/highlight/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
 
-	<title>{{ page.title }} • {{ site.title }}</title>
+        <title>{{ page.title }} • {{ site.title }}</title>
     </head>
     <body>
-	<div id="space">
-	    <header>
-		<div class="panel">
-		    <div style="display: flex">
-			<div id="header-left"><p>
-			    <a href="/codex">Codex</a>
-			    {% if page.topic %}
-			    &gt; <a href="/codex/{{ page.branch }}/{{ page.topic }}">{{ site.data.disp[page.topic] }} ({{ site.data.disp[page.branch] }})</a>
-			    {% endif %}
-			</p></div>
-			<div id="header-right">
-			    <a href="/posts">Posts</a>
-			    <a href="/links">Links</a>
-			</div>
-		    </div>
-		</div>
-	    </header>
-	    <div class="panel">
-		<div class="headline">
-		    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-		    {% if page.date %}
-		    <p>🅟 {{ page.date | date: "%b %d, %Y" }}</p>
-		    {% endif %}
-		    {% if page.updated %}
-		    <p>&ensp; 🅤 {{ page.updated | date: "%b %d, %Y" }}</p>
-		    {% endif %}
-		</div>
-	    </div>
-	    <div class="panel">
-		{% unless page.empty %}
-		<div class="content">
-		    {{ content }}
-		</div>
-		{% endunless %}
-	    </div>
-	</div>
+        <div id="space">
+            <header>
+                <div class="panel">
+                    <div style="display: flex">
+                        <div id="header-left"><p>
+                            <a href="/codex">Codex</a>
+                            {% if page.topic %}
+                            &gt; <a href="/codex/{{ page.branch }}/{{ page.topic }}">{{ site.data.disp[page.topic] }} ({{ site.data.disp[page.branch] }})</a>
+                            {% endif %}
+                            </p></div>
+                            <div id="header-right">
+                                <a href="/posts">Posts</a>
+                                <a href="/links">Links</a>
+                            </div>
+                    </div>
+                </div>
+            </header>
+            <div class="panel">
+                <div class="headline">
+                    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+                    {% if page.date %}
+                    <p>🅟 {{ page.date | date: "%b %d, %Y" }}</p>
+                    {% endif %}
+                    {% if page.updated %}
+                    <p>&ensp; 🅤 {{ page.updated | date: "%b %d, %Y" }}</p>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="panel">
+                {% unless page.empty %}
+                <div class="content">
+                    {{ content }}
+                </div>
+                {% endunless %}
+            </div>
+        </div>
     </body>
 </html>
 

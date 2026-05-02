@@ -198,13 +198,13 @@
 @media only screen and (min-width: 700px) {
     .content ul,
     .content ol {
-	padding-left: 2.7em;
-	padding-right: 2.7em;
+        padding-left: 2.7em;
+        padding-right: 2.7em;
     }
 
     .content table:not(.references) {
-	max-width: 100%;
-	min-width: 60%;
-	width: fit-content;
+        max-width: 100%;
+        min-width: 60%;
+        width: fit-content;
     }
 }

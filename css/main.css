@@ -58,17 +58,17 @@ a:hover {
 
 @media only screen and (min-width: 700px) {
     body {
-	font-size: 1.2em;
+        font-size: 1.2em;
     }
 
     .panel {
-	border-radius: 15px;
-	max-width: 90%;
-	width: 48em;
+        border-radius: 15px;
+        max-width: 90%;
+        width: 48em;
     }
 
     .panel > div {
-	margin: 30px 40px;
+        margin: 30px 40px;
     }
 }
 
