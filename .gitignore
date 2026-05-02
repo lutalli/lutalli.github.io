@@ -1,5 +1,7 @@
 _site
+.ignore
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
+
