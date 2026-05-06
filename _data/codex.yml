@@ -28,7 +28,7 @@
       - [ IVB, KD ]
 - - linear-algebra
   - - - vector-spaces
-      - [ MD, VS, SVS ]
+      - [ MD, VS, SVS, LS, LI, BS ]
 - - topology
   - - - basics-t
       - [ MT, SNOR, NOR, DIAM ]
