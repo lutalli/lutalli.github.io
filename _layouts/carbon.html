@@ -60,6 +60,7 @@
                         "lower": "\\operatorname{lower}",
                         "init": "\\operatorname{init}",
                         "diam": "\\operatorname{diam}",
+                        "span": "\\operatorname{span}",
 
                         // Space here to avoid conflict with Liquid tags
                         //                    ↓
@@ -95,6 +96,8 @@
                         const delimiter = MapHandler.getMap('delimiter');
                         delimiter.add('\\llbra', new Token('\\llbra', '\u27E6'));
                         delimiter.add('\\rrbra', new Token('\\rrbra', '\u27E7'));
+                        delimiter.add('\\lbag', new Token('\\lbag', '\u2983'));
+                        delimiter.add('\\rbag', new Token('\\rbag', '\u2984'));
                     }
                 } 
             }
@@ -110,7 +113,7 @@
     <body>
         <div id="space">
             <header>
-                <div class="panel">
+                <div class="area">
                     <div style="display: flex">
                         <div id="header-left"><p>
                             <a href="/codex">Codex</a>
@@ -125,7 +128,7 @@
                     </div>
                 </div>
             </header>
-            <div class="panel">
+            <div class="area">
                 <div class="headline">
                     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
                     {% if page.date %}
@@ -136,7 +139,7 @@
                     {% endif %}
                 </div>
             </div>
-            <div class="panel">
+            <div class="area">
                 {% unless page.empty %}
                 <div class="content">
                     {{ content }}

@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background-color: var(--col-x2);
+    background-color: var(--col-x0);
     color: var(--col-y0);
     font-size: 0.8em; /* @ */
     font-family: var(--font-0);
@@ -30,15 +30,13 @@ a:hover {
     opacity: 65% !important;
 }
 
-.panel {
-    background-color: var(--col-x0);
-    border-radius: 0; /* @ */
+.area {
     margin: 15px auto;
     overflow: auto;
     width: 100%; /* @ */
 }
 
-.panel > div {
+.area > div {
     margin: 20px; /* @ */
 }
 
@@ -52,13 +50,12 @@ a:hover {
         font-size: 1.3em;
     }
 
-    .panel {
-        border-radius: 15px;
+    .area {
         max-width: 90%;
-        width: 48em;
+        width: 52em;
     }
 
-    .panel > div {
+    .area > div {
         margin: 30px 40px;
     }
 }

@@ -1,6 +1,6 @@
 .content p {
     font-size: 1em;
-    line-height: 1.6em;
+    line-height: 1.7em;
     margin-top: 0.8em;
     margin-bottom: 0.8em;
 }
@@ -30,18 +30,17 @@
 }
 
 .content blockquote {
-    background-color: var(--col-x1);
-    border-bottom: 5px solid var(--col-x2);
-    border-radius: 10px;
+    border: 3px solid var(--col-x1);
+    border-radius: 6px;
     margin-left: 0;
     margin-right: 0;
-    padding: 0.1em 1em;
+    padding: 0.1em 1.2em;
 }
 
 .content ol,
 .content ul {
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.7em;
     margin-bottom: 1em;
     margin-top: 1em;
     padding-left: 2.2em; /* @ */
@@ -103,7 +102,7 @@
     border-right: none;
     margin-top: 3em;
     margin-bottom: 3em;
-    width: 100%;
+    width: 80%;
 }
 
 .content mjx-container[display="true"] {
@@ -116,17 +115,20 @@
     border-radius: 7px;
     font-family: var(--font-0);
     font-size: 0.8em;
-    padding: 0.18em 0.5em;
+    padding: 0.3em 0.6em;
 }
 
-.content pre code {
-    background-color: var(--col-x1) !important;
-    border-bottom: 5px solid var(--col-x2);
-    border-radius: 5px;
-    font-family: var(--font-0);
+.content pre {
+    border: 3px solid var(--col-x1);
+    border-radius: 6px;
     font-size: 0.8em;
     overflow-x: scroll;
     padding: 1em;
+}
+
+.content pre code {
+    background-color: var(--col-x0) !important;
+    font-family: var(--font-0);
 }
 
 .content table {
@@ -137,7 +139,7 @@
 
 .content th,
 .content td {
-    border: 2px var(--col-x2) solid;
+    border: 3px var(--col-x1) solid;
     padding: 0.8em;
 }
 
