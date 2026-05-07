@@ -20,6 +20,8 @@ misc-aa: "Miscellaneous"
 
 linear-algebra: "Linear Algebra"
 vector-spaces: "Vector Spaces"
+matrices: "Matrices"
+linear-mappings: "Linear Mappings"
 
 topology: "Topology"
 basics-t: "Basics"
