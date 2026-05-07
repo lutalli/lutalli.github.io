@@ -23,12 +23,6 @@
     margin-top: 1.2em;
 }
 
-.content h1,
-.content h2,
-.content h3 {
-    color: var(--col-y1);
-}
-
 .content blockquote {
     border: 3px solid var(--col-x1);
     border-radius: 6px;
@@ -64,10 +58,6 @@
     padding-right: 1.25em;
 }
 
-.content li::marker {
-    color: var(--col-y1);
-}
-
 .content ul > li::marker {
     content: "🞱 ";
 }
@@ -96,7 +86,7 @@
 }
 
 .content hr {
-    border-top: 8px dotted var(--col-x2);
+    border-top: 8px dotted var(--col-x1);
     border-bottom: none;
     border-left: none;
     border-right: none;
@@ -111,7 +101,7 @@
 }
 
 .content :not(pre) code {
-    background-color: var(--col-x2);
+    background-color: var(--col-x1);
     border-radius: 7px;
     font-family: var(--font-0);
     font-size: 0.8em;
@@ -150,7 +140,7 @@
 }
 
 .content img.framed {
-    border: 2px solid var(--col-y1);
+    border: 2px solid var(--col-y0);
     border-radius: 3px;
 }
 
@@ -164,7 +154,6 @@
 }
 
 .content qed::before {
-    color: var(--col-y1);
     content: "□";
     float: right;
     font-family: "Noto Sans Symbols 2" !important;
@@ -175,12 +164,7 @@
 }
 
 .content .run-in {
-    color: var(--col-y1);
     margin-right: 1em;
-}
-
-.content .run-out {
-    color: var(--col-y1);
 }
 
 .content .adjunctive {

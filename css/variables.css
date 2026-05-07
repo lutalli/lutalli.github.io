@@ -37,11 +37,10 @@
 }
 
 :root {
-    --col-x0: #11111b;
-    --col-x1: #181825;
-    --col-x2: #1e1e2e;
-    --col-y0: #cdd6f4;
-    --col-y1: #b4befe;
+    --col-x0: #080808;
+    --col-x1: #121212;
+    --col-y0: #dadada;
+    --col-y1: #a8a8a8;
 
     --font-0: "Courier Prime", "Noto Sans Symbols", "Noto Sans Symbols 2", monospace;
 }

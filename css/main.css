@@ -41,8 +41,8 @@ a:hover {
 }
 
 ::selection {
-    background-color: var(--col-y1);
-    color: var(--col-x2);
+    background-color: var(--col-y0);
+    color: var(--col-x0);
 }
 
 @media only screen and (min-width: 700px) {
