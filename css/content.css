@@ -113,11 +113,10 @@
     border-radius: 6px;
     font-size: 0.8em;
     overflow-x: scroll;
-    padding: 1em;
+    padding: 1.5em;
 }
 
 .content pre code {
-    background-color: var(--col-x0) !important;
     font-family: var(--font-0);
 }
 

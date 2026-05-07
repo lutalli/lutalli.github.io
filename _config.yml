@@ -6,8 +6,6 @@ permalink: /:categories/:title
 plugins:
   - jekyll-feed
 
-highlighter: none
-
 collections:
   codex:
     output: true
