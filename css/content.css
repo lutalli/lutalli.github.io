@@ -178,6 +178,20 @@
     content: "]";
 }
 
+.content dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+    line-height: 2em;
+}
+
+.content dt {
+    grid-column-start: 1;
+}
+
+.content dd {
+    grid-column-start: 2
+}
+
 @media only screen and (min-width: 700px) {
     .content ul,
     .content ol {

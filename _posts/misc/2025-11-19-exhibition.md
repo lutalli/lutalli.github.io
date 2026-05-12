@@ -2,8 +2,9 @@
 layout: carbon
 title: Exhibition
 categories: misc
-updated: 2026-03-16
+updated: 2026-05-11
 ---
+
 ## Body Text
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices augue a erat sagittis iaculis. Pellentesque ac ultricies libero, eget interdum enim. Morbi ultricies et tellus id accumsan. Pellentesque pellentesque risus non velit placerat consectetur. Aenean eget dignissim libero, ut laoreet dolor. Sed cursus mauris purus, eu rutrum metus congue quis. Mauris aliquam arcu in elementum suscipit. Mauris id tincidunt elit. Duis elementum ligula ut nibh mattis faucibus. Suspendisse ipsum ante, euismod id nisl eu, varius placerat nibh.
@@ -148,6 +149,17 @@ Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
 
 Curabitur luctus massa non blandit lobortis.
 
+## Nomenclature
+
+$\powerset(X)$
+: Etiam non lacus eget.
+
+$\llbra n\rrbra$
+: Mauris eu velit quis sem.
+
+$f : X\to Y, \, x\mapsto y$
+: Sed vehicula diam orci.
+
 ## Horizontal Rules
 
 ---
@@ -155,4 +167,3 @@ Curabitur luctus massa non blandit lobortis.
 [^1]: Phasellus eu mauris augue. Cras non elit.
 
 [^2]: Vivamus id tellus vestibulum, rhoncus odio at, facilisis eros.
-
