@@ -1,207 +1,211 @@
-.content p {
-    font-size: 1em;
-    line-height: 1.7em;
-    margin-top: 0.8em;
-    margin-bottom: 0.8em;
-}
+.content {
+    & p {
+        font-size: 1em;
+        line-height: 1.7em;
+        margin-top: 0.8em;
+        margin-bottom: 0.8em;
+    }
 
-.content h1 {
-    font-size: 1.8em;
-    margin-bottom: 0.8em;
-    margin-top: 1.3em;
-}
+    & h1 {
+        font-size: 1.8em;
+        margin-bottom: 0.8em;
+        margin-top: 1.3em;
+    }
 
-.content h2 {
-    font-size: 1.5em;
-    margin-bottom: 0.4em;
-    margin-top: 1.4em;
-}
+    & h2 {
+        font-size: 1.5em;
+        margin-bottom: 0.4em;
+        margin-top: 1.4em;
+    }
 
-.content h3 {
-    font-size: 1.2em;
-    margin-bottom: 0.4em;
-    margin-top: 1.2em;
-}
+    & h3 {
+        font-size: 1.2em;
+        margin-bottom: 0.4em;
+        margin-top: 1.2em;
+    }
 
-.content blockquote {
-    border: 3px solid var(--col-x1);
-    border-radius: 6px;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0.1em 1.2em;
-}
+    & blockquote {
+        border: 3px solid var(--col-x1);
+        border-radius: 6px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0.1em 1.2em;
+    }
 
-.content ol,
-.content ul {
-    font-size: 1em;
-    line-height: 1.7em;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    padding-left: 2.2em; /* @ */
-    padding-right: 2.7em;
-}
-
-.content li > ol,
-.content li > ul {
-    font-size: 1em;
-}
-
-.content li {
-    padding-left: 0.4em;
-}
-
-.content ul ul,
-.content ul ol,
-.content ol ul,
-.content ol ol {
-    padding-left: 1.25em;
-    padding-right: 1.25em;
-}
-
-.content ul > li::marker {
-    content: "🞱 ";
-}
-
-.content ul ul > li::marker,
-.content ol ul > li::marker {
-    content: "• ";
-}
-
-.content ul ol,
-.content ol ol {
-    list-style-type: lower-alpha;
-}
-
-.content ol.par-upper-roman {
-    list-style-type: upper-roman;
-}
-
-.content ol.par-upper-roman li::marker {
-    content: "(" counter(list-item, upper-roman) ")";
-}
-
-.content ul.no-indent,
-.content ol.no-indent {
-    padding-left: 1.2em;
-}
-
-.content hr {
-    border-top: 8px dotted var(--col-x1);
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    width: 80%;
-}
-
-.content mjx-container[display="true"] {
-    overflow-x: scroll;
-    overflow-y: hidden;
-}
-
-.content :not(pre) code {
-    background-color: var(--col-x1);
-    border-radius: 7px;
-    font-family: var(--font-0);
-    font-size: 0.8em;
-    padding: 0.3em 0.6em;
-}
-
-.content pre {
-    border: 3px solid var(--col-x1);
-    border-radius: 6px;
-    font-size: 0.8em;
-    overflow-x: scroll;
-    padding: 1.5em;
-}
-
-.content pre code {
-    font-family: var(--font-0);
-}
-
-.content table {
-    border-collapse: collapse;
-    margin: 1em auto;
-    width: 100%; /* @ */
-}
-
-.content th,
-.content td {
-    border: 3px var(--col-x1) solid;
-    padding: 0.8em;
-}
-
-.content img {
-    display: block;
-    margin: 1em auto 1em auto;
-    max-width: 100%;
-}
-
-.content img.framed {
-    border: 2px solid var(--col-y0);
-    border-radius: 3px;
-}
-
-.content figcaption {
-    font-size: 0.85em;
-    text-align: center;
-}
-
-.content figure {
-    margin: 1.2em 0;
-}
-
-.content qed::before {
-    content: "□";
-    float: right;
-    font-family: "Noto Sans Symbols 2" !important;
-}
-
-.content .centered {
-    text-align: center;
-}
-
-.content .run-in {
-    margin-right: 1em;
-}
-
-.content .adjunctive {
-    float: right;
-}
-
-.content .adjunctive::before {
-    content: "[";
-}
-
-.content .adjunctive::after {
-    content: "]";
-}
-
-.content dl {
-    display: grid;
-    grid-template-columns: max-content auto;
-    line-height: 2em;
-}
-
-.content dt {
-    grid-column-start: 1;
-}
-
-.content dd {
-    grid-column-start: 2
-}
-
-@media only screen and (min-width: 700px) {
-    .content ul,
-    .content ol {
-        padding-left: 2.7em;
+    & ol,
+    & ul {
+        font-size: 1em;
+        line-height: 1.7em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        padding-left: 2.2em; /* @ */
         padding-right: 2.7em;
     }
 
-    .content table:not(.references) {
+    & li > ol,
+    & li > ul {
+        font-size: 1em;
+    }
+
+    & li {
+        padding-left: 0.4em;
+    }
+
+    & ul ul,
+    & ul ol,
+    & ol ul,
+    & ol ol {
+        padding-left: 1.25em;
+        padding-right: 1.25em;
+    }
+
+    & ul > li::marker {
+        content: "🞱 ";
+    }
+
+    & ul ul > li::marker,
+    & ol ul > li::marker {
+        content: "• ";
+    }
+
+    & ul ol,
+    & ol ol {
+        list-style-type: lower-alpha;
+    }
+
+    & ol.par-upper-roman {
+        list-style-type: upper-roman;
+    }
+
+    & ol.par-upper-roman li::marker {
+        content: "(" counter(list-item, upper-roman) ")";
+    }
+
+    & ul.no-indent,
+    & ol.no-indent {
+        padding-left: 1.2em;
+    }
+
+    & hr {
+        border-top: 8px dotted var(--col-x1);
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        width: 80%;
+    }
+
+    & mjx-container[display="true"] {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    & :not(pre) code {
+        background-color: var(--col-x1);
+        border-radius: 7px;
+        font-family: var(--font-0);
+        font-size: 0.8em;
+        padding: 0.3em 0.6em;
+    }
+
+    & pre {
+        border: 3px solid var(--col-x1);
+        border-radius: 6px;
+        font-size: 0.8em;
+        overflow-x: scroll;
+        padding: 1.5em;
+    }
+
+    & pre code {
+        font-family: var(--font-0);
+    }
+
+    & table {
+        border-collapse: collapse;
+        margin: 1em auto;
+        width: 100%; /* @ */
+    }
+
+    & th,
+    & td {
+        border: 3px var(--col-x1) solid;
+        padding: 0.8em;
+    }
+
+    & img {
+        display: block;
+        margin: 1em auto 1em auto;
         max-width: 100%;
-        min-width: 60%;
-        width: fit-content;
+    }
+
+    & img.framed {
+        border: 2px solid var(--col-y0);
+        border-radius: 3px;
+    }
+
+    & figcaption {
+        font-size: 0.85em;
+        text-align: center;
+    }
+
+    & figure {
+        margin: 1.2em 0;
+    }
+
+    & qed::before {
+        content: "□";
+        float: right;
+        font-family: "Noto Sans Symbols 2" !important;
+    }
+
+    & .centered {
+        text-align: center;
+    }
+
+    & .run-in {
+        margin-right: 1em;
+    }
+
+    & .adjunctive {
+        float: right;
+    }
+
+    & .adjunctive::before {
+        content: "[";
+    }
+
+    & .adjunctive::after {
+        content: "]";
+    }
+
+    & dl {
+        display: grid;
+        grid-template-columns: max-content auto;
+        line-height: 2em;
+    }
+
+    & dt {
+        grid-column-start: 1;
+    }
+
+    & dd {
+        grid-column-start: 2
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .content {
+        & ul,
+        & ol {
+            padding-left: 2.7em;
+            padding-right: 2.7em;
+        }
+
+        & table:not(.references) {
+            max-width: 100%;
+            min-width: 60%;
+            width: fit-content;
+        }
     }
 }

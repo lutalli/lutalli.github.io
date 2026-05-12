@@ -1,12 +1,13 @@
-div.headline h1 {
-    margin-bottom: 0;
-    margin-top: 0;
-}
+.headline {
+    & h1 {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
 
-div.headline p {
-    display: inline-block;
-    line-height: 1.4;
-    margin-bottom: 0;
-    margin-top: 0.3em;
+    & p {
+        display: inline-block;
+        line-height: 1.4;
+        margin-bottom: 0;
+        margin-top: 0.3em;
+    }
 }
-
