@@ -1,27 +1,27 @@
 @font-face {
-    font-family: "Courier Prime";
-    src: url("/res/fonts/CourierPrime-Regular.ttf");
+    font-family: "Ubuntu Sans Mono";
+    src: url("/res/fonts/UbuntuSansMono-Regular.ttf");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Courier Prime";
-    src: url("/res/fonts/CourierPrime-Italic.ttf");
+    font-family: "Ubuntu Sans Mono";
+    src: url("/res/fonts/UbuntuSansMono-Italic.ttf");
     font-style: italic;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Courier Prime";
-    src: url("/res/fonts/CourierPrime-Bold.ttf");
+    font-family: "Ubuntu Sans Mono";
+    src: url("/res/fonts/UbuntuSansMono-Bold.ttf");
     font-style: normal;
     font-weight: bold;
 }
 
 @font-face {
-    font-family: "Courier Prime";
-    src: url("/res/fonts/CourierPrime-BoldItalic.ttf");
+    font-family: "Ubuntu Sans Mono";
+    src: url("/res/fonts/UbuntuSansMono-BoldItalic.ttf");
     font-style: italic;
     font-weight: bold;
 }
@@ -37,10 +37,10 @@
 }
 
 :root {
-    --col-x0: #080808;
-    --col-x1: #121212;
-    --col-y0: #e4e4e4;
-    --col-y1: #a8a8a8;
+    --col-x0: #ffffff;
+    --col-x1: #e4e4e4;
+    --col-y0: #080808;
+    --col-y1: #444444;
 
-    --font-0: "Courier Prime", "Noto Sans Symbols", "Noto Sans Symbols 2", monospace;
+    --font-0: "Ubuntu Sans Mono", "Noto Sans Symbols", "Noto Sans Symbols 2", monospace;
 }

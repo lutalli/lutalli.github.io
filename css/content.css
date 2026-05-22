@@ -60,7 +60,7 @@
     }
 
     & ul > li::marker {
-        content: "🞱 ";
+        content: "🞙 ";
     }
 
     & ul ul > li::marker,
