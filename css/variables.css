@@ -37,11 +37,12 @@
 }
 
 :root {
-    --col-x0: #f7f3ee;
-    --col-x1: #dddbd8;
-    --col-y0: #5a544c;
-    --col-y1: #7F7A73;
+    --col-b: #f7f3ee; /* Color: Background */
+    --col-s: #dddbd8; /* Color: Subtle     */
+    --col-t: #5a544c; /* Color: Text       */
 
-    --font-0: "Crimson Text", "Noto Sans Symbols", "Noto Sans Symbols 2", serif;
-    --font-1: monospace;
+    /* Font: Text */
+    --font-t: "Crimson Text", "Noto Sans Symbols", "Noto Sans Symbols 2", serif;
+    /* Font: Monospace */
+    --font-m: monospace;
 }

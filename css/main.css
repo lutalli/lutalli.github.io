@@ -13,17 +13,17 @@ html {
 }
 
 body {
-    background-color: var(--col-x0);
-    color: var(--col-y0);
+    background-color: var(--col-b);
+    color: var(--col-t);
     font-size: 0.8em; /* @ */
     word-spacing: 2px;
-    font-family: var(--font-0);
+    font-family: var(--font-t);
     margin: 0;
 }
 
 a {
-    color: var(--col-y1);
-    text-decoration: none;
+    color: var(--col-t);
+    text-decoration: underline 3px var(--col-s);
     transition: opacity 0.2s;
 }
 
@@ -42,8 +42,8 @@ a:hover {
 }
 
 ::selection {
-    background-color: var(--col-y0);
-    color: var(--col-x0);
+    background-color: var(--col-t);
+    color: var(--col-b);
 }
 
 @media only screen and (min-width: 700px) {

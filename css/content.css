@@ -25,7 +25,7 @@
     }
 
     & blockquote {
-        border: 3px solid var(--col-x1);
+        border: 3px solid var(--col-s);
         border-radius: 6px;
         margin-left: 0;
         margin-right: 0;
@@ -87,7 +87,7 @@
     }
 
     & hr {
-        border-top: 8px dotted var(--col-x1);
+        border-top: 8px dotted var(--col-s);
         border-bottom: none;
         border-left: none;
         border-right: none;
@@ -102,15 +102,15 @@
     }
 
     & :not(pre) code {
-        background-color: var(--col-x1);
+        background-color: var(--col-s);
         border-radius: 7px;
-        font-family: var(--font-1);
+        font-family: var(--font-m);
         font-size: 0.8em;
         padding: 0.3em 0.6em;
     }
 
     & pre {
-        border: 3px solid var(--col-x1);
+        border: 3px solid var(--col-s);
         border-radius: 6px;
         font-size: 0.8em;
         overflow-x: scroll;
@@ -118,7 +118,7 @@
     }
 
     & pre code {
-        font-family: var(--font-1);
+        font-family: var(--font-m);
     }
 
     & table {
@@ -129,7 +129,7 @@
 
     & th,
     & td {
-        border: 3px var(--col-x1) solid;
+        border: 3px var(--col-s) solid;
         padding: 0.8em;
     }
 
@@ -140,7 +140,7 @@
     }
 
     & img.framed {
-        border: 2px solid var(--col-y0);
+        border: 2px solid var(--col-t);
         border-radius: 3px;
     }
 
