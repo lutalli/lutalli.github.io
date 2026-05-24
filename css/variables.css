@@ -1,27 +1,27 @@
 @font-face {
-    font-family: "Ubuntu Sans Mono";
-    src: url("/res/fonts/UbuntuSansMono-Regular.ttf");
+    font-family: "Crimson Text";
+    src: url("/res/fonts/CrimsonText-Regular.ttf");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Ubuntu Sans Mono";
-    src: url("/res/fonts/UbuntuSansMono-Italic.ttf");
+    font-family: "Crimson Text";
+    src: url("/res/fonts/CrimsonText-Italic.ttf");
     font-style: italic;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Ubuntu Sans Mono";
-    src: url("/res/fonts/UbuntuSansMono-Bold.ttf");
+    font-family: "Crimson Text";
+    src: url("/res/fonts/CrimsonText-Bold.ttf");
     font-style: normal;
     font-weight: bold;
 }
 
 @font-face {
-    font-family: "Ubuntu Sans Mono";
-    src: url("/res/fonts/UbuntuSansMono-BoldItalic.ttf");
+    font-family: "Crimson Text";
+    src: url("/res/fonts/CrimsonText-BoldItalic.ttf");
     font-style: italic;
     font-weight: bold;
 }
@@ -42,5 +42,6 @@
     --col-y0: #080808;
     --col-y1: #444444;
 
-    --font-0: "Ubuntu Sans Mono", "Noto Sans Symbols", "Noto Sans Symbols 2", monospace;
+    --font-0: "Crimson Text", "Noto Sans Symbols", "Noto Sans Symbols 2", serif;
+    --font-1: monospace;
 }
