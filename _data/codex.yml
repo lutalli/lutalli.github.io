@@ -28,11 +28,11 @@
       - [ IVB, KD ]
 - - linear-algebra
   - - - vector-spaces
-      - [ MD, VS, SVS, LS, LI, BS, DIM ]
+      - [ MD, VS, SVS, LS, LI, BS, DIM, VSUM, VDS, AFS ]
     - - matrices
       - [ M ]
     - - linear-mappings
-      - [ LM ]
+      - [ LM, LRK, LNLT, RNT ]
 - - topology
   - - - basics-t
       - [ MT, SNOR, NOR, DIAM, BMAP, SUPN, BALL, INTR, OPN, CLO ]
