@@ -12,4 +12,3 @@ collections:
   codex:
     output: true
     permalink: /codex/:title
-

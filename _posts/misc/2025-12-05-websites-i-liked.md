@@ -19,4 +19,3 @@ updated: 2026-01-07
 - [ConwayLife.com](https://conwaylife.com)
 - [Tips for mathematical handwriting](https://johnkerl.org/doc/ortho/ortho.html) by John Kerl
 - [hack.chat](https://hack.chat)
-

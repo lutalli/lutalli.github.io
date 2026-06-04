@@ -24,4 +24,3 @@ title: Links
 
 {:.centered}
 [RSS Feed](/feed.xml)
-

@@ -44,4 +44,3 @@ In the following table, "AmE", "NAmE" and "BrE" refer to American English, North
 
 [^1]: Strictly speaking, it is incorrect to call the symbol `#` itself a *hashtag*.
 [^2]: These symbols are different: *hyphen*, *en dash*, *em dash* and *minus*.
-
