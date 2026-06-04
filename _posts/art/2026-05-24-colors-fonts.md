@@ -1,5 +1,4 @@
 ---
-layout: carbon
 title: Colors and Fonts on this Website
 updated: 2026-05-24
 categories: art

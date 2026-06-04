@@ -1,5 +1,4 @@
 ---
-layout: carbon
 title: Exhibition
 categories: misc
 updated: 2026-05-11

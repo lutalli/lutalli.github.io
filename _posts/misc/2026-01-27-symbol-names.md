@@ -1,5 +1,4 @@
 ---
-layout: carbon
 title: What Are These Symbols Called?
 categories: misc
 updated: 2026-03-05

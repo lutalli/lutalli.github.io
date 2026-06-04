@@ -1,5 +1,4 @@
 ---
-layout: carbon
 title: Some Websites / Webpages I Liked
 categories: misc
 updated: 2026-01-07
