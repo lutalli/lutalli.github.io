@@ -1,8 +1,8 @@
 - - set-theory
   - - - basics-st
-      - [ CLS, UNI, ZF, AC, EMP, BLD, SUB, U, PAIR, SING, ROS, IT, DJ, DU, SD, DMG, SYD, P, TUP, CAR, TR ]
+      - [ SET, CLS, UNI, ZF, AC, EMP, BLD, SUB, PAIR, U, SING, ROS, IT, DJ, DU, SD, DMG, SYD, P, TUP, CART, TRS ]
     - - relations
-      - [ R, ID, RCL, EQV, CV, CP, RST, IM, WF ]
+      - [ REL, ID, RELC, EQV, CV, CP, RST, IM, WF ]
     - - functions
       - [ F, OCL, INJ, SUR, BIJ, FI, MOR, IVO, ADST ]
     - - orders

@@ -1,33 +1,42 @@
-art: "Art"
-misc: "Misc"
+# Post categories
+art              : "Art"
+misc             : "Misc"
 
-set-theory: "Set Theory"
-basics-st: "Basics"
-relations: "Relations"
-functions: "Functions"
-orders: "Orders"
-ordinals: "Ordinals"
-cardinals: "Cardinals"
+### Codex ###
 
-abstract-algebra: "Abstract Algebra"
-magmas: "Magmas"
-groups: "Groups"
-rings: "Rings"
-fields: "Fields"
-number-systems: "Number Systems"
-polynoms: "Polynoms"
-misc-aa: "Miscellaneous"
+# Set Theory
+set-theory       : "Set Theory"
+basics-st        : "Basics"
+relations        : "Relations"
+functions        : "Functions"
+orders           : "Orders"
+ordinals         : "Ordinals"
+cardinals        : "Cardinals"
 
-linear-algebra: "Linear Algebra"
-vector-spaces: "Vector Spaces"
-matrices: "Matrices"
-linear-mappings: "Linear Mappings"
+# Abstract Algebra
+abstract-algebra : "Abstract Algebra"
+magmas           : "Magmas"
+groups           : "Groups"
+rings            : "Rings"
+fields           : "Fields"
+number-systems   : "Number Systems"
+polynoms         : "Polynoms"
+misc-aa          : "Miscellaneous"
 
-topology: "Topology"
-basics-t: "Basics"
+# Linear Algebra
+linear-algebra   : "Linear Algebra"
+vector-spaces    : "Vector Spaces"
+matrices         : "Matrices"
+linear-mappings  : "Linear Mappings"
 
-number-theory: "Number Theory"
-divisibility: "Divisibility"
+# Topology
+topology         : "Topology"
+basics-t         : "Basics"
 
-combinatorics: "Combinatorics"
-enumerations: "Enumerations"
+# Number Theory
+number-theory    : "Number Theory"
+divisibility     : "Divisibility"
+
+# Combinatorics
+combinatorics    : "Combinatorics"
+enumerations     : "Enumerations"

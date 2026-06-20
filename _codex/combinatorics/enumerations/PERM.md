@@ -1,0 +1,65 @@
+---
+title:   Permutation
+date:    2026-03-24
+updated: 2026-06-20
+---
+
+> {% codex PERM#DEF:Permutation %}
+>
+> Let $X$ be a set of cardinality $n \in \N$.
+>
+> {:.no-indent}
+> - A **$k$-permutation** of $X$ ($0 \leq k \leq n$) is an injection from $\llbra k \rrbra$ to $X$.
+>
+> - A **permutation** of $X$ is a bijection from $\llbra n \rrbra$ onto $X$.
+
+> {% codex PERM#DEF-N %}
+>
+> For any $n$, $k \in \N$ with $k \leq n$, we define
+>
+> $$ P(n, k) = \big\lvert \inj(\llbra k \rrbra, \llbra n \rrbra) \big\rvert $$
+>
+> as the number of $k$-permutations of $\llbra n\rrbra$. It can then be shown that this is the number of $k$-permutations of any set of cardinality $n$.
+
+---
+
+> {% codex PERM#PROP-F %}
+>
+> For any $n$, $k \in \N$ with $k \leq n$,
+>
+> $$ P(n, k) = \frac{n!}{(n - k)!}. $$
+
+***Proof.***
+
+{:.par-upper-roman}
+1. $$ P(n, 0) = \big\lvert \{\varnothing\} \big\rvert = 1 = \frac{n!}{(n - 0)!}. $$
+
+2. If $k \geq 1$: The function
+
+   $$ \varphi :%
+          \inj(\llbra k \rrbra,\llbra n \rrbra) \to \inj(\llbra k - 1 \rrbra, \llbra n \rrbra), \,%
+          f \mapsto f \restriction_{\llbra k - 1 \rrbra} $$
+
+   is surjective. It is easy to see that for every $g \in \inj(\llbra k - 1 \rrbra, \llbra n \rrbra)$,
+
+   $$ \big\lvert \varphi^{-1}[\{g\}] \big\rvert =%
+      \big\lvert \llbra n \rrbra \smallsetminus \ran g \big\rvert = n - k + 1. $$
+
+   By [CV#PROP-FC-C](/codex/CV#PROP-FC-C),
+
+   $$ P(n, k) = (n - k + 1) \cdot P(n, k - 1). $$
+
+   Therefore,
+
+   $$ P(n, k) = \left[\prod_{i = 1}^k (n - k + i)\right] \cdot P(n - k, 0) =%
+      \prod_{i = 1}^k (n - k + i) = \frac{n!}{(n - k)!}. $$
+
+&#8203;<qed />
+
+As a corollary:
+
+> {% codex PERM#PROP-BIJ %}
+>
+> For any $n \in \N$,
+>
+> $$ \big\lvert \bij(\llbra n \rrbra, \llbra n \rrbra) \big\rvert = n!. $$

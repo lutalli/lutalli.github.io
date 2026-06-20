@@ -1,0 +1,44 @@
+---
+title:   Quotient Group
+date:    2026-03-17
+updated: 2026-06-11
+---
+
+> {% codex QG#DEF %}
+>
+> Let $G$ be a group and $N$ be a normal subgroup. The binary operation $\*$ on $G / N$
+>
+> $$ aN * bN = (ab)N $$
+>
+> is well-defined and $(G / N, \*)$ is a group, called the **quotient group** of $G$ by $N$.
+
+---
+
+> {% codex QG#PROP-B %}
+>
+> If $G$ is a group and $N$ is a normal subgroup,
+>
+> $$ G / N = N \backslash G. $$
+
+> {% codex QG#PROP-EQV %}
+>
+> Let $G$ be a group and $H$ be a subgroup. If we define two equivalence relations on $G$:
+>
+> $$ \begin{align*}
+      a \sim_H b           \enspace&\lrimp\enspace ab^{-1} \in H; \\
+      a \prerel{H}{\sim} b \enspace&\lrimp\enspace a^{-1}b \in H,
+  \end{align*} $$
+>
+> then for every $a \in G$:
+>
+> {:.par-upper-roman}
+> 1. $$ [a]_{\sim_H} = aH. $$
+>
+> 2. $$ [a]_\prerel{H}{\sim} = Ha. $$
+>
+> If $H$ is normal:
+>
+> {:.par-upper-roman start="3"}
+> 3. $$ {\sim_H} = {\prerel{H}{\sim}}. $$
+>
+> 4. $$ G / H = G / {\sim_H}. $$
