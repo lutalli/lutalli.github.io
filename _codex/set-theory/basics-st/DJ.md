@@ -8,11 +8,11 @@ updated: 2026-06-08
 >
 > Two sets $X$ and $Y$ are **disjoint** if
 >
-> $$ X \cap Y = \varnothing. $$
+> $$ X \cap Y = \empt. $$
 >
 > A set $X$ is **disjoint** if
 >
-> $$ \forall A, B \in X :\enspace A \neq B \,\rimp\, A \cap B = \varnothing. $$
+> $$ \forall A, B \in X :\enspace A \neq B \,\rimp\, A \cap B = \empt. $$
 >
 > Not disjoint sets are called **joint**.
 
@@ -22,19 +22,19 @@ updated: 2026-06-08
 
 > {% codex DJ#PROP-ES %}
 >
-> $\varnothing$ is the only set disjoint to itself.
+> $\empt$ is the only set disjoint to itself.
 
-***Proof.*** $\varnothing$ is disjoint to itself: $\varnothing \cap \varnothing = \varnothing$. If a set $X$ is disjoint to itself,
+***Proof.*** $\empt$ is disjoint to itself: $\empt \cap \empt = \empt$. If a set $X$ is disjoint to itself,
 
-$$ X = X\cap X = \varnothing. $$
+$$ X = X\cap X = \empt. $$
 
 &#8203;<qed />
 
 > {% codex DJ#PROP-EA %}
 >
-> $\varnothing$ is the only set disjoint to every other set.
+> $\empt$ is the only set disjoint to every other set.
 
-***Proof.*** $\varnothing$ is disjoint to every set by [IT#PROP-EMP (II)](/codex/IT#PROP-EMP). If a set $X$ is non-empty,
+***Proof.*** $\empt$ is disjoint to every set by [IT#PROP-EMP (II)](/codex/IT#PROP-EMP). If a set $X$ is non-empty,
 
 $$ Y = X \cup \{X\} $$
 

@@ -32,7 +32,7 @@ updated: 2026-06-08
 >
 > For any set $X$,
 >
-> $$ X \times \varnothing = \varnothing \times X = \varnothing. $$
+> $$ X \times \empt = \empt \times X = \empt. $$
 
 > {% codex CART#PROP-IT %}
 >
@@ -49,4 +49,4 @@ updated: 2026-06-08
 >
 > 2. $$ A \times (B \cup C) = (A \times B) \cup (A \times C). $$
 >
-> 3. $$ A \times (B \smallsetminus C) = (A \times B) \smallsetminus (A \times C). $$
+> 3. $$ A \times (B \setdif C) = (A \times B) \setdif (A \times C). $$

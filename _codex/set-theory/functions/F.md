@@ -27,11 +27,11 @@ updated: 2026-06-09
 >
 > - The set of all functions from a set $X$ to a set $Y$ is denoted by
 >
->   $$ \func(X, Y). $$
+>   $$ \fun(X, Y). $$
 >
 >   This is a set by [Separation Schema](/codex/ZF#AX-SEP):
 >
->   $$ \func(X, Y) \subseteq \rel(X, Y). $$
+>   $$ \fun(X, Y) \subseteq \rel(X, Y). $$
 
 - *Function* is also known as *mapping*, *map* and *transformation*.
 - *Codomain* is also known as *set of destination*.
@@ -44,4 +44,4 @@ updated: 2026-06-09
 
 ***Examples.***
 
-1. $\varnothing$ is a function (the **empty function**).
+1. $\empt$ is a function (the **empty function**).

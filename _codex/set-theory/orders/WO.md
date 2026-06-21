@@ -40,7 +40,7 @@ a contradiction.<qed />
 >
 > If two well-ordered sets $W$ and $W'$ are isomorphic, then the isomorphism is unique.
 
-**Proof.**{:.run-in}If $f$ and $g$ are isomorphisms from $W$ onto $W'$, $f\circ g^{-1}$ is an automorphism on $W$. By [WO#PROP-AUT](/codex/WO#PROP-AUT), $f\circ g^{-1}=\id_W$.<qed />
+***Proof.*** If $f$ and $g$ are isomorphisms from $W$ onto $W'$, $f\circ g^{-1}$ is an automorphism on $W$. By [WO#PROP-AUT](/codex/WO#PROP-AUT), $f\circ g^{-1} = \id_W$.<qed />
 
 ---
 
@@ -48,7 +48,7 @@ a contradiction.<qed />
 >
 > Let $W$ be a well-ordered set and $u \in W$. The **initial segment** of $W$ given by $u$ is
 >
-> $$ \init_u W = \{x\in W : x < u\}. $$
+> $$ \init_u W = \{x \in W : x < u\}. $$
 >
 > $S \subseteq W$ is an initial segment of $W$, if $S = \init_u W$ for some $u$.
 
@@ -56,11 +56,11 @@ a contradiction.<qed />
 >
 > No well-ordered set is isomorphic to an initial segment of itself.
 
-***Proof.*** Let $W$ be a well-ordered set. For any $u\in W$, if
+***Proof.*** Let $W$ be a well-ordered set. For any $u \in W$, if
 
 $$ f : W \to \init_u W, $$
 
-then $f(u)<u$. By [WO#PROP-INC](/codex/WO#PROP-INC), $f$ can not be an isomorphism.<qed />
+then $f(u) < u$. By [WO#PROP-INC](/codex/WO#PROP-INC), $f$ can not be an isomorphism.<qed />
 
 > {% codex WO#PROP-C %}
 >

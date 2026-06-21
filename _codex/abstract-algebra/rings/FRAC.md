@@ -6,7 +6,7 @@ updated: 2026-06-11
 
 > {% codex FRAC#DEF:Fraction Field %}
 >
-> Let $R$ be an integral domain and $R^\* = R \smallsetminus \\{0\\}$. Define the equivalence relation on $R \times R^\*$:
+> Let $R$ be an integral domain and $R^\* = R \setdif \\{0\\}$. Define the equivalence relation on $R \times R^\*$:
 >
 > $$ (a, b) \sim (x, y) \enspace\lrimp\enspace ax = by $$
 >

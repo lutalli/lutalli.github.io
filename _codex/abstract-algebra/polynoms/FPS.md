@@ -6,7 +6,7 @@ updated: 2026-06-20
 
 > {% codex FPS#DEF:Formal Power Series %}
 >
-> Let $R$ be a ring. The **ring of formal power series** $R[[X]]$ is the ring $\func(\N, R)$ with addition and multiplication defined by
+> Let $R$ be a ring. The **ring of formal power series** $R[[X]]$ is the ring $\fun(\N, R)$ with addition and multiplication defined by
 >
 > $$ \begin{align*}
       a + b     \enspace&:\enspace n \mapsto a_n + b_n, \\

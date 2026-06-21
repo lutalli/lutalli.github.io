@@ -36,10 +36,10 @@ updated: 2026-06-10
 >
 > For any cardinals $\kappa$ and $\lambda$,
 >
-> $$ \kappa^\lambda = \lvert \func(\lambda, \kappa) \rvert. $$
+> $$ \kappa^\lambda = \lvert \fun(\lambda, \kappa) \rvert. $$
 
 > {% codex CDAR#PROP-EXP %}
 >
 > For any sets $X$ and $Y$,
 >
-> $$ \lvert X \rvert^{\lvert Y \rvert} = \lvert \func(Y, X) \rvert. $$
+> $$ \lvert X \rvert^{\lvert Y \rvert} = \lvert \fun(Y, X) \rvert. $$

@@ -32,7 +32,7 @@ updated: 2026-06-20
 ***Proof.***
 
 {:.par-upper-roman}
-1. $$ P(n, 0) = \big\lvert \{\varnothing\} \big\rvert = 1 = \frac{n!}{(n - 0)!}. $$
+1. $$ P(n, 0) = \big\lvert \{\empt\} \big\rvert = 1 = \frac{n!}{(n - 0)!}. $$
 
 2. If $k \geq 1$: The function
 
@@ -43,7 +43,7 @@ updated: 2026-06-20
    is surjective. It is easy to see that for every $g \in \inj(\llbra k - 1 \rrbra, \llbra n \rrbra)$,
 
    $$ \big\lvert \varphi^{-1}[\{g\}] \big\rvert =%
-      \big\lvert \llbra n \rrbra \smallsetminus \ran g \big\rvert = n - k + 1. $$
+      \big\lvert \llbra n \rrbra \setdif \ran g \big\rvert = n - k + 1. $$
 
    By [CV#PROP-FC-C](/codex/CV#PROP-FC-C),
 

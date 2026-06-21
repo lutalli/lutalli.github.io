@@ -94,7 +94,7 @@ $$ T = \big\{ B \cup \{n\} : B \in \powerset_{k - 1}(\llbra n - 1\rrbra) \big\} 
 
 $$ \varphi :%
        \powerset_k(\llbra n \rrbra) \to \powerset_{n - k}(\llbra n \rrbra), \,%
-       A \mapsto \llbra n \rrbra \smallsetminus A $$
+       A \mapsto \llbra n \rrbra \setdif A $$
 
 is bijective.<qed />
 

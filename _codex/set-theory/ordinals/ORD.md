@@ -12,7 +12,7 @@ updated: 2026-06-10
 
 ***Examples.***
 
-1. $0 := \varnothing$ is an ordinal.
+1. $0 := \empt$ is an ordinal.
 
 > {% codex ORD#DEF-LT %}
 >

@@ -8,7 +8,7 @@ updated: 2026-06-08
 >
 > The **set difference** between two sets $X$ and $Y$ is
 >
-> $$ X \smallsetminus Y = \{x \in X : x \notin Y\}. $$
+> $$ X \setdif Y = \{x \in X : x \notin Y\}. $$
 
 ---
 
@@ -17,20 +17,20 @@ updated: 2026-06-08
 > For any set $X$:
 >
 > {:.par-upper-roman}
-> 1. $$ X \smallsetminus \varnothing = X. $$
+> 1. $$ X \setdif \empt = X. $$
 >
-> 2. $$ \varnothing \smallsetminus X = \varnothing. $$
+> 2. $$ \empt \setdif X = \empt. $$
 >
-> 3. $$ X \smallsetminus X = \varnothing. $$
+> 3. $$ X \setdif X = \empt. $$
 
 > {% codex SD#PROP-DJ %}
 >
 > Any two sets $X$ and $Y$ are disjoint if and only if
 >
-> $$ X \smallsetminus Y = X. $$
+> $$ X \setdif Y = X. $$
 
 > {% codex SD#PROP-SUB %}
 >
 > For any two sets $X$ and $Y$, if $X \subseteq Y$, then
 >
-> $$ X\smallsetminus Y = \varnothing. $$
+> $$ X\setdif Y = \empt. $$

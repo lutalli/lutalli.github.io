@@ -10,4 +10,4 @@ updated: 2026-06-20
 >
 > We write
 >
-> $$ \func_\text{bd}(X, Y) = \{f \in \func(X, Y) : \text{$f$ is bounded}\}. $$
+> $$ \fun_\text{bd}(X, Y) = \{f \in \fun(X, Y) : \text{$f$ is bounded}\}. $$

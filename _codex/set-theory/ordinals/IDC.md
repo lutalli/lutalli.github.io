@@ -15,4 +15,4 @@ updated: 2026-06-10
 >
 > Then $A = \N$.
 
-***Proof.*** Otherwise, $\min(\N \smallsetminus A)$ would be a limit ordinal, contrary to [N#PROP-LO](/codex/N#PROP-LO).<qed />
+***Proof.*** Otherwise, $\min(\N \setdif A)$ would be a limit ordinal, contrary to [N#PROP-LO](/codex/N#PROP-LO).<qed />

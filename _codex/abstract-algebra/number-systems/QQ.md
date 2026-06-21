@@ -34,7 +34,7 @@ updated: 2026-06-20
 >
 > The set of **non-zero rational numbers** is
 >
-> $$ \Q^* = \Q \smallsetminus \{0\}. $$
+> $$ \Q^* = \Q \setdif \{0\}. $$
 
 > {% codex QQ#DEF-POS %}
 >

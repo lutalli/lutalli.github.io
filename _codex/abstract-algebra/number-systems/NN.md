@@ -6,7 +6,7 @@ updated: 2026-06-11
 
 > {% codex NN#DEF:Natural Numbers %}
 >
-> The set of **natural numbers** $\N$ is defined as the smallest inductive set that contains $\varnothing$. See [Natural Numbers (Set Theory)](/codex/N).
+> The set of **natural numbers** $\N$ is defined as the smallest inductive set that contains $\empt$. See [Natural Numbers (Set Theory)](/codex/N).
 
 > {% codex NN#DEF-AR:Arithmetic %}
 >
@@ -22,7 +22,7 @@ updated: 2026-06-11
 >
 > The set of **positive natural numbers** is
 >
-> $$ \N^+ = \N \smallsetminus \{0\}. $$
+> $$ \N^+ = \N \setdif \{0\}. $$
 >
 
 ---

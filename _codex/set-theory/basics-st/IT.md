@@ -21,11 +21,11 @@ updated: 2026-06-07
 > {% codex IT#PROP-EMP %}
 >
 > {:.par-upper-roman}
-> 1. $$ \bigcap \varnothing = \varnothing. $$
+> 1. $$ \bigcap \empt = \empt. $$
 >
 > 2. For any set $X$,
 >
->    $$ X \cap \varnothing = \varnothing. $$
+>    $$ X \cap \empt = \empt. $$
 
 > {% codex IT#PROP-IDP:Idempotence %}
 >

@@ -16,9 +16,9 @@ updated: 2026-06-05
 
 > {% codex SUB#PROP-EMP %}
 >
-> $\varnothing$ is the only set that is a subset of every non-empty set.
+> $\empt$ is the only set that is a subset of every non-empty set.
 
-***Proof.*** $\varnothing$ is a subset of every set since no $x \in \varnothing$. If $X$ is a subset of every non-empty set, then $X \subseteq \\{X\\}$. By [ZF#PROP-SLF](/codex/ZF#PROP-SLF), $X \neq \\{X\\}$, so $X = \varnothing$.<qed />
+***Proof.*** $\empt$ is a subset of every set since no $x \in \empt$. If $X$ is a subset of every non-empty set, then $X \subseteq \\{X\\}$. By [ZF#PROP-SLF](/codex/ZF#PROP-SLF), $X \neq \\{X\\}$, so $X = \empt$.<qed />
 
 ---
 

@@ -6,4 +6,4 @@ updated: 2026-06-11
 
 > {% codex FLD#DEF:Field %}
 >
-> A **field** is a non-zero ring $(F, +, \cdot)$ such that $(F \smallsetminus \\{0\\}, \cdot)$ is a group.
+> A **field** is a non-zero ring $(F, +, \cdot)$ such that $(F \setdif \\{0\\}, \cdot)$ is a group.

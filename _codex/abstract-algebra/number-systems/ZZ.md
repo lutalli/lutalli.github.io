@@ -43,7 +43,7 @@ updated: 2026-06-11
 >
 > The set of **non-zero integers** is
 >
-> $$ \Z^* = \Z \setminus \{0\}. $$
+> $$ \Z^* = \Z \setdif \{0\}. $$
 
 > {% codex ZZ#DEF-POS:Positive Integers %}
 >

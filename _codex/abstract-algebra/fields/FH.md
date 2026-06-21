@@ -8,7 +8,7 @@ updated: 2026-06-11
 >
 > A **field homomorphism** is a ring homomorphism between two fields.
 >
-> In other words, a field homomorphism $f:F\to K$ is both a group homomorphism from $(F, +)$ to $(K, +)$ and a group homomorphism from $(R^\* \smallsetminus \\{0\\}, \cdot)$ to $(S^\* \smallsetminus \\{0\\}, \cdot)$.
+> In other words, a field homomorphism $f : F \to K$ is both a group homomorphism from $(F, +)$ to $(K, +)$ and a group homomorphism from $(R^\* \setdif \\{0\\}, \cdot)$ to $(S^\* \setdif \\{0\\}, \cdot)$.
 
 ---
 
@@ -21,11 +21,11 @@ updated: 2026-06-11
 >
 > 2. $$ f(0) = 0. $$
 >
-> 3. For all $a\in F$,
+> 3. For all $a \in F$,
 >
 >    $$ f(-a) = -f(a). $$
 >
-> 4. For all $a \in F \smallsetminus \\{0\\}$,
+> 4. For all $a \in F \setdif \\{0\\}$,
 >
 >     $$ f(a^{-1}) = f(a)^{-1}. $$
 >

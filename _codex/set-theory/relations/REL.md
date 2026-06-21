@@ -25,7 +25,7 @@ updated: 2026-06-08
 
 ***Examples.***
 
-1. On any sets $X_1$, $\cdots$, $X_n$ ($n\geq 1$), $\varnothing$ is the **empty relation** (*relation never holds*).
+1. On any sets $X_1$, $\cdots$, $X_n$ ($n\geq 1$), $\empt$ is the **empty relation** (*relation never holds*).
 
 2. On any sets $X_1$, $\cdots$, $X_n$ ($n\geq 1$),
 

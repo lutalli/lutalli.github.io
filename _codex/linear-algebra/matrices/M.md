@@ -10,7 +10,7 @@ updated: 2026-06-20
 >
 > The set of all $m \times n$-matrices in $R$ is
 >
-> $$ \mat_R(m, n) = \func(\llbra m \rrbra \times \llbra n \rrbra, R). $$
+> $$ \mat_R(m, n) = \fun(\llbra m \rrbra \times \llbra n \rrbra, R). $$
 >
 > An $m \times n$-matrix $M$ can be explicitly written as
 >

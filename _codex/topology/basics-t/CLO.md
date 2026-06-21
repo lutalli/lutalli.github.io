@@ -6,7 +6,7 @@ updated: 2026-06-20
 
 > {% codex CLO#DEF:Closed Set %}
 >
-> Let $X$ be a metric space and $Y \subseteq X$. $Y$ is **closed** if $X \smallsetminus Y$ is open.
+> Let $X$ be a metric space and $Y \subseteq X$. $Y$ is **closed** if $X \setdif Y$ is open.
 
 ---
 

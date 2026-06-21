@@ -25,7 +25,7 @@ updated: 2026-06-20
 
 ***Examples.***
 
-1. The empty function $\varnothing$ is a metric on $\varnothing$ (the **empty metric**).
+1. The empty function $\empt$ is a metric on $\empt$ (the **empty metric**).
 
 2. The absolute difference $d : (x, y) \mapsto \lvert x - y \rvert$ is a metric on $\R$ (the **standard metric**).
 

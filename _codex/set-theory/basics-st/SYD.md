@@ -8,7 +8,7 @@ updated: 2026-06-08
 >
 > The **symmetric difference** between two sets $X$ and $Y$ is
 >
-> $$ X \symd Y = (X \smallsetminus Y) \cup (Y \smallsetminus X). $$
+> $$ X \symdif Y = (X \setdif Y) \cup (Y \setdif X). $$
 
 ---
 
@@ -17,29 +17,29 @@ updated: 2026-06-08
 > {:.par-upper-roman}
 > 1. For any set $X$,
 >
->    $$ X \symd \varnothing = X. $$
+>    $$ X \symdif \empt = X. $$
 >
 > 2. For any sets $X$ and $Y$,
 >
->    $$ X \symd Y = \varnothing \enspace\lrimp\enspace X = Y. $$
+>    $$ X \symdif Y = \empt \enspace\lrimp\enspace X = Y. $$
 
 > {% codex SYD#PROP-COM:Commutativity %}
 >
 > For any sets $X$ and $Y$,
 >
-> $$ X \symd Y = Y \symd X. $$
+> $$ X \symdif Y = Y \symdif X. $$
 
 > {% codex SYD#PROP-ASS:Associativity %}
 >
 > For any sets $X$, $Y$ and $Z$,
 >
-> $$ (X \symd Y) \symd Z = X \symd (Y \symd Z). $$
+> $$ (X \symdif Y) \symdif Z = X \symdif (Y \symdif Z). $$
 
-As a corollary of [SYD#PROP-EMP](#PROP-EMP), [commutativity](#PROP-COM) and [associativity](#PROP-ASS) of $\symd$:
+As a corollary of [SYD#PROP-EMP](#PROP-EMP), [commutativity](#PROP-COM) and [associativity](#PROP-ASS) of $\symdif$:
 
 > {% codex SYD#PROP-GRP %}
 >
-> For any set $X$, $(\powerset(X), \symd)$ is an abelian group with neutral element $\varnothing$.
+> For any set $X$, $(\powerset(X), \symdif)$ is an abelian group with neutral element $\empt$.
 
 ---
 
@@ -47,4 +47,4 @@ As a corollary of [SYD#PROP-EMP](#PROP-EMP), [commutativity](#PROP-COM) and [ass
 >
 > For any sets $X$ and $Y$,
 >
-> $$ X \symd Y = (X \cup Y) \smallsetminus (X \cap Y). $$
+> $$ X \symdif Y = (X \cup Y) \setdif (X \cap Y). $$

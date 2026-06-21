@@ -14,6 +14,6 @@ updated: 2026-06-10
 >
 > The set of all surjections from $X$ onto $Y$ is denoted by
 >
-> $$ \surj(X, Y). $$
+> $$ \sur(X, Y). $$
 
 - *Surjective* is also known as *onto*.

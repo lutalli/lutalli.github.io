@@ -8,7 +8,7 @@ updated: 2026-06-08
 >
 > Let $X$ be a set and for any set $A \subseteq X$ write
 >
-> $$ \overline{A} = X \smallsetminus A. $$
+> $$ \overline{A} = X \setdif A. $$
 >
 > For any $A$, $B\subseteq X$:
 >

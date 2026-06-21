@@ -19,6 +19,6 @@ updated: 2026-06-11
 > For any group $G$ with neutral element $e$:
 >
 > {:.par-upper-roman}
-> 1. $$ \langle \varnothing \rangle = \{e\}. $$
+> 1. $$ \langle \empt \rangle = \{e\}. $$
 >
 > 2. $$ \langle \{e\} \rangle = G. $$

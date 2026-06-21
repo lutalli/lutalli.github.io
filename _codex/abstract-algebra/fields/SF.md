@@ -17,6 +17,6 @@ updated: 2026-06-11
 > {:.par-upper-roman}
 > 1. $K$ is a subring.
 >
-> 2. *Closure under inversion.* For all $a \in K \smallsetminus \\{0\\}$,
+> 2. *Closure under inversion.* For all $a \in K \setdif \\{0\\}$,
 >
 >    $$ a^{-1} \in K. $$

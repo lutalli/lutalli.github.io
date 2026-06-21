@@ -26,11 +26,11 @@ updated: 2026-06-07
 > {% codex U#PROP-EMP %}
 >
 > {:.par-upper-roman}
-> 1. $$ \bigcup \varnothing = \varnothing. $$
+> 1. $$ \bigcup \empt = \empt. $$
 >
 > 2. For any set $X$,
 >
->    $$ X \cup \varnothing = X. $$
+>    $$ X \cup \empt = X. $$
 
 > {% codex U#PROP-IDP:Idempotence %}
 >
@@ -54,4 +54,4 @@ As a corollary of [U#PROP-EMP (I)](#PROP-EMP), [commutativity](#PROP-COM) and [a
 
 > {% codex U#PROP-MO %}
 >
-> For any set $X$, $(\powerset(X), \cup)$ is an abelian monoid with neutral element $\varnothing$.
+> For any set $X$, $(\powerset(X), \cup)$ is an abelian monoid with neutral element $\empt$.

@@ -20,7 +20,7 @@ updated: 2026-06-20
 >
 > The set of **non-zero real numbers** is
 >
-> $$ \R^* = \R \smallsetminus \{0\}. $$
+> $$ \R^* = \R \setdif \{0\}. $$
 
 > {% codex RR#DEF-POS %}
 >

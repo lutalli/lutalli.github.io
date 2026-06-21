@@ -49,7 +49,7 @@ $\\{x : \varphi(x, p)\\}$
 $\V$
 : the [universal class](/codex/UNI)
 
-$\varnothing$
+$\empt$
 : the [empty set](/codex/EMP)
 
 $\\{x \in X : \varphi(x, p)\\}$
@@ -88,10 +88,10 @@ $\bigsqcup X$
 $A \sqcup B$
 : the [disjoint union](/codex/DU) of sets $A$ and $B$
 
-$A \smallsetminus B$
+$A \setdif B$
 : the [set difference](/codex/SD) between sets $A$ and $B$
 
-$A \symd B$
+$A \symdif B$
 : the [symmetric difference](/codex/SYD) between sets $A$ and $B$
 
 $\powerset(X)$
@@ -157,7 +157,7 @@ $f : x \mapsto y$
 $f : X \to Y$
 : function $f$ is [from](/codex/F) set $X$ to set $Y$
 
-$\func(X, Y)$
+$\fun(X, Y)$
 : the set of all [functions](/codex/F) from set $X$ to set $Y$
 
 $x \* y$
@@ -166,8 +166,26 @@ $x \* y$
 $\inj(X, Y)$
 : the set of all [injections](/codex/INJ) from set $X$ to set $Y$
 
-$\surj(X, Y)$
+$\sur(X, Y)$
 : the set of all [surjections](/codex/SUR) from set $X$ to set $Y$
+
+$\hom(X, Y)$
+: the set of all [homomorphisms](/codex/MOR) from set $X$ to set $Y$
+
+$\mon(X, Y)$
+: the set of all [monomorphisms](/codex/MOR#DEF) from set $X$ to set $Y$
+
+$\epi(X, Y)$
+: the set of all [epimorphisms](/codex/MOR#DEF) from set $X$ to set $Y$
+
+$\iso(X, Y)$
+: the set of all [isomorphisms](/codex/MOR#DEF) from set $X$ to set $Y$
+
+$\endo X$
+: the set of all [endomorphisms](/codex/MOR#DEF) on set $X$
+
+$\aut X$
+: the set of all [automorphisms](/codex/MOR#DEF) on set $X$
 
 $\lhd$
 : an order
@@ -412,17 +430,20 @@ $\lVert {}\cdot{} \rVert$
 $\diam A$
 : the [diameter](/codex/DIAM) of $A$
 
-$\func_\text{bd}$
+$\fun_\text{bd}$
 : the [set of bounded functions](/codex/BMAP#DEF) from $X$ to $Y$
 
 $\lVert f \rVert_\sup$
 : the [supremum norm](/codex/SUPN) of $f$
 
-$\ball_{< r}(a)$
+$\ball_r(a)$
 : the [open ball](/codex/BALL) of radius $r$ around $a$
 
-$\ball_{\leq r}(a)$
+$\cball_r(a)$
 : the [closed ball](/codex/BALL) of radius $r$ around $a$
+
+$\inter Y$
+: the [interior](/codex/INTR) of $Y$
 
 ## Number Theory
 

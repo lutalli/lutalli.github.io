@@ -63,4 +63,4 @@ we have:
 >
 > 3. For any finite $S \subseteq V$, $S$ is linearly dependent if and only if some vector from $S$ is a linearly combination of others:
 >
->    $$ \exists v \in S : v \in \langle S \smallsetminus \{v\} \rangle. $$
+>    $$ \exists v \in S : v \in \langle S \setdif \{v\} \rangle. $$

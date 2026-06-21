@@ -21,7 +21,13 @@ Classes only play a role like [syntactic sugar](https://en.wikipedia.org/wiki/Sy
 > {:.no-indent}
 > - Relations and operations on classes, such as
 >
->   $$ C=D ,\enspace C\subseteq D ,\enspace C\cup D ,\enspace C\cap D ,\enspace C\setminus D ,\enspace \bigcup C ,\enspace \bigcap C, $$
+>   $$ C = D              ,\enspace%
+>      C \subseteq D      ,\enspace%
+>      C \cup D           ,\enspace%
+>      C \cap D           ,\enspace%
+>      C \setdif D ,\enspace%
+>      \bigcup C          ,\enspace%
+>      \bigcap C          , $$
 >
 >   are defined similarly to those on sets.
 >

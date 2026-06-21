@@ -8,7 +8,7 @@ updated: 2026-06-10
 >
 > We define
 >
-> $$ \N = \bigcap\{X : \varnothing \in X \,\land\, \text{$X$ is inductive}\}. $$
+> $$ \N = \bigcap\{X : \empt \in X \,\land\, \text{$X$ is inductive}\}. $$
 >
 > [Axiom of Infinity](/codex/ZF#AX-INF) guarantees the existence of at least one such $X$.
 >
@@ -21,7 +21,7 @@ updated: 2026-06-10
 >
 > - We define
 >
->   $$ 0 = \varnothing, \quad 1 = 0 + 1, \quad 2 = 1 + 1, \quad 3 = 2 + 1 $$
+>   $$ 0 = \empt, \quad 1 = 0 + 1, \quad 2 = 1 + 1, \quad 3 = 2 + 1 $$
 >
 >   and so on.
 

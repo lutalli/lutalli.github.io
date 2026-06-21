@@ -12,7 +12,7 @@ updated: 2026-06-20
 > 1. $f(x + y) = f(x) + f(y)$ for all $x$, $y \in V$ (*additivity*).
 > 2. $f(\lambda x) = \lambda f(x)$ for all $x \in V$ and $\lambda \in F$ (*homogeneity*).
 
-- Synonym of *linear mapping*: **vector space homomorphism**
+- *Linear mapping* is also known as *vector space homomorphism*
 
 > {% codex LM#DEF-KER:Kernel %}
 >
@@ -58,7 +58,7 @@ updated: 2026-06-20
 
 > {% codex LM#PROP-HOM %}
 >
-> Let $V$, $W$ be vector spaces over a field $F$. $\hom(V, W)$ is a subspace of $\func(V, W)$.
+> Let $V$, $W$ be vector spaces over a field $F$. $\hom(V, W)$ is a subspace of $\fun(V, W)$.
 
 > {% codex LM#PROP-END %}
 >

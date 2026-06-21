@@ -32,7 +32,7 @@ updated: 2026-06-05
 
 > {% codex ZF#DEF-EMP:Empty Set %}
 >
-> By [Axiom of Extensionality](#AX-EXT), the set $X$ above is unique. We call it the **empty set**, $\varnothing$.
+> By [Axiom of Extensionality](#AX-EXT), the set $X$ above is unique. We call it the **empty set**, $\empt$.
 
 ---
 
@@ -147,11 +147,11 @@ updated: 2026-06-05
 
 > {% codex ZF#AX-INF:Axiom of Infinity %}
 >
-> There exists a set $X$ such that $\varnothing \in X$ and
+> There exists a set $X$ such that $\empt \in X$ and
 >
 > $$ \forall x :\enspace x \in X \enspace\rimp\enspace x \cup \{x\} \in X. $$
 >
-> In other words, there exists an inductive set $X$ such that $\varnothing \in X$.
+> In other words, there exists an inductive set $X$ such that $\empt \in X$.
 
 ---
 

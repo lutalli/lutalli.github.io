@@ -48,4 +48,4 @@ updated: 2026-06-08
 >
 > 3. $$ x \in [y]. $$
 >
-> 4. $$ [x] \cap[y] \neq \varnothing. $$
+> 4. $$ [x] \cap[y] \neq \empt. $$
