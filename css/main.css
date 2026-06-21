@@ -8,10 +8,6 @@ html {
     scroll-snap-margin-top: 10em; /* Safari 11 or older */
 }
 
-:target::after {
-    content: " 🟅";
-}
-
 body {
     background-color: var(--col-b);
     color: var(--col-t);
