@@ -1,7 +1,7 @@
 ---
-title: Some Websites / Webpages I Liked
+title:      Some Websites / Webpages I Liked
 categories: misc
-updated: 2026-01-07
+updated:    2026-06-22
 ---
 
 {:.no-indent}
@@ -18,3 +18,5 @@ updated: 2026-01-07
 - [ConwayLife.com](https://conwaylife.com)
 - [Tips for mathematical handwriting](https://johnkerl.org/doc/ortho/ortho.html) by John Kerl
 - [hack.chat](https://hack.chat)
+- [nLab](https://ncatlab.org)
+- [mLab](https://cemulate.github.io/the-mlab)
