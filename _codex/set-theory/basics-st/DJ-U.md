@@ -30,4 +30,4 @@ $$ \Big\lvert \bigcup X \Big\rvert = \sum_{A \in X} \lvert A \rvert. $$
 
 {% endentry %}
 
-***Proof.*** By [CDAR#PROP-ADD](/codex/CDAR#PROP-ADD).<qed />
+***Proof.*** By [CARD-AR > Proposition 1](/codex/CARD-AR#PROP-1).<qed />

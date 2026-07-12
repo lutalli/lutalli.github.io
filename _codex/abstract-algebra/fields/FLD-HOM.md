@@ -41,6 +41,6 @@ If $f : F \to K$ is a field homomorphism:
 
 - (II), (III), (IV): By [GRP-HOM > Proposition 1](/codex/GRP-HOM#PROP-1).
 
-- (V): By (IV) and [RING > Proposition 2](/codex/RING#PROP-I), $\ker f = \\{0\\}$, so $f$ is a monomorphism by [RING-HOM > Proposition 2](/codex/RH#PROP-2).
+- (V): By (IV) and [RING > Proposition 2](/codex/RING#PROP-2), $\ker f = \\{0\\}$, so $f$ is a monomorphism by [RING-HOM > Proposition 2](/codex/RING-HOM#PROP-2).
 
 &#8203;<qed />

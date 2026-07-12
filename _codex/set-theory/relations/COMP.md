@@ -50,7 +50,7 @@ For any set $X$, $(\rel(X, X), \circ)$ is a monoid with neutral element $\id_X$.
 
 {% endentry %}
 
-As a corollary of [Proposition 1](#PROP-1) and [SMO#PROP-TST](/codex/SMO#PROP-TST):
+As a corollary of [Proposition 1](#PROP-1) and [SUB-MOID > Proposition 1](/codex/SUB-MOID#PROP-1):
 
 {% entry PROP-5 %}
 
