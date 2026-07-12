@@ -47,7 +47,7 @@ $\\{x : \varphi(x, p)\\}$
 : [Class-Builder](/codex/CLS)
 
 $\V$
-: the [universal class](/codex/UNI)
+: the [universal class](/codex/V)
 
 $\empt$
 : the [empty set](/codex/EMP)
@@ -74,25 +74,25 @@ $\\{a\\}$
 : the [singleton](/codex/SING) of $a$
 
 $\\{a_1, \cdots, a_n\\}$
-: [Roster Notation](/codex/ROS)
+: [Roster Notation](/codex/ROST)
 
 $\bigcap X$
-: the [intersection](/codex/IT) of set $X$
+: the [intersection](/codex/INTSC) of set $X$
 
 $A \cap B$
-: the [intersection](/codex/IT) of sets $A$ and $B$
+: the [intersection](/codex/INTSC) of sets $A$ and $B$
 
 $\bigsqcup X$
-: the [disjoint union](/codex/DU) of set $X$
+: the [disjoint union](/codex/DISJ-U) of set $X$
 
 $A \sqcup B$
-: the [disjoint union](/codex/DU) of sets $A$ and $B$
+: the [disjoint union](/codex/DISJ-U) of sets $A$ and $B$
 
 $A \setdif B$
-: the [set difference](/codex/SD) between sets $A$ and $B$
+: the [set difference](/codex/SET-DIF) between sets $A$ and $B$
 
 $A \symdif B$
-: the [symmetric difference](/codex/SYD) between sets $A$ and $B$
+: the [symmetric difference](/codex/SYM-DIF) between sets $A$ and $B$
 
 $\powerset(X)$
 : the [power set](/codex/P) of set $X$
@@ -101,7 +101,7 @@ $(a_1, \cdots, a_n)$
 : the [tuple](/codex/TUP) of $a_1$, $\cdots$, $a_n$
 
 $X_1 \times \cdots \times X_n$
-: the [Cartesian product](/codex/CART) of $X_1$, $\cdots$, $X_n$
+: the [Cartesian product](/codex/CART-PROD) of $X_1$, $\cdots$, $X_n$
 
 $X^n$
 : $\underbrace{X \times \cdots \times X}_{\text{$n$ times}}$
@@ -116,49 +116,49 @@ $x \,R\, y$
 : [binary relation](/codex/REL) $R$ holds for $x$ and $y$
 
 $\dom R$
-: the [domain](/codex/REL#DEF-DOM) of binary relation $R$
+: the [domain](/codex/REL#DEF-4) of binary relation $R$
 
 $\im R$
-: the [image](/codex/REL#DEF-IM) of binary relation $R$
+: the [image](/codex/REL#DEF-5) of binary relation $R$
 
 $\field R$
-: the [field](/codex/REL#DEF-FLD) of binary relation $R$
+: the [field](/codex/REL#DEF-6) of binary relation $R$
 
 $\id_X$
 : the [identity](/codex/ID) on $X$
 
 $[a]_\sim$ or $[a]$
-: the [equivalence class](/codex/EQV#DEF-CLS) of $a$ by equivalence relation $\sim$
+: the [equivalence class](/codex/EQV#DEF-2) of $a$ by equivalence relation $\sim$
 
 $X / {\sim}$
-: the [quotient set](/codex/EQV#DEF-QUO) of $X$ by equivalence relation $\sim$
+: the [quotient set](/codex/EQV#DEF-3) of $X$ by equivalence relation $\sim$
 
 $R^{-1}$
-: the [converse](/codex/CV) of binary relation $R$
+: the [converse](/codex/CONV) of binary relation $R$
 
 $R \circ S$
-: the [composition](/codex/CP) of binary relations $R$ and $S$
+: the [composition](/codex/COMP) of binary relations $R$ and $S$
 
 $R \restriction_A$
-: the [left-restriction](/codex/RST) of binary relation $R$ to set $A$
+: the [left-restriction](/codex/RESTR) of binary relation $R$ to set $A$
 
 $R \restriction^B$
-: the [right-restriction](/codex/RST) of binary relation $R$ to set $B$
+: the [right-restriction](/codex/RESTR) of binary relation $R$ to set $B$
 
 $R[A]$
 : the [image](/codex/IM) of $A$ under binary relation $R$
 
 $f(x)$
-: the [value](/codex/F) of function $f$ at $x$
+: the [value](/codex/FUN) of function $f$ at $x$
 
 $f : x \mapsto y$
-: function $f$ [maps](/codex/F) $x$ to $y$
+: function $f$ [maps](/codex/FUN) $x$ to $y$
 
 $f : X \to Y$
-: function $f$ is [from](/codex/F) set $X$ to set $Y$
+: function $f$ is [from](/codex/FUN) set $X$ to set $Y$
 
 $\fun(X, Y)$
-: the set of all [functions](/codex/F) from set $X$ to set $Y$
+: the set of all [functions](/codex/FUN) from set $X$ to set $Y$
 
 $x \* y$
 : the [value](/codex/F#DEF-OP) of binary operation $\*$ at $(x, y)$

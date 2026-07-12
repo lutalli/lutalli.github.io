@@ -4,31 +4,35 @@ date:    2026-04-16
 updated: 2026-06-11
 ---
 
-> {% codex INV#DEF:Inverse %}
->
-> Let $M$ be a unital magma with neutral element $e$. Let $a$, $x \in M$.
->
-> {:.no-indent}
-> - $x$ is a **left-inverse** of $a$ if
->
->   $$ xa = e. $$
->
-> - $x$ is a **right-inverse** of $a$ if
->
->   $$ ax = e. $$
->
-> - $x$ is an **inverse** of $a$ if $x$ is both a left-inverse and a right-inverse of $a$.
->
-> - $a$ is **(left-/right-)invertible** if it has a (left-/right-)inverse.
->
-> - $a$ is **uniquely (left-/right-)invertible** if it has exactly one (left-/right-)inverse.
->
-> - $M$ is **(uniquely) (left-/right-)invertible** if all elements of $M$ are (uniquely) (left-/right-)invertible.
->
-> - If $M$ is uniquely invertible, we write $a^{-1}$ for the unique inverse of each $a\in M$.
+{% entry DEF-1 %}
 
-> {% codex INV#DEF-SUB %}
->
-> The **invertible subset** of a magma $M$ is
->
-> $$ \inv M = \{a \in M : \text{$a$ is invertible}\}. $$
+Let $M$ be a unital magma with neutral element $e$. Let $a$, $x \in M$.
+
+{:.no-indent}
+- $x$ is a **left-inverse** of $a$ if
+
+  $$ xa = e. $$
+
+- $x$ is a **right-inverse** of $a$ if
+
+  $$ ax = e. $$
+
+- $x$ is an **inverse** of $a$ if $x$ is both a left-inverse and a right-inverse of $a$.
+
+- $a$ is **(left-/right-)invertible** if it has a (left-/right-)inverse.
+
+- $a$ is **uniquely (left-/right-)invertible** if it has exactly one (left-/right-)inverse.
+
+- $M$ is **(uniquely) (left-/right-)invertible** if all elements of $M$ are (uniquely) (left-/right-)invertible.
+
+- If $M$ is uniquely invertible, we write $a^{-1}$ for the unique inverse of each $a\in M$.
+
+{% endentry %}
+
+{% entry DEF-2 %}
+
+The **invertible subset** of a magma $M$ is
+
+$$ \inv M = \{a \in M : \text{$a$ is invertible}\}. $$
+
+{% endentry %}

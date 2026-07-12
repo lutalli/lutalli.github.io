@@ -4,27 +4,33 @@ date:    2026-03-01
 updated: 2026-06-10
 ---
 
-> {% codex SUC#DEF:Ordinal Successor %}
->
-> The **successor** of an ordinal $\alpha$ is the ordinal
->
-> $$ \alpha + 1 = \alpha \cup \{\alpha\}. $$
->
-> An ordinal $\alpha$ is a **successor ordinal** if $\alpha = \beta+1$ for some ordinal $\beta$.
+{% entry DEF-1 %}
+
+The **successor** of an ordinal $\alpha$ is the ordinal
+
+$$ \alpha + 1 = \alpha \cup \{\alpha\}. $$
+
+An ordinal $\alpha$ is a **successor ordinal** if $\alpha = \beta+1$ for some ordinal $\beta$.
+
+{% endentry %}
 
 ---
 
-> {% codex SUC#PROP-INF %}
->
-> For any ordinal $\alpha$,
->
-> $$ \alpha + 1 = \inf \{\beta : \beta > \alpha\}. $$
+{% entry PROP-1 %}
 
-> {% codex SUC#PROP-CARD %}
->
-> For any infinite ordinal $\alpha$,
->
-> $$ \lvert \alpha + 1 \rvert = \lvert \alpha \rvert. $$
+For any ordinal $\alpha$,
+
+$$ \alpha + 1 = \inf \{\beta : \beta > \alpha\}. $$
+
+{% endentry %}
+
+{% entry PROP-2 %}
+
+For any infinite ordinal $\alpha$,
+
+$$ \lvert \alpha + 1 \rvert = \lvert \alpha \rvert. $$
+
+{% endentry %}
 
 ***Proof.***
 

@@ -4,30 +4,32 @@ date:    2026-04-15
 updated: 2026-06-20
 ---
 
-> {% codex MD#DEF:Module %}
->
-> Let $R$ be a ring, $M$ be an abelian group and $\cdot : R \times M \to M$. $M$ is a **module** over $R$ if:
->
-> {:.par-upper-roman}
-> 1. *Distributivity.* For all $\lambda \in R$ and $x$, $y \in M$,
->
->    $$ \lambda \cdot (x + y) = \lambda \cdot x + \lambda \cdot y; $$
->
->    for all $\lambda$, $\mu \in R$ and $x \in M$,
->
->    $$ (\lambda + \mu)\cdot x = \lambda \cdot x + \mu \cdot x. $$
->
-> 2. *Associativity.* For all $\lambda$, $\mu \in R$ and $x \in M$,
->
->    $$ \lambda \cdot (\mu \cdot x) = (\lambda \mu) \cdot x. $$
->
-> 3. *Compatibility with $1_R$.* For all $x \in M$,
->
->    $$ 1_R \cdot x = x. $$
->
-> The operation $\cdot$ is then called a **scalar multiplication**.
+{% entry DEF-1 %}
 
-**Examples.**{:.run-out}
+Let $R$ be a ring, $M$ be an abelian group and $\cdot : R \times M \to M$. $M$ is a **module** over $R$ if:
+
+{:.par-upper-roman}
+1. (*Distributivity*) For all $\lambda \in R$ and $x$, $y \in M$,
+
+   $$ \lambda \cdot (x + y) = \lambda \cdot x + \lambda \cdot y; $$
+
+   for all $\lambda$, $\mu \in R$ and $x \in M$,
+
+   $$ (\lambda + \mu)\cdot x = \lambda \cdot x + \mu \cdot x. $$
+
+2. (*Associativity*) For all $\lambda$, $\mu \in R$ and $x \in M$,
+
+   $$ \lambda \cdot (\mu \cdot x) = (\lambda \mu) \cdot x. $$
+
+3. (*Compatibility with $1_R$*) For all $x \in M$,
+
+   $$ 1_R \cdot x = x. $$
+
+The operation $\cdot$ is then called a **scalar multiplication**.
+
+{% endentry %}
+
+***Examples.***
 
 1. Given any ring $R$, $\\{0\\}$ is a module over $R$ (the **zero module**).
 

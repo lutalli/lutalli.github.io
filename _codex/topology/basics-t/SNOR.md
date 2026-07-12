@@ -4,28 +4,32 @@ date:    2026-04-14
 updated: 2026-06-20
 ---
 
-> {% codex SNOR#DEF:Seminorm %}
->
-> Let $K$ be a field equipped with a valuation $\lvert {}\cdot{} \rvert : K \to \R$ and $V$ be a vector space over $K$. A function $\lVert {}\cdot{} \rVert : V \to \R$ is a **seminorm** on $V$ if:
->
-> {:.par-upper-roman}
-> 1. *Absolute homogeneity.* For all $\lambda \in K$ and $v \in V$,
->
->    $$ \lVert \lambda v\rVert = \lvert \lambda \rvert \lVert v \rVert. $$
->
-> 2. *Subadditivity.* For all $v$, $w \in V$,
->
->    $$ \lVert v + w \rVert \leq \lVert v \rVert + \lVert w \rVert. $$
->
-> $(V, \lVert {}\cdot{} \rVert)$ is then called a **seminormed space**.
+{% entry DEF-1 %}
+
+Let $K$ be a field equipped with a valuation $\lvert {}\cdot{} \rvert : K \to \R$ and $V$ be a vector space over $K$. A function $\lVert {}\cdot{} \rVert : V \to \R$ is a **seminorm** on $V$ if:
+
+{:.par-upper-roman}
+1. (*Absolute homogeneity*) For all $\lambda \in K$ and $v \in V$,
+
+   $$ \lVert \lambda v\rVert = \lvert \lambda \rvert \lVert v \rVert. $$
+
+2. (*Subadditivity*) For all $v$, $w \in V$,
+
+   $$ \lVert v + w \rVert \leq \lVert v \rVert + \lVert w \rVert. $$
+
+$(V, \lVert {}\cdot{} \rVert)$ is then called a **seminormed space**.
+
+{% endentry %}
 
 ---
 
-> {% codex SNOR#PROP-ZERO %}
->
-> If $(V, \lVert {}\cdot{} \rVert)$ is a seminormed space, then
->
-> $$ \lVert 0 \rVert = 0. $$
+{% entry PROP-1 %}
+
+If $(V, \lVert {}\cdot{} \rVert)$ is a seminormed space, then
+
+$$ \lVert 0 \rVert = 0. $$
+
+{% endentry %}
 
 ***Proof.*** If $V$ is over $K$,
 
@@ -36,11 +40,13 @@ $$ \lVert 0 \rVert =%
 
 &#8203;<qed />
 
-> {% codex SNOR#PROP-NN:Non-Negativity %}
->
-> Let $(V, \lVert {}\cdot{} \rVert)$ be a seminormed space. For all $v \in V$,
->
-> $$ \lVert v \rVert \geq 0. $$
+{% entry PROP-2:Non-Negativity %}
+
+Let $(V, \lVert {}\cdot{} \rVert)$ be a seminormed space. For all $v \in V$,
+
+$$ \lVert v \rVert \geq 0. $$
+
+{% endentry %}
 
 ***Proof.***
 

@@ -1,15 +1,15 @@
 ---
 title:   Identity
 date:    2026-02-21
-updated: 2026-06-08
+updated: 2026-06-28
 ---
 
-> {% codex ID#DEF %}
->
-> The **identity** on a set $X$ is the binary relation
->
-> $$ \id_X = \{(x, x) : x \in X\}. $$
+{% entry DEF-1 %}
 
-> {% codex ID#PROP-MAP %}
->
-> For any set $X$, $\id_X$ is also a function.
+The **identity** on a set $X$ is the binary relation
+
+$$ \id_X = \{(x, x) : x \in X\}. $$
+
+{% endentry %}
+
+***Note.*** For any set $X$, $\id_X$ is also a function and is known as the *identity function*.

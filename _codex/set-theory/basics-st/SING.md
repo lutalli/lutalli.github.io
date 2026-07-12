@@ -1,21 +1,25 @@
 ---
 title:   Singleton
 date:    2026-02-16
-updated: 2026-06-07
+updated: 2026-06-23
 ---
 
-> {% codex SING#DEF:Singleton %}
->
-> The **singleton** of a set $a$ is
->
-> $$ \{a\} = \{a, a\}. $$
+{% entry DEF-1 %}
+
+The **singleton** of a set $a$ is
+
+$$ \{a\} = \{a, a\}. $$
+
+{% endentry %}
 
 ---
 
-> {% codex SING#PROP-SLF %}
->
-> For any set $X$,
->
-> $$ X \neq \{X\}. $$
+{% entry PROP-1 %}
 
-***Proof.*** If $X = \\{X\\}$, we would have $X \in X$, contrary to [ZF#PROP-SLF](/codex/ZF#PROP-SLF).<qed />
+For any set $X$,
+
+$$ X \neq \{X\}. $$
+
+{% endentry %}
+
+***Proof.*** If $X = \\{X\\}$, then $X \in X$, contrary to [irreflexivity of $\in$](/codex/ZF#PROP-1).<qed />

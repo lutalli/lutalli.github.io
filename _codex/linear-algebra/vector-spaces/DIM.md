@@ -4,18 +4,23 @@ date:    2026-05-07
 updated: 2026-06-20
 ---
 
-> {% codex DIM#DEF:Dimension %} <span class="adjunctive">$\limp\AC$</span>
->
-> Let $V$ be a vector space. By BS#PROP-EX, $V$ has a basis. By [BS#PROP-L](/codex/BS#PROP-L), all bases of $V$ have the same cardinality. This cardinality is called the **dimension** of $V$, written as $\dim V$.
->
-> $V$ is **finite-dimensional** if $\dim V$ is finite; **infinite-dimensional** if $\dim V$ is infinite.
+{% entry DEF-1 %}
+
+Let $V$ be a vector space. If we assume $\AC$, $V$ has a basis by [BAS > Proposition 3](/codex/BAS#PROP-3), and by [BAS > Proposition 5](/codex/BAS#PROP-5), all bases of $V$ have the same length. This length is called the **dimension** of $V$, denoted by $\dim V$.
+
+$V$ is **finite-dimensional** if $\dim V$ is finite; **infinite-dimensional** if $\dim V$ is infinite.
+
+{% endentry %}
 
 ---
 
-> {% codex DIM#PROP-S %}
->
-> Let $V$ be a vector space. For any subspace $W \subseteq V$:
->
-> {:.par-upper-roman}
-> 1. $\dim W \leq \dim V$.
-> 2. $\dim W = \dim V \enspace\rimp\enspace W = V$.
+{% entry PROP-1 %}
+
+Let $V$ be a vector space. For any subspace $W \subseteq V$:
+
+{:.par-upper-roman}
+1. $$ \dim W \leq \dim V. $$
+
+2. $$ \dim W = \dim V \enspace\rimp\enspace W = V. $$
+
+{% endentry %}

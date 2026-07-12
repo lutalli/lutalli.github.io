@@ -4,30 +4,36 @@ date:    2026-03-24
 updated: 2026-06-20
 ---
 
-> {% codex PERM#DEF:Permutation %}
->
-> Let $X$ be a set of cardinality $n \in \N$.
->
-> {:.no-indent}
-> - A **$k$-permutation** of $X$ ($0 \leq k \leq n$) is an injection from $\llbra k \rrbra$ to $X$.
->
-> - A **permutation** of $X$ is a bijection from $\llbra n \rrbra$ onto $X$.
+{% entry DEF-1 %}
 
-> {% codex PERM#DEF-N %}
->
-> For any $n$, $k \in \N$ with $k \leq n$, we define
->
-> $$ P(n, k) = \big\lvert \inj(\llbra k \rrbra, \llbra n \rrbra) \big\rvert $$
->
-> as the number of $k$-permutations of $\llbra n\rrbra$. It can then be shown that this is the number of $k$-permutations of any set of cardinality $n$.
+Let $X$ be a set of cardinality $n \in \N$.
+
+{:.no-indent}
+- A **$k$-permutation** of $X$ ($0 \leq k \leq n$) is an injection from $\llbra k \rrbra$ to $X$.
+
+- A **permutation** of $X$ is a bijection from $\llbra n \rrbra$ onto $X$.
+
+{% endentry %}
+
+{% entry DEF-2 %}
+
+For any $n$, $k \in \N$ with $k \leq n$, we define
+
+$$ P(n, k) = \big\lvert \inj(\llbra k \rrbra, \llbra n \rrbra) \big\rvert $$
+
+as the number of $k$-permutations of $\llbra n\rrbra$. It can then be shown that this is the number of $k$-permutations of any set of cardinality $n$.
+
+{% endentry %}
 
 ---
 
-> {% codex PERM#PROP-F %}
->
-> For any $n$, $k \in \N$ with $k \leq n$,
->
-> $$ P(n, k) = \frac{n!}{(n - k)!}. $$
+{% entry PROP-1 %}
+
+For any $n$, $k \in \N$ with $k \leq n$,
+
+$$ P(n, k) = \frac{n!}{(n - k)!}. $$
+
+{% endentry %}
 
 ***Proof.***
 
@@ -43,9 +49,9 @@ updated: 2026-06-20
    is surjective. It is easy to see that for every $g \in \inj(\llbra k - 1 \rrbra, \llbra n \rrbra)$,
 
    $$ \big\lvert \varphi^{-1}[\{g\}] \big\rvert =%
-      \big\lvert \llbra n \rrbra \setdif \ran g \big\rvert = n - k + 1. $$
+      \big\lvert \llbra n \rrbra \setdif \im g \big\rvert = n - k + 1. $$
 
-   By [CV#PROP-FC-C](/codex/CV#PROP-FC-C),
+   By [CONV > Proposition 3](/codex/CONV#PROP-3),
 
    $$ P(n, k) = (n - k + 1) \cdot P(n, k - 1). $$
 
@@ -58,8 +64,10 @@ updated: 2026-06-20
 
 As a corollary:
 
-> {% codex PERM#PROP-BIJ %}
->
-> For any $n \in \N$,
->
-> $$ \big\lvert \bij(\llbra n \rrbra, \llbra n \rrbra) \big\rvert = n!. $$
+{% entry PROP-2 %}
+
+For any $n \in \N$,
+
+$$ \big\lvert \bij(\llbra n \rrbra, \llbra n \rrbra) \big\rvert = n!. $$
+
+{% endentry %}

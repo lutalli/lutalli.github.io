@@ -1,41 +1,43 @@
 - - set-theory
   - - - basics-st
-      - [ SET, CLS, UNI, ZF, AC, EMP, BLD, SUB, PAIR, U, SING, ROS, IT, DJ, DU, SD, DMG, SYD, P, TUP, CART, TRS ]
+      - [ SET, CLS, V, ZF, AC, EMP, BLD, SUB, PAIR, U, SING, ROST, IN, DJ, DJ-U, SET-DIF,
+          DMG, SYM-DIF, P, TUP, X, TRAN ]
     - - relations
-      - [ REL, ID, RELC, EQV, CV, CP, RST, IM, WF ]
+      - [ REL, ID, REL-CL, EQV, CONV, COMP, RST, IM, WF ]
     - - functions
-      - [ F, OCL, INJ, SUR, BIJ, FI, MOR, IVO, ADST ]
+      - [ FUN, OP-CL, INJ, SUR, BIJ, INV-FUN, MOR, INVO, ADST ]
     - - orders
-      - [ PRO, TPRO, PO, TO, OH, MA, GR, MAX, BND, SUP, DKCP, WO, WOT ]
+      - [ PRO, TPRO, PO, TO, ODR-HOM, MAXL, GR, MAX, BND, SUP, DDK-CPL, WO ]
     - - ordinals
-      - [ ORD, OT, SUC, IND, LO, N, FIN, CNT, IDC, TIDC, SEQ, OLS, OCT, ONO, TREC, OAR ]
+      - [ ORD, ODR-TYP, SUC, IND-SET, LIM-ORD, FIN-ORD, FIN, CNT, IND, TRF-IND, TRF-SEQ,
+          OSEQ-LIM, CONT-OSEQ, NORM-OSEQ, TRF-REC, ORD-AR ]
     - - cardinals
-      - [ EQU, CA, CSUC, ALF, CARD, CDAR, SSUB ]
+      - [ EQN, CARD, CARD-SUC, ALF, CARD-TY, CARD-AR, SZ-SUB ]
 - - abstract-algebra
   - - - magmas
-      - [ MAG, SMAG, MAGH, MORD, COS, SEM, SSEM, SEMH, NEU, INV, MO, SMO, MOH ]
+      - [ MAG, SUB-MAG, MAG-HOM, MAG-ODR, CO, SEMG, S-SEMG, SEMG-HOM, NEU, INV, MOID, S-MOID, MOID-HOM ]
     - - groups
-      - [ GRP, SG, GH, DP, CONJ, SGI, LAG, NSG, QG, GEN, PER, SYG, CAY, PAR, ALT, OG ]
+      - [ GRP, SUB-GRP, GRP-HOM, GRP-DP, CONJ, IDX, LAG-THM, NORM-SUB-GRP, QUO-GRP, GEN, PRD, SYM-GRP, CAY-THM, PAR, ALT-GRP, ODR-GRP ]
     - - rings
-      - [ RING, SR, RH, OR, RDP, BI, RF, ZD, DOM, IDOM, FRAC, CHAR ]
+      - [ RING, SUB-RING, RING-HOM, ODR-RING, RING-DP, BI-THM, FUN-RING, ZDIV, DOM, INT-DOM, CHAR ]
     - - fields
-      - [ FLD, SF, FH, OF ]
+      - [ FLD, SUB-FLD, FLD-HOM, ODR-FLD, FRAC ]
     - - number-systems
-      - [ NN, ZZ, QQ, RR ]
+      - [ N, Z, Q, R ]
     - - polynoms
-      - [ FPS, POLY, RE ]
+      - [ POW-SER, POLY, Q-EXP ]
     - - misc-aa
-      - [ IVB, KD ]
+      - [ IVER-BRA, KRON-DLTA ]
 - - linear-algebra
   - - - vector-spaces
-      - [ MD, VS, SVS, LS, LI, BS, DIM, VSUM, VDS, AFS ]
+      - [ MD, VS, SUB-VS, SP, LIDP, BAS, DIM, VS-SUM, VS-DS, AFF ]
     - - matrices
       - [ M ]
     - - linear-mappings
-      - [ LM, LRK, LNLT, RNT ]
+      - [ LF, LF-RK, LF-NUL, RK-NUL ]
 - - topology
   - - - basics-t
-      - [ MT, SNOR, NOR, DIAM, BMAP, SUPN, BALL, INTR, OPN, CLO ]
+      - [ MT, SNOR, NOR, DIAM, BND-F, SUP-NOR, BALL, ITRR, OPN, CLO ]
 - - number-theory
   - - - divisibility
       - [ DIV, EVEN ]

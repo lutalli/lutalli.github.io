@@ -4,11 +4,13 @@ date:    2026-04-15
 updated: 2026-06-20
 ---
 
-> {% codex VS#DEF:Vector Space %}
->
-> A **vector space** is a module over a field. Elements of a vector space are called **vectors**.
+{% entry DEF-1 %}
 
-**Examples.**{:.run-out}
+A **vector space** is a module over a field. Elements of a vector space are called **vectors**.
+
+{% endentry %}
+
+***Examples.***
 
 1. Given any field $F$, $\\{0\\}$ is a vector space over $F$ (the **zero vector space**).
 

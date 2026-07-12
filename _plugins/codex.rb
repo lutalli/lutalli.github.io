@@ -1,27 +1,45 @@
 module Jekyll
-  class CodexTag < Liquid::Tag
-    def initialize(tag_name, text, tokens)
+  class EntryTagBlock < Liquid::Block
+    def initialize(tag_name, args, tokens)
       super
-      @text = text.rstrip()
+      @args = args.rstrip.split(':')
     end
 
     def render(context)
-      args = @text.split(':')
+      content = super.strip
+      page = context.registers[:page]
 
-      label = args[0]
+      label = @args[0]
+      type, index = label.split('-')
+      slug = page['slug']
 
-      if args.length > 1
-        desc = args[1]
-        heading = "#{label}. #{desc}."
-      else
-        heading = "#{label}."
+      type_disp = ''
+      if type == 'DEF'
+        type_disp = 'Definition'
+      elsif type == 'PROP'
+        type_disp = 'Proposition'
+      elsif type == 'AX'
+        type_disp = 'Axiom'
+      elsif type == 'REM'
+        type_disp = 'Remark'
       end
 
-      id = label.split('#')[1]
+      label_disp = "#{type_disp} #{index}"
+      heading = ''
+      if @args.length > 1
+        desc = @args[1]
+        heading = "#{label_disp}. #{desc}."
+      else
+        heading = "#{label_disp}."
+      end
 
-      "<a id=\"#{id}\" class=\"codex-h\" href=\"#{label}\"><strong>#{heading}</strong></a>"
+      "<blockquote id=\"#{label}\" markdown=\"1\">\n" \
+        "[**#{heading}**](\##{label}){:.entry}\n" \
+        "\n" \
+        "#{content}\n\n" \
+      "</blockquote>"
     end
   end
 end
 
-Liquid::Template.register_tag('codex', Jekyll::CodexTag)
+Liquid::Template.register_tag('entry', Jekyll::EntryTagBlock)

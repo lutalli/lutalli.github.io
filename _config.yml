@@ -8,6 +8,8 @@ plugins:
 
 highlighter: none
 
+excerpt_separator: "\n\n~~~"
+
 collections:
   codex:
     output: true
