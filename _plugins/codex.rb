@@ -34,9 +34,7 @@ module Jekyll
       end
 
       "<blockquote id=\"#{label}\" markdown=\"1\">\n" \
-        "[**#{heading}**](\##{label}){:.entry}\n" \
-        "\n" \
-        "#{content}\n\n" \
+        "[**#{heading}**](\##{label}){:.entry}&emsp;#{content}\n\n" \
       "</blockquote>"
     end
   end

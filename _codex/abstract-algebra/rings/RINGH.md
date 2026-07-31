@@ -46,7 +46,7 @@ Let $f : R \to S$ is a ring homomorphism.
 
 {% endentry %}
 
-***Proof.*** By [GRP-HOM > Proposition 1](/codex/GRP-HOM#PROP-1).<qed />
+***Proof.*** By [GH > Proposition 1](/codex/GH#PROP-1).<qed />
 
 {% entry PROP-2 %}
 
@@ -56,4 +56,4 @@ $$ \ker f = \{0\}. $$
 
 {% endentry %}
 
-***Proof.*** By [GRP-HOM > Proposition 5](/codex/GRP-HOM#PROP-5).<qed />
+***Proof.*** By [GH > Proposition 5](/codex/GH#PROP-5).<qed />

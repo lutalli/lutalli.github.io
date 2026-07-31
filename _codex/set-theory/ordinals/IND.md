@@ -17,4 +17,4 @@ Then $A = \N$.
 
 {% endentry %}
 
-***Proof.*** Otherwise, $\min(\N \setdif A)$ would be a limit ordinal, contrary to [FIN-ORD > Proposition 1](/codex/FIN-ORD#PROP-1).<qed />
+***Proof.*** Otherwise, $\min(\N \setdif A)$ would be a limit ordinal, contrary to [FINO > Proposition 1](/codex/FINO#PROP-1).<qed />

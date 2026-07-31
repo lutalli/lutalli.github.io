@@ -22,7 +22,7 @@ Let $G$ be a group with neutral element $e$ and $H$ be a subgroup. Then the neut
 
 $$ e'e' = e' = ee', $$
 
-hence $e' = e$ by [cancellation property of group](/codex/GRP#PROP-3).<qed />
+hence $e' = e$ by [cancellation property of group](/codex/G#PROP-3).<qed />
 
 ---
 

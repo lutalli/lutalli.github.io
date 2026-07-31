@@ -1,10 +1,6 @@
-# Post categories
 art              : "Art"
 misc             : "Misc"
 
-### Codex ###
-
-# Set Theory
 set-theory       : "Set Theory"
 basics-st        : "Basics"
 relations        : "Relations"
@@ -13,9 +9,10 @@ orders           : "Orders"
 ordinals         : "Ordinals"
 cardinals        : "Cardinals"
 
-# Abstract Algebra
 abstract-algebra : "Abstract Algebra"
 magmas           : "Magmas"
+semigroups       : "Semigroups"
+monoids          : "Monoids"
 groups           : "Groups"
 rings            : "Rings"
 fields           : "Fields"
@@ -23,20 +20,16 @@ number-systems   : "Number Systems"
 polynoms         : "Polynoms"
 misc-aa          : "Miscellaneous"
 
-# Linear Algebra
 linear-algebra   : "Linear Algebra"
 vector-spaces    : "Vector Spaces"
 matrices         : "Matrices"
-linear-mappings  : "Linear Mappings"
+linear-functions : "Linear Functions"
 
-# Topology
 topology         : "Topology"
 basics-t         : "Basics"
 
-# Number Theory
 number-theory    : "Number Theory"
 divisibility     : "Divisibility"
 
-# Combinatorics
 combinatorics    : "Combinatorics"
 enumerations     : "Enumerations"

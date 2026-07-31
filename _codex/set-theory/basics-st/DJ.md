@@ -30,7 +30,7 @@ $\empt$ is the only set disjoint to itself.
 
 ***Proof.*** $\empt$ is disjoint to itself: $\empt \cap \empt = \empt$. If a set $X$ is disjoint to itself,
 
-$$ X = X\cap X = \empt. $$
+$$ X = X \cap X = \empt. $$
 
 &#8203;<qed />
 
@@ -40,7 +40,7 @@ $\empt$ is the only set disjoint to every other set.
 
 {% endentry %}
 
-***Proof.*** $\empt$ is disjoint to every set by [INT > Proposition 1 (II)](/codex/IN#PROP-1). If a set $X$ is non-empty,
+***Proof.*** $\empt$ is disjoint to every set by [ITSC > Proposition 1 (II)](/codex/ITSC#PROP-1). If a set $X$ is non-empty,
 
 $$ Y = X \cup \{X\} $$
 

@@ -22,4 +22,4 @@ $$ \SS_n = \SS_{\llbra n \rrbra}. $$
 
 $$ \bij(X, X) = \inv\fun(X, X), $$
 
-$\bij(X, X)$ is a group by [GRP > Proposition 6](/codex/GRP#PROP-6).<qed />
+$\bij(X, X)$ is a group by [G > Proposition 6](/codex/G#PROP-6).<qed />

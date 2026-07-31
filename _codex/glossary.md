@@ -77,22 +77,22 @@ $\\{a_1, \cdots, a_n\\}$
 : [Roster Notation](/codex/ROST)
 
 $\bigcap X$
-: the [intersection](/codex/IN) of set $X$
+: the [intersection](/codex/ITSC) of set $X$
 
 $A \cap B$
-: the [intersection](/codex/IN) of sets $A$ and $B$
+: the [intersection](/codex/ITSC) of sets $A$ and $B$
 
 $\bigsqcup X$
-: the [disjoint union](/codex/DJ-U) of set $X$
+: the [disjoint union](/codex/DJU) of set $X$
 
 $A \sqcup B$
-: the [disjoint union](/codex/DJ-U) of sets $A$ and $B$
+: the [disjoint union](/codex/DJU) of sets $A$ and $B$
 
 $A \setdif B$
-: the [set difference](/codex/SET-DIF) between sets $A$ and $B$
+: the [set difference](/codex/SD) between sets $A$ and $B$
 
 $A \symdif B$
-: the [symmetric difference](/codex/SYM-DIF) between sets $A$ and $B$
+: the [symmetric difference](/codex/SYMD) between sets $A$ and $B$
 
 $\powerset(X)$
 : the [power set](/codex/P) of set $X$
@@ -149,19 +149,19 @@ $R[A]$
 : the [image](/codex/IM) of $A$ under binary relation $R$
 
 $f(x)$
-: the [value](/codex/FUN) of function $f$ at $x$
+: the [value](/codex/F) of function $f$ at $x$
 
 $f : x \mapsto y$
-: function $f$ [maps](/codex/FUN) $x$ to $y$
+: function $f$ [maps](/codex/F) $x$ to $y$
 
 $f : X \to Y$
-: function $f$ is [from](/codex/FUN) set $X$ to set $Y$
+: function $f$ is [from](/codex/F) set $X$ to set $Y$
 
 $\fun(X, Y)$
-: the set of all [functions](/codex/FUN) from set $X$ to set $Y$
+: the set of all [functions](/codex/F) from set $X$ to set $Y$
 
 $x \* y$
-: the [value](/codex/FUN#DEF-2) of binary operation $\*$ at $(x, y)$
+: the [value](/codex/F#DEF-2) of binary operation $\*$ at $(x, y)$
 
 $\inj(X, Y)$
 : the set of all [injections](/codex/INJ) from set $X$ to set $Y$
@@ -169,23 +169,26 @@ $\inj(X, Y)$
 $\sur(X, Y)$
 : the set of all [surjections](/codex/SUR) from set $X$ to set $Y$
 
+$f^{-1}$
+: the [inverse](/codex/INVF) of function $f$
+
 $\hom(X, Y)$
-: the set of all [homomorphisms](/codex/MOR#DEF-1) from set $X$ to set $Y$
+: the set of all [homomorphisms](/codex/HOM#DEF-1) from set $X$ to set $Y$
 
 $\mon(X, Y)$
-: the set of all [monomorphisms](/codex/MOR#DEF-1) from set $X$ to set $Y$
+: the set of all [monomorphisms](/codex/HOM#DEF-1) from set $X$ to set $Y$
 
 $\epi(X, Y)$
-: the set of all [epimorphisms](/codex/MOR#DEF-1) from set $X$ to set $Y$
+: the set of all [epimorphisms](/codex/HOM#DEF-1) from set $X$ to set $Y$
 
 $\iso(X, Y)$
-: the set of all [isomorphisms](/codex/MOR#DEF-1) from set $X$ to set $Y$
+: the set of all [isomorphisms](/codex/HOM#DEF-1) from set $X$ to set $Y$
 
 $\endo X$
-: the set of all [endomorphisms](/codex/MOR#DEF-1) on set $X$
+: the set of all [endomorphisms](/codex/HOM#DEF-1) on set $X$
 
 $\aut X$
-: the set of all [automorphisms](/codex/MOR#DEF-1) on set $X$
+: the set of all [automorphisms](/codex/HOM#DEF-1) on set $X$
 
 $\leq$
 : a [preorder](/codex/PRO)
@@ -224,19 +227,19 @@ $\alpha + 1$
 : the [successor](/codex/SUC) of ordinal $\alpha$
 
 $\N$, $\omega$
-: the set of [natural numbers](/codex/FIN-ORD)
+: the set of [natural numbers](/codex/FINO)
 
 $0$, $1$, $2$, $\cdots$
-: [natural numbers](/codex/FIN-ORD)
+: [natural numbers](/codex/FINO)
 
 $\langle s_\xi : \xi < \alpha \rangle$, $\langle s_\xi \rangle_{\xi < \alpha}$
-: a [transfinite sequence](/codex/TRF-SEQ)
+: a [transfinite sequence](/codex/TSQ)
 
 $\langle s_n : n \in \N\rangle$, $\langle s_n \rangle_{n \in \N}$
-: a [countably infinite sequence](/codex/TRF-SEQ)
+: a [countably infinite sequence](/codex/TSQ)
 
 $s^\frown x$
-: the [extension](/codex/TRF-SEQ#DEF-4) of transfinite sequence $s$ by $x$
+: the [extension](/codex/TSQ#DEF-4) of transfinite sequence $s$ by $x$
 
 $X \equ Y$
 : set $X$ is [equinumerous](/codex/EQN) to set $Y$
@@ -251,30 +254,30 @@ $\Card$
 : the class of all [cardinal numbers](/codex/CARD)
 
 $\alpha^+$
-: the [cardinal successor](/codex/CARD-SUC) of ordinal $\alpha$
+: the [cardinal successor](/codex/CSUC) of ordinal $\alpha$
 
 $\kappa + \lambda$
-: the [sum](/codex/CARD-AR#DEF-1) of cardinals $\kappa$ and $\lambda$
+: the [sum](/codex/CAR#DEF-1) of cardinals $\kappa$ and $\lambda$
 
 $\kappa \cdot \lambda$
-: the [product](/codex/CARD-AR#DEF-2) of cardinals $\kappa$ and $\lambda$
+: the [product](/codex/CAR#DEF-2) of cardinals $\kappa$ and $\lambda$
 
 $\kappa^\lambda$
-: the [exponentiation](/codex/CARD-AR#DEF-3) of cardinal $\kappa$ by cardinal $\lambda$
+: the [exponentiation](/codex/CAR#DEF-3) of cardinal $\kappa$ by cardinal $\lambda$
 
 $\powerset_\kappa(X)$
-: the set of all [$\kappa$-sized subsets](/codex/SZ-SUB) of set $X$
+: the set of all [$\kappa$-sized subsets](/codex/SSUB) of set $X$
 
 ## Abstract Algebra
 
 $(X, \*)$
-: a structure where set $X$ is equipped with binary opreation $\*$ ([magma](/codex/MAG), [monoid](/codex/MOID), [group](/codex/GRP), etc.)
+: a structure where set $X$ is equipped with binary opreation $\*$ ([magma](/codex/MAG), [monoid](/codex/MOID), [group](/codex/G), etc.)
 
 $X \leq Y$
-: $X$ is substructure of $Y$ ([submagma](/codex/SUB-MAG), [submonoid](/codex/SUB-MOID), [subgroup](/codex/SUB-GRP), etc.)
+: $X$ is substructure of $Y$ ([submagma](/codex/SMAG), [submonoid](/codex/SMOID), [subgroup](/codex/SG), etc.)
 
 $\lvert M \rvert$
-: the [order](/codex/MAG-ODR) of magma $M$
+: the [order](/codex/MAGO) of magma $M$
 
 $mA$, $Am$
 : the [left and right coset](/codex/CO) of submagma $A$ by $m$
@@ -289,10 +292,10 @@ $\inv M$
 : the [invertible subset](/codex/INV) of magma $M$
 
 $\ker f$
-: the [kernel](/codex/GRP-HOM#DEF-2) of group homomorphism $f$
+: the [kernel](/codex/GH#DEF-2) of group homomorphism $f$
 
 $G \times H$
-: the [direct product](/codex/GRP-DP) of groups $G$ and $H$
+: the [direct product](/codex/GDP) of groups $G$ and $H$
 
 $\conj_g a$
 : the [conjugation](/codex/CONJ) of $a$ by $g$ in a group
@@ -301,22 +304,22 @@ $\stackrel{\conj}{\sim}$
 : $a$ and $b$ are conjugate in a group
 
 $G \unlhd H$
-: $H$ is a [normal subgroup](/codex/NORM-SUB-GRP) of group $G$
+: $H$ is a [normal subgroup](/codex/NSG) of group $G$
 
 $\langle S \rangle$
 : the [subgroup generated by $S$](/codex/GEN)
 
 $\SS_X$
-: the [symmetric group](/codex/SYM-GRP) on set $X$
+: the [symmetric group](/codex/SYMG) on set $X$
 
 $\SS_n$
-: the [symmetric group of degree $n$](/codex/SYM-GRP)
+: the [symmetric group of degree $n$](/codex/SYMG)
 
 $\par \sigma$
 : the [parity](/codex/PAR) of permutation $\sigma$
 
 $\AA_n$
-: the [alternating group of degree $n$](/codex/ALT-GRP)
+: the [alternating group of degree $n$](/codex/ALTG)
 
 $a^n$
 : the [exponentiation](/codex/RING#DEF-4) of $a$ by $n$ in a ring
@@ -373,7 +376,7 @@ $\R^-$
 : the set of [negative real numbers](/codex/R#DEF-5)
 
 $R[[X]]$
-: the [ring of formal power series](/codex/POW-SER) over ring $R$
+: the [ring of formal power series](/codex/POW) over ring $R$
 
 $R[X]$
 : the [polynomial ring](/codex/POLY) over ring $R$
@@ -382,10 +385,10 @@ $\deg p$
 : the [degree](/codex/POLY#DEF-1) of polynomial $p$
 
 $[\varphi]$
-: [Iversion Brackets](/codex/IVER-BRA)
+: [Iversion Brackets](/codex/IVERB)
 
 $\delta_{i, j}$
-: [Kronecker Delta](/codex/KRON-DLTA)
+: [Kronecker Delta](/codex/KROND)
 
 ## Linear Algebra
 
@@ -396,10 +399,10 @@ $\dim V$
 : the [dimension](/codex/DIM) of vector space $V$
 
 $X + Y$
-: the [sum](/codex/VS-SUM) of vector subspaces $X$ and $Y$
+: the [sum](/codex/VSSUM) of vector subspaces $X$ and $Y$
 
 $X \oplus Y$
-: the [direct sum](/codex/VS-DS) of vector subspaces $X$ and $Y$
+: the [direct sum](/codex/VSDS) of vector subspaces $X$ and $Y$
 
 $\mat_R(m, n)$
 : the set of all $m \times n$-[matrices](/codex/M) over ring $R$
@@ -414,10 +417,10 @@ $\ker f$
 : the [kernel](/codex/LF#DEF-2) of linear mapping $f$
 
 $\rank f$
-: the [rank](/codex/LF-RK) of linear mapping $f$
+: the [rank](/codex/LRK) of linear mapping $f$
 
 $\null f$
-: the [nullity](/codex/RK-NUL) of linear mapping $f$
+: the [nullity](/codex/RKNUL) of linear mapping $f$
 
 ## Topology
 
@@ -428,10 +431,10 @@ $\diam A$
 : the [diameter](/codex/DIAM) of $A$
 
 $\fun_\text{bd}$
-: the [set of bounded functions](/codex/BND-F) from $X$ to $Y$
+: the [set of bounded functions](/codex/BNDF) from $X$ to $Y$
 
 $\lVert f \rVert_\sup$
-: the [supremum norm](/codex/SUP-NOR) of $f$
+: the [supremum norm](/codex/SUPNOR) of $f$
 
 $\ball_r(a)$
 : the [open ball](/codex/BALL) of radius $r$ around $a$
