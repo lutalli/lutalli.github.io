@@ -13,12 +13,12 @@ title: Codex
 
 {% assign branch = B[0] %}
 
-<h2>{{ site.data.disp[branch] }}</h2>
+<h2>{{ site.data.disp[branch][0] }}</h2>
 
 <ul>
 {% for T in B[1] %}
     {% assign topic = T[0] %}
-    <li><a href="/codex/{{ branch }}/{{ topic }}">{{ site.data.disp[topic] }}</a></li>
+    <li><a href="/codex/{{ branch }}/{{ topic }}">{{ site.data.disp[branch][1][topic] }}</a></li>
 {% endfor %}
 </ul>
 

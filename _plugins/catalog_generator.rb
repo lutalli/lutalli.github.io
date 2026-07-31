@@ -18,7 +18,6 @@ module Catalog
 
   # Class for the catalog page
   class CatalogPage < Jekyll::Page
-    # rubocop:disable Lint/MissingSuper
     def initialize(site, branch, topic)
       @site = site
       @base = site.source
@@ -30,10 +29,10 @@ module Catalog
 
       init_data(branch, topic)
     end
-    # rubocop:enable Lint/MissingSuper
 
     def title(branch, topic)
-      "#{@site.data['disp'][topic]} (#{@site.data['disp'][branch]})"
+      disp = @site.data['disp']
+      "#{disp[branch][1][topic]} (#{disp[branch][0]})"
     end
 
     def init_data(branch, topic)

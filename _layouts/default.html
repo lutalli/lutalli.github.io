@@ -24,7 +24,7 @@
                         <div id="header-left"><p>
                             <a href="/codex">Codex</a>
                             {% if page.topic %}
-                            &gt; <a href="/codex/{{ page.branch }}/{{ page.topic }}">{{ site.data.disp[page.topic] }} ({{ site.data.disp[page.branch] }})</a>
+                            &gt; <a href="/codex/{{ page.branch }}/{{ page.topic }}">{{ site.data.disp[page.branch][1][page.topic] }} ({{ site.data.disp[page.branch][0] }})</a>
                             {% endif %}
                             </p></div>
                             <div id="header-right">
