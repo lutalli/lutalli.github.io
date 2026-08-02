@@ -36,12 +36,23 @@
 
 @font-face {
     font-family: "Noto Sans Symbols";
-    src: url("/res/fonts/NotoSansSymbols-VariableFont_wght.ttf");
+    src: local("Noto Sans Symbols"),
+         local("NotoSansSymbols-Regular"),
+         url("/res/fonts/NotoSansSymbols-VariableFont_wght.ttf");
 }
 
 @font-face {
     font-family: "Noto Sans Symbols 2";
-    src: url("/res/fonts/NotoSansSymbols2-Regular.ttf");
+    src: local("Noto Sans Symbols 2"),
+         local("NotoSansSymbols2-Regular"),
+         url("/res/fonts/NotoSansSymbols2-Regular.ttf");
+}
+
+@font-face {
+    font-family: "DejaVu Sans Mono";
+    src: local("DejaVu Sans Mono"),
+         local("DejaVuSansMono"),
+         url("/res/fonts/DejaVuSansMono.ttf");
 }
 
 :root {
@@ -53,5 +64,5 @@
     --font-t: "DejaVu Serif", "Noto Sans Symbols", "Noto Sans Symbols 2", serif;
 
     /* Font: Monospace */
-    --font-m: monospace;
+    --font-m: "DejaVu Sans Mono", monospace;
 }

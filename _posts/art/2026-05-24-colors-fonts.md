@@ -1,6 +1,6 @@
 ---
-title: Colors and Fonts on this Website
-updated: 2026-05-24
+title:      Colors and Fonts on this Website
+updated:    2026-08-05
 categories: art
 ---
 
@@ -16,7 +16,7 @@ The color scheme consists of three colors from [Earl Grey](https://earl-grey.hal
 
 ### Fonts
 
-- [Crimson Text](https://fonts.google.com/specimen/Crimson+Text?preview.script=Latn)
-- [Noto Sans Symbols](https://fonts.google.com/noto/specimen/Noto+Sans+Symbols)
-- [Noto Sans Symbols 2](https://fonts.google.com/noto/specimen/Noto+Sans+Symbols+2)
-- Your monospace font
+- DejaVu Serif
+- DejaVu Sans Mono
+- Noto Sans Symbols
+- Noto Sans Symbols 2
