@@ -6,16 +6,20 @@ MathJax = {
         }
     },
     startup: {
-        // https://stackoverflow.com/a/42774146
+        // Add some special characters.
+        // Source: https://stackoverflow.com/a/42774146
+
         ready() {
             MathJax.startup.defaultReady();
-            const {Token} = MathJax._.input.tex.Token;
+
+            const {Token}      = MathJax._.input.tex.Token;
             const {MapHandler} = MathJax._.input.tex.MapHandler;
-            const delimiter = MapHandler.getMap("delimiter");
+            const delimiter    = MapHandler.getMap("delimiter");
+
             delimiter.add("\\llbra", new Token("\\llbra", "\u27E6"));
             delimiter.add("\\rrbra", new Token("\\rrbra", "\u27E7"));
-            delimiter.add("\\lbag", new Token("\\lbag", "\u2983"));
-            delimiter.add("\\rbag", new Token("\\rbag", "\u2984"));
+            delimiter.add("\\lbag",  new Token("\\lbag", "\u2983"));
+            delimiter.add("\\rbag",  new Token("\\rbag", "\u2984"));
         }
     },
     tex: {

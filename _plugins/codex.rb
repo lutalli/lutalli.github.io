@@ -1,43 +1,24 @@
-module Jekyll
-  class EntryTagBlock < Liquid::Block
-    def initialize(tag_name, args, tokens)
-      super
-      @args = args.rstrip.split(':')
-    end
+module Codex
+  class CodexSorter < Jekyll::Generator
+    # Write `branch` and `topic` attributes into Codex pages
+    # according to the directory structure:
+    #
+    #   _codex/<branch>/<topic>/<slug>.md
 
-    def render(context)
-      content = super.strip
-      page = context.registers[:page]
+    safe true
 
-      label = @args[0]
-      type, index = label.split('-')
-      slug = page['slug']
+    def generate(site)
+      site.collections['codex'].docs.each do |page|
+        # Don't do this for meta pages (e.g. Notation Glossary)
+        next if page['meta']
 
-      type_disp = ''
-      if type == 'DEF'
-        type_disp = 'Definition'
-      elsif type == 'PROP'
-        type_disp = 'Proposition'
-      elsif type == 'AX'
-        type_disp = 'Axiom'
-      elsif type == 'REM'
-        type_disp = 'Remark'
+        path_array = Pathname(page.path).each_filename.to_a
+        branch     = path_array[-3]
+        topic      = path_array[-2]
+
+        page.data['branch'] = branch
+        page.data['topic']  = topic
       end
-
-      label_disp = "#{type_disp} #{index}"
-      heading = ''
-      if @args.length > 1
-        desc = @args[1]
-        heading = "#{label_disp}. #{desc}."
-      else
-        heading = "#{label_disp}."
-      end
-
-      "<blockquote id=\"#{label}\" markdown=\"1\">\n" \
-        "[**#{heading}**](\##{label}){:.entry}&emsp;#{content}\n\n" \
-      "</blockquote>"
     end
   end
 end
-
-Liquid::Template.register_tag('entry', Jekyll::EntryTagBlock)

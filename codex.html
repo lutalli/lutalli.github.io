@@ -2,24 +2,24 @@
 title: Codex
 ---
 
-<p class="centered"><strong>CAUTION:</strong><br />Early development stage. Expect inconsistencies.</p>
+<p class="centered">
+    <strong>CAUTION:</strong><br />
+    Early development stage. Expect inconsistencies.
+</p>
 
 <ul>
     <li><a href="/codex/intro">Introduction</a></li>
     <li><a href="/codex/glossary">Notation Glossary</a></li>
 </ul>
 
-{% for B in site.data.codex %}
+{% for branch in site.data.codex %}
+    <h2>{{ branch.name }}</h2>
 
-{% assign branch = B[0] %}
-
-<h2>{{ site.data.disp[branch][0] }}</h2>
-
-<ul>
-{% for T in B[1] %}
-    {% assign topic = T[0] %}
-    <li><a href="/codex/{{ branch }}/{{ topic }}">{{ site.data.disp[branch][1][topic] }}</a></li>
-{% endfor %}
-</ul>
-
+    <ul>
+        {% for topic in branch.topics %}
+            <li><a href="/codex/{{ branch.id }}/{{ topic.id }}">
+                {{ topic.name }}
+            </a></li>
+        {% endfor %}
+    </ul>
 {% endfor %}

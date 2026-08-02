@@ -2,34 +2,43 @@
 layout: default
 ---
 
-{% assign posts = site.codex | where: "branch", page.branch | where: "topic", page.topic %}
+<!--
+    This layout generates a Catalog page for Codex.
 
-{% for B in site.data.codex %}
-    {% if B[0] == page.branch %}
-    {% assign T_layer = B[1] %}
-    {% break %}
-    {% endif %}
-{% endfor %}
+    We first obtain all Codex pages of a certain topic by filtering `site.codex`,
+    then render them in order based on the corresponding sorted slug list
+    specified in the database.
+-->
 
-{% for T in T_layer %}
-    {% if T[0] == page.topic %}
-    {% assign sorted_slugs = T[1] %}
-    {% break %}
+
+{% assign posts = site.codex
+    | where: "branch", page.branch
+    | where: "topic", page.topic
+%}
+
+{% for branch in site.data.codex %}
+    {% if branch.id == page.branch %}
+        {% for topic in branch.topics %}
+            {% if topic.id == page.topic %}
+                {% assign sorted_slugs = topic.content %}
+            {% endif %}
+        {% endfor %}
+        {% break %}
     {% endif %}
 {% endfor %}
 
 <ul class="no-indent">
-{% for slug in sorted_slugs %}
-    {% assign post_found = false %}
-    {% for post in posts %}
-    {% if post.slug == slug %}
-        {% assign post_found = true %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% break %}
-    {% endif %}
+    {% for slug in sorted_slugs %}
+        {% assign post_found = false %}
+        {% for post in posts %}
+            {% if post.slug == slug %}
+                {% assign post_found = true %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% break %}
+            {% endif %}
+        {% endfor %}
+        {% unless post_found %}
+            <li>Unknown slug: {{ slug }}</li>
+        {% endunless %}
     {% endfor %}
-    {% unless post_found %}
-    <li>Unknown slug: {{ slug }}</li>
-    {% endunless %}
-{% endfor %}
 </ul>

@@ -1,51 +1,117 @@
-- - set-theory
-  - - - basics
-      - [ SET, CLS, V, ZF, AC, EMP, BLD, SUB, PAIR, U, SING, ROST, ITSC, DJ,
-          DJU, SD, DMG, SYMD, P, TUP, X, TRAN ]
-    - - relations
-      - [ REL, ID, RELC, EQV, CONV, COMP, RST, IM, WF ]
-    - - functions
-      - [ F, OPC, INJ, SUR, BIJ, INVF, HOM, INVO, ADST ]
-    - - orders
-      - [ PRO, TPRO, PO, TO, OH, MAXL, GR, MAX, BND, SUP, DDKC, WO ]
-    - - ordinals
-      - [ ORD, OT, SUC, INDS, LIMO, FINO, FIN, CNT, IND, TIND, TSQ, OSQL, COSQ,
-          NOSQ, TREC, OAR ]
-    - - cardinals
-      - [ EQN, CARD, CSUC, ALF, CTY, CAR, SSUB ]
-- - abstract-algebra
-  - - - magmas
-      - [ MAG, SMAG, MAGH, MAGO, NEU, INV, CO ]
-    - - semigroups
-      - [ SEMG, SSEMG, SEMGH ]
-    - - monoids
-      - [ MOID, SMOID, MOIDH ]
-    - - groups
-      - [ G, SG, GH, GDP, CONJ, IDX, LAG, NSG, QG, GEN, PRD, SYMG, CAY, PAR,
-          ALTG, OG ]
-    - - rings
-      - [ RING, SRING, RINGH, ORING, RDP, BI, FRING, ZD, DOM, IDOM, CHAR ]
-    - - fields
-      - [ FLD, SFLD, FLDH, OFLD, FRAC ]
-    - - number-systems
-      - [ N, Z, Q, R ]
-    - - polynoms
-      - [ POW, POLY, QEXP ]
-    - - misc-aa
-      - [ IVERB, KROND ]
-- - linear-algebra
-  - - - vector-spaces
-      - [ MOD, VS, SVS, SP, LD, BAS, DIM, VSSUM, VSDS, AFF ]
-    - - matrices
-      - [ M ]
-    - - linear-functions
-      - [ LF, LRK, LNUL, RKNUL ]
-- - topology
-  - - - basics-t
-      - [ MET, SNOR, NOR, DIAM, BNDF, SUPNOR, BALL, ITR, OPN, CLO ]
-- - number-theory
-  - - - divisibility
-      - [ DIV, EVEN ]
-- - combinatorics
-  - - - enumerations
-      - [ FAC, PERM, COMB ]
+# The Codex database. It specifies
+#   - the rendering orders,
+#   - the IDs
+#   - and the names
+# of branches and topics, as well as the rendering order of individual pages.
+
+- id:   set-theory
+  name: Set Theory
+  topics:
+
+    - id:      basics
+      name:    Basics
+      content: [ SET, CLS, V, ZF, AC, EMP, BLD, SUB, PAIR, U, SING, ROST, ITSC,
+                 DJ, DJU, SD, DMG, SYMD, P, TUP, X, TRAN ]
+
+    - id:      relations
+      name:    Relations
+      content: [ REL, ID, RELC, EQV, CONV, COMP, RST, IM, WF ]
+
+    - id:      functions
+      name:    Functions
+      content: [ F, OPC, INJ, SUR, BIJ, INVF, HOM, INVO, ADST ]
+
+    - id:      orders
+      name:    Orders
+      content: [ PRO, TPRO, PO, TO, OH, MAXL, GR, MAX, BND, SUP, DDKC, WO ]
+
+    - id:      ordinals
+      name:    Ordinals
+      content: [ ORD, OT, SUC, INDS, LIMO, FINO, FIN, CNT, IND, TIND, TSQ, OSQL,
+                 COSQ, NOSQ, TREC, OAR ]
+
+    - id:      cardinals
+      name:    Cardinals
+      content: [ EQN, CARD, CSUC, ALF, CTY, CAR, SSUB ]
+
+- id:   abstract-algebra
+  name: Abstract Algebra
+  topics:
+
+    - id:      magmas
+      name:    Magmas
+      content: [ MAG, SMAG, MAGH, MAGO, NEU, INV, CO ]
+
+    - id:      semigroups
+      name:    Semigroups
+      content: [ SEMG, SSEMG, SEMGH ]
+
+    - id:      monoids
+      name:    Monoids
+      content: [ MOID, SMOID, MOIDH ]
+
+    - id:      groups
+      name:    Groups
+      content: [ G, SG, GH, GDP, CONJ, IDX, LAG, NSG, QG, GEN, PRD, SYMG, CAY,
+                 PAR, ALTG, OG ]
+
+    - id:      rings
+      name:    Rings
+      content: [ RING, SRING, RINGH, ORING, RDP, BI, FRING, ZD, DOM, IDOM,
+                 CHAR ]
+
+    - id:      fields
+      name:    Fields
+      content: [ FLD, SFLD, FLDH, OFLD, FRAC ]
+
+    - id:      number-systems
+      name:    Number Systems
+      content: [ N, Z, Q, R ]
+
+    - id:      polynoms
+      name:    Polynoms
+      content: [ POW, POLY, QEXP ]
+
+    - id:      misc
+      name:    Misc
+      content: [ IVERB, KROND ]
+
+- id:   linear-algebra
+  name: Linear Algebra
+  topics:
+
+    - id:      vector-spaces
+      name:    Vector Spaces
+      content: [ MOD, VS, SVS, SP, LD, BAS, DIM, VSSUM, VSDS, AFF ]
+
+    - id:      matrices
+      name:    Matrices
+      content: [ M ]
+
+    - id:      linear-functions
+      name:    Linear Functions
+      content: [ LF, LRK, LNUL, RKNUL ]
+
+- id:   topology
+  name: Topology
+  topics:
+
+    - id:      basics
+      name:    Basics
+      content: [ MET, SNOR, NOR, DIAM, BNDF, SUPNOR, BALL, ITR, OPN, CLO ]
+
+- id:   number-theory
+  name: Number Theory
+  topics:
+
+    - id:      divisibility
+      name:    Divisibility
+      content: [ DIV, EVEN ]
+
+- id:   combinatorics
+  name: Combinatorics
+  topics:
+
+    - id:      enumerations
+      name:    Enumerations
+      content: [ FAC, PERM, COMB ]

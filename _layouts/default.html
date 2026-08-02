@@ -2,10 +2,10 @@
 <html>
     <head>
         <link href="/css/variables.css" type="text/css" rel="stylesheet" />
-        <link href="/css/header.css" type="text/css" rel="stylesheet" />
-        <link href="/css/headline.css" type="text/css" rel="stylesheet" />
-        <link href="/css/content.css" type="text/css" rel="stylesheet" />
-        <link href="/css/main.css" type="text/css" rel="stylesheet" />
+        <link href="/css/header.css"    type="text/css" rel="stylesheet" />
+        <link href="/css/headline.css"  type="text/css" rel="stylesheet" />
+        <link href="/css/content.css"   type="text/css" rel="stylesheet" />
+        <link href="/css/main.css"      type="text/css" rel="stylesheet" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -21,16 +21,33 @@
             <header>
                 <div class="area">
                     <div style="display: flex">
-                        <div id="header-left"><p>
-                            <a href="/codex">Codex</a>
-                            {% if page.topic %}
-                            &gt; <a href="/codex/{{ page.branch }}/{{ page.topic }}">{{ site.data.disp[page.branch][1][page.topic] }} ({{ site.data.disp[page.branch][0] }})</a>
-                            {% endif %}
-                            </p></div>
-                            <div id="header-right">
-                                <a href="/posts">Posts</a>
-                                <a href="/links">Links</a>
-                            </div>
+                        <div id="header-left">
+                            <p><a href="/codex">Codex</a>
+                                {% if page.topic %}
+                                    &gt;
+                                    <a href="/codex/{{ page.branch }}/{{ page.topic }}">
+                                        <!--
+                                            This is kind of a tedious way to get the display names
+                                            of branch and topic. Though this thing is not needed
+                                            elsewhere, so I'm leaving it like this for now.
+                                        -->
+                                        {% for branch in site.data.codex %}
+                                            {% if page.branch == branch.id %}
+                                                {% for topic in branch.topics %}
+                                                    {% if page.topic == topic.id %}
+                                                        {{ topic.name }} ({{ branch.name }})
+                                                    {% endif %}
+                                                {% endfor %}
+                                            {% endif %}
+                                        {% endfor %}
+                                    </a>
+                                {% endif %}
+                            </p>
+                        </div>
+                        <div id="header-right">
+                            <a href="/posts">Posts</a>
+                            <a href="/links">Links</a>
+                        </div>
                     </div>
                 </div>
             </header>
@@ -38,18 +55,18 @@
                 <div class="headline">
                     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
                     {% if page.date %}
-                    <p>🅟 {{ page.date | date: "%b %d, %Y" }}</p>
+                        <p>🅟 {{ page.date | date: "%b %d, %Y" }}</p>
                     {% endif %}
                     {% if page.updated %}
-                    <p>&ensp; 🅤 {{ page.updated | date: "%b %d, %Y" }}</p>
+                        <p>&ensp; 🅤 {{ page.updated | date: "%b %d, %Y" }}</p>
                     {% endif %}
                 </div>
             </div>
             <div class="area">
                 {% unless page.empty %}
-                <div class="content">
-                    {{ content }}
-                </div>
+                    <div class="content">
+                        {{ content }}
+                    </div>
                 {% endunless %}
             </div>
         </div>
