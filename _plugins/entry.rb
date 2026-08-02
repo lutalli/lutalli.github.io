@@ -51,8 +51,8 @@ module Jekyll
 
       # The `markdown="1"` attribute is crucial for kramdown to regularly
       # render the content in Markdown.
-      "<blockquote id=\"#{label}\" markdown=\"1\">\n" \
-        "[**#{heading}**](\##{label}){:.entry}&emsp;#{content}\n\n" \
+      "<blockquote class=\"entry\" id=\"#{label}\" markdown=\"1\">\n" \
+        "[**#{heading}**](\##{label}){:.entry-heading}&emsp;#{content}\n\n" \
       "</blockquote>"
     end
   end

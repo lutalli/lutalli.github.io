@@ -19,7 +19,7 @@ body {
 
 a {
     color: var(--col-t);
-    text-decoration: underline 3px var(--col-s);
+    text-decoration: none;
     transition: opacity 0.2s;
 }
 

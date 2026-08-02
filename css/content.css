@@ -24,6 +24,10 @@
         margin-top: 1.2em;
     }
 
+    & a {
+        text-decoration: underline 3px var(--col-s);
+    }
+
     & blockquote {
         border: 3px solid var(--col-s);
         border-radius: 6px;
@@ -93,7 +97,7 @@
         border-right: none;
         margin-top: 3em;
         margin-bottom: 3em;
-        width: 80%;
+        width: 60%;
     }
 
     & mjx-container[display="true"] {
@@ -159,20 +163,17 @@
         font-family: "Noto Sans Symbols 2" !important;
     }
 
+    & .entry {
+        border: none !important;
+    }
+
+    & a.entry-heading {
+        font-variant: small-caps;
+        text-decoration: none !important;
+    }
+
     & .centered {
         text-align: center;
-    }
-
-    & .adjunctive {
-        float: right;
-    }
-
-    & .adjunctive::before {
-        content: "[";
-    }
-
-    & .adjunctive::after {
-        content: "]";
     }
 
     & dl {
