@@ -25,7 +25,7 @@
     }
 
     & a {
-        text-decoration: underline 3px var(--col-s);
+        text-decoration: underline 0.15em var(--col-s);
     }
 
     & blockquote {
@@ -91,7 +91,7 @@
     }
 
     & hr {
-        border-top: 8px dotted var(--col-s);
+        border-top: 0.4em dotted var(--col-s);
         border-bottom: none;
         border-left: none;
         border-right: none;

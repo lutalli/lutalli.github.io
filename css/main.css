@@ -11,7 +11,7 @@ html {
 body {
     background-color: var(--col-b);
     color: var(--col-t);
-    font-size: 1em; /* @ */
+    font-size: 0.75em; /* @ */
     word-spacing: 2px;
     font-family: var(--font-t);
     margin: 0;
@@ -44,12 +44,12 @@ a:hover {
 
 @media only screen and (min-width: 700px) {
     body {
-        font-size: 1.7em;
+        font-size: 1.4em;
     }
 
     .area {
         max-width: 90%;
-        width: 45em;
+        width: 50em;
     }
 
     .area > div {

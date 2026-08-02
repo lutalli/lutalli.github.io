@@ -1,27 +1,35 @@
 @font-face {
-    font-family: "Crimson Text";
-    src: url("/res/fonts/CrimsonText-Regular.ttf");
+    font-family: "DejaVu Serif";
+    src: local("DejaVu Serif"),
+         local("DejaVuSerif"),
+         url("/res/fonts/DejaVuSerif.ttf");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Crimson Text";
-    src: url("/res/fonts/CrimsonText-Italic.ttf");
+    font-family: "DejaVu Serif";
+    src: local("DejaVu Serif Italic"),
+         local("DejaVuSerif-Italic"),
+         url("/res/fonts/DejaVuSerif-Italic.ttf");
     font-style: italic;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Crimson Text";
-    src: url("/res/fonts/CrimsonText-Bold.ttf");
+    font-family: "DejaVu Serif";
+    src: local("DejaVu Serif Bold"),
+         local("DejaVuSerif-Bold"),
+         url("/res/fonts/DejaVuSerif-Bold.ttf");
     font-style: normal;
     font-weight: bold;
 }
 
 @font-face {
-    font-family: "Crimson Text";
-    src: url("/res/fonts/CrimsonText-BoldItalic.ttf");
+    font-family: "DejaVu Serif";
+    src: local("DejaVu Serif Bold Italic"),
+         local("DejaVuSerif-BoldItalic"),
+         url("/res/fonts/DejaVuSerif-BoldItalic.ttf");
     font-style: italic;
     font-weight: bold;
 }
@@ -42,7 +50,8 @@
     --col-t: #5a544c; /* Color: Text       */
 
     /* Font: Text */
-    --font-t: "Crimson Text", "Noto Sans Symbols", "Noto Sans Symbols 2", serif;
+    --font-t: "DejaVu Serif", "Noto Sans Symbols", "Noto Sans Symbols 2", serif;
+
     /* Font: Monospace */
     --font-m: monospace;
 }
