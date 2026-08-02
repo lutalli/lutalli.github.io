@@ -1,7 +1,7 @@
 ---
 title:   Introduction to Codex
 date:    2026-03-05
-updated: 2026-07-12
+updated: 2026-08-02
 meta:    true
 ---
 
@@ -9,9 +9,13 @@ meta:    true
 
 ## Structure
 
-Codex is organized by **branches** and **topics**. Each page discusses a specific **concept**. For example, *Inverse Function* is a concept from the topic *Functions*, which belongs to the branch *Set Theory*.
+Codex is organized by **branches** and **topics**. Each page discusses a specific **concept**.
 
-Every page, i.e. every concept, has a unique code name. For example, the code name of *Generated Subgroup* is `GEN`.
+> Example: *Inverse Function* is a concept from the topic *Functions*, which belongs to the branch *Set Theory*.
+
+Every page (i.e. every concept) is identified by a unique **slug**, which consists of up to 8 uppercase letters.
+
+> Example: The slug of *Generated Subgroup* is `GEN`.
 
 Codex mostly consists of **entries**, which look like this:
 
