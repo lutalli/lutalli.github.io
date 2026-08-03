@@ -1,9 +1,10 @@
 header p {
-    margin: 0;
+    margin:       0;
 }
 
 #header-left {
     margin-right: auto;
+
     font-variant: small-caps;
 }
 
@@ -11,7 +12,8 @@ header p {
     font-variant: small-caps;
 }
 
-#header-right a:not(:last-child) {
-    display: inline-block;
+#header-right > a:not(:last-child) {
+    display:      inline-block;
+
     margin-right: 1em;
 }

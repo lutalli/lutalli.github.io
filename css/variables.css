@@ -1,64 +1,71 @@
 @font-face {
     font-family: "DejaVu Serif";
-    src: local("DejaVu Serif"),
-         local("DejaVuSerif"),
-         url("/res/fonts/DejaVuSerif.ttf");
-    font-style: normal;
+    font-style:  normal;
     font-weight: normal;
+
+    src:         local("DejaVu Serif"),
+                 local("DejaVuSerif"),
+                 url("/res/fonts/DejaVuSerif.ttf");
 }
 
 @font-face {
     font-family: "DejaVu Serif";
-    src: local("DejaVu Serif Italic"),
-         local("DejaVuSerif-Italic"),
-         url("/res/fonts/DejaVuSerif-Italic.ttf");
-    font-style: italic;
+    font-style:  italic;
     font-weight: normal;
+
+    src:         local("DejaVu Serif Italic"),
+                 local("DejaVuSerif-Italic"),
+                 url("/res/fonts/DejaVuSerif-Italic.ttf");
 }
 
 @font-face {
     font-family: "DejaVu Serif";
-    src: local("DejaVu Serif Bold"),
-         local("DejaVuSerif-Bold"),
-         url("/res/fonts/DejaVuSerif-Bold.ttf");
-    font-style: normal;
+    font-style:  normal;
     font-weight: bold;
+
+    src:         local("DejaVu Serif Bold"),
+                 local("DejaVuSerif-Bold"),
+                 url("/res/fonts/DejaVuSerif-Bold.ttf");
 }
 
 @font-face {
     font-family: "DejaVu Serif";
-    src: local("DejaVu Serif Bold Italic"),
-         local("DejaVuSerif-BoldItalic"),
-         url("/res/fonts/DejaVuSerif-BoldItalic.ttf");
-    font-style: italic;
+    font-style:  italic;
     font-weight: bold;
+
+    src:         local("DejaVu Serif Bold Italic"),
+                 local("DejaVuSerif-BoldItalic"),
+                 url("/res/fonts/DejaVuSerif-BoldItalic.ttf");
 }
 
 @font-face {
     font-family: "Noto Sans Symbols";
-    src: local("Noto Sans Symbols"),
-         local("NotoSansSymbols-Regular"),
-         url("/res/fonts/NotoSansSymbols-VariableFont_wght.ttf");
+
+    src:         local("Noto Sans Symbols"),
+                 local("NotoSansSymbols-Regular"),
+                 url("/res/fonts/NotoSansSymbols-VariableFont_wght.ttf");
 }
 
 @font-face {
     font-family: "Noto Sans Symbols 2";
-    src: local("Noto Sans Symbols 2"),
-         local("NotoSansSymbols2-Regular"),
-         url("/res/fonts/NotoSansSymbols2-Regular.ttf");
+
+    src:         local("Noto Sans Symbols 2"),
+                 local("NotoSansSymbols2-Regular"),
+                 url("/res/fonts/NotoSansSymbols2-Regular.ttf");
 }
 
 @font-face {
     font-family: "DejaVu Sans Mono";
-    src: local("DejaVu Sans Mono"),
-         local("DejaVuSansMono"),
-         url("/res/fonts/DejaVuSansMono.ttf");
+
+    src:         local("DejaVu Sans Mono"),
+                 local("DejaVuSansMono"),
+                 url("/res/fonts/DejaVuSansMono.ttf");
 }
 
 :root {
-    --col-b: #f7f3ee; /* Color: Background */
-    --col-s: #dddbd8; /* Color: Subtle     */
-    --col-t: #5a544c; /* Color: Text       */
+    --col-b:  #f7f3ee;  /* Color: Background */
+    --col-s:  #dddbd8;  /* Color: Subtle     */
+    --col-t:  #5a544c;  /* Color: Text       */
 
     /* Font: Text */
     --font-t: "DejaVu Serif", "Noto Sans Symbols", "Noto Sans Symbols 2", serif;

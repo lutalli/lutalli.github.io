@@ -1,13 +1,15 @@
 .headline {
     & h1 {
         margin-bottom: 0;
-        margin-top: 0;
+        margin-top:    0;
     }
 
     & p {
-        display: inline-block;
-        line-height: 1.4;
+        display:       inline-block;
+
         margin-bottom: 0;
-        margin-top: 0.3em;
+        margin-top:    0.3em;
+
+        line-height:   1.4;
     }
 }

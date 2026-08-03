@@ -1,45 +1,52 @@
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:  smooth;
 }
 
 :target {
-    outline: none;
-    scroll-margin-top: 10em;
-    scroll-snap-margin-top: 10em; /* Safari 11 or older */
+    outline:          none;
+
+    scroll-margin-top:      10em;
+    scroll-snap-margin-top: 10em;  /* Safari 11 or older */
 }
 
 body {
+    margin:           0;
+
+    font-size:        0.75em;  /* @ */
+    font-family:      var(--font-t);
+    word-spacing:     2px;
+
+    color:            var(--col-t);
     background-color: var(--col-b);
-    color: var(--col-t);
-    font-size: 0.75em; /* @ */
-    word-spacing: 2px;
-    font-family: var(--font-t);
-    margin: 0;
 }
 
 a {
-    color: var(--col-t);
-    text-decoration: none;
-    transition: opacity 0.2s;
+    text-decoration:  none;
+
+    color:            var(--col-t);
+
+    transition:       opacity 0.2s;
 }
 
 a:hover {
-    opacity: 65% !important;
+    opacity:          65% !important;
 }
 
-.area {
-    margin: 15px auto;
-    overflow: auto;
-    width: 100%; /* @ */
+div.area {
+    width:            100%;  /* @ */
+
+    margin:           15px auto;
+
+    overflow:         auto;
 }
 
-.area > div {
-    margin: 20px; /* @ */
+div.area > div {
+    margin:           20px;  /* @ */
 }
 
 ::selection {
+    color:            var(--col-b);
     background-color: var(--col-t);
-    color: var(--col-b);
 }
 
 @media only screen and (min-width: 700px) {
@@ -47,12 +54,12 @@ a:hover {
         font-size: 1.4em;
     }
 
-    .area {
+    div.area {
+        width:     50em;
         max-width: 90%;
-        width: 50em;
     }
 
-    .area > div {
-        margin: 30px 40px;
+    div.area > div {
+        margin:    30px 40px;
     }
 }
