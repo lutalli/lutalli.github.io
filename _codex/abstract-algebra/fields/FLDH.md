@@ -41,6 +41,6 @@ If $f : F \to K$ is a field homomorphism:
 
 - (II), (III), (IV): By {% entry_ref GH#PROP-1 %}.
 
-- (V): By (IV) and {% entry_ref RING#PROP-2 %}, $\ker f = \\{0\\}$, so $f$ is a monomorphism by {% entry_ref RH#PROP-2 %}.
+- (V): By (IV) and {% entry_ref RING#PROP-2 %}, $\ker f = \\{0\\}$, so $f$ is a monomorphism by {% entry_ref RINGH#PROP-2 %}.
 
 &#8203;<qed />

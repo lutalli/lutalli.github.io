@@ -443,7 +443,7 @@ $\cball_r(a)$
 : the [closed ball](/codex/BALL) of radius $r$ around $a$
 
 $\inter Y$
-: the [interior](/codex/ITRR) of $Y$
+: the [interior](/codex/ITR) of $Y$
 
 ## Number Theory
 
