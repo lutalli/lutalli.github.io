@@ -90,6 +90,17 @@
         padding-left: 1.2em;
     }
 
+    & ul.post-listing,
+    & ol.post-listing {
+        padding-left: 1.4em;
+    }
+
+    & ul.post-listing > li,
+    & ol.post-listing > li {
+        display: flex;
+        padding-left: 0;
+    }
+
     & hr {
         border-top: 0.4em dotted var(--col-s);
         border-bottom: none;

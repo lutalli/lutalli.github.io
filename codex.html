@@ -7,7 +7,7 @@ title: Codex
     Early development stage. Expect inconsistencies.
 </p>
 
-<ul>
+<ul class="post-listing">
     <li><a href="/codex/intro">Introduction</a></li>
     <li><a href="/codex/glossary">Notation Glossary</a></li>
 </ul>
@@ -15,7 +15,7 @@ title: Codex
 {% for branch in site.data.codex %}
     <h2>{{ branch.name }}</h2>
 
-    <ul>
+    <ul class="post-listing">
         {% for topic in branch.topics %}
             <li><a href="/codex/{{ branch.id }}/{{ topic.id }}">
                 {{ topic.name }}

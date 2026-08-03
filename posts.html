@@ -13,7 +13,7 @@ title: Posts
 
     {% assign posts = site.categories[cat_id] %}
 
-    <ul> {% for post in posts %}
+    <ul class="post-listing"> {% for post in posts %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %} </ul>
 {% endfor %}
