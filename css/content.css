@@ -127,15 +127,9 @@ div.content {
         overflow-y:       hidden;
     }
 
-    & :not(pre) > code {
-        background-color: var(--col-s);
-
-        padding:          0.3em 0.6em;
-
+    & code {
         font-family:      var(--font-m);
-        font-size:        0.8em;
-
-        border-radius:    7px;
+        font-size:        0.95em;
     }
 
     & pre {
@@ -147,10 +141,6 @@ div.content {
         border-radius:    6px;
 
         overflow-x:       scroll;
-    }
-
-    & pre > code {
-        font-family:      var(--font-m);
     }
 
     & table {
