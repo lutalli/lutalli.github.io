@@ -16,7 +16,7 @@ As a corollary:
 
 {% entry PROP-2 %}
 
-Let $V$, $W$ be vector spaces over a field $F$, $f : V \to W$ be a linear mapping and $w \in W$. By [LF > Proposition 4](/codex/LF#PROP-4), $f^{-1}[\\{w\\}]$ is a subspace. We have
+Let $V$, $W$ be vector spaces over a field $F$, $f : V \to W$ be a linear mapping and $w \in W$. By {% entry_ref LF#PROP-4 %}, $f^{-1}[\\{w\\}]$ is a subspace. We have
 
 $$ \rank f + \dim f^{-1}[\{w\}] = \dim V. $$
 

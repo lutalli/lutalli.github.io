@@ -8,7 +8,7 @@ updated: 2026-06-10
 
 The **cardinal successor** of an ordinal $\alpha$, denoted by $\alpha^+$, is the least cardinal greater than $\alpha$.
 
-The existence of $\alpha^+$ is justified by [CARD > Proposition 3](/codex/CARD#PROP-3).
+The existence of $\alpha^+$ is justified by {% entry_ref CARD#PROP-3 %}.
 
 {% endentry %}
 

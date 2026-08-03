@@ -40,7 +40,7 @@ $\empt$ is the only set disjoint to every other set.
 
 {% endentry %}
 
-***Proof.*** $\empt$ is disjoint to every set by [ITSC > Proposition 1 (II)](/codex/ITSC#PROP-1). If a set $X$ is non-empty,
+***Proof.*** $\empt$ is disjoint to every set by {% entry_ref ITSC#PROP-1:(II) %}. If a set $X$ is non-empty,
 
 $$ Y = X \cup \{X\} $$
 

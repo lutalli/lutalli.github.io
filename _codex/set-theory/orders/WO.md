@@ -44,7 +44,7 @@ The only automorphism on a well-ordered set is the identity $\id_W$.
 
 {% endentry %}
 
-***Proof.*** Let $f$ be an automorphism on a well-ordered set $W$. By [OH > Proposition 1](/codex/OH#PROP-1), both $f$ and $f^{-1}$ are strictly increasing. By [Proposition 2](#PROP-2), $x \leq f(x)$ and $x \leq f^{-1}(x)$ for every $x \in W$, which follows that $x \leq f(x)$ and $f(x) \leq x$ for every $x \in W$.<qed />
+***Proof.*** Let $f$ be an automorphism on a well-ordered set $W$. By {% entry_ref OH#PROP-1 %}, both $f$ and $f^{-1}$ are strictly increasing. By [Proposition 2](#PROP-2), $x \leq f(x)$ and $x \leq f^{-1}(x)$ for every $x \in W$, which follows that $x \leq f(x)$ and $f(x) \leq x$ for every $x \in W$.<qed />
 
 {% entry PROP-4 %}
 

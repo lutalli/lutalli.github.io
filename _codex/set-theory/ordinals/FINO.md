@@ -35,4 +35,4 @@ $\omega$ is the least limit ordinal.
 
 {% endentry %}
 
-***Proof.*** By [LIMO > Proposition 1 (I) $\lrimp$ (V)](/codex/LIMO#PROP-1).<qed />
+***Proof.*** By {% entry_ref LIMO#PROP-1:(I) %}.<qed />

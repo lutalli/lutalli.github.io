@@ -37,10 +37,10 @@ If $f : F \to K$ is a field homomorphism:
 
 ***Proof.***
 
-- (I): By [RH > Definition 1 (III)](/codex/RH#DEF-1).
+- (I): By {% entry_ref RINGH#DEF-1:(III) %}.
 
-- (II), (III), (IV): By [GH > Proposition 1](/codex/GH#PROP-1).
+- (II), (III), (IV): By {% entry_ref GH#PROP-1 %}.
 
-- (V): By (IV) and [RING > Proposition 2](/codex/RING#PROP-2), $\ker f = \\{0\\}$, so $f$ is a monomorphism by [RH > Proposition 2](/codex/RH#PROP-2).
+- (V): By (IV) and {% entry_ref RING#PROP-2 %}, $\ker f = \\{0\\}$, so $f$ is a monomorphism by {% entry_ref RH#PROP-2 %}.
 
 &#8203;<qed />

@@ -17,7 +17,7 @@ A **monoid** is a unital semigroup, i.e. a magma $M$ such that:
 
    $$ ae = ea = a. $$
 
-   ($e$ is automatically unique by [NEU > Proposition 1](/codex/NEU#PROP-1).)
+   ($e$ is automatically unique by {% entry_ref NEU#PROP-1 %}.)
 
 {% endentry %}
 

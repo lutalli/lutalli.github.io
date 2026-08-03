@@ -38,7 +38,7 @@ Every infinite cardinal is a limit ordinal.
 
 {% endentry %}
 
-***Proof.*** By [SUC > Proposition 2](/codex/SUC#PROP-2).<qed />
+***Proof.*** By {% entry_ref SUC#PROP-2 %}.<qed />
 
 {% entry PROP-3 %}
 
