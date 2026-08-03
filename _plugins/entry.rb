@@ -1,20 +1,18 @@
-# Tag block for the Codex entries.
-#
-# Usage:
-#
-#   {% entry TYPE-N %}
-#   ...
-#   {% endentry %}
-#
-# will generate a Codex entry of `TYPE` with index `N`.
-#
-# For example, `DEF-3` will give "Definition 3".
-#
-# This plugin will automatically look up the current slug and use it to
-# generate the proper ID for the entry.
-
 module Jekyll
   class EntryTagBlock < Liquid::Block
+    # Tag block for the Codex entries.
+    #
+    #   {% entry TYPE-N %}
+    #   ...
+    #   {% endentry %}
+    #
+    # will generate a Codex entry of `TYPE` with index `N`.
+    #
+    # For example, `DEF-3` will produce "Definition 3".
+    #
+    # This plugin will automatically look up the current slug and use it to
+    # generate the proper ID for the entry.
+
     def initialize(tag_name, args, tokens)
       super
       @args = args.rstrip.split(':')
