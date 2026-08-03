@@ -1,7 +1,7 @@
 ---
-title: Exhibition
+title:      CSS Exhibition
 categories: misc
-updated: 2026-05-11
+updated:    2026-08-03
 ---
 
 ## Body Text
