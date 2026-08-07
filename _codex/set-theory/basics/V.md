@@ -12,8 +12,6 @@ $$ \V = \{x : x = x\}. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 $\V$ is a proper class.

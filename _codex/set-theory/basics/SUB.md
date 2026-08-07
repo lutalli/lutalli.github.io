@@ -1,23 +1,18 @@
 ---
 title:   Subset
 date:    2026-02-16
-updated: 2026-06-23
+updated: 2026-08-03
 ---
 
 {% entry DEF-1 %}
 
-Let $X$ and $Y$ be two sets.
+Let $X$ and $Y$ be two sets. $X$ is a **subset** of $Y$, written $X \subseteq Y$, if
 
-{:.no-indent}
-- $X$ is a **subset** of $Y$, written $X \subseteq Y$, if
+$$ \forall a :\enspace a \in X \enspace\rimp\enspace a \in Y. $$
 
-  $$ \forall x :\enspace x \in X \enspace\rimp\enspace x \in Y. $$
-
-- $X$ is a **proper subset** of $Y$, written $X \subset Y$, if $X \subseteq Y$ and $X \neq Y$.
+$X$ is a **proper subset** of $Y$, written $X \subset Y$, if additionally $X \neq Y$.
 
 {% endentry %}
-
----
 
 {% entry PROP-1 %}
 
@@ -25,9 +20,7 @@ $\empt$ is the only set that is a subset of every non-empty set.
 
 {% endentry %}
 
-***Proof.*** $\empt$ is a subset of every set since no $x \in \empt$. If $X$ is a subset of every non-empty set, then $X \subseteq \\{X\\}$. By [irreflexivity of $\in$](/codex/ZF#PROP-1), $X \neq \\{X\\}$, so $X = \empt$.<qed />
-
----
+***Proof.*** $\empt$ is a subset of every set since no $x \in \empt$. If $X$ is a subset of every non-empty set, then $X \subseteq \\{X\\}$. Were any $a \in X$, then $a = X$, then $X \in X$, contrary to [irreflexivity of $\in$](/codex/ZF#PROP-1).<qed />
 
 {% entry PROP-2:Reflexivity %}
 
@@ -53,10 +46,10 @@ $$ X \subseteq Y \,\land\, Y \subseteq X \enspace\rimp\enspace X = Y. $$
 
 {% endentry %}
 
-As a corollary of [reflexivity](#PROP-2), [transitivity](#PROP-3) and [antisymmetry](#PROP-4) of $\subseteq$:
+To summarize [reflexivity](#PROP-2), [transitivity](#PROP-3) and [antisymmetry](#PROP-4) of $\subseteq$:
 
 {% entry PROP-5 %}
 
-For any set $X$, $(\powerset(X), \subseteq)$ is a partial order.
+$\subseteq$ is a partial order.
 
 {% endentry %}

@@ -10,35 +10,34 @@ A **function** is a binary relation that is right-unique, i.e. a binary relation
 
 $$ (z, x) \in f \,\land\, (z, y) \in f \enspace\rimp\enspace x = y. $$
 
-{:.no-indent}
-- For each $x\in\dom f$, the **value** of $f$ at $x$, written as $f(x)$, is the unique $y$ such that $(x, y)\in f$. Another notation for $f(x) = y$ is
+For each $x\in\dom f$, the **value** of $f$ at $x$, written as $f(x)$, is the unique $y$ such that $(x, y)\in f$. Another notation for $f(x) = y$ is
 
-  $$ f : x \mapsto y. $$
+$$ f : x \mapsto y. $$
 
-- $f$ is **onto** a set $Y$ if $\im f = Y$.
+$f$ is **onto** a set $Y$ if $\im f = Y$.
 
-- $f$ is **from** a set $X$ **to** a set $Y$, written
+$f$ is **from** a set $X$ **to** a set $Y$, written
 
-  $$ f : X \to Y, $$
+$$ f : X \to Y, $$
 
-  if $\dom f = X$ and $\im f \subseteq Y$. In this context, $Y$ is called the **codomain** of $f$.
+if $\dom f = X$ and $\im f \subseteq Y$. In this context, $Y$ is called the **codomain** of $f$.
 
-- $f$ is **on** a set $X$ if $f : X \to X$.
+$f$ is **on** a set $X$ if $f : X \to X$.
 
-- The set of all functions from a set $X$ to a set $Y$ is denoted by
+The set of all functions from a set $X$ to a set $Y$ is denoted by
 
-  $$ \fun(X, Y). $$
+$$ \fun(X, Y). $$
 
-  This is a set by [Separation Schema](/codex/ZF#AX-4):
+This is a set by [Separation Schema](/codex/ZF#AX-4):
 
-  $$ \fun(X, Y) \subseteq \rel(X, Y). $$
+$$ \fun(X, Y) \subseteq \rel(X, Y). $$
 
 {% endentry %}
 
 ***Notes.***
 
-- *Function* is also known as *mapping*, *map* and *transformation*.
-- *Codomain* is also known as *set of destination*.
+1. *Function* is also known as *mapping*, *map* and *transformation*.
+2. *Codomain* is also known as *set of destination*.
 
 ***Example.*** $\empt$ is a function on $\empt$, called the **empty function**.
 

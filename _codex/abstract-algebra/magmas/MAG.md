@@ -16,6 +16,6 @@ $$ a * b \in M. $$
 
 Let $(M, \*)$ be a magma. If $\*$ has a certain property, then we may also say $M$ has this property. For example, $M$ is associative if $\*$ is associative.
 
-A magma is **abelian** if it is commutative.
+Specially, we call a magma **abelian** if it is commutative.
 
 {% endentry %}

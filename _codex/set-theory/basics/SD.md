@@ -12,8 +12,6 @@ $$ X \setdif Y = \{x \in X : x \notin Y\}. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 For any set $X$:

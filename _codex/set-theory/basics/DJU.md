@@ -20,13 +20,11 @@ $$ X_1 \sqcup \cdots \sqcup X_n = \bigsqcup \{X_1, \cdots, X_n\}. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 For any finite disjoint set $X$,
 
-$$ \Big\lvert \bigcup X \Big\rvert = \sum_{A \in X} \lvert A \rvert. $$
+$$ \Big\lvert \bigsqcup X \Big\rvert = \sum_{A \in X} \lvert A \rvert. $$
 
 {% endentry %}
 

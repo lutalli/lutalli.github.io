@@ -22,15 +22,30 @@ module Jekyll
     #
     # Syntax:
     #
-    #   {% entry <TYPE>-<INDEX>[:<DESCRIPTION>] %}
+    #   {% entry <TYPE>-<INDEX>[:<DESCRIPTION>][!] %}
     #   ...
     #   {% endentry %}
     #
+    # The ! symbol indicates that the separation character will be `\n\n`
+    # instead of `&emsp;`. This should be used if no text immediately comes
+    # after the heading (for example, if the entry starts with a list).
+    #
 
-    def initialize(tag_name, args, tokens)
+    def initialize(tag_name, str, tokens)
       super
 
-      @args  = args.rstrip.split(':')
+      str.rstrip!
+
+      @sep = ''
+      if str[-1] == '!'
+        @sep = "\n\n"
+        str.chop!
+        str.rstrip!
+      else
+        @sep = '&emsp;'
+      end
+
+      @args  = str.split(':')
       @label = @args[0]
 
       type, index = @label.split('-')
@@ -52,7 +67,8 @@ module Jekyll
       # The `markdown="1"` attribute is crucial for kramdown to regularly
       # render the content in Markdown.
       "<blockquote class=\"entry\" id=\"#{@label}\" markdown=\"1\">\n" \
-        "[**#{@heading}**](\##{@label}){:.entry-heading}&emsp;#{content}\n\n" \
+        "[**#{@heading}**](\##{@label}){:.entry-heading}" \
+        "#{@sep}#{content}\n\n" \
       "</blockquote>"
     end
   end

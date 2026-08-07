@@ -10,11 +10,9 @@ Let $(G, \*)$ be a group. $(H, \*)$ is a **subgroup** of $(G, \*)$, written $H \
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
-Let $G$ be a group with neutral element $e$ and $H$ be a subgroup. Then the neutral element of $H$ is also $e$.
+All subgroups are neutral-preserving: If $G$ is a group with neutral element $e$ and $H$ is a subgroup, then the neutral element of $H$ is also $e$.
 
 {% endentry %}
 
@@ -24,24 +22,22 @@ $$ e'e' = e' = ee', $$
 
 hence $e' = e$ by [cancellation property of group](/codex/G#PROP-3).<qed />
 
----
-
-{% entry PROP-2 %}
+{% entry PROP-2:Subgroup Test A %}
 
 Let $G$ be a group and $H \subseteq G$ be non-empty. $H$ is a subgroup as soon as:
 
 {:.par-upper-roman}
-1. *Closure under multiplication.* For all $a$, $b \in H$,
+1. (*Closure under multiplication*) For all $a$, $b \in H$,
 
    $$ ab \in H. $$
 
-2. *Closure under inversion.* For all $a \in H$,
+2. (*Closure under inversion*) For all $a \in H$,
 
    $$ a^{-1} \in H. $$
 
 {% endentry %}
 
-{% entry PROP-3 %}
+{% entry PROP-3:Subgroup Test B %}
 
 Let $G$ be a group and $H \subseteq G$ be non-empty. $H$ is a subgroup as soon as for all $a$, $b\in H$,
 
@@ -49,7 +45,7 @@ $$ ab^{-1} \in H. $$
 
 {% endentry %}
 
-{% entry PROP-4 %}
+{% entry PROP-4:Subgroup Test C %}
 
 Let $G$ be a finite group and $H\subseteq G$ be non-empty. $H$ is a subgroup as soon as $H$ is closed under multiplication, i.e for all $a$, $b\in H$,
 

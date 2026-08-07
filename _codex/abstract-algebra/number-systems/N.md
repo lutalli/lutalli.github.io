@@ -6,7 +6,7 @@ updated: 2026-06-11
 
 {% entry DEF-1 %}
 
-The set of **natural numbers** $\N$ is defined as the smallest inductive set that contains $\empt$. See [Finite Ordinal](/codex/FINO).
+The set of **natural numbers** $\N$ is defined as the smallest $\empt$-inductive set. See [Finite Ordinal](/codex/FINO).
 
 {% endentry %}
 
@@ -32,16 +32,14 @@ $$ \N^+ = \N \setdif \{0\}. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
-$(\N, +, \leq)$ is a well-ordered abelian monoid with neutral element $0$.
+$(\N, +, 0, \leq)$ is a well-ordered abelian monoid.
 
 {% endentry %}
 
 {% entry PROP-2 %}
 
-$(\N^+, \cdot, \leq)$ is a well-ordered abelian monoid with neutral element $1$.
+$(\N, \cdot, 1, \leq)$ is a well-ordered abelian monoid.
 
 {% endentry %}

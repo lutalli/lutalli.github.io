@@ -1,7 +1,7 @@
 ---
 title:   Symmetric Difference
 date:    2026-02-17
-updated: 2026-06-23
+updated: 2026-08-06
 ---
 
 {% entry DEF-1 %}
@@ -12,9 +12,7 @@ $$ X \symdif Y = (X \setdif Y) \cup (Y \setdif X). $$
 
 {% endentry %}
 
----
-
-{% entry PROP-1 %}
+{% entry PROP-1 ! %}
 
 {:.par-upper-roman}
 1. For any set $X$,
@@ -43,15 +41,13 @@ $$ (X \symdif Y) \symdif Z = X \symdif (Y \symdif Z). $$
 
 {% endentry %}
 
-As a corollary of [Proposition 1 (I)](#PROP-1), [commutativity](#PROP-2) and [associativity](#PROP-3) of $\symdif$:
+To summarize [Proposition 1 (I)](#PROP-1), [commutativity](#PROP-2) and [associativity](#PROP-3) of $\symdif$:
 
 {% entry PROP-4 %}
 
 For any set $X$, $(\powerset(X), \symdif)$ is an abelian group with neutral element $\empt$.
 
 {% endentry %}
-
----
 
 {% entry PROP-5 %}
 

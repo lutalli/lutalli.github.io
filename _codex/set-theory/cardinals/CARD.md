@@ -12,11 +12,13 @@ $$ \forall \beta < \alpha : \beta \lnequ \alpha. $$
 
 The class of all cardinals is denoted by $\Card$.
 
+{% endentry %}
+
+{% entry DEF-2 %}
+
 Every natural number is a cardinal, called a **finite cardinal**. A cardinal is **infinite** if it is not finite.
 
 {% endentry %}
-
----
 
 {% entry PROP-1 %}
 
@@ -30,8 +32,6 @@ $$ \Ord \subseteq \bigcup \Card. $$
 
 &#8203;<qed />
 
----
-
 {% entry PROP-2 %}
 
 Every infinite cardinal is a limit ordinal.
@@ -39,9 +39,3 @@ Every infinite cardinal is a limit ordinal.
 {% endentry %}
 
 ***Proof.*** By {% entry_ref SUC#PROP-2 %}.<qed />
-
-{% entry PROP-3 %}
-
-For every ordinal $\alpha$ there is a cardinal greater than $\alpha$.
-
-{% endentry %}

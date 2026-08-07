@@ -6,17 +6,15 @@ updated: 2026-06-11
 
 {% entry DEF-1 %}
 
-A **field homomorphism** is a ring homomorphism between two fields.
+A **field homomorphism** is a ring homomorphism between fields.
 
 In other words, a field homomorphism $f : F \to K$ is both a group homomorphism from $(F, +)$ to $(K, +)$ and a group homomorphism from $(R^\* \setdif \\{0\\}, \cdot)$ to $(S^\* \setdif \\{0\\}, \cdot)$.
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
-If $f : F \to K$ is a field homomorphism:
+For any field homomorphism $f : F \to K$:
 
 {:.par-upper-roman}
 1. $$ f(1) = 1. $$
@@ -31,16 +29,14 @@ If $f : F \to K$ is a field homomorphism:
 
     $$ f(a^{-1}) = f(a)^{-1}. $$
 
-5. $f$ is a monomorphism.
+5. $f$ is always a monomorphism.
 
 {% endentry %}
 
 ***Proof.***
 
-- (I): By {% entry_ref RINGH#DEF-1:(III) %}.
+(I): By {% entry_ref RINGH#DEF-1:(III) %}.
 
-- (II), (III), (IV): By {% entry_ref GH#PROP-1 %}.
+(II), (III), (IV): By {% entry_ref GH#PROP-1 %}.
 
-- (V): By (IV) and {% entry_ref RING#PROP-2 %}, $\ker f = \\{0\\}$, so $f$ is a monomorphism by {% entry_ref RINGH#PROP-2 %}.
-
-&#8203;<qed />
+(V): By (IV) and {% entry_ref RING#PROP-2 %}, $\ker f = \\{0\\}$, so $f$ is a monomorphism by {% entry_ref RINGH#PROP-2 %}.<qed />

@@ -24,10 +24,8 @@ An **$n$-tuple** is a tuple of $n$ sets.
 
 ***Notes.***
 
-- 2-*tuple* is also known as *ordered pair*.
-- For Latinate names of $n$-tuples, see [Tuple names (Simple English Wikipedia)](https://simple.wikipedia.org/wiki/Tuple_names#Names_for_tuples_of_specific_lengths).
-
----
+1. 2-*tuple* is also known as *ordered pair*.
+2. For Latinate names of $n$-tuples, see [Tuple names (Simple English Wikipedia)](https://simple.wikipedia.org/wiki/Tuple_names#Names_for_tuples_of_specific_lengths).
 
 {% entry PROP-1:Orderedness %}
 

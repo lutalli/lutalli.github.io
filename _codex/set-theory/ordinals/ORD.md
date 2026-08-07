@@ -22,8 +22,6 @@ $$ \alpha < \beta \enspace\lrimp\enspace \alpha \in \beta. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 Every element of an ordinal is an ordinal.
@@ -64,8 +62,6 @@ If $X$ is a non-empty set of ordinals, then $\bigcup X$ is an ordinal and
 $$ \bigcup X = \sup X. $$
 
 {% endentry %}
-
----
 
 {% entry PROP-6:Burali-Forti Paradox %}
 

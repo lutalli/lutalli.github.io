@@ -6,8 +6,6 @@ updated: 2026-06-11
 
 {% entry DEF-1 %}
 
-A **semigroup homomorphism** between two semigroups $S$ and $T$ is a function $f : S \to T$ such that for all $a$, $b\in M$,
-
-$$ f(ab) = f(a) f(b). $$
+A **semigroup homomorphism** is a magma homomorphism between semigroups.
 
 {% endentry %}

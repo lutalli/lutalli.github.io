@@ -10,8 +10,6 @@ Let $V$ be a vector space and $X \subseteq V$. $X$ is an **affine subspace** if 
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 Every subspace of a vector space is an affine subspace.
@@ -23,8 +21,13 @@ Every subspace of a vector space is an affine subspace.
 Let $V$ be a vector space. For any affine subspace $X = v + W$ ($v \in V$, $W \subseteq V$):
 
 {:.par-upper-roman}
-1. For any $x \in V$, $x \in X$ if and only if $x - v \in W$.
-2. $X = x + W$ for all $x \in X$.
+1. For any $x \in V$,
+
+   $$ x \in X \enspace\lrimp\enspace x - v \in W. $$
+
+2. For any $x \in X$,
+
+   $$ X = x + W. $$
 
 {% endentry %}
 

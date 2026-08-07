@@ -14,8 +14,6 @@ Each element of $\langle S \rangle$ is called a **linear combination** of $S$.
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 Let $V$ be a vector space over $F$. For any finite subset
@@ -24,7 +22,8 @@ $$ S = \{v_1, \cdots, v_n\} \subseteq V $$
 
 ($n \geq 1$), we have
 
-$$ \langle S \rangle =%
-       \left\{ \sum_{i = 1}^n \lambda_i v_i : \lambda_1, \cdots, \lambda_n \in F \right\}. $$
+$$ \langle S \rangle = \left\{ %
+    \sum_{i = 1}^n \lambda_i v_i : \lambda_1, \cdots, \lambda_n \in F%
+\right\}. $$
 
 {% endentry %}

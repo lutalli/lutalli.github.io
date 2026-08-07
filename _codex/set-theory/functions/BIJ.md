@@ -14,4 +14,4 @@ $$ \bij(X, Y). $$
 
 {% endentry %}
 
-***Note.*** A *bijection* is also known as *one-to-one correspondence*.
+***Note.*** A *bijection* is also known as a *one-to-one correspondence*.

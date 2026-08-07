@@ -8,7 +8,6 @@ updated: 2026-06-11
 
 Let $M$ be a magma, $A$ be a submagma and $m \in M$.
 
-{:.no-indent}
 - The **left coset** of $A$ by $m$ is
 
   $$ mA = \{ma : a \in A\}. $$
@@ -26,8 +25,6 @@ Let $M$ be a magma, $A$ be a submagma and $m \in M$.
   $$ M \backslash A = \{Am : m \in M\}. $$
 
 {% endentry %}
-
----
 
 {% entry PROP-1 %}
 

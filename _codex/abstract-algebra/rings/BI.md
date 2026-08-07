@@ -6,7 +6,7 @@ updated: 2026-06-11
 
 {% entry PROP-1:Binomial Theorem %}
 
-Let $R$ be a non-trivial abelian ring and $n \in \N^+$. For any $a$, $b \in R \setdif \\{0\\}$,
+Let $R$ be a non-zero abelian ring and $n \in \N^+$. For any $a$, $b \in R \setdif \\{0\\}$,
 
 $$ (a + b)^n = \sum_{k = 0}^n \binom{n}{k} a^{n - k} b^k. $$
 

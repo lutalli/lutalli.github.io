@@ -38,8 +38,6 @@ $$ \begin{gather*}
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 For any $n$, $k \in \N$ with $k \leq n$,
@@ -52,7 +50,7 @@ $$ C(n, k) = \frac{n!}{k!(n - k)!}. $$
 
 $$ \varphi :%
        \inj(\llbra k \rrbra, \llbra n \rrbra) \to \powerset_k(\llbra n \rrbra), \,%
-       f \mapsto \ran f $$
+       f \mapsto \im f $$
 
 is surjective. It is easy to see that for every $A \in \powerset_k(\llbra n \rrbra)$,
 

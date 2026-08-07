@@ -8,7 +8,6 @@ updated: 2026-06-11
 
 Let $M$ be a unital magma with neutral element $e$. Let $a$, $x \in M$.
 
-{:.no-indent}
 - $x$ is a **left-inverse** of $a$ if
 
   $$ xa = e. $$
@@ -19,13 +18,11 @@ Let $M$ be a unital magma with neutral element $e$. Let $a$, $x \in M$.
 
 - $x$ is an **inverse** of $a$ if $x$ is both a left-inverse and a right-inverse of $a$.
 
-- $a$ is **(left-/right-)invertible** if it has a (left-/right-)inverse.
-
-- $a$ is **uniquely (left-/right-)invertible** if it has exactly one (left-/right-)inverse.
+- $a$ is **(uniquely) (left-/right-)invertible** if it has a (unique) (left-/right-)inverse.
 
 - $M$ is **(uniquely) (left-/right-)invertible** if all elements of $M$ are (uniquely) (left-/right-)invertible.
 
-- If $M$ is uniquely invertible, we write $a^{-1}$ for the unique inverse of each $a\in M$.
+If $M$ is uniquely invertible, we write $a^{-1}$ for the unique inverse of each $a\in M$.
 
 {% endentry %}
 

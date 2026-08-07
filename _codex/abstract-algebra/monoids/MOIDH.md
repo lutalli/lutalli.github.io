@@ -1,20 +1,28 @@
 ---
 title:   Monoid Homomorphism
 date:    2026-03-19
-updated: 2026-06-11
+updated: 2026-08-06
 ---
 
 {% entry DEF-1 %}
 
-A **monoid homomorphism** between two monoids $M$ and $N$ is a function $f : M \to N$ such that:
+A **monoid homomorphism** is a magma homomorphism between monoids.
 
-{:.par-upper-roman}
-1. For all $a$, $b \in M$,
+In addition, a monoid homomorphism $f$ between two monoids $M$ and $N$ is **neutral-preserving** if
 
-   $$ f(ab) = f(a) f(b). $$
+$$ f(e) = i, $$
 
-2. If $e$ and $i$ are respectively the neutral elements of $M$ and $N$,
-
-   $$ f(e) = i. $$
+where $e$ and $i$ are respectively the neutral elements of $M$ and $N$.
 
 {% endentry %}
+
+{% entry DEF-2 %}
+
+The **kernel** of a monoid homomorphism $f : M \to N$ is
+
+$$ \ker f = f^{-1}[\{i\}], $$
+
+where $i$ is the neutral element of $N$.
+
+{% endentry %}
+

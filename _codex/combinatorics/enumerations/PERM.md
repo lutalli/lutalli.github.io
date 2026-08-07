@@ -8,7 +8,6 @@ updated: 2026-06-20
 
 Let $X$ be a set of cardinality $n \in \N$.
 
-{:.no-indent}
 - A **$k$-permutation** of $X$ ($0 \leq k \leq n$) is an injection from $\llbra k \rrbra$ to $X$.
 
 - A **permutation** of $X$ is a bijection from $\llbra n \rrbra$ onto $X$.
@@ -24,8 +23,6 @@ $$ P(n, k) = \big\lvert \inj(\llbra k \rrbra, \llbra n \rrbra) \big\rvert $$
 as the number of $k$-permutations of $\llbra n\rrbra$. It can then be shown that this is the number of $k$-permutations of any set of cardinality $n$.
 
 {% endentry %}
-
----
 
 {% entry PROP-1 %}
 

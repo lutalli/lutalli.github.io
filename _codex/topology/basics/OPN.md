@@ -12,8 +12,6 @@ $$ Y = \inter Y. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 Let $X$ be a metric space. If $\mathcal{S}$ is a set of open sets from $X$, then $\bigcap \mathcal{S}$ is open.

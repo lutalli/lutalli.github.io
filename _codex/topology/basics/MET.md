@@ -37,8 +37,6 @@ Let $(X, d)$ be a metric space and $Y \subseteq X$. Then $d \restriction_Y$ is a
 
 {% endentry %}
 
----
-
 {% entry PROP-1:Positivity %}
 
 Let $(X, d)$ be a metric space. For all $x$, $y \in X$:

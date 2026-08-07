@@ -14,8 +14,6 @@ for all $g_1$, $g_2 \in G$ and $h_1$, $h_2 \in H$.
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 Let $G$ be a group with neutral element $e$ and $H$ be a group with neutral element $i$.

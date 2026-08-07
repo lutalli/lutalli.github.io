@@ -18,8 +18,8 @@ $$ \SS_n = \SS_{\llbra n \rrbra}. $$
 
 {% endentry %}
 
-***Proof.*** ($\SS_X$ is a group) By {% entry_ref COMP#PROP-5 %}, $\fun(X, X)$ is a monoid. Since
+***Proof*** ($\SS_X$ is a group)***.*** By {% entry_ref COMP#PROP-5 %}, $\fun(X, X)$ is a monoid. Since
 
 $$ \bij(X, X) = \inv\fun(X, X), $$
 
-$\bij(X, X)$ is a group by {% entry_ref G#PROP-6 %}.<qed />
+$\bij(X, X)$ is a group by {% entry_ref G#PROP-2 %}.<qed />

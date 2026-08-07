@@ -19,19 +19,21 @@ updated: 2026-06-10
 
    $$ \aleph_\alpha = \sup\{\aleph_\beta : \beta < \alpha\}. $$
 
-For every ordinal $\alpha$, we also write
+{% endentry %}
+
+{% entry DEF-2 %}
+
+For every ordinal $\alpha$, we also define
 
 $$ \omega_\alpha = \aleph_\alpha. $$
 
-$\aleph_\alpha$ is used with emphasis on an aleph number, $\omega_\alpha$ with emphasis on an ordinal.
+$\aleph_\alpha$ is used when we treat it as an aleph, $\omega_\alpha$ when we treat it as an ordinal.
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
-For any infinite set $X$, $X$ is well-orderable if and only if $\lvert X \rvert$ is an aleph.
+Any infinite set $X$ is well-orderable if and only if $\lvert X \rvert$ is an aleph.
 
 {% endentry %}
 

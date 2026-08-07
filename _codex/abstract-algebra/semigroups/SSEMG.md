@@ -10,9 +10,7 @@ Let $(S, \*)$ be a semigroup. $(T, \*)$ is a **subsemigroup** of $(S, \*)$, writ
 
 {% endentry %}
 
----
-
-{% entry PROP-1 %}
+{% entry PROP-1:Subsemigroup Test %}
 
 Let $(S, \*)$ be a semigroup. $T \subseteq S$ is a subsemigroup as soon as $T$ is closed under $\*$, i.e. for all $a$, $b \in T$,
 

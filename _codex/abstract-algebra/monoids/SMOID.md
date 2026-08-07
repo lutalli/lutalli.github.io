@@ -10,17 +10,15 @@ Let $(M, \*)$ be a monoid. $(N, \*)$ is a **submonoid** of $(M, \*)$, written $N
 
 {% endentry %}
 
-{% entry REM-1 %}
+{% entry DEF-2 %}
 
-Our definition does not require a submonoid to inherit the neutral element.
+Let $M$ be a monoid with neutral element $e$ and $N$ be a submonoid. $N$ is **neutral-preserving** if the neutral element of $N$ is also $e$.
 
 {% endentry %}
 
-***Example.*** $(\N, \max)$ is a monoid with neutral element $0$; $(\N^+, \max)$ is a submonoid with neutral element $1$.
+***Example.*** $(\N, \max)$ is a monoid with neutral element $0$; $(\N^+, \max)$ is a submonoid, but with neutral element $1$, so it is not neutral preserving.
 
----
-
-{% entry PROP-1 %}
+{% entry PROP-1:Submonoid Test %}
 
 Let $(M, \*)$ be a monoid. $N \subseteq M$ is a submonoid as soon as:
 
@@ -29,7 +27,7 @@ Let $(M, \*)$ be a monoid. $N \subseteq M$ is a submonoid as soon as:
 
    $$ ab \in N. $$
 
-2. (*Neutral element*) There is $e \in N$ such that for all $a \in N$,
+2. (*Unitality*) There is $e \in N$ such that for all $a \in N$,
 
    $$ ae = ea = a. $$
 

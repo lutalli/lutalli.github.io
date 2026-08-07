@@ -8,7 +8,6 @@ updated: 2026-06-10
 
 Let $X$ be a preordered set, $A \subseteq X$ and $a \in X$.
 
-{:.no-indent}
 - $a$ is an **upper bound** of $A$ if
 
   $$ \forall x \in A : x \leq a. $$
@@ -29,11 +28,8 @@ Let $X$ be a preordered set, $A \subseteq X$ and $a \in X$.
 
 {% endentry %}
 
----
+{% entry PROP-1 ! %}
 
-{% entry PROP-1 %}
-
-{:.no-indent}
 - Any greatest element is an upper bound.
 - Any least element is a lower bound.
 

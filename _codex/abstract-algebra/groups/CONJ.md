@@ -20,8 +20,6 @@ $$ \conj_g a = b. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 For any group, $\stackrel{\conj}{\sim}$ is an equivalence relation.

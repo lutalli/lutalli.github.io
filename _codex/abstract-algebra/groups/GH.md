@@ -6,32 +6,20 @@ updated: 2026-06-11
 
 {% entry DEF-1 %}
 
-A **group homomorphism** between two groups $G$ and $H$ is a function $f : G \to H$ such that for all $a$, $b \in G$,
-
-$$ f(ab) = f(a) f(b). $$
+A **group homomorphism** is a magma homomorphism between groups.
 
 {% endentry %}
-
-{% entry DEF-2 %}
-
-The **kernel** of a group homomorphism $f : G \to H$ is
-
-$$ \ker f = f^{-1}[\{i\}], $$
-
-where $i$ is the neutral element of $H$.
-
-{% endentry %}
-
----
 
 {% entry PROP-1 %}
 
 Let $G$ be a group with neutral element $e$ and $H$ be a group with neutral element $i$. For any group homomorphism $f : G \to H$:
 
 {:.par-upper-roman}
-1. $$ f(e) = i. $$
+1. (*Neutral-preserving*)
 
-2. For all $a\in G$,
+   $$ f(e) = i. $$
+
+2. (*Inverse-preserving*) For all $a\in G$,
 
    $$ f(a^{-1}) = f(a)^{-1}. $$
 
@@ -48,8 +36,6 @@ For any group homomorphism $f : G \to H$, $\ker f$ is a normal subgroup of $G$.
 For any group homomorphism $f : G \to H$, $\im f$ is a subgroup of $H$.
 
 {% endentry %}
-
----
 
 {% entry PROP-4 %}
 

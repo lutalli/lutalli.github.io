@@ -10,11 +10,9 @@ Let $(F, +, \cdot)$ be a field. $(K, +, \cdot)$ is a **subfield** of $F$ if it i
 
 {% endentry %}
 
----
+{% entry PROP-1:Subfield Test %}
 
-{% entry PROP-1 %}
-
-Let $F$ be a field. $K$ is a subfield of $F$ as soon as:
+Let $F$ be a field. $K$ is a subfield of $F$ if:
 
 {:.par-upper-roman}
 1. $K$ is a subring.

@@ -14,8 +14,6 @@ $(V, \lVert {}\cdot{} \rVert)$ is then called a **normed space**.
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 If $(V, \lVert {}\cdot{} \rVert)$ is a normed space, then

@@ -10,12 +10,12 @@
 
     - id:      basics
       name:    Basics
-      content: [ SET, CLS, V, ZF, AC, EMP, BLD, SUB, PAIR, U, SING, ROST, ITSC,
-                 DJ, DJU, SD, DMG, SYMD, P, TUP, X, TRAN ]
+      content: [ CLS, V, ZF, AC, EMP, BLD, SUB, PAIR, U, SING, ROST, ITSC, DJ,
+                 DJU, SD, DMG, SYMD, P, TUP, X, TRAN ]
 
     - id:      relations
       name:    Relations
-      content: [ REL, ID, RELC, EQV, CONV, COMP, RST, IM, WF ]
+      content: [ REL, ID, RELC, EQV, CONV, COMP, RST, IM]
 
     - id:      functions
       name:    Functions
@@ -23,7 +23,7 @@
 
     - id:      orders
       name:    Orders
-      content: [ PRO, TPRO, PO, TO, OH, MAXL, GR, MAX, BND, SUP, DDKC, WO ]
+      content: [ PRO, TPRO, PO, TO, OH, MAXL, GR, MAX, BND, SUP, DDKC, WO, WF ]
 
     - id:      ordinals
       name:    Ordinals

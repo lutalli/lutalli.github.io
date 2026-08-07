@@ -20,16 +20,13 @@ A **ring** is a structure $(R, +, \cdot)$ such that:
        (x + y)a &= xa + ya.
    \end{align*} $$
 
-{:.no-indent}
 - The neutral element of $(R, +)$, called the **additive neutral element**, is typically denoted by $0$.
 
 - The neutral element of $(R, \cdot)$, called the **multiplicative neutral element**, is typically denoted by $1$.
 
 {% endentry %}
 
-***Examples.***
-
-1. **Trivial / zero ring:** $\\{0\\}$ is the only ring where $0 = 1$.
+***Example.*** $\\{0\\}$, a **trivial** / **zero ring**, is the only kind of ring where $0 = 1$.
 
 {% entry DEF-2 %}
 
@@ -57,8 +54,6 @@ For $n \in \N^+$, we have
 $$ a^n = \underbrace{a \cdot \cdots \cdot a}_{\text{$n$ times}}. $$
 
 {% endentry %}
-
----
 
 {% entry PROP-1 %}
 

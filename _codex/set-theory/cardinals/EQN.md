@@ -6,27 +6,27 @@ updated: 2026-06-10
 
 {% entry DEF-1 %}
 
-Two sets $X$ and $Y$ are **equinumerous**, written
+Let $X$ and $Y$ be two sets.
 
-$$ X \equ Y, $$
+- $X$ and $Y$ are **equinumerous**, written
 
-if there exists a bijection from $X$ onto $Y$.
+  $$ X \equ Y, $$
 
-$X$ is **not a greater set** than $Y$, written
+  if there exists a bijection from $X$ onto $Y$.
 
-$$ X \lequ Y, $$
+- $X$ is **not a greater set** than $Y$, written
 
-if there exists an injection from $X$ to $Y$.
+  $$ X \lequ Y, $$
 
-$X$ is a **smaller set** than $Y$, written
+  if there exists an injection from $X$ to $Y$.
 
-$$ X \lnequ Y, $$
+- $X$ is a **smaller set** than $Y$, written
 
-if $X \lequ Y$ and $X \not\equ Y$.
+  $$ X \lnequ Y, $$
+
+  if $X \lequ Y$ and $X \not\equ Y$.
 
 {% endentry %}
-
----
 
 {% entry PROP-1:Reflexivity of $\equ$ %}
 
@@ -52,15 +52,13 @@ $$ X \equ Y \,\land\, Y \equ Z \enspace\rimp\enspace X \equ Z. $$
 
 {% endentry %}
 
-As a corollary of [reflexivity](#PROP-1), [symmetry](#PROP-2) and [transitivity](#PROP-3) of $\equ$:
+To summarize [reflexivity](#PROP-1), [symmetry](#PROP-2) and [transitivity](#PROP-3) of $\equ$:
 
 {% entry PROP-4 %}
 
-For any set $X$, $\equ$ is an equivalence relation on $\powerset(X)$.
+$\equ$ is an equivalence relation.
 
 {% endentry %}
-
----
 
 {% entry PROP-5:Reflexivity of $\lequ$ %}
 
@@ -86,12 +84,8 @@ $$ X \lequ Y \,\land\, Y\lequ X \enspace\rimp\enspace X\equ Y. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-8 %}
 
 For any sets $X$ and $Y$, if $X \subseteq Y$, then $X \lequ Y$.
 
 {% endentry %}
-
-***Proof.*** $\id_X : X \to Y$ is an injection.<qed />

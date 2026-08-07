@@ -10,8 +10,6 @@ An ordinal $\alpha > 0$ is a **limit ordinal** if it is not a successor ordinal,
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 Let $\alpha > 0$ be an ordinal. The following statements are equivalent:

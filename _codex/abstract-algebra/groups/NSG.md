@@ -12,8 +12,6 @@ $$ \conj_g a \in H. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 All subgroups of an abelian group are normal.

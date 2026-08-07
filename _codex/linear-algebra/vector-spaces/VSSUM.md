@@ -12,15 +12,14 @@ $$ X + Y = \{x + y : x \in X, y \in Y\}. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 Let $V$ be a vector space. For any subspaces $X$, $Y \subseteq V$:
 
 {:.par-upper-roman}
-1. $X + Y$ is a subspace.
-2. $X + Y = \langle X \cup Y \rangle$.
+1. <p style="text-align: center">$X + Y$ is a subspace.</p>
+
+2. $$ X + Y = \langle X \cup Y \rangle. $$
 
 {% endentry %}
 

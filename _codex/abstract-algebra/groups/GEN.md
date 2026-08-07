@@ -14,8 +14,6 @@ If $H$ is a subgroup and $\langle S \rangle = H$, we say $S$ **generates** $H$. 
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 For any group $G$ with neutral element $e$:

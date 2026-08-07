@@ -10,14 +10,13 @@ Let $(X, \lhd)$ and $(Y, \lhd')$ be two ordered sets and $f : X \to Y$ be a func
 
 $$ a \lhd b \enspace\rimp\enspace f(a) \lhd' f(b). $$
 
-{:.no-indent}
-- If $\lhd$ and $\lhd'$ are total, $f$ is also called **increasing**.
+If $\lhd$ and $\lhd'$ are total, $f$ is also called **increasing**.
 
-- If $\lhd$ and $\lhd'$ are total and strict, $f$ is also called **strictly increasing**.
+If $\lhd$ and $\lhd'$ are total and strict, $f$ is also called **strictly increasing**.
 
 {% endentry %}
 
-***Note.*** *Order homomorphism* is also known as *order-preserving function*.
+***Note.*** An *order homomorphism* is also known as an *order-preserving function*.
 
 {% entry DEF-2 %}
 
@@ -25,24 +24,19 @@ Let $(X, \lhd)$ and $(Y, \lhd')$ be two ordered sets and $f : X\to Y$ be a funct
 
 $$ a \lhd b \enspace\rimp\enspace f(b) \lhd' f(a). $$
 
-{:.no-indent}
-- If $\lhd$ and $\lhd'$ are total, $f$ is also called **decreasing**.
+If $\lhd$ and $\lhd'$ are total, $f$ is also called **decreasing**.
 
-- If $\lhd$ and $\lhd'$ are total and strict, $f$ is also called **strictly decreasing**.
+If $\lhd$ and $\lhd'$ are total and strict, $f$ is also called **strictly decreasing**.
 
 {% endentry %}
 
-***Note.*** *Order antihomomorphism* is also known as *order-reversing function*.
+***Note.*** An *order antihomomorphism* is also known as an *order-reversing function*.
 
 {% entry DEF-3 %}
 
-A function is **monotonic** if it is increasing or decreasing.
-
-A function is **strictly monotonic** if it is strictly increasing or strictly decreasing.
+A function is **monotonic** if it is increasing or decreasing; **strictly monotonic** if it is strictly increasing or strictly decreasing.
 
 {% endentry %}
-
----
 
 {% entry PROP-1 %}
 

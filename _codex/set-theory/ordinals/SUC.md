@@ -14,8 +14,6 @@ An ordinal $\alpha$ is a **successor ordinal** if $\alpha = \beta+1$ for some or
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 For any ordinal $\alpha$,

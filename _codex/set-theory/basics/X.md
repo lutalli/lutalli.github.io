@@ -14,22 +14,19 @@ This is a set by [Separation Schema](/codex/ZF#AX-4):
 
 $$ X \times Y \subseteq \powerset(\powerset(X \cup Y)). $$
 
-{:.no-indent}
-- For any sets $A$, $B$, $C$, $D$, etc., we write
+For any sets $A$, $B$, $C$, $D$, etc., we write
 
-  $$ \begin{align*}
-      A \times B \times C          &= (A \times B) \times C,          \\
-      A \times B \times C \times D &= (A \times B \times C) \times D, \\
-                                   &\text{etc.}
-  \end{align*} $$
+$$ \begin{align*}
+    A \times B \times C          &= (A \times B) \times C,          \\
+    A \times B \times C \times D &= (A \times B \times C) \times D, \\
+                                 &\text{etc.}
+\end{align*} $$
 
-- For any set $X$ and any $n \in \N^+$, we write
+For any set $X$ and any $n \in \N^+$, we write
 
-  $$ X^n = \underbrace{X \times \cdots \times X}_{\text{$n$ times}}. $$
+$$ X^n = \underbrace{X \times \cdots \times X}_{\text{$n$ times}}. $$
 
 {% endentry %}
-
----
 
 {% entry PROP-2 %}
 

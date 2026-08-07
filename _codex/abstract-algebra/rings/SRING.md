@@ -10,15 +10,14 @@ Let $(R, +, \cdot)$ be a ring. $(S, +, \cdot)$ is a **subring** of $R$ if it is 
 
 {% endentry %}
 
----
+{% entry PROP-1:Subring Test %}
 
-{% entry PROP-1 %}
-
-Let $R$ be a ring. $S$ is a subring as soon as:
+Let $R$ be a ring. $S$ is a subring if:
 
 {:.par-upper-roman}
+1. (*Multiplicative unitality*)
 
-1. $$ 1 \in S. $$
+   $$ 1 \in S. $$
 
 2. (*Closure under subtraction*) For all $a$, $b \in S$,
 

@@ -20,19 +20,11 @@ Not disjoint sets are called **joint**.
 
 ***Note.*** *Joint* is also known as *overlapping*.
 
----
-
 {% entry PROP-1 %}
 
-$\empt$ is the only set disjoint to itself.
+$\empt$ is the only self-disjoint set.
 
 {% endentry %}
-
-***Proof.*** $\empt$ is disjoint to itself: $\empt \cap \empt = \empt$. If a set $X$ is disjoint to itself,
-
-$$ X = X \cap X = \empt. $$
-
-&#8203;<qed />
 
 {% entry PROP-2 %}
 
@@ -40,7 +32,7 @@ $\empt$ is the only set disjoint to every other set.
 
 {% endentry %}
 
-***Proof.*** $\empt$ is disjoint to every set by {% entry_ref ITSC#PROP-1:(II) %}. If a set $X$ is non-empty,
+***Proof.*** $\empt$ is disjoint to every set by {% entry_ref ITSC#PROP-2 %}. If a set $X$ is non-empty,
 
 $$ Y = X \cup \{X\} $$
 

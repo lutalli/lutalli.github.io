@@ -12,4 +12,4 @@ $$ \id_X = \{(x, x) : x \in X\}. $$
 
 {% endentry %}
 
-***Note.*** For any set $X$, $\id_X$ is also a function and is known as the *identity function*.
+***Note.*** For any set $X$, $\id_X$ is also a function (the *identity function*).

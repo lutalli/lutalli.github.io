@@ -14,8 +14,6 @@ is well-defined and $(G / N, \*)$ is a group, called the **quotient group** of $
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 If $G$ is a group and $N$ is a normal subgroup,

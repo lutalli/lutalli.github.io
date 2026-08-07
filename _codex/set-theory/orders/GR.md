@@ -8,7 +8,6 @@ updated: 2026-06-10
 
 Let $X$ be a preordered set and $a \in X$.
 
-{:.no-indent}
 - $a$ is a **greatest element** of $X$ if
 
   $$ \forall x \in X : x \leq a. $$
@@ -19,11 +18,8 @@ Let $X$ be a preordered set and $a \in X$.
 
 {% endentry %}
 
----
+{% entry PROP-1 ! %}
 
-{% entry PROP-1 %}
-
-{:.no-indent}
 - Any greatest element is maximal.
 - Any least element is minimal.
 

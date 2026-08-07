@@ -6,16 +6,13 @@ updated: 2026-06-09
 
 {% entry DEF-1 %}
 
-Let $R$ be a binary relation.
+Let $R$ be a binary relation. The **(left-)restriction** of $R$ to a set $A$ is
 
-{:.no-indent}
-- The **(left-)restriction** of $R$ to a set $A$ is
+$$ {R \restriction_A} = \{(x, y) : x \,R\, y \,\land\, x \in A\}. $$
 
-  $$ {R \restriction_A} = \{(x, y) : x \,R\, y \,\land\, x \in A\}. $$
+The **right-restriction** of $R$ to a set $B$ is
 
-- The **right-restriction** of $R$ to a set $B$ is
-
-  $$ {R \restriction^B} = \{(x, y) : x \,R\, y \,\land\, y \in B\}. $$
+$$ {R \restriction^B} = \{(x, y) : x \,R\, y \,\land\, y \in B\}. $$
 
 These are sets by [Separation Schema](/codex/ZF#AX-4):
 

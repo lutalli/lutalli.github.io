@@ -22,8 +22,6 @@ $$ m = kn. $$
 - $m$ is a **multiple** of $n$;
 - $m$ is **divisible** by $n$.
 
----
-
 {% entry PROP-1 %}
 
 {:.par-upper-roman}

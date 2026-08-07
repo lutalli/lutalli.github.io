@@ -10,7 +10,6 @@ updated: 2026-07-09
 
 Let $X$ be a partially ordered set.
 
-{:.no-indent}
 - If $X$ has a greatest element, then it is unique and is called the **maximum** of $X$, denoted by
 
   $$ \max X. $$
@@ -21,4 +20,4 @@ Let $X$ be a partially ordered set.
 
 {% endentry %}
 
-***Proof of uniqueness.*** If both $a$ and $a'$ are greatest elements of $X$, $a' \leq a$ and $a \leq a'$, so $a=a'$ by [antisymmetry](/codex/PO#DEF-1). Similarly for the minimum.<qed />
+***Proof*** (uniqueness)***.*** If both $a$ and $a'$ are greatest elements of $X$, $a' \leq a$ and $a \leq a'$, so $a=a'$ by [antisymmetry](/codex/PO#DEF-1). Similarly for the minimum.<qed />

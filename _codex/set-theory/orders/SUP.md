@@ -8,7 +8,6 @@ updated: 2026-06-10
 
 Let $X$ be a partially ordered set and $A \subseteq X$.
 
-{:.no-indent}
 - If the least upper bound of $A$ exists, it is called the **supremum** of $A$ and denoted by
 
   $$ \sup A. $$
@@ -18,8 +17,6 @@ Let $X$ be a partially ordered set and $A \subseteq X$.
   $$ \inf A. $$
 
 {% endentry %}
-
----
 
 {% entry PROP-1 %}
 
@@ -32,13 +29,15 @@ If $\sup A$ exists, the following statements are equivalent:
 
 2. $$ \sup A = \max A. $$
 
-3. <p class="centered">$\max A$ exists.</p>
+3. <p style="text-align: center">$\max A$ exists.</p>
 
 If $\inf A$ exists, the following statements are equivalent:
 
 {:.par-upper-roman start="4"}
 1. $$ \inf A \in A. $$
+
 2. $$ \inf A = \min A. $$
-3. <p class="centered">$\min A$ exists.</p>
+
+3. <p style="text-align: center">$\min A$ exists.</p>
 
 {% endentry %}

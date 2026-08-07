@@ -27,15 +27,14 @@ The statements in the *Condition* column are meant to hold either for all $x \in
 
 ***Notes.***
 
-- *Irreflexive* is also known as *strict*.
-- *Left-unique* is also known as *one-to-many* and *injective*.
-- *Right-unique* is also known as *many-to-one* and *functional*. In fact, a right-unique relation is just a function.
+1. *Irreflexive* is also known as *strict*.
+2. *Left-unique* is also known as *one-to-many* and *injective*.
+3. *Right-unique* is also known as *many-to-one* and *functional*. In fact, a right-unique relation is just a function.
 
 {% entry DEF-2 %}
 
 Let $\sim$ be a binary relation on two sets $X$ and $Y$.
 
-{:.no-indent}
 - $\sim$ is **left-total** if $\dom{\sim} = X$, i.e.
 
   $$ \forall x \in X \, \exists y \in Y : x \sim y. $$

@@ -9,15 +9,15 @@ updated: 2026-06-08
 A binary relation $\sim$ on a set $X$ is an **equivalence relation** if:
 
 {:.par-upper-roman}
-1. *Reflexivitiy.* For all $x\in X$,
+1. (*Reflexivitiy*) For all $x\in X$,
 
    $$ x \sim x. $$
 
-2. *Symmetry.* For all $x$, $y\in X$,
+2. (*Symmetry*) For all $x$, $y\in X$,
 
    $$ x \sim y \enspace\rimp\enspace y \sim x. $$
 
-3. *Transitivity.* For all $x$, $y$, $z\in X$,
+3. (*Transitivity*) For all $x$, $y$, $z\in X$,
 
    $$ x \sim y \,\land\, y \sim z \enspace\rimp\enspace x \sim z. $$
 
@@ -40,8 +40,6 @@ Let $\sim$ be an equivalence relation on a set $X$. The **quotient set** of $X$ 
 $$ X / {\sim} \enspace=\enspace \{[x] : x \in X\}. $$
 
 {% endentry %}
-
----
 
 {% entry PROP-1 %}
 

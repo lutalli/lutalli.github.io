@@ -8,7 +8,6 @@ updated: 2026-06-11
 
 Let $R$ be a ring and $a \in R$.
 
-{:.no-indent}
 - $a$ is a **left zero divisor** if there exists $x \in R \setdif \\{0\\}$ such that
 
   $$ ax = 0. $$

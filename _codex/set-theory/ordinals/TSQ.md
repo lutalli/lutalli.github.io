@@ -6,12 +6,9 @@ updated: 2026-07-09
 
 {% entry DEF-1 %}
 
-A **transfinite sequence** is a function whose domain is an ordinal.
+A **transfinite sequence** is a function whose domain is an ordinal. If $s : \alpha \to X$ is transfinite sequence for some ordinal $\alpha$:
 
-If $s : \alpha \to X$ is transfinite sequence for some ordinal $\alpha$:
-
-{:.no-indent}
-- $s$ an $\alpha$-sequence.
+- $s$ is an **$\alpha$-sequence**.
 
 - $\alpha$ is the **length** of $s$.
 
@@ -27,9 +24,7 @@ If $s : \alpha \to X$ is transfinite sequence for some ordinal $\alpha$:
 
 {% entry DEF-2 %}
 
-A **countably infinite sequence** is an $\omega$-sequence.
-
-A countably infinite sequence $s$ is also denoted by
+A **countably infinite sequence** is an $\omega$-sequence. A countably infinite sequence $s$ is also denoted by
 
 $$ \langle s_n : n \in \N \rangle \quad\text{or}\quad \langle s_n \rangle_{n \in \N}. $$
 

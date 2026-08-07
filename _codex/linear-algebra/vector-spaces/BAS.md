@@ -6,13 +6,9 @@ updated: 2026-06-20
 
 {% entry DEF-1 %}
 
-Let $V$ be a vector space. $B \subseteq V$ is a **basis** of $V$ if $B$ spans $V$ and is linearly independent.
-
-The **length** of a basis is its cardinality.
+Let $V$ be a vector space. $B \subseteq V$ is a **basis** of $V$ if $B$ spans $V$ and is linearly independent. The **length** of a basis is its cardinality.
 
 {% endentry %}
-
----
 
 The following three statements are equivalent to $\AC$:
 
@@ -33,8 +29,6 @@ Let $V$ be a vector space. For any spanning subset $S \subseteq V$, there is a b
 Every vector space has a basis.
 
 {% endentry %}
-
----
 
 {% entry PROP-4:Steinitz Exchange Lemma %}
 

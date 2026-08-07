@@ -73,8 +73,6 @@ $$ \Z^- = \{z \in \Z : z < 0\}. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 $(\Z, +, \cdot, 0, 1, \leq)$ is a well-ordered abelian ring.

@@ -14,9 +14,9 @@ $$ \kappa + \lambda = \lvert (\kappa \times \{0\}) \cup (\lambda \times \{1\}) \
 
 {% entry PROP-1 %}
 
-For any disjoint sets $X$ and $Y$,
+For any two disjoint sets $X$ and $Y$,
 
-$$ \lvert X \rvert + \lvert Y \rvert = \lvert X \cup Y \rvert. $$
+$$ \lvert X \rvert + \lvert Y \rvert = \lvert X \sqcup Y \rvert. $$
 
 {% endentry %}
 
@@ -32,7 +32,7 @@ $$ \kappa \cdot \lambda = \lvert \kappa \times \lambda \rvert. $$
 
 {% entry PROP-2 %}
 
-For any sets $X$ and $Y$,
+For any two sets $X$ and $Y$,
 
 $$ \lvert X \rvert \cdot \lvert Y \rvert = \lvert X \times Y \rvert. $$
 
@@ -50,7 +50,7 @@ $$ \kappa^\lambda = \lvert \fun(\lambda, \kappa) \rvert. $$
 
 {% entry PROP-3 %}
 
-For any sets $X$ and $Y$,
+For any two sets $X$ and $Y$,
 
 $$ \lvert X \rvert^{\lvert Y \rvert} = \lvert \fun(Y, X) \rvert. $$
 

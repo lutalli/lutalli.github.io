@@ -18,15 +18,15 @@ If $V = X \oplus Y$, $X$ and $Y$ are called **complementary subspaces** to each 
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 Let $V$ be a vector space and $X$, $Y \subseteq V$ be subspaces such that $V = X + Y$. The following statements are equivalent:
 
 {:.par-upper-roman}
-1. $V = X \oplus Y$.
+1. $$ V = X \oplus Y. $$
+
 2. For each $v \in V$ there are unique $x \in X$ and $y \in Y$ such that $v = x + y$.
+
 3. For any $x \in X$ and $y \in Y$, if $x \neq 0$ and $y \neq 0$, then $x$ and $y$ are linear independent.
 
 {% endentry %}
@@ -36,8 +36,10 @@ Let $V$ be a vector space and $X$, $Y \subseteq V$ be subspaces such that $V = X
 Let $V$ be a vector space and $X$, $Y \subseteq V$ be finite-dimensional subspaces. The following statements are equivalent:
 
 {:.par-upper-roman}
-1. $V = X \oplus Y$.
-2. $X$ has a basis $\mathcal{A}$ and $Y$ has a basis $\mathcal{B}$ such that $\mathcal{A} \cup \mathcal{B}$ is a basis of $V$.
-3. $V = X + Y$ and $\dim V = \dim X + \dim Y$.
+1. $$ V = X \oplus Y. $$
+
+2. $$ V = X + Y \enspace\land\enspace \dim V = \dim X + \dim Y. $$
+
+3. $X$ has a basis $\mathcal{A}$ and $Y$ has a basis $\mathcal{B}$ such that $\mathcal{A} \cup \mathcal{B}$ is a basis of $V$.
 
 {% endentry %}

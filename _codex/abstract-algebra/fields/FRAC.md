@@ -8,15 +8,13 @@ updated: 2026-06-11
 
 Let $R$ be an integral domain and $R^\* = R \setdif \\{0\\}$. Define the equivalence relation on $R \times R^\*$:
 
-$$ (a, b) \sim (x, y) \enspace\lrimp\enspace ax = by $$
+$$ (a, b) \sim (x, y) \enspace\lrimp\enspace ax = by, $$
 
-for all $(a, b)$, $(x, y) \in R \times R^*$; and write
+and write
 
 $$ \frac{a}{b} = [(a, b)] $$
 
-for all $(a, b) \in R \times R^*$.
-
-The **fraction field** of $R$ is the field
+for all $(a, b) \in R \times R^*$. The **fraction field** of $R$ is the field
 
 $$ \fract R = (R \times R^*) / {\sim} $$
 

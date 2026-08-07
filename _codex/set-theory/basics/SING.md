@@ -12,8 +12,6 @@ $$ \{a\} = \{a, a\}. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 For any set $X$,

@@ -8,20 +8,17 @@ updated: 2026-06-11
 
 A **monoid** is a unital semigroup, i.e. a magma $M$ such that:
 
-{:.par-upper-roman}
-1. *Associativity*. For all $a$, $b$, $c\in M$,
+1. (*Associativity*) For all $a$, $b$, $c\in M$,
 
    $$ (ab)c = a(bc). $$
 
-2. *Neutral element.* There is one $e \in M$ such that for all $a \in M$,
+2. (*Unitality*) There is one $e \in M$ such that for all $a \in M$,
 
    $$ ae = ea = a. $$
 
    ($e$ is automatically unique by {% entry_ref NEU#PROP-1 %}.)
 
 {% endentry %}
-
----
 
 {% entry PROP-1 %}
 

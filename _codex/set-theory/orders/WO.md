@@ -16,15 +16,11 @@ A **strict well-order** on $W$ is a strict total order such that every non-empty
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 $\leq$ is a well-order if and only if $<$ is a strict well-order.
 
 {% endentry %}
-
----
 
 {% entry PROP-2 %}
 
@@ -40,11 +36,11 @@ a contradiction.<qed />
 
 {% entry PROP-3 %}
 
-The only automorphism on a well-ordered set is the identity $\id_W$.
+The only automorphism on a well-ordered set $W$ is the identity $\id_W$.
 
 {% endentry %}
 
-***Proof.*** Let $f$ be an automorphism on a well-ordered set $W$. By {% entry_ref OH#PROP-1 %}, both $f$ and $f^{-1}$ are strictly increasing. By [Proposition 2](#PROP-2), $x \leq f(x)$ and $x \leq f^{-1}(x)$ for every $x \in W$, which follows that $x \leq f(x)$ and $f(x) \leq x$ for every $x \in W$.<qed />
+***Proof.*** Let $f$ be an automorphism $W$. By {% entry_ref OH#PROP-1 %}, both $f$ and $f^{-1}$ are strictly increasing. By [Proposition 2](#PROP-2), $x \leq f(x)$ and $x \leq f^{-1}(x)$ for every $x \in W$, which follows that $x \leq f(x)$ and $f(x) \leq x$ for every $x \in W$.<qed />
 
 {% entry PROP-4 %}
 
@@ -53,8 +49,6 @@ If two well-ordered sets $W$ and $W'$ are isomorphic, then the isomorphism is un
 {% endentry %}
 
 ***Proof.*** If $f$ and $g$ are isomorphisms from $W$ onto $W'$, $f\circ g^{-1}$ is an automorphism on $W$. By [Proposition 3](#PROP-3), $f\circ g^{-1} = \id_W$.<qed />
-
----
 
 {% entry DEF-3 %}
 
@@ -76,7 +70,7 @@ No well-ordered set is isomorphic to an initial segment of itself.
 
 $$ f : W \to \init_u W, $$
 
-then $f(u) < u$. By [Proposition 1](#PROP-2), $f$ can not be an isomorphism.<qed />
+then $f(u) < u$. By [Proposition 2](#PROP-2), $f$ can not be an isomorphism.<qed />
 
 {% entry PROP-6 %}
 
@@ -88,8 +82,6 @@ For any two well-ordered sets $W$ and $W'$, exactly one of the following cases h
 3. $W'$ is isomorphic to an initial segment of $W$.
 
 {% endentry %}
-
----
 
 The following theorem is equivalent to $\AC$:
 

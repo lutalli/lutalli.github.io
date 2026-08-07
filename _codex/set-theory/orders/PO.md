@@ -42,8 +42,6 @@ A binary relation $<$ on $X$ is a **strict partial order** if:
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 A binary relation is a strict partial order as soon as it is irreflexive and transitive.

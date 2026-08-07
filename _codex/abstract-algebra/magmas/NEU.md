@@ -8,7 +8,6 @@ updated: 2026-06-11
 
 Let $M$ be a magma and $e \in M$.
 
-{:.no-indent}
 - $e$ is **left-neutral** if for all $a\in M$,
 
   $$ ea = a. $$
@@ -22,8 +21,6 @@ Let $M$ be a magma and $e \in M$.
 - $M$ is **(left-/right-)unital** if it has a (left-/right-)neutral element.
 
 {% endentry %}
-
----
 
 {% entry PROP-1:Uniqueness %}
 

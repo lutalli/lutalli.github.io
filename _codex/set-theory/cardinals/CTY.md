@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% entry DEF-1 %}
 
-If we assume $\AC$, every set $X$ can be well-ordered ([Well-Ordering Theorem](/codex/WO#PROP-7)), then there is at least one ordinal equinumerous to $X$. We define the **cardinality** of $X$ as the least such ordinal:
+If we assume $\AC$, every set $X$ can be well-ordered (by [Well-Ordering Theorem](/codex/WO#PROP-7)). Then there is at least one ordinal equinumerous to $X$. We define the **cardinality** of $X$ as the least such ordinal:
 
 $$ \lvert X \rvert = \min \{\alpha \in \Ord : X \equ \alpha\}. $$
 
@@ -17,8 +17,6 @@ $$ \lvert X \rvert = \min \{\alpha \in \Ord : X \equ \alpha\}. $$
 There is another way to define the cardinality without relying on $\AC$. See [Scott's Trick (Wikipedia)](https://en.wikipedia.org/wiki/Scott%27s_trick).
 
 {% endentry %}
-
----
 
 {% entry PROP-1 %}
 

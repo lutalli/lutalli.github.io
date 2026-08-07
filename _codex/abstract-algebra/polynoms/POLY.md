@@ -12,29 +12,24 @@ $$ R[X] = \{p \in R[[X]] : (\exists d \in \N \, \forall n > d : p_n = 0)\}. $$
 
 Each element of $R[X]$ is called a **polynomial** over $R$.
 
-{:.no-indent}
-- $0 \in R[X]$ is the **zero polynomial**.
-
-- The **degree** of a polynomial $p \in R[X]$ is
-
-  $$ \deg p = \begin{cases}
-      -\infty,                       & \text{if $p = 0$}; \\
-      \max\{d \in \N : p_d \neq 0\}, & \text{otherwise}.
-  \end{cases} $$
-
-- The **constant term** of a polynomial $p\in R[X]$ is
-
-  $$ p_0. $$
-
-- The **leading coefficient** of a non-zero polynomial $p \in R[X]$ is
-
-  $$ p_{\deg p}. $$
-
-  A non-zero polynomial is **monic** if its leading coefficient is $1$.
+$0 \in R[X]$ is the **zero polynomial**.
 
 {% endentry %}
 
----
+{% entry DEF-2 %}
+
+Let $R$ be a ring and $p \in R[X]$ be a polynomial. The **degree** of $p$ is
+
+$$ \deg p = \begin{cases}
+  -\infty,                       & \text{if $p = 0$}; \\
+  \max\{d \in \N : p_d \neq 0\}, & \text{otherwise}.
+\end{cases} $$
+
+$p_0$ is called the **constant term** of $p$.
+
+If $p \neq 0$, $p_{\deg p}$ is called the **leading coefficient** of $p$. $p$ is **monic** if its leading coefficient is $1$.
+
+{% endentry %}
 
 {% entry PROP-1 %}
 

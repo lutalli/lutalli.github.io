@@ -50,8 +50,6 @@ A **strict total order** is a connected strict partial order, i.e. a binary rela
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 $\leq$ is a total order if and only if $<$ is a strict total order.

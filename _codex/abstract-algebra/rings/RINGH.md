@@ -17,13 +17,19 @@ A **ring homomorphism** between two rings $R$ and $S$ is a function $f : R \to S
 
    $$ f(ab) = f(a)f(b). $$
 
-3. $$ f(1) = 1. $$
-
 In other words, $f$ is both a group homomorphism from $(R, +)$ to $(S, +)$ and a monoid homomorphism from $(R, \cdot)$ to $(S, \cdot)$.
 
 {% endentry %}
 
 {% entry DEF-2 %}
+
+A ring homomorphism $f : R \to S$ is **neutral-preserving** if
+
+$$ f(1_R) = 1_S. $$
+
+{% endentry %}
+
+{% entry DEF-3 %}
 
 The **kernel** of a ring homomorphism $f : R \to S$ is
 
@@ -31,11 +37,9 @@ $$ \ker f = f^{-1}[\{0\}]. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
-Let $f : R \to S$ is a ring homomorphism.
+For any ring homomorphism $f : R \to S$:
 
 {:.par-upper-roman}
 1. $$ f(0) = 0. $$

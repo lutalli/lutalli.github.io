@@ -10,7 +10,6 @@ updated: 2026-07-09
 
 Let $X$ be a preordered set and $a \in X$.
 
-{:.no-indent}
 - $a$ is a **maximal element** of $X$ if
 
   $$ \forall x \in X :\enspace a \leq x \enspace\rimp\enspace x \leq a. $$
@@ -21,13 +20,10 @@ Let $X$ be a preordered set and $a \in X$.
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 Let $X$ be a partially ordered set and $a \in X$.
 
-{:.no-indent}
 - $a$ is a maximal element of $X$ if and only if there is no other element $x\in X$ such that $a\leq x$, i.e.
 
   $$ \forall x\in X :\enspace a\leq x \enspace\rimp\enspace x=a. $$

@@ -382,7 +382,7 @@ $R[X]$
 : the [polynomial ring](/codex/POLY) over ring $R$
 
 $\deg p$
-: the [degree](/codex/POLY#DEF-1) of polynomial $p$
+: the [degree](/codex/POLY#DEF-2) of polynomial $p$
 
 $[\varphi]$
 : [Iversion Brackets](/codex/IVERB)
@@ -414,13 +414,13 @@ $AB$
 : the [product](/codex/M#DEF-3) of matrices $A$ and $B$
 
 $\ker f$
-: the [kernel](/codex/LF#DEF-2) of linear mapping $f$
+: the [kernel](/codex/LF#DEF-2) of linear function $f$
 
 $\rank f$
-: the [rank](/codex/LRK) of linear mapping $f$
+: the [rank](/codex/LRK) of linear function $f$
 
 $\null f$
-: the [nullity](/codex/RKNUL) of linear mapping $f$
+: the [nullity](/codex/RKNUL) of linear function $f$
 
 ## Topology
 

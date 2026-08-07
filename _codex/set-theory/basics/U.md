@@ -1,7 +1,7 @@
 ---
 title:   Union
 date:    2026-02-16
-updated: 2026-06-23
+updated: 2026-08-06
 ---
 
 {% entry DEF-1 %}
@@ -23,16 +23,17 @@ $$ \begin{align*}
 
 {% endentry %}
 
----
+{% entry PROP-1 ! %}
+
+$$ \bigcup \empt = \empt. $$
+
+{% endentry %}
 
 {% entry PROP-2 %}
 
-{:.par-upper-roman}
-1. $$ \bigcup \empt = \empt. $$
+For any set $X$,
 
-2. For any set $X$,
-
-   $$ X \cup \empt = X. $$
+$$ X \cup \empt = X. $$
 
 {% endentry %}
 
@@ -60,7 +61,7 @@ $$ (X \cup Y) \cup Z = X \cup (Y \cup Z). $$
 
 {% endentry %}
 
-As a corollary of [Proposition 2 (II)](#PROP-2), [commutativity](#PROP-4) and [associativity](#PROP-5) of $\cup$:
+To summarize [Proposition 2](#PROP-2), [commutativity](#PROP-3) and [associativity](#PROP-4) of $\cup$:
 
 {% entry PROP-6 %}
 

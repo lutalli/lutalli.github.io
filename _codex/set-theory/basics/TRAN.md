@@ -10,14 +10,12 @@ A set $T$ is **transitive** if every element of $T$ is a subset of $T$.
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 The following statements are equivalent:
 
 {:.par-upper-roman}
-1. <p class="centered">$T$ is transitive.</p>
+1. <p style="text-align: center">$T$ is transitive.</p>
 
 2. $$ \bigcup T \subseteq T. $$
 

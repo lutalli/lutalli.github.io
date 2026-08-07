@@ -1,7 +1,7 @@
 ---
 title:   Morphisms
 date:    2026-03-14
-updated: 2026-06-10
+updated: 2026-08-06
 ---
 
 {% entry DEF-1 %}
@@ -10,7 +10,6 @@ Broadly speaking, a **homomorphism** is a structure-preserving function between 
 
 Once a homomorphism is defined, the following concepts are automatically understood:
 
-{:.no-indent}
 - A **monomorphism** is an injective homomorphism.
 
 - An **epimorphism** is a surjective homomorphism.
@@ -21,18 +20,24 @@ Once a homomorphism is defined, the following concepts are automatically underst
 
 - An **automorphism** is a bijective endomorphism.
 
-- The sets of all homomorphisms, monomorphisms, epimorphisms and isomorphisms between two sets $X$ and $Y$ are respectively denoted by
+The sets of all homomorphisms, monomorphisms, epimorphisms and isomorphisms between two sets $X$ and $Y$ are respectively denoted by
 
-  $$ \hom(X, Y), \quad \mon(X, Y), \quad \epi(X, Y), \quad \iso(X, Y). $$
+$$ \hom(X, Y), \quad \mon(X, Y), \quad \epi(X, Y), \quad \iso(X, Y). $$
 
-  The sets of all endomorphisms and automorphisms on a set $X$ are respectively denoted by
+The sets of all endomorphisms and automorphisms on a set $X$ are respectively denoted by
 
-  $$ \endo X, \quad \aut X. $$
+$$ \endo X, \quad \aut X. $$
 
-- Two structured sets $A$ and $B$ are **isomorphic**, written
+{% endentry %}
 
-  $$ A \simeq B, $$
+{% entry DEF-2 %}
 
-  if an isomorphism between them exists.
+Two structured sets $A$ and $B$ are **isomorphic**, written
+
+$$ A \simeq B, $$
+
+if an isomorphism $f$ between them exists. We can then also explicitly write
+
+$$ A \underset{f}{\simeq} B. $$
 
 {% endentry %}

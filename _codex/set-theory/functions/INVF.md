@@ -6,11 +6,9 @@ updated: 2026-06-10
 
 {% entry DEF-1 %}
 
-For any injection $f$, its converse $f^{-1}$ is also a function, called its **inverse**.
+Given any injection $f$, its converse relation $f^{-1}$ is also a function, called its **inverse**.
 
 {% endentry %}
-
----
 
 {% entry PROP-1 %}
 

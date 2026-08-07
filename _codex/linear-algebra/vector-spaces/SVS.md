@@ -10,11 +10,9 @@ Let $(V, F, \cdot)$ be a vector space. $(W, F, \cdot)$ is a **vector subspace** 
 
 {% endentry %}
 
----
+{% entry PROP-1:Vector Space Test %}
 
-{% entry PROP-1 %}
-
-Let $V$ be a vector space over $F$ and $W \subseteq V$. $W$ is a subspace as soon as:
+Let $V$ be a vector space over $F$ and $W \subseteq V$. $W$ is a subspace if:
 
 {:.par-upper-roman}
 1. $$ 0 \in W. $$
@@ -29,11 +27,9 @@ Let $V$ be a vector space over $F$ and $W \subseteq V$. $W$ is a subspace as soo
 
 {% endentry %}
 
----
-
 {% entry PROP-2 %}
 
-Let $V$ be a vector space and $\mathcal{W}$ be a collection of subspaces. Then $\bigcap \mathcal{W}$ is also a subspace.
+Let $V$ be a vector space. For any set of subspaces $\mathcal{W}$, $\bigcap \mathcal{W}$ is also a subspace.
 
 {% endentry %}
 

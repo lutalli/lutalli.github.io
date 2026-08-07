@@ -16,8 +16,6 @@ $$ R^{-1} \subseteq \im R \times \dom R. $$
 
 {% endentry %}
 
----
-
 {% entry PROP-1:Involutivity %}
 
 For any binary relation $R$,
@@ -25,8 +23,6 @@ For any binary relation $R$,
 $$ (R^{-1})^{-1} = R. $$
 
 {% endentry %}
-
----
 
 {% entry PROP-2 %}
 
@@ -46,11 +42,11 @@ In particular:
 
 {% entry PROP-3 %}
 
-Let $A$ and $B$ be finite sets. For any surjection $f : A \to B$, if for every $b\in B$,
+Let $A$ and $B$ be finite sets. For any surjection $f : A \to B$, if
 
-$$ \big\lvert f^{-1}[\{ b \}] \big\rvert = k, $$
+$$ \big\lvert f^{-1}[\{ b \}] \big\rvert = k $$
 
-then
+for every $b\in B$, then
 
 $$ \lvert A \rvert = k \lvert B \rvert. $$
 

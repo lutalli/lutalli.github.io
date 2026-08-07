@@ -20,8 +20,6 @@ is the number of inversions in $\sigma$. $\sigma$ is called an **even permutatio
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 For any $\sigma \in \SS_n$ ($n \geq 2$),

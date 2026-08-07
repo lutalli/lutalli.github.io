@@ -19,6 +19,6 @@ A binary relation $\leq$ on a set $X$ is a **preorder** if:
 
 {% endentry %}
 
-If the symbol $\leq$ denotes a preorder, then $<$ refers to the relation defined by
+If the symbol $\leq$ denotes a preorder, then by default $<$ refers to the relation defined by
 
 $$ x < y \enspace\lrimp\enspace x \leq y \,\land\, x \neq y. $$

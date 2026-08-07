@@ -21,8 +21,6 @@ $(V, \lVert {}\cdot{} \rVert)$ is then called a **seminormed space**.
 
 {% endentry %}
 
----
-
 {% entry PROP-1 %}
 
 If $(V, \lVert {}\cdot{} \rVert)$ is a seminormed space, then
