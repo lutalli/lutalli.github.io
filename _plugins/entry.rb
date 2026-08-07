@@ -55,7 +55,7 @@ module Jekyll
       @heading   = ''
       if @args.length > 1
         desc = @args[1]
-        @heading = "#{label_disp}. #{desc}."
+        @heading = "#{label_disp} (#{desc})."
       else
         @heading = "#{label_disp}."
       end
