@@ -25,23 +25,14 @@
                     <div style="display: flex">
                         <div id="header-left">
                             <p><a href="/codex">Codex</a>
-                                {% if page.topic %}
-                                    &gt;
-                                    <a href="/codex/{{ page.branch }}/{{ page.topic }}">
-                                        <!--
-                                            This is kind of a tedious way to get the display names
-                                            of branch and topic. Though this thing is not needed
-                                            elsewhere, so I'm leaving it like this for now.
-                                        -->
-                                        {% for branch in site.data.codex %}
-                                            {% if page.branch == branch.id %}
-                                                {% for topic in branch.topics %}
-                                                    {% if page.topic == topic.id %}
-                                                        {{ topic.name }} ({{ branch.name }})
-                                                    {% endif %}
-                                                {% endfor %}
-                                            {% endif %}
-                                        {% endfor %}
+                                <!-- If this is a Codex page -->
+                                {% if page.topic_id %}
+                                    {% assign db     = site.data['codex'] %}
+                                    {% assign branch = db['branches_by_id'][page.branch_id] %}
+                                    {% assign topic  = branch['topics_by_id'][page.topic_id] %}
+
+                                    &gt; <a href="/codex/{{ page.branch_id }}/{{ page.topic_id }}">
+                                        {{ topic['name'] }} ({{ branch['name'] }})
                                     </a>
                                 {% endif %}
                             </p>

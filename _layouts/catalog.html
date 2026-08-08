@@ -3,45 +3,22 @@ layout: default
 ---
 
 <!--
-    This layout generates a Catalog page for Codex.
+    This layout generates a catalog, which lists out all Codex pages of a certain topic.
 
-    We first obtain all Codex pages of a certain topic by filtering `site.codex`,
-    then render them in order based on the corresponding sorted slug list
-    specified in the database.
+    The instances of this layout are not manually created. Instead, they will be automatically generated.
 -->
 
+{% assign db = site.data['codex'] %}
 
-{% assign posts = site.codex
-    | where: "branch", page.branch
-    | where: "topic", page.topic
-%}
-
-{% for branch in site.data.codex %}
-    {% if branch.id == page.branch %}
-        {% for topic in branch.topics %}
-            {% if topic.id == page.topic %}
-                {% assign sorted_slugs = topic.content %}
-            {% endif %}
-        {% endfor %}
-        {% break %}
-    {% endif %}
-{% endfor %}
+{% assign slugs = db['branches_by_id'][page.branch_id]['topics_by_id'][page.topic_id]['slugs'] %}
 
 <ul class="post-listing">
-    {% for slug in sorted_slugs %}
-        {% assign post_found = false %}
-        {% for post in posts %}
-            {% if post.slug == slug %}
-                {% assign post_found = true %}
-                <li>
-                    <a style="margin-right: auto" href="{{ post.url }}">{{ post.title }}</a>
-                    <span style="font-family: var(--font-m)">{{ slug }}</span>
-                </li>
-                {% break %}
-            {% endif %}
-        {% endfor %}
-        {% unless post_found %}
-            <li>Unknown slug: {{ slug }}</li>
-        {% endunless %}
+    {% for slug in slugs %}
+        {% assign p = db['pages_by_slug'][slug] %}
+
+        <li>
+            <a style="margin-right: auto" href="{{ p.url }}">{{ p.title }}</a>
+            <span style="font-family: var(--font-m)">{{ slug }}</span>
+        </li>
     {% endfor %}
 </ul>

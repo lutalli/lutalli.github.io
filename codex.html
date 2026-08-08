@@ -12,13 +12,13 @@ title: Codex
     <li><a href="/codex/glossary">Notation Glossary</a></li>
 </ul>
 
-{% for branch in site.data.codex %}
-    <h2>{{ branch.name }}</h2>
+{% for branch in site.data['codex']['branches'] %}
+    <h2>{{ branch['name'] }}</h2>
 
     <ul class="post-listing">
-        {% for topic in branch.topics %}
-            <li><a href="/codex/{{ branch.id }}/{{ topic.id }}">
-                {{ topic.name }}
+        {% for topic in branch['topics'] %}
+            <li><a href="/codex/{{ branch['id'] }}/{{ topic['id'] }}">
+                {{ topic['name'] }}
             </a></li>
         {% endfor %}
     </ul>
