@@ -75,8 +75,8 @@ div.content {
         content:          "🞙 ";
     }
 
-    & ul > ul > li::marker,
-    & ol > ul > li::marker {
+    & ul ul > li::marker,
+    & ol ul > li::marker {
         content:          "• ";
     }
 
