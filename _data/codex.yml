@@ -45,7 +45,7 @@ branches:
 
       - id:    magmas
         name:  "Magmas"
-        slugs: [ MAG, SMAG, MAGH, MAGO, NEU, INV, CO ]
+        slugs: [ MAG, SMAG, MAGH, MAGO, NEU, INV, ABSB, CO ]
 
       - id:    semigroups
         name:  "Semigroups"
