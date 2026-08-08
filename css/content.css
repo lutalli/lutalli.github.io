@@ -181,9 +181,7 @@ div.content {
     }
 
     & qed::before {
-        content:          "□";
-
-        font-family:      "Noto Sans Symbols 2" !important;
+        content:          "◼";
 
         float:            right;
     }
