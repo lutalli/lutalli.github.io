@@ -72,12 +72,12 @@ div.content {
     }
 
     & ul > li::marker {
-        content:          "🞙 ";
+        content:          "• ";
     }
 
     & ul ul > li::marker,
     & ol ul > li::marker {
-        content:          "• ";
+        content:          "‣ ";
     }
 
     & ul > ol,
