@@ -48,10 +48,10 @@
                 <div class="headline">
                     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
                     {% if page.date %}
-                        <p><b><i>P</i></b> {{ page.date | date: "%b %d, %Y" }}</p>
+                        <p><b>P</b> {{ page.date | date: "%b %d, %Y" }}</p>
                     {% endif %}
                     {% if page.updated %}
-                        <p>&ensp; <b><i>U</i></b> {{ page.updated | date: "%b %d, %Y" }}</p>
+                        <p>&ensp; <b>U</b> {{ page.updated | date: "%b %d, %Y" }}</p>
                     {% endif %}
                 </div>
             </div>
