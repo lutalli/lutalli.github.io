@@ -2,12 +2,6 @@
 layout: default
 ---
 
-<!--
-    This layout generates a catalog, which lists out all Codex pages of a certain topic.
-
-    The instances of this layout are not manually created. Instead, they will be automatically generated.
--->
-
 {% assign db = site.data['codex'] %}
 
 {% assign slugs = db['branches_by_id'][page.branch_id]['topics_by_id'][page.topic_id]['slugs'] %}
