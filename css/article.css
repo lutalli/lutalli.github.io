@@ -133,7 +133,7 @@ article {
 
     & code {
         font-family:    var(--font-m);
-        font-size:      0.95em;
+        font-size:      0.9em;
     }
 
     & pre {
