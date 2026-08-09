@@ -18,5 +18,3 @@ The color scheme consists of three colors from [Earl Grey](https://earl-grey.hal
 
 - DejaVu Serif
 - DejaVu Sans Mono
-- Noto Sans Symbols
-- Noto Sans Symbols 2

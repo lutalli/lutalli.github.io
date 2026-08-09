@@ -1,16 +1,26 @@
-.headline {
+#headline {
+    margin:             1.5em 0 2em 0;
+
+    border:             0.15em solid;
+    box-shadow:         0.4em 0.4em;
+}
+
+#headline {
     & h1 {
-        margin-bottom: 0;
-        margin-top:    0;
+        margin-bottom:  0;
+        margin-top:     0;
     }
 
     & p {
-        display:       inline-block;
+        display:        inline-block;
 
-        margin-bottom: 0;
-        margin-top:    0.3em;
+        margin-bottom:  0;
+        margin-top:     0.3em;
 
-        font-variant:  small-caps;
-        line-height:   1.4;
+        line-height:    1.4;
     }
+}
+
+#headline-inner {
+    margin:             1em;
 }

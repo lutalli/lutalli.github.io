@@ -1,65 +1,49 @@
 html {
-    scroll-behavior:  smooth;
+    scroll-behavior:    smooth;
+}
+
+body {
+    width:              92%;  /* @ */
+
+    margin:             0 auto;
+
+    font-size:          0.75em;  /* @ */
+    font-family:        var(--font-t);
+    word-spacing:       2px;
+
+    color:              var(--col-t);
+    background-color:   var(--col-b);
+}
+
+a {
+    text-decoration:    none;
+
+    color:              var(--col-t);
+
+    transition:         opacity 0.2s;
+}
+
+a:hover {
+    opacity:            65% !important;
 }
 
 :target {
-    outline:          none;
+    outline:            none;
 
     scroll-margin-top:      10em;
     scroll-snap-margin-top: 10em;  /* Safari 11 or older */
 }
 
-body {
-    margin:           0;
-
-    font-size:        0.75em;  /* @ */
-    font-family:      var(--font-t);
-    word-spacing:     2px;
-
-    color:            var(--col-t);
-    background-color: var(--col-b);
-}
-
-a {
-    text-decoration:  none;
-
-    color:            var(--col-t);
-
-    transition:       opacity 0.2s;
-}
-
-a:hover {
-    opacity:          65% !important;
-}
-
-div.area {
-    width:            100%;  /* @ */
-
-    margin:           15px auto;
-
-    overflow:         auto;
-}
-
-div.area > div {
-    margin:           20px;  /* @ */
-}
-
 ::selection {
-    color:            var(--col-b);
-    background-color: var(--col-t);
+    color:              var(--col-b);
+    background-color:   var(--col-t);
 }
 
 @media only screen and (min-width: 700px) {
     body {
-        font-size: 1.4em;
-    }
+        width:          50em;
+        max-width:      90%;
 
-    div.area {
-        width:     50em;
-        max-width: 90%;
-    }
-
-    div.area > div {
-        margin:    30px 40px;
+        font-size:      1.4em;
     }
 }

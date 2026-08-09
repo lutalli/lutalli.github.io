@@ -1,0 +1,27 @@
+nav {
+    display:        flex;
+
+    margin:         1.5em 0;
+
+    width:          100%;
+}
+
+nav p {
+    margin:         0;
+}
+
+#nav-left {
+    margin-right:   auto;
+
+    font-variant:   small-caps;
+}
+
+#nav-right {
+    font-variant:   small-caps;
+}
+
+#nav-right > a:not(:last-child) {
+    display:        inline-block;
+
+    margin-right:   1em;
+}

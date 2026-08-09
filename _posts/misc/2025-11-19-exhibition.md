@@ -60,7 +60,7 @@ Etiam mollis pellentesque tellus eu aliquam.
     2. Ordered
     3. Nested
 3. List
-4. And 
+4. And
     - Unordered
     - Nested
 5. List
@@ -87,7 +87,7 @@ Cras vel gravida mauris. Vestibulum a nulla $\lim_{n\to\infty}F(2n)$ blandit, lu
 
 $$ \det A = \begin{vmatrix} a & c \\ b & d \end{vmatrix} = ad - bc. $$
 
-### Code
+## Code
 
 Fusce rhoncus tellus sit amet `System.Math.Log10(double)` elementum varius. Vestibulum odio justo, ornare sed nibh vel, `dignissim` egestas diam.
 
@@ -128,18 +128,18 @@ export class Language {
 
 (Code sample from [Programming Fonts](https://www.programmingfonts.org))
 
-### Tables
+## Tables
 
 | Vehicula sed nibh | sit amet |
 | :--- | :--- |
 | cras |  mauris venenatis euismod |
 | erat neque sollicitudin | ipsum |
 
-### Footnotes
+## Footnotes
 
 Suspendisse porta[^1] ultricies risus in blandit[^2].
 
-### Images
+## Images
 
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 

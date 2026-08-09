@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <link href="/css/variables.css" type="text/css" rel="stylesheet" />
-        <link href="/css/header.css"    type="text/css" rel="stylesheet" />
+        <link href="/css/nav.css"       type="text/css" rel="stylesheet" />
         <link href="/css/headline.css"  type="text/css" rel="stylesheet" />
-        <link href="/css/content.css"   type="text/css" rel="stylesheet" />
+        <link href="/css/article.css"   type="text/css" rel="stylesheet" />
         <link href="/css/main.css"      type="text/css" rel="stylesheet" />
 
         <link rel="icon" type="image/x-icon" href="/res/favicon.ico">
@@ -18,50 +19,55 @@
 
         <title>{{ page.title }} • {{ site.title }}</title>
     </head>
-    <body>
-        <div id="space">
-            <header>
-                <div class="area">
-                    <div style="display: flex">
-                        <div id="header-left">
-                            <p><a href="/codex">Codex</a>
-                                <!-- If this is a Codex page -->
-                                {% if page.topic_id %}
-                                    {% assign db     = site.data['codex'] %}
-                                    {% assign branch = db['branches_by_id'][page.branch_id] %}
-                                    {% assign topic  = branch['topics_by_id'][page.topic_id] %}
 
-                                    &gt; <a href="/codex/{{ page.branch_id }}/{{ page.topic_id }}">
-                                        {{ topic['name'] }} ({{ branch['name'] }})
-                                    </a>
-                                {% endif %}
-                            </p>
-                        </div>
-                        <div id="header-right">
-                            <a href="/posts">Posts</a>
-                            <a href="/links">Links</a>
-                        </div>
-                    </div>
+    <body>
+
+        <header>
+
+            <nav>
+                <div id="nav-left">
+                    <p>
+                        <a href="/codex">Codex</a>
+                        <!-- If this is a Codex page -->
+                        {% if page.topic_id %}
+                            {% assign db     = site.data['codex'] %}
+                            {% assign branch = db['branches_by_id'][page.branch_id] %}
+                            {% assign topic  = branch['topics_by_id'][page.topic_id] %}
+
+                            &gt; <a href="/codex/{{ page.branch_id }}/{{ page.topic_id }}">
+                                {{ topic['name'] }} ({{ branch['name'] }})
+                            </a>
+                        {% endif %}
+                    </p>
                 </div>
-            </header>
-            <div class="area">
-                <div class="headline">
+
+                <div id="nav-right">
+                    <a href="/posts">Posts</a>
+                    <a href="/links">Links</a>
+                </div>
+            </nav>
+
+            <div id="headline">
+                <div id="headline-inner">
                     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+
                     {% if page.date %}
-                        <p><b>P</b> {{ page.date | date: "%b %d, %Y" }}</p>
-                    {% endif %}
-                    {% if page.updated %}
-                        <p>&ensp; <b>U</b> {{ page.updated | date: "%b %d, %Y" }}</p>
+                        <p>
+                            <b><i>Pub</i></b> {{ page.date | date: "%b %d, %Y" }}&emsp;<b
+                            ><i>Up</i></b> {{ page.updated | date: "%b %d, %Y" }}
+                        </p>
                     {% endif %}
                 </div>
             </div>
-            <div class="area">
-                {% unless page.empty %}
-                    <div class="content">
-                        {{ content }}
-                    </div>
-                {% endunless %}
-            </div>
-        </div>
+
+        </header>
+
+        <article>
+            {% unless page.empty %}
+                {{ content }}
+            {% endunless %}
+        </article>
+
     </body>
+
 </html>

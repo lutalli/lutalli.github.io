@@ -1,59 +1,59 @@
 @font-face {
-    font-family: "DejaVu Serif";
-    font-style:  normal;
-    font-weight: normal;
+    font-family:    "DejaVu Serif";
+    font-style:     normal;
+    font-weight:    normal;
 
-    src:         local("DejaVu Serif"),
-                 local("DejaVuSerif"),
-                 url("/res/fonts/DejaVuSerif.ttf");
+    src:            local("DejaVu Serif"),
+                    local("DejaVuSerif"),
+                    url("/res/fonts/DejaVuSerif.ttf");
 }
 
 @font-face {
-    font-family: "DejaVu Serif";
-    font-style:  italic;
-    font-weight: normal;
+    font-family:    "DejaVu Serif";
+    font-style:     italic;
+    font-weight:    normal;
 
-    src:         local("DejaVu Serif Italic"),
-                 local("DejaVuSerif-Italic"),
-                 url("/res/fonts/DejaVuSerif-Italic.ttf");
+    src:            local("DejaVu Serif Italic"),
+                    local("DejaVuSerif-Italic"),
+                    url("/res/fonts/DejaVuSerif-Italic.ttf");
 }
 
 @font-face {
-    font-family: "DejaVu Serif";
-    font-style:  normal;
-    font-weight: bold;
+    font-family:    "DejaVu Serif";
+    font-style:     normal;
+    font-weight:    bold;
 
-    src:         local("DejaVu Serif Bold"),
-                 local("DejaVuSerif-Bold"),
-                 url("/res/fonts/DejaVuSerif-Bold.ttf");
+    src:            local("DejaVu Serif Bold"),
+                    local("DejaVuSerif-Bold"),
+                    url("/res/fonts/DejaVuSerif-Bold.ttf");
 }
 
 @font-face {
-    font-family: "DejaVu Serif";
-    font-style:  italic;
-    font-weight: bold;
+    font-family:    "DejaVu Serif";
+    font-style:     italic;
+    font-weight:    bold;
 
-    src:         local("DejaVu Serif Bold Italic"),
-                 local("DejaVuSerif-BoldItalic"),
-                 url("/res/fonts/DejaVuSerif-BoldItalic.ttf");
+    src:            local("DejaVu Serif Bold Italic"),
+                    local("DejaVuSerif-BoldItalic"),
+                    url("/res/fonts/DejaVuSerif-BoldItalic.ttf");
 }
 
 @font-face {
-    font-family: "DejaVu Sans Mono";
+    font-family:    "DejaVu Sans Mono";
 
-    src:         local("DejaVu Sans Mono"),
-                 local("DejaVuSansMono"),
-                 url("/res/fonts/DejaVuSansMono.ttf");
+    src:            local("DejaVu Sans Mono"),
+                    local("DejaVuSansMono"),
+                    url("/res/fonts/DejaVuSansMono.ttf");
 }
 
 :root {
-    --col-b:  #f7f3ee;  /* Color: Background */
-    --col-s:  #dddbd8;  /* Color: Subtle     */
-    --col-t:  #5a544c;  /* Color: Text       */
+    --col-b:        #f7f3ee;  /* Color: Background */
+    --col-s:        #dddbd8;  /* Color: Subtle     */
+    --col-t:        #5a544c;  /* Color: Text       */
 
     /* Font: Text */
-    --font-t: "DejaVu Serif", serif;
+    --font-t:       "DejaVu Serif", serif;
 
     /* Font: Monospace */
-    --font-m: "DejaVu Sans Mono", monospace;
+    --font-m:       "DejaVu Sans Mono", monospace;
 }
