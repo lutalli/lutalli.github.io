@@ -1,12 +1,10 @@
 ---
-title:      Colors and Fonts on this Website
-updated:    2026-08-05
+title:      Colors and Fonts of this Website
+updated:    2026-08-16
 categories: art
 ---
 
-### Colors
-
-The color scheme consists of three colors from [Earl Grey](https://earl-grey.halt.wtf/):
+This website uses three monochrome colors from the [Earl Grey](https://earl-grey.halt.wtf/) color scheme:
 
 <center style="font-family: var(--font-m);">
     <p style="background: var(--col-t); color: var(--col-b); width: 50%;">#5A544C</p>
@@ -14,7 +12,7 @@ The color scheme consists of three colors from [Earl Grey](https://earl-grey.hal
     <p style="background: var(--col-s); color: var(--col-t); width: 50%;">#DDDBD8</p>
 </center>
 
-### Fonts
+and two fonts:
 
 - DejaVu Serif
 - DejaVu Sans Mono
