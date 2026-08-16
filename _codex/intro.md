@@ -1,11 +1,11 @@
 ---
 title:   Introduction to Codex
 date:    2026-03-05
-updated: 2026-08-02
+updated: 2026-08-16
 meta:    true
 ---
 
-**Codex** is my personal math journal.
+**Codex** is a compilation of my personal math notes.
 
 ## Structure
 
@@ -29,4 +29,4 @@ Each entry could either be an *axiom*, a *definition*, a *proposition* or a *rem
 
 ## Other Notes
 
-We work in $\ZF$ or $\ZFC$ by default.
+We work in $\ZF$ by default.
