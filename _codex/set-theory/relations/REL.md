@@ -1,7 +1,7 @@
 ---
 title:   Relation
 date:    2026-02-21
-updated: 2026-06-27
+updated: 2026-08-10
 ---
 
 {% entry DEF-1 %}
@@ -33,6 +33,8 @@ An $n$-ary relation **on a set** $X$ ($n \geq 1$) is a subset of $X^n$.
    $$ X_1 \times \cdots \times X_n $$
 
    is the **universal relation** (a relation that always holds).
+
+***Note.*** For Latinate names of different arities, see [Arity (Wikipedia)](https://en.wikipedia.org/wiki/Arity#Terminology).
 
 {% entry DEF-2 %}
 

@@ -16,7 +16,7 @@ branches:
       - id:    basics
         name:  "Basics"
         slugs: [ CLS, V, ZF, AC, EMP, BLD, SUB, PAIR, U, SING, ROST, ITSC, DJ, DJU, SD, DMG, SYMD,
-                 P, TUP, X, TRAN ]
+                 P, TUP, X ]
 
       - id:    relations
         name:  "Relations"
@@ -32,8 +32,8 @@ branches:
 
       - id:    ordinals
         name:  "Ordinals"
-        slugs: [ ORD, OT, SUC, INDS, LIMO, FINO, FIN, CNT, IND, TIND, TSQ, OSQL, COSQ, NOSQ, TREC,
-                 OAR ]
+        slugs: [ TRAN, ORD, OT, SUC, INDS, LIMO, FINO, FIN, CNT, IND, TIND, TSQ, OSQL, COSQ, NOSQ,
+                 TREC, OAR ]
 
       - id:    cardinals
         name:  "Cardinals"
