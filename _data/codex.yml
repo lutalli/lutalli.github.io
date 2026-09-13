@@ -1,13 +1,13 @@
 # The Codex database.
-#
-# `branches` contains the sorted list of all branches.
-#
-# Based on this list, CodexGenerator will also generate two other hashes:
-#
-#   `branches_by_id` - Hash of all branches indexed by their IDs.
-#   `pages_by_slug`  - Hash of all pages indexed by their slugs.
 
 branches:
+
+  # The sorted list of all branches.
+  #
+  # Based on this list, CodexGenerator will also generate two other hashes:
+  #
+  #   `branches_by_id` - Hash of all branches indexed by their IDs.
+  #   `pages_by_slug`  - Hash of all pages indexed by their slugs.
 
   - id:   set-theory
     name: "Set Theory"

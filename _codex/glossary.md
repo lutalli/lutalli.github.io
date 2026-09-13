@@ -1,5 +1,5 @@
 ---
-title:   Notation Glossary
+title:   "Codex: Notation Glossary"
 date:    2026-06-08
 updated: 2026-06-20
 meta:    true

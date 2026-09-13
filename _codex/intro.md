@@ -1,5 +1,5 @@
 ---
-title:   Introduction to Codex
+title:   "Codex: Introduction"
 date:    2026-03-05
 updated: 2026-08-16
 meta:    true
