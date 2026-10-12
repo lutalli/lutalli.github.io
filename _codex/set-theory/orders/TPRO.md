@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% entry DEF-1 %}
 
-A **total preorder** is a strongly connected preorder, i.e. a binary relation $\leq$ on a set $X$ such that:
+A **total preorder** is a [strongly connected](/codex/RELC) [preorder](/codex/PRO), i.e. a [binary relation](/codex/REL) $\leq$ on a set $X$ such that:
 
 {:.par-upper-roman}
 1. (*Reflexivity*) For all $x \in X$,
@@ -22,3 +22,10 @@ A **total preorder** is a strongly connected preorder, i.e. a binary relation $\
    $$ x \leq y \enspace\lor\enspace y \leq x. $$
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Weak ordering § Total preorders***](https://en.wikipedia.org/w/index.php?title=Weak_ordering&oldid=1372816884#Total_preorders). Wikipedia, The Free Encyclopedia.

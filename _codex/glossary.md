@@ -1,7 +1,7 @@
 ---
 title:   "Codex: Notation Glossary"
 date:    2026-06-08
-updated: 2026-06-20
+updated: 2026-09-18
 meta:    true
 ---
 
@@ -32,7 +32,7 @@ $A = B$
 : set $A$ is equal to set $B$
 
 $A \in B$
-: set $A$ is an [element](/codex/SET) of set $B$
+: set $A$ is an element of set $B$
 
 $\ZF$
 : [Zermelo-Fraenkel Set Theory](/codex/ZF)
@@ -116,13 +116,13 @@ $x \,R\, y$
 : [binary relation](/codex/REL) $R$ holds for $x$ and $y$
 
 $\dom R$
-: the [domain](/codex/REL#DEF-4) of binary relation $R$
+: the [domain](/codex/REL#DEF-2) of binary relation $R$
 
 $\im R$
-: the [image](/codex/REL#DEF-5) of binary relation $R$
+: the [image](/codex/REL#DEF-3) of binary relation $R$
 
 $\field R$
-: the [field](/codex/REL#DEF-6) of binary relation $R$
+: the [field](/codex/REL#DEF-4) of binary relation $R$
 
 $\id_X$
 : the [identity](/codex/ID) on $X$
@@ -134,7 +134,7 @@ $X / {\sim}$
 : the [quotient set](/codex/EQV#DEF-3) of $X$ by equivalence relation $\sim$
 
 $R^{-1}$
-: the [converse](/codex/CONV) of binary relation $R$
+: the [converse](/codex/INVR) of binary relation $R$
 
 $R \circ S$
 : the [composition](/codex/COMP) of binary relations $R$ and $S$
@@ -292,7 +292,7 @@ $\inv M$
 : the [invertible subset](/codex/INV) of magma $M$
 
 $\ker f$
-: the [kernel](/codex/GH#DEF-2) of group homomorphism $f$
+: the [kernel](/codex/MOIDH#DEF-2) of monoid homomorphism $f$
 
 $G \times H$
 : the [direct product](/codex/GDP) of groups $G$ and $H$

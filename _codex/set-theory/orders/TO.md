@@ -6,7 +6,7 @@ updated: 2026-07-09
 
 {% entry DEF-1 %}
 
-A **total order** is a strongly connected partial order, i.e. a binary relation $\leq$ on $X$ such that:
+A **total order** is a [strongly connected](/codex/RELC) [partial order](/codex/PO), i.e. a [binary relation](/codex/REL) $\leq$ on $X$ such that:
 
 {:.par-upper-roman}
 1. (*Reflexivity*) For all $x \in X$,
@@ -27,9 +27,11 @@ A **total order** is a strongly connected partial order, i.e. a binary relation 
 
 {% endentry %}
 
+> A *total order* is also known as a **linear order**.
+
 {% entry DEF-2 %}
 
-A **strict total order** is a connected strict partial order, i.e. a binary relation $<$ on $X$ such that:
+A **strict total order** is a [connected](/codex/RELC) [strict partial order](/codex/PO#DEF-2), i.e. a binary relation $<$ on $X$ such that:
 
 {:.par-upper-roman}
 1. (*Irreflexivity*) For all $x \in X$,
@@ -56,3 +58,13 @@ $\leq$ is a total order if and only if $<$ is a strict total order.
 
 {% endentry %}
 
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Total order***](https://en.wikipedia.org/w/index.php?title=Total_order&oldid=1360446695). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 16**.

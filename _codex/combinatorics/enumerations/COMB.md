@@ -61,7 +61,7 @@ By {% entry_ref PERM#PROP-2 %},
 
 $$ \big\lvert \bij(\llbra k \rrbra, \llbra k \rrbra) \big\rvert = k!. $$
 
-So by {% entry_ref CONV#PROP-3 %},
+So by {% entry_ref INVF#PROP-3 %},
 
 $$ P(n, k) = k! \cdot C(n, k), $$
 

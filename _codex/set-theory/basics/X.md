@@ -1,7 +1,7 @@
 ---
 title:   Cartesian Product
 date:    2026-02-17
-updated: 2026-06-23
+updated: 2026-09-18
 ---
 
 {% entry DEF-1 %}
@@ -10,7 +10,7 @@ The **Cartesian product** of two sets $X$ and $Y$ is
 
 $$ X \times Y = \{(x, y) : x \in X \,\land\, y \in Y\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#AX-4):
+This is a set by [Separation Schema](/codex/ZF#AX-4) (recall Kuratowski's [definition](/codex/TUP) of tuples):
 
 $$ X \times Y \subseteq \powerset(\powerset(X \cup Y)). $$
 
@@ -56,3 +56,13 @@ For any sets $A$, $B$ and $C$:
 3. $$ A \times (B \setdif C) = (A \times B) \setdif (A \times C). $$
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Cartesian product***](https://en.wikipedia.org/w/index.php?title=Cartesian_product&oldid=1367893132). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 10**.

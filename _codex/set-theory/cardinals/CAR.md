@@ -6,7 +6,7 @@ updated: 2026-07-10
 
 {% entry DEF-1 %}
 
-The **sum** of two cardinals $\kappa$ and $\lambda$ is
+The **sum** of two [cardinals](/codex/CARD) $\kappa$ and $\lambda$ is
 
 $$ \kappa + \lambda = \lvert (\kappa \times \{0\}) \cup (\lambda \times \{1\}) \rvert. $$
 
@@ -14,7 +14,7 @@ $$ \kappa + \lambda = \lvert (\kappa \times \{0\}) \cup (\lambda \times \{1\}) \
 
 {% entry PROP-1 %}
 
-For any two disjoint sets $X$ and $Y$,
+For any two [disjoint](/codex/DJ) sets $X$ and $Y$,
 
 $$ \lvert X \rvert + \lvert Y \rvert = \lvert X \sqcup Y \rvert. $$
 
@@ -55,3 +55,13 @@ For any two sets $X$ and $Y$,
 $$ \lvert X \rvert^{\lvert Y \rvert} = \lvert \fun(Y, X) \rvert. $$
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Cardinal number § Cardinal arithmetic***](https://en.wikipedia.org/w/index.php?title=Cardinal_number&oldid=1365179595#Cardinal_arithmetic). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 28--29**.

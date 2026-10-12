@@ -58,3 +58,13 @@ For any cardinal $\kappa$,
 $$ \kappa < 2^\kappa. $$
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Power set***](https://en.wikipedia.org/w/index.php?title=Power_set&oldid=1363224012). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **pp. 9; 27--29**.

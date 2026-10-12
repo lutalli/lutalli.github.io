@@ -1,12 +1,12 @@
 ---
 title:   Equivalence Relation
 date:    2026-02-21
-updated: 2026-06-08
+updated: 2026-09-18
 ---
 
 {% entry DEF-1 %}
 
-A binary relation $\sim$ on a set $X$ is an **equivalence relation** if:
+A [binary relation](/codex/REL) $\sim$ on a set $X$ is an **equivalence relation** if:
 
 {:.par-upper-roman}
 1. (*Reflexivitiy*) For all $x\in X$,
@@ -37,7 +37,9 @@ If there is no ambiguity, $[a]_\sim$ can be simply written as $[a]$.
 
 Let $\sim$ be an equivalence relation on a set $X$. The **quotient set** of $X$ by $\sim$ is the set
 
-$$ X / {\sim} \enspace=\enspace \{[x] : x \in X\}. $$
+$$ X / {\sim} \enspace=\enspace \{[x] : x \in X\}, $$
+
+a [partition](/codex/DJU) of $X$.
 
 {% endentry %}
 
@@ -52,6 +54,19 @@ Let $\sim$ be an equivalence relation on a set $X$. For any $x$, $y \in X$, the 
 
 3. $$ x \in [y]. $$
 
-4. $$ [x] \cap[y] \neq \empt. $$
+4. $$ [x] \cap [y] \neq \empt. $$
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Equivalence relation***](https://en.wikipedia.org/w/index.php?title=Equivalence_relation&oldid=1364233757). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 12**.
+
+[3]
+: Gaetan Borot. ***Lineare Algebra I\****. Lecture **4**. Humboldt University of Berlin. WS 2025/26.

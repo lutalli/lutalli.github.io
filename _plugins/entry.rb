@@ -1,6 +1,6 @@
-module Jekyll
+module Codex
   def self.get_type_disp(type)
-    # Utility function for getting the display name of an entry type
+    # Return the display name of an entry type.
 
     type_disp = ''
 
@@ -10,8 +10,10 @@ module Jekyll
       type_disp = 'Proposition'
     elsif type == 'AX'
       type_disp = 'Axiom'
-    elsif type == 'REM'
+    elsif type == 'REM'     # TODO: Remove this
       type_disp = 'Remark'
+    elsif type == 'NOTE'
+      type_disp = 'Note'
     end
 
     type_disp
@@ -31,25 +33,25 @@ module Jekyll
     # after the heading (for example, if the entry starts with a list).
     #
 
-    def initialize(tag_name, str, tokens)
+    def initialize(tag_name, input, tokens)
       super
 
-      str.rstrip!
+      input.strip!
 
       @sep = ''
-      if str[-1] == '!'
+      if input[-1] == '!'
         @sep = "\n\n"
-        str.chop!
-        str.rstrip!
+        input.chop!
+        input.rstrip!
       else
         @sep = '&emsp;'
       end
 
-      @args  = str.split(':')
+      @args  = input.split(':')
       @label = @args[0]
 
       type, index = @label.split('-')
-      type_disp   = Jekyll::get_type_disp(type)
+      type_disp   = Codex::get_type_disp(type)
       label_disp  = "#{type_disp} #{index}"
 
       @heading   = ''
@@ -81,15 +83,15 @@ module Jekyll
     #   {{ entry_ref <SLUG>#<TYPE>-<INDEX>[:<SUFFIX>] }}
     #
 
-    def initialize(tag_name, args, tokens)
+    def initialize(tag_name, input, tokens)
       super
-      @args = args.rstrip.split(':')
+      @args = input.strip.split(':')
 
       slug_label_array = @args[0].split('#')
       @slug            = slug_label_array[0]
       @label           = slug_label_array[1]
       type, index      = @label.split('-')
-      type_disp        = Jekyll::get_type_disp(type)
+      type_disp        = Codex::get_type_disp(type)
       @label_disp      = "#{type_disp} #{index}"
 
       @suffix = ''
@@ -113,5 +115,5 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('entry', Jekyll::EntryTagBlock)
-Liquid::Template.register_tag('entry_ref', Jekyll::EntryRefTag)
+Liquid::Template.register_tag('entry', Codex::EntryTagBlock)
+Liquid::Template.register_tag('entry_ref', Codex::EntryRefTag)

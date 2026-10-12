@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% entry DEF-1 %}
 
-Let $\*$ be a binary operation on a set $X$. We define the following properties of $\*$:
+Let $\*$ be a [binary operation](/codex/F#DEF-2) on a set $X$. We define the following properties of $\*$:
 
 | Property                 | Condition                         |
 | :----------------------: | :-------------------------------: |
@@ -31,3 +31,13 @@ The statements in the *Condition* column are meant to hold either for all $x\in 
 
 {% endentry %}
 
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Magma (algebra) § Classification by properties***](https://en.wikipedia.org/w/index.php?title=Magma_(algebra)&oldid=1370952719#Classification_by_properties). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Wikipedia contributors. [***Distributive property***](https://en.wikipedia.org/w/index.php?title=Distributive_property&oldid=1371443742). Wikipedia, The Free Encyclopedia.

@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% entry DEF-1 %}
 
-A **well-order** on a set $W$ is a total order such that every non-empty subset of $W$ has a least element.
+A **well-order** on a set $W$ is a [total order](/codex/TO) such that every non-empty subset of $W$ has a [least](/codex/GR) element.
 
 {% endentry %}
 
@@ -24,7 +24,7 @@ $\leq$ is a well-order if and only if $<$ is a strict well-order.
 
 {% entry PROP-2 %}
 
-If $W$ is a well-ordered set and $f : W \to W$ is strictly increasing, then $x \leq f(x)$ for every $x \in W$.
+If $W$ is a well-ordered set and $f : W \to W$ is [strictly increasing](/codex/OH), then $x \leq f(x)$ for every $x \in W$.
 
 {% endentry %}
 
@@ -36,7 +36,7 @@ a contradiction.<qed />
 
 {% entry PROP-3 %}
 
-The only automorphism on a well-ordered set $W$ is the identity $\id_W$.
+The only [automorphism](/codex/HOM) on a well-ordered set $W$ is the [identity](/codex/ID) $\id_W$.
 
 {% endentry %}
 
@@ -44,7 +44,7 @@ The only automorphism on a well-ordered set $W$ is the identity $\id_W$.
 
 {% entry PROP-4 %}
 
-If two well-ordered sets $W$ and $W'$ are isomorphic, then the isomorphism is unique.
+If two well-ordered sets $W$ and $W'$ are [isomorphic](/codex/HOM#DEF-2), then the isomorphism is unique.
 
 {% endentry %}
 
@@ -90,3 +90,13 @@ The following theorem is equivalent to $\AC$:
 Every set can be well-ordered, i.e. for any set $X$, there exists a well-order on $X$.
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Well-order***](https://en.wikipedia.org/w/index.php?title=Well-order&oldid=1364285243). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 18--19**.

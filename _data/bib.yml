@@ -1,0 +1,10 @@
+# Bibliography of Codex.
+
+Jech:
+  type:      "book"
+  author:    "Jech, Thomas"
+  title:     "Set Theory"
+  edition:   "3rd Millennium ed, rev. and expanded"
+  publisher: "Springer"
+  year:      "2002"
+

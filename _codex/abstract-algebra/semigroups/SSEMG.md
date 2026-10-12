@@ -6,7 +6,7 @@ updated: 2026-06-11
 
 {% entry DEF-1 %}
 
-Let $(S, \*)$ be a semigroup. $(T, \*)$ is a **subsemigroup** of $(S, \*)$, written $S \leq T$, if $(S, \*)$ itself is a semigroup and $S \subseteq T$.
+Let $(S, \*)$ be a [semigroup](/codex/SEMG). $(T, \*)$ is a **subsemigroup** of $(S, \*)$, written $S \leq T$, if $(S, \*)$ itself is a semigroup and $S \subseteq T$.
 
 {% endentry %}
 

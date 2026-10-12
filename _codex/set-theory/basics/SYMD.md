@@ -56,3 +56,13 @@ For any sets $X$ and $Y$,
 $$ X \symdif Y = (X \cup Y) \setdif (X \cap Y). $$
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Symmetric difference***](https://en.wikipedia.org/w/index.php?title=Symmetric_difference&oldid=1347009137). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 9**.

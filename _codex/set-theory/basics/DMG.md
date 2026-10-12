@@ -25,3 +25,10 @@ More generally, for any $A\subseteq\powerset(X)$:
 4. $$ \overline{\bigcap A} = \bigcup_{Y \in A} \overline{Y}. $$
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***De Morgan's laws***](https://en.wikipedia.org/w/index.php?title=De_Morgan%27s_laws&oldid=1373030169). Wikipedia, The Free Encyclopedia.

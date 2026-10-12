@@ -1,12 +1,12 @@
 ---
 title:   Relation
 date:    2026-02-21
-updated: 2026-08-10
+updated: 2026-09-18
 ---
 
 {% entry DEF-1 %}
 
-A **relation** on sets $X_1$, $\cdots$, $X_n$ ($n \geq 1$) is a subset of the Cartesian product $X_1 \times \cdots \times X_n$; in this case it is an **$n$-ary relation**.
+A **relation** on sets $X_1$, $\cdots$, $X_n$ ($n \geq 1$) is a subset of the [Cartesian product](/codex/X) $X_1 \times \cdots \times X_n$; in this case it is an **$n$-ary relation**.
 
 The set of all relations on $X_1$, $\cdots$, $X_n$ is
 
@@ -24,17 +24,17 @@ An $n$-ary relation **on a set** $X$ ($n \geq 1$) is a subset of $X^n$.
 
 {% endentry %}
 
-***Examples.***
+> ***Examples.***
+>
+> 1. On any sets $X_1$, $\cdots$, $X_n$ ($n\geq 1$), $\empt$ is the **empty relation** (a relation that never holds).
+>
+> 2. On any sets $X_1$, $\cdots$, $X_n$ ($n \geq 1$),
+>
+>    $$ X_1 \times \cdots \times X_n $$
+>
+>    is the **universal relation** (a relation that always holds).
 
-1. On any sets $X_1$, $\cdots$, $X_n$ ($n\geq 1$), $\empt$ is the **empty relation** (a relation that never holds).
-
-2. On any sets $X_1$, $\cdots$, $X_n$ ($n \geq 1$),
-
-   $$ X_1 \times \cdots \times X_n $$
-
-   is the **universal relation** (a relation that always holds).
-
-***Note.*** For Latinate names of different arities, see [Arity (Wikipedia)](https://en.wikipedia.org/wiki/Arity#Terminology).
+> For Latinate names of different arities, see [Arity (Wikipedia)](https://en.wikipedia.org/wiki/Arity#Terminology).
 
 {% entry DEF-2 %}
 
@@ -42,7 +42,7 @@ The **domain** of a binary relation $R$ is
 
 $$ \dom R = \left\{ x : (\exists y : x \,R\, y) \right\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#AX-4):
+This is a set by [Separation Schema](/codex/ZF#AX-4) (recall Kuratowski's [definition](/codex/TUP) of tuples):
 
 $$ \dom R \subseteq \bigcup \bigcup R. $$
 
@@ -54,13 +54,13 @@ The **image** of a binary relation $R$ is
 
 $$ \im R = \left\{ y : (\exists x : x \,R\, y) \right\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#AX-4):
+This is a set by [Separation Schema](/codex/ZF#AX-4) (recall Kuratowski's definition of tuples):
 
 $$ \im R \subseteq \bigcup \bigcup R. $$
 
 {% endentry %}
 
-***Note.*** *Image* is also known as *range*.
+> *Image* is also known as **range**.
 
 {% entry DEF-4 %}
 
@@ -69,3 +69,13 @@ The **field** of a binary relation $R$ is
 $$ \field R = \dom R \cup \im R. $$
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Relation (mathematics)***](https://en.wikipedia.org/w/index.php?title=Relation_(mathematics)&oldid=1338483050). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 10**.

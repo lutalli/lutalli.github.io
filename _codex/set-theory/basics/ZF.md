@@ -4,7 +4,7 @@ date:    2026-02-16
 updated: 2026-06-26
 ---
 
-**Zermelo-Fraenkel Set Theory**, denoted by $\ZF$, consists of the following axioms.
+**Zermelo-Fraenkel Set Theory** ($\ZF$) consists of the following axioms.
 
 ---
 
@@ -34,7 +34,7 @@ There exists a set $\empt$ such that
 
 $$ \forall x : x \notin \empt. $$
 
-By [Axiom of Extensionality](#AX-2), $\empt$ is unique and is called the **empty set**.
+By [Axiom of Extensionality](#AX-2), $\empt$ is unique and is called the [**empty set**](/codex/EMP).
 
 A set $Y$ is **non-empty** if $Y \neq \empt$.
 
@@ -49,9 +49,9 @@ Let $X$ be a set and $\varphi(x, p)$ be a formula with free variables among $x$ 
 $$ \forall x :\enspace%
        x \in Y \enspace\lrimp\enspace x \in X \land \varphi(x, p). $$
 
-In other words, a subclass of a set is always a set.
+In other words, a [subclass](/codex/CLS#DEF-2) of a set is always a set.
 
-By [Axiom of Extensionality](#AX-2), $Y$ is unique. We write
+By [Axiom of Extensionality](#AX-2), $Y$ is unique. We write ([Set-Builder Notation](/codex/BLD))
 
 $$ Y = \{x \in X : \varphi(x, p)\}. $$
 
@@ -71,7 +71,7 @@ Then, for any $p$, there exists a set $Y$ such that
 $$ \forall y :\enspace%
        y \in Y \enspace\lrimp\enspace \exists x : x \in X \land \varphi(x, y, p). $$
 
-In other words, if a class $F$ is functional and $X$ is a set, then the image $F[X]$ is always a set.
+In other words, if a [class](/codex/CLS) $F$ is [functional](/codex/F), then for any set $X$, the [image](/codex/IM) $F[X]$ is always a set.
 
 {% endentry %}
 
@@ -84,13 +84,13 @@ For any sets $a$ and $b$ there exists a set $X$ such that
 $$ \forall x :\enspace%
        x \in X \enspace\lrimp\enspace x = a \lor x = b. $$
 
-By [Axiom of Extensionality](#AX-2), $X$ is unique. We call it the **pair** of $a$ and $b$, denoted by $\\{a, b\\}$.
+By [Axiom of Extensionality](#AX-2), $X$ is unique. We call it the [**pair**](/codex/PAIR) of $a$ and $b$, denoted by $\\{a, b\\}$.
 
 {% endentry %}
 
 {% entry DEF-1 %}
 
-For any set $a$, the **singleton** $\\{a\\}$ is the set $\\{a, a\\}$.
+For any set $a$, the [**singleton**](/codex/SING) $\\{a\\}$ is the set $\\{a, a\\}$.
 
 {% endentry %}
 
@@ -103,9 +103,9 @@ For any set $X$ there exists a set $Y$ such that
 $$ \forall y :\enspace%
        y \in Y \enspace\lrimp\enspace \exists x : x \in X \land y \in x. $$
 
-By [Axiom of Extensionality](#AX-2), $Y$ is unique. We call it the **union** of $X$, denoted by $\bigcup X$.
+By [Axiom of Extensionality](#AX-2), $Y$ is unique. We call it the [**union**](/codex/U) of $X$, denoted by $\bigcup X$.
 
-For any sets $A$ and $B$, we write
+For any two sets $A$ and $B$, we write
 
 $$ A \cup B = \bigcup \{A, B\}. $$
 
@@ -115,7 +115,7 @@ $$ A \cup B = \bigcup \{A, B\}. $$
 
 {% entry DEF-2 %}
 
-A set $X$ is a **subset** of a set $Y$, written $X \subseteq Y$, if
+A set $X$ is a [**subset**](/codex/SUB) of a set $Y$, written $X \subseteq Y$, if
 
 $$ \forall x :\enspace%
        x \in X \enspace\rimp\enspace x \in Y. $$
@@ -129,7 +129,7 @@ For any set $X$ there exists a set $Y$ such that
 $$ \forall y :\enspace%
        y \in Y \enspace\lrimp\enspace y \subseteq X. $$
 
-By [Axiom of Extensionality](#AX-2), $Y$ is unique. We call it the **power set** of $X$, denoted by $\powerset(X)$.
+By [Axiom of Extensionality](#AX-2), $Y$ is unique. We call it the [**power set**](/codex/P) of $X$, denoted by $\powerset(X)$.
 
 {% endentry %}
 
@@ -137,7 +137,7 @@ By [Axiom of Extensionality](#AX-2), $Y$ is unique. We call it the **power set**
 
 {% entry DEF-3 %}
 
-Two sets $X$ and $Y$ are **disjoint** if
+Two sets $X$ and $Y$ are [**disjoint**](/codex/DJ) if
 
 $$ \neg (\exists x : x \in X \land x \in Y). $$
 
@@ -157,7 +157,7 @@ No set is an element of itself.
 
 {% endentry %}
 
-***Proof.*** For any set $X$, if $X \in X$, then $X$ and $\\{X\\}$ are not disjoint, contrary to [Axiom of Regularity](#AX-9).<qed />
+***Proof.*** For any set $X$, if $X \in X$, then $X$ and $\\{X\\}$ would be joint, contrary to [Axiom of Regularity](#AX-9).<qed />
 
 ---
 
@@ -167,27 +167,16 @@ There exists a set $X$ such that $\empt \in X$ and
 
 $$ \forall x :\enspace x \in X \enspace\rimp\enspace x \cup \{x\} \in X. $$
 
-In other words, there exists an inductive set $X$ such that $\empt \in X$.
+In other words, there exists an [inductive](/codex/INDS) set $X$ with $\empt \in X$.
 
 {% endentry %}
 
 ---
 
-{% entry REM-1:Redundant Axioms %}
+## References
 
-{:.par-upper-roman}
-1. [Axiom of Infinity](#AX-10) implies [Axiom of Existence](#AX-1) and [Axiom of Empty Set](#AX-3).
-2. [Replacement Schema](#AX-5) together with [Axiom of Empty Set](#AX-3) implies [Separation Schema](#AX-4).
-3. [Replacement Schema](#AX-5) together with [Axiom of Existence](#AX-1) implies [Axiom of Empty Set](#AX-3).
+[1]
+: Wikipedia contributors. [***Zermelo–Fraenkel set theory***](https://en.wikipedia.org/w/index.php?title=Zermelo%E2%80%93Fraenkel_set_theory&oldid=1363858445). Wikipedia, The Free Encyclopedia.
 
-Therefore, the following axioms are enough to construct $\ZF$:
-
-- [Replacement Schema](#AX-5).
-- [Axiom of Extensionality](#AX-2).
-- [Axiom of Pairing](#AX-6).
-- [Axiom of Union](#AX-7).
-- [Axiom of Power Set](#AX-8).
-- [Axiom of Regularity](#AX-9).
-- [Axiom of Infinity](#AX-10).
-
-{% endentry %}
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **pp. 6--13**.

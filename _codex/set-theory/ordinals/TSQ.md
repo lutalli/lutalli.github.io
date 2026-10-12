@@ -6,7 +6,7 @@ updated: 2026-07-09
 
 {% entry DEF-1 %}
 
-A **transfinite sequence** is a function whose domain is an ordinal. If $s : \alpha \to X$ is transfinite sequence for some ordinal $\alpha$:
+A **transfinite sequence** is a [function](/codex/F) whose [domain](/codex/REL#DEF-2) is an [ordinal](/codex/ORD). If $s : \alpha \to X$ is transfinite sequence for some ordinal $\alpha$:
 
 - $s$ is an **$\alpha$-sequence**.
 
@@ -32,7 +32,7 @@ $$ \langle s_n : n \in \N \rangle \quad\text{or}\quad \langle s_n \rangle_{n \in
 
 {% entry DEF-3 %}
 
-A **finite sequence** is an $n$-sequence for some natural number $n$.
+A **finite sequence** is an $n$-sequence for some [natural number](/codex/FINO) $n$.
 
 {% endentry %}
 
@@ -43,3 +43,10 @@ If $s$ is an $\alpha$-sequence for some ordinal $\alpha$, the **extension** of $
 $$ s^\frown x = s \cup \{(\alpha,x)\}. $$
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 21**.

@@ -22,3 +22,13 @@ The following statements are equivalent:
 3. $$ T \subseteq \powerset(T). $$
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Transitive set***](https://en.wikipedia.org/w/index.php?title=Transitive_set&oldid=1370777805). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 13**.

@@ -1,12 +1,12 @@
 ---
 title:   Inverse
 date:    2026-04-16
-updated: 2026-06-11
+updated: 2026-10-12
 ---
 
 {% entry DEF-1 %}
 
-Let $M$ be a unital magma with neutral element $e$. Let $a$, $x \in M$.
+Let $M$ be a [unital](/codex/NEU#DEF-1) [magma](/codex/MAG) with [neutral element](/codex/NEU) $e$. Let $a$, $x \in M$.
 
 - $x$ is a **left-inverse** of $a$ if
 
@@ -22,7 +22,7 @@ Let $M$ be a unital magma with neutral element $e$. Let $a$, $x \in M$.
 
 - $M$ is **(uniquely) (left-/right-)invertible** if all elements of $M$ are (uniquely) (left-/right-)invertible.
 
-If $M$ is uniquely invertible, we write $a^{-1}$ for the unique inverse of each $a\in M$.
+By default, we write $a^{-1}$ for the unique inverse of each $a \in M$.
 
 {% endentry %}
 

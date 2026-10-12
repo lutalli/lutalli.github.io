@@ -24,4 +24,14 @@ $\AC$ is independent of $\ZF$.
 
 {% endentry %}
 
-***Note.*** $\ZF + \AC$ is denoted by $\ZFC$.
+> $\ZF + \AC$ is denoted by $\ZFC$.
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Axiom of choice***](https://en.wikipedia.org/w/index.php?title=Axiom_of_choice&oldid=1372014668). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 46**.

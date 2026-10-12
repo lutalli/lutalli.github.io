@@ -6,9 +6,9 @@ updated: 2026-06-10
 
 {% entry DEF-1 %}
 
-Let $X$ be a partially ordered set and $A \subseteq X$.
+Let $X$ be a [partially ordered](/codex/PO) set and $A \subseteq X$.
 
-- If the least upper bound of $A$ exists, it is called the **supremum** of $A$ and denoted by
+- If the [least](/codex/GR) [upper bound](/codex/BND) of $A$ exists, it is called the **supremum** of $A$ and denoted by
 
   $$ \sup A. $$
 
@@ -20,9 +20,7 @@ Let $X$ be a partially ordered set and $A \subseteq X$.
 
 {% entry PROP-1 %}
 
-Let $X$ be a partially ordered set and $A \subseteq X$.
-
-If $\sup A$ exists, the following statements are equivalent:
+Let $X$ be a partially ordered set and $A \subseteq X$. If $\sup A$ exists, the following statements are equivalent:
 
 {:.par-upper-roman}
 1. $$ \sup A \in A. $$
@@ -41,3 +39,13 @@ If $\inf A$ exists, the following statements are equivalent:
 3. <p style="text-align: center">$\min A$ exists.</p>
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Infimum and supremum***](https://en.wikipedia.org/w/index.php?title=Infimum_and_supremum&oldid=1374158516). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 16**.

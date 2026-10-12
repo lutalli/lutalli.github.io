@@ -12,13 +12,13 @@ Let $X$ and $Y$ be two sets.
 
   $$ X \equ Y, $$
 
-  if there exists a bijection from $X$ onto $Y$.
+  if there exists a [bijection](/codex/BIJ) from $X$ onto $Y$.
 
 - $X$ is **not a greater set** than $Y$, written
 
   $$ X \lequ Y, $$
 
-  if there exists an injection from $X$ to $Y$.
+  if there exists an [injection](/codex/INJ) from $X$ to $Y$.
 
 - $X$ is a **smaller set** than $Y$, written
 
@@ -56,7 +56,7 @@ To summarize [reflexivity](#PROP-1), [symmetry](#PROP-2) and [transitivity](#PRO
 
 {% entry PROP-4 %}
 
-$\equ$ is an equivalence relation.
+$\equ$ is an [equivalence relation](/codex/EQV).
 
 {% endentry %}
 
@@ -89,3 +89,16 @@ $$ X \lequ Y \,\land\, Y\lequ X \enspace\rimp\enspace X\equ Y. $$
 For any sets $X$ and $Y$, if $X \subseteq Y$, then $X \lequ Y$.
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Cardinality § Comparing sets***](https://en.wikipedia.org/w/index.php?title=Cardinality&oldid=1369560425#Comparing_sets). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Wikipedia contributors. [***Schröder–Bernstein theorem***](https://en.wikipedia.org/w/index.php?title=Schr%C3%B6der%E2%80%93Bernstein_theorem&oldid=1376529251). Wikipedia, The Free Encyclopedia.
+
+[3]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 27--28**.

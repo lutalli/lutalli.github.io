@@ -65,6 +65,16 @@ To summarize [Proposition 2](#PROP-2), [commutativity](#PROP-3) and [associativi
 
 {% entry PROP-6 %}
 
-For any set $X$, $(\powerset(X), \cup)$ is an abelian monoid with neutral element $\empt$.
+For any set $X$, $(\powerset(X), \cup)$ is an [abelian](/codex/MAG#DEF-2) [monoid](/codex/MOID) with [neutral element](/codex/NEU) $\empt$.
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Union (set theory)***](https://en.wikipedia.org/w/index.php?title=Union_(set_theory)&oldid=1372773246). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 9**.

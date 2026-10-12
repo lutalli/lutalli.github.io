@@ -16,7 +16,7 @@ $X$ is a **proper subset** of $Y$, written $X \subset Y$, if additionally $X \ne
 
 {% entry PROP-1 %}
 
-$\empt$ is the only set that is a subset of every non-empty set.
+$\empt$ is the only set that is a subset of every [non-empty](/codex/EMP) set.
 
 {% endentry %}
 
@@ -50,6 +50,16 @@ To summarize [reflexivity](#PROP-2), [transitivity](#PROP-3) and [antisymmetry](
 
 {% entry PROP-5 %}
 
-$\subseteq$ is a partial order.
+$\subseteq$ is a [partial order](/codex/PO).
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Subset***](https://en.wikipedia.org/w/index.php?title=Subset&oldid=1373193790). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 9**.

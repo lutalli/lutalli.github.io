@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% entry DEF-1 %}
 
-The **successor** of an ordinal $\alpha$ is the ordinal
+The **successor** of an [ordinal](/codex/ORD) $\alpha$ is the ordinal
 
 $$ \alpha + 1 = \alpha \cup \{\alpha\}. $$
 
@@ -24,7 +24,7 @@ $$ \alpha + 1 = \inf \{\beta : \beta > \alpha\}. $$
 
 {% entry PROP-2 %}
 
-For any infinite ordinal $\alpha$,
+For any [infinite](/codex/FINO) ordinal $\alpha$,
 
 $$ \lvert \alpha + 1 \rvert = \lvert \alpha \rvert. $$
 
@@ -38,4 +38,14 @@ $$ f : \alpha + 1 \to \alpha, \, \xi \mapsto \begin{cases}
        \xi,     & \text{otherwise}
 \end{cases} $$
 
-is an injection.<qed />
+is an [injection](/codex/INJ).<qed />
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Successor function***](https://en.wikipedia.org/w/index.php?title=Successor_function&oldid=1334471741). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 20**.

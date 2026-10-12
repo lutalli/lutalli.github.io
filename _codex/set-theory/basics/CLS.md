@@ -1,12 +1,12 @@
 ---
 title:   Class
 date:    2026-03-06
-updated: 2026-06-22
+updated: 2026-09-16
 ---
 
-In $\ZF$, everything is a set. Nevertheless, *classes* are introduced for the quality of life. A class is an informal, set-like notion that describes a collection of objects satisfying a certain property. Through classes, we can treat formulas like sets.
+In $\ZF$ and similar set theories, every mathematical object is a set. Nevertheless, we introduce *classes*, an informal object, through which we can talk about formulas in the same way we talk about sets.
 
-Classes only play a role like [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar). Arguments involving classes are ultimately reduced to formulas.
+It is important to remember that classes are only [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar). Arguments involving classes are ultimately reduced to formulas.
 
 {% entry DEF-1 %}
 
@@ -40,10 +40,20 @@ $$ \forall x :\enspace x \in C \enspace\rimp\enspace x \in D. $$
 
 {% entry DEF-3 %}
 
-A class $C$ is a **proper class** if it is not a set, i.e. if there is no set $X$ such that
+A class $C$ **is a set** if there is a set $X$ such that
 
 $$ \forall x :\enspace x \in C \enspace\lrimp\enspace x \in X. $$
 
+A class that is not a set is called a **proper class**.
+
 {% endentry %}
 
-***Note.*** A class that is a set is sometimes called a **small class**.
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Class (set theory)***](https://en.wikipedia.org/w/index.php?title=Class_(set_theory)&oldid=1330650700). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **pp. 5--6**.

@@ -6,7 +6,7 @@ updated: 2026-06-23
 
 {% entry DEF-1 %}
 
-The **intersection** of a set $X$ is
+The **intersection** of a [class](/codex/CLS) $X$ is
 
 $$ \bigcap X = \left\{ x : (\forall A \in X : x \in A) \right\}. $$
 
@@ -60,6 +60,16 @@ To summarize [Proposition 2](#PROP-2), [commutativity](#PROP-3) and [associativi
 
 {% entry PROP-6 %}
 
-For any set $X$, $(\powerset(X), \cap)$ is an abelian semigroup.
+For any set $X$, $(\powerset(X), \cap)$ is an [abelian](/codex/MAG#DEF-2) [semigroup](/codex/SEMG).
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Intersection***](https://en.wikipedia.org/w/index.php?title=Intersection&oldid=1320120208). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **pp. 7--8**.

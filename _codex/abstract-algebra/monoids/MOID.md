@@ -6,7 +6,7 @@ updated: 2026-06-11
 
 {% entry DEF-1 %}
 
-A **monoid** is a unital semigroup, i.e. a magma $M$ such that:
+A **monoid** is a [unital](/codex/NEU#DEF-1) [semigroup](/codex/SEMG), i.e. a [magma](/codex/MAG) $M$ such that:
 
 1. (*Associativity*) For all $a$, $b$, $c\in M$,
 
@@ -22,7 +22,7 @@ A **monoid** is a unital semigroup, i.e. a magma $M$ such that:
 
 {% entry PROP-1 %}
 
-Let $M$ be a monoid and $a \in M$. $a$ is left-invertible if and only if $a$ is right-invertible.
+Let $M$ be a monoid and $a \in M$. $a$ is [left-invertible](/codex/INV) if and only if $a$ is right-invertible.
 
 {% endentry %}
 
@@ -41,3 +41,13 @@ Let $M$ be a monoid and $a \in M$. $a$ is left-invertible if and only if $a$ is 
   which follows that $xa = e$.
 
 &#8203;<qed />
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Monoid***](https://en.wikipedia.org/w/index.php?title=Monoid&oldid=1378649517). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Gaetan Borot. ***Lineare Algebra I\****. Lecture **7**. Humboldt University of Berlin. WS 2025/26.

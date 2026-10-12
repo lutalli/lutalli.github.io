@@ -4,7 +4,7 @@ date:    2026-03-06
 updated: 2026-06-10
 ---
 
-In the following, addition, multiplication and exponentiation of ordinals are defined using Transfinite Recursion.
+In the following, addition, multiplication and exponentiation of [ordinals](/codex/ORD) are defined using [Transfinite Recursion](/codex/TREC).
 
 {% entry DEF-1 %}
 
@@ -17,7 +17,7 @@ For any ordinal $\alpha$:
 
    $$ \alpha + (\beta + 1) = (\alpha + \beta) + 1. $$
 
-3. For limit ordinals $\beta$,
+3. For [limit ordinals](/codex/LIMO) $\beta$,
 
    $$ \alpha + \beta = \lim_{\xi \to \beta} (\alpha + \xi). $$
 
@@ -28,15 +28,15 @@ For any ordinal $\alpha$:
 For any ordinal $\alpha$:
 
 {:.par-upper-roman}
-1. $$ \alpha\cdot 0 = \alpha. $$
+1. $$ \alpha \cdot 0 = \alpha. $$
 
 2. For all ordinals $\beta$,
 
-   $$ \alpha\cdot(\beta+1) = \alpha\cdot\beta+\alpha. $$
+   $$ \alpha \cdot (\beta + 1) = \alpha \cdot \beta + \alpha. $$
 
 3. For limit ordinals $\beta$,
 
-   $$ \alpha\cdot\beta = \lim_{\xi\to\beta}\alpha\cdot\xi. $$
+   $$ \alpha \cdot \beta = \lim_{\xi \to \beta} \alpha \cdot \xi. $$
 
 {% endentry %}
 
@@ -77,9 +77,19 @@ $$ (\alpha \cdot \beta) \cdot \gamma = \alpha \cdot (\beta \cdot \gamma). $$
 
 {% entry REM-1 %}
 
-Neither $+$ or $\cdot$ is commutative:
+Neither $+$ or $\cdot$ is [commutative](/codex/RELC):
 
 $$ 1 + \omega = \omega \neq \omega + 1, \quad%
    2 \cdot \omega = \omega \neq \omega \cdot 2. $$
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Ordinal arithmetic***](https://en.wikipedia.org/w/index.php?title=Ordinal_arithmetic&oldid=1373148475). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 23**.

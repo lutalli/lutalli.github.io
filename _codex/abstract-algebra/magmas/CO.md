@@ -6,7 +6,7 @@ updated: 2026-06-11
 
 {% entry DEF-1 %}
 
-Let $M$ be a magma, $A$ be a submagma and $m \in M$.
+Let $M$ be a [magma](/codex/MAG), $A$ be a [submagma](/codex/SMAG) and $m \in M$.
 
 - The **left coset** of $A$ by $m$ is
 
@@ -28,12 +28,13 @@ Let $M$ be a magma, $A$ be a submagma and $m \in M$.
 
 {% entry PROP-1 %}
 
-Let $M$ be an abelian magma and $A$ be a submagma. For any $m \in M$,
+Let $M$ be a magma and $A$ be a submagma. If $M$ is [abelian](/codex/MAG#DEF-2):
 
-$$ mA = Am, $$
+{:.par-upper-roman}
+1. For any $m \in M$,
 
-and hence
+   $$ mA = Am. $$
 
-$$ M / A = M \backslash A. $$
+2. $$ M / A = M \backslash A. $$
 
 {% endentry %}

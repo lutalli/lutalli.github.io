@@ -6,16 +6,16 @@ updated: 2026-06-10
 
 {% entry DEF-1 %}
 
-**Alpeh numbers** or **alephs** are defined using Transfinite Recursion:
+**Alpeh numbers** or **alephs** are defined using [Transfinite Recursion](/codex/TREC):
 
 {:.par-upper-roman}
 1. $$ \aleph_0 = \omega. $$
 
-2. For all ordinals $\alpha$,
+2. For all [ordinals](/codex/ORD) $\alpha$,
 
    $$ \aleph_{\alpha + 1} = \aleph_\alpha^+. $$
 
-3. For limit ordinals $\alpha$,
+3. For [limit ordinals](/codex/LIMO) $\alpha$,
 
    $$ \aleph_\alpha = \sup\{\aleph_\beta : \beta < \alpha\}. $$
 
@@ -33,7 +33,7 @@ $\aleph_\alpha$ is used when we treat it as an aleph, $\omega_\alpha$ when we tr
 
 {% entry PROP-1 %}
 
-Any infinite set $X$ is well-orderable if and only if $\lvert X \rvert$ is an aleph.
+Any [infinite](/codex/FIN) set $X$ is [well-orderable](/codex/WO) if and only if $\lvert X \rvert$ is an aleph.
 
 {% endentry %}
 
@@ -44,3 +44,13 @@ The following proposition is equivalent to $\AC$:
 Every infinite cardinal is an aleph.
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Aleph number***](https://en.wikipedia.org/w/index.php?title=Aleph_number&oldid=1374253751). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 29--30**.

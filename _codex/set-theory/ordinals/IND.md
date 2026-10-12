@@ -17,4 +17,14 @@ Then $A = \N$.
 
 {% endentry %}
 
-***Proof.*** Otherwise, $\min(\N \setdif A)$ would be a limit ordinal, contrary to {% entry_ref FINO#PROP-1 %}.<qed />
+***Proof.*** Otherwise, $\min(\N \setdif A)$ would be a [limit ordinal](/codex/LIMO), contrary to {% entry_ref FINO#PROP-1 %}.<qed />
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Mathematical induction***](https://en.wikipedia.org/w/index.php?title=Mathematical_induction&oldid=1373903526). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 21**.

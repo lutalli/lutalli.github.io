@@ -1,4 +1,27 @@
 module Codex
+  class Catalog < Jekyll::Page
+    # Class for catalog pages
+
+    def initialize(site, branch, topic)
+      @site     = site
+      @base     = site.source
+      @dir      = "codex/#{branch['id']}"
+
+      @basename = topic['id']
+      @ext      = '.html'
+      @name     = @basename + @ext
+
+      title = "#{topic['name']} (#{branch['name']})"
+
+      @data = {
+        'layout'    => 'catalog',
+        'title'     => title,
+        'branch_id' => branch['id'],
+        'topic_id'  => topic['id']
+      }
+    end
+  end
+
   class CodexGenerator < Jekyll::Generator
     # This generator does four jobs:
     #
@@ -74,29 +97,6 @@ module Codex
           site.pages << Catalog.new(site, branch, topic)
         end
       end
-    end
-  end
-
-  class Catalog < Jekyll::Page
-    # Class for catalog pages
-
-    def initialize(site, branch, topic)
-      @site     = site
-      @base     = site.source
-      @dir      = "codex/#{branch['id']}"
-
-      @basename = topic['id']
-      @ext      = '.html'
-      @name     = @basename + @ext
-
-      title = "#{topic['name']} (#{branch['name']})"
-
-      @data = {
-        'layout'    => 'catalog',
-        'title'     => title,
-        'branch_id' => branch['id'],
-        'topic_id'  => topic['id']
-      }
     end
   end
 end

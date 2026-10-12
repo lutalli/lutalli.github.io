@@ -40,3 +40,13 @@ For any two sets $X$ and $Y$, if $X \subseteq Y$, then
 $$ X \setdif Y = \empt. $$
 
 {% endentry %}
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Complement (set theory)***](https://en.wikipedia.org/w/index.php?title=Complement_(set_theory)&oldid=1355557106). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 8**.

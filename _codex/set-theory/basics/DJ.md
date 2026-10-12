@@ -1,7 +1,7 @@
 ---
 title:   Disjoint Sets
 date:    2026-02-17
-updated: 2026-06-23
+updated: 2026-09-18
 ---
 
 {% entry DEF-1 %}
@@ -18,7 +18,7 @@ Not disjoint sets are called **joint**.
 
 {% endentry %}
 
-***Note.*** *Joint* is also known as *overlapping*.
+> *Joint* is also known as **overlapping**.
 
 {% entry PROP-1 %}
 
@@ -37,3 +37,13 @@ $\empt$ is the only set disjoint to every other set.
 $$ Y = X \cup \{X\} $$
 
 is always joint to $X$. By [irreflexivity of $\in$](/codex/ZF#PROP-1), $X \neq Y$.<qed />
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Disjoint sets***](https://en.wikipedia.org/w/index.php?title=Disjoint_sets&oldid=1358569625). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 8**.

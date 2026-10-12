@@ -6,17 +6,17 @@ updated: 2026-06-10
 
 {% entry DEF-1 %}
 
-An **ordinal number** or **ordinal** is a transitive set that is strictly well-ordered by $\in$.
+An **ordinal number** or **ordinal** is a [transitive](/codex/TRAN) set that is [strictly well-ordered](/codex/WO) by $\in$.
 
-The class of all ordinals is denoted by $\Ord$.
+The [class](/codex/CLS) of all ordinals is denoted by $\Ord$.
 
 {% endentry %}
 
-***Example.*** $0 := \empt$ is an ordinal.
+> ***Example.*** $0 := \empt$ is an ordinal.
 
 {% entry DEF-2 %}
 
-For two ordinals $\alpha$ and $\beta$, we define the following total order on $\Ord$:
+For two ordinals $\alpha$ and $\beta$, we define the following [total order](/codex/TO) on $\Ord$:
 
 $$ \alpha < \beta \enspace\lrimp\enspace \alpha \in \beta. $$
 
@@ -65,7 +65,7 @@ $$ \bigcup X = \sup X. $$
 
 {% entry PROP-6:Burali-Forti Paradox %}
 
-$\Ord$ is a proper class.
+$\Ord$ is a [proper class](/codex/CLS#DEF-3).
 
 {% endentry %}
 
@@ -74,3 +74,16 @@ $\Ord$ is a proper class.
 $$ \alpha + 1 \leq \alpha, $$
 
 a contradiction.<qed />
+
+---
+
+## References
+
+[1]
+: Wikipedia contributors. [***Ordinal number***](https://en.wikipedia.org/w/index.php?title=Ordinal_number&oldid=1374563689). Wikipedia, The Free Encyclopedia.
+
+[2]
+: Wikipedia contributors. [***Burali-Forti paradox***](https://en.wikipedia.org/w/index.php?title=Burali-Forti_paradox&oldid=1338500475). Wikipedia, The Free Encyclopedia.
+
+[3]
+: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 19--20**.
