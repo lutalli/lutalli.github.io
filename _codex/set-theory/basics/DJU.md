@@ -30,7 +30,7 @@ $$ \Big\lvert \bigsqcup X \Big\rvert = \sum_{A \in X} \lvert A \rvert. $$
 
 {% endentry %}
 
-***Proof.*** By {% entry_ref CAR#PROP-1 %}.<qed />
+***Proof.*** By [`CAR` > Proposition 1](/codex/CAR#PROP-1).<qed />
 
 ---
 

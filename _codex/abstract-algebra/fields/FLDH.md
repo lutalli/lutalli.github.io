@@ -35,8 +35,8 @@ For any field homomorphism $f : F \to K$:
 
 ***Proof.***
 
-(I): By {% entry_ref RINGH#DEF-1:(III) %}.
+(I): By [`RINGH` > Definition 1 (III)](/codex/RINGH#DEF-1).
 
-(II), (III), (IV): By {% entry_ref GH#PROP-1 %}.
+(II), (III), (IV): By [`GH` > Proposition 1](/codex/GH#PROP-1).
 
-(V): By (IV) and {% entry_ref RING#PROP-2 %}, $\ker f = \\{0\\}$, so $f$ is a monomorphism by {% entry_ref RINGH#PROP-2 %}.<qed />
+(V): By (IV) and [`RING` > Proposition 2](/codex/RING#PROP-2), $\ker f = \\{0\\}$, so $f$ is a monomorphism by [`RINGH` > Proposition 2](/codex/RINGH#PROP-2).<qed />

@@ -40,7 +40,7 @@ $\omega$ is the [least](/codex/MAX) [limit ordinal](/codex/LIMO).
 
 {% endentry %}
 
-***Proof.*** By {% entry_ref LIMO#PROP-1:(I) $\lrimp$ (V) %}.<qed />
+***Proof.*** By [`LIMO` > Proposition 1 (I) $\lrimp$ (V)](/codex/LIMO#PROP-1).<qed />
 
 ---
 

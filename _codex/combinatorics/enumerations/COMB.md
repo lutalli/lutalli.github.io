@@ -57,11 +57,11 @@ is surjective. It is easy to see that for every $A \in \powerset_k(\llbra n \rrb
 $$ \big\lvert \varphi^{-1}[\{A\}] \big\rvert =%
    \big\lvert \bij(\llbra k \rrbra, \llbra k \rrbra) \big\rvert. $$
 
-By {% entry_ref PERM#PROP-2 %},
+By [`PERM` > Proposition 2](/codex/PERM#PROP-2),
 
 $$ \big\lvert \bij(\llbra k \rrbra, \llbra k \rrbra) \big\rvert = k!. $$
 
-So by {% entry_ref INVF#PROP-3 %},
+So by [`INVF` > Proposition 3](/codex/INVF#PROP-3),
 
 $$ P(n, k) = k! \cdot C(n, k), $$
 
@@ -118,7 +118,7 @@ $$ \sum_{k = 0}^n C(n, k) = 2^n. $$
 
 $$ \bigsqcup_{k = 0}^n \powerset_k(\llbra n \rrbra) = \powerset(\llbra n \rrbra). $$
 
-By {% entry_ref P#PROP-3 %},
+By [`P` > Proposition 3](/codex/P#PROP-3),
 
 $$ \lvert \powerset(\llbra n \rrbra) \rvert = 2^n. $$
 

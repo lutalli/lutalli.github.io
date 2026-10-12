@@ -34,7 +34,7 @@ Every infinite cardinal is a [limit ordinal](/codex/LIMO).
 
 {% endentry %}
 
-***Proof.*** By {% entry_ref SUC#PROP-2 %}.<qed />
+***Proof.*** By [`SUC` > Proposition 2](/codex/SUC#PROP-2).<qed />
 
 ---
 

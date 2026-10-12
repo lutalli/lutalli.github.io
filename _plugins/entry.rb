@@ -74,46 +74,6 @@ module Codex
       "</div>"
     end
   end
-
-  class EntryRefTag < Liquid::Tag
-    # Tag for referencing an entry.
-    #
-    # Syntax:
-    #
-    #   {{ entry_ref <SLUG>#<TYPE>-<INDEX>[:<SUFFIX>] }}
-    #
-
-    def initialize(tag_name, input, tokens)
-      super
-      @args = input.strip.split(':')
-
-      slug_label_array = @args[0].split('#')
-      @slug            = slug_label_array[0]
-      @label           = slug_label_array[1]
-      type, index      = @label.split('-')
-      type_disp        = Codex::get_type_disp(type)
-      @label_disp      = "#{type_disp} #{index}"
-
-      @suffix = ''
-      if @args.length > 1
-        @suffix = @args[1]
-      end
-    end
-
-    def render(context)
-      url = "/codex/#{@slug}\##{@label}"
-
-      content = "`#{@slug}` > #{@label_disp}"
-
-      if @suffix != ''
-        content << " #{@suffix}"
-      end
-
-      # Again, `markdown="1"` is important.
-      "<a href=\"#{url}\" markdown=\"1\">#{content}</a>"
-    end
-  end
 end
 
 Liquid::Template.register_tag('entry', Codex::EntryTagBlock)
-Liquid::Template.register_tag('entry_ref', Codex::EntryRefTag)
