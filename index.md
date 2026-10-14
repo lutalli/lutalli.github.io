@@ -1,5 +1,5 @@
 ---
-title: lutalli.com
+title: lutalli.github.io
 ---
 
 ### Links
@@ -11,4 +11,4 @@ title: lutalli.com
 
 ### Contact
 
-- [`lutalli@tuta.io`](mailto:lutalli@tuta.io)
+- Email: [`lutalli@tuta.io`](mailto:lutalli@tuta.io)
