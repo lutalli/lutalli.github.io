@@ -45,7 +45,7 @@ To summarize [Proposition 1 (I)](#PROP-1), [commutativity](#PROP-2) and [associa
 
 {% entry PROP-4 %}
 
-For any set $X$, $(\powerset(X), \symdif)$ is an abelian group with neutral element $\empt$.
+For any set $X$, $(\powerset(X), \symdif)$ is an [abelian](/codex/MAG#DEF-2) [group](/codex/G) with [neutral element](/codex/NEU) $\empt$.
 
 {% endentry %}
 
