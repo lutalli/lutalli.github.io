@@ -1,7 +1,7 @@
 ---
 title:   "Codex: Introduction"
 date:    2026-03-05
-updated: 2026-08-16
+updated: 2026-10-16
 meta:    true
 ---
 
@@ -25,7 +25,7 @@ Codex mostly consists of **entries**, which look like this:
 
 {% endentry %}
 
-Each entry could either be an *axiom*, a *definition*, a *proposition* or a *remark*. Here, *proposition* is a generalized term for mathematical results, including theorems, lemmas, etc.
+Each entry could either be an *axiom*, a *definition*, or a *proposition*. Here, *proposition* is a generalized term for mathematical results, including theorems, lemmas, etc.
 
 ## Other Notes
 
