@@ -22,11 +22,15 @@ $$ \lvert X \rvert < \lvert \powerset(X) \rvert. $$
 
 {% endentry %}
 
-***Proof.*** For any surjection $f : X \to \powerset(X)$, there would be an $a \in X$ such that
+{% proof %}
+
+For any surjection $f : X \to \powerset(X)$, there would be an $a \in X$ such that
 
 $$ f(a) = \{x \in X : x \notin f(x)\}. $$
 
-Consider whether $a \in f(a)$.<qed />
+Consider whether $a \in f(a)$.
+
+{% endproof %}
 
 {% entry PROP-3 %}
 
@@ -36,7 +40,9 @@ $$ \lvert \powerset(X) \rvert = 2^{\lvert X \rvert}. $$
 
 {% endentry %}
 
-***Proof.*** For every $A \subseteq X$ define
+{% proof %}
+
+For every $A \subseteq X$ define
 
 $$ f_A : X\to 2, \, x \mapsto \begin{cases}
     1, & \text{if $x\in A$}; \\
@@ -47,7 +53,9 @@ then
 
 $$ \varphi : \powerset(X) \to \fun(X, 2), \, A \mapsto f_A $$
 
-defines a bijection.<qed />
+defines a bijection.
+
+{% endproof %}
 
 As a corollary of [Cantor's Theorem](#PROP-2) and [Proposition 3](#PROP-3):
 

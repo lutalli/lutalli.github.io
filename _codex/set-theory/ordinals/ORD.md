@@ -69,11 +69,15 @@ $\Ord$ is a [proper class](/codex/CLS#DEF-3).
 
 {% endentry %}
 
-***Proof.*** By [Proposition 5](#PROP-5), $\alpha = \sup \Ord$ would be an ordinal, hence
+{% proof %}
+
+By [Proposition 5](#PROP-5), $\alpha = \sup \Ord$ would be an ordinal, hence
 
 $$ \alpha + 1 \leq \alpha, $$
 
-a contradiction.<qed />
+a contradiction.
+
+{% endproof %}
 
 ---
 

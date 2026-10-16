@@ -32,11 +32,15 @@ $\empt$ is the only set disjoint to every other set.
 
 {% endentry %}
 
-***Proof.*** $\empt$ is disjoint to every set by [`ITSC` > Proposition 2](/codex/ITSC#PROP-2). If a set $X$ is non-empty,
+{% proof %}
+
+$\empt$ is disjoint to every set by [`ITSC` > Proposition 2](/codex/ITSC#PROP-2). If a set $X$ is non-empty,
 
 $$ Y = X \cup \{X\} $$
 
-is always joint to $X$. By [irreflexivity of $\in$](/codex/ZF#PROP-1), $X \neq Y$.<qed />
+is always joint to $X$. By [irreflexivity of $\in$](/codex/ZF#PROP-1), $X \neq Y$.
+
+{% endproof %}
 
 ---
 

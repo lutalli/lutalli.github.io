@@ -63,14 +63,14 @@ $$ a \cdot 0 = 0 \cdot a = 0. $$
 
 {% endentry %}
 
-***Proof.***
+{% proof %}
 
 $$ \begin{align*}
     a \cdot 0 &= a \cdot (1 - 1) = a \cdot 1 - a \cdot 1 = 0, \\
     0 \cdot a &= (1 - 1) \cdot a = 1 \cdot a - 1 \cdot a = 0.
 \end{align*} $$
 
-&#8203;<qed />
+{% endproof %}
 
 {% entry PROP-2 %}
 
@@ -78,8 +78,10 @@ In a non-zero ring $R$, $0$ is not invertible.
 
 {% endentry %}
 
-***Proof.*** Otherwise, there would be an $x \in R$ such that
+{% proof %}
+
+Otherwise, there would be an $x \in R$ such that
 
 $$ 0 = 0 \cdot x = 1. $$
 
-&#8203;<qed />
+{% endproof %}

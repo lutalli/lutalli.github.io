@@ -16,11 +16,15 @@ All subgroups are neutral-preserving: If $G$ is a group with neutral element $e$
 
 {% endentry %}
 
-***Proof.*** If $e'$ is the neutral element of $H$,
+{% proof %}
+
+If $e'$ is the neutral element of $H$,
 
 $$ e'e' = e' = ee', $$
 
-hence $e' = e$ by [cancellation property of group](/codex/G#PROP-3).<qed />
+hence $e' = e$ by [cancellation property of group](/codex/G#PROP-3).
+
+{% endproof %}
 
 {% entry PROP-2:Subgroup Test A %}
 

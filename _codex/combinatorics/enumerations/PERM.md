@@ -32,7 +32,7 @@ $$ P(n, k) = \frac{n!}{(n - k)!}. $$
 
 {% endentry %}
 
-***Proof.***
+{% proof %}
 
 {:.par-upper-roman}
 1. $$ P(n, 0) = \big\lvert \{\empt\} \big\rvert = 1 = \frac{n!}{(n - 0)!}. $$
@@ -57,7 +57,7 @@ $$ P(n, k) = \frac{n!}{(n - k)!}. $$
    $$ P(n, k) = \left[\prod_{i = 1}^k (n - k + i)\right] \cdot P(n - k, 0) =%
       \prod_{i = 1}^k (n - k + i) = \frac{n!}{(n - k)!}. $$
 
-&#8203;<qed />
+{% endproof %}
 
 As a corollary:
 

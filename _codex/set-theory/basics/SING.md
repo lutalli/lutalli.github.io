@@ -20,7 +20,11 @@ $$ X \neq \{X\}. $$
 
 {% endentry %}
 
-***Proof.*** If $X = \\{X\\}$, then $X \in X$, contrary to [irreflexivity of $\in$](/codex/ZF#PROP-1).<qed />
+{% proof %}
+
+If $X = \\{X\\}$, then $X \in X$, contrary to [irreflexivity of $\in$](/codex/ZF#PROP-1).
+
+{% endproof %}
 
 ---
 

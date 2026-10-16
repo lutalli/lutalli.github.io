@@ -26,7 +26,11 @@ $\Card$ is a [proper class](/codex/CLS#DEF-3).
 
 {% endentry %}
 
-***Proof.*** Show that $\Ord \subseteq \bigcup \Card$.<qed />
+{% proof %}
+
+Show that $\Ord \subseteq \bigcup \Card$.
+
+{% endproof %}
 
 {% entry PROP-2 %}
 
@@ -34,7 +38,11 @@ Every infinite cardinal is a [limit ordinal](/codex/LIMO).
 
 {% endentry %}
 
-***Proof.*** By [`SUC` > Proposition 2](/codex/SUC#PROP-2).<qed />
+{% proof %}
+
+By [`SUC` > Proposition 2](/codex/SUC#PROP-2).
+
+{% endproof %}
 
 ---
 

@@ -30,7 +30,7 @@ $$ \lvert \alpha + 1 \rvert = \lvert \alpha \rvert. $$
 
 {% endentry %}
 
-***Proof.***
+{% proof %}
 
 $$ f : \alpha + 1 \to \alpha, \, \xi \mapsto \begin{cases}
        0,       & \text{if $\xi = \alpha$}; \\
@@ -38,7 +38,9 @@ $$ f : \alpha + 1 \to \alpha, \, \xi \mapsto \begin{cases}
        \xi,     & \text{otherwise}
 \end{cases} $$
 
-is an [injection](/codex/INJ).<qed />
+is an [injection](/codex/INJ).
+
+{% endproof %}
 
 ---
 

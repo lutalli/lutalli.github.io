@@ -17,7 +17,11 @@ Then $A = \N$.
 
 {% endentry %}
 
-***Proof.*** Otherwise, $\min(\N \setdif A)$ would be a [limit ordinal](/codex/LIMO), contrary to [`FINO` > Proposition 1](/codex/FINO#PROP-1).<qed />
+{% proof %}
+
+Otherwise, $\min(\N \setdif A)$ would be a [limit ordinal](/codex/LIMO), contrary to [`FINO` > Proposition 1](/codex/FINO#PROP-1).
+
+{% endproof %}
 
 ---
 

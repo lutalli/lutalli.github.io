@@ -46,7 +46,9 @@ $$ C(n, k) = \frac{n!}{k!(n - k)!}. $$
 
 {% endentry %}
 
-***Proof.*** The function
+{% proof %}
+
+The function
 
 $$ \varphi :%
        \inj(\llbra k \rrbra, \llbra n \rrbra) \to \powerset_k(\llbra n \rrbra), \,%
@@ -69,7 +71,7 @@ whence
 
 $$ C(n, k) = \frac{P(n, k)}{k!} = \frac{n!}{k!(n - k)!}. $$
 
-&#8203;<qed />
+{% endproof %}
 
 {% entry PROP-2 %}
 
@@ -79,7 +81,9 @@ $$ C(n, k) = C(n - 1, k) + C(n - 1, k - 1). $$
 
 {% endentry %}
 
-***Proof.*** For every $A \in \powerset_k(\llbra n \rrbra)$, either $n \in A$ or $n \notin A$. Hence
+{% proof %}
+
+For every $A \in \powerset_k(\llbra n \rrbra)$, either $n \in A$ or $n \notin A$. Hence
 
 $$ \powerset_k(\llbra n \rrbra) = \powerset_k(\llbra n - 1\rrbra) \sqcup T, $$
 
@@ -88,7 +92,7 @@ where
 $$ T = \big\{ B \cup \{n\} : B \in \powerset_{k - 1}(\llbra n - 1\rrbra) \big\} \equ%
        \powerset_{k - 1}(\llbra n - 1 \rrbra). $$
 
-&#8203;<qed />
+{% endproof %}
 
 {% entry PROP-3 %}
 
@@ -98,13 +102,17 @@ $$ C(n, k) = C(n, n - k). $$
 
 {% endentry %}
 
-***Proof.*** The function
+{% proof %}
+
+The function
 
 $$ \varphi :%
        \powerset_k(\llbra n \rrbra) \to \powerset_{n - k}(\llbra n \rrbra), \,%
        A \mapsto \llbra n \rrbra \setdif A $$
 
-is bijective.<qed />
+is bijective.
+
+{% endproof %}
 
 {% entry PROP-4 %}
 
@@ -114,7 +122,7 @@ $$ \sum_{k = 0}^n C(n, k) = 2^n. $$
 
 {% endentry %}
 
-***Proof.***
+{% proof %}
 
 $$ \bigsqcup_{k = 0}^n \powerset_k(\llbra n \rrbra) = \powerset(\llbra n \rrbra). $$
 
@@ -122,4 +130,4 @@ By [`P` > Proposition 3](/codex/P#PROP-3),
 
 $$ \lvert \powerset(\llbra n \rrbra) \rvert = 2^n. $$
 
-&#8203;<qed />
+{% endproof %}

@@ -157,7 +157,11 @@ No set is an element of itself.
 
 {% endentry %}
 
-***Proof.*** For any set $X$, if $X \in X$, then $X$ and $\\{X\\}$ would be joint, contrary to [Axiom of Regularity](#AX-9).<qed />
+{% proof %}
+
+For any set $X$, if $X \in X$, then $X$ and $\\{X\\}$ would be joint, contrary to [Axiom of Regularity](#AX-9).
+
+{% endproof %}
 
 ---
 

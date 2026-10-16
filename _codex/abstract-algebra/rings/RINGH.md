@@ -50,7 +50,11 @@ For any ring homomorphism $f : R \to S$:
 
 {% endentry %}
 
-***Proof.*** By [`GH` > Proposition 1](/codex/GH#PROP-1).<qed />
+{% proof %}
+
+By [`GH` > Proposition 1](/codex/GH#PROP-1).
+
+{% endproof %}
 
 {% entry PROP-2 %}
 
@@ -60,4 +64,8 @@ $$ \ker f = \{0\}. $$
 
 {% endentry %}
 
-***Proof.*** By [`GH` > Proposition 5](/codex/GH#PROP-5).<qed />
+{% proof %}
+
+By [`GH` > Proposition 5](/codex/GH#PROP-5).
+
+{% endproof %}

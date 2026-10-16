@@ -26,7 +26,9 @@ Let $M$ be a monoid and $a \in M$. $a$ is [left-invertible](/codex/INV) if and o
 
 {% endentry %}
 
-***Proof.*** Let $e$ be the neutral element.
+{% proof %}
+
+Let $e$ be the neutral element.
 
 - If $a$ is left-invertible, there is $x\in M$ such that $xa = e$. We have
 
@@ -40,7 +42,7 @@ Let $M$ be a monoid and $a \in M$. $a$ is [left-invertible](/codex/INV) if and o
 
   which follows that $xa = e$.
 
-&#8203;<qed />
+{% endproof %}
 
 ---
 

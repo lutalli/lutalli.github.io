@@ -30,11 +30,13 @@ A unital magma has exactly one neutral element.
 
 {% endentry %}
 
-***Proof.*** Let $M$ be a unital magma. If both $e$ and $e'$ are neutral elements of $M$,
+{% proof %}
+
+Let $M$ be a unital magma. If both $e$ and $e'$ are neutral elements of $M$,
 
 $$ e = ee' = e'. $$
 
-&#8203;<qed />
+{% endproof %}
 
 ---
 

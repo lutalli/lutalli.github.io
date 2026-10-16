@@ -31,7 +31,11 @@ A monoid becomes a group as soon as it is left-invertible or right-invertible.
 
 {% endentry %}
 
-***Proof.*** By [`MOID` > Proposition 1](/codex/MOID#PROP-1).<qed />
+{% proof %}
+
+By [`MOID` > Proposition 1](/codex/MOID#PROP-1).
+
+{% endproof %}
 
 {% entry PROP-2 %}
 
@@ -45,11 +49,13 @@ A group is uniquely invertible.
 
 {% endentry %}
 
-***Proof.*** Let $G$ be a group with neutral element $e$ and let $a \in G$. If both $x$ and $x'$ are inverses of $a$,
+{% proof %}
+
+Let $G$ be a group with neutral element $e$ and let $a \in G$. If both $x$ and $x'$ are inverses of $a$,
 
 $$ x = xe = x(ax') = (xa)x' = ex' = x'. $$
 
-&#8203;<qed />
+{% endproof %}
 
 {% entry DEF-2 %}
 
@@ -65,7 +71,9 @@ A group is cancellative.
 
 {% endentry %}
 
-***Proof.*** Let $G$ be a group with neutral element $e$. Let $a$, $x$, $y \in G$.
+{% proof %}
+
+Let $G$ be a group with neutral element $e$. Let $a$, $x$, $y \in G$.
 
 - If $ax = ay$, then
 
@@ -75,7 +83,7 @@ A group is cancellative.
 
   $$ x = xe = x(aa^{-1}) = (xa)a^{-1} = (ya)a^{-1} = y(aa^{-1}) = ye = y. $$
 
-&#8203;<qed />
+{% endproof %}
 
 {% entry PROP-5:Involutivity of Inversion %}
 

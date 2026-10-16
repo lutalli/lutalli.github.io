@@ -75,14 +75,10 @@ $$ (\alpha \cdot \beta) \cdot \gamma = \alpha \cdot (\beta \cdot \gamma). $$
 
 {% endentry %}
 
-{% entry REM-1 %}
-
-Neither $+$ or $\cdot$ is [commutative](/codex/RELC):
-
-$$ 1 + \omega = \omega \neq \omega + 1, \quad%
-   2 \cdot \omega = \omega \neq \omega \cdot 2. $$
-
-{% endentry %}
+> Neither $+$ or $\cdot$ is [commutative](/codex/RELC):
+>
+> $$ 1 + \omega = \omega \neq \omega + 1, \quad%
+>    2 \cdot \omega = \omega \neq \omega \cdot 2. $$
 
 ---
 

@@ -29,14 +29,16 @@ $$ \lVert 0 \rVert = 0. $$
 
 {% endentry %}
 
-***Proof.*** If $V$ is over $K$,
+{% proof %}
+
+If $V$ is over $K$,
 
 $$ \lVert 0 \rVert =%
    \lVert 0_K \cdot 0 \rVert =%
    \lvert 0_K \rvert \lVert 0 \rVert =%
    0 \cdot \lVert 0 \rVert = 0. $$
 
-&#8203;<qed />
+{% endproof %}
 
 {% entry PROP-2:Non-Negativity %}
 
@@ -46,7 +48,7 @@ $$ \lVert v \rVert \geq 0. $$
 
 {% endentry %}
 
-***Proof.***
+{% proof %}
 
 $$ 2 \lVert v \rVert =%
    \lVert v \rVert + \lVert v \rVert =%
@@ -54,4 +56,4 @@ $$ 2 \lVert v \rVert =%
    \lVert v - v \rVert =%
    \lVert 0 \rVert = 0. $$
 
-&#8203;<qed />
+{% endproof %}

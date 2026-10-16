@@ -32,7 +32,11 @@ Let $X$ be a [partially ordered](/codex/PO) set and $a \in X$.
 
 {% endentry %}
 
-***Proof.*** By [antisymmetry](/codex/PO#DEF-1) of $\leq$.<qed />
+{% proof %}
+
+By [antisymmetry](/codex/PO#DEF-1) of $\leq$.
+
+{% endproof %}
 
 ---
 

@@ -45,8 +45,10 @@ $$ x \neq y \enspace\rimp\enspace d(x, y) > 0. $$
 
 {% endentry %}
 
-***Proof.***
+{% proof %}
 
 $$ 2 d(x, y) = d(x, y) + d(x, y) = d(x, y) + d(y, x) \geq d(x, x) = 0. $$
 
-If $x \neq y$, then $d(x, y) \neq 0$.<qed />
+If $x \neq y$, then $d(x, y) \neq 0$.
+
+{% endproof %}

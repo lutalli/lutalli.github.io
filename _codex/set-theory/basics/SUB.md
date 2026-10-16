@@ -20,7 +20,11 @@ $\empt$ is the only set that is a subset of every [non-empty](/codex/EMP) set.
 
 {% endentry %}
 
-***Proof.*** $\empt$ is a subset of every set since no $x \in \empt$. If $X$ is a subset of every non-empty set, then $X \subseteq \\{X\\}$. Were any $a \in X$, then $a = X$, then $X \in X$, contrary to [irreflexivity of $\in$](/codex/ZF#PROP-1).<qed />
+{% proof %}
+
+$\empt$ is a subset of every set since no $x \in \empt$. If $X$ is a subset of every non-empty set, then $X \subseteq \\{X\\}$. Were any $a \in X$, then $a = X$, then $X \in X$, contrary to [irreflexivity of $\in$](/codex/ZF#PROP-1).
+
+{% endproof %}
 
 {% entry PROP-2:Reflexivity %}
 

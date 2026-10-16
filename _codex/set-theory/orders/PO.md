@@ -52,7 +52,11 @@ A binary relation is a strict partial order as soon as it is [irreflexive](/code
 
 {% endentry %}
 
-***Proof.*** Irreflexivity and transitivity imply asymmetry: Let $<$ be an irreflexive and transitive relation on $X$. If $x < y$ and $y < x$, then $x < x$ by transitivity, contrary to irreflexivity.<qed />
+{% proof %}
+
+Irreflexivity and transitivity imply asymmetry: Let $<$ be an irreflexive and transitive relation on $X$. If $x < y$ and $y < x$, then $x < x$ by transitivity, contrary to irreflexivity.
+
+{% endproof %}
 
 {% entry PROP-2 %}
 

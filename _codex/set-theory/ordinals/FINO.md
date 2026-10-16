@@ -40,7 +40,11 @@ $\omega$ is the [least](/codex/MAX) [limit ordinal](/codex/LIMO).
 
 {% endentry %}
 
-***Proof.*** By [`LIMO` > Proposition 1 (I) $\lrimp$ (V)](/codex/LIMO#PROP-1).<qed />
+{% proof %}
+
+By [`LIMO` > Proposition 1 (I) $\lrimp$ (V)](/codex/LIMO#PROP-1).
+
+{% endproof %}
 
 ---
 
@@ -51,3 +55,4 @@ $\omega$ is the [least](/codex/MAX) [limit ordinal](/codex/LIMO).
 
 [2]
 : Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 20**.
+

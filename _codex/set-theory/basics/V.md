@@ -18,7 +18,11 @@ $\V$ is a [proper class](/codex/CLS#DEF-3).
 
 {% endentry %}
 
-***Proof.*** Since $\V = \V$, it follows that $\V \in \V$, contrary to [irreflexivity of $\in$](/codex/ZF#PROP-1).<qed />
+{% proof %}
+
+Since $\V = \V$, it follows that $\V \in \V$, contrary to [irreflexivity of $\in$](/codex/ZF#PROP-1).
+
+{% endproof %}
 
 ---
 

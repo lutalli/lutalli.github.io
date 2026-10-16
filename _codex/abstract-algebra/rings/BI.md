@@ -12,7 +12,9 @@ $$ (a + b)^n = \sum_{k = 0}^n \binom{n}{k} a^{n - k} b^k. $$
 
 {% endentry %}
 
-***Proof.*** By induction:
+{% proof %}
+
+By induction:
 
 {:.par-upper-roman}
 1. $$ (a + b)^1 = a + b = \binom{1}{0} a^1 b^0 + \binom{1}{1} a^0 b^1. $$
@@ -39,4 +41,4 @@ $$ (a + b)^n = \sum_{k = 0}^n \binom{n}{k} a^{n - k} b^k. $$
        &= \sum_{k = 0}^{n + 1} \binom{n + 1}{k} a^{n + 1 - k} b^k.
    \end{align*} $$
 
-&#8203;<qed />
+{% endproof %}

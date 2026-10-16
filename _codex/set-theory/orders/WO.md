@@ -28,11 +28,15 @@ If $W$ is a well-ordered set and $f : W \to W$ is [strictly increasing](/codex/O
 
 {% endentry %}
 
-***Proof.*** Assume $A = \\{x \in W : f(x) < x\\}$ were non-empty. Let $z = \min A$, then
+{% proof %}
+
+Assume $A = \\{x \in W : f(x) < x\\}$ were non-empty. Let $z = \min A$, then
 
 $$ f(f(z)) < f(z) < z, $$
 
-a contradiction.<qed />
+a contradiction.
+
+{% endproof %}
 
 {% entry PROP-3 %}
 
@@ -40,7 +44,11 @@ The only [automorphism](/codex/HOM) on a well-ordered set $W$ is the [identity](
 
 {% endentry %}
 
-***Proof.*** Let $f$ be an automorphism $W$. By [`OH` > Proposition 1](/codex/OH#PROP-1), both $f$ and $f^{-1}$ are strictly increasing. By [Proposition 2](#PROP-2), $x \leq f(x)$ and $x \leq f^{-1}(x)$ for every $x \in W$, which follows that $x \leq f(x)$ and $f(x) \leq x$ for every $x \in W$.<qed />
+{% proof %}
+
+Let $f$ be an automorphism $W$. By [`OH` > Proposition 1](/codex/OH#PROP-1), both $f$ and $f^{-1}$ are strictly increasing. By [Proposition 2](#PROP-2), $x \leq f(x)$ and $x \leq f^{-1}(x)$ for every $x \in W$, which follows that $x \leq f(x)$ and $f(x) \leq x$ for every $x \in W$.
+
+{% endproof %}
 
 {% entry PROP-4 %}
 
@@ -48,7 +56,11 @@ If two well-ordered sets $W$ and $W'$ are [isomorphic](/codex/HOM#DEF-2), then t
 
 {% endentry %}
 
-***Proof.*** If $f$ and $g$ are isomorphisms from $W$ onto $W'$, $f\circ g^{-1}$ is an automorphism on $W$. By [Proposition 3](#PROP-3), $f\circ g^{-1} = \id_W$.<qed />
+{% proof %}
+
+If $f$ and $g$ are isomorphisms from $W$ onto $W'$, $f\circ g^{-1}$ is an automorphism on $W$. By [Proposition 3](#PROP-3), $f\circ g^{-1} = \id_W$.
+
+{% endproof %}
 
 {% entry DEF-3 %}
 
@@ -66,11 +78,15 @@ No well-ordered set is isomorphic to an initial segment of itself.
 
 {% endentry %}
 
-***Proof.*** Let $W$ be a well-ordered set. For any $u \in W$, if
+{% proof %}
+
+Let $W$ be a well-ordered set. For any $u \in W$, if
 
 $$ f : W \to \init_u W, $$
 
-then $f(u) < u$. By [Proposition 2](#PROP-2), $f$ can not be an isomorphism.<qed />
+then $f(u) < u$. By [Proposition 2](#PROP-2), $f$ can not be an isomorphism.
+
+{% endproof %}
 
 {% entry PROP-6 %}
 

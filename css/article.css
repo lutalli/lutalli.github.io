@@ -180,6 +180,11 @@ article {
         margin:         1.2em 0;
     }
 
+    & details {
+        margin-top:     2em;
+        margin-bottom:  2em;
+    }
+
     & qed::before {
         content:        "◼";
 

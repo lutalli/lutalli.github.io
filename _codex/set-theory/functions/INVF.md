@@ -29,11 +29,11 @@ $$ \lvert A \rvert = \sum_{b \in B} \big\lvert f^{-1}[\{ b \}] \big\rvert. $$
 
 {% endentry %}
 
-***Proof.***
+{% proof %}
 
 $$ A = \bigsqcup_{b \in B}f^{-1}[\{ b \}]. $$
 
-&#8203;<qed />
+{% endproof %}
 
 In particular:
 
