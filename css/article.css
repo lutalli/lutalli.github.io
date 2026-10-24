@@ -217,7 +217,8 @@ article {
     }
 
     & dd {
-        grid-column-start: 2
+        grid-column-start: 2;
+        margin-left:    1.5em;
     }
 }
 
