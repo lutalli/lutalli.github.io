@@ -139,8 +139,6 @@ article {
     & pre {
         padding:        1.6em;
 
-        font-size:      0.8em;
-
         overflow-x:     scroll;
     }
 
