@@ -4,7 +4,7 @@ date:    2026-03-14
 updated: 2026-06-11
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 A **monoid** is a [unital](/codex/NEU#DEF-1) [semigroup](/codex/SEMG), i.e. a [magma](/codex/MAG) $M$ such that:
 
@@ -18,15 +18,15 @@ A **monoid** is a [unital](/codex/NEU#DEF-1) [semigroup](/codex/SEMG), i.e. a [m
 
    ($e$ is automatically unique by [`NEU` > Proposition 1](/codex/NEU#PROP-1).)
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 Let $M$ be a monoid and $a \in M$. $a$ is [left-invertible](/codex/INV) if and only if $a$ is right-invertible.
 
-{% endentry %}
+{% endproposition %}
 
-{% proof %}
+{% proof @qedfix %}
 
 Let $e$ be the neutral element.
 
@@ -49,7 +49,12 @@ Let $e$ be the neutral element.
 ## References
 
 [1]
-: Wikipedia contributors. [***Monoid***](https://en.wikipedia.org/w/index.php?title=Monoid&oldid=1378649517). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Monoid"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Monoid&oldid=1378649517"
+  %}
 
 [2]
-: Gaetan Borot. ***Lineare Algebra I\****. Lecture **7**. Humboldt University of Berlin. WS 2025/26.
+: {% ref_import key="Borot" target="Lecture 7" %}

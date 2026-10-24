@@ -4,7 +4,7 @@ date:    2026-03-18
 updated: 2026-06-11
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 A **ring** is a structure $(R, +, \cdot)$ such that:
 
@@ -24,23 +24,27 @@ A **ring** is a structure $(R, +, \cdot)$ such that:
 
 - The neutral element of $(R, \cdot)$, called the **multiplicative neutral element**, is typically denoted by $1$.
 
-{% endentry %}
+{% enddefinition %}
 
-***Example.*** $\\{0\\}$, a **trivial** / **zero ring**, is the only kind of ring where $0 = 1$.
+{% examples %}
 
-{% entry DEF-2 %}
+1. $\\{0\\}$, a **trivial** / **zero ring**, is the only kind of ring where $0 = 1$.
+
+{% endexamples %}
+
+{% definition 2 %}
 
 A ring $(R, +, \cdot)$ is **abelian** if $(R, \cdot)$ is abelian.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-3 %}
+{% definition 3 %}
 
 A **unit** of a ring is a multiplicatively invertible element.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-4 %}
+{% definition 4 %}
 
 Let $R$ be a ring, $a \in R$ and $n \in \N$. $a^n$ is defined recursively:
 
@@ -53,17 +57,17 @@ For $n \in \N^+$, we have
 
 $$ a^n = \underbrace{a \cdot \cdots \cdot a}_{\text{$n$ times}}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 In a ring $R$, $0$ is an absorbing element with respect to multiplication: For all $a \in R$,
 
 $$ a \cdot 0 = 0 \cdot a = 0. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% proof %}
+{% proof @qedfix %}
 
 $$ \begin{align*}
     a \cdot 0 &= a \cdot (1 - 1) = a \cdot 1 - a \cdot 1 = 0, \\
@@ -72,13 +76,13 @@ $$ \begin{align*}
 
 {% endproof %}
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 In a non-zero ring $R$, $0$ is not invertible.
 
-{% endentry %}
+{% endproposition %}
 
-{% proof %}
+{% proof @qedfix %}
 
 Otherwise, there would be an $x \in R$ such that
 

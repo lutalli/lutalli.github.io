@@ -4,9 +4,9 @@ date:    2026-02-16
 updated: 2026-06-23
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
-The **intersection** of a [class](/codex/CLS) $X$ is
+The **intersection** of a [non-empty](/codex/EMP) [class](/codex/CLS) $X$ is
 
 $$ \bigcap X = \left\{ x : (\forall A \in X : x \in A) \right\}. $$
 
@@ -16,60 +16,63 @@ For any sets $X_1$, $\cdots$, $X_n$ ($n \geq 2$), we write
 
 $$ X_1 \cap \cdots \cap X_n = \bigcap \{X_1, \cdots, X_n\}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 ! %}
-
-$$ \bigcap \empt = \V. $$
-
-{% endentry %}
-
-{% entry PROP-2 %}
+{% proposition 1 %}
 
 For any set $X$,
 
 $$ X \cap \empt = \empt. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-3:Idempotence %}
+{% proposition 2 "Idempotence" %}
 
 For any set $X$,
 
 $$ X \cap X = X. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-4:Commutativity %}
+{% proposition 3 "Commutativity" %}
 
 For any sets $X$ and $Y$,
 
 $$ X \cap Y = Y \cap X. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-5:Associativity %}
+{% proposition 4 "Associativity" %}
 
 For any sets $X$, $Y$ and $Z$:
 
 $$ (X \cap Y) \cap Z = X \cap (Y \cap Z) = X \cap Y \cap Z. $$
 
-{% endentry %}
+{% endproposition %}
 
-To summarize [Proposition 2](#PROP-2), [commutativity](#PROP-3) and [associativity](#PROP-4) of $\cap$:
-
-{% entry PROP-6 %}
+{% proposition 6 %}
 
 For any set $X$, $(\powerset(X), \cap)$ is an [abelian](/codex/MAG#DEF-2) [semigroup](/codex/SEMG).
 
-{% endentry %}
+{% endproposition %}
+
+{% proof %}
+
+This is a summary of [Proposition 1](#PROP-1), [commutativity](#PROP-2) and [associativity](#PROP-3) of $\cap$.
+
+{% endproof %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Intersection***](https://en.wikipedia.org/w/index.php?title=Intersection&oldid=1320120208). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Intersection"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Intersection&oldid=1320120208"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **pp. 7--8**.
+: {% ref_import key="Jech" pages="7-8" %}

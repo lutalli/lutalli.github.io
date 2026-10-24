@@ -4,7 +4,7 @@ date:    2026-04-05
 updated: 2026-06-11
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $R$ be an integral domain and $R^\* = R \setdif \\{0\\}$. Define the equivalence relation on $R \times R^\*$:
 
@@ -27,4 +27,4 @@ $$ \begin{align*}
 
 for all $a / b$, $x / y \in \fract R.$
 
-{% endentry %}
+{% enddefinition %}

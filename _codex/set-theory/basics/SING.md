@@ -4,21 +4,21 @@ date:    2026-02-16
 updated: 2026-06-23
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 The **singleton** of a set $a$ is
 
 $$ \{a\} = \{a, a\}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 For any set $X$,
 
 $$ X \neq \{X\}. $$
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -31,7 +31,12 @@ If $X = \\{X\\}$, then $X \in X$, contrary to [irreflexivity of $\in$](/codex/ZF
 ## References
 
 [1]
-: Wikipedia contributors. [***Singleton (mathematics)***](https://en.wikipedia.org/w/index.php?title=Singleton_(mathematics)&oldid=1360442170). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Singleton (mathematics)"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Singleton_(mathematics)&oldid=1360442170"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 7**.
+: {% ref_import key="Jech" pages="7" %}

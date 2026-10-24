@@ -4,7 +4,7 @@ date:    2026-02-17
 updated: 2026-09-18
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 The **Cartesian product** of two sets $X$ and $Y$ is
 
@@ -26,25 +26,25 @@ For any set $X$ and any $n \in \N^+$, we write
 
 $$ X^n = \underbrace{X \times \cdots \times X}_{\text{$n$ times}}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 For any set $X$,
 
 $$ X \times \empt = \empt \times X = \empt. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-3 %}
+{% proposition 3 %}
 
 For any sets $A$, $B$, $C$ and $D$,
 
 $$ (A \cap B) \times (C \cap D) = (A \times C) \cap (B \times D). $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-4:Distributivities %}
+{% proposition 4 "Distributivities" %}
 
 For any sets $A$, $B$ and $C$:
 
@@ -55,14 +55,19 @@ For any sets $A$, $B$ and $C$:
 
 3. $$ A \times (B \setdif C) = (A \times B) \setdif (A \times C). $$
 
-{% endentry %}
+{% endproposition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Cartesian product***](https://en.wikipedia.org/w/index.php?title=Cartesian_product&oldid=1367893132). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Cartesian product"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Cartesian_product&oldid=1367893132"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 10**.
+: {% ref_import key="Jech" pages="10" %}

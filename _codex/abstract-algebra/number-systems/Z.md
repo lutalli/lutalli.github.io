@@ -4,7 +4,7 @@ date:    2026-03-19
 updated: 2026-06-11
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 The set of **integers** is
 
@@ -14,9 +14,9 @@ where $\sim$ is an equivalence relation on $\N \times \N$ defined by
 
 $$ (a, b) \sim (x, y) \enspace\lrimp\enspace a + y = b + x. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 Addition and multiplication on $\Z$ are defined by
 
@@ -25,9 +25,9 @@ $$ \begin{align*}
     [(a, b)] \cdot [(x, y)] &= [(ax + by,ay + bx)].
 \end{align*} $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-3 %}
+{% definition 3 %}
 
 $\N$ is embedded into $\Z$ by
 
@@ -37,44 +37,44 @@ Then we can say
 
 $$ \N \subseteq \Z. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-4 %}
+{% definition 4 %}
 
 The following defines a well-order on $\Z$:
 
 $$ [(a, b)] \leq [(x, y)] \enspace\lrimp\enspace a + y \leq b + x. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-5 %}
+{% definition 5 %}
 
 The set of **non-zero integers** is
 
 $$ \Z^* = \Z \setdif \{0\}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-6 %}
+{% definition 6 %}
 
 The set of **positive integers** is
 
 $$ \Z^+ = \{z \in \Z : z > 0\}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-***Note.*** $\Z^+ = \N^+$.
+> $\Z^+ = \N^+$.
 
-{% entry DEF-7 %}
+{% definition 7 %}
 
 The set of **negative integers** is
 
 $$ \Z^- = \{z \in \Z : z < 0\}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 $(\Z, +, \cdot, 0, 1, \leq)$ is a well-ordered abelian ring.
 
-{% endentry %}
+{% endproposition %}

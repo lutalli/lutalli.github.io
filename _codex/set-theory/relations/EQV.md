@@ -4,7 +4,7 @@ date:    2026-02-21
 updated: 2026-09-18
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 A [binary relation](/codex/REL) $\sim$ on a set $X$ is an **equivalence relation** if:
 
@@ -21,9 +21,9 @@ A [binary relation](/codex/REL) $\sim$ on a set $X$ is an **equivalence relation
 
    $$ x \sim y \,\land\, y \sim z \enspace\rimp\enspace x \sim z. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 Let $\sim$ be an equivalence relation on a set $X$ and $a \in X$. The **equivalence class** of $a$ with respect to $\sim$ is
 
@@ -31,9 +31,9 @@ $$ [a]_\sim = \{x \in X : a \sim x\}. $$
 
 If there is no ambiguity, $[a]_\sim$ can be simply written as $[a]$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-3 %}
+{% definition 3 %}
 
 Let $\sim$ be an equivalence relation on a set $X$. The **quotient set** of $X$ by $\sim$ is the set
 
@@ -41,9 +41,9 @@ $$ X / {\sim} \enspace=\enspace \{[x] : x \in X\}, $$
 
 a [partition](/codex/DJU) of $X$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 Let $\sim$ be an equivalence relation on a set $X$. For any $x$, $y \in X$, the following statements are equivalent:
 
@@ -56,17 +56,23 @@ Let $\sim$ be an equivalence relation on a set $X$. For any $x$, $y \in X$, the 
 
 4. $$ [x] \cap [y] \neq \empt. $$
 
-{% endentry %}
+{% endproposition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Equivalence relation***](https://en.wikipedia.org/w/index.php?title=Equivalence_relation&oldid=1364233757). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Equivalence relation"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Equivalence_relation&oldid=1364233757"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 12**.
+: {% ref_import key="Jech" pages="12" %}
 
 [3]
-: Gaetan Borot. ***Lineare Algebra I\****. Lecture **4**. Humboldt University of Berlin. WS 2025/26.
+: {% ref_import key="Borot" target="Lecture 4" %}
+

@@ -4,7 +4,7 @@ date:    2026-03-14
 updated: 2026-08-06
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Broadly speaking, a **homomorphism** is a structure-preserving [function](/codex/F) between two structured sets. The precise definition of a homomorphism depends on the context.
 
@@ -28,9 +28,9 @@ The sets of all endomorphisms and automorphisms on a set $X$ are respectively de
 
 $$ \endo X, \quad \aut X. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 Two structured sets $A$ and $B$ are **isomorphic**, written
 
@@ -40,14 +40,25 @@ if an isomorphism $f$ between them exists. We can then also explicitly write
 
 $$ A \underset{f}{\simeq} B. $$
 
-{% endentry %}
+{% enddefinition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Homomorphism***](https://en.wikipedia.org/w/index.php?title=Homomorphism&oldid=1358161664). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Homomorphism"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Homomorphism&oldid=1358161664"
+  %}
 
 [2]
-: nLab authors. [***Homomorphism***](https://ncatlab.org/nlab/revision/homomorphism/28). nLab. Accessed Sep 14, 2026.
+: {% ref_web
+      author="nLab authors"
+      title="Homomorphism"
+      platform="nLab"
+      url="https://ncatlab.org/nlab/revision/homomorphism/28"
+      date="2026-09-14"
+  %}

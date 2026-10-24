@@ -4,7 +4,7 @@ date:    2026-03-06
 updated: 2026-06-10
 ---
 
-{% entry PROP-1:Transfinite Induction %}
+{% proposition 1 "Transfinite Induction" %}
 
 Let $C$ be a [class](/codex/CLS) of [ordinals](/codex/ORD). Suppose:
 
@@ -19,14 +19,19 @@ Let $C$ be a [class](/codex/CLS) of [ordinals](/codex/ORD). Suppose:
 
 Then $C = \Ord$.
 
-{% endentry %}
+{% endproposition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Transfinite induction***](https://en.wikipedia.org/w/index.php?title=Transfinite_induction&oldid=1355154855). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Transfinite induction"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Transfinite_induction&oldid=1355154855"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 21**.
+: {% ref_import key="Jech" pages="21" %}

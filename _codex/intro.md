@@ -1,7 +1,7 @@
 ---
 title:   "Codex: Introduction"
 date:    2026-03-05
-updated: 2026-10-16
+updated: 2026-10-24
 meta:    true
 ---
 
@@ -17,15 +17,7 @@ Every page (i.e. every concept) is identified by a unique **slug**, which consis
 
 > Example: The slug of *Generated Subgroup* is `GEN`.
 
-Codex mostly consists of **entries**, which look like this:
-
-{% entry PROP-3 %}
-
-...
-
-{% endentry %}
-
-Each entry could either be an *axiom*, a *definition*, or a *proposition*. Here, *proposition* is a generalized term for mathematical results, including theorems, lemmas, etc.
+Codex mostly consists of *axioms*, *definitions* and *propositions*. Here, *proposition* is a generalized term for mathematical results, including theorems, lemmas, etc.
 
 ## Other Notes
 

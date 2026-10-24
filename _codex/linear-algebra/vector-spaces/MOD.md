@@ -4,7 +4,7 @@ date:    2026-04-15
 updated: 2026-06-20
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $R$ be a ring, $M$ be an abelian group and $\cdot : R \times M \to M$. $M$ is a **module** over $R$ if:
 
@@ -27,9 +27,9 @@ Let $R$ be a ring, $M$ be an abelian group and $\cdot : R \times M \to M$. $M$ i
 
 The operation $\cdot$ is then called a **scalar multiplication**.
 
-{% endentry %}
+{% enddefinition %}
 
-***Examples.***
+{% examples %}
 
 1. Given any ring $R$, $\\{0\\}$ is a module over $R$ (the **zero module**).
 
@@ -38,3 +38,5 @@ The operation $\cdot$ is then called a **scalar multiplication**.
    $$ \lambda \cdot(x_1, \cdots, x_n) = (\lambda x_1, \cdots, \lambda x_n) $$
 
    for all $\lambda \in R$ and $(x_1, \cdots, x_n) \in R^n$ (the **standard module**).
+
+{% endexamples %}

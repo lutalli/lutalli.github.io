@@ -4,7 +4,7 @@ date:    2026-04-16
 updated: 2026-10-12
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $M$ be a [unital](/codex/NEU#DEF-1) [magma](/codex/MAG) with [neutral element](/codex/NEU) $e$. Let $a$, $x \in M$.
 
@@ -24,12 +24,12 @@ Let $M$ be a [unital](/codex/NEU#DEF-1) [magma](/codex/MAG) with [neutral elemen
 
 By default, we write $a^{-1}$ for the unique inverse of each $a \in M$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 The **invertible subset** of a magma $M$ is
 
 $$ \inv M = \{a \in M : \text{$a$ is invertible}\}. $$
 
-{% endentry %}
+{% enddefinition %}

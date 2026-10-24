@@ -4,7 +4,7 @@ date:    2026-02-21
 updated: 2026-06-08
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $\sim$ be a [binary relation](/codex/REL) on a set $X$. We define the following properties of $\sim$:
 
@@ -23,7 +23,7 @@ Let $\sim$ be a [binary relation](/codex/REL) on a set $X$. We define the follow
 
 The statements in the *Condition* column are meant to hold either for all $x \in X$; all $x$, $y \in X$; or all $x$, $y$, $z \in X$, accordingly.
 
-{% endentry %}
+{% enddefinition %}
 
 > *Irreflexive* is also known as **strict**.
 
@@ -31,7 +31,7 @@ The statements in the *Condition* column are meant to hold either for all $x \in
 
 > *Right-unique* is also known as **many-to-one** and **functional**. In fact, a right-unique relation is just a [function](/codex/F).
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 Let $\sim$ be a binary relation on two sets $X$ and $Y$.
 
@@ -51,7 +51,7 @@ Let $\sim$ be a binary relation on two sets $X$ and $Y$.
 
   $$ \forall y \in Y \, \exists x \in X : x \sim y. $$
 
-{% endentry %}
+{% enddefinition %}
 
 > *Right-total* is also known as **onto** and **surjective**.
 
@@ -60,4 +60,9 @@ Let $\sim$ be a binary relation on two sets $X$ and $Y$.
 ## References
 
 [1]
-: Wikipedia contributors. [***Relation (mathematics) § Properties of relations***](https://en.wikipedia.org/w/index.php?title=Relation_(mathematics)&oldid=1338483050#Properties_of_relations). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Relation (mathematics) § Properties of relations"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Relation_(mathematics)&oldid=1338483050#Properties_of_relations"
+  %}

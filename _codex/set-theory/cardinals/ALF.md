@@ -4,7 +4,7 @@ date:    2026-03-09
 updated: 2026-06-10
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 **Alpeh numbers** or **alephs** are defined using [Transfinite Recursion](/codex/TREC):
 
@@ -19,9 +19,9 @@ updated: 2026-06-10
 
    $$ \aleph_\alpha = \sup\{\aleph_\beta : \beta < \alpha\}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 For every ordinal $\alpha$, we also define
 
@@ -29,28 +29,33 @@ $$ \omega_\alpha = \aleph_\alpha. $$
 
 $\aleph_\alpha$ is used when we treat it as an aleph, $\omega_\alpha$ when we treat it as an ordinal.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 Any [infinite](/codex/FIN) set $X$ is [well-orderable](/codex/WO) if and only if $\lvert X \rvert$ is an aleph.
 
-{% endentry %}
+{% endproposition %}
 
 The following proposition is equivalent to $\AC$:
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 Every infinite cardinal is an aleph.
 
-{% endentry %}
+{% endproposition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Aleph number***](https://en.wikipedia.org/w/index.php?title=Aleph_number&oldid=1374253751). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Aleph number"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Aleph_number&oldid=1374253751"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 29--30**.
+: {% ref_import key="Jech" pages="29-30" %}

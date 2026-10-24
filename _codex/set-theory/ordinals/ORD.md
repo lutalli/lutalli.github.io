@@ -4,31 +4,33 @@ date:    2026-03-01
 updated: 2026-06-10
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
-An **ordinal number** or **ordinal** is a [transitive](/codex/TRAN) set that is [strictly well-ordered](/codex/WO) by $\in$.
+An **ordinal number** or **ordinal** is a [transitive](/codex/TRAN) set that is [strictly well-ordered](/codex/WO) by $\in$. The [class](/codex/CLS) of all ordinals is denoted by $\Ord$.
 
-The [class](/codex/CLS) of all ordinals is denoted by $\Ord$.
+{% enddefinition %}
 
-{% endentry %}
+{% examples %}
 
-> ***Example.*** $0 := \empt$ is an ordinal.
+1. $0 := \empt$ is an ordinal.
 
-{% entry DEF-2 %}
+{% endexamples %}
+
+{% definition 2 %}
 
 For two ordinals $\alpha$ and $\beta$, we define the following [total order](/codex/TO) on $\Ord$:
 
 $$ \alpha < \beta \enspace\lrimp\enspace \alpha \in \beta. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 Every element of an ordinal is an ordinal.
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 For any two ordinals $\alpha$ and $\beta$:
 
@@ -37,37 +39,37 @@ For any two ordinals $\alpha$ and $\beta$:
 
 2. $$ \alpha \subset \beta \enspace\rimp\enspace \alpha \in\beta. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-3 %}
+{% proposition 3 %}
 
 For any ordinal $\alpha$,
 
 $$ \alpha = \{\beta : \beta < \alpha\}. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-4 %}
+{% proposition 4 %}
 
 If $C$ is a non-empty class of ordinals, then $\bigcap C$ is an ordinal and
 
 $$ \bigcap C \,=\, \inf C \,\in\, C. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-5 %}
+{% proposition 5 %}
 
 If $X$ is a non-empty set of ordinals, then $\bigcup X$ is an ordinal and
 
 $$ \bigcup X = \sup X. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-6:Burali-Forti Paradox %}
+{% proposition 6 "Burali-Forti Paradox" %}
 
 $\Ord$ is a [proper class](/codex/CLS#DEF-3).
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -84,10 +86,20 @@ a contradiction.
 ## References
 
 [1]
-: Wikipedia contributors. [***Ordinal number***](https://en.wikipedia.org/w/index.php?title=Ordinal_number&oldid=1374563689). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Ordinal number"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Ordinal_number&oldid=1374563689"
+  %}
 
 [2]
-: Wikipedia contributors. [***Burali-Forti paradox***](https://en.wikipedia.org/w/index.php?title=Burali-Forti_paradox&oldid=1338500475). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Burali-Forti paradox"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Burali-Forti_paradox&oldid=1338500475"
+  %}
 
 [3]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 19--20**.
+: {% ref_import key="Jech" pages="19-20" %}

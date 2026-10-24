@@ -4,7 +4,7 @@ date:    2026-03-09
 updated: 2026-06-10
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 An [ordinal](/codex/ORD) $\alpha$ is a **cardinal number** or **cardinal** if
 
@@ -12,19 +12,19 @@ $$ \forall \beta < \alpha : \beta \lnequ \alpha. $$
 
 The [class](/codex/CLS) of all cardinals is denoted by $\Card$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 Every [natural number](/codex/FINO) is a cardinal, called a **finite cardinal**. A cardinal is **infinite** if it is not finite.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 $\Card$ is a [proper class](/codex/CLS#DEF-3).
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -32,11 +32,11 @@ Show that $\Ord \subseteq \bigcup \Card$.
 
 {% endproof %}
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 Every infinite cardinal is a [limit ordinal](/codex/LIMO).
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -49,7 +49,12 @@ By [`SUC` > Proposition 2](/codex/SUC#PROP-2).
 ## References
 
 [1]
-: Wikipedia contributors. [***Cardinal number***](https://en.wikipedia.org/w/index.php?title=Cardinal_number&oldid=1365179595). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Cardinal number"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Cardinal_number&oldid=1365179595"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 29**.
+: {% ref_import key="Jech" pages="29" %}

@@ -4,15 +4,15 @@ date:    2026-03-19
 updated: 2026-06-11
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 A **field homomorphism** is a ring homomorphism between fields.
 
 In other words, a field homomorphism $f : F \to K$ is both a group homomorphism from $(F, +)$ to $(K, +)$ and a group homomorphism from $(R^\* \setdif \\{0\\}, \cdot)$ to $(S^\* \setdif \\{0\\}, \cdot)$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 For any field homomorphism $f : F \to K$:
 
@@ -31,7 +31,7 @@ For any field homomorphism $f : F \to K$:
 
 5. $f$ is always a monomorphism.
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 

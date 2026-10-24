@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-07-09
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 A **total order** is a [strongly connected](/codex/RELC) [partial order](/codex/PO), i.e. a [binary relation](/codex/REL) $\leq$ on $X$ such that:
 
@@ -25,11 +25,11 @@ A **total order** is a [strongly connected](/codex/RELC) [partial order](/codex/
 
    $$ x \leq y \enspace\lor\enspace y \leq x. $$
 
-{% endentry %}
+{% enddefinition %}
 
 > A *total order* is also known as a **linear order**.
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 A **strict total order** is a [connected](/codex/RELC) [strict partial order](/codex/PO#DEF-2), i.e. a binary relation $<$ on $X$ such that:
 
@@ -50,13 +50,13 @@ A **strict total order** is a [connected](/codex/RELC) [strict partial order](/c
 
    $$ x < y \enspace\lor\enspace y < x \enspace\lor\enspace x = y. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 $\leq$ is a total order if and only if $<$ is a strict total order.
 
-{% endentry %}
+{% endproposition %}
 
 
 ---
@@ -64,7 +64,12 @@ $\leq$ is a total order if and only if $<$ is a strict total order.
 ## References
 
 [1]
-: Wikipedia contributors. [***Total order***](https://en.wikipedia.org/w/index.php?title=Total_order&oldid=1360446695). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Total order"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Total_order&oldid=1360446695"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 16**.
+: {% ref_import key="Jech" pages="16" %}

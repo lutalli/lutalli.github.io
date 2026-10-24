@@ -1,10 +1,10 @@
 ---
 title:   Empty Set
 date:    2026-02-24
-updated: 2026-09-18
+updated: 2026-10-22
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 The **empty set** $\empt$ is the unique set such that
 
@@ -16,20 +16,19 @@ A set $A$ is **non-empty** if $A \neq \empt$, i.e.
 
 $$ \exists x : x \in A. $$
 
-{% endentry %}
-
-{% entry PROP-1 ! %}
-
-$$ \varnothing = \{ x : x \neq x \}. $$
-
-{% endentry %}
+{% enddefinition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Empty set***](https://en.wikipedia.org/w/index.php?title=Empty_set&oldid=1374008418). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Empty set"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Empty_set&oldid=1374008418"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 8**.
+: {% ref_import key="Jech" pages="8" %}

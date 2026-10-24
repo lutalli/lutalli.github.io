@@ -4,7 +4,7 @@ date:    2026-03-20
 updated: 2026-06-11
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 {:.no-indent}
 Let $R$ be a ring and $\leq$ be an order. $R$ is **ordered** by $\leq$ if:
@@ -18,4 +18,4 @@ Let $R$ be a ring and $\leq$ be an order. $R$ is **ordered** by $\leq$ if:
 
    $$ 0 \leq a \,\land\, 0 \leq b \enspace\rimp\enspace 0 \leq ab. $$
 
-{% endentry %}
+{% enddefinition %}

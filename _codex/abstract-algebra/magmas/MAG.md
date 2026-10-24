@@ -4,28 +4,38 @@ date:    2026-03-14
 updated: 2026-06-11
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 A **magma** is a structure $(M, \*)$ where $M$ is a set and $\*$ is a [binary operation](/codex/F#DEF-2) under which $M$ is [closed](/codex/RELC), i.e. for all $a$, $b \in M$,
 
 $$ a * b \in M. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 Let $(M, \*)$ be a magma. If $\*$ has a certain property, then we may also say $M$ has this property. For example, $M$ is [associative](/codex/RELC) if $\*$ is associative.
 
 Specially, we call a magma **abelian** if it is [commutative](/codex/RELC).
 
-{% endentry %}
+{% enddefinition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Magma (algebra)***](https://en.wikipedia.org/w/index.php?title=Magma_(algebra)&oldid=1370952719). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Magma (algebra)"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Magma_(algebra)&oldid=1370952719"
+  %}
 
 [2]
-: Martin Thoma. [***Mathematische Strukturen***](https://martin-thoma.com/mathematische-strukturen). Accessed Sep 15, 2026.
+: {% ref_web
+      author="Martin Thoma"
+      title="Mathematische Strukturen"
+      url="https://martin-thoma.com/mathematische-strukturen"
+      date="2026-09-15"
+  %}

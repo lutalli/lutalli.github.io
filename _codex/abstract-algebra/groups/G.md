@@ -4,7 +4,7 @@ date:    2026-03-14
 updated: 2026-06-11
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 A **group** is an invertible monoid, i.e. a magma $G$ such that:
 
@@ -23,13 +23,13 @@ A **group** is an invertible monoid, i.e. a magma $G$ such that:
 
    $$ ax = xa = e. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 A monoid becomes a group as soon as it is left-invertible or right-invertible.
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -37,19 +37,19 @@ By [`MOID` > Proposition 1](/codex/MOID#PROP-1).
 
 {% endproof %}
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 For any monoid $M$, its invertible subset $\inv M$ is a group.
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-3 %}
+{% proposition 3 %}
 
 A group is uniquely invertible.
 
-{% endentry %}
+{% endproposition %}
 
-{% proof %}
+{% proof @qedfix %}
 
 Let $G$ be a group with neutral element $e$ and let $a \in G$. If both $x$ and $x'$ are inverses of $a$,
 
@@ -57,21 +57,21 @@ $$ x = xe = x(ax') = (xa)x' = ex' = x'. $$
 
 {% endproof %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 In an abelian group $(G,+)$, we typically write $-a$ for the inverse of $a$ and define the **subtraction**
 
 $$ a - b = a + (-b). $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-4 %}
+{% proposition 4 %}
 
 A group is cancellative.
 
-{% endentry %}
+{% endproposition %}
 
-{% proof %}
+{% proof @qedfix %}
 
 Let $G$ be a group with neutral element $e$. Let $a$, $x$, $y \in G$.
 
@@ -85,18 +85,18 @@ Let $G$ be a group with neutral element $e$. Let $a$, $x$, $y \in G$.
 
 {% endproof %}
 
-{% entry PROP-5:Involutivity of Inversion %}
+{% proposition 5 "Involutivity of Inversion" %}
 
 Let $G$ be a group. For any $a \in G$,
 
 $$ (a^{-1})^{-1} = a. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-6:Antidistributivity of Inversion %}
+{% proposition 6 "Antidistributivity of Inversion" %}
 
 Let $G$ be a group. For any $a$, $b \in G$,
 
 $$ (ab)^{-1} = b^{-1}a^{-1}. $$
 
-{% endentry %}
+{% endproposition %}

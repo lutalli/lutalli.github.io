@@ -191,12 +191,12 @@ article {
         float:          right;
     }
 
-    & div.entry {
+    & div.theoremish {
         margin-top:     2em;
         margin-bottom:  2em;
     }
 
-    & a.entry-heading {
+    & a.theoremish-heading {
         font-variant:    small-caps;
         text-decoration: none !important;
     }

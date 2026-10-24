@@ -4,7 +4,7 @@ date:    2026-05-07
 updated: 2026-06-20
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $R$ be a ring. An $m \times n$-**matrix** in $R$ ($m$, $n \in \N^+$) is a function from $\llbra m \rrbra \times \llbra n \rrbra$ to $R$.
 
@@ -20,20 +20,20 @@ $$ M = \begin{bmatrix}
        M(m, 1) & \cdots & M(m, n)
    \end{bmatrix}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 Let $R$ be a ring and $A$, $B \in \mat_R(m,n)$ ($m$, $n \in \N^+$). The **sum** of $A$ and $B$ is
 
 $$ A + B \in \mat_R(m, n) : (i, j) \mapsto A(i, j) + B(i, j). $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-3 %}
+{% definition 3 %}
 
 Let $R$ be a ring, $A \in \mat_R(m, n)$ and $B \in \mat_R(n, p)$ ($m$, $n \in \N^+$). The **product** of $A$ and $B$ is
 
 $$ AB \in \mat_R(m, p) : (i, j) \mapsto \sum_{k = 1}^n A(i, k) B(k, j). $$
 
-{% endentry %}
+{% enddefinition %}

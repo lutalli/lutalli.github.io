@@ -4,13 +4,13 @@ date:    2026-02-22
 updated: 2026-10-01
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Given any [injection](/codex/INJ) $f$, its [inverse relation](/codex/INVR) $f^{-1}$ is also a [function](/codex/F), called its **inverse function**.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 For any injection $f$ from a set $X$ onto a set $Y$:
 
@@ -19,17 +19,17 @@ For any injection $f$ from a set $X$ onto a set $Y$:
 
 2. $$ f^{-1} \circ f = \id_Y. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 Let $A$ and $B$ be [finite](/codex/FIN) sets. For any [surjection](/codex/SUR) $f : A \to B$,
 
 $$ \lvert A \rvert = \sum_{b \in B} \big\lvert f^{-1}[\{ b \}] \big\rvert. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% proof %}
+{% proof @qedfix %}
 
 $$ A = \bigsqcup_{b \in B}f^{-1}[\{ b \}]. $$
 
@@ -37,7 +37,7 @@ $$ A = \bigsqcup_{b \in B}f^{-1}[\{ b \}]. $$
 
 In particular:
 
-{% entry PROP-3 %}
+{% proposition 3 %}
 
 Let $A$, $B$ be finite sets and $f : A \to B$ be a surjection. If for all $b \in B$,
 
@@ -47,17 +47,22 @@ then
 
 $$ \lvert A \rvert = k \lvert B \rvert. $$
 
-{% endentry %}
+{% endproposition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Inverse function***](https://en.wikipedia.org/w/index.php?title=Inverse_function&oldid=1368588964). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Inverse function"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Inverse_function&oldid=1368588964"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 11**.
+: {% ref_import key="Jech" pages="11" %}
 
 [3]
-: Gaetan Borot. ***Lineare Algebra I\****. Lecture **6**. Humboldt University of Berlin. WS 2025/26.
+: {% ref_import key="Borot" target="Lecture 3 & 6" %}

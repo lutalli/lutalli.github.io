@@ -4,7 +4,7 @@ date:    2026-03-15
 updated: 2026-06-10
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $\*$ be a [binary operation](/codex/F#DEF-2) on a set $X$. We define the following properties of $\*$:
 
@@ -29,7 +29,7 @@ If $+$ is another binary operation on $X$, we further define:
 
 The statements in the *Condition* column are meant to hold either for all $x\in X$; all $x$, $y\in X$; or all $x$, $y$, $z\in X$, accordingly.
 
-{% endentry %}
+{% enddefinition %}
 
 
 ---
@@ -37,7 +37,17 @@ The statements in the *Condition* column are meant to hold either for all $x\in 
 ## References
 
 [1]
-: Wikipedia contributors. [***Magma (algebra) § Classification by properties***](https://en.wikipedia.org/w/index.php?title=Magma_(algebra)&oldid=1370952719#Classification_by_properties). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Magma (algebra) § Classification by properties"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Magma_(algebra)&oldid=1370952719#Classification_by_properties"
+  %}
 
 [2]
-: Wikipedia contributors. [***Distributive property***](https://en.wikipedia.org/w/index.php?title=Distributive_property&oldid=1371443742). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      platform="Wikipedia, The Free Encyclopedia"
+      title="Distributive property"
+      url="https://en.wikipedia.org/w/index.php?title=Distributive_property&oldid=1371443742"
+  %}

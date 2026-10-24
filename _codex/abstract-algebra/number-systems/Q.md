@@ -4,15 +4,15 @@ date:    2026-03-19
 updated: 2026-06-20
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 The **field of rational numbers** is the fraction field of $\Z$:
 
 $$ \Q = \fract \Z. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 $\Z$ is embedded into $\Q$ by
 
@@ -22,9 +22,9 @@ Then we can say
 
 $$ \N \subseteq \Z \subseteq \Q. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-3 %}
+{% definition 3 %}
 
 The following defines a total order on $\Q$:
 
@@ -34,28 +34,28 @@ if and only if
 
 $$ (by > 0 \,\land\, ay \leq bx) \enspace\lor\enspace (by < 0 \,\land\, ay \geq bx). $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-4 %}
+{% definition 4 %}
 
 The set of **non-zero rational numbers** is
 
 $$ \Q^* = \Q \setdif \{0\}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-5 %}
+{% definition 5 %}
 
 The set of **positive rational numbers** is
 
 $$ \Q^+ = \{q \in \Q : q > 0\}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-6 %}
+{% definition 6 %}
 
 The set of **negative rational numbers** is
 
 $$ \Q^- = \{q \in \Q : q < 0\}. $$
 
-{% endentry %}
+{% enddefinition %}

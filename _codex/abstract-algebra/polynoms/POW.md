@@ -4,7 +4,7 @@ date:    2026-04-02
 updated: 2026-06-20
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $R$ be a ring. The **ring of formal power series** $R[[X]]$ is the ring $\fun(\N, R)$ with addition and multiplication defined by
 
@@ -21,4 +21,4 @@ $$ a = \sum_{k = 0}^\infty a_k X^k. $$
 
 Each $a_k$ ($k \in \N$) is called a **coefficient** of $a$.
 
-{% endentry %}
+{% enddefinition %}

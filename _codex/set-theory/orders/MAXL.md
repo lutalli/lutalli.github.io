@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-10-01
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $X$ be a [preordered](/codex/PRO) set and $a \in X$.
 
@@ -16,9 +16,9 @@ Let $X$ be a [preordered](/codex/PRO) set and $a \in X$.
 
   $$ \forall x \in X :\enspace x \leq a \enspace\rimp\enspace a \leq x. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 Let $X$ be a [partially ordered](/codex/PO) set and $a \in X$.
 
@@ -30,7 +30,7 @@ Let $X$ be a [partially ordered](/codex/PO) set and $a \in X$.
 
   $$ \forall x \in X :\enspace x \leq a \enspace\rimp\enspace x = a. $$
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -43,7 +43,12 @@ By [antisymmetry](/codex/PO#DEF-1) of $\leq$.
 ## References
 
 [1]
-: Wikipedia contributors. [***Maximal and minimal elements***](https://en.wikipedia.org/w/index.php?title=Maximal_and_minimal_elements&oldid=1338982942). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Maximal and minimal elements"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Maximal_and_minimal_elements&oldid=1338982942"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 16**.
+: {% ref_import key="Jech" pages="16" %}

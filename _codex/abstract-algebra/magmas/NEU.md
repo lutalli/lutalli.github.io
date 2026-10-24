@@ -4,7 +4,7 @@ date:    2026-04-16
 updated: 2026-10-04
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $M$ be a [magma](/codex/MAG) and $e \in M$.
 
@@ -20,17 +20,17 @@ Let $M$ be a [magma](/codex/MAG) and $e \in M$.
 
 - $M$ is **(left-/right-)unital** if it has a (left-/right-)neutral element.
 
-{% endentry %}
+{% enddefinition %}
 
 > A *neutral element* is also known as an **identity element**.
 
-{% entry PROP-1:Uniqueness %}
+{% proposition 1 "Uniqueness" %}
 
 A unital magma has exactly one neutral element.
 
-{% endentry %}
+{% endproposition %}
 
-{% proof %}
+{% proof @qedfix %}
 
 Let $M$ be a unital magma. If both $e$ and $e'$ are neutral elements of $M$,
 
@@ -43,4 +43,9 @@ $$ e = ee' = e'. $$
 ## References
 
 [1]
-: Wikipedia contributors. [***Identity element***](https://en.wikipedia.org/w/index.php?title=Identity_element&oldid=1365025273). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Identity element"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Identity_element&oldid=1365025273"
+  %}

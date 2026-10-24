@@ -4,7 +4,7 @@ date:    2026-03-31
 updated: 2026-06-11
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 The **direct product** of two rings $R$ and $S$ is the ring $R \times S$ with addition and multiplication defined by
 
@@ -15,4 +15,4 @@ $$ \begin{align*}
 
 for all $r_1$, $r_2 \in R$ and $s_1$, $s_2 \in S$.
 
-{% endentry %}
+{% enddefinition %}

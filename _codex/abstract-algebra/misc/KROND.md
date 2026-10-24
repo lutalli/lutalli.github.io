@@ -4,7 +4,7 @@ date:    2026-04-02
 updated: 2026-06-20
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 For any $i$ and $j$, we write
 
@@ -17,4 +17,4 @@ Using Iverson Brackets we have
 
 $$ \delta_{i, j} = [i = j]. $$
 
-{% endentry %}
+{% enddefinition %}

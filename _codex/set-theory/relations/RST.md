@@ -4,7 +4,7 @@ date:    2026-02-21
 updated: 2026-09-30
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $R$ be a [binary relation](/codex/REL).
 
@@ -20,20 +20,25 @@ These are sets by [Separation Schema](/codex/ZF#AX-4):
 
 $$ {R \restriction_A} \subseteq R, \quad {R \restriction^B} \subseteq R. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 A relation $R$ is an **extension** of a relation $S$ if $R \supseteq S$.
 
-{% endentry %}
+{% enddefinition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Binary relation § Restriction***](https://en.wikipedia.org/w/index.php?title=Binary_relation&oldid=1374585824#Restriction). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Binary relation § Restriction"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Binary_relation&oldid=1374585824#Restriction"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 11**.
+: {% ref_import key="Jech" pages="11" %}

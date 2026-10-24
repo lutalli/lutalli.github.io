@@ -4,25 +4,25 @@ date:    2026-03-06
 updated: 2026-08-03
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
-A **choice function** on a set $X$ is a function on $X$ such that
+A **choice function** on a set $X$ is a [function](/codex/F) on $X$ such that
 
 $$ \forall A \in X : f(A) \in A. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry AX-1:Axiom of Choice ($\AC$) %}
+{% axiom 1 "Axiom of Choice ($\AC$)" %}
 
 Every set has a choice function.
 
-{% endentry %}
+{% endaxiom %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 $\AC$ is independent of $\ZF$.
 
-{% endentry %}
+{% endproposition %}
 
 > $\ZF + \AC$ is denoted by $\ZFC$.
 
@@ -31,7 +31,12 @@ $\AC$ is independent of $\ZF$.
 ## References
 
 [1]
-: Wikipedia contributors. [***Axiom of choice***](https://en.wikipedia.org/w/index.php?title=Axiom_of_choice&oldid=1372014668). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Axiom of choice"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Axiom_of_choice&oldid=1372014668"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 46**.
+: {% ref_import key="Jech" pages="46" %}

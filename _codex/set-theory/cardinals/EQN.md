@@ -4,7 +4,7 @@ date:    2026-03-06
 updated: 2026-06-10
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $X$ and $Y$ be two sets.
 
@@ -26,79 +26,93 @@ Let $X$ and $Y$ be two sets.
 
   if $X \lequ Y$ and $X \not\equ Y$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1:Reflexivity of $\equ$ %}
+{% proposition 1 "Reflexivity of $\equ$" %}
 
 For any set $X$,
 
 $$ X \equ X. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-2:Symmetry of $\equ$ %}
+{% proposition 2 "Symmetry of $\equ$" %}
 
 For any sets $X$ and $Y$,
 
 $$ X \equ Y \enspace\rimp\enspace Y \equ X. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-3:Transitivity of $\equ$ %}
+{% proposition 3 "Transitivity of $\equ$" %}
 
 For any $X$, $Y$ and $Z$,
 
 $$ X \equ Y \,\land\, Y \equ Z \enspace\rimp\enspace X \equ Z. $$
 
-{% endentry %}
+{% endproposition %}
 
-To summarize [reflexivity](#PROP-1), [symmetry](#PROP-2) and [transitivity](#PROP-3) of $\equ$:
-
-{% entry PROP-4 %}
+{% proposition 4 %}
 
 $\equ$ is an [equivalence relation](/codex/EQV).
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-5:Reflexivity of $\lequ$ %}
+{% proof %}
+
+This is a summary of [reflexivity](#PROP-1), [symmetry](#PROP-2) and [transitivity](#PROP-3) of $\equ$.
+
+{% endproof %}
+
+{% proposition 5 "Reflexivity of $\lequ$" %}
 
 For any set $X$,
 
 $$ X \lequ X. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-6:Transitivity of $\lequ$ %}
+{% proposition 6 "Transitivity of $\lequ$" %}
 
 For any sets $X$, $Y$ and $Z$,
 
 $$ X \lequ Y \,\land\, Y\lequ Z \enspace\rimp\enspace X\lequ Z. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-7:Schröder-Bernstein Theorem %}
+{% proposition 7 "Schröder-Bernstein Theorem" %}
 
 For any sets $X$ and $Y$,
 
 $$ X \lequ Y \,\land\, Y\lequ X \enspace\rimp\enspace X\equ Y. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-8 %}
+{% proposition 8 %}
 
 For any sets $X$ and $Y$, if $X \subseteq Y$, then $X \lequ Y$.
 
-{% endentry %}
+{% endproposition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Cardinality § Comparing sets***](https://en.wikipedia.org/w/index.php?title=Cardinality&oldid=1369560425#Comparing_sets). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Cardinality § Comparing sets"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Cardinality&oldid=1369560425#Comparing_sets"
+  %}
 
 [2]
-: Wikipedia contributors. [***Schröder–Bernstein theorem***](https://en.wikipedia.org/w/index.php?title=Schr%C3%B6der%E2%80%93Bernstein_theorem&oldid=1376529251). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Schröder–Bernstein theorem"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Schr%C3%B6der%E2%80%93Bernstein_theorem&oldid=1376529251"
+  %}
 
 [3]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 27--28**.
+: {% ref_import key="Jech" pages="27-28" %}

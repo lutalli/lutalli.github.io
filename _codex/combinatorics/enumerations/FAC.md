@@ -4,7 +4,7 @@ date:    2026-03-22
 updated: 2026-06-20
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 The **factorial** of $n \in \N$, written $n!$, is defined recursively:
 
@@ -15,8 +15,8 @@ The **factorial** of $n \in \N$, written $n!$, is defined recursively:
 
    $$ n! = (n - 1)! \cdot n. $$
 
-{% endentry %}
+{% enddefinition %}
 
-***Note.*** For $n \in \N^+$ we have
-
-$$ n! = \prod_{k = 1}^n k. $$
+> For $n \in \N^+$ we have
+>
+> $$ n! = \prod_{k = 1}^n k. $$

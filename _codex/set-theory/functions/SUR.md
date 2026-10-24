@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-06-10
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 A **surjective function** or **surjection** is a [function](/codex/F) $f : X \to Y$ such that for all $y \in Y$,
 
@@ -18,7 +18,7 @@ The set of all surjections from $X$ onto $Y$ is denoted by
 
 $$ \sur(X, Y). $$
 
-{% endentry %}
+{% enddefinition %}
 
 > A *surjective function* is also known as an **onto function**.
 
@@ -27,4 +27,12 @@ $$ \sur(X, Y). $$
 ## References
 
 [1]
-: Wikipedia contributors. [***Surjective function***](https://en.wikipedia.org/w/index.php?title=Surjective_function&oldid=1360549289). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      platform="Wikipedia, The Free Encyclopedia"
+      title="Surjective function"
+      url="https://en.wikipedia.org/w/index.php?title=Surjective_function&oldid=1360549289"
+  %}
+
+[2]
+: {% ref_import key="Borot" target="Lecture 3" %}

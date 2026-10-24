@@ -1,10 +1,18 @@
-# Bibliography of Codex.
+# Bibliography database.
 
 Jech:
-  type:      "book"
-  author:    "Jech, Thomas"
-  title:     "Set Theory"
-  edition:   "3rd Millennium ed, rev. and expanded"
-  publisher: "Springer"
-  year:      "2002"
+  type:         "book"
+  author:       "Thomas Jech"
+  title:        "Set Theory"
+  edition:      "3rd Millennium ed, rev. and expanded"
+  publisher:    "Springer"
+  year:         "2002"
+  url:          "https://link.springer.com/book/10.1007/3-540-44761-X"
 
+Borot:
+  type:         "course"
+  author:       "Gaetan Borot"
+  title:        "Lineare Algebra I"
+  target:       "Lecture 4"
+  institution:  "Humboldt University of Berlin"
+  semester:     "WS 2025/26"

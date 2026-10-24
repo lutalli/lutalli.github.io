@@ -4,7 +4,7 @@ date:    2026-03-24
 updated: 2026-06-20
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $X$ be a set of cardinality $n \in \N$.
 
@@ -12,9 +12,9 @@ Let $X$ be a set of cardinality $n \in \N$.
 
 - A **permutation** of $X$ is a bijection from $\llbra n \rrbra$ onto $X$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 For any $n$, $k \in \N$ with $k \leq n$, we define
 
@@ -22,17 +22,17 @@ $$ P(n, k) = \big\lvert \inj(\llbra k \rrbra, \llbra n \rrbra) \big\rvert $$
 
 as the number of $k$-permutations of $\llbra n\rrbra$. It can then be shown that this is the number of $k$-permutations of any set of cardinality $n$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 For any $n$, $k \in \N$ with $k \leq n$,
 
 $$ P(n, k) = \frac{n!}{(n - k)!}. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% proof %}
+{% proof @qedfix %}
 
 {:.par-upper-roman}
 1. $$ P(n, 0) = \big\lvert \{\empt\} \big\rvert = 1 = \frac{n!}{(n - 0)!}. $$
@@ -61,10 +61,10 @@ $$ P(n, k) = \frac{n!}{(n - k)!}. $$
 
 As a corollary:
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 For any $n \in \N$,
 
 $$ \big\lvert \bij(\llbra n \rrbra, \llbra n \rrbra) \big\rvert = n!. $$
 
-{% endentry %}
+{% endproposition %}

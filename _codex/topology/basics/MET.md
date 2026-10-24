@@ -4,7 +4,7 @@ date:    2026-04-14
 updated: 2026-06-20
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $X$ be a non-empty set. A function $d : X \times X \to \R$ is a **metric** on $X$ if:
 
@@ -23,27 +23,29 @@ Let $X$ be a non-empty set. A function $d : X \times X \to \R$ is a **metric** o
 
 $(X, d)$ is then called a **metric space**.
 
-{% endentry %}
+{% enddefinition %}
 
-***Examples.***
+{% examples %}
 
 1. The empty function $\empt$ is a metric on $\empt$ (the **empty metric**).
 
 2. The absolute difference $d : (x, y) \mapsto \lvert x - y \rvert$ is a metric on $\R$ (the **standard metric**).
 
-{% entry DEF-2 %}
+{% endexamples %}
+
+{% definition 2 %}
 
 Let $(X, d)$ be a metric space and $Y \subseteq X$. Then $d \restriction_Y$ is a metric on $Y$, called an **induced metric**, and $(Y, d \restriction_Y)$ is called a **metric subspace** of $X$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1:Positivity %}
+{% proposition 1 "Positivity" %}
 
 Let $(X, d)$ be a metric space. For all $x$, $y \in X$:
 
 $$ x \neq y \enspace\rimp\enspace d(x, y) > 0. $$
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 

@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-06-10
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $X$ be a [partially ordered](/codex/PO) set and $A \subseteq X$.
 
@@ -16,9 +16,9 @@ Let $X$ be a [partially ordered](/codex/PO) set and $A \subseteq X$.
 
   $$ \inf A. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 Let $X$ be a partially ordered set and $A \subseteq X$. If $\sup A$ exists, the following statements are equivalent:
 
@@ -38,14 +38,19 @@ If $\inf A$ exists, the following statements are equivalent:
 
 3. <p style="text-align: center">$\min A$ exists.</p>
 
-{% endentry %}
+{% endproposition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Infimum and supremum***](https://en.wikipedia.org/w/index.php?title=Infimum_and_supremum&oldid=1374158516). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Infimum and supremum"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Infimum_and_supremum&oldid=1374158516"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 16**.
+: {% ref_import key="Jech" pages="16" %}

@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-10-01
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 An **injective function** or **injection** is a [function](/codex/F) $f : X \to Y$ such that
 
@@ -14,7 +14,7 @@ The set of all injections from $X$ to $Y$ is denoted by
 
 $$ \inj(X, Y). $$
 
-{% endentry %}
+{% enddefinition %}
 
 > An *injective function* is also known as a **one-to-one function**.
 
@@ -23,7 +23,15 @@ $$ \inj(X, Y). $$
 ## References
 
 [1]
-: Wikipedia contributors. [***Injective function***](https://en.wikipedia.org/w/index.php?title=Injective_function&oldid=1346410343). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Injective function"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Injective_function&oldid=1346410343"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 11**.
+: {% ref_import key="Jech" pages="11" %}
+
+[3]
+: {% ref_import key="Borot" target="Lecture 3" %}

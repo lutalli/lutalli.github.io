@@ -4,7 +4,7 @@ date:    2026-03-17
 updated: 2026-06-11
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $G$ be a group. For any $a$, $g \in G$, the **conjugation** of $a$ by $g$ is
 
@@ -18,10 +18,10 @@ if there exists $g\in G$ such that
 
 $$ \conj_g a = b. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 For any group, $\stackrel{\conj}{\sim}$ is an equivalence relation.
 
-{% endentry %}
+{% endproposition %}

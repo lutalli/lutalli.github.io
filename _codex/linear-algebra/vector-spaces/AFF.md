@@ -4,19 +4,19 @@ date:    2026-05-11
 updated: 2026-06-20
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $V$ be a vector space and $X \subseteq V$. $X$ is an **affine subspace** if there is $v \in V$ and a subspace $W \subseteq V$ such that $X = v + W$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 Every subspace of a vector space is an affine subspace.
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 Let $V$ be a vector space. For any affine subspace $X = v + W$ ($v \in V$, $W \subseteq V$):
 
@@ -29,9 +29,9 @@ Let $V$ be a vector space. For any affine subspace $X = v + W$ ($v \in V$, $W \s
 
    $$ X = x + W. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-3 %}
+{% proposition 3 %}
 
 The underlying subspace of every affine subspace is unique. That means, if $V$ is a vector space, $v$, $v' \in V$ and $W$, $W' \subseteq V$ are subspaces such that
 
@@ -39,4 +39,4 @@ $$ v + W = v' + W', $$
 
 then $W = W'$.
 
-{% endentry %}
+{% endproposition %}

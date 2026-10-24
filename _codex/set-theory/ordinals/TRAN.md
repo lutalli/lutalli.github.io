@@ -4,13 +4,13 @@ date:    2026-03-01
 updated: 2026-06-08
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 A set $T$ is **transitive** if every element of $T$ is a subset of $T$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 The following statements are equivalent:
 
@@ -21,14 +21,19 @@ The following statements are equivalent:
 
 3. $$ T \subseteq \powerset(T). $$
 
-{% endentry %}
+{% endproposition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Transitive set***](https://en.wikipedia.org/w/index.php?title=Transitive_set&oldid=1370777805). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Transitive set"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Transitive_set&oldid=1370777805"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 13**.
+: {% ref_import key="Jech" pages="13" %}

@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 In the following, addition, multiplication and exponentiation of [ordinals](/codex/ORD) are defined using [Transfinite Recursion](/codex/TREC).
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 For any ordinal $\alpha$:
 
@@ -21,9 +21,9 @@ For any ordinal $\alpha$:
 
    $$ \alpha + \beta = \lim_{\xi \to \beta} (\alpha + \xi). $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 For any ordinal $\alpha$:
 
@@ -38,9 +38,9 @@ For any ordinal $\alpha$:
 
    $$ \alpha \cdot \beta = \lim_{\xi \to \beta} \alpha \cdot \xi. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-3 %}
+{% definition 3 %}
 
 For any ordinal $\alpha$:
 
@@ -55,25 +55,25 @@ For any ordinal $\alpha$:
 
    $$ \alpha^\beta = \lim_{\xi \to \beta} \alpha ^ \xi. $$
 
-{% endentry %}
+{% enddefinition %}
 
 ---
 
-{% entry PROP-1:Associativity of $+$ %}
+{% proposition 1 "Associativity of $+$" %}
 
 For any ordinals $\alpha$, $\beta$ and $\gamma$,
 
 $$ (\alpha + \beta) + \gamma = \alpha + (\beta + \gamma). $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-2:Associativity of $\cdot$ %}
+{% proposition 2 "Associativity of $\cdot$" %}
 
 For any ordinals $\alpha$, $\beta$ and $\gamma$,
 
 $$ (\alpha \cdot \beta) \cdot \gamma = \alpha \cdot (\beta \cdot \gamma). $$
 
-{% endentry %}
+{% endproposition %}
 
 > Neither $+$ or $\cdot$ is [commutative](/codex/RELC):
 >
@@ -85,7 +85,12 @@ $$ (\alpha \cdot \beta) \cdot \gamma = \alpha \cdot (\beta \cdot \gamma). $$
 ## References
 
 [1]
-: Wikipedia contributors. [***Ordinal arithmetic***](https://en.wikipedia.org/w/index.php?title=Ordinal_arithmetic&oldid=1373148475). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Ordinal arithmetic"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Ordinal_arithmetic&oldid=1373148475"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 23**.
+: {% ref_import key="Jech" pages="23" %}

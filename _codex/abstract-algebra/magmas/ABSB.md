@@ -4,7 +4,7 @@ date:    2026-08-08
 updated: 2026-08-08
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $M$ be a [magma](/codex/MAG) and $a \in M$.
 
@@ -18,11 +18,16 @@ Let $M$ be a [magma](/codex/MAG) and $a \in M$.
 
 - $a$ is an **absorbing element** if it is both left- and right-absorbing.
 
-{% endentry %}
+{% enddefinition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Absorbing element***](https://en.wikipedia.org/w/index.php?title=Absorbing_element&oldid=1360606610). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Absorbing element"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Absorbing_element&oldid=1360606610"
+  %}

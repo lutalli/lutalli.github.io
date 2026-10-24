@@ -4,7 +4,7 @@ date:    2026-03-19
 updated: 2026-08-06
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 A **monoid homomorphism** is a magma homomorphism between monoids.
 
@@ -14,9 +14,9 @@ $$ f(e) = i, $$
 
 where $e$ and $i$ are respectively the neutral elements of $M$ and $N$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 The **kernel** of a monoid homomorphism $f : M \to N$ is
 
@@ -24,5 +24,5 @@ $$ \ker f = f^{-1}[\{i\}], $$
 
 where $i$ is the neutral element of $N$.
 
-{% endentry %}
+{% enddefinition %}
 

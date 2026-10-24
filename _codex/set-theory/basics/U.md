@@ -4,7 +4,7 @@ date:    2026-02-16
 updated: 2026-08-06
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 The **union** of a set $X$ is
 
@@ -21,60 +21,69 @@ $$ \begin{align*}
                            &\text{etc.}
 \end{align*} $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 ! %}
+{% proposition 1 @newline %}
 
 $$ \bigcup \empt = \empt. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 For any set $X$,
 
 $$ X \cup \empt = X. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-3:Idempotence %}
+{% proposition 3 "Idempotence" %}
 
 For any set $X$,
 
 $$ X \cup X = X. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-4:Commutativity %}
+{% proposition 4 "Commutativity" %}
 
 For any sets $X$ and $Y$,
 
 $$ X \cup Y = Y \cup X. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-5:Associativity %}
+{% proposition 5 "Associativity" %}
 
 For any sets $X$, $Y$ and $Z$,
 
 $$ (X \cup Y) \cup Z = X \cup (Y \cup Z). $$
 
-{% endentry %}
+{% endproposition %}
 
-To summarize [Proposition 2](#PROP-2), [commutativity](#PROP-3) and [associativity](#PROP-4) of $\cup$:
-
-{% entry PROP-6 %}
+{% proposition 6 %}
 
 For any set $X$, $(\powerset(X), \cup)$ is an [abelian](/codex/MAG#DEF-2) [monoid](/codex/MOID) with [neutral element](/codex/NEU) $\empt$.
 
-{% endentry %}
+{% endproposition %}
+
+{% proof %}
+
+This is a summary of [Proposition 2](#PROP-2), [commutativity](#PROP-3) and [associativity](#PROP-4) of $\cup$.
+
+{% endproof %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Union (set theory)***](https://en.wikipedia.org/w/index.php?title=Union_(set_theory)&oldid=1372773246). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Union (set theory)"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Union_(set_theory)&oldid=1372773246"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 9**.
+: {% ref_import key="Jech" pages="9" %}

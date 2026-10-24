@@ -4,7 +4,7 @@ date:    2026-03-18
 updated: 2026-06-11
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $\sigma \in \SS_n$ be a permutation ($n \in \N^+$). The **parity** of $\sigma$ is
 
@@ -18,17 +18,17 @@ $$ k = \big\lvert \{ %
 
 is the number of inversions in $\sigma$. $\sigma$ is called an **even permutation** if $k$ is even and an **odd permutation** if $k$ is odd.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 For any $\sigma \in \SS_n$ ($n \geq 2$),
 
 $$ \par \sigma = \prod_{1 \leq i < j \leq n} \frac{\sigma(i) - \sigma(j)}{i - j}. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 For any $n \in \N^+$,
 
@@ -40,4 +40,4 @@ $$ \ker \par = \AA_n, $$
 
 the alternating group of degree $n$.
 
-{% endentry %}
+{% endproposition %}

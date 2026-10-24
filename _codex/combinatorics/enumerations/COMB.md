@@ -4,13 +4,13 @@ date:    2026-03-24
 updated: 2026-06-20
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $X$ be a set of cardinality $n \in \N$ and $0 \leq k \leq n$. A **$k$-combination** of $X$ is a $k$-sized subset of $X$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 For any $n$, $k \in \N$ with $k \leq n$, we define
 
@@ -36,17 +36,17 @@ $$ \begin{gather*}
     \vdots
 \end{gather*} $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 For any $n$, $k \in \N$ with $k \leq n$,
 
 $$ C(n, k) = \frac{n!}{k!(n - k)!}. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% proof %}
+{% proof @qedfix %}
 
 The function
 
@@ -73,15 +73,15 @@ $$ C(n, k) = \frac{P(n, k)}{k!} = \frac{n!}{k!(n - k)!}. $$
 
 {% endproof %}
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 For any $n \geq 2$ and $1 \leq k \leq n - 1$,
 
 $$ C(n, k) = C(n - 1, k) + C(n - 1, k - 1). $$
 
-{% endentry %}
+{% endproposition %}
 
-{% proof %}
+{% proof @qedfix %}
 
 For every $A \in \powerset_k(\llbra n \rrbra)$, either $n \in A$ or $n \notin A$. Hence
 
@@ -94,15 +94,15 @@ $$ T = \big\{ B \cup \{n\} : B \in \powerset_{k - 1}(\llbra n - 1\rrbra) \big\} 
 
 {% endproof %}
 
-{% entry PROP-3 %}
+{% proposition 3 %}
 
 For any $n$, $k \in \N$ with $k \leq n$,
 
 $$ C(n, k) = C(n, n - k). $$
 
-{% endentry %}
+{% endproposition %}
 
-{% proof %}
+{% proof @qedfix %}
 
 The function
 
@@ -114,15 +114,15 @@ is bijective.
 
 {% endproof %}
 
-{% entry PROP-4 %}
+{% proposition 4 %}
 
 For any $n \in \N$,
 
 $$ \sum_{k = 0}^n C(n, k) = 2^n. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% proof %}
+{% proof @qedfix %}
 
 $$ \bigsqcup_{k = 0}^n \powerset_k(\llbra n \rrbra) = \powerset(\llbra n \rrbra). $$
 

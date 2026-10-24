@@ -4,29 +4,29 @@ date:    2026-02-27
 updated: 2026-06-10
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 A **well-order** on a set $W$ is a [total order](/codex/TO) such that every non-empty subset of $W$ has a [least](/codex/GR) element.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 A **strict well-order** on $W$ is a strict total order such that every non-empty subset of $W$ has a least element.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 $\leq$ is a well-order if and only if $<$ is a strict well-order.
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 If $W$ is a well-ordered set and $f : W \to W$ is [strictly increasing](/codex/OH), then $x \leq f(x)$ for every $x \in W$.
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -38,11 +38,11 @@ a contradiction.
 
 {% endproof %}
 
-{% entry PROP-3 %}
+{% proposition 3 %}
 
 The only [automorphism](/codex/HOM) on a well-ordered set $W$ is the [identity](/codex/ID) $\id_W$.
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -50,11 +50,11 @@ Let $f$ be an automorphism $W$. By [`OH` > Proposition 1](/codex/OH#PROP-1), bot
 
 {% endproof %}
 
-{% entry PROP-4 %}
+{% proposition 4 %}
 
 If two well-ordered sets $W$ and $W'$ are [isomorphic](/codex/HOM#DEF-2), then the isomorphism is unique.
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -62,7 +62,7 @@ If $f$ and $g$ are isomorphisms from $W$ onto $W'$, $f\circ g^{-1}$ is an automo
 
 {% endproof %}
 
-{% entry DEF-3 %}
+{% definition 3 %}
 
 Let $W$ be a well-ordered set and $u \in W$. The **initial segment** of $W$ given by $u$ is
 
@@ -70,13 +70,13 @@ $$ \init_u W = \{x \in W : x < u\}. $$
 
 $S \subseteq W$ is an initial segment of $W$, if $S = \init_u W$ for some $u$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-5 %}
+{% proposition 5 %}
 
 No well-ordered set is isomorphic to an initial segment of itself.
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -88,7 +88,7 @@ then $f(u) < u$. By [Proposition 2](#PROP-2), $f$ can not be an isomorphism.
 
 {% endproof %}
 
-{% entry PROP-6 %}
+{% proposition 6 %}
 
 For any two well-ordered sets $W$ and $W'$, exactly one of the following cases holds:
 
@@ -97,22 +97,27 @@ For any two well-ordered sets $W$ and $W'$, exactly one of the following cases h
 2. $W$ is isomorphic to an initial segment of $W'$.
 3. $W'$ is isomorphic to an initial segment of $W$.
 
-{% endentry %}
+{% endproposition %}
 
 The following theorem is equivalent to $\AC$:
 
-{% entry PROP-7:Well-Ordering Theorem %}
+{% proposition 7 "Well-Ordering Theorem" %}
 
 Every set can be well-ordered, i.e. for any set $X$, there exists a well-order on $X$.
 
-{% endentry %}
+{% endproposition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Well-order***](https://en.wikipedia.org/w/index.php?title=Well-order&oldid=1364285243). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Well-order"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Well-order&oldid=1364285243"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 18--19**.
+: {% ref_import key="Jech" pages="18-19" %}

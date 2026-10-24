@@ -4,7 +4,7 @@ date:    2026-04-18
 updated: 2026-06-10
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 A **total preorder** is a [strongly connected](/codex/RELC) [preorder](/codex/PRO), i.e. a [binary relation](/codex/REL) $\leq$ on a set $X$ such that:
 
@@ -21,11 +21,16 @@ A **total preorder** is a [strongly connected](/codex/RELC) [preorder](/codex/PR
 
    $$ x \leq y \enspace\lor\enspace y \leq x. $$
 
-{% endentry %}
+{% enddefinition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Weak ordering § Total preorders***](https://en.wikipedia.org/w/index.php?title=Weak_ordering&oldid=1372816884#Total_preorders). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Weak ordering § Total preorders"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Weak_ordering&oldid=1372816884#Total_preorders"
+  %}

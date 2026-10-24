@@ -4,7 +4,7 @@ date:    2026-03-24
 updated: 2026-09-18
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 If a set $X$ is [disjoint](/codex/DJ), the [union](/codex/U) of $X$ is called a **disjoint union**. The notation
 
@@ -20,15 +20,15 @@ For any sets $X_1$, $\cdots$, $X_n$ ($n \geq 2$), we write
 
 $$ X_1 \sqcup \cdots \sqcup X_n = \bigsqcup \{X_1, \cdots, X_n\}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 For any [finite](/codex/FIN) disjoint set $X$,
 
 $$ \Big\lvert \bigsqcup X \Big\rvert = \sum_{A \in X} \lvert A \rvert. $$
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -41,7 +41,12 @@ By [`CAR` > Proposition 1](/codex/CAR#PROP-1).
 ## References
 
 [1]
-: Wikipedia contributors. [***Disjoint union***](https://en.wikipedia.org/w/index.php?title=Disjoint_union&oldid=1335705780). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Disjoint union"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Disjoint_union&oldid=1335705780"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 12**.
+: {% ref_import key="Jech" pages="12" %}

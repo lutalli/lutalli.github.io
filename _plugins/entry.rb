@@ -1,56 +1,25 @@
-module Codex
-  class EntryTagBlock < Liquid::Block
-    # Tag block for Codex entries.
-    #
-    # Syntax:
-    #
-    #   {% entry <TYPE>-<INDEX>[:<DESCRIPTION>][!] %}
-    #   ...
-    #   {% endentry %}
-    #
-    # The ! symbol indicates that the separation character will be `\n\n`
-    # instead of `&emsp;`. This should be used if no text immediately comes
-    # after the heading (for example, if the entry starts with a list).
+require 'shellwords'
 
+module Jekyll
+  class TheoremishTagBlock < Liquid::Block
     def initialize(tag_name, input, tokens)
       super
 
-      input.strip!
+      args = input.shellsplit
 
-      @sep = ''
-      if input[-1] == '!'
+      if args.last == '@newline'
         @sep = "\n\n"
-        input.chop!
-        input.rstrip!
+        args.pop
       else
-        @sep = '&emsp;'
+        @sep = "&emsp;"
       end
 
-      @args  = input.split(':')
-      @label = @args[0]
+      @index, @desc = args
 
-      type, index = @label.split('-')
+      @id = "#{@type}-#{@index}"
 
-      type_disp = type  # If the provided type is not recognized,
-                        # leave it untranslated
-
-      if type == 'DEF'
-        type_disp = 'Definition'
-      elsif type == 'PROP'
-        type_disp = 'Proposition'
-      elsif type == 'AX'
-        type_disp = 'Axiom'
-      end
-
-      label_disp = "#{type_disp} #{index}"
-
-      @heading = ''
-      if @args.length > 1
-        desc = @args[1]
-        @heading = "#{label_disp}. #{desc}."
-      else
-        @heading = "#{label_disp}."
-      end
+      @heading = "#{@type_r} #{@index}."
+      @heading << " #{@desc}." if @desc
     end
 
     def render(context)
@@ -59,12 +28,41 @@ module Codex
       # The `markdown="1"` attribute is crucial for kramdown to regularly
       # render the content in Markdown.
 
-      "<div class=\"entry\" id=\"#{@label}\" markdown=\"1\">\n" \
-        "[**#{@heading}**](\##{@label}){:.entry-heading}" \
+      "<div class=\"theoremish\" id=\"#{@id}\" markdown=\"1\">\n" \
+        "[**#{@heading}**](\##{@id}){:.theoremish-heading}" \
         "#{@sep}#{content}\n\n" \
       "</div>"
     end
   end
+
+  class DefinitionTagBlock < TheoremishTagBlock
+    def initialize(tag_name, input, tokens)
+      @type   = 'DEF'
+      @type_r = 'Definition'
+
+      super
+    end
+  end
+
+  class PropositionTagBlock < TheoremishTagBlock
+    def initialize(tag_name, input, tokens)
+      @type   = 'PROP'
+      @type_r = 'Proposition'
+
+      super
+    end
+  end
+
+  class AxiomTagBlock < TheoremishTagBlock
+    def initialize(tag_name, input, tokens)
+      @type   = 'AX'
+      @type_r = 'Axiom'
+
+      super
+    end
+  end
 end
 
-Liquid::Template.register_tag('entry', Codex::EntryTagBlock)
+Liquid::Template.register_tag('definition',  Jekyll::DefinitionTagBlock)
+Liquid::Template.register_tag('proposition', Jekyll::PropositionTagBlock)
+Liquid::Template.register_tag('axiom',       Jekyll::AxiomTagBlock)

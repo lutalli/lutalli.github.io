@@ -4,7 +4,7 @@ date:    2026-02-17
 updated: 2026-06-23
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 The **power set** of a set $X$ is
 
@@ -12,15 +12,15 @@ $$ \powerset(X) = \{Y : Y \subseteq X\}. $$
 
 This is a set by [Axiom of Power Set](/codex/ZF#AX-8).
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-2:Cantor's Theorem %}
+{% proposition 2 "Cantor's Theorem" %}
 
 For any set $X$,
 
 $$ \lvert X \rvert < \lvert \powerset(X) \rvert. $$
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -32,13 +32,13 @@ Consider whether $a \in f(a)$.
 
 {% endproof %}
 
-{% entry PROP-3 %}
+{% proposition 3 %}
 
 For any set $X$,
 
 $$ \lvert \powerset(X) \rvert = 2^{\lvert X \rvert}. $$
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -59,20 +59,25 @@ defines a bijection.
 
 As a corollary of [Cantor's Theorem](#PROP-2) and [Proposition 3](#PROP-3):
 
-{% entry PROP-4 %}
+{% proposition 4 %}
 
 For any cardinal $\kappa$,
 
 $$ \kappa < 2^\kappa. $$
 
-{% endentry %}
+{% endproposition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Power set***](https://en.wikipedia.org/w/index.php?title=Power_set&oldid=1363224012). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Power set"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Power_set&oldid=1363224012"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **pp. 9; 27--29**.
+: {% ref_import key="Jech" pages="9;27-29" %}

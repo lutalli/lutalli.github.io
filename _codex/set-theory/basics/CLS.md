@@ -8,7 +8,7 @@ In $\ZF$ and similar set theories, every mathematical object is a set. Neverthel
 
 It is important to remember that classes are only [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar). Arguments involving classes are ultimately reduced to formulas.
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 If $\varphi(x, p)$ is a formula with free variables among $x$ and $p$, we define the **class**
 
@@ -18,9 +18,9 @@ as an object such that
 
 $$ \forall x :\enspace x \in C \enspace\lrimp\enspace \varphi(x, p). $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-2 %}
+{% definition 2 %}
 
 Relations and operations on classes, such as
 
@@ -36,9 +36,9 @@ are defined similarly to those on sets. For example, for any two classes $C$ and
 
 $$ \forall x :\enspace x \in C \enspace\rimp\enspace x \in D. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry DEF-3 %}
+{% definition 3 %}
 
 A class $C$ **is a set** if there is a set $X$ such that
 
@@ -46,14 +46,19 @@ $$ \forall x :\enspace x \in C \enspace\lrimp\enspace x \in X. $$
 
 A class that is not a set is called a **proper class**.
 
-{% endentry %}
+{% enddefinition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Class (set theory)***](https://en.wikipedia.org/w/index.php?title=Class_(set_theory)&oldid=1330650700). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Class (set theory)"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Class_(set_theory)&oldid=1330650700"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **pp. 5--6**.
+: {% ref_import key="Jech" pages="5-6" %}

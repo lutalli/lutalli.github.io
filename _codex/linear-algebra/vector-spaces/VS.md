@@ -4,13 +4,13 @@ date:    2026-04-15
 updated: 2026-06-20
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 A **vector space** is a module over a field. Elements of a vector space are called **vectors**.
 
-{% endentry %}
+{% enddefinition %}
 
-***Examples.***
+{% examples %}
 
 1. Given any field $F$, $\\{0\\}$ is a vector space over $F$ (the **zero vector space**).
 
@@ -19,3 +19,5 @@ A **vector space** is a module over a field. Elements of a vector space are call
    $$ \lambda \cdot (x_1, \cdots, x_n) = (\lambda x_1, \cdots, \lambda x_n) $$
 
    for all $\lambda \in F$ and $(x_1, \cdots, x_n) \in F^n$ (the **standard vector space**).
+
+{% endexamples %}

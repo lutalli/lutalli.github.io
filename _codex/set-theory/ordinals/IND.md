@@ -4,7 +4,7 @@ date:    2026-03-06
 updated: 2026-06-10
 ---
 
-{% entry PROP-1:Induction %}
+{% proposition 1 "Induction" %}
 
 Let $A$ be a subset of $\N$. Suppose:
 
@@ -15,7 +15,7 @@ Let $A$ be a subset of $\N$. Suppose:
 
 Then $A = \N$.
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -28,7 +28,12 @@ Otherwise, $\min(\N \setdif A)$ would be a [limit ordinal](/codex/LIMO), contrar
 ## References
 
 [1]
-: Wikipedia contributors. [***Mathematical induction***](https://en.wikipedia.org/w/index.php?title=Mathematical_induction&oldid=1373903526). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Mathematical induction"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Mathematical_induction&oldid=1373903526"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 21**.
+: {% ref_import key="Jech" pages="21" %}

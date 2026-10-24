@@ -4,15 +4,15 @@ date:    2026-02-17
 updated: 2026-06-23
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 The **set difference** between two sets $X$ and $Y$ is
 
 $$ X \setdif Y = \{x \in X : x \notin Y\}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 For any set $X$:
 
@@ -23,30 +23,35 @@ For any set $X$:
 
 3. $$ X \setdif X = \empt. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 Any two sets $X$ and $Y$ are disjoint if and only if
 
 $$ X \setdif Y = X. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-3 %}
+{% proposition 3 %}
 
 For any two sets $X$ and $Y$, if $X \subseteq Y$, then
 
 $$ X \setdif Y = \empt. $$
 
-{% endentry %}
+{% endproposition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Complement (set theory)***](https://en.wikipedia.org/w/index.php?title=Complement_(set_theory)&oldid=1355557106). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Complement (set theory)"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Complement_(set_theory)&oldid=1355557106"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 8**.
+: {% ref_import key="Jech" pages="8" %}

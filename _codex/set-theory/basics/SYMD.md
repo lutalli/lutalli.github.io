@@ -4,15 +4,15 @@ date:    2026-02-17
 updated: 2026-08-06
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 The **symmetric difference** between two sets $X$ and $Y$ is
 
 $$ X \symdif Y = (X \setdif Y) \cup (Y \setdif X). $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 ! %}
+{% proposition 1 @newline %}
 
 {:.par-upper-roman}
 1. For any set $X$,
@@ -23,46 +23,55 @@ $$ X \symdif Y = (X \setdif Y) \cup (Y \setdif X). $$
 
    $$ X \symdif Y = \empt \enspace\lrimp\enspace X = Y. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-2:Commutativity %}
+{% proposition 2 "Commutativity" %}
 
 For any sets $X$ and $Y$,
 
 $$ X \symdif Y = Y \symdif X. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-3:Associativity %}
+{% proposition 3 "Associativity" %}
 
 For any sets $X$, $Y$ and $Z$,
 
 $$ (X \symdif Y) \symdif Z = X \symdif (Y \symdif Z). $$
 
-{% endentry %}
+{% endproposition %}
 
-To summarize [Proposition 1 (I)](#PROP-1), [commutativity](#PROP-2) and [associativity](#PROP-3) of $\symdif$:
-
-{% entry PROP-4 %}
+{% proposition 4 %}
 
 For any set $X$, $(\powerset(X), \symdif)$ is an [abelian](/codex/MAG#DEF-2) [group](/codex/G) with [neutral element](/codex/NEU) $\empt$.
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-5 %}
+{% proof %}
+
+This is a summary of [Proposition 1 (I)](#PROP-1), [commutativity](#PROP-2) and [associativity](#PROP-3) of $\symdif$.
+
+{% endproof %}
+
+{% proposition 5 %}
 
 For any sets $X$ and $Y$,
 
 $$ X \symdif Y = (X \cup Y) \setdif (X \cap Y). $$
 
-{% endentry %}
+{% endproposition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Symmetric difference***](https://en.wikipedia.org/w/index.php?title=Symmetric_difference&oldid=1347009137). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Symmetric difference"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Symmetric_difference&oldid=1347009137"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 9**.
+: {% ref_import key="Jech" pages="9" %}

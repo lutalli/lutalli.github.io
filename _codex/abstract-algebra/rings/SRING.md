@@ -4,13 +4,13 @@ date:    2026-03-19
 updated: 2026-06-11
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $(R, +, \cdot)$ be a ring. $(S, +, \cdot)$ is a **subring** of $R$ if it is a ring itself and $S \subseteq R$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1:Subring Test %}
+{% proposition 1 "Subring Test" %}
 
 Let $R$ be a ring. $S$ is a subring if:
 
@@ -27,4 +27,4 @@ Let $R$ be a ring. $S$ is a subring if:
 
    $$ ab \in S. $$
 
-{% endentry %}
+{% endproposition %}

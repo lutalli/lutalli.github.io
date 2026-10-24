@@ -4,19 +4,19 @@ date:    2026-03-06
 updated: 2026-06-04
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 The **universal class** is the [class](/codex/CLS) of all sets:
 
 $$ \V = \{x : x = x\}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 $\V$ is a [proper class](/codex/CLS#DEF-3).
 
-{% endentry %}
+{% endproposition %}
 
 {% proof %}
 
@@ -29,7 +29,12 @@ Since $\V = \V$, it follows that $\V \in \V$, contrary to [irreflexivity of $\in
 ## References
 
 [1]
-: Wikipedia contributors. [***Universal set***](https://en.wikipedia.org/w/index.php?title=Universal_set&oldid=1367483581). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Universal set"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Universal_set&oldid=1367483581"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 6**.
+: {% ref_import key="Jech" pages="6" %}

@@ -4,13 +4,13 @@ date:    2026-03-19
 updated: 2026-06-11
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $(F, +, \cdot)$ be a field. $(K, +, \cdot)$ is a **subfield** of $F$ if it is a field itself and $K \subseteq F$.
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1:Subfield Test %}
+{% proposition 1 "Subfield Test" %}
 
 Let $F$ be a field. $K$ is a subfield of $F$ if:
 
@@ -21,4 +21,4 @@ Let $F$ be a field. $K$ is a subfield of $F$ if:
 
    $$ a^{-1} \in K. $$
 
-{% endentry %}
+{% endproposition %}

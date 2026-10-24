@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-06-10
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $X$ be a [preordered](/codex/PRO) set and $a \in X$.
 
@@ -16,21 +16,26 @@ Let $X$ be a [preordered](/codex/PRO) set and $a \in X$.
 
   $$ \forall x \in X : a \leq x. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 ! %}
+{% proposition 1 @newline %}
 
 - Any greatest element is [maximal](/codex/MAXL).
 - Any least element is minimal.
 
-{% endentry %}
+{% endproposition %}
 
 ---
 
 ## References
 
 [1]
-: Wikipedia contributors. [***Greatest element and least element***](https://en.wikipedia.org/w/index.php?title=Greatest_element_and_least_element&oldid=1320031333). Wikipedia, The Free Encyclopedia.
+: {% ref_web
+      author="Wikipedia contributors"
+      title="Greatest element and least element"
+      platform="Wikipedia, The Free Encyclopedia"
+      url="https://en.wikipedia.org/w/index.php?title=Greatest_element_and_least_element&oldid=1320031333"
+  %}
 
 [2]
-: Thomas Jech. [***Set Theory***](https://link.springer.com/book/10.1007/3-540-44761-X). 3rd Millennium ed, rev. and expanded. Springer, 2002. **p. 16**.
+: {% ref_import key="Jech" pages="16" %}

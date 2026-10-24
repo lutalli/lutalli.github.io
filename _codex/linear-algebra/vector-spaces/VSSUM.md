@@ -4,15 +4,15 @@ date:    2026-05-11
 updated: 2026-06-20
 ---
 
-{% entry DEF-1 %}
+{% definition 1 %}
 
 Let $V$ be a vector space and $X$, $Y \subseteq V$ be subspaces. The **sum** of $X$ and $Y$ is
 
 $$ X + Y = \{x + y : x \in X, y \in Y\}. $$
 
-{% endentry %}
+{% enddefinition %}
 
-{% entry PROP-1 %}
+{% proposition 1 %}
 
 Let $V$ be a vector space. For any subspaces $X$, $Y \subseteq V$:
 
@@ -21,22 +21,22 @@ Let $V$ be a vector space. For any subspaces $X$, $Y \subseteq V$:
 
 2. $$ X + Y = \langle X \cup Y \rangle. $$
 
-{% endentry %}
+{% endproposition %}
 
-{% entry PROP-2 %}
+{% proposition 2 %}
 
 Let $V$ be a vector space. For any finite-dimensional subspaces $X$, $Y \subseteq V$,
 
 $$ \dim(X + Y) = \dim X + \dim Y - \dim(X \cap Y). $$
 
-{% endentry %}
+{% endproposition %}
 
 As a corollary:
 
-{% entry PROP-3 %}
+{% proposition 3 %}
 
 Let $V$ be a vector space. For any finite-dimensional subspaces $X$, $Y \subseteq V$,
 
 $$ \dim(X + Y) \leq \dim X + \dim Y. $$
 
-{% endentry %}
+{% endproposition %}
