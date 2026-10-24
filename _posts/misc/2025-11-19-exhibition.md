@@ -143,7 +143,6 @@ Suspendisse porta[^1] ultricies risus in blandit[^2].
 
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
-{:.figure}
 ![Life](/res/exhibition/Life.png "Life"){:.framed width="30%"}
 
 Curabitur luctus massa non blandit lobortis.
