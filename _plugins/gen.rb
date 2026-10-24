@@ -1,4 +1,5 @@
-module Codex
+module Jekyll
+
   class Catalog < Jekyll::Page
     # Class for catalog pages
 
@@ -99,4 +100,5 @@ module Codex
       end
     end
   end
+
 end

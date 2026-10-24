@@ -1,7 +1,26 @@
 require 'shellwords'
 
 module Jekyll
+
+  # Liquid tag blocks for theorem-like (theoremish) entries:
+  #
+  # `definition`, `proposition` and `axiom`.
+  #
+  # All three share the same syntax:
+  #
+  #   {% <entry_type> <index> [<description>] [@newline] %}
+  #
+  # Use the `@newline` modifier to start the content on a newline.
+  # For example, this is necessary if the content immediately starts with a display equation or a list.
+  #
+  # Why not manually insert a <br />?
+  # Because the rendering usually inserts an em-space after the heading, however it should not do so
+  # if nothing follows on the same line. The modifier lets the renderer know when to insert the space or not.
+
   class TheoremishTagBlock < Liquid::Block
+    # This is an abstract class. It does all the job,
+    # except it doesn't have an entry type.
+
     def initialize(tag_name, input, tokens)
       super
 
@@ -24,9 +43,6 @@ module Jekyll
 
     def render(context)
       content = super.strip
-
-      # The `markdown="1"` attribute is crucial for kramdown to regularly
-      # render the content in Markdown.
 
       "<div class=\"theoremish\" id=\"#{@id}\" markdown=\"1\">\n" \
         "[**#{@heading}**](\##{@id}){:.theoremish-heading}" \
@@ -61,6 +77,7 @@ module Jekyll
       super
     end
   end
+
 end
 
 Liquid::Template.register_tag('definition',  Jekyll::DefinitionTagBlock)

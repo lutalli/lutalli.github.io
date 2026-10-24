@@ -2,74 +2,12 @@ require 'shellwords'
 
 module Jekyll
 
-  # Methods of reference rendering.
-  #
-  # They are not baked in the classes, so that they can be reused by RefImportTag.
-
-  def self.render_ref_web(args)
-    author   = args['author']
-    title    = args['title']
-    platform = args['platform']   # optional
-    url      = args['url']
-    date     = args['date']       # optional
-
-    ref = "#{author}. [*#{title}*](#{url})."
-
-    ref << " #{platform}." if platform
-
-    ref << " Accessed #{Time.parse(date).strftime('%b %d, %Y')}." if date
-
-    ref
-  end
-
-  def self.render_ref_book(args)
-    author    = args['author']
-    title     = args['title']
-    url       = args['url']       # optional
-    edition   = args['edition']
-    publisher = args['publisher']
-    year      = args['year']
-    pages     = args['pages']     # optional
-
-    ref = "#{author}."
-
-    ref << (url ? " [*#{title}*](#{url})." : " *#{title}*.")
-
-    if pages
-      if pages.include?('-') || pages.include?(';')
-        ref << " **pp. #{pages.gsub('-', '--').gsub(';', '; ')}**."
-      else
-        ref << " **p. #{pages}**."
-      end
-    end
-
-    ref << " #{edition}." if edition
-
-    ref << " #{publisher}, #{year}."
-
-    ref
-  end
-
-  def self.render_ref_course(args)
-    author      = args['author']
-    title       = args['title']
-    target      = args['target']      # optional
-    institution = args['institution']
-    semester    = args['semester']
-
-    ref = "#{author}. *#{title}*."
-
-    ref << " #{target}." if target
-
-    ref << " #{institution}. #{semester}."
-
-    ref
-  end
-
-  # Classes for the reference tags.
+  # Some Liquid tags for reference rendering.
 
   class RefTag < Liquid::Tag
-    # This is an abstract class!
+    # This is an abstract class that will be inherited by all the concrete reference tag classes.
+    #
+    # All this abstract class does is parsing arguments.
 
     def initialize(tag_name, input, tokens)
       super
@@ -79,18 +17,66 @@ module Jekyll
   end
 
   class RefWebTag < RefTag
+    # Website references.
+    #
+    # Syntax:
+    #
+    #   {% ref_web
+    #       author=<author>
+    #       title=<title>
+    #       [platform=<website name>]
+    #       url=<url>
+    #       [date=<accessed date>]
+    #   %}
+    #
+    # `date` is usually omitted if `url` is a permanent link.
+    # For example, a link to a revision of a Wikipedia page.
+
     def render(context)
       Jekyll::render_ref_web(@args)
     end
   end
 
   class RefBookTag < RefTag
+    # Book references.
+    #
+    # Rarely used, as books are usually referenced using `ref_import`.
+    #
+    # Syntax:
+    #
+    #   {% ref_book
+    #       author=<author>
+    #       title=<title>
+    #       edition=<edition>
+    #       publisher=<publisher>
+    #       year=<year of publishment>
+    #       [pages=<referenced page(s)>]
+    #       [url=<url>]
+    #   %}
+
     def render(context)
       Jekyll::render_ref_book(@args)
     end
   end
 
   class RefCourseTag < RefTag
+    # College course references.
+    #
+    # Rarely used, as courses are usually referenced using `ref_import`.
+    #
+    # Not called "lecture" because we may reference the script of a course as well, for example.
+    # Whether it is a lecture, a script, or something else, is specified by `target`.
+    #
+    # Syntax:
+    #
+    #   {% ref_course
+    #       author=<author>
+    #       title=<title>
+    #       [target=<target>]
+    #       institution=<institution>
+    #       semester=<semester>
+    #   %}
+
     def render(context)
       Jekyll::render_ref_course(@args)
     end
@@ -104,7 +90,7 @@ module Jekyll
     #
     # Syntax:
     #
-    #     {% ref_import key=<key> <attributes to add / overwrite> %}
+    #     {% ref_import key=<key> <additional attributes> %}
 
     def render(context)
       site = context.registers[:site]
@@ -128,6 +114,74 @@ module Jekyll
       end
     end
   end
+
+  # The actual methods of reference rendering.
+  #
+  # They are not implemented inside the classes, so that they can be reused by `ref_import`.
+
+  def self.render_ref_web(args)
+    author   = args['author']
+    title    = args['title']
+    platform = args['platform']
+    url      = args['url']
+    date     = args['date']
+
+    ref = "#{author}. [*#{title}*](#{url})."
+
+    ref << " #{platform}." if platform
+
+    ref << " Accessed #{Time.parse(date).strftime('%b %d, %Y')}." if date
+
+    ref
+  end
+
+  def self.render_ref_book(args)
+    author    = args['author']
+    title     = args['title']
+    edition   = args['edition']
+    publisher = args['publisher']
+    year      = args['year']
+    pages     = args['pages']
+    url       = args['url']
+
+    ref = "#{author}."
+
+    ref << (url ? " [*#{title}*](#{url})." : " *#{title}*.")
+
+    if pages
+      # Use "pp." for multiple pages;
+      #     "p."  for one single page.
+
+      if pages.include?('-') || pages.include?(';')
+        ref << " **pp. #{pages.gsub('-', '--').gsub(';', '; ')}**."
+      else
+        ref << " **p. #{pages}**."
+      end
+    end
+
+    ref << " #{edition}." if edition
+
+    ref << " #{publisher}, #{year}."
+
+    ref
+  end
+
+  def self.render_ref_course(args)
+    author      = args['author']
+    title       = args['title']
+    target      = args['target']
+    institution = args['institution']
+    semester    = args['semester']
+
+    ref = "#{author}. *#{title}*."
+
+    ref << " #{target}." if target
+
+    ref << " #{institution}. #{semester}."
+
+    ref
+  end
+
 end
 
 Liquid::Template.register_tag('ref_web',    Jekyll::RefWebTag)

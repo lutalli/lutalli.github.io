@@ -1,6 +1,12 @@
 require 'shellwords'
 
 module Jekyll
+
+  # Here are some disclosure elements based on the <details> tag.
+  #
+  # Currently we only have `examples` and `proof`.
+  # They work essentially in the same way, except that `proof` renders a QED symbol at the end.
+
   class ExamplesTagBlock < Liquid::Block
     # Tag block for examples.
     #
@@ -30,6 +36,9 @@ module Jekyll
 
   class ProofTagBlock < Liquid::Block
     # Tag block for proofs.
+    #
+    # Add the modifier `@qedfix` in case we want the QED symbol to be placed on a new line.
+    # For example, this is necessary if a proof ends with a display equation.
     #
     # Syntax:
     #
@@ -62,6 +71,7 @@ module Jekyll
       "</details>"
     end
   end
+
 end
 
 Liquid::Template.register_tag('proof',    Jekyll::ProofTagBlock)
