@@ -2,7 +2,7 @@
 title: Posts
 ---
 
-{% assign CATEGORIES = "art:Art,misc:Misc" | split: "," %}
+{% assign CATEGORIES = "art:Art,computer:Computer,misc:Misc" | split: "," %}
 
 {% for category_ns in CATEGORIES %}
     {% assign category  = category_ns | split: ":" %}
