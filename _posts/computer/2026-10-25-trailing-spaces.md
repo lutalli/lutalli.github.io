@@ -1,12 +1,12 @@
 ---
 title:      "[Vim] Highlight trailing spaces"
-updated:    2026-10-25
+updated:    2026-10-26
 categories: computer
 ---
 
 **Trailing spaces** are space characters that appear at the end of a line in source code. In most cases, they have no practical impact on a program's compilation or execution, but removing them is still good code hygiene.
 
-It's easy to leave trailing spaces, since they are usually invisible in the editor. Unless you move your cursor to the end of a line, you can't really find them out. For this reason, it's a good idea to *configure your editor to highlight trailing spaces*.
+It's easy to leave trailing spaces, since they are usually invisible in the editor. Unless we move our cursor to the end of a line, we can't really find them out. For this reason, it's a good idea to *configure our editor to highlight trailing spaces*.
 
 We'll look at a simple solution for Vim. Sure, [linters](https://en.wikipedia.org/wiki/Lint_%28software%29) can report trailing spaces, but they are often language-specific and not well suited to a minimal setup. Personally I don't use linters or similar tools.
 
@@ -22,7 +22,7 @@ makes Vim display trailing spaces as the character ░. You could also use a mid
 
 ![Reveal trailing spaces](/res/trailing-spaces/normal1.png){:.framed}
 
-Now the trailing spaces stand out clearly and you can go to these spots to remove them. Very practical.
+Now the trailing spaces stand out clearly and we can go to these spots to remove them. Very practical.
 
 But this setting also introduces a small annoyance:
 
