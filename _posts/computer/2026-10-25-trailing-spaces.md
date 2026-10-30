@@ -1,6 +1,6 @@
 ---
 title:      "[Vim] Highlight trailing spaces"
-updated:    2026-10-26
+updated:    2026-10-30
 categories: computer
 ---
 
@@ -18,7 +18,7 @@ For example, the setting
 set listchars+=trail:░
 ```
 
-makes Vim display trailing spaces as the character ░. You could also use a middle dot, `·`, for example.
+makes Vim display trailing spaces as the character ░. We could also use a middle dot, `·`, for example.
 
 ![Reveal trailing spaces](/res/trailing-spaces/normal1.png){:.framed}
 
