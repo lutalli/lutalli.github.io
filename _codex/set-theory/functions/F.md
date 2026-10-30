@@ -6,7 +6,7 @@ updated: 2026-06-28
 
 {% definition 1 %}
 
-A **function** is a [binary relation](/codex/REL) that is [right-unique](/codex/RELC), i.e. a binary relation $f$ such that for all $x$, $y$, $z \in \dom f$,
+A **function** is a [binary relation](/codex/REL) that is [right-unique](/codex/UNI#DEF-2), i.e. a binary relation $f$ such that for all $x$, $y$, $z \in \dom f$,
 
 $$ (z, x) \in f \,\land\, (z, y) \in f \enspace\rimp\enspace x = y. $$
 

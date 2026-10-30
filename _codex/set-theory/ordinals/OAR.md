@@ -75,7 +75,7 @@ $$ (\alpha \cdot \beta) \cdot \gamma = \alpha \cdot (\beta \cdot \gamma). $$
 
 {% endproposition %}
 
-> Neither $+$ or $\cdot$ is [commutative](/codex/RELC):
+> Neither $+$ or $\cdot$ is [commutative](/codex/OPC):
 >
 > $$ 1 + \omega = \omega \neq \omega + 1, \quad%
 >    2 \cdot \omega = \omega \neq \omega \cdot 2. $$

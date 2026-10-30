@@ -1,7 +1,7 @@
 ---
 title:   Identity
 date:    2026-02-21
-updated: 2026-10-22
+updated: 2026-10-30
 ---
 
 {% definition 1 %}
@@ -14,9 +14,31 @@ $$ \id_X = \{(x, x) : x \in X\}. $$
 
 {% proposition 1 %}
 
-For any set $X$, $\id_X$ is also a [function](/codex/F), called the **identity function**. Moreover, $\id_X : X \to X$ is [bijective](/codex/BIJ).
+For any set $X$, $\id_X$ is a [bijective function](/codex/BIJ), called the **identity function**.
 
 {% endproposition %}
+
+{% proof %}
+
+Let $x$, $y$, $z \in X$. By definition, if
+
+$$ (z, x) \in \id_X \,\land\, (z, y) \in \id_X, $$
+
+then
+
+$$ z = x \,\land\, z = y \quad\Rimp\quad x = y, $$
+
+so $\id_X$ is a [function](/codex/F). If
+
+$$ (x, z) \in \id_X \,\land\, (y, z) \in \id_X, $$
+
+then
+
+$$ x = z \,\land\, y = z \quad\Rimp\quad x = y, $$
+
+so $\id_X$ is [injective](/codex/INJ). Since for every $x \in X$ we have $(x, x) \in \id_X$ and $X$ is the codomain, $\id_X$ is [surjective](/codex/SUR).
+
+{% endproof %}
 
 ---
 

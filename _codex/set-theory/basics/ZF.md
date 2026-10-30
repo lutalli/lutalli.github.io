@@ -1,7 +1,7 @@
 ---
 title:   Zermelo-Fraenkel Set Theory
 date:    2026-02-16
-updated: 2026-10-21
+updated: 2026-10-26
 ---
 
 **Zermelo-Fraenkel Set Theory** ($\ZF$) consists of the following axioms.
@@ -148,8 +148,6 @@ $X$ and $Y$ are **disjoint** if they are not joint.
 Every non-empty set $X$ has an element disjoint from $X$.
 
 {% endaxiom %}
-
-As a corollary:
 
 {% proposition 1 "Irreflexivity of $\in$" %}
 
