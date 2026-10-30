@@ -20,7 +20,7 @@ branches:
 
       - id:    relations
         name:  "Relations"
-        slugs: [ REL, ID, REF, SYM, TRA, CON, UNI, TOT, EQV, INVR, COMP, RST, IM ]
+        slugs: [ REL, INVR, COMP, RST, IM, ID, REF, SYM, TRA, CON, UNI, TOT, EQV ]
 
       - id:    functions
         name:  "Functions"
