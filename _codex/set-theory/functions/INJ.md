@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-10-01
 ---
 
-{% definition 1 %}
+{% definition IJ %}
 
 An **injective function** or **injection** is a [function](/codex/F) $f : X \to Y$ such that
 

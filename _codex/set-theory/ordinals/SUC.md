@@ -4,7 +4,7 @@ date:    2026-03-01
 updated: 2026-06-10
 ---
 
-{% definition 1 %}
+{% definition SC %}
 
 The **successor** of an [ordinal](/codex/ORD) $\alpha$ is the ordinal
 
@@ -14,21 +14,21 @@ An ordinal $\alpha$ is a **successor ordinal** if $\alpha = \beta+1$ for some or
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem IF %}
 
 For any ordinal $\alpha$,
 
 $$ \alpha + 1 = \inf \{\beta : \beta > \alpha\}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem CY %}
 
 For any [infinite](/codex/FINO) ordinal $\alpha$,
 
 $$ \lvert \alpha + 1 \rvert = \lvert \alpha \rvert. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 

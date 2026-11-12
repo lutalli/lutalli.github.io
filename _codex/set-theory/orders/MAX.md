@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-10-01
 ---
 
-{% definition 1 %}
+{% definition MX %}
 
 Let $X$ be a [partially ordered](/codex/PO) set.
 
@@ -20,7 +20,7 @@ Let $X$ be a [partially ordered](/codex/PO) set.
 
 {% proof "(uniqueness)" %}
 
-If both $a$ and $a'$ are greatest elements of $X$, $a' \leq a$ and $a \leq a'$, so $a=a'$ by [antisymmetry](/codex/PO#DEF-1). Similarly for the minimum.
+If both $a$ and $a'$ are greatest elements of $X$, $a' \leq a$ and $a \leq a'$, so $a=a'$ by [antisymmetry](/codex/PO#DPO). Similarly for the minimum.
 
 {% endproof %}
 

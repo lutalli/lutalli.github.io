@@ -4,7 +4,7 @@ date:    2026-05-07
 updated: 2026-06-20
 ---
 
-{% definition 1 %}
+{% definition BD %}
 
 Let $X$ be a non-empty set and $Y$ be a metric space. A function $f : X \to Y$ is **bounded** if $\im f$ is bounded.
 

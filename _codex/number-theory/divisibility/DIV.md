@@ -4,7 +4,7 @@ date:    2026-03-16
 updated: 2026-06-20
 ---
 
-{% definition 1 %}
+{% definition DV %}
 
 Let $n$, $m \in \N$. $n$ **divides** $m$, written
 
@@ -22,7 +22,7 @@ $$ m = kn. $$
 > - $m$ is a **multiple** of $n$;
 > - $m$ is **divisible** by $n$.
 
-{% proposition 1 @newline %}
+{% theorem OO @newline %}
 
 {:.par-upper-roman}
 1. For all $n \in \N$,
@@ -33,4 +33,4 @@ $$ m = kn. $$
 
    $$ n \ndivides 0. $$
 
-{% endproposition %}
+{% endtheorem %}

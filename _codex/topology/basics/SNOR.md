@@ -4,7 +4,7 @@ date:    2026-04-14
 updated: 2026-06-20
 ---
 
-{% definition 1 %}
+{% definition SN %}
 
 Let $K$ be a field equipped with a valuation $\lvert {}\cdot{} \rvert : K \to \R$ and $V$ be a vector space over $K$. A function $\lVert {}\cdot{} \rVert : V \to \R$ is a **seminorm** on $V$ if:
 
@@ -21,13 +21,13 @@ $(V, \lVert {}\cdot{} \rVert)$ is then called a **seminormed space**.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem OO %}
 
 If $(V, \lVert {}\cdot{} \rVert)$ is a seminormed space, then
 
 $$ \lVert 0 \rVert = 0. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 
@@ -40,13 +40,13 @@ $$ \lVert 0 \rVert =%
 
 {% endproof %}
 
-{% proposition 2 "Non-Negativity" %}
+{% theorem NN "Non-Negativity" %}
 
 Let $(V, \lVert {}\cdot{} \rVert)$ be a seminormed space. For all $v \in V$,
 
 $$ \lVert v \rVert \geq 0. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 

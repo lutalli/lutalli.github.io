@@ -4,7 +4,7 @@ date:    2026-03-24
 updated: 2026-09-18
 ---
 
-{% definition 1 %}
+{% definition DU %}
 
 If a set $X$ is [disjoint](/codex/DJ), the [union](/codex/U) of $X$ is called a **disjoint union**. The notation
 
@@ -22,17 +22,17 @@ $$ X_1 \sqcup \cdots \sqcup X_n = \bigsqcup \{X_1, \cdots, X_n\}. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem CY %}
 
 For any [finite](/codex/FIN) disjoint set $X$,
 
 $$ \Big\lvert \bigsqcup X \Big\rvert = \sum_{A \in X} \lvert A \rvert. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-By [`CAR` > Proposition 1](/codex/CAR#PROP-1).
+By [CAR # Theorem AD](/codex/CAR#TAD).
 
 {% endproof %}
 

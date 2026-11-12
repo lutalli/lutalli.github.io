@@ -4,7 +4,7 @@ date:    2026-04-18
 updated: 2026-06-10
 ---
 
-{% definition 1 %}
+{% definition IL %}
 
 An **involutory function** or **involution** is a [function](/codex/F) $f : X \to Y$ such that
 

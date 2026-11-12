@@ -4,29 +4,29 @@ date:    2026-02-27
 updated: 2026-06-10
 ---
 
-{% definition 1 %}
+{% definition WO %}
 
 A **well-order** on a set $W$ is a [total order](/codex/TO) such that every non-empty subset of $W$ has a [least](/codex/GR) element.
 
 {% enddefinition %}
 
-{% definition 2 %}
+{% definition ST %}
 
 A **strict well-order** on $W$ is a strict total order such that every non-empty subset of $W$ has a least element.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem SS %}
 
 $\leq$ is a well-order if and only if $<$ is a strict well-order.
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem IC %}
 
 If $W$ is a well-ordered set and $f : W \to W$ is [strictly increasing](/codex/OH), then $x \leq f(x)$ for every $x \in W$.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
@@ -38,31 +38,31 @@ a contradiction.
 
 {% endproof %}
 
-{% proposition 3 %}
+{% theorem ID %}
 
 The only [automorphism](/codex/HOM) on a well-ordered set $W$ is the [identity](/codex/ID) $\id_W$.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-Let $f$ be an automorphism $W$. By [`OH` > Proposition 1](/codex/OH#PROP-1), both $f$ and $f^{-1}$ are strictly increasing. By [Proposition 2](#PROP-2), $x \leq f(x)$ and $x \leq f^{-1}(x)$ for every $x \in W$, which follows that $x \leq f(x)$ and $f(x) \leq x$ for every $x \in W$.
+Let $f$ be an automorphism $W$. By [OH # Theorem IC](/codex/OH#TIC), both $f$ and $f^{-1}$ are strictly increasing. By [Theorem IC](#TIC), $x \leq f(x)$ and $x \leq f^{-1}(x)$ for every $x \in W$, which follows that $x \leq f(x)$ and $f(x) \leq x$ for every $x \in W$.
 
 {% endproof %}
 
-{% proposition 4 %}
+{% theorem IS %}
 
-If two well-ordered sets $W$ and $W'$ are [isomorphic](/codex/HOM#DEF-2), then the isomorphism is unique.
+If two well-ordered sets $W$ and $W'$ are [isomorphic](/codex/HOM#DIS), then the isomorphism is unique.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-If $f$ and $g$ are isomorphisms from $W$ onto $W'$, $f\circ g^{-1}$ is an automorphism on $W$. By [Proposition 3](#PROP-3), $f\circ g^{-1} = \id_W$.
+If $f$ and $g$ are isomorphisms from $W$ onto $W'$, $f\circ g^{-1}$ is an automorphism on $W$. By [Theorem ID](#TID), $f\circ g^{-1} = \id_W$.
 
 {% endproof %}
 
-{% definition 3 %}
+{% definition SG %}
 
 Let $W$ be a well-ordered set and $u \in W$. The **initial segment** of $W$ given by $u$ is
 
@@ -72,11 +72,11 @@ $S \subseteq W$ is an initial segment of $W$, if $S = \init_u W$ for some $u$.
 
 {% enddefinition %}
 
-{% proposition 5 %}
+{% theorem SG %}
 
 No well-ordered set is isomorphic to an initial segment of itself.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
@@ -84,11 +84,11 @@ Let $W$ be a well-ordered set. For any $u \in W$, if
 
 $$ f : W \to \init_u W, $$
 
-then $f(u) < u$. By [Proposition 2](#PROP-2), $f$ can not be an isomorphism.
+then $f(u) < u$. By [Theorem IC](#TIC), $f$ can not be an isomorphism.
 
 {% endproof %}
 
-{% proposition 6 %}
+{% theorem SI %}
 
 For any two well-ordered sets $W$ and $W'$, exactly one of the following cases holds:
 
@@ -97,15 +97,15 @@ For any two well-ordered sets $W$ and $W'$, exactly one of the following cases h
 2. $W$ is isomorphic to an initial segment of $W'$.
 3. $W'$ is isomorphic to an initial segment of $W$.
 
-{% endproposition %}
+{% endtheorem %}
 
 The following theorem is equivalent to $\AC$:
 
-{% proposition 7 "Well-Ordering Theorem" %}
+{% theorem WO "Well-Ordering Theorem" %}
 
 Every set can be well-ordered, i.e. for any set $X$, there exists a well-order on $X$.
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

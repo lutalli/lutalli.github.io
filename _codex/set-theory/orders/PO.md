@@ -4,9 +4,9 @@ date:    2026-02-22
 updated: 2026-06-20
 ---
 
-{% definition 1 %}
+{% definition PO %}
 
-A **partial order** is an [antisymmetric](/codex/SYM#DEF-3) [preorder](/codex/PRO), i.e. a [binary relation](/codex/REL) $\leq$ on $X$ such that:
+A **partial order** is an [antisymmetric](/codex/SYM#DAT) [preorder](/codex/PRO), i.e. a [binary relation](/codex/REL) $\leq$ on $X$ such that:
 
 {:.par-upper-roman}
 1. (*Reflexivity*) For all $x \in X$,
@@ -25,7 +25,7 @@ A **partial order** is an [antisymmetric](/codex/SYM#DEF-3) [preorder](/codex/PR
 
 > A *partially ordered set* is also known as a **poset**.
 
-{% definition 2 %}
+{% definition ST %}
 
 A binary relation $<$ on $X$ is a **strict partial order** if:
 
@@ -44,13 +44,13 @@ A binary relation $<$ on $X$ is a **strict partial order** if:
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem IT %}
 
-A binary relation is a strict partial order as soon as it is [irreflexive](/codex/REF#DEF-2) and [transitive](/codex/TRA#DEF-1).
+A binary relation is a strict partial order as soon as it is [irreflexive](/codex/REF#DIR) and [transitive](/codex/TRA#DTR).
 
 (This is why we do not talk about "strict preorder".)
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
@@ -58,11 +58,11 @@ Irreflexivity and transitivity imply asymmetry: Let $<$ be an irreflexive and tr
 
 {% endproof %}
 
-{% proposition 2 %}
+{% theorem SS %}
 
 $\leq$ is a partial order if and only if $<$ is a strict partial order.
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

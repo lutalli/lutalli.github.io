@@ -4,7 +4,7 @@ date:    2026-05-04
 updated: 2026-06-20
 ---
 
-{% definition 1 %}
+{% definition SP %}
 
 Let $V$ be a vector space and $S \subseteq V$ be a subset. The **linear span** of $S$ is the *generated subspace* of $S$:
 
@@ -14,7 +14,7 @@ Each element of $\langle S \rangle$ is called a **linear combination** of $S$.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem FN %}
 
 Let $V$ be a vector space over $F$. For any finite subset
 
@@ -26,4 +26,4 @@ $$ \langle S \rangle = \left\{ %
     \sum_{i = 1}^n \lambda_i v_i : \lambda_1, \cdots, \lambda_n \in F%
 \right\}. $$
 
-{% endproposition %}
+{% endtheorem %}

@@ -4,7 +4,7 @@ date:    2026-03-05
 updated: 2026-06-10
 ---
 
-{% definition 1 %}
+{% definition ID %}
 
 A set $X$ is **inductive** if
 

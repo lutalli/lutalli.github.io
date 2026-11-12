@@ -4,7 +4,7 @@ date:    2026-03-17
 updated: 2026-06-11
 ---
 
-{% definition 1 %}
+{% definition CO %}
 
 Let $M$ be a [magma](/codex/MAG), $A$ be a [submagma](/codex/SMAG) and $m \in M$.
 
@@ -26,9 +26,9 @@ Let $M$ be a [magma](/codex/MAG), $A$ be a [submagma](/codex/SMAG) and $m \in M$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem AB %}
 
-Let $M$ be a magma and $A$ be a submagma. If $M$ is [abelian](/codex/MAG#DEF-2):
+Let $M$ be a magma and $A$ be a submagma. If $M$ is [abelian](/codex/MAG#DPR):
 
 {:.par-upper-roman}
 1. For any $m \in M$,
@@ -37,4 +37,4 @@ Let $M$ be a magma and $A$ be a submagma. If $M$ is [abelian](/codex/MAG#DEF-2):
 
 2. $$ M / A = M \backslash A. $$
 
-{% endproposition %}
+{% endtheorem %}

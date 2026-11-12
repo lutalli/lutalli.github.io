@@ -4,13 +4,13 @@ date:    2026-03-19
 updated: 2026-06-11
 ---
 
-{% definition 1 %}
+{% definition SM %}
 
 Let $(M, \*)$ be a [monoid](/codex/MOID). $(N, \*)$ is a **submonoid** of $(M, \*)$, written $N \leq M$, if $(N, \*)$ itself is a monoid and $N \subseteq M$.
 
 {% enddefinition %}
 
-{% definition 2 %}
+{% definition NP %}
 
 Let $M$ be a monoid with [neutral element](/codex/NEU) $e$ and $N$ be a submonoid. $N$ is **neutral-preserving** if the neutral element of $N$ is also $e$.
 
@@ -22,7 +22,7 @@ Let $M$ be a monoid with [neutral element](/codex/NEU) $e$ and $N$ be a submonoi
 
 {% endexamples %}
 
-{% proposition 1 "Submonoid Test" %}
+{% theorem TT "Submonoid Test" %}
 
 Let $(M, \*)$ be a monoid. $N \subseteq M$ is a submonoid as soon as:
 
@@ -35,4 +35,4 @@ Let $(M, \*)$ be a monoid. $N \subseteq M$ is a submonoid as soon as:
 
    $$ ae = ea = a. $$
 
-{% endproposition %}
+{% endtheorem %}

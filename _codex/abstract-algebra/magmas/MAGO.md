@@ -4,7 +4,7 @@ date:    2026-03-16
 updated: 2026-06-11
 ---
 
-{% definition 1 %}
+{% definition OD %}
 
 The **order** of a [magma](/codex/MAG) $M$ is the [cardinality](/codex/CTY) of its underlying set $M$, denoted by $\lvert M \rvert$.
 

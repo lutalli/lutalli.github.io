@@ -4,7 +4,7 @@ date:    2026-03-06
 updated: 2026-06-10
 ---
 
-{% definition 1 %}
+{% definition LM %}
 
 Let $\alpha$ be a [limit ordinal](/codex/LIMO) and $\gamma$ be an [increasing](/codex/OH) $\alpha$-sequence of [ordinals](/codex/ORD). The **limit** of $\gamma$ is
 

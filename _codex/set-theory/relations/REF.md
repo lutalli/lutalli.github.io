@@ -4,7 +4,7 @@ date:    2026-10-27
 updated: 2026-10-27
 ---
 
-{% definition 1 %}
+{% definition RF %}
 
 A [binary relation](/codex/REL) $\sim$ on a set $X$ is **reflexive** if for all $x \in X$,
 
@@ -12,7 +12,7 @@ $$ x \sim x. $$
 
 {% enddefinition %}
 
-{% definition 2 %}
+{% definition IR %}
 
 A binary relation $\sim$ on a set $X$ is **irreflexive** if for all $x \in X$,
 
@@ -22,7 +22,7 @@ $$ x \not\sim x. $$
 
 > *Irreflexive* is also known as **antireflexive**, **aliorelative** or **strict**.
 
-{% definition 3 %}
+{% definition CR %}
 
 A binary relation $\sim$ on a set $X$ is **coreflexive** if for all $x$, $y \in X$,
 
@@ -30,7 +30,7 @@ $$ x \sim y \,\rimp\, x = y. $$
 
 {% enddefinition %}
 
-{% definition 4 %}
+{% definition QR %}
 
 Let $\sim$ be a binary relation on a set $X$.
 

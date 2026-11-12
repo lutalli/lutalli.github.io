@@ -4,13 +4,13 @@ date:    2026-02-17
 updated: 2026-09-18
 ---
 
-{% definition 1 %}
+{% definition CT %}
 
 The **Cartesian product** of two sets $X$ and $Y$ is
 
 $$ X \times Y = \{(x, y) : x \in X \,\land\, y \in Y\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#AX-4) (recall Kuratowski's [definition](/codex/TUP) of tuples):
+This is a set by [Separation Schema](/codex/ZF#ASP) (recall Kuratowski's [definition](/codex/TUP) of tuples):
 
 $$ X \times Y \subseteq \powerset(\powerset(X \cup Y)). $$
 
@@ -28,23 +28,23 @@ $$ X^n = \underbrace{X \times \cdots \times X}_{\text{$n$ times}}. $$
 
 {% enddefinition %}
 
-{% proposition 2 %}
+{% theorem XO %}
 
 For any set $X$,
 
 $$ X \times \empt = \empt \times X = \empt. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 3 %}
+{% theorem IX %}
 
 For any sets $A$, $B$, $C$ and $D$,
 
 $$ (A \cap B) \times (C \cap D) = (A \times C) \cap (B \times D). $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 4 "Distributivities" %}
+{% theorem DT "Distributivities" %}
 
 For any sets $A$, $B$ and $C$:
 
@@ -55,7 +55,7 @@ For any sets $A$, $B$ and $C$:
 
 3. $$ A \times (B \setdif C) = (A \times B) \setdif (A \times C). $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

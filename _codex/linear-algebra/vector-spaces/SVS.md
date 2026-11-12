@@ -4,13 +4,13 @@ date:    2026-04-15
 updated: 2026-06-20
 ---
 
-{% definition 1 %}
+{% definition SB %}
 
 Let $(V, F, \cdot)$ be a vector space. $(W, F, \cdot)$ is a **vector subspace** of $V$ if it is a vector space and $W \subseteq V$.
 
 {% enddefinition %}
 
-{% proposition 1 "Vector Space Test" %}
+{% theorem TT "Vector Space Test" %}
 
 Let $V$ be a vector space over $F$ and $W \subseteq V$. $W$ is a subspace if:
 
@@ -25,16 +25,16 @@ Let $V$ be a vector space over $F$ and $W \subseteq V$. $W$ is a subspace if:
 
    $$ \lambda x \in W. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem IX %}
 
 Let $V$ be a vector space. For any set of subspaces $\mathcal{W}$, $\bigcap \mathcal{W}$ is also a subspace.
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 3 %}
+{% theorem UU %}
 
 Let $V$ be a vector space and $W$, $W'$ be subspaces. If $W \cup W'$ is a subspace, then either $W \subseteq W'$ or $W' \subseteq W$.
 
-{% endproposition %}
+{% endtheorem %}

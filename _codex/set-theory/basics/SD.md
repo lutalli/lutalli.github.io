@@ -4,7 +4,7 @@ date:    2026-02-17
 updated: 2026-06-23
 ---
 
-{% definition 1 %}
+{% definition DF %}
 
 The **set difference** between two sets $X$ and $Y$ is
 
@@ -12,7 +12,7 @@ $$ X \setdif Y = \{x \in X : x \notin Y\}. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem XO %}
 
 For any set $X$:
 
@@ -23,23 +23,23 @@ For any set $X$:
 
 3. $$ X \setdif X = \empt. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem DJ %}
 
 Any two sets $X$ and $Y$ are disjoint if and only if
 
 $$ X \setdif Y = X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 3 %}
+{% theorem SB %}
 
 For any two sets $X$ and $Y$, if $X \subseteq Y$, then
 
 $$ X \setdif Y = \empt. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

@@ -4,7 +4,7 @@ date:    2026-03-19
 updated: 2026-06-11
 ---
 
-{% definition 1 %}
+{% definition RH %}
 
 A **ring homomorphism** between two rings $R$ and $S$ is a function $f : R \to S$ such that:
 
@@ -21,7 +21,7 @@ In other words, $f$ is both a group homomorphism from $(R, +)$ to $(S, +)$ and a
 
 {% enddefinition %}
 
-{% definition 2 %}
+{% definition PV %}
 
 A ring homomorphism $f : R \to S$ is **neutral-preserving** if
 
@@ -29,7 +29,7 @@ $$ f(1_R) = 1_S. $$
 
 {% enddefinition %}
 
-{% definition 3 %}
+{% definition KN %}
 
 The **kernel** of a ring homomorphism $f : R \to S$ is
 
@@ -37,7 +37,7 @@ $$ \ker f = f^{-1}[\{0\}]. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem OO %}
 
 For any ring homomorphism $f : R \to S$:
 
@@ -48,24 +48,24 @@ For any ring homomorphism $f : R \to S$:
 
    $$ f(-a) = -f(a). $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-By [`GH` > Proposition 1](/codex/GH#PROP-1).
+By [GH # Theorem PV](/codex/GH#TPV).
 
 {% endproof %}
 
-{% proposition 2 %}
+{% theorem MN %}
 
 Let $f : R \to S$ be a ring homomorphism. $f$ is a monomorphism if and only if
 
 $$ \ker f = \{0\}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-By [`GH` > Proposition 5](/codex/GH#PROP-5).
+By [GH # Theorem MN](/codex/GH#TMN).
 
 {% endproof %}

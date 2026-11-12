@@ -4,17 +4,17 @@ date:    2026-03-17
 updated: 2026-06-11
 ---
 
-{% definition 1 %}
+{% definition SG %}
 
 Let $(G, \*)$ be a group. $(H, \*)$ is a **subgroup** of $(G, \*)$, written $H \leq G$, if $(H, \*)$ itself is a group and $H \subseteq G$.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem NP %}
 
 All subgroups are neutral-preserving: If $G$ is a group with neutral element $e$ and $H$ is a subgroup, then the neutral element of $H$ is also $e$.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
@@ -22,11 +22,11 @@ If $e'$ is the neutral element of $H$,
 
 $$ e'e' = e' = ee', $$
 
-hence $e' = e$ by [cancellation property of group](/codex/G#PROP-3).
+hence $e' = e$ by [cancellation property of group](/codex/G#TCC).
 
 {% endproof %}
 
-{% proposition 2 "Subgroup Test A" %}
+{% theorem TA "Subgroup Test A" %}
 
 Let $G$ be a group and $H \subseteq G$ be non-empty. $H$ is a subgroup as soon as:
 
@@ -39,20 +39,20 @@ Let $G$ be a group and $H \subseteq G$ be non-empty. $H$ is a subgroup as soon a
 
    $$ a^{-1} \in H. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 3 "Subgroup Test B" %}
+{% theorem TB "Subgroup Test B" %}
 
 Let $G$ be a group and $H \subseteq G$ be non-empty. $H$ is a subgroup as soon as for all $a$, $b\in H$,
 
 $$ ab^{-1} \in H. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 4 "Subgroup Test C" %}
+{% theorem TC "Subgroup Test C" %}
 
 Let $G$ be a finite group and $H\subseteq G$ be non-empty. $H$ is a subgroup as soon as $H$ is closed under multiplication, i.e for all $a$, $b\in H$,
 
 $$ ab \in H. $$
 
-{% endproposition %}
+{% endtheorem %}

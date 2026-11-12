@@ -4,20 +4,20 @@ date:    2026-05-14
 updated: 2026-06-20
 ---
 
-{% proposition 1:Rank-Nullity Theorem %}
+{% theorem RN "Rank-Nullity Theorem" %}
 
 Let $V$, $W$ be vector spaces over a field $F$. For any linear function $f : V \to W$,
 
 $$ \rank f + \null f = \dim V. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 As a corollary:
 
-{% proposition 2 %}
+{% theorem FM %}
 
-Let $V$, $W$ be vector spaces over a field $F$, $f : V \to W$ be a linear function and $w \in W$. By [`LF` > Proposition 4](/codex/LF#PROP-4), $f^{-1}[\\{w\\}]$ is a subspace. We have
+Let $V$, $W$ be vector spaces over a field $F$, $f : V \to W$ be a linear function and $w \in W$. By [LF # Theorem IM](/codex/LF#TIM), $f^{-1}[\\{w\\}]$ is a subspace. We have
 
 $$ \rank f + \dim f^{-1}[\{w\}] = \dim V. $$
 
-{% endproposition %}
+{% endtheorem %}

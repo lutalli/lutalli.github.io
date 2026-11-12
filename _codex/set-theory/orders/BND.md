@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-06-10
 ---
 
-{% definition 1 %}
+{% definition BD %}
 
 Let $X$ be a [preordered](/codex/PRO) set, $A \subseteq X$ and $a \in X$.
 
@@ -28,12 +28,12 @@ Let $X$ be a [preordered](/codex/PRO) set, $A \subseteq X$ and $a \in X$.
 
 {% enddefinition %}
 
-{% proposition 1 @newline %}
+{% theorem GR @newline %}
 
 - Any [greatest](/codex/GR) element is an upper bound.
 - Any least element is a lower bound.
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

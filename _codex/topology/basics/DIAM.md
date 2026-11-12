@@ -4,7 +4,7 @@ date:    2026-04-26
 updated: 2026-06-20
 ---
 
-{% definition 1 %}
+{% definition DM %}
 
 Let $X$ be a metric space and $A \subseteq X$. The **diameter** of $A$ is
 

@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 In the following, addition, multiplication and exponentiation of [ordinals](/codex/ORD) are defined using [Transfinite Recursion](/codex/TREC).
 
-{% definition 1 %}
+{% definition AD %}
 
 For any ordinal $\alpha$:
 
@@ -23,7 +23,7 @@ For any ordinal $\alpha$:
 
 {% enddefinition %}
 
-{% definition 2 %}
+{% definition MP %}
 
 For any ordinal $\alpha$:
 
@@ -40,7 +40,7 @@ For any ordinal $\alpha$:
 
 {% enddefinition %}
 
-{% definition 3 %}
+{% definition EP %}
 
 For any ordinal $\alpha$:
 
@@ -59,26 +59,34 @@ For any ordinal $\alpha$:
 
 ---
 
-{% proposition 1 "Associativity of $+$" %}
+{% theorem AA "Associativity of $+$" %}
 
 For any ordinals $\alpha$, $\beta$ and $\gamma$,
 
 $$ (\alpha + \beta) + \gamma = \alpha + (\beta + \gamma). $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 "Associativity of $\cdot$" %}
+{% theorem AM "Associativity of $\cdot$" %}
 
 For any ordinals $\alpha$, $\beta$ and $\gamma$,
 
 $$ (\alpha \cdot \beta) \cdot \gamma = \alpha \cdot (\beta \cdot \gamma). $$
 
-{% endproposition %}
+{% endtheorem %}
 
-> Neither $+$ or $\cdot$ is [commutative](/codex/OPC):
->
-> $$ 1 + \omega = \omega \neq \omega + 1, \quad%
->    2 \cdot \omega = \omega \neq \omega \cdot 2. $$
+{% theorem NC %}
+
+Neither $+$ or $\cdot$ is [commutative](/codex/OPC).
+
+{% endtheorem %}
+
+{% proof @qedfix %}
+
+$$ 1 + \omega = \omega \neq \omega + 1, \quad%
+   2 \cdot \omega = \omega \neq \omega \cdot 2. $$
+
+{% endproof %}
 
 ---
 

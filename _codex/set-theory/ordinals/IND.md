@@ -4,7 +4,7 @@ date:    2026-03-06
 updated: 2026-06-10
 ---
 
-{% proposition 1 "Induction" %}
+{% theorem ID "Induction" %}
 
 Let $A$ be a subset of $\N$. Suppose:
 
@@ -15,11 +15,11 @@ Let $A$ be a subset of $\N$. Suppose:
 
 Then $A = \N$.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-Otherwise, $\min(\N \setdif A)$ would be a [limit ordinal](/codex/LIMO), contrary to [`FINO` > Proposition 1](/codex/FINO#PROP-1).
+Otherwise, $\min(\N \setdif A)$ would be a [limit ordinal](/codex/LIMO), contrary to [FINO # Theorem LL](/codex/FINO#TLL).
 
 {% endproof %}
 

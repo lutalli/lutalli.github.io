@@ -4,7 +4,7 @@ date:    2026-05-07
 updated: 2026-06-20
 ---
 
-{% definition 1 %}
+{% definition SP %}
 
 Let $X$ be a non-empty set and $Y$ be a normed space. The following defines a norm on $\fun_\text{bd}(X, Y)$, called the **supremum norm**:
 

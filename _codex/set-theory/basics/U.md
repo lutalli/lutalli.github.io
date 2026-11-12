@@ -4,13 +4,13 @@ date:    2026-02-16
 updated: 2026-08-06
 ---
 
-{% definition 1 %}
+{% definition UU %}
 
 The **union** of a set $X$ is
 
 $$ \bigcup X = \{x : (\exists Y \in X : x \in Y)\}. $$
 
-This is a set by [Axiom of Union](/codex/ZF#AX-7).
+This is a set by [Axiom of Union](/codex/ZF#AUU).
 
 For any sets $A$, $B$, $C$, $D$, etc., we write
 
@@ -23,53 +23,53 @@ $$ \begin{align*}
 
 {% enddefinition %}
 
-{% proposition 1 @newline %}
+{% theorem OO @newline %}
 
 $$ \bigcup \empt = \empt. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem XO %}
 
 For any set $X$,
 
 $$ X \cup \empt = X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 3 "Idempotence" %}
+{% theorem IP "Idempotence" %}
 
 For any set $X$,
 
 $$ X \cup X = X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 4 "Commutativity" %}
+{% theorem CM "Commutativity" %}
 
 For any sets $X$ and $Y$,
 
 $$ X \cup Y = Y \cup X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 5 "Associativity" %}
+{% theorem AS "Associativity" %}
 
 For any sets $X$, $Y$ and $Z$,
 
 $$ (X \cup Y) \cup Z = X \cup (Y \cup Z). $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 6 %}
+{% theorem MN %}
 
-For any set $X$, $(\powerset(X), \cup)$ is an [abelian](/codex/MAG#DEF-2) [monoid](/codex/MOID) with [neutral element](/codex/NEU) $\empt$.
+For any set $X$, $(\powerset(X), \cup)$ is an [abelian](/codex/MAG#DPR) [monoid](/codex/MOID) with [neutral element](/codex/NEU) $\empt$.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-This is a summary of [Proposition 2](#PROP-2), [commutativity](#PROP-3) and [associativity](#PROP-4) of $\cup$.
+This is a summary of [Theorem XO](#TXO), [commutativity](#TCM) and [associativity](#TAS) of $\cup$.
 
 {% endproof %}
 

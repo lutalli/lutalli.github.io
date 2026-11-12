@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-06-10
 ---
 
-{% definition 1 %}
+{% definition SJ %}
 
 A **surjective function** or **surjection** is a [function](/codex/F) $f : X \to Y$ such that for all $y \in Y$,
 

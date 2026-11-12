@@ -4,9 +4,9 @@ date:    2026-02-22
 updated: 2026-06-28
 ---
 
-{% definition 1 %}
+{% definition FC %}
 
-A **function** is a [binary relation](/codex/REL) that is [right-unique](/codex/UNI#DEF-2), i.e. a binary relation $f$ such that for all $x$, $y$, $z \in \dom f$,
+A **function** is a [binary relation](/codex/REL) that is [right-unique](/codex/UNI#DRU), i.e. a binary relation $f$ such that for all $x$, $y$, $z \in \dom f$,
 
 $$ (z, x) \in f \,\land\, (z, y) \in f \enspace\rimp\enspace x = y. $$
 
@@ -36,7 +36,7 @@ $$ (z, x) \in f \,\land\, (z, y) \in f \enspace\rimp\enspace x = y. $$
 
   $$ \fun(X, Y). $$
 
-  This is a set by [Separation Schema](/codex/ZF#AX-4):
+  This is a set by [Separation Schema](/codex/ZF#ASP):
 
   $$ \fun(X, Y) \subseteq \rel(X, Y). $$
 
@@ -52,7 +52,7 @@ $$ (z, x) \in f \,\land\, (z, y) \in f \enspace\rimp\enspace x = y. $$
 
 {% endexamples %}
 
-{% definition 2 %}
+{% definition OP %}
 
 An $n$-ary **operation** on a set $X$ ($n \geq 1$) is a function
 

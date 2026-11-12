@@ -4,7 +4,7 @@ date:    2026-03-06
 updated: 2026-06-04
 ---
 
-{% definition 1 %}
+{% definition VV %}
 
 The **universal class** is the [class](/codex/CLS) of all sets:
 
@@ -12,15 +12,15 @@ $$ \V = \{x : x = x\}. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem PR %}
 
-$\V$ is a [proper class](/codex/CLS#DEF-3).
+$\V$ is a [proper class](/codex/CLS#DPC).
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-Since $\V = \V$, it follows that $\V \in \V$, contrary to [irreflexivity of $\in$](/codex/ZF#PROP-1).
+Since $\V = \V$, it follows that $\V \in \V$, contrary to [irreflexivity of $\in$](/codex/ZF#TIR).
 
 {% endproof %}
 

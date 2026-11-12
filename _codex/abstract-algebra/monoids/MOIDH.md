@@ -4,7 +4,7 @@ date:    2026-03-19
 updated: 2026-08-06
 ---
 
-{% definition 1 %}
+{% definition MH %}
 
 A **monoid homomorphism** is a magma homomorphism between monoids.
 
@@ -16,7 +16,7 @@ where $e$ and $i$ are respectively the neutral elements of $M$ and $N$.
 
 {% enddefinition %}
 
-{% definition 2 %}
+{% definition KN %}
 
 The **kernel** of a monoid homomorphism $f : M \to N$ is
 

@@ -4,9 +4,9 @@ date:    2026-03-14
 updated: 2026-06-11
 ---
 
-{% definition 1 %}
+{% definition MN %}
 
-A **monoid** is a [unital](/codex/NEU#DEF-1) [semigroup](/codex/SEMG), i.e. a [magma](/codex/MAG) $M$ such that:
+A **monoid** is a [unital](/codex/NEU#DNT) [semigroup](/codex/SEMG), i.e. a [magma](/codex/MAG) $M$ such that:
 
 1. (*Associativity*) For all $a$, $b$, $c\in M$,
 
@@ -16,15 +16,15 @@ A **monoid** is a [unital](/codex/NEU#DEF-1) [semigroup](/codex/SEMG), i.e. a [m
 
    $$ ae = ea = a. $$
 
-   ($e$ is automatically unique by [`NEU` > Proposition 1](/codex/NEU#PROP-1).)
+   ($e$ is automatically unique by [NEU # Theorem UQ](/codex/NEU#TUQ).)
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem LR %}
 
 Let $M$ be a monoid and $a \in M$. $a$ is [left-invertible](/codex/INV) if and only if $a$ is right-invertible.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 

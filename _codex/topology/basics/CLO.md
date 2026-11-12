@@ -4,14 +4,14 @@ date:    2026-05-07
 updated: 2026-06-20
 ---
 
-{% definition 1 %}
+{% definition CL %}
 
 Let $X$ be a metric space and $Y \subseteq X$. $Y$ is **closed** if $X \setdif Y$ is open.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem IX %}
 
 Let $X$ be a metric space. If $\mathcal{S}$ is a set of closed sets from $X$, then $\bigcap \mathcal{S}$ is closed.
 
-{% endproposition %}
+{% endtheorem %}

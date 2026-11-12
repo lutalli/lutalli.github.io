@@ -4,7 +4,7 @@ date:    2026-02-16
 updated: 2026-06-23
 ---
 
-{% definition 1:Roster Notation %}
+{% definition RT "Roster Notation" %}
 
 For any sets $a_1$, $\cdots$, $a_n$ ($n \geq 3$), we write
 

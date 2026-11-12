@@ -8,7 +8,7 @@ In $\ZF$ and similar set theories, every mathematical object is a set. Neverthel
 
 It is important to remember that classes are only [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar). Arguments involving classes are ultimately reduced to formulas.
 
-{% definition 1 %}
+{% definition CL %}
 
 If $\varphi(x, p)$ is a formula with free variables among $x$ and $p$, we define the **class**
 
@@ -20,7 +20,7 @@ $$ \forall x :\enspace x \in C \enspace\lrimp\enspace \varphi(x, p). $$
 
 {% enddefinition %}
 
-{% definition 2 %}
+{% definition RO %}
 
 Relations and operations on classes, such as
 
@@ -38,7 +38,7 @@ $$ \forall x :\enspace x \in C \enspace\rimp\enspace x \in D. $$
 
 {% enddefinition %}
 
-{% definition 3 %}
+{% definition PC %}
 
 A class $C$ **is a set** if there is a set $X$ such that
 

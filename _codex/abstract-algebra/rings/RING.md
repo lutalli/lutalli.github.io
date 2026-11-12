@@ -4,7 +4,7 @@ date:    2026-03-18
 updated: 2026-06-11
 ---
 
-{% definition 1 %}
+{% definition RI %}
 
 A **ring** is a structure $(R, +, \cdot)$ such that:
 
@@ -32,19 +32,19 @@ A **ring** is a structure $(R, +, \cdot)$ such that:
 
 {% endexamples %}
 
-{% definition 2 %}
+{% definition AB %}
 
 A ring $(R, +, \cdot)$ is **abelian** if $(R, \cdot)$ is abelian.
 
 {% enddefinition %}
 
-{% definition 3 %}
+{% definition UN %}
 
 A **unit** of a ring is a multiplicatively invertible element.
 
 {% enddefinition %}
 
-{% definition 4 %}
+{% definition EP %}
 
 Let $R$ be a ring, $a \in R$ and $n \in \N$. $a^n$ is defined recursively:
 
@@ -59,13 +59,13 @@ $$ a^n = \underbrace{a \cdot \cdots \cdot a}_{\text{$n$ times}}. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem AB %}
 
 In a ring $R$, $0$ is an absorbing element with respect to multiplication: For all $a \in R$,
 
 $$ a \cdot 0 = 0 \cdot a = 0. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 
@@ -76,11 +76,11 @@ $$ \begin{align*}
 
 {% endproof %}
 
-{% proposition 2 %}
+{% theorem NO %}
 
 In a non-zero ring $R$, $0$ is not invertible.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 

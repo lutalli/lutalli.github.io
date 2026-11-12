@@ -4,7 +4,7 @@ date:    2026-04-06
 updated: 2026-06-11
 ---
 
-{% definition 1 %}
+{% definition CH %}
 
 Let $R$ be a ring. The **characteristic** of $R$, denoted by
 

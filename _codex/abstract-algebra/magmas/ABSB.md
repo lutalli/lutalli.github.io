@@ -4,7 +4,7 @@ date:    2026-08-08
 updated: 2026-08-08
 ---
 
-{% definition 1 %}
+{% definition AB %}
 
 Let $M$ be a [magma](/codex/MAG) and $a \in M$.
 

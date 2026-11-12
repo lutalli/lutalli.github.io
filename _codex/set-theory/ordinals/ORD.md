@@ -4,7 +4,7 @@ date:    2026-03-01
 updated: 2026-06-10
 ---
 
-{% definition 1 %}
+{% definition OD %}
 
 An **ordinal number** or **ordinal** is a [transitive](/codex/TRAN) set that is [strictly well-ordered](/codex/WO) by $\in$. The [class](/codex/CLS) of all ordinals is denoted by $\Ord$.
 
@@ -16,7 +16,7 @@ An **ordinal number** or **ordinal** is a [transitive](/codex/TRAN) set that is 
 
 {% endexamples %}
 
-{% definition 2 %}
+{% definition TO %}
 
 For two ordinals $\alpha$ and $\beta$, we define the following [total order](/codex/TO) on $\Ord$:
 
@@ -24,13 +24,13 @@ $$ \alpha < \beta \enspace\lrimp\enspace \alpha \in \beta. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem EL %}
 
 Every element of an ordinal is an ordinal.
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem SB %}
 
 For any two ordinals $\alpha$ and $\beta$:
 
@@ -39,41 +39,41 @@ For any two ordinals $\alpha$ and $\beta$:
 
 2. $$ \alpha \subset \beta \enspace\rimp\enspace \alpha \in\beta. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 3 %}
+{% theorem ST %}
 
 For any ordinal $\alpha$,
 
 $$ \alpha = \{\beta : \beta < \alpha\}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 4 %}
+{% theorem IX %}
 
 If $C$ is a non-empty class of ordinals, then $\bigcap C$ is an ordinal and
 
 $$ \bigcap C \,=\, \inf C \,\in\, C. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 5 %}
+{% theorem UU %}
 
 If $X$ is a non-empty set of ordinals, then $\bigcup X$ is an ordinal and
 
 $$ \bigcup X = \sup X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 6 "Burali-Forti Paradox" %}
+{% theorem BF "Burali-Forti Paradox" %}
 
-$\Ord$ is a [proper class](/codex/CLS#DEF-3).
+$\Ord$ is a [proper class](/codex/CLS#DPC).
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-By [Proposition 5](#PROP-5), $\alpha = \sup \Ord$ would be an ordinal, hence
+By [Theorem UU](#TUU), $\alpha = \sup \Ord$ would be an ordinal, hence
 
 $$ \alpha + 1 \leq \alpha, $$
 

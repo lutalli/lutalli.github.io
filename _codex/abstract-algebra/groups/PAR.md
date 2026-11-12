@@ -4,7 +4,7 @@ date:    2026-03-18
 updated: 2026-06-11
 ---
 
-{% definition 1 %}
+{% definition PR %}
 
 Let $\sigma \in \SS_n$ be a permutation ($n \in \N^+$). The **parity** of $\sigma$ is
 
@@ -20,15 +20,15 @@ is the number of inversions in $\sigma$. $\sigma$ is called an **even permutatio
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem PD %}
 
 For any $\sigma \in \SS_n$ ($n \geq 2$),
 
 $$ \par \sigma = \prod_{1 \leq i < j \leq n} \frac{\sigma(i) - \sigma(j)}{i - j}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem GH %}
 
 For any $n \in \N^+$,
 
@@ -40,4 +40,4 @@ $$ \ker \par = \AA_n, $$
 
 the alternating group of degree $n$.
 
-{% endproposition %}
+{% endtheorem %}

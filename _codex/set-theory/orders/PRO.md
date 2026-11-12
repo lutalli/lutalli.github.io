@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-06-10
 ---
 
-{% definition 1 %}
+{% definition PR %}
 
 A [binary relation](/codex/REL) $\leq$ on a set $X$ is a **preorder** if:
 

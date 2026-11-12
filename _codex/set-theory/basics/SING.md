@@ -4,7 +4,7 @@ date:    2026-02-16
 updated: 2026-06-23
 ---
 
-{% definition 1 %}
+{% definition SG %}
 
 The **singleton** of a set $a$ is
 
@@ -12,17 +12,17 @@ $$ \{a\} = \{a, a\}. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem XX %}
 
 For any set $X$,
 
 $$ X \neq \{X\}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-If $X = \\{X\\}$, then $X \in X$, contrary to [irreflexivity of $\in$](/codex/ZF#PROP-1).
+If $X = \\{X\\}$, then $X \in X$, contrary to [irreflexivity of $\in$](/codex/ZF#TIR).
 
 {% endproof %}
 

@@ -4,7 +4,7 @@ date:    2026-03-17
 updated: 2026-06-11
 ---
 
-{% definition 1 %}
+{% definition DP %}
 
 Let $G$ and $H$ be two groups. The **direct product** of $G$ and $H$ is the group $G \times H$ with multiplication defined by
 
@@ -14,7 +14,7 @@ for all $g_1$, $g_2 \in G$ and $h_1$, $h_2 \in H$.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem EI %}
 
 Let $G$ be a group with neutral element $e$ and $H$ be a group with neutral element $i$.
 
@@ -25,4 +25,4 @@ Let $G$ be a group with neutral element $e$ and $H$ be a group with neutral elem
 
    $$ (g, h)^{-1} = (g^{-1}, h^{-1}). $$
 
-{% endproposition %}
+{% endtheorem %}

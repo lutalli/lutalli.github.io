@@ -4,13 +4,13 @@ date:    2026-03-01
 updated: 2026-06-08
 ---
 
-{% definition 1 %}
+{% definition TR %}
 
 A set $T$ is **transitive** if every element of $T$ is a subset of $T$.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem TT %}
 
 The following statements are equivalent:
 
@@ -21,7 +21,7 @@ The following statements are equivalent:
 
 3. $$ T \subseteq \powerset(T). $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

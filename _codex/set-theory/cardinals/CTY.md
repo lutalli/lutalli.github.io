@@ -4,9 +4,9 @@ date:    2026-03-09
 updated: 2026-06-10
 ---
 
-{% definition 1 %}
+{% definition CY %}
 
-If we assume $\AC$, every set $X$ can be [well-ordered](/codex/WO) (by [Well-Ordering Theorem](/codex/WO#PROP-7)). Then there is at least one [ordinal](/codex/ORD) [equinumerous](/codex/EQN) to $X$. We define the **cardinality** of $X$ as the [least](/codex/MAX) such ordinal:
+If we assume $\AC$, every set $X$ can be [well-ordered](/codex/WO) (by [Well-Ordering Theorem](/codex/WO#TWO)). Then there is at least one [ordinal](/codex/ORD) [equinumerous](/codex/EQN) to $X$. We define the **cardinality** of $X$ as the [least](/codex/MAX) such ordinal:
 
 $$ \lvert X \rvert = \min \{\alpha \in \Ord : X \equ \alpha\}. $$
 
@@ -14,7 +14,7 @@ $$ \lvert X \rvert = \min \{\alpha \in \Ord : X \equ \alpha\}. $$
 
 > Another way to define the cardinality without relying on $\AC$ is to use [Scott's Trick (Wikipedia)](https://en.wikipedia.org/wiki/Scott%27s_trick).
 
-{% proposition 1 %}
+{% theorem EQ %}
 
 For any sets $X$ and $Y$:
 
@@ -25,7 +25,7 @@ For any sets $X$ and $Y$:
 
 3. $$ X \lnequ Y \enspace\lrimp\enspace \lvert X \rvert <    \lvert Y \rvert. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

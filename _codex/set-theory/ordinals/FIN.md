@@ -4,7 +4,7 @@ date:    2026-03-06
 updated: 2026-07-09
 ---
 
-{% definition 1 %}
+{% definition FN %}
 
 A set $X$ is **finite** if there is a [bijection](/codex/BIJ) from $X$ to a [natural number](/codex/FINO). $X$ is **infinite** if it is not finite.
 

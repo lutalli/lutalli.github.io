@@ -4,7 +4,7 @@ date:    2026-03-16
 updated: 2026-06-11
 ---
 
-{% definition 1 %}
+{% definition SG %}
 
 The **symmetric group** on a set $X$ is the group
 
@@ -20,10 +20,10 @@ $$ \SS_n = \SS_{\llbra n \rrbra}. $$
 
 {% proof "(that $\SS_X$ is a group)" %}
 
-By [`COMP` > Proposition 5](/codex/COMP#PROP-5), $\fun(X, X)$ is a monoid. Since
+By [COMP # Theorem FM](/codex/COMP#TFM), $\fun(X, X)$ is a monoid. Since
 
 $$ \bij(X, X) = \inv\fun(X, X), $$
 
-$\bij(X, X)$ is a group by [`G` > Proposition 2](/codex/G#PROP-2).
+$\bij(X, X)$ is a group by [G # Theorem SB](/codex/G#TSB).
 
 {% endproof %}

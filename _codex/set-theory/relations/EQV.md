@@ -4,9 +4,9 @@ date:    2026-02-21
 updated: 2026-10-30
 ---
 
-{% definition 1 %}
+{% definition EQ %}
 
-A [binary relation](/codex/REL) $\sim$ on a set $X$ is an **equivalence relation** if it is [reflexive](/codex/REF#DEF-1), [symmetric](/codex/SYM#DEF-1) and [transitive](/codex/TRA#DEF-1):
+A [binary relation](/codex/REL) $\sim$ on a set $X$ is an **equivalence relation** if it is [reflexive](/codex/REF#DRF), [symmetric](/codex/SYM#DSY) and [transitive](/codex/TRA#DTR):
 
 {:.par-upper-roman}
 1. (*Reflexivitiy*) For all $x\in X$,
@@ -23,7 +23,7 @@ A [binary relation](/codex/REL) $\sim$ on a set $X$ is an **equivalence relation
 
 {% enddefinition %}
 
-{% definition 2 %}
+{% definition EC %}
 
 Let $\sim$ be an equivalence relation on a set $X$ and $a \in X$. The **equivalence class** of $a$ with respect to $\sim$ is
 
@@ -33,7 +33,7 @@ If there is no ambiguity, $[a]_\sim$ can be simply written as $[a]$.
 
 {% enddefinition %}
 
-{% definition 3 %}
+{% definition QS %}
 
 Let $\sim$ be an equivalence relation on a set $X$. The **quotient set** of $X$ by $\sim$ is the set
 
@@ -43,7 +43,7 @@ which is a [partition](/codex/DJU) of $X$.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem SC %}
 
 Let $\sim$ be an equivalence relation on a set $X$. For any $x$, $y \in X$, the following statements are equivalent:
 
@@ -56,7 +56,7 @@ Let $\sim$ be an equivalence relation on a set $X$. For any $x$, $y \in X$, the 
 
 4. $$ [x] \cap [y] \neq \empt. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

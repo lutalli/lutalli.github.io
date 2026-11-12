@@ -4,13 +4,13 @@ date:    2026-02-24
 updated: 2026-10-22
 ---
 
-{% definition 1 %}
+{% definition EM %}
 
 The **empty set** $\empt$ is the unique set such that
 
 $$ \forall x : x \notin \empt. $$
 
-The existence of $\empt$ is justified by [Axiom of Empty Set](/codex/ZF#AX-3), [Axiom of Existence](/codex/ZF#AX-1) or [Axiom of Infinity](/codex/ZF#AX-10). Its uniqueness is justified by [Axiom of Extensionality](/codex/ZF#AX-2).
+The existence of $\empt$ is justified by [Axiom of Empty Set](/codex/ZF#AEM) or [Axiom of Infinity](/codex/ZF#AIF). Its uniqueness is justified by [Axiom of Extensionality](/codex/ZF#AEX).
 
 A set $A$ is **non-empty** if $A \neq \empt$, i.e.
 

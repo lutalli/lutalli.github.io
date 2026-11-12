@@ -4,7 +4,7 @@ date:    2026-05-07
 updated: 2026-06-20
 ---
 
-{% definition 1 %}
+{% definition BA %}
 
 Let $X$ be a metric space, $a \in X$ and $r \in \R^+$. The **open ball** of radius $r$ around $a$ is
 

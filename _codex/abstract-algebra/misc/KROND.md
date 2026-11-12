@@ -4,7 +4,7 @@ date:    2026-04-02
 updated: 2026-06-20
 ---
 
-{% definition 1 %}
+{% definition KN %}
 
 For any $i$ and $j$, we write
 

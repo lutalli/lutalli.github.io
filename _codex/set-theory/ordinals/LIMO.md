@@ -4,13 +4,13 @@ date:    2026-03-05
 updated: 2026-06-10
 ---
 
-{% definition 1 %}
+{% definition LO %}
 
 An [ordinal](/codex/ORD) $\alpha > 0$ is a **limit ordinal** if it is not a [successor ordinal](/codex/SUC), i.e. there is no ordinal $\beta$ such that $\alpha = \beta + 1$.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem TT %}
 
 Let $\alpha > 0$ be an ordinal. The following statements are equivalent:
 
@@ -25,7 +25,7 @@ Let $\alpha > 0$ be an ordinal. The following statements are equivalent:
 
 5. <p class="centered" markdown="1">$\alpha$ is [inductive](/codex/INDS).</p>
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

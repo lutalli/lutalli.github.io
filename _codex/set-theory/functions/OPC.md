@@ -4,9 +4,9 @@ date:    2026-03-15
 updated: 2026-06-10
 ---
 
-{% definition 1 %}
+{% definition CL %}
 
-Let $\*$ be a [binary operation](/codex/F#DEF-2) on a set $X$. We define the following properties of $\*$:
+Let $\*$ be a [binary operation](/codex/F#DOP) on a set $X$. We define the following properties of $\*$:
 
 | Property                 | Condition                         |
 | :----------------------: | :-------------------------------: |

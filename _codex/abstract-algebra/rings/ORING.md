@@ -4,7 +4,7 @@ date:    2026-03-20
 updated: 2026-06-11
 ---
 
-{% definition 1 %}
+{% definition OD %}
 
 {:.no-indent}
 Let $R$ be a ring and $\leq$ be an order. $R$ is **ordered** by $\leq$ if:

@@ -4,23 +4,23 @@ date:    2026-02-17
 updated: 2026-06-23
 ---
 
-{% definition 1 %}
+{% definition PW %}
 
 The **power set** of a set $X$ is
 
 $$ \powerset(X) = \{Y : Y \subseteq X\}. $$
 
-This is a set by [Axiom of Power Set](/codex/ZF#AX-8).
+This is a set by [Axiom of Power Set](/codex/ZF#APW).
 
 {% enddefinition %}
 
-{% proposition 2 "Cantor's Theorem" %}
+{% theorem CT "Cantor's Theorem" %}
 
 For any set $X$,
 
 $$ \lvert X \rvert < \lvert \powerset(X) \rvert. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
@@ -32,13 +32,13 @@ Consider whether $a \in f(a)$.
 
 {% endproof %}
 
-{% proposition 3 %}
+{% theorem PT %}
 
 For any set $X$,
 
 $$ \lvert \powerset(X) \rvert = 2^{\lvert X \rvert}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
@@ -57,15 +57,15 @@ defines a bijection.
 
 {% endproof %}
 
-As a corollary of [Cantor's Theorem](#PROP-2) and [Proposition 3](#PROP-3):
+As a corollary:
 
-{% proposition 4 %}
+{% theorem LT %}
 
 For any cardinal $\kappa$,
 
 $$ \kappa < 2^\kappa. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

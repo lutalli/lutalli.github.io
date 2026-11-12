@@ -4,9 +4,9 @@ date:    2026-02-22
 updated: 2026-07-09
 ---
 
-{% definition 1 %}
+{% definition TO %}
 
-A **total order** is a [strongly connected](/codex/CON#DEF-2) [partial order](/codex/PO), i.e. a [binary relation](/codex/REL) $\leq$ on $X$ such that:
+A **total order** is a [strongly connected](/codex/CON#DSC) [partial order](/codex/PO), i.e. a [binary relation](/codex/REL) $\leq$ on $X$ such that:
 
 {:.par-upper-roman}
 1. (*Reflexivity*) For all $x \in X$,
@@ -29,9 +29,9 @@ A **total order** is a [strongly connected](/codex/CON#DEF-2) [partial order](/c
 
 > A *total order* is also known as a **linear order**.
 
-{% definition 2 %}
+{% definition ST %}
 
-A **strict total order** is a [connected](/codex/CON#DEF-1) [strict partial order](/codex/PO#DEF-2), i.e. a binary relation $<$ on $X$ such that:
+A **strict total order** is a [connected](/codex/CON#DCN) [strict partial order](/codex/PO#DST), i.e. a binary relation $<$ on $X$ such that:
 
 {:.par-upper-roman}
 1. (*Irreflexivity*) For all $x \in X$,
@@ -52,11 +52,11 @@ A **strict total order** is a [connected](/codex/CON#DEF-1) [strict partial orde
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem SS %}
 
 $\leq$ is a total order if and only if $<$ is a strict total order.
 
-{% endproposition %}
+{% endtheorem %}
 
 
 ---

@@ -4,7 +4,7 @@ date:    2026-02-21
 updated: 2026-10-22
 ---
 
-{% definition 1 %}
+{% definition RL %}
 
 A **relation** on sets $X_1$, $\cdots$, $X_n$ ($n \geq 1$) is a subset of the [Cartesian product](/codex/X) $X_1 \times \cdots \times X_n$; in this context it is an **$n$-ary relation**.
 
@@ -38,25 +38,25 @@ An $n$-ary relation **on a set** $X$ ($n \geq 1$) is a subset of $X^n$.
 
 > For Latinate names of different arities, see [Arity (Wikipedia)](https://en.wikipedia.org/wiki/Arity#Terminology).
 
-{% definition 2 %}
+{% definition DM %}
 
 The **domain** of a binary relation $R$ is
 
 $$ \dom R = \left\{ x : (\exists y : x \,R\, y) \right\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#AX-4) (recall Kuratowski's [definition](/codex/TUP) of tuples):
+This is a set by [Separation Schema](/codex/ZF#ASP) (recall Kuratowski's [definition](/codex/TUP) of tuples):
 
 $$ \dom R \subseteq \bigcup \bigcup R. $$
 
 {% enddefinition %}
 
-{% definition 3 %}
+{% definition IM %}
 
 The **image** of a binary relation $R$ is
 
 $$ \im R = \left\{ y : (\exists x : x \,R\, y) \right\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#AX-4) (recall Kuratowski's definition of tuples):
+This is a set by [Separation Schema](/codex/ZF#ASP) (recall Kuratowski's definition of tuples):
 
 $$ \im R \subseteq \bigcup \bigcup R. $$
 
@@ -64,7 +64,7 @@ $$ \im R \subseteq \bigcup \bigcup R. $$
 
 > *Image* is also known as **range**.
 
-{% definition 4 %}
+{% definition FD %}
 
 The **field** of a binary relation $R$ is
 

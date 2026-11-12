@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-06-10
 ---
 
-{% definition 1 %}
+{% definition BJ %}
 
 A **bijective function** or **bijection** is a [function](/codex/F) that is both [injective](/codex/INJ) and [surjective](/codex/SUR).
 

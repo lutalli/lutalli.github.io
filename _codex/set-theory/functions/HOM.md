@@ -4,7 +4,7 @@ date:    2026-03-14
 updated: 2026-08-06
 ---
 
-{% definition 1 %}
+{% definition HM %}
 
 Broadly speaking, a **homomorphism** is a structure-preserving [function](/codex/F) between two structured sets. The precise definition of a homomorphism depends on the context.
 
@@ -30,7 +30,7 @@ $$ \endo X, \quad \aut X. $$
 
 {% enddefinition %}
 
-{% definition 2 %}
+{% definition IS %}
 
 Two structured sets $A$ and $B$ are **isomorphic**, written
 

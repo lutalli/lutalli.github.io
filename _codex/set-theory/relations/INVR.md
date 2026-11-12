@@ -4,13 +4,13 @@ date:    2026-02-21
 updated: 2026-09-20
 ---
 
-{% definition 1 %}
+{% definition IV %}
 
 Let $R$ be a [binary relation](/codex/REL). The **inverse** of $R$ is the relation
 
 $$ R^{-1} = \{(y, x) : (x, y) \in R\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#AX-4):
+This is a set by [Separation Schema](/codex/ZF#ASP):
 
 $$ R^{-1} \subseteq \im R \times \dom R. $$
 
@@ -18,13 +18,13 @@ $$ R^{-1} \subseteq \im R \times \dom R. $$
 
 > *Inverse relation* is also known as **converse relation**.
 
-{% proposition 1 "Involutivity" %}
+{% theorem IL "Involutivity" %}
 
 For any binary relation $R$,
 
 $$ (R^{-1})^{-1} = R. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

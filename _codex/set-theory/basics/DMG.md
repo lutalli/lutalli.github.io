@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-06-23
 ---
 
-{% proposition 1 "De Morgan's Laws" %}
+{% theorem DM "De Morgan's Laws" %}
 
 Let $X$ be a set. For any $A \subseteq X$ write
 
@@ -24,7 +24,7 @@ More generally, for any $A\subseteq\powerset(X)$:
 
 4. $$ \overline{\bigcap A} = \bigcup_{Y \in A} \overline{Y}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

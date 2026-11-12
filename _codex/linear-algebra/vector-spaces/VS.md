@@ -4,7 +4,7 @@ date:    2026-04-15
 updated: 2026-06-20
 ---
 
-{% definition 1 %}
+{% definition VS %}
 
 A **vector space** is a module over a field. Elements of a vector space are called **vectors**.
 

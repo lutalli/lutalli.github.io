@@ -4,7 +4,7 @@ date:    2026-03-20
 updated: 2026-07-09
 ---
 
-{% definition 1 %}
+{% definition CT %}
 
 Let $X$ be a set.
 

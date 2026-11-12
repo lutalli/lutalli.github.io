@@ -4,19 +4,19 @@ date:    2026-02-21
 updated: 2026-09-30
 ---
 
-{% definition 1 %}
+{% definition IM %}
 
 Let $R$ be a [binary relation](/codex/REL). The **image** of a set $A$ under $R$ is
 
 $$ R[A] = \{y : (\exists x \in A : x \,R\, y)\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#AX-4):
+This is a set by [Separation Schema](/codex/ZF#ASP):
 
 $$ R[A] \subseteq \im R. $$
 
 {% enddefinition %}
 
-{% definition 2 %}
+{% definition PI %}
 
 Let $R$ be a binary relation. The **preimage** of a set $B$ under $R$ is $R^{-1}[B]$, the image of $B$ under the [inverse relation](/codex/INVR) $R^{-1}$.
 
