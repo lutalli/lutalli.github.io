@@ -14,7 +14,7 @@ for all $g_1$, $g_2 \in G$ and $h_1$, $h_2 \in H$.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 Let $G$ be a group with neutral element $e$ and $H$ be a group with neutral element $i$.
 
@@ -25,4 +25,4 @@ Let $G$ be a group with neutral element $e$ and $H$ be a group with neutral elem
 
    $$ (g, h)^{-1} = (g^{-1}, h^{-1}). $$
 
-{% endproposition %}
+{% endtheorem %}

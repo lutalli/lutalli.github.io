@@ -44,7 +44,7 @@ The **domain** of a binary relation $R$ is
 
 $$ \dom R = \left\{ x : (\exists y : x \,R\, y) \right\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#AX-4) (recall Kuratowski's [definition](/codex/TUP) of tuples):
+This is a set by [Separation Schema](/codex/ZF#A4) (recall Kuratowski's [definition](/codex/TUP) of tuples):
 
 $$ \dom R \subseteq \bigcup \bigcup R. $$
 
@@ -56,7 +56,7 @@ The **image** of a binary relation $R$ is
 
 $$ \im R = \left\{ y : (\exists x : x \,R\, y) \right\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#AX-4) (recall Kuratowski's definition of tuples):
+This is a set by [Separation Schema](/codex/ZF#A4) (recall Kuratowski's definition of tuples):
 
 $$ \im R \subseteq \bigcup \bigcup R. $$
 

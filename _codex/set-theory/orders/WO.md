@@ -16,17 +16,17 @@ A **strict well-order** on $W$ is a strict total order such that every non-empty
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 $\leq$ is a well-order if and only if $<$ is a strict well-order.
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 If $W$ is a well-ordered set and $f : W \to W$ is [strictly increasing](/codex/OH), then $x \leq f(x)$ for every $x \in W$.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
@@ -38,27 +38,27 @@ a contradiction.
 
 {% endproof %}
 
-{% proposition 3 %}
+{% theorem 3 %}
 
 The only [automorphism](/codex/HOM) on a well-ordered set $W$ is the [identity](/codex/ID) $\id_W$.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-Let $f$ be an automorphism $W$. By [`OH` > Proposition 1](/codex/OH#PROP-1), both $f$ and $f^{-1}$ are strictly increasing. By [Proposition 2](#PROP-2), $x \leq f(x)$ and $x \leq f^{-1}(x)$ for every $x \in W$, which follows that $x \leq f(x)$ and $f(x) \leq x$ for every $x \in W$.
+Let $f$ be an automorphism $W$. By [OH # Theorem 1](/codex/OH#T1), both $f$ and $f^{-1}$ are strictly increasing. By [Theorem 2](#T2), $x \leq f(x)$ and $x \leq f^{-1}(x)$ for every $x \in W$, which follows that $x \leq f(x)$ and $f(x) \leq x$ for every $x \in W$.
 
 {% endproof %}
 
-{% proposition 4 %}
+{% theorem 4 %}
 
-If two well-ordered sets $W$ and $W'$ are [isomorphic](/codex/HOM#DEF-2), then the isomorphism is unique.
+If two well-ordered sets $W$ and $W'$ are [isomorphic](/codex/HOM#D2), then the isomorphism is unique.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-If $f$ and $g$ are isomorphisms from $W$ onto $W'$, $f\circ g^{-1}$ is an automorphism on $W$. By [Proposition 3](#PROP-3), $f\circ g^{-1} = \id_W$.
+If $f$ and $g$ are isomorphisms from $W$ onto $W'$, $f\circ g^{-1}$ is an automorphism on $W$. By [Theorem 3](#T3), $f\circ g^{-1} = \id_W$.
 
 {% endproof %}
 
@@ -72,11 +72,11 @@ $S \subseteq W$ is an initial segment of $W$, if $S = \init_u W$ for some $u$.
 
 {% enddefinition %}
 
-{% proposition 5 %}
+{% theorem 5 %}
 
 No well-ordered set is isomorphic to an initial segment of itself.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
@@ -84,11 +84,11 @@ Let $W$ be a well-ordered set. For any $u \in W$, if
 
 $$ f : W \to \init_u W, $$
 
-then $f(u) < u$. By [Proposition 2](#PROP-2), $f$ can not be an isomorphism.
+then $f(u) < u$. By [Theorem 2](#T2), $f$ can not be an isomorphism.
 
 {% endproof %}
 
-{% proposition 6 %}
+{% theorem 6 %}
 
 For any two well-ordered sets $W$ and $W'$, exactly one of the following cases holds:
 
@@ -97,15 +97,15 @@ For any two well-ordered sets $W$ and $W'$, exactly one of the following cases h
 2. $W$ is isomorphic to an initial segment of $W'$.
 3. $W'$ is isomorphic to an initial segment of $W$.
 
-{% endproposition %}
+{% endtheorem %}
 
 The following theorem is equivalent to $\AC$:
 
-{% proposition 7 "Well-Ordering Theorem" %}
+{% theorem 7 "Well-Ordering Theorem" %}
 
 Every set can be well-ordered, i.e. for any set $X$, there exists a well-order on $X$.
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

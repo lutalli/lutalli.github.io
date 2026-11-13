@@ -16,7 +16,7 @@ Let $R$ be a [binary relation](/codex/REL).
 
   $$ {R \restriction^B} = \{(x, y) : x \,R\, y \,\land\, y \in B\}. $$
 
-These are sets by [Separation Schema](/codex/ZF#AX-4):
+These are sets by [Separation Schema](/codex/ZF#A4):
 
 $$ {R \restriction_A} \subseteq R, \quad {R \restriction^B} \subseteq R. $$
 

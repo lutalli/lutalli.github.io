@@ -21,13 +21,13 @@ $(V, \lVert {}\cdot{} \rVert)$ is then called a **seminormed space**.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 If $(V, \lVert {}\cdot{} \rVert)$ is a seminormed space, then
 
 $$ \lVert 0 \rVert = 0. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 
@@ -40,13 +40,13 @@ $$ \lVert 0 \rVert =%
 
 {% endproof %}
 
-{% proposition 2 "Non-Negativity" %}
+{% theorem 2 "Non-Negativity" %}
 
 Let $(V, \lVert {}\cdot{} \rVert)$ be a seminormed space. For all $v \in V$,
 
 $$ \lVert v \rVert \geq 0. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 

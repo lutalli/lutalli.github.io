@@ -20,11 +20,11 @@ Not disjoint sets are called **joint**.
 
 > *Joint* is also known as **overlapping**.
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 $\empt$ is the only self-disjoint set.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 
@@ -34,19 +34,19 @@ $$ X = X \cap X = \empt. $$
 
 {% endproof %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 $\empt$ is the only set disjoint to every other set.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-$\empt$ is disjoint to every set by [`ITSC` > Proposition 1](/codex/ITSC#PROP-1). If a set $X$ is non-empty,
+$\empt$ is disjoint to every set by [ITSC # Theorem 1](/codex/ITSC#T1). If a set $X$ is non-empty,
 
 $$ Y = X \cup \{X\} $$
 
-is always joint to $X$. By [irreflexivity of $\in$](/codex/ZF#PROP-1), $X \neq Y$.
+is always joint to $X$. By [irreflexivity of $\in$](/codex/ZF#T1), $X \neq Y$.
 
 {% endproof %}
 

@@ -14,10 +14,10 @@ the cardinality of the left coset quotient of $H$.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any three groups $A \leq B \leq C$,
 
 $$ \lvert C / A\rvert = \lvert C / B \rvert \cdot \lvert B / A \rvert. $$
 
-{% endproposition %}
+{% endtheorem %}

@@ -10,7 +10,7 @@ Given any [injection](/codex/INJ) $f$, its [inverse relation](/codex/INVR) $f^{-
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any injection $f$ from a set $X$ onto a set $Y$:
 
@@ -19,15 +19,15 @@ For any injection $f$ from a set $X$ onto a set $Y$:
 
 2. $$ f^{-1} \circ f = \id_Y. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 Let $A$ and $B$ be [finite](/codex/FIN) sets. For any [surjection](/codex/SUR) $f : A \to B$,
 
 $$ \lvert A \rvert = \sum_{b \in B} \big\lvert f^{-1}[\{ b \}] \big\rvert. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 
@@ -37,7 +37,7 @@ $$ A = \bigsqcup_{b \in B}f^{-1}[\{ b \}]. $$
 
 In particular:
 
-{% proposition 3 %}
+{% theorem 3 %}
 
 Let $A$, $B$ be finite sets and $f : A \to B$ be a surjection. If for all $b \in B$,
 
@@ -47,7 +47,7 @@ then
 
 $$ \lvert A \rvert = k \lvert B \rvert. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

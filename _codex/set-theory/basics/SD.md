@@ -12,7 +12,7 @@ $$ X \setdif Y = \{x \in X : x \notin Y\}. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any set $X$:
 
@@ -23,23 +23,23 @@ For any set $X$:
 
 3. $$ X \setdif X = \empt. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 Any two sets $X$ and $Y$ are disjoint if and only if
 
 $$ X \setdif Y = X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 3 %}
+{% theorem 3 %}
 
 For any two sets $X$ and $Y$, if $X \subseteq Y$, then
 
 $$ X \setdif Y = \empt. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

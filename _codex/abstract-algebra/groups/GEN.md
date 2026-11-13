@@ -14,7 +14,7 @@ If $H$ is a subgroup and $\langle S \rangle = H$, we say $S$ **generates** $H$. 
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any group $G$ with neutral element $e$:
 
@@ -23,4 +23,4 @@ For any group $G$ with neutral element $e$:
 
 2. $$ \langle \{e\} \rangle = G. $$
 
-{% endproposition %}
+{% endtheorem %}

@@ -73,8 +73,8 @@ $$ \Z^- = \{z \in \Z : z < 0\}. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 $(\Z, +, \cdot, 0, 1, \leq)$ is a well-ordered abelian ring.
 
-{% endproposition %}
+{% endtheorem %}

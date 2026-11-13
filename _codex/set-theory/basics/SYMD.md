@@ -12,7 +12,7 @@ $$ X \symdif Y = (X \setdif Y) \cup (Y \setdif X). $$
 
 {% enddefinition %}
 
-{% proposition 1 @newline %}
+{% theorem 1 @newline %}
 
 {:.par-upper-roman}
 1. For any set $X$,
@@ -23,43 +23,43 @@ $$ X \symdif Y = (X \setdif Y) \cup (Y \setdif X). $$
 
    $$ X \symdif Y = \empt \enspace\lrimp\enspace X = Y. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 "Commutativity" %}
+{% theorem 2 "Commutativity" %}
 
 For any sets $X$ and $Y$,
 
 $$ X \symdif Y = Y \symdif X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 3 "Associativity" %}
+{% theorem 3 "Associativity" %}
 
 For any sets $X$, $Y$ and $Z$,
 
 $$ (X \symdif Y) \symdif Z = X \symdif (Y \symdif Z). $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 4 %}
+{% theorem 4 %}
 
-For any set $X$, $(\powerset(X), \symdif)$ is an [abelian](/codex/MAG#DEF-2) [group](/codex/G) with [neutral element](/codex/NEU) $\empt$.
+For any set $X$, $(\powerset(X), \symdif)$ is an [abelian](/codex/MAG#D2) [group](/codex/G) with [neutral element](/codex/NEU) $\empt$.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-This is a summary of [Proposition 1 (I)](#PROP-1), [commutativity](#PROP-2) and [associativity](#PROP-3) of $\symdif$.
+This is a summary of [Theorem 1 (I)](#T1), [commutativity](#T2) and [associativity](#T3) of $\symdif$.
 
 {% endproof %}
 
-{% proposition 5 %}
+{% theorem 5 %}
 
 For any sets $X$ and $Y$,
 
 $$ X \symdif Y = (X \cup Y) \setdif (X \cap Y). $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

@@ -28,71 +28,71 @@ Let $X$ and $Y$ be two sets.
 
 {% enddefinition %}
 
-{% proposition 1 "Reflexivity of $\equ$" %}
+{% theorem 1 "Reflexivity of $\equ$" %}
 
 For any set $X$,
 
 $$ X \equ X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 "Symmetry of $\equ$" %}
+{% theorem 2 "Symmetry of $\equ$" %}
 
 For any sets $X$ and $Y$,
 
 $$ X \equ Y \enspace\rimp\enspace Y \equ X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 3 "Transitivity of $\equ$" %}
+{% theorem 3 "Transitivity of $\equ$" %}
 
 For any $X$, $Y$ and $Z$,
 
 $$ X \equ Y \,\land\, Y \equ Z \enspace\rimp\enspace X \equ Z. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 4 %}
+{% theorem 4 %}
 
 $\equ$ is an [equivalence relation](/codex/EQV).
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-This is a summary of [reflexivity](#PROP-1), [symmetry](#PROP-2) and [transitivity](#PROP-3) of $\equ$.
+This is a summary of [reflexivity](#T1), [symmetry](#T2) and [transitivity](#T3) of $\equ$.
 
 {% endproof %}
 
-{% proposition 5 "Reflexivity of $\lequ$" %}
+{% theorem 5 "Reflexivity of $\lequ$" %}
 
 For any set $X$,
 
 $$ X \lequ X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 6 "Transitivity of $\lequ$" %}
+{% theorem 6 "Transitivity of $\lequ$" %}
 
 For any sets $X$, $Y$ and $Z$,
 
 $$ X \lequ Y \,\land\, Y\lequ Z \enspace\rimp\enspace X\lequ Z. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 7 "Schröder-Bernstein Theorem" %}
+{% theorem 7 "Schröder-Bernstein Theorem" %}
 
 For any sets $X$ and $Y$,
 
 $$ X \lequ Y \,\land\, Y\lequ X \enspace\rimp\enspace X\equ Y. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 8 %}
+{% theorem 8 %}
 
 For any sets $X$ and $Y$, if $X \subseteq Y$, then $X \lequ Y$.
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

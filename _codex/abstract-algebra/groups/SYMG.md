@@ -20,10 +20,10 @@ $$ \SS_n = \SS_{\llbra n \rrbra}. $$
 
 {% proof "(that $\SS_X$ is a group)" %}
 
-By [`COMP` > Proposition 5](/codex/COMP#PROP-5), $\fun(X, X)$ is a monoid. Since
+By [COMP # Theorem 5](/codex/COMP#T5), $\fun(X, X)$ is a monoid. Since
 
 $$ \bij(X, X) = \inv\fun(X, X), $$
 
-$\bij(X, X)$ is a group by [`G` > Proposition 2](/codex/G#PROP-2).
+$\bij(X, X)$ is a group by [G # Theorem 2](/codex/G#T2).
 
 {% endproof %}

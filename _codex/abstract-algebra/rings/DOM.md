@@ -4,8 +4,6 @@ date:    2026-04-05
 updated: 2026-06-11
 ---
 
-> Not to be confused with [domain of a relation](/codex/REL#DEF-4)!
-
 {% definition 1 %}
 
 A **domain** is a non-zero ring $R$ such that for all $a$, $b \in R$,

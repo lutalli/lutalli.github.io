@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-Let $\*$ be a [binary operation](/codex/F#DEF-2) on a set $X$. We define the following properties of $\*$:
+Let $\*$ be a [binary operation](/codex/F#D2) on a set $X$. We define the following properties of $\*$:
 
 | Property                 | Condition                         |
 | :----------------------: | :-------------------------------: |

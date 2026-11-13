@@ -34,7 +34,7 @@ There exists a set $\empt$ such that
 
 $$ \forall x : x \notin \empt. $$
 
-By [Axiom of Extensionality](#AX-2), $\empt$ is unique and is called the [**empty set**](/codex/EMP). A set $X$ is **non-empty** if $X \neq \empt$.
+By [Axiom of Extensionality](#A2), $\empt$ is unique and is called the [**empty set**](/codex/EMP). A set $X$ is **non-empty** if $X \neq \empt$.
 
 {% endaxiom %}
 
@@ -47,9 +47,9 @@ Let $X$ be a set and $\varphi(x, p)$ be a formula with free variables among $x$ 
 $$ \forall x :\enspace%
        x \in Y \enspace\lrimp\enspace x \in X \land \varphi(x, p). $$
 
-In other words, a [subclass](/codex/CLS#DEF-2) of a set is always a set.
+In other words, a [subclass](/codex/CLS#D2) of a set is always a set.
 
-By [Axiom of Extensionality](#AX-2), $Y$ is unique. We write ([Set-Builder Notation](/codex/BLD))
+By [Axiom of Extensionality](#A2), $Y$ is unique. We write ([Set-Builder Notation](/codex/BLD))
 
 $$ Y = \{x \in X : \varphi(x, p)\}. $$
 
@@ -82,7 +82,7 @@ For any sets $a$ and $b$ there exists a set $X$ such that
 $$ \forall x :\enspace%
        x \in X \enspace\lrimp\enspace x = a \lor x = b. $$
 
-By [Axiom of Extensionality](#AX-2), $X$ is unique. We call it the [**pair**](/codex/PAIR) of $a$ and $b$, denoted by
+By [Axiom of Extensionality](#A2), $X$ is unique. We call it the [**pair**](/codex/PAIR) of $a$ and $b$, denoted by
 
 $$ \{a, b\}. $$
 
@@ -97,7 +97,7 @@ For any set $X$ there exists a set $Y$ such that
 $$ \forall y :\enspace%
        y \in Y \enspace\lrimp\enspace \exists x : x \in X \land y \in x. $$
 
-By [Axiom of Extensionality](#AX-2), $Y$ is unique. We call it the [**union**](/codex/U) of $X$, denoted by
+By [Axiom of Extensionality](#A2), $Y$ is unique. We call it the [**union**](/codex/U) of $X$, denoted by
 
 $$ \bigcup X. $$
 
@@ -125,7 +125,7 @@ For any set $X$ there exists a set $Y$ such that
 $$ \forall y :\enspace%
        y \in Y \enspace\lrimp\enspace y \subseteq X. $$
 
-By [Axiom of Extensionality](#AX-2), $Y$ is unique. We call it the [**power set**](/codex/P) of $X$, denoted by
+By [Axiom of Extensionality](#A2), $Y$ is unique. We call it the [**power set**](/codex/P) of $X$, denoted by
 
 $$ \powerset(X). $$
 
@@ -149,15 +149,15 @@ Every non-empty set $X$ has an element disjoint from $X$.
 
 {% endaxiom %}
 
-{% proposition 1 "Irreflexivity of $\in$" %}
+{% theorem 1 "Irreflexivity of $\in$" %}
 
 No set is an element of itself.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-For any set $X$, if $X \in X$, then $X$ and $\\{X\\}$ would be joint, contrary to [Axiom of Regularity](#AX-9).
+For any set $X$, if $X \in X$, then $X$ and $\\{X\\}$ would be joint, contrary to [Axiom of Regularity](#A9).
 
 {% endproof %}
 

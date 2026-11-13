@@ -10,7 +10,7 @@ We define
 
 $$ \N = \bigcap\{X : \empt \in X \,\land\, \text{$X$ is inductive}\} $$
 
-as the set of **finite [ordinals](/codex/ORD)** or **natural numbers**. [Axiom of Infinity](/codex/ZF#AX-10) guarantees the existence of at least one such $X$, therefore the existence of $\N$.
+as the set of **finite [ordinals](/codex/ORD)** or **natural numbers**. [Axiom of Infinity](/codex/ZF#A10) guarantees the existence of at least one such $X$, therefore the existence of $\N$.
 
 An ordinal is **infinite** if it is not finite.
 
@@ -32,15 +32,15 @@ and so on, where $\alpha + 1$ is the [ordinal successor](/codex/SUC) of an ordin
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 $\omega$ is the [least](/codex/MAX) [limit ordinal](/codex/LIMO).
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-By [`LIMO` > Proposition 1 (I) $\lrimp$ (V)](/codex/LIMO#PROP-1).
+By [LIMO # Theorem 1 (I) $\lrimp$ (V)](/codex/LIMO#T1).
 
 {% endproof %}
 

@@ -12,8 +12,8 @@ $$ \conj_g a \in H. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 All subgroups of an abelian group are normal.
 
-{% endproposition %}
+{% endtheorem %}

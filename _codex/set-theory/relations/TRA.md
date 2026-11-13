@@ -22,11 +22,11 @@ $$ (x \sim y \,\land\, y \sim z) \,\rimp\, x \not\sim z. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
-A transitive relation is [asymmetric](/codex/SYM#DEF-2) if and only if it is [irreflexive](/codex/REF#DEF-2).
+A transitive relation is [asymmetric](/codex/SYM#D2) if and only if it is [irreflexive](/codex/REF#D2).
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 

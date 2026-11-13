@@ -10,7 +10,7 @@ The **intersection** of a [non-empty](/codex/EMP) [class](/codex/CLS) $X$ is
 
 $$ \bigcap X = \left\{ x : (\forall A \in X : x \in A) \right\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#AX-4): $\bigcap X \subseteq A$ for any $A \in X$.
+This is a set by [Separation Schema](/codex/ZF#A4): $\bigcap X \subseteq A$ for any $A \in X$.
 
 For any sets $X_1$, $\cdots$, $X_n$ ($n \geq 2$), we write
 
@@ -18,47 +18,47 @@ $$ X_1 \cap \cdots \cap X_n = \bigcap \{X_1, \cdots, X_n\}. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any set $X$,
 
 $$ X \cap \empt = \empt. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 "Idempotence" %}
+{% theorem 2 "Idempotence" %}
 
 For any set $X$,
 
 $$ X \cap X = X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 3 "Commutativity" %}
+{% theorem 3 "Commutativity" %}
 
 For any sets $X$ and $Y$,
 
 $$ X \cap Y = Y \cap X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 4 "Associativity" %}
+{% theorem 4 "Associativity" %}
 
 For any sets $X$, $Y$ and $Z$:
 
 $$ (X \cap Y) \cap Z = X \cap (Y \cap Z) = X \cap Y \cap Z. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 6 %}
+{% theorem 6 %}
 
-For any set $X$, $(\powerset(X), \cap)$ is an [abelian](/codex/MAG#DEF-2) [semigroup](/codex/SEMG).
+For any set $X$, $(\powerset(X), \cap)$ is an [abelian](/codex/MAG#D2) [semigroup](/codex/SEMG).
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-This is a summary of [Proposition 1](#PROP-1), [commutativity](#PROP-2) and [associativity](#PROP-3) of $\cap$.
+This is a summary of [Theorem 1](#T1), [commutativity](#T2) and [associativity](#T3) of $\cap$.
 
 {% endproof %}
 

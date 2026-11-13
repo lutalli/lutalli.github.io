@@ -10,7 +10,7 @@ Let $(R, +, \cdot)$ be a ring. $(S, +, \cdot)$ is a **subring** of $R$ if it is 
 
 {% enddefinition %}
 
-{% proposition 1 "Subring Test" %}
+{% theorem 1 "Subring Test" %}
 
 Let $R$ be a ring. $S$ is a subring if:
 
@@ -27,4 +27,4 @@ Let $R$ be a ring. $S$ is a subring if:
 
    $$ ab \in S. $$
 
-{% endproposition %}
+{% endtheorem %}

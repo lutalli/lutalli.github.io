@@ -10,11 +10,11 @@ Let $(G, \*)$ be a group. $(H, \*)$ is a **subgroup** of $(G, \*)$, written $H \
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 All subgroups are neutral-preserving: If $G$ is a group with neutral element $e$ and $H$ is a subgroup, then the neutral element of $H$ is also $e$.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
@@ -22,11 +22,11 @@ If $e'$ is the neutral element of $H$,
 
 $$ e'e' = e' = ee', $$
 
-hence $e' = e$ by [cancellation property of group](/codex/G#PROP-3).
+hence $e' = e$ by [cancellation property of group](/codex/G#T3).
 
 {% endproof %}
 
-{% proposition 2 "Subgroup Test A" %}
+{% theorem 2 "Subgroup Test A" %}
 
 Let $G$ be a group and $H \subseteq G$ be non-empty. $H$ is a subgroup as soon as:
 
@@ -39,20 +39,20 @@ Let $G$ be a group and $H \subseteq G$ be non-empty. $H$ is a subgroup as soon a
 
    $$ a^{-1} \in H. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 3 "Subgroup Test B" %}
+{% theorem 3 "Subgroup Test B" %}
 
 Let $G$ be a group and $H \subseteq G$ be non-empty. $H$ is a subgroup as soon as for all $a$, $b\in H$,
 
 $$ ab^{-1} \in H. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 4 "Subgroup Test C" %}
+{% theorem 4 "Subgroup Test C" %}
 
 Let $G$ be a finite group and $H\subseteq G$ be non-empty. $H$ is a subgroup as soon as $H$ is closed under multiplication, i.e for all $a$, $b\in H$,
 
 $$ ab \in H. $$
 
-{% endproposition %}
+{% endtheorem %}

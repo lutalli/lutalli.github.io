@@ -31,18 +31,18 @@ If $p \neq 0$, $p_{\deg p}$ is called the **leading coefficient** of $p$. $p$ is
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 Let $R$ be a ring. For any $p$, $q \in R[X]$,
 
 $$ \deg(p + q) \leq \max(\deg p, \deg q). $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 Let $R$ be an integral domain. For any $p$, $q \in R[X]$,
 
 $$ \deg(pq) = \deg p + \deg q. $$
 
-{% endproposition %}
+{% endtheorem %}

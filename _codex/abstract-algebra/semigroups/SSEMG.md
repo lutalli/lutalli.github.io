@@ -10,10 +10,10 @@ Let $(S, \*)$ be a [semigroup](/codex/SEMG). $(T, \*)$ is a **subsemigroup** of 
 
 {% enddefinition %}
 
-{% proposition 1 "Subsemigroup Test" %}
+{% theorem 1 "Subsemigroup Test" %}
 
 Let $(S, \*)$ be a semigroup. $T \subseteq S$ is a subsemigroup as soon as $T$ is closed under $\*$, i.e. for all $a$, $b \in T$,
 
 $$ ab \in T. $$
 
-{% endproposition %}
+{% endtheorem %}

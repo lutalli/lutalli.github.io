@@ -14,15 +14,15 @@ is well-defined and $(G / N, \*)$ is a group, called the **quotient group** of $
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 If $G$ is a group and $N$ is a normal subgroup,
 
 $$ G / N = N \backslash G. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 Let $G$ be a group and $H$ be a subgroup. If we define two equivalence relations on $G$:
 
@@ -45,4 +45,4 @@ If $H$ is normal:
 
 4. $$ G / H = G / {\sim_H}. $$
 
-{% endproposition %}
+{% endtheorem %}

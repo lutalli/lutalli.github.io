@@ -4,11 +4,11 @@ date:    2026-03-05
 updated: 2026-06-10
 ---
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 Every [well-ordered](/codex/WO) set $W$ is [isomorphic](/codex/OH) to a unique [ordinal number](/codex/ORD).
 
-{% endproposition %}
+{% endtheorem %}
 
 {% definition 1 %}
 

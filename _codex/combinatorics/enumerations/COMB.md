@@ -38,13 +38,13 @@ $$ \begin{gather*}
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any $n$, $k \in \N$ with $k \leq n$,
 
 $$ C(n, k) = \frac{n!}{k!(n - k)!}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 
@@ -59,11 +59,11 @@ is surjective. It is easy to see that for every $A \in \powerset_k(\llbra n \rrb
 $$ \big\lvert \varphi^{-1}[\{A\}] \big\rvert =%
    \big\lvert \bij(\llbra k \rrbra, \llbra k \rrbra) \big\rvert. $$
 
-By [`PERM` > Proposition 2](/codex/PERM#PROP-2),
+By [PERM # Theorem 2](/codex/PERM#T2),
 
 $$ \big\lvert \bij(\llbra k \rrbra, \llbra k \rrbra) \big\rvert = k!. $$
 
-So by [`INVF` > Proposition 3](/codex/INVF#PROP-3),
+So by [INVF # Theorem 3](/codex/INVF#T3),
 
 $$ P(n, k) = k! \cdot C(n, k), $$
 
@@ -73,13 +73,13 @@ $$ C(n, k) = \frac{P(n, k)}{k!} = \frac{n!}{k!(n - k)!}. $$
 
 {% endproof %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 For any $n \geq 2$ and $1 \leq k \leq n - 1$,
 
 $$ C(n, k) = C(n - 1, k) + C(n - 1, k - 1). $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 
@@ -94,13 +94,13 @@ $$ T = \big\{ B \cup \{n\} : B \in \powerset_{k - 1}(\llbra n - 1\rrbra) \big\} 
 
 {% endproof %}
 
-{% proposition 3 %}
+{% theorem 3 %}
 
 For any $n$, $k \in \N$ with $k \leq n$,
 
 $$ C(n, k) = C(n, n - k). $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 
@@ -114,19 +114,19 @@ is bijective.
 
 {% endproof %}
 
-{% proposition 4 %}
+{% theorem 4 %}
 
 For any $n \in \N$,
 
 $$ \sum_{k = 0}^n C(n, k) = 2^n. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 
 $$ \bigsqcup_{k = 0}^n \powerset_k(\llbra n \rrbra) = \powerset(\llbra n \rrbra). $$
 
-By [`P` > Proposition 3](/codex/P#PROP-3),
+By [P # Theorem 3](/codex/P#T3),
 
 $$ \lvert \powerset(\llbra n \rrbra) \rvert = 2^n. $$
 

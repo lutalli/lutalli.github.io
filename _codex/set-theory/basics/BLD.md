@@ -14,7 +14,7 @@ denotes the unique set $Y$ such that
 
 $$ \forall x :\enspace x \in Y \enspace\lrimp\enspace x \in X \land \varphi(x, p). $$
 
-The existence of $Y$ is justified by [Separation Schema](/codex/ZF#AX-4) and its uniqueness is justified by [Axiom of Extensionality](/codex/ZF#AX-2).
+The existence of $Y$ is justified by [Separation Schema](/codex/ZF#A4) and its uniqueness is justified by [Axiom of Extensionality](/codex/ZF#A2).
 
 {% enddefinition %}
 

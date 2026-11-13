@@ -10,7 +10,7 @@ Let $R$ be a [binary relation](/codex/REL). The **image** of a set $A$ under $R$
 
 $$ R[A] = \{y : (\exists x \in A : x \,R\, y)\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#AX-4):
+This is a set by [Separation Schema](/codex/ZF#A4):
 
 $$ R[A] \subseteq \im R. $$
 

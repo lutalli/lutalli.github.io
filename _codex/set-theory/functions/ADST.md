@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-Let $f$ be a [function](/codex/F) on a set $X$ and $\*$ be a [binary operation](/codex/F#DEF-2) on $X$. $f$ is **antidistributive** over $\*$ if for all $x$, $y \in X$,
+Let $f$ be a [function](/codex/F) on a set $X$ and $\*$ be a [binary operation](/codex/F#D2) on $X$. $f$ is **antidistributive** over $\*$ if for all $x$, $y \in X$,
 
 $$ f(x * y) = f(y) * f(x). $$
 

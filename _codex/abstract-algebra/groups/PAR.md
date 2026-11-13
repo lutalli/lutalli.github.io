@@ -20,15 +20,15 @@ is the number of inversions in $\sigma$. $\sigma$ is called an **even permutatio
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any $\sigma \in \SS_n$ ($n \geq 2$),
 
 $$ \par \sigma = \prod_{1 \leq i < j \leq n} \frac{\sigma(i) - \sigma(j)}{i - j}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 For any $n \in \N^+$,
 
@@ -40,4 +40,4 @@ $$ \ker \par = \AA_n, $$
 
 the alternating group of degree $n$.
 
-{% endproposition %}
+{% endtheorem %}

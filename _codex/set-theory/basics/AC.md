@@ -18,11 +18,11 @@ Every set has a choice function.
 
 {% endaxiom %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 $\AC$ is independent of $\ZF$.
 
-{% endproposition %}
+{% endtheorem %}
 
 > $\ZF + \AC$ is denoted by $\ZFC$.
 

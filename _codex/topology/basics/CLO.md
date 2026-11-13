@@ -10,8 +10,8 @@ Let $X$ be a metric space and $Y \subseteq X$. $Y$ is **closed** if $X \setdif Y
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 Let $X$ be a metric space. If $\mathcal{S}$ is a set of closed sets from $X$, then $\bigcap \mathcal{S}$ is closed.
 
-{% endproposition %}
+{% endtheorem %}

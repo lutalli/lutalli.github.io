@@ -22,7 +22,7 @@ Let $M$ be a monoid with [neutral element](/codex/NEU) $e$ and $N$ be a submonoi
 
 {% endexamples %}
 
-{% proposition 1 "Submonoid Test" %}
+{% theorem 1 "Submonoid Test" %}
 
 Let $(M, \*)$ be a monoid. $N \subseteq M$ is a submonoid as soon as:
 
@@ -35,4 +35,4 @@ Let $(M, \*)$ be a monoid. $N \subseteq M$ is a submonoid as soon as:
 
    $$ ae = ea = a. $$
 
-{% endproposition %}
+{% endtheorem %}

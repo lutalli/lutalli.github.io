@@ -6,7 +6,7 @@ updated: 2026-07-09
 
 {% definition 1 %}
 
-A **transfinite sequence** is a [function](/codex/F) whose [domain](/codex/REL#DEF-2) is an [ordinal](/codex/ORD). If $s : \alpha \to X$ is transfinite sequence for some ordinal $\alpha$:
+A **transfinite sequence** is a [function](/codex/F) whose [domain](/codex/REL#D2) is an [ordinal](/codex/ORD). If $s : \alpha \to X$ is transfinite sequence for some ordinal $\alpha$:
 
 - $s$ is an **$\alpha$-sequence**.
 

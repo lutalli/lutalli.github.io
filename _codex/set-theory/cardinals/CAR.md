@@ -12,13 +12,13 @@ $$ \kappa + \lambda = \lvert (\kappa \times \{0\}) \cup (\lambda \times \{1\}) \
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any two [disjoint](/codex/DJ) sets $X$ and $Y$,
 
 $$ \lvert X \rvert + \lvert Y \rvert = \lvert X \sqcup Y \rvert. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 
@@ -30,13 +30,13 @@ $$ \kappa \cdot \lambda = \lvert \kappa \times \lambda \rvert. $$
 
 {% enddefinition %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 For any two sets $X$ and $Y$,
 
 $$ \lvert X \rvert \cdot \lvert Y \rvert = \lvert X \times Y \rvert. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 
@@ -48,13 +48,13 @@ $$ \kappa^\lambda = \lvert \fun(\lambda, \kappa) \rvert. $$
 
 {% enddefinition %}
 
-{% proposition 3 %}
+{% theorem 3 %}
 
 For any two sets $X$ and $Y$,
 
 $$ \lvert X \rvert^{\lvert Y \rvert} = \lvert \fun(Y, X) \rvert. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

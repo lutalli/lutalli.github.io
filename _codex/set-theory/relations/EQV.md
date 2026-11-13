@@ -6,7 +6,7 @@ updated: 2026-10-30
 
 {% definition 1 %}
 
-A [binary relation](/codex/REL) $\sim$ on a set $X$ is an **equivalence relation** if it is [reflexive](/codex/REF#DEF-1), [symmetric](/codex/SYM#DEF-1) and [transitive](/codex/TRA#DEF-1):
+A [binary relation](/codex/REL) $\sim$ on a set $X$ is an **equivalence relation** if it is [reflexive](/codex/REF#D1), [symmetric](/codex/SYM#D1) and [transitive](/codex/TRA#D1):
 
 {:.par-upper-roman}
 1. (*Reflexivitiy*) For all $x\in X$,
@@ -43,7 +43,7 @@ which is a [partition](/codex/DJU) of $X$.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 Let $\sim$ be an equivalence relation on a set $X$. For any $x$, $y \in X$, the following statements are equivalent:
 
@@ -56,7 +56,7 @@ Let $\sim$ be an equivalence relation on a set $X$. For any $x$, $y \in X$, the 
 
 4. $$ [x] \cap [y] \neq \empt. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

@@ -22,25 +22,25 @@ if additionally $X \neq Y$.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 $\empt$ is the only set that is a subset of every [non-empty](/codex/EMP) set.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-$\empt$ is a subset of every set since no $x \in \empt$. If $X$ is a subset of every non-empty set, then $X \subseteq \\{X\\}$. Were any $a \in X$, then $a = X$, then $X \in X$, contrary to [irreflexivity of $\in$](/codex/ZF#PROP-1).
+$\empt$ is a subset of every set since no $x \in \empt$. If $X$ is a subset of every non-empty set, then $X \subseteq \\{X\\}$. Were any $a \in X$, then $a = X$, then $X \in X$, contrary to [irreflexivity of $\in$](/codex/ZF#T1).
 
 {% endproof %}
 
-{% proposition 2 "Reflexivity" %}
+{% theorem 2 "Reflexivity" %}
 
 For any set $X$,
 
 $$ X \subseteq X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
@@ -48,13 +48,13 @@ For every $a \in X$, we have $a \in X$.
 
 {% endproof %}
 
-{% proposition 3 "Transitivity" %}
+{% theorem 3 "Transitivity" %}
 
 For any sets $X$, $Y$ and $Z$,
 
 $$ X \subseteq Y \,\land\, Y \subseteq Z \enspace\rimp\enspace X \subseteq Z. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
@@ -62,29 +62,29 @@ Assume $X \subseteq Y$ and $Y \subseteq Z$. Let $a \in X$. By $X \subseteq Y$, w
 
 {% endproof %}
 
-{% proposition 4 "Antisymmetry" %}
+{% theorem 4 "Antisymmetry" %}
 
 For any sets $X$ and $Y$,
 
 $$ X \subseteq Y \,\land\, Y \subseteq X \enspace\rimp\enspace X = Y. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-Assume $X \subseteq Y$ and $Y \subseteq X$. For any $a$, if $a \in X$, then $a \in Y$ by $X \subseteq Y$; if $a \in Y$, then $a \in X$ by $Y \subseteq X$. Hence $X = Y$ by [Axiom of Extensionality](/codex/ZF#AX-2).
+Assume $X \subseteq Y$ and $Y \subseteq X$. For any $a$, if $a \in X$, then $a \in Y$ by $X \subseteq Y$; if $a \in Y$, then $a \in X$ by $Y \subseteq X$. Hence $X = Y$ by [Axiom of Extensionality](/codex/ZF#A2).
 
 {% endproof %}
 
-{% proposition 5 %}
+{% theorem 5 %}
 
 $\subseteq$ is a [partial order](/codex/PO).
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-This is a summary of [reflexivity](#PROP-2), [transitivity](#PROP-3) and [antisymmetry](#PROP-4) of $\subseteq$.
+This is a summary of [reflexivity](#T2), [transitivity](#T3) and [antisymmetry](#T4) of $\subseteq$.
 
 {% endproof %}
 

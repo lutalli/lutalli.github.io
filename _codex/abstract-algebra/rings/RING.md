@@ -59,13 +59,13 @@ $$ a^n = \underbrace{a \cdot \cdots \cdot a}_{\text{$n$ times}}. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 In a ring $R$, $0$ is an absorbing element with respect to multiplication: For all $a \in R$,
 
 $$ a \cdot 0 = 0 \cdot a = 0. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 
@@ -76,11 +76,11 @@ $$ \begin{align*}
 
 {% endproof %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 In a non-zero ring $R$, $0$ is not invertible.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 

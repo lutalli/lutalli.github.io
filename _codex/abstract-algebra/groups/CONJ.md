@@ -20,8 +20,8 @@ $$ \conj_g a = b. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any group, $\stackrel{\conj}{\sim}$ is an equivalence relation.
 
-{% endproposition %}
+{% endtheorem %}

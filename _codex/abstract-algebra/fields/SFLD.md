@@ -10,7 +10,7 @@ Let $(F, +, \cdot)$ be a field. $(K, +, \cdot)$ is a **subfield** of $F$ if it i
 
 {% enddefinition %}
 
-{% proposition 1 "Subfield Test" %}
+{% theorem 1 "Subfield Test" %}
 
 Let $F$ be a field. $K$ is a subfield of $F$ if:
 
@@ -21,4 +21,4 @@ Let $F$ be a field. $K$ is a subfield of $F$ if:
 
    $$ a^{-1} \in K. $$
 
-{% endproposition %}
+{% endtheorem %}

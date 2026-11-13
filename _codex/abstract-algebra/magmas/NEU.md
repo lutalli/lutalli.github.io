@@ -24,11 +24,11 @@ Let $M$ be a [magma](/codex/MAG) and $e \in M$.
 
 > A *neutral element* is also known as an **identity element**.
 
-{% proposition 1 "Uniqueness" %}
+{% theorem 1 "Uniqueness" %}
 
 A unital magma has exactly one neutral element.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 

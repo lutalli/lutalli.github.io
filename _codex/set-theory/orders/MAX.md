@@ -20,7 +20,7 @@ Let $X$ be a [partially ordered](/codex/PO) set.
 
 {% proof "(uniqueness)" %}
 
-If both $a$ and $a'$ are greatest elements of $X$, $a' \leq a$ and $a \leq a'$, so $a=a'$ by [antisymmetry](/codex/PO#DEF-1). Similarly for the minimum.
+If both $a$ and $a'$ are greatest elements of $X$, $a' \leq a$ and $a \leq a'$, so $a=a'$ by [antisymmetry](/codex/PO#D1). Similarly for the minimum.
 
 {% endproof %}
 

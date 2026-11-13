@@ -10,7 +10,7 @@ An [ordinal](/codex/ORD) $\alpha > 0$ is a **limit ordinal** if it is not a [suc
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 Let $\alpha > 0$ be an ordinal. The following statements are equivalent:
 
@@ -25,7 +25,7 @@ Let $\alpha > 0$ be an ordinal. The following statements are equivalent:
 
 5. <p class="centered" markdown="1">$\alpha$ is [inductive](/codex/INDS).</p>
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

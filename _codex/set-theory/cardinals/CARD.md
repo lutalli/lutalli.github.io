@@ -20,11 +20,11 @@ Every [natural number](/codex/FINO) is a cardinal, called a **finite cardinal**.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
-$\Card$ is a [proper class](/codex/CLS#DEF-3).
+$\Card$ is a [proper class](/codex/CLS#D3).
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
@@ -32,15 +32,15 @@ Show that $\Ord \subseteq \bigcup \Card$.
 
 {% endproof %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 Every infinite cardinal is a [limit ordinal](/codex/LIMO).
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-By [`SUC` > Proposition 2](/codex/SUC#PROP-2).
+By [SUC # Theorem 2](/codex/SUC#T2).
 
 {% endproof %}
 

@@ -12,8 +12,8 @@ $$ Y = \inter Y. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 Let $X$ be a metric space. If $\mathcal{S}$ is a set of open sets from $X$, then $\bigcap \mathcal{S}$ is open.
 
-{% endproposition %}
+{% endtheorem %}

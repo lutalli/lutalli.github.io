@@ -32,14 +32,14 @@ $$ \N^+ = \N \setdif \{0\}. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 $(\N, +, 0, \leq)$ is a well-ordered abelian monoid.
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 $(\N, \cdot, 1, \leq)$ is a well-ordered abelian monoid.
 
-{% endproposition %}
+{% endtheorem %}

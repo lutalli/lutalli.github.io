@@ -14,21 +14,21 @@ An ordinal $\alpha$ is a **successor ordinal** if $\alpha = \beta+1$ for some or
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any ordinal $\alpha$,
 
 $$ \alpha + 1 = \inf \{\beta : \beta > \alpha\}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 For any [infinite](/codex/FINO) ordinal $\alpha$,
 
 $$ \lvert \alpha + 1 \rvert = \lvert \alpha \rvert. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 

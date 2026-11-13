@@ -28,12 +28,12 @@ Let $X$ be a [preordered](/codex/PRO) set, $A \subseteq X$ and $a \in X$.
 
 {% enddefinition %}
 
-{% proposition 1 @newline %}
+{% theorem 1 @newline %}
 
 - Any [greatest](/codex/GR) element is an upper bound.
 - Any least element is a lower bound.
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

@@ -116,22 +116,22 @@ $x \,R\, y$
 : [binary relation](/codex/REL) $R$ holds for $x$ and $y$
 
 $\dom R$
-: the [domain](/codex/REL#DEF-2) of binary relation $R$
+: the [domain](/codex/REL#D2) of binary relation $R$
 
 $\im R$
-: the [image](/codex/REL#DEF-3) of binary relation $R$
+: the [image](/codex/REL#D3) of binary relation $R$
 
 $\field R$
-: the [field](/codex/REL#DEF-4) of binary relation $R$
+: the [field](/codex/REL#D4) of binary relation $R$
 
 $\id_X$
 : the [identity](/codex/ID) on $X$
 
 $[a]_\sim$ or $[a]$
-: the [equivalence class](/codex/EQV#DEF-2) of $a$ by equivalence relation $\sim$
+: the [equivalence class](/codex/EQV#D2) of $a$ by equivalence relation $\sim$
 
 $X / {\sim}$
-: the [quotient set](/codex/EQV#DEF-3) of $X$ by equivalence relation $\sim$
+: the [quotient set](/codex/EQV#D3) of $X$ by equivalence relation $\sim$
 
 $R^{-1}$
 : the [converse](/codex/INVR) of binary relation $R$
@@ -161,7 +161,7 @@ $\fun(X, Y)$
 : the set of all [functions](/codex/F) from set $X$ to set $Y$
 
 $x \* y$
-: the [value](/codex/F#DEF-2) of binary operation $\*$ at $(x, y)$
+: the [value](/codex/F#D2) of binary operation $\*$ at $(x, y)$
 
 $\inj(X, Y)$
 : the set of all [injections](/codex/INJ) from set $X$ to set $Y$
@@ -173,22 +173,22 @@ $f^{-1}$
 : the [inverse](/codex/INVF) of function $f$
 
 $\hom(X, Y)$
-: the set of all [homomorphisms](/codex/HOM#DEF-1) from set $X$ to set $Y$
+: the set of all [homomorphisms](/codex/HOM#D1) from set $X$ to set $Y$
 
 $\mon(X, Y)$
-: the set of all [monomorphisms](/codex/HOM#DEF-1) from set $X$ to set $Y$
+: the set of all [monomorphisms](/codex/HOM#D1) from set $X$ to set $Y$
 
 $\epi(X, Y)$
-: the set of all [epimorphisms](/codex/HOM#DEF-1) from set $X$ to set $Y$
+: the set of all [epimorphisms](/codex/HOM#D1) from set $X$ to set $Y$
 
 $\iso(X, Y)$
-: the set of all [isomorphisms](/codex/HOM#DEF-1) from set $X$ to set $Y$
+: the set of all [isomorphisms](/codex/HOM#D1) from set $X$ to set $Y$
 
 $\endo X$
-: the set of all [endomorphisms](/codex/HOM#DEF-1) on set $X$
+: the set of all [endomorphisms](/codex/HOM#D1) on set $X$
 
 $\aut X$
-: the set of all [automorphisms](/codex/HOM#DEF-1) on set $X$
+: the set of all [automorphisms](/codex/HOM#D1) on set $X$
 
 $\leq$
 : a [preorder](/codex/PRO)
@@ -215,13 +215,13 @@ $\inf A$
 : the [infimum](/codex/SUP) of set $A$
 
 $\init_u W$
-: the [initial segment](/codex/WO#DEF-3) of well-ordered set $W$ by $u$
+: the [initial segment](/codex/WO#D3) of well-ordered set $W$ by $u$
 
 $\Ord$
 : the class of all [ordinals](/codex/ORD)
 
 $\alpha < \beta$
-: ordinal $\alpha$ is [smaller](/codex/ORD#DEF-2) than ordinal $\beta$
+: ordinal $\alpha$ is [smaller](/codex/ORD#D2) than ordinal $\beta$
 
 $\alpha + 1$
 : the [successor](/codex/SUC) of ordinal $\alpha$
@@ -239,7 +239,7 @@ $\langle s_n : n \in \N\rangle$, $\langle s_n \rangle_{n \in \N}$
 : a [countably infinite sequence](/codex/TSQ)
 
 $s^\frown x$
-: the [extension](/codex/TSQ#DEF-4) of transfinite sequence $s$ by $x$
+: the [extension](/codex/TSQ#D4) of transfinite sequence $s$ by $x$
 
 $X \equ Y$
 : set $X$ is [equinumerous](/codex/EQN) to set $Y$
@@ -257,13 +257,13 @@ $\alpha^+$
 : the [cardinal successor](/codex/CSUC) of ordinal $\alpha$
 
 $\kappa + \lambda$
-: the [sum](/codex/CAR#DEF-1) of cardinals $\kappa$ and $\lambda$
+: the [sum](/codex/CAR#D1) of cardinals $\kappa$ and $\lambda$
 
 $\kappa \cdot \lambda$
-: the [product](/codex/CAR#DEF-2) of cardinals $\kappa$ and $\lambda$
+: the [product](/codex/CAR#D2) of cardinals $\kappa$ and $\lambda$
 
 $\kappa^\lambda$
-: the [exponentiation](/codex/CAR#DEF-3) of cardinal $\kappa$ by cardinal $\lambda$
+: the [exponentiation](/codex/CAR#D3) of cardinal $\kappa$ by cardinal $\lambda$
 
 $\powerset_\kappa(X)$
 : the set of all [$\kappa$-sized subsets](/codex/SSUB) of set $X$
@@ -292,7 +292,7 @@ $\inv M$
 : the [invertible subset](/codex/INV) of magma $M$
 
 $\ker f$
-: the [kernel](/codex/MOIDH#DEF-2) of monoid homomorphism $f$
+: the [kernel](/codex/MOIDH#D2) of monoid homomorphism $f$
 
 $G \times H$
 : the [direct product](/codex/GDP) of groups $G$ and $H$
@@ -322,7 +322,7 @@ $\AA_n$
 : the [alternating group of degree $n$](/codex/ALTG)
 
 $a^n$
-: the [exponentiation](/codex/RING#DEF-4) of $a$ by $n$ in a ring
+: the [exponentiation](/codex/RING#D4) of $a$ by $n$ in a ring
 
 $\fract R$
 : the [fraction field](/codex/FRAC) of integral domain $R$
@@ -337,43 +337,43 @@ $\N$
 : the set of [natural numbers](/codex/N)
 
 $\N^+$
-: the set of [positive natural numbers](/codex/N#DEF-4)
+: the set of [positive natural numbers](/codex/N#D4)
 
 $\Z$
 : the set of [integers](/codex/Z)
 
 $\Z^\*$
-: the set of [non-zero integers](/codex/Z#DEF-5)
+: the set of [non-zero integers](/codex/Z#D5)
 
 $\Z^+$
-: the set of [positive integers](/codex/Z#DEF-6)
+: the set of [positive integers](/codex/Z#D6)
 
 $\Z^-$
-: the set of [negative integers](/codex/Z#DEF-7)
+: the set of [negative integers](/codex/Z#D7)
 
 $\Q$
 : the set of [rational numbers](/codex/Q)
 
 $\Q^\*$
-: the set of [non-zero rational numbers](/codex/Q#DEF-4)
+: the set of [non-zero rational numbers](/codex/Q#D4)
 
 $\Q^+$
-: the set of [positive rational numbers](/codex/Q#DEF-5)
+: the set of [positive rational numbers](/codex/Q#D5)
 
 $\Q^-$
-: the set of [negative rational numbers](/codex/Q#DEF-6)
+: the set of [negative rational numbers](/codex/Q#D6)
 
 $\R$
 : the set of [real numbers](/codex/R)
 
 $\R^\*$
-: the set of [non-zero real numbers](/codex/R#DEF-3)
+: the set of [non-zero real numbers](/codex/R#D3)
 
 $\R^+$
-: the set of [positive real numbers](/codex/R#DEF-4)
+: the set of [positive real numbers](/codex/R#D4)
 
 $\R^-$
-: the set of [negative real numbers](/codex/R#DEF-5)
+: the set of [negative real numbers](/codex/R#D5)
 
 $R[[X]]$
 : the [ring of formal power series](/codex/POW) over ring $R$
@@ -382,7 +382,7 @@ $R[X]$
 : the [polynomial ring](/codex/POLY) over ring $R$
 
 $\deg p$
-: the [degree](/codex/POLY#DEF-2) of polynomial $p$
+: the [degree](/codex/POLY#D2) of polynomial $p$
 
 $[\varphi]$
 : [Iversion Brackets](/codex/IVERB)
@@ -408,13 +408,13 @@ $\mat_R(m, n)$
 : the set of all $m \times n$-[matrices](/codex/M) over ring $R$
 
 $A + B$
-: the [sum](/codex/M#DEF-2) of matrices $A$ and $B$
+: the [sum](/codex/M#D2) of matrices $A$ and $B$
 
 $AB$
-: the [product](/codex/M#DEF-3) of matrices $A$ and $B$
+: the [product](/codex/M#D3) of matrices $A$ and $B$
 
 $\ker f$
-: the [kernel](/codex/LF#DEF-2) of linear function $f$
+: the [kernel](/codex/LF#D2) of linear function $f$
 
 $\rank f$
 : the [rank](/codex/LRK) of linear function $f$
@@ -456,10 +456,10 @@ $n!$
 : the [factorial](/codex/FAC) of $n$
 
 $P(n, k)$
-: the [number of $k$-permutations](/codex/PERM#DEF-2) of $\llbra n \rrbra$
+: the [number of $k$-permutations](/codex/PERM#D2) of $\llbra n \rrbra$
 
 $C(n, k)$
-: the [number of $k$-combinations](/codex/COMB#DEF-2) of $\llbra n \rrbra$
+: the [number of $k$-combinations](/codex/COMB#D2) of $\llbra n \rrbra$
 
 $\displaystyle \binom{n}{k}$
-: [binomial coefficient](/codex/COMB#DEF-2) [same thing as $C(n, k)$]
+: [binomial coefficient](/codex/COMB#D2) [same thing as $C(n, k)$]

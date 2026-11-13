@@ -20,11 +20,11 @@ $$ x \sim y \,\lor\, y \sim x. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
-A binary relation is strongly connected if and only if it is connected and [reflexive](/codex/REF#DEF-1).
+A binary relation is strongly connected if and only if it is connected and [reflexive](/codex/REF#D1).
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 

@@ -22,17 +22,17 @@ $$ X_1 \sqcup \cdots \sqcup X_n = \bigsqcup \{X_1, \cdots, X_n\}. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any [finite](/codex/FIN) disjoint set $X$,
 
 $$ \Big\lvert \bigsqcup X \Big\rvert = \sum_{A \in X} \lvert A \rvert. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-By [`CAR` > Proposition 1](/codex/CAR#PROP-1).
+By [CAR # Theorem 1](/codex/CAR#T1).
 
 {% endproof %}
 

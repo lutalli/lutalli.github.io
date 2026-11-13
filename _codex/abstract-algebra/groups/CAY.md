@@ -4,8 +4,8 @@ date:    2026-03-18
 updated: 2026-06-11
 ---
 
-{% proposition 1 "Cayley's Theorem" %}
+{% theorem 1 "Cayley's Theorem" %}
 
 Every group $G$ is isomorphic to a subgroup of $\SS_G$.
 
-{% endproposition %}
+{% endtheorem %}

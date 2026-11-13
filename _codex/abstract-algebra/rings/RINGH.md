@@ -37,7 +37,7 @@ $$ \ker f = f^{-1}[\{0\}]. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any ring homomorphism $f : R \to S$:
 
@@ -48,24 +48,24 @@ For any ring homomorphism $f : R \to S$:
 
    $$ f(-a) = -f(a). $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-By [`GH` > Proposition 1](/codex/GH#PROP-1).
+By [GH # Theorem 1](/codex/GH#T1).
 
 {% endproof %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 Let $f : R \to S$ be a ring homomorphism. $f$ is a monomorphism if and only if
 
 $$ \ker f = \{0\}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-By [`GH` > Proposition 5](/codex/GH#PROP-5).
+By [GH # Theorem 5](/codex/GH#T5).
 
 {% endproof %}

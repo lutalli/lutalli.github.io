@@ -10,7 +10,7 @@ A set $T$ is **transitive** if every element of $T$ is a subset of $T$.
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 The following statements are equivalent:
 
@@ -21,7 +21,7 @@ The following statements are equivalent:
 
 3. $$ T \subseteq \powerset(T). $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

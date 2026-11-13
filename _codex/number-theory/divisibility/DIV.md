@@ -22,7 +22,7 @@ $$ m = kn. $$
 > - $m$ is a **multiple** of $n$;
 > - $m$ is **divisible** by $n$.
 
-{% proposition 1 @newline %}
+{% theorem 1 @newline %}
 
 {:.par-upper-roman}
 1. For all $n \in \N$,
@@ -33,4 +33,4 @@ $$ m = kn. $$
 
    $$ n \ndivides 0. $$
 
-{% endproposition %}
+{% endtheorem %}

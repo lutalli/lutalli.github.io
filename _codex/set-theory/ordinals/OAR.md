@@ -59,21 +59,21 @@ For any ordinal $\alpha$:
 
 ---
 
-{% proposition 1 "Associativity of $+$" %}
+{% theorem 1 "Associativity of $+$" %}
 
 For any ordinals $\alpha$, $\beta$ and $\gamma$,
 
 $$ (\alpha + \beta) + \gamma = \alpha + (\beta + \gamma). $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 "Associativity of $\cdot$" %}
+{% theorem 2 "Associativity of $\cdot$" %}
 
 For any ordinals $\alpha$, $\beta$ and $\gamma$,
 
 $$ (\alpha \cdot \beta) \cdot \gamma = \alpha \cdot (\beta \cdot \gamma). $$
 
-{% endproposition %}
+{% endtheorem %}
 
 > Neither $+$ or $\cdot$ is [commutative](/codex/OPC):
 >

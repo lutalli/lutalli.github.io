@@ -39,13 +39,13 @@ Let $(X, d)$ be a metric space and $Y \subseteq X$. Then $d \restriction_Y$ is a
 
 {% enddefinition %}
 
-{% proposition 1 "Positivity" %}
+{% theorem 1 "Positivity" %}
 
 Let $(X, d)$ be a metric space. For all $x$, $y \in X$:
 
 $$ x \neq y \enspace\rimp\enspace d(x, y) > 0. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 

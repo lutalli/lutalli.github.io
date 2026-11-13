@@ -10,65 +10,65 @@ The **composition** of two [binary relations](/codex/REL) $R$ and $S$ is the bin
 
 $$ S \circ R = \{(x, z) : (\exists y : x \,R\, y \,\land\, y \,S\, z) \}. $$
 
-This is a set by [Separation Schema](/codex/ZF#AX-4):
+This is a set by [Separation Schema](/codex/ZF#A4):
 
 $$ S \circ R \subseteq \dom R \times \im S. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 Let $X$ and $Y$ be two sets. For any binary relation $R$ on $X$ and $Y$,
 
 $$ R \circ \id_X = \id_Y \circ R = R. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 "Associativity" %}
+{% theorem 2 "Associativity" %}
 
 For any binary relations $R$, $S$ and $T$,
 
 $$ (R \circ S) \circ T = R \circ (S \circ T). $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 3 %}
+{% theorem 3 %}
 
 For any [functions](/codex/F) $f$ and $g$ on a set $X$, $f \circ g$ is also a function on $X$. In other words, $\fun(X, X)$ is [closed](/codex/OPC) under composition.
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 4 %}
+{% theorem 4 %}
 
 For any set $X$, $\rel(X, X)$ is a [monoid](/codex/MOID) under composition with [neutral element](/codex/NEU) $\id_X$.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-This is a summary of [Proposition 1](#PROP-1) and [associativity](#PROP-2) of $\circ$.
+This is a summary of [Theorem 1](#T1) and [associativity](#T2) of $\circ$.
 
 {% endproof %}
 
-{% proposition 5 %}
+{% theorem 5 %}
 
 For any set $X$, $\fun(X, X)$ is a [submonoid](/codex/SMOID) of $\rel(X, X)$ with neutral element $\id_X$.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-By [Proposition 1](#PROP-1) and [Submonoid Test](/codex/SMOID#PROP-1).
+By [Theorem 1](#T1) and [Submonoid Test](/codex/SMOID#T1).
 
 {% endproof %}
 
-{% proposition 6 "Antidistributivity" %}
+{% theorem 6 "Antidistributivity" %}
 
 For any binary relations $R$ and $S$,
 
 $$ (R \circ S)^{-1} = S^{-1} \circ R^{-1}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

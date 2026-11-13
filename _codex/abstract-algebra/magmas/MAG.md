@@ -6,7 +6,7 @@ updated: 2026-06-11
 
 {% definition 1 %}
 
-A **magma** is a structure $(M, \*)$ where $M$ is a set and $\*$ is a [binary operation](/codex/F#DEF-2) under which $M$ is [closed](/codex/OPC), i.e. for all $a$, $b \in M$,
+A **magma** is a structure $(M, \*)$ where $M$ is a set and $\*$ is a [binary operation](/codex/F#D2) under which $M$ is [closed](/codex/OPC), i.e. for all $a$, $b \in M$,
 
 $$ a * b \in M. $$
 

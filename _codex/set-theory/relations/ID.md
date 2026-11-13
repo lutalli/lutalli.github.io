@@ -12,11 +12,11 @@ $$ \id_X = \{(x, x) : x \in X\}. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any set $X$, $\id_X$ is a [bijective function](/codex/BIJ), called the **identity function**.
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 

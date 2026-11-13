@@ -4,7 +4,7 @@ date:    2026-03-06
 updated: 2026-06-10
 ---
 
-{% proposition 1 "Transfinite Induction" %}
+{% theorem 1 "Transfinite Induction" %}
 
 Let $C$ be a [class](/codex/CLS) of [ordinals](/codex/ORD). Suppose:
 
@@ -19,7 +19,7 @@ Let $C$ be a [class](/codex/CLS) of [ordinals](/codex/ORD). Suppose:
 
 Then $C = \Ord$.
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

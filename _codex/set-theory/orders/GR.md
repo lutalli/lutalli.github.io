@@ -18,12 +18,12 @@ Let $X$ be a [preordered](/codex/PRO) set and $a \in X$.
 
 {% enddefinition %}
 
-{% proposition 1 @newline %}
+{% theorem 1 @newline %}
 
 - Any greatest element is [maximal](/codex/MAXL).
 - Any least element is minimal.
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

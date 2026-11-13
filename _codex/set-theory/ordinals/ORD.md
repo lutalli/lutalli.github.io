@@ -24,13 +24,13 @@ $$ \alpha < \beta \enspace\lrimp\enspace \alpha \in \beta. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 Every element of an ordinal is an ordinal.
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 For any two ordinals $\alpha$ and $\beta$:
 
@@ -39,41 +39,41 @@ For any two ordinals $\alpha$ and $\beta$:
 
 2. $$ \alpha \subset \beta \enspace\rimp\enspace \alpha \in\beta. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 3 %}
+{% theorem 3 %}
 
 For any ordinal $\alpha$,
 
 $$ \alpha = \{\beta : \beta < \alpha\}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 4 %}
+{% theorem 4 %}
 
 If $C$ is a non-empty class of ordinals, then $\bigcap C$ is an ordinal and
 
 $$ \bigcap C \,=\, \inf C \,\in\, C. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 5 %}
+{% theorem 5 %}
 
 If $X$ is a non-empty set of ordinals, then $\bigcup X$ is an ordinal and
 
 $$ \bigcup X = \sup X. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 6 "Burali-Forti Paradox" %}
+{% theorem 6 "Burali-Forti Paradox" %}
 
-$\Ord$ is a [proper class](/codex/CLS#DEF-3).
+$\Ord$ is a [proper class](/codex/CLS#D3).
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
-By [Proposition 5](#PROP-5), $\alpha = \sup \Ord$ would be an ordinal, hence
+By [Theorem 5](#T5), $\alpha = \sup \Ord$ would be an ordinal, hence
 
 $$ \alpha + 1 \leq \alpha, $$
 

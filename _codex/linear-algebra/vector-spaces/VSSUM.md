@@ -12,7 +12,7 @@ $$ X + Y = \{x + y : x \in X, y \in Y\}. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 Let $V$ be a vector space. For any subspaces $X$, $Y \subseteq V$:
 
@@ -21,22 +21,22 @@ Let $V$ be a vector space. For any subspaces $X$, $Y \subseteq V$:
 
 2. $$ X + Y = \langle X \cup Y \rangle. $$
 
-{% endproposition %}
+{% endtheorem %}
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 Let $V$ be a vector space. For any finite-dimensional subspaces $X$, $Y \subseteq V$,
 
 $$ \dim(X + Y) = \dim X + \dim Y - \dim(X \cap Y). $$
 
-{% endproposition %}
+{% endtheorem %}
 
 As a corollary:
 
-{% proposition 3 %}
+{% theorem 3 %}
 
 Let $V$ be a vector space. For any finite-dimensional subspaces $X$, $Y \subseteq V$,
 
 $$ \dim(X + Y) \leq \dim X + \dim Y. $$
 
-{% endproposition %}
+{% endtheorem %}

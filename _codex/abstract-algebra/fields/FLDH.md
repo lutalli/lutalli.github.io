@@ -12,7 +12,7 @@ In other words, a field homomorphism $f : F \to K$ is both a group homomorphism 
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any field homomorphism $f : F \to K$:
 
@@ -31,14 +31,4 @@ For any field homomorphism $f : F \to K$:
 
 5. $f$ is always a monomorphism.
 
-{% endproposition %}
-
-{% proof %}
-
-(I): By [`RINGH` > Definition 1 (III)](/codex/RINGH#DEF-1).
-
-(II), (III), (IV): By [`GH` > Proposition 1](/codex/GH#PROP-1).
-
-(V): By (IV) and [`RING` > Proposition 2](/codex/RING#PROP-2), $\ker f = \\{0\\}$, so $f$ is a monomorphism by [`RINGH` > Proposition 2](/codex/RINGH#PROP-2).
-
-{% endproof %}
+{% endtheorem %}

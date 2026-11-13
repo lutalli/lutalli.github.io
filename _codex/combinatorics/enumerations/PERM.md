@@ -24,13 +24,13 @@ as the number of $k$-permutations of $\llbra n\rrbra$. It can then be shown that
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 For any $n$, $k \in \N$ with $k \leq n$,
 
 $$ P(n, k) = \frac{n!}{(n - k)!}. $$
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof @qedfix %}
 
@@ -48,7 +48,7 @@ $$ P(n, k) = \frac{n!}{(n - k)!}. $$
    $$ \big\lvert \varphi^{-1}[\{g\}] \big\rvert =%
       \big\lvert \llbra n \rrbra \setdif \im g \big\rvert = n - k + 1. $$
 
-   By [`INVF` > Proposition 3](/codex/INVF#PROP-3),
+   By [INVF # Theorem 3](/codex/INVF#T3),
 
    $$ P(n, k) = (n - k + 1) \cdot P(n, k - 1). $$
 
@@ -61,10 +61,10 @@ $$ P(n, k) = \frac{n!}{(n - k)!}. $$
 
 As a corollary:
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 For any $n \in \N$,
 
 $$ \big\lvert \bij(\llbra n \rrbra, \llbra n \rrbra) \big\rvert = n!. $$
 
-{% endproposition %}
+{% endtheorem %}

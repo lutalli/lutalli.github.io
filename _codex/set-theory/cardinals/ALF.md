@@ -31,19 +31,19 @@ $\aleph_\alpha$ is used when we treat it as an aleph, $\omega_\alpha$ when we tr
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
 Any [infinite](/codex/FIN) set $X$ is [well-orderable](/codex/WO) if and only if $\lvert X \rvert$ is an aleph.
 
-{% endproposition %}
+{% endtheorem %}
 
-The following proposition is equivalent to $\AC$:
+The following theorem is equivalent to $\AC$:
 
-{% proposition 2 %}
+{% theorem 2 %}
 
 Every infinite cardinal is an aleph.
 
-{% endproposition %}
+{% endtheorem %}
 
 ---
 

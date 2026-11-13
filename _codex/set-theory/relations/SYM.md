@@ -28,11 +28,11 @@ $$ (x \sim y \,\land\, y \sim x) \,\rimp\, x = y. $$
 
 {% enddefinition %}
 
-{% proposition 1 %}
+{% theorem 1 %}
 
-A relation is asymmetric if and only if it is antisymmetric and [irreflexive](/codex/REF#DEF-2).
+A relation is asymmetric if and only if it is antisymmetric and [irreflexive](/codex/REF#D2).
 
-{% endproposition %}
+{% endtheorem %}
 
 {% proof %}
 
