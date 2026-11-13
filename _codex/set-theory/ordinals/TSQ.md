@@ -4,9 +4,9 @@ date:    2026-03-06
 updated: 2026-07-09
 ---
 
-{% definition TS %}
+{% definition 1 %}
 
-A **transfinite sequence** is a [function](/codex/F) whose [domain](/codex/REL#DDM) is an [ordinal](/codex/ORD). If $s : \alpha \to X$ is transfinite sequence for some ordinal $\alpha$:
+A **transfinite sequence** is a [function](/codex/F) whose [domain](/codex/REL#DEF-2) is an [ordinal](/codex/ORD). If $s : \alpha \to X$ is transfinite sequence for some ordinal $\alpha$:
 
 - $s$ is an **$\alpha$-sequence**.
 
@@ -22,7 +22,7 @@ A **transfinite sequence** is a [function](/codex/F) whose [domain](/codex/REL#D
 
 {% enddefinition %}
 
-{% definition CS %}
+{% definition 2 %}
 
 A **countably infinite sequence** is an $\omega$-sequence. A countably infinite sequence $s$ is also denoted by
 
@@ -30,13 +30,13 @@ $$ \langle s_n : n \in \N \rangle \quad\text{or}\quad \langle s_n \rangle_{n \in
 
 {% enddefinition %}
 
-{% definition FS %}
+{% definition 3 %}
 
 A **finite sequence** is an $n$-sequence for some [natural number](/codex/FINO) $n$.
 
 {% enddefinition %}
 
-{% definition EX %}
+{% definition 4 %}
 
 If $s$ is an $\alpha$-sequence for some ordinal $\alpha$, the **extension** of $s$ by $x$ is
 

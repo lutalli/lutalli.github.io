@@ -4,7 +4,7 @@ date:    2026-02-17
 updated: 2026-08-06
 ---
 
-{% definition SD %}
+{% definition 1 %}
 
 The **symmetric difference** between two sets $X$ and $Y$ is
 
@@ -12,7 +12,7 @@ $$ X \symdif Y = (X \setdif Y) \cup (Y \setdif X). $$
 
 {% enddefinition %}
 
-{% theorem XO @newline %}
+{% proposition 1 @newline %}
 
 {:.par-upper-roman}
 1. For any set $X$,
@@ -23,43 +23,43 @@ $$ X \symdif Y = (X \setdif Y) \cup (Y \setdif X). $$
 
    $$ X \symdif Y = \empt \enspace\lrimp\enspace X = Y. $$
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem CM "Commutativity" %}
+{% proposition 2 "Commutativity" %}
 
 For any sets $X$ and $Y$,
 
 $$ X \symdif Y = Y \symdif X. $$
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem AS "Associativity" %}
+{% proposition 3 "Associativity" %}
 
 For any sets $X$, $Y$ and $Z$,
 
 $$ (X \symdif Y) \symdif Z = X \symdif (Y \symdif Z). $$
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem GP %}
+{% proposition 4 %}
 
-For any set $X$, $(\powerset(X), \symdif)$ is an [abelian](/codex/MAG#DPR) [group](/codex/G) with [neutral element](/codex/NEU) $\empt$.
+For any set $X$, $(\powerset(X), \symdif)$ is an [abelian](/codex/MAG#DEF-2) [group](/codex/G) with [neutral element](/codex/NEU) $\empt$.
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof %}
 
-This is a summary of [Theorem XO (I)](#TXO), [commutativity](#TCM) and [associativity](#TAS) of $\symdif$.
+This is a summary of [Proposition 1 (I)](#PROP-1), [commutativity](#PROP-2) and [associativity](#PROP-3) of $\symdif$.
 
 {% endproof %}
 
-{% theorem DF %}
+{% proposition 5 %}
 
 For any sets $X$ and $Y$,
 
 $$ X \symdif Y = (X \cup Y) \setdif (X \cap Y). $$
 
-{% endtheorem %}
+{% endproposition %}
 
 ---
 

@@ -4,13 +4,13 @@ date:    2026-03-05
 updated: 2026-06-10
 ---
 
-{% theorem WO %}
+{% proposition 1 %}
 
 Every [well-ordered](/codex/WO) set $W$ is [isomorphic](/codex/OH) to a unique [ordinal number](/codex/ORD).
 
-{% endtheorem %}
+{% endproposition %}
 
-{% definition OT %}
+{% definition 1 %}
 
 This unique ordinal number is called the **order type** of $W$ (with respect to the given well-order).
 

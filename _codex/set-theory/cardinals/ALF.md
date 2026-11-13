@@ -4,9 +4,9 @@ date:    2026-03-09
 updated: 2026-06-10
 ---
 
-{% definition AF %}
+{% definition 1 %}
 
-**Aleph numbers** or **alephs** are defined using [Transfinite Recursion](/codex/TREC):
+**Alpeh numbers** or **alephs** are defined using [Transfinite Recursion](/codex/TREC):
 
 {:.par-upper-roman}
 1. $$ \aleph_0 = \omega. $$
@@ -21,7 +21,7 @@ updated: 2026-06-10
 
 {% enddefinition %}
 
-{% definition OM %}
+{% definition 2 %}
 
 For every ordinal $\alpha$, we also define
 
@@ -31,19 +31,19 @@ $\aleph_\alpha$ is used when we treat it as an aleph, $\omega_\alpha$ when we tr
 
 {% enddefinition %}
 
-{% theorem WO %}
+{% proposition 1 %}
 
 Any [infinite](/codex/FIN) set $X$ is [well-orderable](/codex/WO) if and only if $\lvert X \rvert$ is an aleph.
 
-{% endtheorem %}
+{% endproposition %}
 
-The following theorem is equivalent to $\AC$:
+The following proposition is equivalent to $\AC$:
 
-{% theorem IF %}
+{% proposition 2 %}
 
 Every infinite cardinal is an aleph.
 
-{% endtheorem %}
+{% endproposition %}
 
 ---
 

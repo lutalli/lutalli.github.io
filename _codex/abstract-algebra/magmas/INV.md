@@ -4,9 +4,9 @@ date:    2026-04-16
 updated: 2026-10-12
 ---
 
-{% definition IV %}
+{% definition 1 %}
 
-Let $M$ be a [unital](/codex/NEU#DNT) [magma](/codex/MAG) with [neutral element](/codex/NEU) $e$. Let $a$, $x \in M$.
+Let $M$ be a [unital](/codex/NEU#DEF-1) [magma](/codex/MAG) with [neutral element](/codex/NEU) $e$. Let $a$, $x \in M$.
 
 - $x$ is a **left-inverse** of $a$ if
 
@@ -26,7 +26,7 @@ By default, we write $a^{-1}$ for the unique inverse of each $a \in M$.
 
 {% enddefinition %}
 
-{% definition SB %}
+{% definition 2 %}
 
 The **invertible subset** of a magma $M$ is
 

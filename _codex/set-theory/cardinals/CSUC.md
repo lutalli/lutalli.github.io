@@ -4,13 +4,13 @@ date:    2026-03-09
 updated: 2026-06-10
 ---
 
-{% theorem GR %}
+{% proposition 1 %}
 
 For every [ordinal](/codex/ORD) $\alpha$ there is a [cardinal](/codex/CARD) greater than $\alpha$.
 
-{% endtheorem %}
+{% endproposition %}
 
-{% definition SC %}
+{% definition 1 %}
 
 The **cardinal successor** of an ordinal $\alpha$, denoted by $\alpha^+$, is the least cardinal greater than $\alpha$.
 

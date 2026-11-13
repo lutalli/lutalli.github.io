@@ -4,7 +4,7 @@ date:    2026-04-02
 updated: 2026-06-11
 ---
 
-{% definition FR %}
+{% definition 1 %}
 
 Let $R$ be a ring and $A$ be a non-empty set. The **ring of functions** from $A$ to $R$ is the ring $\fun(A, R)$ with addition and multiplication defined by
 

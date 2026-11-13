@@ -4,7 +4,7 @@ date:    2026-03-17
 updated: 2026-06-11
 ---
 
-{% definition CJ %}
+{% definition 1 %}
 
 Let $G$ be a group. For any $a$, $g \in G$, the **conjugation** of $a$ by $g$ is
 
@@ -20,8 +20,8 @@ $$ \conj_g a = b. $$
 
 {% enddefinition %}
 
-{% theorem EQ %}
+{% proposition 1 %}
 
 For any group, $\stackrel{\conj}{\sim}$ is an equivalence relation.
 
-{% endtheorem %}
+{% endproposition %}

@@ -4,7 +4,7 @@ date:    2026-04-03
 updated: 2026-06-20
 ---
 
-{% definition PL %}
+{% definition 1 %}
 
 Let $R$ be a ring. The **polynomial ring** over $R$ is a subring of $R[[X]]$:
 
@@ -16,7 +16,7 @@ $0 \in R[X]$ is the **zero polynomial**.
 
 {% enddefinition %}
 
-{% definition DG %}
+{% definition 2 %}
 
 Let $R$ be a ring and $p \in R[X]$ be a polynomial. The **degree** of $p$ is
 
@@ -31,18 +31,18 @@ If $p \neq 0$, $p_{\deg p}$ is called the **leading coefficient** of $p$. $p$ is
 
 {% enddefinition %}
 
-{% theorem DS %}
+{% proposition 1 %}
 
 Let $R$ be a ring. For any $p$, $q \in R[X]$,
 
 $$ \deg(p + q) \leq \max(\deg p, \deg q). $$
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem DP %}
+{% proposition 2 %}
 
 Let $R$ be an integral domain. For any $p$, $q \in R[X]$,
 
 $$ \deg(pq) = \deg p + \deg q. $$
 
-{% endtheorem %}
+{% endproposition %}

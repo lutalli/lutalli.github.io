@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-10-01
 ---
 
-{% definition MX %}
+{% definition 1 %}
 
 Let $X$ be a [preordered](/codex/PRO) set and $a \in X$.
 
@@ -18,7 +18,7 @@ Let $X$ be a [preordered](/codex/PRO) set and $a \in X$.
 
 {% enddefinition %}
 
-{% theorem PO %}
+{% proposition 1 %}
 
 Let $X$ be a [partially ordered](/codex/PO) set and $a \in X$.
 
@@ -30,11 +30,11 @@ Let $X$ be a [partially ordered](/codex/PO) set and $a \in X$.
 
   $$ \forall x \in X :\enspace x \leq a \enspace\rimp\enspace x = a. $$
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof %}
 
-By [antisymmetry](/codex/PO#DPO) of $\leq$.
+By [antisymmetry](/codex/PO#DEF-1) of $\leq$.
 
 {% endproof %}
 

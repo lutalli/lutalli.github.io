@@ -4,7 +4,7 @@ date:    2026-05-11
 updated: 2026-06-20
 ---
 
-{% definition DS %}
+{% definition 1 %}
 
 Let $V$ be a vector space and $X$, $Y \subseteq V$ be subspaces.  The sum $X + Y$ is **direct** if $X \cap Y = \\{0\\}$. The notation
 
@@ -18,7 +18,7 @@ If $V = X \oplus Y$, $X$ and $Y$ are called **complementary subspaces** to each 
 
 {% enddefinition %}
 
-{% theorem AA %}
+{% proposition 1 %}
 
 Let $V$ be a vector space and $X$, $Y \subseteq V$ be subspaces such that $V = X + Y$. The following statements are equivalent:
 
@@ -29,9 +29,9 @@ Let $V$ be a vector space and $X$, $Y \subseteq V$ be subspaces such that $V = X
 
 3. For any $x \in X$ and $y \in Y$, if $x \neq 0$ and $y \neq 0$, then $x$ and $y$ are linear independent.
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem BB %}
+{% proposition 2 %}
 
 Let $V$ be a vector space and $X$, $Y \subseteq V$ be finite-dimensional subspaces. The following statements are equivalent:
 
@@ -42,4 +42,4 @@ Let $V$ be a vector space and $X$, $Y \subseteq V$ be finite-dimensional subspac
 
 3. $X$ has a basis $\mathcal{A}$ and $Y$ has a basis $\mathcal{B}$ such that $\mathcal{A} \cup \mathcal{B}$ is a basis of $V$.
 
-{% endtheorem %}
+{% endproposition %}

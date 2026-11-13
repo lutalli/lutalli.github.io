@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-06-10
 ---
 
-{% definition GR %}
+{% definition 1 %}
 
 Let $X$ be a [preordered](/codex/PRO) set and $a \in X$.
 
@@ -18,12 +18,12 @@ Let $X$ be a [preordered](/codex/PRO) set and $a \in X$.
 
 {% enddefinition %}
 
-{% theorem MX @newline %}
+{% proposition 1 @newline %}
 
 - Any greatest element is [maximal](/codex/MAXL).
 - Any least element is minimal.
 
-{% endtheorem %}
+{% endproposition %}
 
 ---
 

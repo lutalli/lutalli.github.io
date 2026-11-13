@@ -4,7 +4,7 @@ date:    2026-04-02
 updated: 2026-06-20
 ---
 
-{% definition IS %}
+{% definition 1 %}
 
 For any statement $\varphi$, we define
 

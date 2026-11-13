@@ -4,7 +4,7 @@ date:    2026-10-28
 updated: 2026-10-30
 ---
 
-{% definition TR %}
+{% definition 1 %}
 
 A [binary relation](/codex/REL) $\sim$ on a set $X$ is **transitive** if for all $x$, $y$, $z \in X$,
 
@@ -14,7 +14,7 @@ A binary relation is **intransitive** if it is not transitive.
 
 {% enddefinition %}
 
-{% definition AT %}
+{% definition 2 %}
 
 A binary relation $\sim$ on a set $X$ is **antitransitive** if for all $x$, $y$, $z \in X$,
 
@@ -22,11 +22,11 @@ $$ (x \sim y \,\land\, y \sim z) \,\rimp\, x \not\sim z. $$
 
 {% enddefinition %}
 
-{% theorem AI %}
+{% proposition 1 %}
 
-A transitive relation is [asymmetric](/codex/SYM#DAS) if and only if it is [irreflexive](/codex/REF#DIR).
+A transitive relation is [asymmetric](/codex/SYM#DEF-2) if and only if it is [irreflexive](/codex/REF#DEF-2).
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof %}
 

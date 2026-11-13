@@ -4,7 +4,7 @@ date:    2026-03-06
 updated: 2026-08-03
 ---
 
-{% definition CF %}
+{% definition 1 %}
 
 A **choice function** on a set $X$ is a [function](/codex/F) on $X$ such that
 
@@ -12,17 +12,17 @@ $$ \forall A \in X : f(A) \in A. $$
 
 {% enddefinition %}
 
-{% axiom AC "Axiom of Choice ($\AC$)" %}
+{% axiom 1 "Axiom of Choice ($\AC$)" %}
 
 Every set has a choice function.
 
 {% endaxiom %}
 
-{% theorem DP %}
+{% proposition 1 %}
 
 $\AC$ is independent of $\ZF$.
 
-{% endtheorem %}
+{% endproposition %}
 
 > $\ZF + \AC$ is denoted by $\ZFC$.
 

@@ -4,7 +4,7 @@ date:    2026-03-14
 updated: 2026-06-11
 ---
 
-{% definition GP %}
+{% definition 1 %}
 
 A **group** is an invertible monoid, i.e. a magma $G$ such that:
 
@@ -17,7 +17,7 @@ A **group** is an invertible monoid, i.e. a magma $G$ such that:
 
    $$ ae = ea = a. $$
 
-   ($e$ is automatically unique by [NEU # Theorem UQ](/codex/NEU#TUQ).)
+   ($e$ is automatically unique by [`NEU` > Proposition 1](/codex/NEU#PROP-1).)
 
 3. (*Invertibility*) For all $a \in G$, there is $x \in G$ such that
 
@@ -25,29 +25,29 @@ A **group** is an invertible monoid, i.e. a magma $G$ such that:
 
 {% enddefinition %}
 
-{% theorem LR %}
+{% proposition 1 %}
 
 A monoid becomes a group as soon as it is left-invertible or right-invertible.
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof %}
 
-By [MOID # Theorem LR](/codex/MOID#TLR).
+By [`MOID` > Proposition 1](/codex/MOID#PROP-1).
 
 {% endproof %}
 
-{% theorem SB %}
+{% proposition 2 %}
 
 For any monoid $M$, its invertible subset $\inv M$ is a group.
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem UQ %}
+{% proposition 3 %}
 
 A group is uniquely invertible.
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof @qedfix %}
 
@@ -57,7 +57,7 @@ $$ x = xe = x(ax') = (xa)x' = ex' = x'. $$
 
 {% endproof %}
 
-{% definition ST %}
+{% definition 2 %}
 
 In an abelian group $(G,+)$, we typically write $-a$ for the inverse of $a$ and define the **subtraction**
 
@@ -65,11 +65,11 @@ $$ a - b = a + (-b). $$
 
 {% enddefinition %}
 
-{% theorem CC %}
+{% proposition 4 %}
 
 A group is cancellative.
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof @qedfix %}
 
@@ -85,18 +85,18 @@ Let $G$ be a group with neutral element $e$. Let $a$, $x$, $y \in G$.
 
 {% endproof %}
 
-{% theorem IL "Involutivity of Inversion" %}
+{% proposition 5 "Involutivity of Inversion" %}
 
 Let $G$ be a group. For any $a \in G$,
 
 $$ (a^{-1})^{-1} = a. $$
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem AD "Antidistributivity of Inversion" %}
+{% proposition 6 "Antidistributivity of Inversion" %}
 
 Let $G$ be a group. For any $a$, $b \in G$,
 
 $$ (ab)^{-1} = b^{-1}a^{-1}. $$
 
-{% endtheorem %}
+{% endproposition %}

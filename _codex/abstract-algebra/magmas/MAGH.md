@@ -4,7 +4,7 @@ date:    2026-04-15
 updated: 2026-06-11
 ---
 
-{% definition MH %}
+{% definition 1 %}
 
 A **magma homomorphism** between two [magmas](/codex/MAG) $M$ and $N$ is a [function](/codex/F) $f : M \to N$ such that for all $a$, $b \in M$,
 

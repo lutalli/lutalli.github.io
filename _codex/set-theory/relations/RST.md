@@ -4,7 +4,7 @@ date:    2026-02-21
 updated: 2026-09-30
 ---
 
-{% definition RT %}
+{% definition 1 %}
 
 Let $R$ be a [binary relation](/codex/REL).
 
@@ -16,13 +16,13 @@ Let $R$ be a [binary relation](/codex/REL).
 
   $$ {R \restriction^B} = \{(x, y) : x \,R\, y \,\land\, y \in B\}. $$
 
-These are sets by [Separation Schema](/codex/ZF#ASP):
+These are sets by [Separation Schema](/codex/ZF#AX-4):
 
 $$ {R \restriction_A} \subseteq R, \quad {R \restriction^B} \subseteq R. $$
 
 {% enddefinition %}
 
-{% definition EX %}
+{% definition 2 %}
 
 A relation $R$ is an **extension** of a relation $S$ if $R \supseteq S$.
 

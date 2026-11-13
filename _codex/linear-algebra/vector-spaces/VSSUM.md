@@ -4,7 +4,7 @@ date:    2026-05-11
 updated: 2026-06-20
 ---
 
-{% definition SM %}
+{% definition 1 %}
 
 Let $V$ be a vector space and $X$, $Y \subseteq V$ be subspaces. The **sum** of $X$ and $Y$ is
 
@@ -12,7 +12,7 @@ $$ X + Y = \{x + y : x \in X, y \in Y\}. $$
 
 {% enddefinition %}
 
-{% theorem TT %}
+{% proposition 1 %}
 
 Let $V$ be a vector space. For any subspaces $X$, $Y \subseteq V$:
 
@@ -21,22 +21,22 @@ Let $V$ be a vector space. For any subspaces $X$, $Y \subseteq V$:
 
 2. $$ X + Y = \langle X \cup Y \rangle. $$
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem FM %}
+{% proposition 2 %}
 
 Let $V$ be a vector space. For any finite-dimensional subspaces $X$, $Y \subseteq V$,
 
 $$ \dim(X + Y) = \dim X + \dim Y - \dim(X \cap Y). $$
 
-{% endtheorem %}
+{% endproposition %}
 
 As a corollary:
 
-{% theorem IQ %}
+{% proposition 3 %}
 
 Let $V$ be a vector space. For any finite-dimensional subspaces $X$, $Y \subseteq V$,
 
 $$ \dim(X + Y) \leq \dim X + \dim Y. $$
 
-{% endtheorem %}
+{% endproposition %}

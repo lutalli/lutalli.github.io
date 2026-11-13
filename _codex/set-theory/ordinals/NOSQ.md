@@ -4,7 +4,7 @@ date:    2026-03-06
 updated: 2026-06-10
 ---
 
-{% definition NM %}
+{% definition 1 %}
 
 An [ordinal](/codex/ORD) [sequence](/codex/TSQ) is **normal** if it is [strictly increasing](/codex/OH) and [continuous](/codex/COSQ).
 

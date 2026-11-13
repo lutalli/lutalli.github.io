@@ -4,7 +4,7 @@ date:    2026-03-19
 updated: 2026-06-11
 ---
 
-{% definition ZZ %}
+{% definition 1 %}
 
 The set of **integers** is
 
@@ -16,7 +16,7 @@ $$ (a, b) \sim (x, y) \enspace\lrimp\enspace a + y = b + x. $$
 
 {% enddefinition %}
 
-{% definition AM %}
+{% definition 2 %}
 
 Addition and multiplication on $\Z$ are defined by
 
@@ -27,7 +27,7 @@ $$ \begin{align*}
 
 {% enddefinition %}
 
-{% definition EB %}
+{% definition 3 %}
 
 $\N$ is embedded into $\Z$ by
 
@@ -39,7 +39,7 @@ $$ \N \subseteq \Z. $$
 
 {% enddefinition %}
 
-{% definition WO %}
+{% definition 4 %}
 
 The following defines a well-order on $\Z$:
 
@@ -47,7 +47,7 @@ $$ [(a, b)] \leq [(x, y)] \enspace\lrimp\enspace a + y \leq b + x. $$
 
 {% enddefinition %}
 
-{% definition NO %}
+{% definition 5 %}
 
 The set of **non-zero integers** is
 
@@ -55,7 +55,7 @@ $$ \Z^* = \Z \setdif \{0\}. $$
 
 {% enddefinition %}
 
-{% definition PS %}
+{% definition 6 %}
 
 The set of **positive integers** is
 
@@ -65,7 +65,7 @@ $$ \Z^+ = \{z \in \Z : z > 0\}. $$
 
 > $\Z^+ = \N^+$.
 
-{% definition NG %}
+{% definition 7 %}
 
 The set of **negative integers** is
 
@@ -73,8 +73,8 @@ $$ \Z^- = \{z \in \Z : z < 0\}. $$
 
 {% enddefinition %}
 
-{% theorem RI %}
+{% proposition 1 %}
 
 $(\Z, +, \cdot, 0, 1, \leq)$ is a well-ordered abelian ring.
 
-{% endtheorem %}
+{% endproposition %}

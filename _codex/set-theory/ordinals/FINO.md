@@ -4,25 +4,25 @@ date:    2026-03-05
 updated: 2026-08-06
 ---
 
-{% definition FO %}
+{% definition 1 %}
 
 We define
 
 $$ \N = \bigcap\{X : \empt \in X \,\land\, \text{$X$ is inductive}\} $$
 
-as the set of **finite [ordinals](/codex/ORD)** or **natural numbers**. [Axiom of Infinity](/codex/ZF#AIF) guarantees the existence of at least one such $X$, therefore the existence of $\N$.
+as the set of **finite [ordinals](/codex/ORD)** or **natural numbers**. [Axiom of Infinity](/codex/ZF#AX-10) guarantees the existence of at least one such $X$, therefore the existence of $\N$.
 
 An ordinal is **infinite** if it is not finite.
 
 {% enddefinition %}
 
-{% definition OM %}
+{% definition 2 %}
 
 $\omega := \N$ itself is an ordinal. $\omega$ is used when we treat it as an ordinal, $\N$ when we treat it as a set.
 
 {% enddefinition %}
 
-{% definition NN %}
+{% definition 3 %}
 
 We define
 
@@ -32,15 +32,15 @@ and so on, where $\alpha + 1$ is the [ordinal successor](/codex/SUC) of an ordin
 
 {% enddefinition %}
 
-{% theorem LL %}
+{% proposition 1 %}
 
 $\omega$ is the [least](/codex/MAX) [limit ordinal](/codex/LIMO).
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof %}
 
-By [LIMO # Theorem TT (I) $\lrimp$ (V)](/codex/LIMO#TTT).
+By [`LIMO` > Proposition 1 (I) $\lrimp$ (V)](/codex/LIMO#PROP-1).
 
 {% endproof %}
 

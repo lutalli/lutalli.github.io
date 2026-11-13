@@ -4,7 +4,7 @@ date:    2026-05-07
 updated: 2026-06-20
 ---
 
-{% definition MT %}
+{% definition 1 %}
 
 Let $R$ be a ring. An $m \times n$-**matrix** in $R$ ($m$, $n \in \N^+$) is a function from $\llbra m \rrbra \times \llbra n \rrbra$ to $R$.
 
@@ -22,7 +22,7 @@ $$ M = \begin{bmatrix}
 
 {% enddefinition %}
 
-{% definition SM %}
+{% definition 2 %}
 
 Let $R$ be a ring and $A$, $B \in \mat_R(m,n)$ ($m$, $n \in \N^+$). The **sum** of $A$ and $B$ is
 
@@ -30,7 +30,7 @@ $$ A + B \in \mat_R(m, n) : (i, j) \mapsto A(i, j) + B(i, j). $$
 
 {% enddefinition %}
 
-{% definition PD %}
+{% definition 3 %}
 
 Let $R$ be a ring, $A \in \mat_R(m, n)$ and $B \in \mat_R(n, p)$ ($m$, $n \in \N^+$). The **product** of $A$ and $B$ is
 

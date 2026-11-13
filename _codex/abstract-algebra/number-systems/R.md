@@ -4,7 +4,7 @@ date:    2026-03-20
 updated: 2026-06-20
 ---
 
-{% definition RR %}
+{% definition 1 %}
 
 The **real number system** $\R$ is, up to isomorphism, the unique ordered field that is Dedekind-complete.
 
@@ -12,7 +12,7 @@ The **real number system** $\R$ is, up to isomorphism, the unique ordered field 
 
 {% enddefinition %}
 
-{% definition EB %}
+{% definition 2 %}
 
 Based on the construction method, $\Q$ can be embedded into $\R$. Then we can say
 
@@ -20,7 +20,7 @@ $$ \N \subseteq \Z \subseteq \Q \subseteq \R. $$
 
 {% enddefinition %}
 
-{% definition NO %}
+{% definition 3 %}
 
 The set of **non-zero real numbers** is
 
@@ -28,7 +28,7 @@ $$ \R^* = \R \setdif \{0\}. $$
 
 {% enddefinition %}
 
-{% definition PS %}
+{% definition 4 %}
 
 The set of **positive real numbers** is
 
@@ -36,7 +36,7 @@ $$ \R^+ = \{x \in \R : x > 0\}. $$
 
 {% enddefinition %}
 
-{% definition NG %}
+{% definition 5 %}
 
 The set of **negative real numbers** is
 

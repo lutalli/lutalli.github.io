@@ -4,7 +4,7 @@ date:    2026-03-22
 updated: 2026-06-20
 ---
 
-{% definition FC %}
+{% definition 1 %}
 
 The **factorial** of $n \in \N$, written $n!$, is defined recursively:
 

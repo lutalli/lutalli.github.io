@@ -4,7 +4,7 @@ date:    2026-04-05
 updated: 2026-06-11
 ---
 
-{% definition ZD %}
+{% definition 1 %}
 
 Let $R$ be a ring and $a \in R$.
 

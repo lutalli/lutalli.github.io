@@ -189,12 +189,12 @@ article {
         float:          right;
     }
 
-    & div.theorem-like {
+    & div.theoremish {
         margin-top:     2em;
         margin-bottom:  2em;
     }
 
-    & a.theorem-like-heading {
+    & a.theoremish-heading {
         font-variant:    small-caps;
         text-decoration: none !important;
     }

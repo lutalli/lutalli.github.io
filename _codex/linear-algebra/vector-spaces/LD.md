@@ -4,7 +4,7 @@ date:    2026-05-04
 update: 2026-06-20
 ---
 
-{% definition DP %}
+{% definition 1 %}
 
 Let $V$ be a vector space and $S \subseteq V$ be a subset. $S$ is **linearly independent** if there is no $T \subset S$ such that $\langle T \rangle = \langle S \rangle$.
 
@@ -12,7 +12,7 @@ $S$ is **linearly dependent** if it is not linearly independent.
 
 {% enddefinition %}
 
-{% theorem UQ %}
+{% proposition 1 %}
 
 Let $V$ be a vector space over $F$ and
 
@@ -22,11 +22,11 @@ be a subset $(n \geq 1)$. $S$ is linearly independent if and only if for every $
 
 $$ \sum_{i = 1}^n \lambda_i v_i = x. $$
 
-{% endtheorem %}
+{% endproposition %}
 
 In particular, since $\sum_{i = 1}^n 0 \cdot v_i = 0$, we have:
 
-{% theorem OO %}
+{% proposition 2 %}
 
 Let $V$ be a vector space over $F$ and
 
@@ -39,9 +39,9 @@ $$ \sum_{i = 1}^n \lambda_i v_i = 0 \enspace\rimp\enspace%
 
 then $S$ is linearly independent.
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem TT %}
+{% proposition 3 %}
 
 Let $V$ be a vector space over $F$.
 
@@ -54,4 +54,4 @@ Let $V$ be a vector space over $F$.
 
    $$ \exists v \in S : v \in \langle S \setdif \{v\} \rangle. $$
 
-{% endtheorem %}
+{% endproposition %}

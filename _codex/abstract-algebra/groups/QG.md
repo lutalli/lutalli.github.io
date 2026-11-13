@@ -4,7 +4,7 @@ date:    2026-03-17
 updated: 2026-06-11
 ---
 
-{% definition QG %}
+{% definition 1 %}
 
 Let $G$ be a group and $N$ be a normal subgroup. The binary operation $\*$ on $G / N$
 
@@ -14,15 +14,15 @@ is well-defined and $(G / N, \*)$ is a group, called the **quotient group** of $
 
 {% enddefinition %}
 
-{% theorem NS %}
+{% proposition 1 %}
 
 If $G$ is a group and $N$ is a normal subgroup,
 
 $$ G / N = N \backslash G. $$
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem EQ %}
+{% proposition 2 %}
 
 Let $G$ be a group and $H$ be a subgroup. If we define two equivalence relations on $G$:
 
@@ -45,4 +45,4 @@ If $H$ is normal:
 
 4. $$ G / H = G / {\sim_H}. $$
 
-{% endtheorem %}
+{% endproposition %}

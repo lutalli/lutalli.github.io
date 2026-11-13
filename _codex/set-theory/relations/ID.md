@@ -4,7 +4,7 @@ date:    2026-02-21
 updated: 2026-10-30
 ---
 
-{% definition ID %}
+{% definition 1 %}
 
 The **identity** on a set $X$ is the [binary relation](/codex/REL)
 
@@ -12,11 +12,11 @@ $$ \id_X = \{(x, x) : x \in X\}. $$
 
 {% enddefinition %}
 
-{% theorem BJ %}
+{% proposition 1 %}
 
 For any set $X$, $\id_X$ is a [bijective function](/codex/BIJ), called the **identity function**.
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof %}
 

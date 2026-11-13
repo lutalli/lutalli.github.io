@@ -4,7 +4,7 @@ date:    2026-04-16
 updated: 2026-10-04
 ---
 
-{% definition NT %}
+{% definition 1 %}
 
 Let $M$ be a [magma](/codex/MAG) and $e \in M$.
 
@@ -24,11 +24,11 @@ Let $M$ be a [magma](/codex/MAG) and $e \in M$.
 
 > A *neutral element* is also known as an **identity element**.
 
-{% theorem UQ "Uniqueness" %}
+{% proposition 1 "Uniqueness" %}
 
 A unital magma has exactly one neutral element.
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof @qedfix %}
 

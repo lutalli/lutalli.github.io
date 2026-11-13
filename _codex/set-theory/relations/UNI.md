@@ -4,7 +4,7 @@ date:    2026-10-30
 updated: 2026-10-30
 ---
 
-{% definition LU %}
+{% definition 1 %}
 
 A [binary relation](/codex/REL) $\sim$ on a set $X$ is **left-unique** or **injective** if for all $x$, $y$, $z \in X$,
 
@@ -12,7 +12,7 @@ $$ (x \sim z \,\land\, y \sim z) \,\rimp\, x = y. $$
 
 {% enddefinition %}
 
-{% definition RU %}
+{% definition 2 %}
 
 A binary relation $\sim$ on a set $X$ is **right-unique**, or, a [**function**](/codex/F), if for all $x$, $y$, $z \in X$,
 

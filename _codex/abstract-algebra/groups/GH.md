@@ -4,13 +4,13 @@ date:    2026-03-18
 updated: 2026-06-11
 ---
 
-{% definition GH %}
+{% definition 1 %}
 
 A **group homomorphism** is a magma homomorphism between groups.
 
 {% enddefinition %}
 
-{% theorem PV %}
+{% proposition 1 %}
 
 Let $G$ be a group with neutral element $e$ and $H$ be a group with neutral element $i$. For any group homomorphism $f : G \to H$:
 
@@ -23,34 +23,34 @@ Let $G$ be a group with neutral element $e$ and $H$ be a group with neutral elem
 
    $$ f(a^{-1}) = f(a)^{-1}. $$
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem KN %}
+{% proposition 2 %}
 
 For any group homomorphism $f : G \to H$, $\ker f$ is a normal subgroup of $G$.
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem IM %}
+{% proposition 3 %}
 
 For any group homomorphism $f : G \to H$, $\im f$ is a subgroup of $H$.
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem ST %}
+{% proposition 4 %}
 
 Let $f : G \to H$ be a group homomorphism. For all $a$, $b \in G$,
 
 $$ f(a) = f(b) \enspace\lrimp\enspace ab^{-1} \in \ker f. $$
 
-{% endtheorem %}
+{% endproposition %}
 
 As a corollary:
 
-{% theorem MN %}
+{% proposition 5 %}
 
 Let $f:G\to H$ be a group homomorphism and $e$ be the neutral element of $G$. $f$ is a monomorphism if and only if
 
 $$ \ker f = \{e\}. $$
 
-{% endtheorem %}
+{% endproposition %}

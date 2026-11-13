@@ -4,7 +4,7 @@ date:    2026-02-17
 updated: 2026-09-18
 ---
 
-{% definition DJ %}
+{% definition 1 %}
 
 Two sets $X$ and $Y$ are **disjoint** if
 
@@ -20,11 +20,11 @@ Not disjoint sets are called **joint**.
 
 > *Joint* is also known as **overlapping**.
 
-{% theorem OS %}
+{% proposition 1 %}
 
 $\empt$ is the only self-disjoint set.
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof @qedfix %}
 
@@ -34,19 +34,19 @@ $$ X = X \cap X = \empt. $$
 
 {% endproof %}
 
-{% theorem OA %}
+{% proposition 2 %}
 
 $\empt$ is the only set disjoint to every other set.
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof %}
 
-$\empt$ is disjoint to every set by [ITSC # Theorem XO](/codex/ITSC#TXO). If a set $X$ is non-empty,
+$\empt$ is disjoint to every set by [`ITSC` > Proposition 1](/codex/ITSC#PROP-1). If a set $X$ is non-empty,
 
 $$ Y = X \cup \{X\} $$
 
-is always joint to $X$. By [irreflexivity of $\in$](/codex/ZF#TIR), $X \neq Y$.
+is always joint to $X$. By [irreflexivity of $\in$](/codex/ZF#PROP-1), $X \neq Y$.
 
 {% endproof %}
 

@@ -4,7 +4,7 @@ date:    2026-04-02
 updated: 2026-06-20
 ---
 
-{% definition PW %}
+{% definition 1 %}
 
 Let $R$ be a ring. The **ring of formal power series** $R[[X]]$ is the ring $\fun(\N, R)$ with addition and multiplication defined by
 

@@ -4,7 +4,7 @@ date:    2026-03-31
 updated: 2026-06-11
 ---
 
-{% definition DP %}
+{% definition 1 %}
 
 The **direct product** of two rings $R$ and $S$ is the ring $R \times S$ with addition and multiplication defined by
 

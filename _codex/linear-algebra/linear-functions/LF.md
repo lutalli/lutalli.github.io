@@ -4,7 +4,7 @@ date:    2026-05-07
 updated: 2026-06-20
 ---
 
-{% definition LF %}
+{% definition 1 %}
 
 Let $V$, $W$ be vector spaces over a field $F$. A **linear function** $f : V \to W$ is a **vector space homomorphism**:
 
@@ -19,7 +19,7 @@ Let $V$, $W$ be vector spaces over a field $F$. A **linear function** $f : V \to
 
 {% enddefinition %}
 
-{% definition KN %}
+{% definition 2 %}
 
 Let $V$, $W$ vector spaces over a field $F$ and $f : V \to W$ be a linear function. The **kernel** of $f$ is
 
@@ -27,7 +27,7 @@ $$ \ker f = f^{-1}[\{0\}]. $$
 
 {% enddefinition %}
 
-{% theorem TT %}
+{% proposition 1 %}
 
 Let $V$, $W$ be vector spaces over a field $F$ and $f : V \to W$. $f$ is linear if
 
@@ -35,9 +35,9 @@ $$ f(\lambda x + y) = \lambda f(x) + f(y) $$
 
 for all $x$, $y \in V$ and $\lambda \in F$.
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem OO %}
+{% proposition 2 %}
 
 Let $V$, $W$ be vector spaces. For any linear function $f : V \to W$:
 
@@ -48,21 +48,21 @@ Let $V$, $W$ be vector spaces. For any linear function $f : V \to W$:
 
    $$ f(x - y) = f(x) - f(y). $$
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem DP %}
+{% proposition 3 %}
 
 Let $V$, $W$ be vector spaces over a field $F$ and $f : V \to W$ be a linear function. For any linear dependent $S \subseteq V$, $f[S]$ is linear dependent.
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem IM %}
+{% proposition 4 %}
 
 Let $V$, $W$ be vector spaces over a field $F$ and $X \subseteq V$, $Y \subseteq W$ be subspaces. For any linear function $f : V \to W$, $f[X]$ and $f^{-1}[Y]$ are subspaces.
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem DM %}
+{% proposition 5 %}
 
 Let $V$, $W$ be vector spaces over a field $F$. For any linear function $f : V \to W$:
 
@@ -73,21 +73,21 @@ Let $V$, $W$ be vector spaces over a field $F$. For any linear function $f : V \
 
    $$ \dim V = \dim W. $$
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem HM %}
+{% proposition 6 %}
 
 For any two vector spaces $V$ and $W$, $\hom(V, W)$ is a subspace of $\fun(V, W)$.
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem ED %}
+{% proposition 7 %}
 
 For any vector space $V$, $(\endo V, \circ, +)$ is a ring.
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem IK %}
+{% proposition 8 %}
 
 Let $V$, $W$ be vector spaces over a field $F$. For any linear function $f : V \to W$:
 
@@ -96,4 +96,4 @@ Let $V$, $W$ be vector spaces over a field $F$. For any linear function $f : V \
 2. $f$ is bijective if and only if $\ker f = \\{0\\}$.
 3. If $f$ is bijective, then for any linear independent $S \subseteq V$, $f[S]$ is linear independent.
 
-{% endtheorem %}
+{% endproposition %}

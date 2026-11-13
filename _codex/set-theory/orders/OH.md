@@ -4,9 +4,9 @@ date:    2026-02-23
 updated: 2026-06-10
 ---
 
-{% definition OH %}
+{% definition 1 %}
 
-Let $(X, \lhd)$ and $(Y, \lhd')$ be two ordered sets and $f : X \to Y$ be a [function](/codex/F). $f$ is an **order [homomorphism](/codex/HOM)** if for all $a$, $b \in X$,
+Let $(X, \lhd)$ and $(Y, \lhd')$ be two [ordered](/codex/PRO) sets and $f : X \to Y$ be a [function](/codex/F). $f$ is an **order [homomorphism](/codex/HOM)** if for all $a$, $b \in X$,
 
 $$ a \lhd b \enspace\rimp\enspace f(a) \lhd' f(b). $$
 
@@ -18,7 +18,7 @@ If $\lhd$ and $\lhd'$ are total and strict, $f$ is also called **strictly increa
 
 > An *order homomorphism* is also known as an **order-preserving function**.
 
-{% definition OA %}
+{% definition 2 %}
 
 Let $(X, \lhd)$ and $(Y, \lhd')$ be two ordered sets and $f : X\to Y$ be a function. $f$ is an **order antihomomorphism** if for all $a$, $b \in X$,
 
@@ -32,17 +32,17 @@ If $\lhd$ and $\lhd'$ are total and strict, $f$ is also called **strictly decrea
 
 > An *order antihomomorphism* is also known as an **order-reversing function**.
 
-{% definition MT %}
+{% definition 3 %}
 
 A function is **monotonic** if it is increasing or decreasing; **strictly monotonic** if it is strictly increasing or strictly decreasing.
 
 {% enddefinition %}
 
-{% theorem IC %}
+{% proposition 1 %}
 
 Let $X$ and $Y$ be two totally ordered sets. If $f : X \to Y$ is a [monomorphism](/codex/HOM), then $f$ is strictly increasing.
 
-{% endtheorem %}
+{% endproposition %}
 
 ---
 

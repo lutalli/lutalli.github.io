@@ -4,23 +4,23 @@ date:    2026-02-16
 updated: 2026-09-18
 ---
 
-{% definition PA %}
+{% definition 1 %}
 
 Let $a$ and $b$ be two sets. The **pair** of $a$ and $b$ is
 
 $$ \{a, b\} = \{x : x = a \lor x = b\}. $$
 
-This is a set by [Axiom of Pairing](/codex/ZF#APA).
+This is a set by [Axiom of Pairing](/codex/ZF#AX-6).
 
 {% enddefinition %}
 
-{% theorem UO %}
+{% proposition 2 %}
 
-Pairs are *unordered*: For any sets $a$ and $b$,
+A pair is *unordered*: For any sets $a$ and $b$,
 
 $$ \{a, b\} = \{b, a\}. $$
 
-{% endtheorem %}
+{% endproposition %}
 
 ---
 

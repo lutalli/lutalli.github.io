@@ -4,71 +4,71 @@ date:    2026-02-21
 updated: 2026-08-30
 ---
 
-{% definition CP %}
+{% definition 1 %}
 
 The **composition** of two [binary relations](/codex/REL) $R$ and $S$ is the binary relation
 
 $$ S \circ R = \{(x, z) : (\exists y : x \,R\, y \,\land\, y \,S\, z) \}. $$
 
-This is a set by [Separation Schema](/codex/ZF#ASP):
+This is a set by [Separation Schema](/codex/ZF#AX-4):
 
 $$ S \circ R \subseteq \dom R \times \im S. $$
 
 {% enddefinition %}
 
-{% theorem ID %}
+{% proposition 1 %}
 
 Let $X$ and $Y$ be two sets. For any binary relation $R$ on $X$ and $Y$,
 
 $$ R \circ \id_X = \id_Y \circ R = R. $$
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem AS "Associativity" %}
+{% proposition 2 "Associativity" %}
 
 For any binary relations $R$, $S$ and $T$,
 
 $$ (R \circ S) \circ T = R \circ (S \circ T). $$
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem FC %}
+{% proposition 3 %}
 
 For any [functions](/codex/F) $f$ and $g$ on a set $X$, $f \circ g$ is also a function on $X$. In other words, $\fun(X, X)$ is [closed](/codex/OPC) under composition.
 
-{% endtheorem %}
+{% endproposition %}
 
-{% theorem RM %}
+{% proposition 4 %}
 
 For any set $X$, $\rel(X, X)$ is a [monoid](/codex/MOID) under composition with [neutral element](/codex/NEU) $\id_X$.
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof %}
 
-This is a summary of [Theorem ID](#TID) and [associativity](#TAS) of $\circ$.
+This is a summary of [Proposition 1](#PROP-1) and [associativity](#PROP-2) of $\circ$.
 
 {% endproof %}
 
-{% theorem FM %}
+{% proposition 5 %}
 
 For any set $X$, $\fun(X, X)$ is a [submonoid](/codex/SMOID) of $\rel(X, X)$ with neutral element $\id_X$.
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof %}
 
-By [Theorem ID](#TID) and [Submonoid Test](/codex/SMOID#TTT).
+By [Proposition 1](#PROP-1) and [Submonoid Test](/codex/SMOID#PROP-1).
 
 {% endproof %}
 
-{% theorem AD "Antidistributivity" %}
+{% proposition 6 "Antidistributivity" %}
 
 For any binary relations $R$ and $S$,
 
 $$ (R \circ S)^{-1} = S^{-1} \circ R^{-1}. $$
 
-{% endtheorem %}
+{% endproposition %}
 
 ---
 

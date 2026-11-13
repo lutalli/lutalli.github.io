@@ -4,13 +4,13 @@ date:    2026-03-24
 updated: 2026-06-20
 ---
 
-{% definition CB %}
+{% definition 1 %}
 
 Let $X$ be a set of cardinality $n \in \N$ and $0 \leq k \leq n$. A **$k$-combination** of $X$ is a $k$-sized subset of $X$.
 
 {% enddefinition %}
 
-{% definition CC %}
+{% definition 2 %}
 
 For any $n$, $k \in \N$ with $k \leq n$, we define
 
@@ -38,13 +38,13 @@ $$ \begin{gather*}
 
 {% enddefinition %}
 
-{% theorem FM %}
+{% proposition 1 %}
 
 For any $n$, $k \in \N$ with $k \leq n$,
 
 $$ C(n, k) = \frac{n!}{k!(n - k)!}. $$
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof @qedfix %}
 
@@ -59,11 +59,11 @@ is surjective. It is easy to see that for every $A \in \powerset_k(\llbra n \rrb
 $$ \big\lvert \varphi^{-1}[\{A\}] \big\rvert =%
    \big\lvert \bij(\llbra k \rrbra, \llbra k \rrbra) \big\rvert. $$
 
-By [PERM # Theorem BJ](/codex/PERM#TBJ),
+By [`PERM` > Proposition 2](/codex/PERM#PROP-2),
 
 $$ \big\lvert \bij(\llbra k \rrbra, \llbra k \rrbra) \big\rvert = k!. $$
 
-So by [INVF # Theorem KK](/codex/INVF#TKK),
+So by [`INVF` > Proposition 3](/codex/INVF#PROP-3),
 
 $$ P(n, k) = k! \cdot C(n, k), $$
 
@@ -73,13 +73,13 @@ $$ C(n, k) = \frac{P(n, k)}{k!} = \frac{n!}{k!(n - k)!}. $$
 
 {% endproof %}
 
-{% theorem RC %}
+{% proposition 2 %}
 
 For any $n \geq 2$ and $1 \leq k \leq n - 1$,
 
 $$ C(n, k) = C(n - 1, k) + C(n - 1, k - 1). $$
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof @qedfix %}
 
@@ -94,13 +94,13 @@ $$ T = \big\{ B \cup \{n\} : B \in \powerset_{k - 1}(\llbra n - 1\rrbra) \big\} 
 
 {% endproof %}
 
-{% theorem SY %}
+{% proposition 3 %}
 
 For any $n$, $k \in \N$ with $k \leq n$,
 
 $$ C(n, k) = C(n, n - k). $$
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof @qedfix %}
 
@@ -114,19 +114,19 @@ is bijective.
 
 {% endproof %}
 
-{% theorem SM %}
+{% proposition 4 %}
 
 For any $n \in \N$,
 
 $$ \sum_{k = 0}^n C(n, k) = 2^n. $$
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof @qedfix %}
 
 $$ \bigsqcup_{k = 0}^n \powerset_k(\llbra n \rrbra) = \powerset(\llbra n \rrbra). $$
 
-By [P # Theorem PT](/codex/P#TPT),
+By [`P` > Proposition 3](/codex/P#PROP-3),
 
 $$ \lvert \powerset(\llbra n \rrbra) \rvert = 2^n. $$
 

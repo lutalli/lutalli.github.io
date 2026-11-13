@@ -4,7 +4,7 @@ date:    2026-03-06
 updated: 2026-06-10
 ---
 
-{% definition CT %}
+{% definition 1 %}
 
 Let $\alpha$ be an [ordinal](/codex/ORD) and $\gamma$ be an [increasing](/codex/OH) $\alpha$-sequence of [ordinals](/codex/ORD). $\gamma$ is **continuous** if for every [limit ordinal](/codex/LIMO) $\beta<\alpha$,
 

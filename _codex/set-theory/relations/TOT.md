@@ -4,7 +4,7 @@ date:    2026-10-27
 updated: 2026-10-27
 ---
 
-{% definition LT %}
+{% definition 1 %}
 
 A [binary relation](/codex/REL) $\sim$ on two sets $X$ and $Y$ is **left-total** (with respect to $X$ and $Y$) if for all $x \in X$,
 
@@ -16,7 +16,7 @@ $$ \forall x \in X \, \exists y \in Y : x \sim y. $$
 
 {% enddefinition %}
 
-{% definition RT %}
+{% definition 2 %}
 
 A binary relation $\sim$ on two sets $X$ and $Y$ is **right-total** or **surjective** (with respect to $X$ and $Y$) if
 

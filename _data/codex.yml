@@ -15,7 +15,7 @@ branches:
 
       - id:    basics
         name:  "Basics"
-        slugs: [ CLS, V, ZF, AC, EMP, BLD, SUB, PAIR, U, SING, ROST, IX, DJ, DJU, SD, DMG, SYMD,
+        slugs: [ CLS, V, ZF, AC, EMP, BLD, SUB, PAIR, U, SING, ROST, ITSC, DJ, DJU, SD, DMG, SYMD,
                  P, TUP, X ]
 
       - id:    relations

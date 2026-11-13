@@ -4,7 +4,7 @@ date:    2026-03-09
 updated: 2026-06-10
 ---
 
-{% definition CD %}
+{% definition 1 %}
 
 An [ordinal](/codex/ORD) $\alpha$ is a **cardinal number** or **cardinal** if
 
@@ -14,17 +14,17 @@ The [class](/codex/CLS) of all cardinals is denoted by $\Card$.
 
 {% enddefinition %}
 
-{% definition FC %}
+{% definition 2 %}
 
 Every [natural number](/codex/FINO) is a cardinal, called a **finite cardinal**. A cardinal is **infinite** if it is not finite.
 
 {% enddefinition %}
 
-{% theorem PC %}
+{% proposition 1 %}
 
-$\Card$ is a [proper class](/codex/CLS#DPC).
+$\Card$ is a [proper class](/codex/CLS#DEF-3).
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof %}
 
@@ -32,15 +32,15 @@ Show that $\Ord \subseteq \bigcup \Card$.
 
 {% endproof %}
 
-{% theorem LO %}
+{% proposition 2 %}
 
 Every infinite cardinal is a [limit ordinal](/codex/LIMO).
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof %}
 
-By [SUC # Theorem CY](/codex/SUC#TCY).
+By [`SUC` > Proposition 2](/codex/SUC#PROP-2).
 
 {% endproof %}
 

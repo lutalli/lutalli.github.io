@@ -4,7 +4,7 @@ date:    2026-03-19
 updated: 2026-06-20
 ---
 
-{% definition QQ %}
+{% definition 1 %}
 
 The **field of rational numbers** is the fraction field of $\Z$:
 
@@ -12,7 +12,7 @@ $$ \Q = \fract \Z. $$
 
 {% enddefinition %}
 
-{% definition EB %}
+{% definition 2 %}
 
 $\Z$ is embedded into $\Q$ by
 
@@ -24,7 +24,7 @@ $$ \N \subseteq \Z \subseteq \Q. $$
 
 {% enddefinition %}
 
-{% definition TO %}
+{% definition 3 %}
 
 The following defines a total order on $\Q$:
 
@@ -36,7 +36,7 @@ $$ (by > 0 \,\land\, ay \leq bx) \enspace\lor\enspace (by < 0 \,\land\, ay \geq 
 
 {% enddefinition %}
 
-{% definition NO %}
+{% definition 4 %}
 
 The set of **non-zero rational numbers** is
 
@@ -44,7 +44,7 @@ $$ \Q^* = \Q \setdif \{0\}. $$
 
 {% enddefinition %}
 
-{% definition PS %}
+{% definition 5 %}
 
 The set of **positive rational numbers** is
 
@@ -52,7 +52,7 @@ $$ \Q^+ = \{q \in \Q : q > 0\}. $$
 
 {% enddefinition %}
 
-{% definition NG %}
+{% definition 6 %}
 
 The set of **negative rational numbers** is
 

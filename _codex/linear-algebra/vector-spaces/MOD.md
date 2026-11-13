@@ -4,7 +4,7 @@ date:    2026-04-15
 updated: 2026-06-20
 ---
 
-{% definition MD %}
+{% definition 1 %}
 
 Let $R$ be a ring, $M$ be an abelian group and $\cdot : R \times M \to M$. $M$ is a **module** over $R$ if:
 

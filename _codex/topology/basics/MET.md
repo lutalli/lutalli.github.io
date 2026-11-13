@@ -4,7 +4,7 @@ date:    2026-04-14
 updated: 2026-06-20
 ---
 
-{% definition MT %}
+{% definition 1 %}
 
 Let $X$ be a non-empty set. A function $d : X \times X \to \R$ is a **metric** on $X$ if:
 
@@ -33,19 +33,19 @@ $(X, d)$ is then called a **metric space**.
 
 {% endexamples %}
 
-{% definition SB %}
+{% definition 2 %}
 
 Let $(X, d)$ be a metric space and $Y \subseteq X$. Then $d \restriction_Y$ is a metric on $Y$, called an **induced metric**, and $(Y, d \restriction_Y)$ is called a **metric subspace** of $X$.
 
 {% enddefinition %}
 
-{% theorem PS "Positivity" %}
+{% proposition 1 "Positivity" %}
 
 Let $(X, d)$ be a metric space. For all $x$, $y \in X$:
 
 $$ x \neq y \enspace\rimp\enspace d(x, y) > 0. $$
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof %}
 

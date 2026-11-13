@@ -4,7 +4,7 @@ date:    2026-02-22
 updated: 2026-06-10
 ---
 
-{% definition SP %}
+{% definition 1 %}
 
 Let $X$ be a [partially ordered](/codex/PO) set and $A \subseteq X$.
 
@@ -18,7 +18,7 @@ Let $X$ be a [partially ordered](/codex/PO) set and $A \subseteq X$.
 
 {% enddefinition %}
 
-{% theorem TT %}
+{% proposition 1 %}
 
 Let $X$ be a partially ordered set and $A \subseteq X$. If $\sup A$ exists, the following statements are equivalent:
 
@@ -38,7 +38,7 @@ If $\inf A$ exists, the following statements are equivalent:
 
 3. <p style="text-align: center">$\min A$ exists.</p>
 
-{% endtheorem %}
+{% endproposition %}
 
 ---
 

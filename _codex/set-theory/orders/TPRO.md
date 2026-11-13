@@ -4,9 +4,9 @@ date:    2026-04-18
 updated: 2026-06-10
 ---
 
-{% definition TP %}
+{% definition 1 %}
 
-A **total preorder** is a [strongly connected](/codex/CON#DSC) [preorder](/codex/PRO), i.e. a [binary relation](/codex/REL) $\leq$ on a set $X$ such that:
+A **total preorder** is a [strongly connected](/codex/CON#DEF-2) [preorder](/codex/PRO), i.e. a [binary relation](/codex/REL) $\leq$ on a set $X$ such that:
 
 {:.par-upper-roman}
 1. (*Reflexivity*) For all $x \in X$,

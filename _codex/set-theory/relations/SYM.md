@@ -4,7 +4,7 @@ date:    2026-10-27
 updated: 2026-10-27
 ---
 
-{% definition SY %}
+{% definition 1 %}
 
 A [binary relation](/codex/REL) $\sim$ on a set $X$ is **symmetric** if for all $x$, $y \in X$,
 
@@ -12,7 +12,7 @@ $$ x \sim y \,\rimp\, y \sim x. $$
 
 {% enddefinition %}
 
-{% definition AS %}
+{% definition 2 %}
 
 A binary relation $\sim$ on a set $X$ is **asymmetric** if for all $x$, $y \in X$,
 
@@ -20,7 +20,7 @@ $$ x \sim y \,\rimp\, y \not\sim x. $$
 
 {% enddefinition %}
 
-{% definition AT %}
+{% definition 3 %}
 
 A binary relation $\sim$ on a set $X$ is **antisymmetric** if for all $x$, $y \in X$,
 
@@ -28,11 +28,11 @@ $$ (x \sim y \,\land\, y \sim x) \,\rimp\, x = y. $$
 
 {% enddefinition %}
 
-{% theorem AI %}
+{% proposition 1 %}
 
-A relation is asymmetric if and only if it is antisymmetric and [irreflexive](/codex/REF#DIR).
+A relation is asymmetric if and only if it is antisymmetric and [irreflexive](/codex/REF#DEF-2).
 
-{% endtheorem %}
+{% endproposition %}
 
 {% proof %}
 

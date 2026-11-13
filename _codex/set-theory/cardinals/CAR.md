@@ -4,7 +4,7 @@ date:    2026-03-25
 updated: 2026-07-10
 ---
 
-{% definition AD %}
+{% definition 1 %}
 
 The **sum** of two [cardinals](/codex/CARD) $\kappa$ and $\lambda$ is
 
@@ -12,17 +12,17 @@ $$ \kappa + \lambda = \lvert (\kappa \times \{0\}) \cup (\lambda \times \{1\}) \
 
 {% enddefinition %}
 
-{% theorem AD %}
+{% proposition 1 %}
 
 For any two [disjoint](/codex/DJ) sets $X$ and $Y$,
 
 $$ \lvert X \rvert + \lvert Y \rvert = \lvert X \sqcup Y \rvert. $$
 
-{% endtheorem %}
+{% endproposition %}
 
 ---
 
-{% definition MP %}
+{% definition 2 %}
 
 The **product** of two cardinals $\kappa$ and $\lambda$ is
 
@@ -30,17 +30,17 @@ $$ \kappa \cdot \lambda = \lvert \kappa \times \lambda \rvert. $$
 
 {% enddefinition %}
 
-{% theorem MP %}
+{% proposition 2 %}
 
 For any two sets $X$ and $Y$,
 
 $$ \lvert X \rvert \cdot \lvert Y \rvert = \lvert X \times Y \rvert. $$
 
-{% endtheorem %}
+{% endproposition %}
 
 ---
 
-{% definition EP %}
+{% definition 3 %}
 
 The **exponentiation** of a cardinal $\kappa$ to the power of another cardinal $\lambda$ is
 
@@ -48,13 +48,13 @@ $$ \kappa^\lambda = \lvert \fun(\lambda, \kappa) \rvert. $$
 
 {% enddefinition %}
 
-{% theorem EP %}
+{% proposition 3 %}
 
 For any two sets $X$ and $Y$,
 
 $$ \lvert X \rvert^{\lvert Y \rvert} = \lvert \fun(Y, X) \rvert. $$
 
-{% endtheorem %}
+{% endproposition %}
 
 ---
 

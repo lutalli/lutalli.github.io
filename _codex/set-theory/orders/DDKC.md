@@ -4,7 +4,7 @@ date:    2026-03-19
 updated: 2026-06-10
 ---
 
-{% definition DC %}
+{% definition 1 %}
 
 A [partially ordered](/codex/PO) set $X$ is **Dedekind-complete** if every non-empty subset of $X$ that is [bounded from above](/codex/BND) has a [supremum](/codex/SUP).
 
