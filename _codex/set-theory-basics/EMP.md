@@ -1,7 +1,7 @@
 ---
 title:   Empty Set
 date:    2026-02-24
-updated: 2026-10-22
+updated: 2026-11-14
 ---
 
 {% definition 1 %}
@@ -12,7 +12,7 @@ $$ \forall x : x \notin \empt. $$
 
 The existence of $\empt$ is justified by [Axiom of Empty Set](/x/ZF#A3), [Axiom of Existence](/x/ZF#A1) or [Axiom of Infinity](/x/ZF#A10). Its uniqueness is justified by [Axiom of Extensionality](/x/ZF#A2).
 
-A set $A$ is **non-empty** if $A \neq \empt$, i.e.
+A set $A$ is **non-empty** or **inhabited** if $A \neq \empt$, i.e.
 
 $$ \exists x : x \in A. $$
 
@@ -32,3 +32,11 @@ $$ \exists x : x \in A. $$
 
 [2]
 : {% ref_import key="Jech" pages="8" %}
+
+[3]
+: {% ref_web
+      author="nLab authors"
+      title="inhabited set"
+      platform="nLab"
+      url="https://ncatlab.org/nlab/revision/inhabited+set/38"
+  %}

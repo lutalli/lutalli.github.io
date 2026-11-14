@@ -57,8 +57,7 @@ $$ A \underset{f}{\simeq} B. $$
 [2]
 : {% ref_web
       author="nLab authors"
-      title="Homomorphism"
+      title="homomorphism"
       platform="nLab"
       url="https://ncatlab.org/nlab/revision/homomorphism/28"
-      date="2026-09-14"
   %}

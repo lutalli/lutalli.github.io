@@ -1,7 +1,7 @@
 ---
 title:   Inductive Set
 date:    2026-03-05
-updated: 2026-06-10
+updated: 2026-11-15
 ---
 
 {% definition 1 %}
@@ -9,6 +9,8 @@ updated: 2026-06-10
 A set $X$ is **inductive** if
 
 $$ \forall x \in X : x \cup \{x\} \in X. $$
+
+$X$ is **$r$-inductive** if $X$ is inductive and $r \in X$.
 
 {% enddefinition %}
 
