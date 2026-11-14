@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-A **well-order** on a set $W$ is a [total order](/codex/TO) such that every non-empty subset of $W$ has a [least](/codex/GR) element.
+A **well-order** on a set $W$ is a [total order](/x/TO) such that every non-empty subset of $W$ has a [least](/x/GR) element.
 
 {% enddefinition %}
 
@@ -24,7 +24,7 @@ $\leq$ is a well-order if and only if $<$ is a strict well-order.
 
 {% theorem 2 %}
 
-If $W$ is a well-ordered set and $f : W \to W$ is [strictly increasing](/codex/OH), then $x \leq f(x)$ for every $x \in W$.
+If $W$ is a well-ordered set and $f : W \to W$ is [strictly increasing](/x/OH), then $x \leq f(x)$ for every $x \in W$.
 
 {% endtheorem %}
 
@@ -40,19 +40,19 @@ a contradiction.
 
 {% theorem 3 %}
 
-The only [automorphism](/codex/HOM) on a well-ordered set $W$ is the [identity](/codex/ID) $\id_W$.
+The only [automorphism](/x/HOM) on a well-ordered set $W$ is the [identity](/x/ID) $\id_W$.
 
 {% endtheorem %}
 
 {% proof %}
 
-Let $f$ be an automorphism $W$. By [OH # Theorem 1](/codex/OH#T1), both $f$ and $f^{-1}$ are strictly increasing. By [Theorem 2](#T2), $x \leq f(x)$ and $x \leq f^{-1}(x)$ for every $x \in W$, which follows that $x \leq f(x)$ and $f(x) \leq x$ for every $x \in W$.
+Let $f$ be an automorphism $W$. By [OH # Theorem 1](/x/OH#T1), both $f$ and $f^{-1}$ are strictly increasing. By [Theorem 2](#T2), $x \leq f(x)$ and $x \leq f^{-1}(x)$ for every $x \in W$, which follows that $x \leq f(x)$ and $f(x) \leq x$ for every $x \in W$.
 
 {% endproof %}
 
 {% theorem 4 %}
 
-If two well-ordered sets $W$ and $W'$ are [isomorphic](/codex/HOM#D2), then the isomorphism is unique.
+If two well-ordered sets $W$ and $W'$ are [isomorphic](/x/HOM#D2), then the isomorphism is unique.
 
 {% endtheorem %}
 

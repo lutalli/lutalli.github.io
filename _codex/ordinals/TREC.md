@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% theorem 1 "Transfinite Recursion" %}
 
-For any [function](/codex/F) $G$ on $\V$, there is a unique function $F$ on $\Ord$ such that for all $\alpha \in \Ord$,
+For any [function](/x/F) $G$ on $\V$, there is a unique function $F$ on $\Ord$ such that for all $\alpha \in \Ord$,
 
 $$ F(\alpha) = G(F \restriction_\alpha). $$
 

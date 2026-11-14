@@ -6,11 +6,11 @@ updated: 2026-09-20
 
 {% definition 1 %}
 
-Let $R$ be a [binary relation](/codex/REL). The **inverse** of $R$ is the relation
+Let $R$ be a [binary relation](/x/REL). The **inverse** of $R$ is the relation
 
 $$ R^{-1} = \{(y, x) : (x, y) \in R\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#A4):
+This is a set by [Separation Schema](/x/ZF#A4):
 
 $$ R^{-1} \subseteq \im R \times \dom R. $$
 

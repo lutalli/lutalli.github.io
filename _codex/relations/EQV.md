@@ -6,7 +6,7 @@ updated: 2026-10-30
 
 {% definition 1 %}
 
-A [binary relation](/codex/REL) $\sim$ on a set $X$ is an **equivalence relation** if it is [reflexive](/codex/REF#D1), [symmetric](/codex/SYM#D1) and [transitive](/codex/TRA#D1):
+A [binary relation](/x/REL) $\sim$ on a set $X$ is an **equivalence relation** if it is [reflexive](/x/REF#D1), [symmetric](/x/SYM#D1) and [transitive](/x/TRA#D1):
 
 {:.par-upper-roman}
 1. (*Reflexivitiy*) For all $x\in X$,
@@ -39,7 +39,7 @@ Let $\sim$ be an equivalence relation on a set $X$. The **quotient set** of $X$ 
 
 $$ X / {\sim} \enspace=\enspace \{[x] : x \in X\}, $$
 
-which is a [partition](/codex/DJU) of $X$.
+which is a [partition](/x/DJU) of $X$.
 
 {% enddefinition %}
 

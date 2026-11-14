@@ -10,7 +10,7 @@ The **union** of a set $X$ is
 
 $$ \bigcup X = \{x : (\exists Y \in X : x \in Y)\}. $$
 
-This is a set by [Axiom of Union](/codex/ZF#A7).
+This is a set by [Axiom of Union](/x/ZF#A7).
 
 For any sets $A$, $B$, $C$, $D$, etc., we write
 
@@ -63,7 +63,7 @@ $$ (X \cup Y) \cup Z = X \cup (Y \cup Z). $$
 
 {% theorem 6 %}
 
-For any set $X$, $(\powerset(X), \cup)$ is an [abelian](/codex/MAG#D2) [monoid](/codex/MOID) with [neutral element](/codex/NEU) $\empt$.
+For any set $X$, $(\powerset(X), \cup)$ is an [abelian](/x/MAG#D2) [monoid](/x/MOID) with [neutral element](/x/NEU) $\empt$.
 
 {% endtheorem %}
 

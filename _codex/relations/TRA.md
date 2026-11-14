@@ -6,7 +6,7 @@ updated: 2026-10-30
 
 {% definition 1 %}
 
-A [binary relation](/codex/REL) $\sim$ on a set $X$ is **transitive** if for all $x$, $y$, $z \in X$,
+A [binary relation](/x/REL) $\sim$ on a set $X$ is **transitive** if for all $x$, $y$, $z \in X$,
 
 $$ (x \sim y \,\land\, y \sim z) \,\rimp\, x \sim z. $$
 
@@ -24,7 +24,7 @@ $$ (x \sim y \,\land\, y \sim z) \,\rimp\, x \not\sim z. $$
 
 {% theorem 1 %}
 
-A transitive relation is [asymmetric](/codex/SYM#D2) if and only if it is [irreflexive](/codex/REF#D2).
+A transitive relation is [asymmetric](/x/SYM#D2) if and only if it is [irreflexive](/x/REF#D2).
 
 {% endtheorem %}
 

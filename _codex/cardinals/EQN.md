@@ -12,13 +12,13 @@ Let $X$ and $Y$ be two sets.
 
   $$ X \equ Y, $$
 
-  if there exists a [bijection](/codex/BIJ) from $X$ onto $Y$.
+  if there exists a [bijection](/x/BIJ) from $X$ onto $Y$.
 
 - $X$ is **not a greater set** than $Y$, written
 
   $$ X \lequ Y, $$
 
-  if there exists an [injection](/codex/INJ) from $X$ to $Y$.
+  if there exists an [injection](/x/INJ) from $X$ to $Y$.
 
 - $X$ is a **smaller set** than $Y$, written
 
@@ -54,7 +54,7 @@ $$ X \equ Y \,\land\, Y \equ Z \enspace\rimp\enspace X \equ Z. $$
 
 {% theorem 4 %}
 
-$\equ$ is an [equivalence relation](/codex/EQV).
+$\equ$ is an [equivalence relation](/x/EQV).
 
 {% endtheorem %}
 

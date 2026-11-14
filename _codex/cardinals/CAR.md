@@ -6,7 +6,7 @@ updated: 2026-07-10
 
 {% definition 1 %}
 
-The **sum** of two [cardinals](/codex/CARD) $\kappa$ and $\lambda$ is
+The **sum** of two [cardinals](/x/CARD) $\kappa$ and $\lambda$ is
 
 $$ \kappa + \lambda = \lvert (\kappa \times \{0\}) \cup (\lambda \times \{1\}) \rvert. $$
 
@@ -14,7 +14,7 @@ $$ \kappa + \lambda = \lvert (\kappa \times \{0\}) \cup (\lambda \times \{1\}) \
 
 {% theorem 1 %}
 
-For any two [disjoint](/codex/DJ) sets $X$ and $Y$,
+For any two [disjoint](/x/DJ) sets $X$ and $Y$,
 
 $$ \lvert X \rvert + \lvert Y \rvert = \lvert X \sqcup Y \rvert. $$
 

@@ -6,23 +6,23 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-An [ordinal](/codex/ORD) $\alpha$ is a **cardinal number** or **cardinal** if
+An [ordinal](/x/ORD) $\alpha$ is a **cardinal number** or **cardinal** if
 
 $$ \forall \beta < \alpha : \beta \lnequ \alpha. $$
 
-The [class](/codex/CLS) of all cardinals is denoted by $\Card$.
+The [class](/x/CLS) of all cardinals is denoted by $\Card$.
 
 {% enddefinition %}
 
 {% definition 2 %}
 
-Every [natural number](/codex/FINO) is a cardinal, called a **finite cardinal**. A cardinal is **infinite** if it is not finite.
+Every [natural number](/x/FINO) is a cardinal, called a **finite cardinal**. A cardinal is **infinite** if it is not finite.
 
 {% enddefinition %}
 
 {% theorem 1 %}
 
-$\Card$ is a [proper class](/codex/CLS#D3).
+$\Card$ is a [proper class](/x/CLS#D3).
 
 {% endtheorem %}
 
@@ -34,13 +34,13 @@ Show that $\Ord \subseteq \bigcup \Card$.
 
 {% theorem 2 %}
 
-Every infinite cardinal is a [limit ordinal](/codex/LIMO).
+Every infinite cardinal is a [limit ordinal](/x/LIMO).
 
 {% endtheorem %}
 
 {% proof %}
 
-By [SUC # Theorem 2](/codex/SUC#T2).
+By [SUC # Theorem 2](/x/SUC#T2).
 
 {% endproof %}
 

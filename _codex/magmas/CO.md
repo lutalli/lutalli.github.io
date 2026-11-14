@@ -6,7 +6,7 @@ updated: 2026-06-11
 
 {% definition 1 %}
 
-Let $M$ be a [magma](/codex/MAG), $A$ be a [submagma](/codex/SMAG) and $m \in M$.
+Let $M$ be a [magma](/x/MAG), $A$ be a [submagma](/x/SMAG) and $m \in M$.
 
 - The **left coset** of $A$ by $m$ is
 
@@ -28,7 +28,7 @@ Let $M$ be a [magma](/codex/MAG), $A$ be a [submagma](/codex/SMAG) and $m \in M$
 
 {% theorem 1 %}
 
-Let $M$ be a magma and $A$ be a submagma. If $M$ is [abelian](/codex/MAG#D2):
+Let $M$ be a magma and $A$ be a submagma. If $M$ is [abelian](/x/MAG#D2):
 
 {:.par-upper-roman}
 1. For any $m \in M$,

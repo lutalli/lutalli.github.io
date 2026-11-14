@@ -6,7 +6,7 @@ updated: 2026-06-20
 
 {% definition 1 %}
 
-Let $V$ be a vector space. If we assume $\AC$, $V$ has a basis by [BAS # Theorem 3](/codex/BAS#T3). By [BAS # Theorem 5](/codex/BAS#T5), all bases of $V$ have the same length. This length is called the **dimension** of $V$, denoted by $\dim V$.
+Let $V$ be a vector space. If we assume $\AC$, $V$ has a basis by [BAS # Theorem 3](/x/BAS#T3). By [BAS # Theorem 5](/x/BAS#T5), all bases of $V$ have the same length. This length is called the **dimension** of $V$, denoted by $\dim V$.
 
 $V$ is **finite-dimensional** if $\dim V$ is finite; **infinite-dimensional** if $\dim V$ is infinite.
 

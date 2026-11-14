@@ -8,9 +8,9 @@ updated: 2026-07-09
 
 Let $X$ be a set.
 
-- $X$ is **countable** if there is an [injection](/codex/INJ) from $X$ to $\N$.
+- $X$ is **countable** if there is an [injection](/x/INJ) from $X$ to $\N$.
 
-- $X$ is **countably infinite** if there is a [bijection](/codex/BIJ) from $X$ to $\N$.
+- $X$ is **countably infinite** if there is a [bijection](/x/BIJ) from $X$ to $\N$.
 
 - $X$ is **uncountable** if it is not countable.
 

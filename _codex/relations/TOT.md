@@ -6,7 +6,7 @@ updated: 2026-10-27
 
 {% definition 1 %}
 
-A [binary relation](/codex/REL) $\sim$ on two sets $X$ and $Y$ is **left-total** (with respect to $X$ and $Y$) if for all $x \in X$,
+A [binary relation](/x/REL) $\sim$ on two sets $X$ and $Y$ is **left-total** (with respect to $X$ and $Y$) if for all $x \in X$,
 
 $$ \dom{\sim} = X. $$
 

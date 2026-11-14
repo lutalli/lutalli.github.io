@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-If we assume $\AC$, every set $X$ can be [well-ordered](/codex/WO) (by [Well-Ordering Theorem](/codex/WO#T7)). Then there is at least one [ordinal](/codex/ORD) [equinumerous](/codex/EQN) to $X$. We define the **cardinality** of $X$ as the [least](/codex/MAX) such ordinal:
+If we assume $\AC$, every set $X$ can be [well-ordered](/x/WO) (by [Well-Ordering Theorem](/x/WO#T7)). Then there is at least one [ordinal](/x/ORD) [equinumerous](/x/EQN) to $X$. We define the **cardinality** of $X$ as the [least](/x/MAX) such ordinal:
 
 $$ \lvert X \rvert = \min \{\alpha \in \Ord : X \equ \alpha\}. $$
 

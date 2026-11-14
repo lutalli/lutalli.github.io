@@ -6,7 +6,7 @@ updated: 2026-06-11
 
 {% definition 1 %}
 
-A **monoid** is a [unital](/codex/NEU#D1) [semigroup](/codex/SEMG), i.e. a [magma](/codex/MAG) $M$ such that:
+A **monoid** is a [unital](/x/NEU#D1) [semigroup](/x/SEMG), i.e. a [magma](/x/MAG) $M$ such that:
 
 1. (*Associativity*) For all $a$, $b$, $c\in M$,
 
@@ -16,13 +16,13 @@ A **monoid** is a [unital](/codex/NEU#D1) [semigroup](/codex/SEMG), i.e. a [magm
 
    $$ ae = ea = a. $$
 
-   ($e$ is automatically unique by [NEU # Theorem 1](/codex/NEU#T1).)
+   ($e$ is automatically unique by [NEU # Theorem 1](/x/NEU#T1).)
 
 {% enddefinition %}
 
 {% theorem 1 %}
 
-Let $M$ be a monoid and $a \in M$. $a$ is [left-invertible](/codex/INV) if and only if $a$ is right-invertible.
+Let $M$ be a monoid and $a \in M$. $a$ is [left-invertible](/x/INV) if and only if $a$ is right-invertible.
 
 {% endtheorem %}
 

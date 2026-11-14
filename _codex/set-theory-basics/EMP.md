@@ -10,7 +10,7 @@ The **empty set** $\empt$ is the unique set such that
 
 $$ \forall x : x \notin \empt. $$
 
-The existence of $\empt$ is justified by [Axiom of Empty Set](/codex/ZF#A3), [Axiom of Existence](/codex/ZF#A1) or [Axiom of Infinity](/codex/ZF#A10). Its uniqueness is justified by [Axiom of Extensionality](/codex/ZF#A2).
+The existence of $\empt$ is justified by [Axiom of Empty Set](/x/ZF#A3), [Axiom of Existence](/x/ZF#A1) or [Axiom of Infinity](/x/ZF#A10). Its uniqueness is justified by [Axiom of Extensionality](/x/ZF#A2).
 
 A set $A$ is **non-empty** if $A \neq \empt$, i.e.
 

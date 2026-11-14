@@ -6,7 +6,7 @@ updated: 2026-06-04
 
 {% definition 1 %}
 
-The **universal class** is the [class](/codex/CLS) of all sets:
+The **universal class** is the [class](/x/CLS) of all sets:
 
 $$ \V = \{x : x = x\}. $$
 
@@ -14,13 +14,13 @@ $$ \V = \{x : x = x\}. $$
 
 {% theorem 1 %}
 
-$\V$ is a [proper class](/codex/CLS#D3).
+$\V$ is a [proper class](/x/CLS#D3).
 
 {% endtheorem %}
 
 {% proof %}
 
-Since $\V = \V$, it follows that $\V \in \V$, contrary to [irreflexivity of $\in$](/codex/ZF#T1).
+Since $\V = \V$, it follows that $\V \in \V$, contrary to [irreflexivity of $\in$](/x/ZF#T1).
 
 {% endproof %}
 

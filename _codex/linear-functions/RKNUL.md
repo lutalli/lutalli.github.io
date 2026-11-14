@@ -16,7 +16,7 @@ As a corollary:
 
 {% theorem 2 %}
 
-Let $V$, $W$ be vector spaces over a field $F$, $f : V \to W$ be a linear function and $w \in W$. By [LF # Theorem 4](/codex/LF#T4), $f^{-1}[\\{w\\}]$ is a subspace. We have
+Let $V$, $W$ be vector spaces over a field $F$, $f : V \to W$ be a linear function and $w \in W$. By [LF # Theorem 4](/x/LF#T4), $f^{-1}[\\{w\\}]$ is a subspace. We have
 
 $$ \rank f + \dim f^{-1}[\{w\}] = \dim V. $$
 

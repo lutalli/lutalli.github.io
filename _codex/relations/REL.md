@@ -6,7 +6,7 @@ updated: 2026-10-22
 
 {% definition 1 %}
 
-A **relation** on sets $X_1$, $\cdots$, $X_n$ ($n \geq 1$) is a subset of the [Cartesian product](/codex/X) $X_1 \times \cdots \times X_n$; in this context it is an **$n$-ary relation**.
+A **relation** on sets $X_1$, $\cdots$, $X_n$ ($n \geq 1$) is a subset of the [Cartesian product](/x/X) $X_1 \times \cdots \times X_n$; in this context it is an **$n$-ary relation**.
 
 The set of all relations on $X_1$, $\cdots$, $X_n$ is denoted by
 
@@ -44,7 +44,7 @@ The **domain** of a binary relation $R$ is
 
 $$ \dom R = \left\{ x : (\exists y : x \,R\, y) \right\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#A4) (recall Kuratowski's [definition](/codex/TUP) of tuples):
+This is a set by [Separation Schema](/x/ZF#A4) (recall Kuratowski's [definition](/x/TUP) of tuples):
 
 $$ \dom R \subseteq \bigcup \bigcup R. $$
 
@@ -56,7 +56,7 @@ The **image** of a binary relation $R$ is
 
 $$ \im R = \left\{ y : (\exists x : x \,R\, y) \right\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#A4) (recall Kuratowski's definition of tuples):
+This is a set by [Separation Schema](/x/ZF#A4) (recall Kuratowski's definition of tuples):
 
 $$ \im R \subseteq \bigcup \bigcup R. $$
 

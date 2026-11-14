@@ -6,11 +6,11 @@ updated: 2026-09-30
 
 {% definition 1 %}
 
-Let $R$ be a [binary relation](/codex/REL). The **image** of a set $A$ under $R$ is
+Let $R$ be a [binary relation](/x/REL). The **image** of a set $A$ under $R$ is
 
 $$ R[A] = \{y : (\exists x \in A : x \,R\, y)\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#A4):
+This is a set by [Separation Schema](/x/ZF#A4):
 
 $$ R[A] \subseteq \im R. $$
 
@@ -18,7 +18,7 @@ $$ R[A] \subseteq \im R. $$
 
 {% definition 2 %}
 
-Let $R$ be a binary relation. The **preimage** of a set $B$ under $R$ is $R^{-1}[B]$, the image of $B$ under the [inverse relation](/codex/INVR) $R^{-1}$.
+Let $R$ be a binary relation. The **preimage** of a set $B$ under $R$ is $R^{-1}[B]$, the image of $B$ under the [inverse relation](/x/INVR) $R^{-1}$.
 
 {% enddefinition %}
 

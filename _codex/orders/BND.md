@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-Let $X$ be a [preordered](/codex/PRO) set, $A \subseteq X$ and $a \in X$.
+Let $X$ be a [preordered](/x/PRO) set, $A \subseteq X$ and $a \in X$.
 
 - $a$ is an **upper bound** of $A$ if
 
@@ -30,7 +30,7 @@ Let $X$ be a [preordered](/codex/PRO) set, $A \subseteq X$ and $a \in X$.
 
 {% theorem 1 @newline %}
 
-- Any [greatest](/codex/GR) element is an upper bound.
+- Any [greatest](/x/GR) element is an upper bound.
 - Any least element is a lower bound.
 
 {% endtheorem %}

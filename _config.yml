@@ -12,7 +12,7 @@ excerpt_separator: "\n\n~~~"
 collections:
   codex:
     output: true
-    permalink: /codex/:title
+    permalink: /x/:title
 
 defaults:
   - values:

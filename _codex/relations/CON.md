@@ -6,7 +6,7 @@ updated: 2026-10-30
 
 {% definition 1 %}
 
-A [binary relation](/codex/REL) $\sim$ on a set $X$ is **connected** if for all $x$, $y \in X$,
+A [binary relation](/x/REL) $\sim$ on a set $X$ is **connected** if for all $x$, $y \in X$,
 
 $$ (x \neq y) \,\rimp\, (x \sim y \,\lor\, y \sim x). $$
 
@@ -22,7 +22,7 @@ $$ x \sim y \,\lor\, y \sim x. $$
 
 {% theorem 1 %}
 
-A binary relation is strongly connected if and only if it is connected and [reflexive](/codex/REF#D1).
+A binary relation is strongly connected if and only if it is connected and [reflexive](/x/REF#D1).
 
 {% endtheorem %}
 

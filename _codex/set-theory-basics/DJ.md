@@ -42,11 +42,11 @@ $\empt$ is the only set disjoint to every other set.
 
 {% proof %}
 
-$\empt$ is disjoint to every set by [ITSC # Theorem 1](/codex/ITSC#T1). If a set $X$ is non-empty,
+$\empt$ is disjoint to every set by [ITSC # Theorem 1](/x/ITSC#T1). If a set $X$ is non-empty,
 
 $$ Y = X \cup \{X\} $$
 
-is always joint to $X$. By [irreflexivity of $\in$](/codex/ZF#T1), $X \neq Y$.
+is always joint to $X$. By [irreflexivity of $\in$](/x/ZF#T1), $X \neq Y$.
 
 {% endproof %}
 

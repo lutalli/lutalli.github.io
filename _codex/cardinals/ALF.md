@@ -6,16 +6,16 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-**Alpeh numbers** or **alephs** are defined using [Transfinite Recursion](/codex/TREC):
+**Alpeh numbers** or **alephs** are defined using [Transfinite Recursion](/x/TREC):
 
 {:.par-upper-roman}
 1. $$ \aleph_0 = \omega. $$
 
-2. For all [ordinals](/codex/ORD) $\alpha$,
+2. For all [ordinals](/x/ORD) $\alpha$,
 
    $$ \aleph_{\alpha + 1} = \aleph_\alpha^+. $$
 
-3. For [limit ordinals](/codex/LIMO) $\alpha$,
+3. For [limit ordinals](/x/LIMO) $\alpha$,
 
    $$ \aleph_\alpha = \sup\{\aleph_\beta : \beta < \alpha\}. $$
 
@@ -33,7 +33,7 @@ $\aleph_\alpha$ is used when we treat it as an aleph, $\omega_\alpha$ when we tr
 
 {% theorem 1 %}
 
-Any [infinite](/codex/FIN) set $X$ is [well-orderable](/codex/WO) if and only if $\lvert X \rvert$ is an aleph.
+Any [infinite](/x/FIN) set $X$ is [well-orderable](/x/WO) if and only if $\lvert X \rvert$ is an aleph.
 
 {% endtheorem %}
 

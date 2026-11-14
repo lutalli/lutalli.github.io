@@ -6,7 +6,7 @@ updated: 2026-09-18
 
 {% definition 1 %}
 
-If a set $X$ is [disjoint](/codex/DJ), the [union](/codex/U) of $X$ is called a **disjoint union**. The notation
+If a set $X$ is [disjoint](/x/DJ), the [union](/x/U) of $X$ is called a **disjoint union**. The notation
 
 $$ A = \bigsqcup X $$
 
@@ -24,7 +24,7 @@ $$ X_1 \sqcup \cdots \sqcup X_n = \bigsqcup \{X_1, \cdots, X_n\}. $$
 
 {% theorem 1 %}
 
-For any [finite](/codex/FIN) disjoint set $X$,
+For any [finite](/x/FIN) disjoint set $X$,
 
 $$ \Big\lvert \bigsqcup X \Big\rvert = \sum_{A \in X} \lvert A \rvert. $$
 
@@ -32,7 +32,7 @@ $$ \Big\lvert \bigsqcup X \Big\rvert = \sum_{A \in X} \lvert A \rvert. $$
 
 {% proof %}
 
-By [CAR # Theorem 1](/codex/CAR#T1).
+By [CAR # Theorem 1](/x/CAR#T1).
 
 {% endproof %}
 

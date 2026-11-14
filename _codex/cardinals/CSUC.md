@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% theorem 1 %}
 
-For every [ordinal](/codex/ORD) $\alpha$ there is a [cardinal](/codex/CARD) greater than $\alpha$.
+For every [ordinal](/x/ORD) $\alpha$ there is a [cardinal](/x/CARD) greater than $\alpha$.
 
 {% endtheorem %}
 

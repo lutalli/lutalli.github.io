@@ -59,11 +59,11 @@ is surjective. It is easy to see that for every $A \in \powerset_k(\llbra n \rrb
 $$ \big\lvert \varphi^{-1}[\{A\}] \big\rvert =%
    \big\lvert \bij(\llbra k \rrbra, \llbra k \rrbra) \big\rvert. $$
 
-By [PERM # Theorem 2](/codex/PERM#T2),
+By [PERM # Theorem 2](/x/PERM#T2),
 
 $$ \big\lvert \bij(\llbra k \rrbra, \llbra k \rrbra) \big\rvert = k!. $$
 
-So by [INVF # Theorem 3](/codex/INVF#T3),
+So by [INVF # Theorem 3](/x/INVF#T3),
 
 $$ P(n, k) = k! \cdot C(n, k), $$
 
@@ -126,7 +126,7 @@ $$ \sum_{k = 0}^n C(n, k) = 2^n. $$
 
 $$ \bigsqcup_{k = 0}^n \powerset_k(\llbra n \rrbra) = \powerset(\llbra n \rrbra). $$
 
-By [P # Theorem 3](/codex/P#T3),
+By [P # Theorem 3](/x/P#T3),
 
 $$ \lvert \powerset(\llbra n \rrbra) \rvert = 2^n. $$
 

@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% theorem 1 %}
 
-Every [well-ordered](/codex/WO) set $W$ is [isomorphic](/codex/OH) to a unique [ordinal number](/codex/ORD).
+Every [well-ordered](/x/WO) set $W$ is [isomorphic](/x/OH) to a unique [ordinal number](/x/ORD).
 
 {% endtheorem %}
 

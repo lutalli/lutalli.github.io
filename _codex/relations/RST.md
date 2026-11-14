@@ -6,7 +6,7 @@ updated: 2026-09-30
 
 {% definition 1 %}
 
-Let $R$ be a [binary relation](/codex/REL).
+Let $R$ be a [binary relation](/x/REL).
 
 - The **(left-)restriction** of $R$ to a set $A$ is
 
@@ -16,7 +16,7 @@ Let $R$ be a [binary relation](/codex/REL).
 
   $$ {R \restriction^B} = \{(x, y) : x \,R\, y \,\land\, y \in B\}. $$
 
-These are sets by [Separation Schema](/codex/ZF#A4):
+These are sets by [Separation Schema](/x/ZF#A4):
 
 $$ {R \restriction_A} \subseteq R, \quad {R \restriction^B} \subseteq R. $$
 

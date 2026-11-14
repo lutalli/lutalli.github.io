@@ -10,7 +10,7 @@ Let $a$ and $b$ be two sets. The **pair** of $a$ and $b$ is
 
 $$ \{a, b\} = \{x : x = a \lor x = b\}. $$
 
-This is a set by [Axiom of Pairing](/codex/ZF#A6).
+This is a set by [Axiom of Pairing](/x/ZF#A6).
 
 {% enddefinition %}
 

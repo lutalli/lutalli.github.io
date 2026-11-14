@@ -22,7 +22,7 @@ If $e'$ is the neutral element of $H$,
 
 $$ e'e' = e' = ee', $$
 
-hence $e' = e$ by [cancellation property of group](/codex/G#T3).
+hence $e' = e$ by [cancellation property of group](/x/G#T3).
 
 {% endproof %}
 

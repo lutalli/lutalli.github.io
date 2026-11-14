@@ -6,7 +6,7 @@ updated: 2026-06-11
 
 {% definition 1 %}
 
-A **magma homomorphism** between two [magmas](/codex/MAG) $M$ and $N$ is a [function](/codex/F) $f : M \to N$ such that for all $a$, $b \in M$,
+A **magma homomorphism** between two [magmas](/x/MAG) $M$ and $N$ is a [function](/x/F) $f : M \to N$ such that for all $a$, $b \in M$,
 
 $$ f(a b) = f(a) f(b). $$
 

@@ -6,9 +6,9 @@ updated: 2026-10-01
 
 {% definition 1 %}
 
-Let $X$ be a [partially ordered](/codex/PO) set.
+Let $X$ be a [partially ordered](/x/PO) set.
 
-- If $X$ has a [greatest](/codex/GR) element, then it is unique and is called the **maximum** of $X$, denoted by
+- If $X$ has a [greatest](/x/GR) element, then it is unique and is called the **maximum** of $X$, denoted by
 
   $$ \max X. $$
 
@@ -20,7 +20,7 @@ Let $X$ be a [partially ordered](/codex/PO) set.
 
 {% proof "(uniqueness)" %}
 
-If both $a$ and $a'$ are greatest elements of $X$, $a' \leq a$ and $a \leq a'$, so $a=a'$ by [antisymmetry](/codex/PO#D1). Similarly for the minimum.
+If both $a$ and $a'$ are greatest elements of $X$, $a' \leq a$ and $a \leq a'$, so $a=a'$ by [antisymmetry](/x/PO#D1). Similarly for the minimum.
 
 {% endproof %}
 

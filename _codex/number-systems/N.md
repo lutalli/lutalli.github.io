@@ -6,13 +6,13 @@ updated: 2026-06-11
 
 {% definition 1 %}
 
-The set of **natural numbers** $\N$ is defined as the smallest $\empt$-inductive set. See [Finite Ordinal](/codex/FINO).
+The set of **natural numbers** $\N$ is defined as the smallest $\empt$-inductive set. See [Finite Ordinal](/x/FINO).
 
 {% enddefinition %}
 
 {% definition 2 %}
 
-The arithmetic on $\N$ is as defined for ordinals (see [Ordinal Arithmetic](/codex/OAR)), but without any concern for limit ordinals.
+The arithmetic on $\N$ is as defined for ordinals (see [Ordinal Arithmetic](/x/OAR)), but without any concern for limit ordinals.
 
 {% enddefinition %}
 

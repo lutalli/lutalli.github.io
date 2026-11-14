@@ -43,7 +43,7 @@ $$ (X \symdif Y) \symdif Z = X \symdif (Y \symdif Z). $$
 
 {% theorem 4 %}
 
-For any set $X$, $(\powerset(X), \symdif)$ is an [abelian](/codex/MAG#D2) [group](/codex/G) with [neutral element](/codex/NEU) $\empt$.
+For any set $X$, $(\powerset(X), \symdif)$ is an [abelian](/x/MAG#D2) [group](/x/G) with [neutral element](/x/NEU) $\empt$.
 
 {% endtheorem %}
 

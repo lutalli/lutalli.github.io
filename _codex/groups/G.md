@@ -17,7 +17,7 @@ A **group** is an invertible monoid, i.e. a magma $G$ such that:
 
    $$ ae = ea = a. $$
 
-   ($e$ is automatically unique by [NEU # Theorem 1](/codex/NEU#T1).)
+   ($e$ is automatically unique by [NEU # Theorem 1](/x/NEU#T1).)
 
 3. (*Invertibility*) For all $a \in G$, there is $x \in G$ such that
 
@@ -33,7 +33,7 @@ A monoid becomes a group as soon as it is left-invertible or right-invertible.
 
 {% proof %}
 
-By [MOID # Theorem 1](/codex/MOID#T1).
+By [MOID # Theorem 1](/x/MOID#T1).
 
 {% endproof %}
 

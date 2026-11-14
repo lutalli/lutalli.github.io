@@ -6,7 +6,7 @@ updated: 2026-06-09
 
 {% definition 1 %}
 
-A [binary relation](/codex/REL) $\sim$ on a set $X$ is **well-founded** if every non-empty subset $A \subseteq X$ has a $\sim$-minimal element, i.e. an element $a \in A$ such that
+A [binary relation](/x/REL) $\sim$ on a set $X$ is **well-founded** if every non-empty subset $A \subseteq X$ has a $\sim$-minimal element, i.e. an element $a \in A$ such that
 
 $$ \forall x \in A : x \not\sim a. $$
 

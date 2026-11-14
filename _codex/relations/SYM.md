@@ -6,7 +6,7 @@ updated: 2026-10-27
 
 {% definition 1 %}
 
-A [binary relation](/codex/REL) $\sim$ on a set $X$ is **symmetric** if for all $x$, $y \in X$,
+A [binary relation](/x/REL) $\sim$ on a set $X$ is **symmetric** if for all $x$, $y \in X$,
 
 $$ x \sim y \,\rimp\, y \sim x. $$
 
@@ -30,7 +30,7 @@ $$ (x \sim y \,\land\, y \sim x) \,\rimp\, x = y. $$
 
 {% theorem 1 %}
 
-A relation is asymmetric if and only if it is antisymmetric and [irreflexive](/codex/REF#D2).
+A relation is asymmetric if and only if it is antisymmetric and [irreflexive](/x/REF#D2).
 
 {% endtheorem %}
 

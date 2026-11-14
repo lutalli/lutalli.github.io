@@ -6,7 +6,7 @@ updated: 2026-08-08
 
 {% definition 1 %}
 
-Let $M$ be a [magma](/codex/MAG) and $a \in M$.
+Let $M$ be a [magma](/x/MAG) and $a \in M$.
 
 - $a$ is a **left-absorbing element** if for all $x \in M$,
 

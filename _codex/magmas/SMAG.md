@@ -6,6 +6,6 @@ updated: 2026-06-11
 
 {% definition 1 %}
 
-Let $(M, \*)$ be a [magma](/codex/MAG). $(N, \*)$ is a **submagma** of $(M, \*)$, written $N \leq M$, if $(N, \*)$ itself is a magma and $N \subseteq M$.
+Let $(M, \*)$ be a [magma](/x/MAG). $(N, \*)$ is a **submagma** of $(M, \*)$, written $N \leq M$, if $(N, \*)$ itself is a magma and $N \subseteq M$.
 
 {% enddefinition %}

@@ -6,7 +6,7 @@ updated: 2026-06-28
 
 {% definition 1 %}
 
-A **function** is a [binary relation](/codex/REL) that is [right-unique](/codex/UNI#D2), i.e. a binary relation $f$ such that for all $x$, $y$, $z \in \dom f$,
+A **function** is a [binary relation](/x/REL) that is [right-unique](/x/UNI#D2), i.e. a binary relation $f$ such that for all $x$, $y$, $z \in \dom f$,
 
 $$ (z, x) \in f \,\land\, (z, y) \in f \enspace\rimp\enspace x = y. $$
 
@@ -36,7 +36,7 @@ $$ (z, x) \in f \,\land\, (z, y) \in f \enspace\rimp\enspace x = y. $$
 
   $$ \fun(X, Y). $$
 
-  This is a set by [Separation Schema](/codex/ZF#A4):
+  This is a set by [Separation Schema](/x/ZF#A4):
 
   $$ \fun(X, Y) \subseteq \rel(X, Y). $$
 

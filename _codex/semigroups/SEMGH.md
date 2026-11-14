@@ -6,6 +6,6 @@ updated: 2026-06-11
 
 {% definition 1 %}
 
-A **semigroup homomorphism** is a [magma homomorphism](/codex/MAGH) between [semigroups](/codex/SEMG).
+A **semigroup homomorphism** is a [magma homomorphism](/x/MAGH) between [semigroups](/x/SEMG).
 
 {% enddefinition %}

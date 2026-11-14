@@ -6,7 +6,7 @@ updated: 2026-10-12
 
 {% definition 1 %}
 
-Let $M$ be a [unital](/codex/NEU#D1) [magma](/codex/MAG) with [neutral element](/codex/NEU) $e$. Let $a$, $x \in M$.
+Let $M$ be a [unital](/x/NEU#D1) [magma](/x/MAG) with [neutral element](/x/NEU) $e$. Let $a$, $x \in M$.
 
 - $x$ is a **left-inverse** of $a$ if
 

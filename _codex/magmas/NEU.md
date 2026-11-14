@@ -6,7 +6,7 @@ updated: 2026-10-04
 
 {% definition 1 %}
 
-Let $M$ be a [magma](/codex/MAG) and $e \in M$.
+Let $M$ be a [magma](/x/MAG) and $e \in M$.
 
 - $e$ is **left-neutral** if for all $a\in M$,
 

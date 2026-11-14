@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-An [ordinal](/codex/ORD) $\alpha > 0$ is a **limit ordinal** if it is not a [successor ordinal](/codex/SUC), i.e. there is no ordinal $\beta$ such that $\alpha = \beta + 1$.
+An [ordinal](/x/ORD) $\alpha > 0$ is a **limit ordinal** if it is not a [successor ordinal](/x/SUC), i.e. there is no ordinal $\beta$ such that $\alpha = \beta + 1$.
 
 {% enddefinition %}
 
@@ -21,9 +21,9 @@ Let $\alpha > 0$ be an ordinal. The following statements are equivalent:
 
 3. $$ \alpha = \bigcup\alpha. $$
 
-4. <p class="centered" markdown="1">$\alpha$ has no [maximum](/codex/MAX).</p>
+4. <p class="centered" markdown="1">$\alpha$ has no [maximum](/x/MAX).</p>
 
-5. <p class="centered" markdown="1">$\alpha$ is [inductive](/codex/INDS).</p>
+5. <p class="centered" markdown="1">$\alpha$ is [inductive](/x/INDS).</p>
 
 {% endtheorem %}
 

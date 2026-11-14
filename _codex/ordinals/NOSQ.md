@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-An [ordinal](/codex/ORD) [sequence](/codex/TSQ) is **normal** if it is [strictly increasing](/codex/OH) and [continuous](/codex/COSQ).
+An [ordinal](/x/ORD) [sequence](/x/TSQ) is **normal** if it is [strictly increasing](/x/OH) and [continuous](/x/COSQ).
 
 {% enddefinition %}
 

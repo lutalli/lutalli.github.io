@@ -52,7 +52,7 @@ For any ring homomorphism $f : R \to S$:
 
 {% proof %}
 
-By [GH # Theorem 1](/codex/GH#T1).
+By [GH # Theorem 1](/x/GH#T1).
 
 {% endproof %}
 
@@ -66,6 +66,6 @@ $$ \ker f = \{0\}. $$
 
 {% proof %}
 
-By [GH # Theorem 5](/codex/GH#T5).
+By [GH # Theorem 5](/x/GH#T5).
 
 {% endproof %}

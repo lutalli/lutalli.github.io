@@ -6,7 +6,7 @@ updated: 2026-07-09
 
 {% definition 1 %}
 
-A **total order** is a [strongly connected](/codex/CON#D2) [partial order](/codex/PO), i.e. a [binary relation](/codex/REL) $\leq$ on $X$ such that:
+A **total order** is a [strongly connected](/x/CON#D2) [partial order](/x/PO), i.e. a [binary relation](/x/REL) $\leq$ on $X$ such that:
 
 {:.par-upper-roman}
 1. (*Reflexivity*) For all $x \in X$,
@@ -31,7 +31,7 @@ A **total order** is a [strongly connected](/codex/CON#D2) [partial order](/code
 
 {% definition 2 %}
 
-A **strict total order** is a [connected](/codex/CON#D1) [strict partial order](/codex/PO#D2), i.e. a binary relation $<$ on $X$ such that:
+A **strict total order** is a [connected](/x/CON#D1) [strict partial order](/x/PO#D2), i.e. a binary relation $<$ on $X$ such that:
 
 {:.par-upper-roman}
 1. (*Irreflexivity*) For all $x \in X$,

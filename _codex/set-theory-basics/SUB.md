@@ -24,13 +24,13 @@ if additionally $X \neq Y$.
 
 {% theorem 1 %}
 
-$\empt$ is the only set that is a subset of every [non-empty](/codex/EMP) set.
+$\empt$ is the only set that is a subset of every [non-empty](/x/EMP) set.
 
 {% endtheorem %}
 
 {% proof %}
 
-$\empt$ is a subset of every set since no $x \in \empt$. If $X$ is a subset of every non-empty set, then $X \subseteq \\{X\\}$. Were any $a \in X$, then $a = X$, then $X \in X$, contrary to [irreflexivity of $\in$](/codex/ZF#T1).
+$\empt$ is a subset of every set since no $x \in \empt$. If $X$ is a subset of every non-empty set, then $X \subseteq \\{X\\}$. Were any $a \in X$, then $a = X$, then $X \in X$, contrary to [irreflexivity of $\in$](/x/ZF#T1).
 
 {% endproof %}
 
@@ -72,13 +72,13 @@ $$ X \subseteq Y \,\land\, Y \subseteq X \enspace\rimp\enspace X = Y. $$
 
 {% proof %}
 
-Assume $X \subseteq Y$ and $Y \subseteq X$. For any $a$, if $a \in X$, then $a \in Y$ by $X \subseteq Y$; if $a \in Y$, then $a \in X$ by $Y \subseteq X$. Hence $X = Y$ by [Axiom of Extensionality](/codex/ZF#A2).
+Assume $X \subseteq Y$ and $Y \subseteq X$. For any $a$, if $a \in X$, then $a \in Y$ by $X \subseteq Y$; if $a \in Y$, then $a \in X$ by $Y \subseteq X$. Hence $X = Y$ by [Axiom of Extensionality](/x/ZF#A2).
 
 {% endproof %}
 
 {% theorem 5 %}
 
-$\subseteq$ is a [partial order](/codex/PO).
+$\subseteq$ is a [partial order](/x/PO).
 
 {% endtheorem %}
 

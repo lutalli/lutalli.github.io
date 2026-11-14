@@ -4,7 +4,7 @@ date:    2026-03-06
 updated: 2026-06-10
 ---
 
-In the following, addition, multiplication and exponentiation of [ordinals](/codex/ORD) are defined using [Transfinite Recursion](/codex/TREC).
+In the following, addition, multiplication and exponentiation of [ordinals](/x/ORD) are defined using [Transfinite Recursion](/x/TREC).
 
 {% definition 1 %}
 
@@ -17,7 +17,7 @@ For any ordinal $\alpha$:
 
    $$ \alpha + (\beta + 1) = (\alpha + \beta) + 1. $$
 
-3. For [limit ordinals](/codex/LIMO) $\beta$,
+3. For [limit ordinals](/x/LIMO) $\beta$,
 
    $$ \alpha + \beta = \lim_{\xi \to \beta} (\alpha + \xi). $$
 
@@ -75,7 +75,7 @@ $$ (\alpha \cdot \beta) \cdot \gamma = \alpha \cdot (\beta \cdot \gamma). $$
 
 {% endtheorem %}
 
-> Neither $+$ or $\cdot$ is [commutative](/codex/OPC):
+> Neither $+$ or $\cdot$ is [commutative](/x/OPC):
 >
 > $$ 1 + \omega = \omega \neq \omega + 1, \quad%
 >    2 \cdot \omega = \omega \neq \omega \cdot 2. $$

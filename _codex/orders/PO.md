@@ -6,7 +6,7 @@ updated: 2026-06-20
 
 {% definition 1 %}
 
-A **partial order** is an [antisymmetric](/codex/SYM#D3) [preorder](/codex/PRO), i.e. a [binary relation](/codex/REL) $\leq$ on $X$ such that:
+A **partial order** is an [antisymmetric](/x/SYM#D3) [preorder](/x/PRO), i.e. a [binary relation](/x/REL) $\leq$ on $X$ such that:
 
 {:.par-upper-roman}
 1. (*Reflexivity*) For all $x \in X$,
@@ -46,7 +46,7 @@ A binary relation $<$ on $X$ is a **strict partial order** if:
 
 {% theorem 1 %}
 
-A binary relation is a strict partial order as soon as it is [irreflexive](/codex/REF#D2) and [transitive](/codex/TRA#D1).
+A binary relation is a strict partial order as soon as it is [irreflexive](/x/REF#D2) and [transitive](/x/TRA#D1).
 
 (This is why we do not talk about "strict preorder".)
 

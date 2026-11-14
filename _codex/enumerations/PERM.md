@@ -48,7 +48,7 @@ $$ P(n, k) = \frac{n!}{(n - k)!}. $$
    $$ \big\lvert \varphi^{-1}[\{g\}] \big\rvert =%
       \big\lvert \llbra n \rrbra \setdif \im g \big\rvert = n - k + 1. $$
 
-   By [INVF # Theorem 3](/codex/INVF#T3),
+   By [INVF # Theorem 3](/x/INVF#T3),
 
    $$ P(n, k) = (n - k + 1) \cdot P(n, k - 1). $$
 

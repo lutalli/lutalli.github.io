@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-An **involutory function** or **involution** is a [function](/codex/F) $f : X \to Y$ such that
+An **involutory function** or **involution** is a [function](/x/F) $f : X \to Y$ such that
 
 $$ f(f(x)) = x $$
 

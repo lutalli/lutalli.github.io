@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-Let $\alpha$ be a [limit ordinal](/codex/LIMO) and $\gamma$ be an [increasing](/codex/OH) $\alpha$-sequence of [ordinals](/codex/ORD). The **limit** of $\gamma$ is
+Let $\alpha$ be a [limit ordinal](/x/LIMO) and $\gamma$ be an [increasing](/x/OH) $\alpha$-sequence of [ordinals](/x/ORD). The **limit** of $\gamma$ is
 
 $$ \lim_{\xi \to \alpha} \gamma_\xi = \sup \{\gamma_\xi : \xi < \alpha\}. $$
 

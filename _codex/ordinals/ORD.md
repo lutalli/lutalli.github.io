@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-An **ordinal number** or **ordinal** is a [transitive](/codex/TRAN) set that is [strictly well-ordered](/codex/WO) by $\in$. The [class](/codex/CLS) of all ordinals is denoted by $\Ord$.
+An **ordinal number** or **ordinal** is a [transitive](/x/TRAN) set that is [strictly well-ordered](/x/WO) by $\in$. The [class](/x/CLS) of all ordinals is denoted by $\Ord$.
 
 {% enddefinition %}
 
@@ -18,7 +18,7 @@ An **ordinal number** or **ordinal** is a [transitive](/codex/TRAN) set that is 
 
 {% definition 2 %}
 
-For two ordinals $\alpha$ and $\beta$, we define the following [total order](/codex/TO) on $\Ord$:
+For two ordinals $\alpha$ and $\beta$, we define the following [total order](/x/TO) on $\Ord$:
 
 $$ \alpha < \beta \enspace\lrimp\enspace \alpha \in \beta. $$
 
@@ -67,7 +67,7 @@ $$ \bigcup X = \sup X. $$
 
 {% theorem 6 "Burali-Forti Paradox" %}
 
-$\Ord$ is a [proper class](/codex/CLS#D3).
+$\Ord$ is a [proper class](/x/CLS#D3).
 
 {% endtheorem %}
 

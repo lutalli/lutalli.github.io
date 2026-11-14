@@ -6,7 +6,7 @@ updated: 2026-10-01
 
 {% definition 1 %}
 
-An **injective function** or **injection** is a [function](/codex/F) $f : X \to Y$ such that
+An **injective function** or **injection** is a [function](/x/F) $f : X \to Y$ such that
 
 $$ \forall x, y \in X :\enspace f(x) = f(y) \enspace\rimp\enspace x = y. $$
 

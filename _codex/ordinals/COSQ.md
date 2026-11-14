@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-Let $\alpha$ be an [ordinal](/codex/ORD) and $\gamma$ be an [increasing](/codex/OH) $\alpha$-sequence of [ordinals](/codex/ORD). $\gamma$ is **continuous** if for every [limit ordinal](/codex/LIMO) $\beta<\alpha$,
+Let $\alpha$ be an [ordinal](/x/ORD) and $\gamma$ be an [increasing](/x/OH) $\alpha$-sequence of [ordinals](/x/ORD). $\gamma$ is **continuous** if for every [limit ordinal](/x/LIMO) $\beta<\alpha$,
 
 $$ \lim_{\xi \to \beta} \gamma_\xi = \gamma_\beta. $$
 

@@ -10,7 +10,7 @@ The **power set** of a set $X$ is
 
 $$ \powerset(X) = \{Y : Y \subseteq X\}. $$
 
-This is a set by [Axiom of Power Set](/codex/ZF#A8).
+This is a set by [Axiom of Power Set](/x/ZF#A8).
 
 {% enddefinition %}
 

@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-Let $(X, \lhd)$ and $(Y, \lhd')$ be two ordered sets and $f : X \to Y$ be a [function](/codex/F). $f$ is an **order [homomorphism](/codex/HOM)** if for all $a$, $b \in X$,
+Let $(X, \lhd)$ and $(Y, \lhd')$ be two ordered sets and $f : X \to Y$ be a [function](/x/F). $f$ is an **order [homomorphism](/x/HOM)** if for all $a$, $b \in X$,
 
 $$ a \lhd b \enspace\rimp\enspace f(a) \lhd' f(b). $$
 
@@ -40,7 +40,7 @@ A function is **monotonic** if it is increasing or decreasing; **strictly monoto
 
 {% theorem 1 %}
 
-Let $X$ and $Y$ be two totally ordered sets. If $f : X \to Y$ is a [monomorphism](/codex/HOM), then $f$ is strictly increasing.
+Let $X$ and $Y$ be two totally ordered sets. If $f : X \to Y$ is a [monomorphism](/x/HOM), then $f$ is strictly increasing.
 
 {% endtheorem %}
 

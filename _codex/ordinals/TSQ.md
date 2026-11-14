@@ -6,7 +6,7 @@ updated: 2026-07-09
 
 {% definition 1 %}
 
-A **transfinite sequence** is a [function](/codex/F) whose [domain](/codex/REL#D2) is an [ordinal](/codex/ORD). If $s : \alpha \to X$ is transfinite sequence for some ordinal $\alpha$:
+A **transfinite sequence** is a [function](/x/F) whose [domain](/x/REL#D2) is an [ordinal](/x/ORD). If $s : \alpha \to X$ is transfinite sequence for some ordinal $\alpha$:
 
 - $s$ is an **$\alpha$-sequence**.
 
@@ -32,7 +32,7 @@ $$ \langle s_n : n \in \N \rangle \quad\text{or}\quad \langle s_n \rangle_{n \in
 
 {% definition 3 %}
 
-A **finite sequence** is an $n$-sequence for some [natural number](/codex/FINO) $n$.
+A **finite sequence** is an $n$-sequence for some [natural number](/x/FINO) $n$.
 
 {% enddefinition %}
 

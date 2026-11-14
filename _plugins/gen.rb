@@ -6,7 +6,7 @@ module Jekyll
     def initialize(site, chapter_id, chapter_name)
       @site     = site
       @base     = site.source
-      @dir      = "codex"
+      @dir      = 'x'
 
       @basename = chapter_id
       @ext      = '.html'

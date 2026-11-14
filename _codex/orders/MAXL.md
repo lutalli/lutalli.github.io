@@ -6,7 +6,7 @@ updated: 2026-10-01
 
 {% definition 1 %}
 
-Let $X$ be a [preordered](/codex/PRO) set and $a \in X$.
+Let $X$ be a [preordered](/x/PRO) set and $a \in X$.
 
 - $a$ is a **maximal element** of $X$ if
 
@@ -20,7 +20,7 @@ Let $X$ be a [preordered](/codex/PRO) set and $a \in X$.
 
 {% theorem 1 %}
 
-Let $X$ be a [partially ordered](/codex/PO) set and $a \in X$.
+Let $X$ be a [partially ordered](/x/PO) set and $a \in X$.
 
 - $a$ is a maximal element of $X$ if and only if there is no other element $x\in X$ such that $a\leq x$, i.e.
 
@@ -34,7 +34,7 @@ Let $X$ be a [partially ordered](/codex/PO) set and $a \in X$.
 
 {% proof %}
 
-By [antisymmetry](/codex/PO#D1) of $\leq$.
+By [antisymmetry](/x/PO#D1) of $\leq$.
 
 {% endproof %}
 

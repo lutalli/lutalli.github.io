@@ -10,7 +10,7 @@ The **Cartesian product** of two sets $X$ and $Y$ is
 
 $$ X \times Y = \{(x, y) : x \in X \,\land\, y \in Y\}. $$
 
-This is a set by [Separation Schema](/codex/ZF#A4) (recall Kuratowski's [definition](/codex/TUP) of tuples):
+This is a set by [Separation Schema](/x/ZF#A4) (recall Kuratowski's [definition](/x/TUP) of tuples):
 
 $$ X \times Y \subseteq \powerset(\powerset(X \cup Y)). $$
 

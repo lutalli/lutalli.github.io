@@ -6,15 +6,15 @@ updated: 2026-08-06
 
 {% definition 1 %}
 
-Broadly speaking, a **homomorphism** is a structure-preserving [function](/codex/F) between two structured sets. The precise definition of a homomorphism depends on the context.
+Broadly speaking, a **homomorphism** is a structure-preserving [function](/x/F) between two structured sets. The precise definition of a homomorphism depends on the context.
 
 Once a homomorphism is defined, the following concepts are automatically understood:
 
-- A **monomorphism** is an [injective](/codex/INJ) homomorphism.
+- A **monomorphism** is an [injective](/x/INJ) homomorphism.
 
-- An **epimorphism** is a [surjective](/codex/SUR) homomorphism.
+- An **epimorphism** is a [surjective](/x/SUR) homomorphism.
 
-- An **isomorphism** is a [bijective](/codex/BIJ) homomorphism.
+- An **isomorphism** is a [bijective](/x/BIJ) homomorphism.
 
 - An **endomorphism** is a homomorphism from a set to itself.
 

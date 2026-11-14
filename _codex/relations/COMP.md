@@ -6,11 +6,11 @@ updated: 2026-08-30
 
 {% definition 1 %}
 
-The **composition** of two [binary relations](/codex/REL) $R$ and $S$ is the binary relation
+The **composition** of two [binary relations](/x/REL) $R$ and $S$ is the binary relation
 
 $$ S \circ R = \{(x, z) : (\exists y : x \,R\, y \,\land\, y \,S\, z) \}. $$
 
-This is a set by [Separation Schema](/codex/ZF#A4):
+This is a set by [Separation Schema](/x/ZF#A4):
 
 $$ S \circ R \subseteq \dom R \times \im S. $$
 
@@ -34,13 +34,13 @@ $$ (R \circ S) \circ T = R \circ (S \circ T). $$
 
 {% theorem 3 %}
 
-For any [functions](/codex/F) $f$ and $g$ on a set $X$, $f \circ g$ is also a function on $X$. In other words, $\fun(X, X)$ is [closed](/codex/OPC) under composition.
+For any [functions](/x/F) $f$ and $g$ on a set $X$, $f \circ g$ is also a function on $X$. In other words, $\fun(X, X)$ is [closed](/x/OPC) under composition.
 
 {% endtheorem %}
 
 {% theorem 4 %}
 
-For any set $X$, $\rel(X, X)$ is a [monoid](/codex/MOID) under composition with [neutral element](/codex/NEU) $\id_X$.
+For any set $X$, $\rel(X, X)$ is a [monoid](/x/MOID) under composition with [neutral element](/x/NEU) $\id_X$.
 
 {% endtheorem %}
 
@@ -52,13 +52,13 @@ This is a summary of [Theorem 1](#T1) and [associativity](#T2) of $\circ$.
 
 {% theorem 5 %}
 
-For any set $X$, $\fun(X, X)$ is a [submonoid](/codex/SMOID) of $\rel(X, X)$ with neutral element $\id_X$.
+For any set $X$, $\fun(X, X)$ is a [submonoid](/x/SMOID) of $\rel(X, X)$ with neutral element $\id_X$.
 
 {% endtheorem %}
 
 {% proof %}
 
-By [Theorem 1](#T1) and [Submonoid Test](/codex/SMOID#T1).
+By [Theorem 1](#T1) and [Submonoid Test](/x/SMOID#T1).
 
 {% endproof %}
 

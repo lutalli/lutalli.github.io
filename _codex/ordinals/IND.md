@@ -19,7 +19,7 @@ Then $A = \N$.
 
 {% proof %}
 
-Otherwise, $\min(\N \setdif A)$ would be a [limit ordinal](/codex/LIMO), contrary to [FINO # Theorem 1](/codex/FINO#T1).
+Otherwise, $\min(\N \setdif A)$ would be a [limit ordinal](/x/LIMO), contrary to [FINO # Theorem 1](/x/FINO#T1).
 
 {% endproof %}
 

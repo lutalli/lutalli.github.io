@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-The **successor** of an [ordinal](/codex/ORD) $\alpha$ is the ordinal
+The **successor** of an [ordinal](/x/ORD) $\alpha$ is the ordinal
 
 $$ \alpha + 1 = \alpha \cup \{\alpha\}. $$
 
@@ -24,7 +24,7 @@ $$ \alpha + 1 = \inf \{\beta : \beta > \alpha\}. $$
 
 {% theorem 2 %}
 
-For any [infinite](/codex/FINO) ordinal $\alpha$,
+For any [infinite](/x/FINO) ordinal $\alpha$,
 
 $$ \lvert \alpha + 1 \rvert = \lvert \alpha \rvert. $$
 
@@ -38,7 +38,7 @@ $$ f : \alpha + 1 \to \alpha, \, \xi \mapsto \begin{cases}
        \xi,     & \text{otherwise}
 \end{cases} $$
 
-is an [injection](/codex/INJ).
+is an [injection](/x/INJ).
 
 {% endproof %}
 

@@ -6,7 +6,7 @@ updated: 2026-06-11
 
 {% definition 1 %}
 
-The **order** of a [magma](/codex/MAG) $M$ is the [cardinality](/codex/CTY) of its underlying set $M$, denoted by $\lvert M \rvert$.
+The **order** of a [magma](/x/MAG) $M$ is the [cardinality](/x/CTY) of its underlying set $M$, denoted by $\lvert M \rvert$.
 
 {% enddefinition %}
 

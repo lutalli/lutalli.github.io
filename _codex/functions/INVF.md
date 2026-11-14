@@ -6,7 +6,7 @@ updated: 2026-10-01
 
 {% definition 1 %}
 
-Given any [injection](/codex/INJ) $f$, its [inverse relation](/codex/INVR) $f^{-1}$ is also a [function](/codex/F), called its **inverse function**.
+Given any [injection](/x/INJ) $f$, its [inverse relation](/x/INVR) $f^{-1}$ is also a [function](/x/F), called its **inverse function**.
 
 {% enddefinition %}
 
@@ -23,7 +23,7 @@ For any injection $f$ from a set $X$ onto a set $Y$:
 
 {% theorem 2 %}
 
-Let $A$ and $B$ be [finite](/codex/FIN) sets. For any [surjection](/codex/SUR) $f : A \to B$,
+Let $A$ and $B$ be [finite](/x/FIN) sets. For any [surjection](/x/SUR) $f : A \to B$,
 
 $$ \lvert A \rvert = \sum_{b \in B} \big\lvert f^{-1}[\{ b \}] \big\rvert. $$
 

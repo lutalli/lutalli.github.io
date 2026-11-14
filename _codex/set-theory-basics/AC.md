@@ -6,7 +6,7 @@ updated: 2026-08-03
 
 {% definition 1 %}
 
-A **choice function** on a set $X$ is a [function](/codex/F) on $X$ such that
+A **choice function** on a set $X$ is a [function](/x/F) on $X$ such that
 
 $$ \forall A \in X : f(A) \in A. $$
 

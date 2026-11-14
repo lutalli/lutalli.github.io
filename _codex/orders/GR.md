@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-Let $X$ be a [preordered](/codex/PRO) set and $a \in X$.
+Let $X$ be a [preordered](/x/PRO) set and $a \in X$.
 
 - $a$ is a **greatest element** of $X$ if
 
@@ -20,7 +20,7 @@ Let $X$ be a [preordered](/codex/PRO) set and $a \in X$.
 
 {% theorem 1 @newline %}
 
-- Any greatest element is [maximal](/codex/MAXL).
+- Any greatest element is [maximal](/x/MAXL).
 - Any least element is minimal.
 
 {% endtheorem %}

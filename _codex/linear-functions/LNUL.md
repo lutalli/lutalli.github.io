@@ -6,7 +6,7 @@ updated: 2026-06-20
 
 {% definition 1 %}
 
-Let $V$, $W$ be vector spaces over a field $F$ and $f : V \to W$ be a linear function. By [LF # Theorem 8 (I)](/codex/LF#T8), $\ker f$ is a subspace. The **nullity** of $f$ is the dimension of $\ker f$:
+Let $V$, $W$ be vector spaces over a field $F$ and $f : V \to W$ be a linear function. By [LF # Theorem 8 (I)](/x/LF#T8), $\ker f$ is a subspace. The **nullity** of $f$ is the dimension of $\ker f$:
 
 $$ \null f = \dim \ker f. $$
 

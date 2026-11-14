@@ -6,9 +6,9 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-Let $X$ be a [partially ordered](/codex/PO) set and $A \subseteq X$.
+Let $X$ be a [partially ordered](/x/PO) set and $A \subseteq X$.
 
-- If the [least](/codex/GR) [upper bound](/codex/BND) of $A$ exists, it is called the **supremum** of $A$ and denoted by
+- If the [least](/x/GR) [upper bound](/x/BND) of $A$ exists, it is called the **supremum** of $A$ and denoted by
 
   $$ \sup A. $$
 

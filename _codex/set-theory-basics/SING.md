@@ -22,7 +22,7 @@ $$ X \neq \{X\}. $$
 
 {% proof %}
 
-If $X = \\{X\\}$, then $X \in X$, contrary to [irreflexivity of $\in$](/codex/ZF#T1).
+If $X = \\{X\\}$, then $X \in X$, contrary to [irreflexivity of $\in$](/x/ZF#T1).
 
 {% endproof %}
 

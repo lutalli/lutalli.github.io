@@ -6,7 +6,7 @@ updated: 2026-10-27
 
 {% definition 1 %}
 
-A [binary relation](/codex/REL) $\sim$ on a set $X$ is **reflexive** if for all $x \in X$,
+A [binary relation](/x/REL) $\sim$ on a set $X$ is **reflexive** if for all $x \in X$,
 
 $$ x \sim x. $$
 

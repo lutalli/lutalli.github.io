@@ -6,7 +6,7 @@ updated: 2026-10-30
 
 {% definition 1 %}
 
-The **identity** on a set $X$ is the [binary relation](/codex/REL)
+The **identity** on a set $X$ is the [binary relation](/x/REL)
 
 $$ \id_X = \{(x, x) : x \in X\}. $$
 
@@ -14,7 +14,7 @@ $$ \id_X = \{(x, x) : x \in X\}. $$
 
 {% theorem 1 %}
 
-For any set $X$, $\id_X$ is a [bijective function](/codex/BIJ), called the **identity function**.
+For any set $X$, $\id_X$ is a [bijective function](/x/BIJ), called the **identity function**.
 
 {% endtheorem %}
 
@@ -28,7 +28,7 @@ then
 
 $$ z = x \,\land\, z = y \quad\Rimp\quad x = y, $$
 
-so $\id_X$ is a [function](/codex/F). If
+so $\id_X$ is a [function](/x/F). If
 
 $$ (x, z) \in \id_X \,\land\, (y, z) \in \id_X, $$
 
@@ -36,7 +36,7 @@ then
 
 $$ x = z \,\land\, y = z \quad\Rimp\quad x = y, $$
 
-so $\id_X$ is [injective](/codex/INJ). Since for every $x \in X$ we have $(x, x) \in \id_X$ and $X$ is the codomain, $\id_X$ is [surjective](/codex/SUR).
+so $\id_X$ is [injective](/x/INJ). Since for every $x \in X$ we have $(x, x) \in \id_X$ and $X$ is the codomain, $\id_X$ is [surjective](/x/SUR).
 
 {% endproof %}
 

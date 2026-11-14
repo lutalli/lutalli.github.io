@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-A [partially ordered](/codex/PO) set $X$ is **Dedekind-complete** if every non-empty subset of $X$ that is [bounded from above](/codex/BND) has a [supremum](/codex/SUP).
+A [partially ordered](/x/PO) set $X$ is **Dedekind-complete** if every non-empty subset of $X$ that is [bounded from above](/x/BND) has a [supremum](/x/SUP).
 
 {% enddefinition %}
 

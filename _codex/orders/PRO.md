@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-A [binary relation](/codex/REL) $\leq$ on a set $X$ is a **preorder** if:
+A [binary relation](/x/REL) $\leq$ on a set $X$ is a **preorder** if:
 
 {:.par-upper-roman}
 1. (*Reflexivity*) For all $x \in X$,

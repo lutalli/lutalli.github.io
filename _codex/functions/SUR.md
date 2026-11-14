@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-A **surjective function** or **surjection** is a [function](/codex/F) $f : X \to Y$ such that for all $y \in Y$,
+A **surjective function** or **surjection** is a [function](/x/F) $f : X \to Y$ such that for all $y \in Y$,
 
 $$ \exists x \in X : f(x) = y. $$
 

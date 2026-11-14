@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-Let $X$ be a set and $\kappa \leq \lvert X \rvert$ be a [cardinal](/codex/CARD). A **$\kappa$-sized subset** of $X$ is a subset of $X$ whose [cardinality](/codex/CTY) is $\kappa$.
+Let $X$ be a set and $\kappa \leq \lvert X \rvert$ be a [cardinal](/x/CARD). A **$\kappa$-sized subset** of $X$ is a subset of $X$ whose [cardinality](/x/CTY) is $\kappa$.
 
 The set of all $\kappa$-sized subsets of $X$ is denoted by
 

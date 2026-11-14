@@ -6,7 +6,7 @@ updated: 2026-06-10
 
 {% definition 1 %}
 
-A **bijective function** or **bijection** is a [function](/codex/F) that is both [injective](/codex/INJ) and [surjective](/codex/SUR).
+A **bijective function** or **bijection** is a [function](/x/F) that is both [injective](/x/INJ) and [surjective](/x/SUR).
 
 The set of all bijections from a set $X$ onto a set $Y$ is denoted by
 
