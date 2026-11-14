@@ -5,7 +5,7 @@ updated: 2026-11-13
 meta:    true
 ---
 
-**Codex** is my personal math logbook. It's mostly made of *axioms*, *definitions* and *theorems*. Here, *theorem* is a generalized term for mathematical results, such as theorems, lemmas, etc.
+**Codex** is my online math notebook. It's mostly made of *axioms*, *definitions* and *theorems*. Here, *theorem* is a generalized term for mathematical results, which covers *propositions*, *lemmas*, etc.
 
 Every page in Codex is assigned with a unique **slug**, which consists of up to 8 uppercase letters. For example, the slug of [Disjoint Union](/codex/DJU) is DJU.
 

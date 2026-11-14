@@ -3,9 +3,10 @@ title:   "Codex: Notation Glossary"
 date:    2026-06-08
 updated: 2026-09-18
 meta:    true
+style:   "font-size: 0.9em"
 ---
 
-## Set Theory
+### Set Theory Basics
 
 $\forall$
 : universal quantifier
@@ -106,6 +107,8 @@ $X_1 \times \cdots \times X_n$
 $X^n$
 : $\underbrace{X \times \cdots \times X}_{\text{$n$ times}}$
 
+### Relations
+
 $R(x_1, \cdots, x_n)$
 : relation $R$ [holds](/codex/REL) for $x_1$, $\cdots$, $x_n$
 
@@ -147,6 +150,8 @@ $R \restriction^B$
 
 $R[A]$
 : the [image](/codex/IM) of $A$ under binary relation $R$
+
+### Functions
 
 $f(x)$
 : the [value](/codex/F) of function $f$ at $x$
@@ -190,6 +195,8 @@ $\endo X$
 $\aut X$
 : the set of all [automorphisms](/codex/HOM#D1) on set $X$
 
+### Orders
+
 $\leq$
 : a [preorder](/codex/PRO)
 
@@ -217,6 +224,8 @@ $\inf A$
 $\init_u W$
 : the [initial segment](/codex/WO#D3) of well-ordered set $W$ by $u$
 
+### Ordinals
+
 $\Ord$
 : the class of all [ordinals](/codex/ORD)
 
@@ -240,6 +249,8 @@ $\langle s_n : n \in \N\rangle$, $\langle s_n \rangle_{n \in \N}$
 
 $s^\frown x$
 : the [extension](/codex/TSQ#D4) of transfinite sequence $s$ by $x$
+
+### Cardinals
 
 $X \equ Y$
 : set $X$ is [equinumerous](/codex/EQN) to set $Y$
@@ -268,7 +279,7 @@ $\kappa^\lambda$
 $\powerset_\kappa(X)$
 : the set of all [$\kappa$-sized subsets](/codex/SSUB) of set $X$
 
-## Abstract Algebra
+### Magmas, Semigroups, Monoids
 
 $(X, \*)$
 : a structure where set $X$ is equipped with binary opreation $\*$ ([magma](/codex/MAG), [monoid](/codex/MOID), [group](/codex/G), etc.)
@@ -293,6 +304,8 @@ $\inv M$
 
 $\ker f$
 : the [kernel](/codex/MOIDH#D2) of monoid homomorphism $f$
+
+### Groups
 
 $G \times H$
 : the [direct product](/codex/GDP) of groups $G$ and $H$
@@ -321,6 +334,8 @@ $\par \sigma$
 $\AA_n$
 : the [alternating group of degree $n$](/codex/ALTG)
 
+### Rings, Fields
+
 $a^n$
 : the [exponentiation](/codex/RING#D4) of $a$ by $n$ in a ring
 
@@ -332,6 +347,8 @@ $\dfrac{a}{b}$, $a / b$
 
 $\chara R$
 : the [characteristic](/codex/CHAR) of ring $R$
+
+### Number Systems
 
 $\N$
 : the set of [natural numbers](/codex/N)
@@ -381,16 +398,12 @@ $R[[X]]$
 $R[X]$
 : the [polynomial ring](/codex/POLY) over ring $R$
 
+### Polynomials
+
 $\deg p$
 : the [degree](/codex/POLY#D2) of polynomial $p$
 
-$[\varphi]$
-: [Iversion Brackets](/codex/IVERB)
-
-$\delta_{i, j}$
-: [Kronecker Delta](/codex/KROND)
-
-## Linear Algebra
+### Vector Spaces
 
 $\langle S \rangle$
 : the [linear span](/codex/SP) of $S$
@@ -404,6 +417,8 @@ $X + Y$
 $X \oplus Y$
 : the [direct sum](/codex/VSDS) of vector subspaces $X$ and $Y$
 
+### Matrices
+
 $\mat_R(m, n)$
 : the set of all $m \times n$-[matrices](/codex/M) over ring $R$
 
@@ -412,6 +427,8 @@ $A + B$
 
 $AB$
 : the [product](/codex/M#D3) of matrices $A$ and $B$
+
+### Linear Functions
 
 $\ker f$
 : the [kernel](/codex/LF#D2) of linear function $f$
@@ -422,7 +439,7 @@ $\rank f$
 $\null f$
 : the [nullity](/codex/RKNUL) of linear function $f$
 
-## Topology
+### Topology Basics
 
 $\lVert {}\cdot{} \rVert$
 : a [seminorm](/codex/SNOR)
@@ -445,12 +462,12 @@ $\cball_r(a)$
 $\inter Y$
 : the [interior](/codex/ITR) of $Y$
 
-## Number Theory
+## Divisibility
 
 $n \divides m$
 : $n$ [divides](/codex/DIV) $m$
 
-## Combinatorics
+### Enumerations
 
 $n!$
 : the [factorial](/codex/FAC) of $n$
@@ -463,3 +480,11 @@ $C(n, k)$
 
 $\displaystyle \binom{n}{k}$
 : [binomial coefficient](/codex/COMB#D2) [same thing as $C(n, k)$]
+
+### Miscellaneous
+
+$[\varphi]$
+: [Iversion Brackets](/codex/IVERB)
+
+$\delta_{i, j}$
+: [Kronecker Delta](/codex/KROND)

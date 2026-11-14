@@ -4,11 +4,11 @@ layout: default
 
 {% assign db = site.data['codex'] %}
 
-{% assign slugs = db['branches_by_id'][page.branch_id]['topics_by_id'][page.topic_id]['slugs'] %}
+{% assign slugs = db['chapters'][page.chapter_id]['slugs'] %}
 
 <ul class="post-listing">
     {% for slug in slugs %}
-        {% assign p = db['pages_by_slug'][slug] %}
+        {% assign p = db['pages'][slug] %}
 
         <li>
             <a style="margin-right: auto" href="{{ p.url }}">{{ p.title }}</a>

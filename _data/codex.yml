@@ -1,120 +1,103 @@
-# The Codex database.
+# This is the Codex database.
+#
+# Alongside the hash `chapters`, CodexGenerator from `_plugins/gen.rb` will also generate another
+# hash called `pages`, which contains all the pages indexed by slugs. We can then access the pages
+# directly by slug:
+#
+#     page = site.data['codex']['pages'][slug]
+#
+# Without this, we would have to iterate over the whole collection until we find the page that
+# matches the desired slug. Apparently, Jekyll doesn't provide any means to access a page even if
+# we know its full file path.   :shrug:
+#
+# NOTE: Even though `chapters` is a hash, which is not ordered in theory, but in practice the order
+# is preserved. Iterating both in Ruby and Liquid gives the right ordering. That means the order
+# of the chapters is already included in this file!
 
-branches:
+chapters:
 
-  # The sorted list of all branches.
-  #
-  # Based on this list, CodexGenerator will also generate two other hashes:
-  #
-  #   `branches_by_id` - Hash of all branches indexed by their IDs.
-  #   `pages_by_slug`  - Hash of all pages indexed by their slugs.
+  set-theory-basics:
+    name:  "Set Theory Basics"
+    slugs: [ CLS, V, ZF, AC, EMP, BLD, SUB, PAIR, U, SING, ROST, ITSC, DJ, DJU, SD, DMG, SYMD, P,
+             TUP, X ]
 
-  - id:   set-theory
-    name: "Set Theory"
-    topics:
+  relations:
+    name:  "Relations"
+    slugs: [ REL, INVR, COMP, RST, IM, ID, REF, SYM, TRA, CON, UNI, TOT, EQV ]
 
-      - id:    basics
-        name:  "Basics"
-        slugs: [ CLS, V, ZF, AC, EMP, BLD, SUB, PAIR, U, SING, ROST, ITSC, DJ, DJU, SD, DMG, SYMD,
-                 P, TUP, X ]
+  functions:
+    name:  "Functions"
+    slugs: [ F, OPC, INJ, SUR, BIJ, INVF, HOM, INVO, ADST ]
 
-      - id:    relations
-        name:  "Relations"
-        slugs: [ REL, INVR, COMP, RST, IM, ID, REF, SYM, TRA, CON, UNI, TOT, EQV ]
+  orders:
+    name:  "Orders"
+    slugs: [ PRO, TPRO, PO, TO, OH, MAXL, GR, MAX, BND, SUP, DDKC, WO, WF ]
 
-      - id:    functions
-        name:  "Functions"
-        slugs: [ F, OPC, INJ, SUR, BIJ, INVF, HOM, INVO, ADST ]
+  ordinals:
+    name:  "Ordinals"
+    slugs: [ TRAN, ORD, OT, SUC, INDS, LIMO, FINO, FIN, CNT, IND, TIND, TSQ, OSQL, COSQ, NOSQ,
+             TREC, OAR ]
 
-      - id:    orders
-        name:  "Orders"
-        slugs: [ PRO, TPRO, PO, TO, OH, MAXL, GR, MAX, BND, SUP, DDKC, WO, WF ]
+  cardinals:
+    name:  "Cardinals"
+    slugs: [ EQN, CARD, CSUC, ALF, CTY, CAR, SSUB ]
 
-      - id:    ordinals
-        name:  "Ordinals"
-        slugs: [ TRAN, ORD, OT, SUC, INDS, LIMO, FINO, FIN, CNT, IND, TIND, TSQ, OSQL, COSQ, NOSQ,
-                 TREC, OAR ]
+  magmas:
+    name:  "Magmas"
+    slugs: [ MAG, SMAG, MAGH, MAGO, NEU, INV, ABSB, CO ]
 
-      - id:    cardinals
-        name:  "Cardinals"
-        slugs: [ EQN, CARD, CSUC, ALF, CTY, CAR, SSUB ]
+  semigroups:
+    name:  "Semigroups"
+    slugs: [ SEMG, SSEMG, SEMGH ]
 
-  - id:   abstract-algebra
-    name: "Abstract Algebra"
-    topics:
+  monoids:
+    name:  "Monoids"
+    slugs: [ MOID, SMOID, MOIDH ]
 
-      - id:    magmas
-        name:  "Magmas"
-        slugs: [ MAG, SMAG, MAGH, MAGO, NEU, INV, ABSB, CO ]
+  groups:
+    name:  "Groups"
+    slugs: [ G, SG, GH, GDP, CONJ, IDX, LAG, NSG, QG, GEN, PRD, SYMG, CAY, PAR, ALTG, OG ]
 
-      - id:    semigroups
-        name:  "Semigroups"
-        slugs: [ SEMG, SSEMG, SEMGH ]
+  rings:
+    name:  "Rings"
+    slugs: [ RING, SRING, RINGH, ORING, RDP, BI, FRING, ZD, DOM, IDOM, CHAR ]
 
-      - id:    monoids
-        name:  "Monoids"
-        slugs: [ MOID, SMOID, MOIDH ]
+  fields:
+    name:  "Fields"
+    slugs: [ FLD, SFLD, FLDH, OFLD, FRAC ]
 
-      - id:    groups
-        name:  "Groups"
-        slugs: [ G, SG, GH, GDP, CONJ, IDX, LAG, NSG, QG, GEN, PRD, SYMG, CAY, PAR, ALTG, OG ]
+  number-systems:
+    name:  "Number Systems"
+    slugs: [ N, Z, Q, R ]
 
-      - id:    rings
-        name:  "Rings"
-        slugs: [ RING, SRING, RINGH, ORING, RDP, BI, FRING, ZD, DOM, IDOM, CHAR ]
+  polynoms:
+    name:  "Polynoms"
+    slugs: [ POW, POLY, QEXP ]
 
-      - id:    fields
-        name:  "Fields"
-        slugs: [ FLD, SFLD, FLDH, OFLD, FRAC ]
+  vector-spaces:
+    name:  "Vector Spaces"
+    slugs: [ MOD, VS, SVS, SP, LD, BAS, DIM, VSSUM, VSDS, AFF ]
 
-      - id:    number-systems
-        name:  "Number Systems"
-        slugs: [ N, Z, Q, R ]
+  matrices:
+    name:  "Matrices"
+    slugs: [ M ]
 
-      - id:    polynoms
-        name:  "Polynoms"
-        slugs: [ POW, POLY, QEXP ]
+  linear-functions:
+    name:  "Linear Functions"
+    slugs: [ LF, LRK, LNUL, RKNUL ]
 
-      - id:    misc
-        name:  "Misc"
-        slugs: [ IVERB, KROND ]
+  topology-basics:
+    name:  "Topology Basics"
+    slugs: [ MET, SNOR, NOR, DIAM, BNDF, SUPNOR, BALL, ITR, OPN, CLO ]
 
-  - id:   linear-algebra
-    name: "Linear Algebra"
-    topics:
+  divisibility:
+    name:  "Divisibility"
+    slugs: [ DIV, EVEN ]
 
-      - id:    vector-spaces
-        name:  "Vector Spaces"
-        slugs: [ MOD, VS, SVS, SP, LD, BAS, DIM, VSSUM, VSDS, AFF ]
+  enumerations:
+    name:  "Enumerations"
+    slugs: [ FAC, PERM, COMB ]
 
-      - id:    matrices
-        name:  "Matrices"
-        slugs: [ M ]
-
-      - id:    linear-functions
-        name:  "Linear Functions"
-        slugs: [ LF, LRK, LNUL, RKNUL ]
-
-  - id:   topology
-    name: "Topology"
-    topics:
-
-      - id:    basics
-        name:  "Basics"
-        slugs: [ MET, SNOR, NOR, DIAM, BNDF, SUPNOR, BALL, ITR, OPN, CLO ]
-
-  - id:   number-theory
-    name: "Number Theory"
-    topics:
-
-      - id:    divisibility
-        name:  "Divisibility"
-        slugs: [ DIV, EVEN ]
-
-  - id:   combinatorics
-    name: "Combinatorics"
-    topics:
-
-      - id:    enumerations
-        name:  "Enumerations"
-        slugs: [ FAC, PERM, COMB ]
+  misc:
+    name:  "Miscellaneous"
+    slugs: [ IVERB, KROND ]

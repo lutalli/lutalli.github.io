@@ -28,13 +28,9 @@
                 <div id="nav-left">
                     <p>
                         <a href="/codex">Codex</a>
-                        {% if page.topic_id %}
-                            {% assign db     = site.data['codex'] %}
-                            {% assign branch = db['branches_by_id'][page.branch_id] %}
-                            {% assign topic  = branch['topics_by_id'][page.topic_id] %}
-
-                            &gt; <a href="/codex/{{ page.branch_id }}/{{ page.topic_id }}">
-                                {{ topic['name'] }} ({{ branch['name'] }})
+                        {% if page.chapter_id %}
+                            § <a href="/codex/{{ page.chapter_id }}">
+                                {{ site.data['codex']['chapters'][page.chapter_id]['name'] }}
                             </a>
                         {% endif %}
                     </p>
@@ -61,7 +57,7 @@
 
         </header>
 
-        <article>
+        <article {% if page.style %} style="{{ page.style }}" {% endif %}>
             {% unless page.empty %}
                 {{ content }}
             {% endunless %}
