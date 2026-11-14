@@ -27,7 +27,7 @@ chapters:
 
   functions:
     name:  "Functions"
-    slugs: [ F, OPC, INJ, SUR, BIJ, INVF, HOM, INVO, ADST ]
+    slugs: [ F, OP, INJ, SUR, BIJ, INVF, CL, IDP, COM, ASS, CAN, DST, ADST, INVO, HOM ]
 
   orders:
     name:  "Orders"

@@ -1,14 +1,14 @@
 ---
 title:   Injection
 date:    2026-02-22
-updated: 2026-10-01
+updated: 2026-11-14
 ---
 
 {% definition 1 %}
 
-An **injective function** or **injection** is a [function](/x/F) $f : X \to Y$ such that
+An **injective function** or **injection** is a [function](/x/F) $f : X \to Y$ such that for all $x$, $y \in X$,
 
-$$ \forall x, y \in X :\enspace f(x) = f(y) \enspace\rimp\enspace x = y. $$
+$$ f(x) = f(y) \enspace\rimp\enspace x = y. $$
 
 The set of all injections from $X$ to $Y$ is denoted by
 

@@ -1,16 +1,14 @@
 ---
 title:   Involution
 date:    2026-04-18
-updated: 2026-06-10
+updated: 2026-11-14
 ---
 
 {% definition 1 %}
 
-An **involutory function** or **involution** is a [function](/x/F) $f : X \to Y$ such that
+An **involutory function** or **involution** is a [function](/x/F) $f : X \to Y$ such that for all $x \in X$,
 
-$$ f(f(x)) = x $$
-
-for all $x \in X$.
+$$ f(f(x)) = x. $$
 
 {% enddefinition %}
 

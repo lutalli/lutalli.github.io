@@ -34,7 +34,7 @@ $$ (R \circ S) \circ T = R \circ (S \circ T). $$
 
 {% theorem 3 %}
 
-For any [functions](/x/F) $f$ and $g$ on a set $X$, $f \circ g$ is also a function on $X$. In other words, $\fun(X, X)$ is [closed](/x/OPC) under composition.
+For any [functions](/x/F) $f$ and $g$ on a set $X$, $f \circ g$ is also a function on $X$. In other words, $\fun(X, X)$ is [closed](/x/CL) under composition.
 
 {% endtheorem %}
 

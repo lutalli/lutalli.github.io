@@ -75,7 +75,7 @@ $$ (\alpha \cdot \beta) \cdot \gamma = \alpha \cdot (\beta \cdot \gamma). $$
 
 {% endtheorem %}
 
-> Neither $+$ or $\cdot$ is [commutative](/x/OPC):
+> Neither $+$ or $\cdot$ is [commutative](/x/COM):
 >
 > $$ 1 + \omega = \omega \neq \omega + 1, \quad%
 >    2 \cdot \omega = \omega \neq \omega \cdot 2. $$

@@ -166,7 +166,7 @@ $\fun(X, Y)$
 : the set of all [functions](/x/F) from set $X$ to set $Y$
 
 $x \* y$
-: the [value](/x/F#D2) of binary operation $\*$ at $(x, y)$
+: the [value](/x/F#D2) of binary function $\*$ at $(x, y)$
 
 $\inj(X, Y)$
 : the set of all [injections](/x/INJ) from set $X$ to set $Y$
