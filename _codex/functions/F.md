@@ -97,12 +97,7 @@ for $x * y$. This is called [juxtaposition](https://en.wikipedia.org/wiki/Juxtap
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Function (mathematics)"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Function_(mathematics)&oldid=1374579623"
-  %}
+: {% ref_import key="Wiki" title="Function (mathematics)" url="https://en.wikipedia.org/w/index.php?title=Function_(mathematics)&oldid=1374579623" %}
 
 [2]
 : {% ref_import key="Jech" pages="11" %}

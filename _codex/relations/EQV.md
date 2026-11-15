@@ -63,12 +63,7 @@ Let $\sim$ be an equivalence relation on a set $X$. For any $x$, $y \in X$, the 
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Equivalence relation"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Equivalence_relation&oldid=1364233757"
-  %}
+: {% ref_import key="Wiki" title="Equivalence relation" url="https://en.wikipedia.org/w/index.php?title=Equivalence_relation&oldid=1364233757" %}
 
 [2]
 : {% ref_import key="Jech" pages="12" %}

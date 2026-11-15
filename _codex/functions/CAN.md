@@ -25,9 +25,4 @@ Let $\* : X \times X \to Y$ be a [binary function](/x/F).
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Cancellation property"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Cancellation_property&oldid=1377032796"
-  %}
+: {% ref_import key="Wiki" title="Cancellation property" url="https://en.wikipedia.org/w/index.php?title=Cancellation_property&oldid=1377032796" %}

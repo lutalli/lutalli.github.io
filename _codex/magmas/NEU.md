@@ -43,9 +43,4 @@ $$ e = ee' = e'. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Identity element"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Identity_element&oldid=1365025273"
-  %}
+: {% ref_import key="Wiki" title="Identity element" url="https://en.wikipedia.org/w/index.php?title=Identity_element&oldid=1365025273" %}

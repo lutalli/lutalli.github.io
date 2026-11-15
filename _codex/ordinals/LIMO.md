@@ -32,12 +32,7 @@ Let $\alpha > 0$ be an ordinal. The following statements are equivalent:
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Limit ordinal"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Limit_ordinal&oldid=1274159075"
-  %}
+: {% ref_import key="Wiki" title="Limit ordinal" url="https://en.wikipedia.org/w/index.php?title=Limit_ordinal&oldid=1274159075" %}
 
 [2]
 : {% ref_import key="Jech" pages="20" %}

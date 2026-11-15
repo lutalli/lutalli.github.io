@@ -46,12 +46,7 @@ $$ X \setdif Y = \empt. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Complement (set theory)"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Complement_(set_theory)&oldid=1355557106"
-  %}
+: {% ref_import key="Wiki" title="Complement (set theory)" url="https://en.wikipedia.org/w/index.php?title=Complement_(set_theory)&oldid=1355557106" %}
 
 [2]
 : {% ref_import key="Jech" pages="8" %}

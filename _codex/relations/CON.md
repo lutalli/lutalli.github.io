@@ -66,9 +66,4 @@ $\sim$ is thus strongly connected.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Connected relation"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Connected_relation&oldid=1357323844"
-  %}
+: {% ref_import key="Wiki" title="Connected relation" url="https://en.wikipedia.org/w/index.php?title=Connected_relation&oldid=1357323844" %}

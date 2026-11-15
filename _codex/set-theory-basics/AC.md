@@ -31,12 +31,7 @@ $\AC$ is independent of $\ZF$.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Axiom of choice"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Axiom_of_choice&oldid=1372014668"
-  %}
+: {% ref_import key="Wiki" title="Axiom of choice" url="https://en.wikipedia.org/w/index.php?title=Axiom_of_choice&oldid=1372014668" %}
 
 [2]
 : {% ref_import key="Jech" pages="46" %}

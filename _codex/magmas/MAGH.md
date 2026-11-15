@@ -17,9 +17,4 @@ $$ f(a b) = f(a) f(b). $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Magma (algebra) § Morphism of magmas"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Magma_(algebra)&oldid=1370952719#Morphism_of_magmas"
-  %}
+: {% ref_import key="Wiki" title="Magma (algebra) § Morphism of magmas" url="https://en.wikipedia.org/w/index.php?title=Magma_(algebra)&oldid=1370952719#Morphism_of_magmas" %}

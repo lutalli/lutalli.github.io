@@ -28,12 +28,7 @@ The following statements are equivalent:
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Transitive set"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Transitive_set&oldid=1370777805"
-  %}
+: {% ref_import key="Wiki" title="Transitive set" url="https://en.wikipedia.org/w/index.php?title=Transitive_set&oldid=1370777805" %}
 
 [2]
 : {% ref_import key="Jech" pages="13" %}

@@ -184,12 +184,7 @@ In other words, there exists an [inductive](/x/INDS) set $X$ with $\empt \in X$.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Zermelo–Fraenkel set theory"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Zermelo%E2%80%93Fraenkel_set_theory&oldid=1363858445"
-  %}
+: {% ref_import key="Wiki" title="Zermelo–Fraenkel set theory" url="https://en.wikipedia.org/w/index.php?title=Zermelo%E2%80%93Fraenkel_set_theory&oldid=1363858445" %}
 
 [2]
 : {% ref_import key="Jech" pages="6-13" %}

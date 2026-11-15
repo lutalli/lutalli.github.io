@@ -17,9 +17,4 @@ $$ * : X^n \to X. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Operation (mathematics)"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Operation_(mathematics)&oldid=1358772300"
-  %}
+: {% ref_import key="Wiki" title="Operation (mathematics)" url="https://en.wikipedia.org/w/index.php?title=Operation_(mathematics)&oldid=1358772300" %}

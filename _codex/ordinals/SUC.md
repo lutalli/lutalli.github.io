@@ -47,12 +47,7 @@ is an [injection](/x/INJ).
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Successor function"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Successor_function&oldid=1334471741"
-  %}
+: {% ref_import key="Wiki" title="Successor function" url="https://en.wikipedia.org/w/index.php?title=Successor_function&oldid=1334471741" %}
 
 [2]
 : {% ref_import key="Jech" pages="20" %}

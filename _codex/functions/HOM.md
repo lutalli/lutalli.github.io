@@ -47,12 +47,7 @@ $$ A \underset{f}{\simeq} B. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Homomorphism"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Homomorphism&oldid=1358161664"
-  %}
+: {% ref_import key="Wiki" title="Homomorphism" url="https://en.wikipedia.org/w/index.php?title=Homomorphism&oldid=1358161664" %}
 
 [2]
 : {% ref_web

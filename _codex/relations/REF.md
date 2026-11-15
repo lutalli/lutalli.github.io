@@ -53,17 +53,7 @@ Let $\sim$ be a binary relation on a set $X$.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Reflexive relation"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Reflexive_relation&oldid=1368361737"
-  %}
+: {% ref_import key="Wiki" title="Reflexive relation" url="https://en.wikipedia.org/w/index.php?title=Reflexive_relation&oldid=1368361737" %}
 
 [2]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Relation (mathematics)"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Relation_(mathematics)&oldid=1338483050"
-  %}
+: {% ref_import key="Wiki" title="Relation (mathematics)" url="https://en.wikipedia.org/w/index.php?title=Relation_(mathematics)&oldid=1338483050" %}

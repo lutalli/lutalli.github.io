@@ -33,9 +33,4 @@ $$ f(x + y) = f(x) + f(y). $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Distributive property"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Distributive_property&oldid=1371443742"
-  %}
+: {% ref_import key="Wiki" title="Distributive property" url="https://en.wikipedia.org/w/index.php?title=Distributive_property&oldid=1371443742" %}

@@ -31,12 +31,7 @@ If $X = \\{X\\}$, then $X \in X$, contrary to [irreflexivity of $\in$](/x/ZF#T1)
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Singleton (mathematics)"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Singleton_(mathematics)&oldid=1360442170"
-  %}
+: {% ref_import key="Wiki" title="Singleton (mathematics)" url="https://en.wikipedia.org/w/index.php?title=Singleton_(mathematics)&oldid=1360442170" %}
 
 [2]
 : {% ref_import key="Jech" pages="7" %}

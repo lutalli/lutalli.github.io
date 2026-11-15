@@ -21,12 +21,7 @@ $$ \bij(X, Y). $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Bijection"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Bijection&oldid=1369586288"
-  %}
+: {% ref_import key="Wiki" title="Bijection" url="https://en.wikipedia.org/w/index.php?title=Bijection&oldid=1369586288" %}
 
 [2]
 : {% ref_import key="Borot" target="Lecture 3" %}

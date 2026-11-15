@@ -25,12 +25,7 @@ Specially, we call a magma **abelian** if it is [commutative](/x/COM).
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Magma (algebra)"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Magma_(algebra)&oldid=1370952719"
-  %}
+: {% ref_import key="Wiki" title="Magma (algebra)" url="https://en.wikipedia.org/w/index.php?title=Magma_(algebra)&oldid=1370952719" %}
 
 [2]
 : {% ref_web

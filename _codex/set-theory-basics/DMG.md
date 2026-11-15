@@ -31,9 +31,4 @@ More generally, for any $A\subseteq\powerset(X)$:
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      platform="Wikipedia, The Free Encyclopedia"
-      title="De Morgan's laws"
-      url="https://en.wikipedia.org/w/index.php?title=De_Morgan%27s_laws&oldid=1373030169"
-  %}
+: {% ref_import key="Wiki" title="De Morgan's laws" url="https://en.wikipedia.org/w/index.php?title=De_Morgan%27s_laws&oldid=1373030169" %}

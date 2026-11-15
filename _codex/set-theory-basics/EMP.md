@@ -23,12 +23,7 @@ $$ \exists x : x \in A. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Empty set"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Empty_set&oldid=1374008418"
-  %}
+: {% ref_import key="Wiki" title="Empty set" url="https://en.wikipedia.org/w/index.php?title=Empty_set&oldid=1374008418" %}
 
 [2]
 : {% ref_import key="Jech" pages="8" %}

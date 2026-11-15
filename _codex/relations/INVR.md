@@ -31,9 +31,4 @@ $$ (R^{-1})^{-1} = R. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      platform="Wikipedia, The Free Encyclopedia"
-      title="Converse relation"
-      url="https://en.wikipedia.org/w/index.php?title=Converse_relation&oldid=1360449888"
-  %}
+: {% ref_import key="Wiki" title="Converse relation" url="https://en.wikipedia.org/w/index.php?title=Converse_relation&oldid=1360449888" %}

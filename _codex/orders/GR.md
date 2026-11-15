@@ -30,12 +30,7 @@ Let $X$ be a [preordered](/x/PRO) set and $a \in X$.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Greatest element and least element"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Greatest_element_and_least_element&oldid=1320031333"
-  %}
+: {% ref_import key="Wiki" title="Greatest element and least element" url="https://en.wikipedia.org/w/index.php?title=Greatest_element_and_least_element&oldid=1320031333" %}
 
 [2]
 : {% ref_import key="Jech" pages="16" %}

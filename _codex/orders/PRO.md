@@ -28,9 +28,4 @@ $$ x < y \enspace\lrimp\enspace x \leq y \,\land\, x \neq y. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Preorder"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Preorder&oldid=1364072287"
-  %}
+: {% ref_import key="Wiki" title="Preorder" url="https://en.wikipedia.org/w/index.php?title=Preorder&oldid=1364072287" %}

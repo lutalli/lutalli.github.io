@@ -28,9 +28,4 @@ A **total preorder** is a [strongly connected](/x/CON#D2) [preorder](/x/PRO), i.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Weak ordering § Total preorders"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Weak_ordering&oldid=1372816884#Total_preorders"
-  %}
+: {% ref_import key="Wiki" title="Weak ordering § Total preorders" url="https://en.wikipedia.org/w/index.php?title=Weak_ordering&oldid=1372816884#Total_preorders" %}

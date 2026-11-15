@@ -15,9 +15,4 @@ A [partially ordered](/x/PO) set $X$ is **Dedekind-complete** if every non-empty
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Least-upper-bound property"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Least-upper-bound_property&oldid=1360319977"
-  %}
+: {% ref_import key="Wiki" title="Least-upper-bound property" url="https://en.wikipedia.org/w/index.php?title=Least-upper-bound_property&oldid=1360319977" %}

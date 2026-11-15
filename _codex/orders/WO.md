@@ -112,12 +112,7 @@ Every set can be well-ordered, i.e. for any set $X$, there exists a well-order o
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Well-order"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Well-order&oldid=1364285243"
-  %}
+: {% ref_import key="Wiki" title="Well-order" url="https://en.wikipedia.org/w/index.php?title=Well-order&oldid=1364285243" %}
 
 [2]
 : {% ref_import key="Jech" pages="18-19" %}

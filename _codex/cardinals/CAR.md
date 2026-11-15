@@ -61,12 +61,7 @@ $$ \lvert X \rvert^{\lvert Y \rvert} = \lvert \fun(Y, X) \rvert. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Cardinal number § Cardinal arithmetic"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Cardinal_number&oldid=1365179595#Cardinal_arithmetic"
-  %}
+: {% ref_import key="Wiki" title="Cardinal number § Cardinal arithmetic" url="https://en.wikipedia.org/w/index.php?title=Cardinal_number&oldid=1365179595#Cardinal_arithmetic" %}
 
 [2]
 : {% ref_import key="Jech" pages="28-29" %}

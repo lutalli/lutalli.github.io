@@ -78,12 +78,7 @@ This is a summary of [Theorem 2](#T2), [commutativity](#T3) and [associativity](
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Union (set theory)"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Union_(set_theory)&oldid=1372773246"
-  %}
+: {% ref_import key="Wiki" title="Union (set theory)" url="https://en.wikipedia.org/w/index.php?title=Union_(set_theory)&oldid=1372773246" %}
 
 [2]
 : {% ref_import key="Jech" pages="9" %}

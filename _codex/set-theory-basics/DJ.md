@@ -55,12 +55,7 @@ is always joint to $X$. By [irreflexivity of $\in$](/x/ZF#T1), $X \neq Y$.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Disjoint sets"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Disjoint_sets&oldid=1358569625"
-  %}
+: {% ref_import key="Wiki" title="Disjoint sets" url="https://en.wikipedia.org/w/index.php?title=Disjoint_sets&oldid=1358569625" %}
 
 [2]
 : {% ref_import key="Jech" pages="8" %}

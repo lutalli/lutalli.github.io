@@ -77,12 +77,7 @@ $$ \field R = \dom R \cup \im R. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Relation (mathematics)"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Relation_(mathematics)&oldid=1338483050"
-  %}
+: {% ref_import key="Wiki" title="Relation (mathematics)" url="https://en.wikipedia.org/w/index.php?title=Relation_(mathematics)&oldid=1338483050" %}
 
 [2]
 : {% ref_import key="Jech" pages="10" %}

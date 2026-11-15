@@ -28,12 +28,7 @@ Otherwise, $\min(\N \setdif A)$ would be a [limit ordinal](/x/LIMO), contrary to
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Mathematical induction"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Mathematical_induction&oldid=1373903526"
-  %}
+: {% ref_import key="Wiki" title="Mathematical induction" url="https://en.wikipedia.org/w/index.php?title=Mathematical_induction&oldid=1373903526" %}
 
 [2]
 : {% ref_import key="Jech" pages="21" %}

@@ -33,12 +33,7 @@ A relation $R$ is an **extension** of a relation $S$ if $R \supseteq S$.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Binary relation § Restriction"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Binary_relation&oldid=1374585824#Restriction"
-  %}
+: {% ref_import key="Wiki" title="Binary relation § Restriction" url="https://en.wikipedia.org/w/index.php?title=Binary_relation&oldid=1374585824#Restriction" %}
 
 [2]
 : {% ref_import key="Jech" pages="11" %}

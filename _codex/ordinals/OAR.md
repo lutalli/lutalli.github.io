@@ -85,12 +85,7 @@ $$ (\alpha \cdot \beta) \cdot \gamma = \alpha \cdot (\beta \cdot \gamma). $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Ordinal arithmetic"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Ordinal_arithmetic&oldid=1373148475"
-  %}
+: {% ref_import key="Wiki" title="Ordinal arithmetic" url="https://en.wikipedia.org/w/index.php?title=Ordinal_arithmetic&oldid=1373148475" %}
 
 [2]
 : {% ref_import key="Jech" pages="23" %}

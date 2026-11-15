@@ -27,12 +27,7 @@ $$ \{a, b\} = \{b, a\}. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Unordered pair"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Unordered_pair&oldid=1355590671"
-  %}
+: {% ref_import key="Wiki" title="Unordered pair" url="https://en.wikipedia.org/w/index.php?title=Unordered_pair&oldid=1355590671" %}
 
 [2]
 : {% ref_import key="Jech" pages="6-7" %}

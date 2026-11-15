@@ -43,12 +43,7 @@ By [antisymmetry](/x/PO#D1) of $\leq$.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Maximal and minimal elements"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Maximal_and_minimal_elements&oldid=1338982942"
-  %}
+: {% ref_import key="Wiki" title="Maximal and minimal elements" url="https://en.wikipedia.org/w/index.php?title=Maximal_and_minimal_elements&oldid=1338982942" %}
 
 [2]
 : {% ref_import key="Jech" pages="16" %}

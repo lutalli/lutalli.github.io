@@ -43,17 +43,7 @@ Let $\sim$ be a transitive relation on a set $X$.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Transitive relation"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Transitive_relation&oldid=1373751601"
-  %}
+: {% ref_import key="Wiki" title="Transitive relation" url="https://en.wikipedia.org/w/index.php?title=Transitive_relation&oldid=1373751601" %}
 
 [2]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Intransitivity"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Intransitivity&oldid=1359431855"
-  %}
+: {% ref_import key="Wiki" title="Intransitivity" url="https://en.wikipedia.org/w/index.php?title=Intransitivity&oldid=1359431855" %}

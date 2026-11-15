@@ -62,12 +62,7 @@ For any sets $A$, $B$ and $C$:
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Cartesian product"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Cartesian_product&oldid=1367893132"
-  %}
+: {% ref_import key="Wiki" title="Cartesian product" url="https://en.wikipedia.org/w/index.php?title=Cartesian_product&oldid=1367893132" %}
 
 [2]
 : {% ref_import key="Jech" pages="10" %}

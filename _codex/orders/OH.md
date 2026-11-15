@@ -49,12 +49,7 @@ Let $X$ and $Y$ be two totally ordered sets. If $f : X \to Y$ is a [monomorphism
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Monotonic function § In order theory"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Monotonic_function&oldid=1354985524#In_order_theory"
-  %}
+: {% ref_import key="Wiki" title="Monotonic function § In order theory" url="https://en.wikipedia.org/w/index.php?title=Monotonic_function&oldid=1354985524#In_order_theory" %}
 
 [2]
 : {% ref_import key="Jech" pages="16-17" %}

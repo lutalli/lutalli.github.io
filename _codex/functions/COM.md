@@ -17,9 +17,4 @@ $$ x * y = y * x. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Commutative property"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Commutative_property&oldid=1381326473"
-  %}
+: {% ref_import key="Wiki" title="Commutative property" url="https://en.wikipedia.org/w/index.php?title=Commutative_property&oldid=1381326473" %}

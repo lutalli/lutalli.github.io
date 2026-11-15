@@ -23,12 +23,7 @@ $$ \inj(X, Y). $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Injective function"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Injective_function&oldid=1346410343"
-  %}
+: {% ref_import key="Wiki" title="Injective function" url="https://en.wikipedia.org/w/index.php?title=Injective_function&oldid=1346410343" %}
 
 [2]
 : {% ref_import key="Jech" pages="11" %}

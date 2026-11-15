@@ -75,12 +75,7 @@ $$ (R \circ S)^{-1} = S^{-1} \circ R^{-1}. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Composition of relations"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Composition_of_relations&oldid=1372184362"
-  %}
+: {% ref_import key="Wiki" title="Composition of relations" url="https://en.wikipedia.org/w/index.php?title=Composition_of_relations&oldid=1372184362" %}
 
 [2]
 : {% ref_import key="Jech" pages="11" %}

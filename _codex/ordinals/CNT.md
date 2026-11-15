@@ -21,20 +21,10 @@ Let $X$ be a set.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Countable set"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Countable_set&oldid=1373323346"
-  %}
+: {% ref_import key="Wiki" title="Countable set" url="https://en.wikipedia.org/w/index.php?title=Countable_set&oldid=1373323346" %}
 
 [2]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Uncountable set"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Uncountable_set&oldid=1373487012"
-  %}
+: {% ref_import key="Wiki" title="Uncountable set" url="https://en.wikipedia.org/w/index.php?title=Uncountable_set&oldid=1373487012" %}
 
 [3]
 : {% ref_import key="Jech" pages="30" %}

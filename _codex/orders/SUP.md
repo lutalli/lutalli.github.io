@@ -45,12 +45,7 @@ If $\inf A$ exists, the following statements are equivalent:
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Infimum and supremum"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Infimum_and_supremum&oldid=1374158516"
-  %}
+: {% ref_import key="Wiki" title="Infimum and supremum" url="https://en.wikipedia.org/w/index.php?title=Infimum_and_supremum&oldid=1374158516" %}
 
 [2]
 : {% ref_import key="Jech" pages="16" %}

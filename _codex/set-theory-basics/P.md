@@ -72,12 +72,7 @@ $$ \kappa < 2^\kappa. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Power set"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Power_set&oldid=1363224012"
-  %}
+: {% ref_import key="Wiki" title="Power set" url="https://en.wikipedia.org/w/index.php?title=Power_set&oldid=1363224012" %}
 
 [2]
 : {% ref_import key="Jech" pages="9;27-29" %}

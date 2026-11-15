@@ -29,9 +29,4 @@ By [definition](/x/OP#D1).
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Closure (mathematics)"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Closure_(mathematics)&oldid=1385208317"
-  %}
+: {% ref_import key="Wiki" title="Closure (mathematics)" url="https://en.wikipedia.org/w/index.php?title=Closure_(mathematics)&oldid=1385208317" %}

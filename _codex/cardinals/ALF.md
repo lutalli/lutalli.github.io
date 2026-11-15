@@ -50,12 +50,7 @@ Every infinite cardinal is an aleph.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Aleph number"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Aleph_number&oldid=1374253751"
-  %}
+: {% ref_import key="Wiki" title="Aleph number" url="https://en.wikipedia.org/w/index.php?title=Aleph_number&oldid=1374253751" %}
 
 [2]
 : {% ref_import key="Jech" pages="29-30" %}

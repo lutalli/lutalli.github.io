@@ -66,12 +66,7 @@ $$ X \symdif Y = (X \cup Y) \setdif (X \cap Y). $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Symmetric difference"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Symmetric_difference&oldid=1347009137"
-  %}
+: {% ref_import key="Wiki" title="Symmetric difference" url="https://en.wikipedia.org/w/index.php?title=Symmetric_difference&oldid=1347009137" %}
 
 [2]
 : {% ref_import key="Jech" pages="9" %}

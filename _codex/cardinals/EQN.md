@@ -99,20 +99,10 @@ For any sets $X$ and $Y$, if $X \subseteq Y$, then $X \lequ Y$.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Cardinality § Comparing sets"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Cardinality&oldid=1369560425#Comparing_sets"
-  %}
+: {% ref_import key="Wiki" title="Cardinality § Comparing sets" url="https://en.wikipedia.org/w/index.php?title=Cardinality&oldid=1369560425#Comparing_sets" %}
 
 [2]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Schröder–Bernstein theorem"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Schr%C3%B6der%E2%80%93Bernstein_theorem&oldid=1376529251"
-  %}
+: {% ref_import key="Wiki" title="Schröder–Bernstein theorem" url="https://en.wikipedia.org/w/index.php?title=Schr%C3%B6der%E2%80%93Bernstein_theorem&oldid=1376529251" %}
 
 [3]
 : {% ref_import key="Jech" pages="27-28" %}

@@ -93,12 +93,7 @@ This is a summary of [reflexivity](#T2), [transitivity](#T3) and [antisymmetry](
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Subset"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Subset&oldid=1373193790"
-  %}
+: {% ref_import key="Wiki" title="Subset" url="https://en.wikipedia.org/w/index.php?title=Subset&oldid=1373193790" %}
 
 [2]
 : {% ref_import key="Jech" pages="9" %}

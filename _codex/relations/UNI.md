@@ -25,9 +25,4 @@ $$ (z \sim x \,\land\, z \sim y) \,\rimp\, x = y. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Binary relation § Types of binary relations"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Binary_relation&oldid=1377257361#Types_of_binary_relations"
-  %}
+: {% ref_import key="Wiki" title="Binary relation § Types of binary relations" url="https://en.wikipedia.org/w/index.php?title=Binary_relation&oldid=1377257361#Types_of_binary_relations" %}

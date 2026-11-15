@@ -67,12 +67,7 @@ This is a summary of [Theorem 1](#T1), [commutativity](#T2) and [associativity](
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Intersection"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Intersection&oldid=1320120208"
-  %}
+: {% ref_import key="Wiki" title="Intersection" url="https://en.wikipedia.org/w/index.php?title=Intersection&oldid=1320120208" %}
 
 [2]
 : {% ref_import key="Jech" pages="7-8" %}

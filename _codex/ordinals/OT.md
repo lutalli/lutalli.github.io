@@ -21,12 +21,7 @@ This unique ordinal number is called the **order type** of $W$ (with respect to 
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Order type"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Order_type&oldid=1360380623"
-  %}
+: {% ref_import key="Wiki" title="Order type" url="https://en.wikipedia.org/w/index.php?title=Order_type&oldid=1360380623" %}
 
 [2]
 : {% ref_import key="Jech" pages="20" %}

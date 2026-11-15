@@ -23,12 +23,7 @@ The existence of $Y$ is justified by [Separation Schema](/x/ZF#A4) and its uniqu
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Set-builder notation"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Set-builder_notation&oldid=1368739220"
-  %}
+: {% ref_import key="Wiki" title="Set-builder notation" url="https://en.wikipedia.org/w/index.php?title=Set-builder_notation&oldid=1368739220" %}
 
 [2]
 : {% ref_import key="Jech" pages="7-8" %}

@@ -64,12 +64,7 @@ $\leq$ is a total order if and only if $<$ is a strict total order.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Total order"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Total_order&oldid=1360446695"
-  %}
+: {% ref_import key="Wiki" title="Total order" url="https://en.wikipedia.org/w/index.php?title=Total_order&oldid=1360446695" %}
 
 [2]
 : {% ref_import key="Jech" pages="16" %}

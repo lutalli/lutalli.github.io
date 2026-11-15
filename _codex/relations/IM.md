@@ -29,12 +29,7 @@ Let $R$ be a binary relation. The **preimage** of a set $B$ under $R$ is $R^{-1}
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Image (mathematics)"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Image_(mathematics)&oldid=1360048754"
-  %}
+: {% ref_import key="Wiki" title="Image (mathematics)" url="https://en.wikipedia.org/w/index.php?title=Image_(mathematics)&oldid=1360048754" %}
 
 [2]
 : {% ref_import key="Jech" pages="11" %}

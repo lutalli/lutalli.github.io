@@ -86,20 +86,10 @@ a contradiction.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Ordinal number"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Ordinal_number&oldid=1374563689"
-  %}
+: {% ref_import key="Wiki" title="Ordinal number" url="https://en.wikipedia.org/w/index.php?title=Ordinal_number&oldid=1374563689" %}
 
 [2]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Burali-Forti paradox"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Burali-Forti_paradox&oldid=1338500475"
-  %}
+: {% ref_import key="Wiki" title="Burali-Forti paradox" url="https://en.wikipedia.org/w/index.php?title=Burali-Forti_paradox&oldid=1338500475" %}
 
 [3]
 : {% ref_import key="Jech" pages="19-20" %}

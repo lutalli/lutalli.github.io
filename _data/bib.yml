@@ -1,5 +1,10 @@
 # Bibliography database.
 
+Wiki:
+  type:         "web"
+  author:       "Wikipedia contributors"
+  platform:     "Wikipedia, The Free Encyclopedia"
+
 Jech:
   type:         "book"
   author:       "Thomas Jech"

@@ -15,9 +15,4 @@ The **order** of a [magma](/x/MAG) $M$ is the [cardinality](/x/CTY) of its under
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Order (group theory)"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Order_(group_theory)&oldid=1376891610"
-  %}
+: {% ref_import key="Wiki" title="Order (group theory)" url="https://en.wikipedia.org/w/index.php?title=Order_(group_theory)&oldid=1376891610" %}

@@ -15,12 +15,7 @@ A set $X$ is **finite** if there is a [bijection](/x/BIJ) from $X$ to a [natural
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Finite set"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Finite_set&oldid=1371333230"
-  %}
+: {% ref_import key="Wiki" title="Finite set" url="https://en.wikipedia.org/w/index.php?title=Finite_set&oldid=1371333230" %}
 
 [2]
 : {% ref_import key="Jech" pages="20" %}

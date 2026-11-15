@@ -53,12 +53,7 @@ By [LIMO # Theorem 1 (I) $\lrimp$ (V)](/x/LIMO#T1).
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Natural number"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Natural_number&oldid=1374833728"
-  %}
+: {% ref_import key="Wiki" title="Natural number" url="https://en.wikipedia.org/w/index.php?title=Natural_number&oldid=1374833728" %}
 
 [2]
 : {% ref_import key="Jech" pages="20" %}

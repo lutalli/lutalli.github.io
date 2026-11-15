@@ -57,25 +57,10 @@ so by antisymmetry we would have $x = y$, which would follow that $x \sim x$, co
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Symmetric relation"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Symmetric_relation&oldid=1364639091"
-  %}
+: {% ref_import key="Wiki" title="Symmetric relation" url="https://en.wikipedia.org/w/index.php?title=Symmetric_relation&oldid=1364639091" %}
 
 [2]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Asymmetric relation"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Asymmetric_relation&oldid=1318855697"
-  %}
+: {% ref_import key="Wiki" title="Asymmetric relation" url="https://en.wikipedia.org/w/index.php?title=Asymmetric_relation&oldid=1318855697" %}
 
 [3]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Antisymmetric relation"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Antisymmetric_relation&oldid=1380477858"
-  %}
+: {% ref_import key="Wiki" title="Antisymmetric relation" url="https://en.wikipedia.org/w/index.php?title=Antisymmetric_relation&oldid=1380477858" %}

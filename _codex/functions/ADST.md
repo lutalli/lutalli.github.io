@@ -33,9 +33,4 @@ $$ f(x + y) = f(y) + f(x). $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Distributive property § Antidistributivity"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Distributive_property&oldid=1371443742#Antidistributivity"
-  %}
+: {% ref_import key="Wiki" title="Distributive property § Antidistributivity" url="https://en.wikipedia.org/w/index.php?title=Distributive_property&oldid=1371443742#Antidistributivity" %}

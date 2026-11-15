@@ -25,9 +25,4 @@ Let $M$ be a [magma](/x/MAG) and $a \in M$.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Absorbing element"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Absorbing_element&oldid=1360606610"
-  %}
+: {% ref_import key="Wiki" title="Absorbing element" url="https://en.wikipedia.org/w/index.php?title=Absorbing_element&oldid=1360606610" %}

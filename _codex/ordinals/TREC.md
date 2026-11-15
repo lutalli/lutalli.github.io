@@ -17,12 +17,7 @@ $$ F(\alpha) = G(F \restriction_\alpha). $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Transfinite recursion theorem"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Transfinite_recursion_theorem&oldid=1360285624"
-  %}
+: {% ref_import key="Wiki" title="Transfinite recursion theorem" url="https://en.wikipedia.org/w/index.php?title=Transfinite_recursion_theorem&oldid=1360285624" %}
 
 [2]
 : {% ref_import key="Jech" pages="22" %}

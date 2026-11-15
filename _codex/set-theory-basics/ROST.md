@@ -19,12 +19,7 @@ $$ \{a_1, \cdots, a_n\} = \{a_1\} \cup \cdots \cup \{a_n\}. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Set (mathematics) § Roster notation"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Set_(mathematics)&oldid=1365163127#Roster_notation"
-  %}
+: {% ref_import key="Wiki" title="Set (mathematics) § Roster notation" url="https://en.wikipedia.org/w/index.php?title=Set_(mathematics)&oldid=1365163127#Roster_notation" %}
 
 [2]
 : {% ref_import key="Jech" pages="9" %}

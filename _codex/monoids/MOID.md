@@ -49,12 +49,7 @@ Let $e$ be the neutral element.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Monoid"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Monoid&oldid=1378649517"
-  %}
+: {% ref_import key="Wiki" title="Monoid" url="https://en.wikipedia.org/w/index.php?title=Monoid&oldid=1378649517" %}
 
 [2]
 : {% ref_import key="Borot" target="Lecture 7" %}

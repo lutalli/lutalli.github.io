@@ -41,12 +41,7 @@ By [CAR # Theorem 1](/x/CAR#T1).
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Disjoint union"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Disjoint_union&oldid=1335705780"
-  %}
+: {% ref_import key="Wiki" title="Disjoint union" url="https://en.wikipedia.org/w/index.php?title=Disjoint_union&oldid=1335705780" %}
 
 [2]
 : {% ref_import key="Jech" pages="12" %}

@@ -54,12 +54,7 @@ $$ \lvert A \rvert = k \lvert B \rvert. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Inverse function"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Inverse_function&oldid=1368588964"
-  %}
+: {% ref_import key="Wiki" title="Inverse function" url="https://en.wikipedia.org/w/index.php?title=Inverse_function&oldid=1368588964" %}
 
 [2]
 : {% ref_import key="Jech" pages="11" %}

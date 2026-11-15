@@ -29,12 +29,7 @@ Since $\V = \V$, it follows that $\V \in \V$, contrary to [irreflexivity of $\in
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Universal set"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Universal_set&oldid=1367483581"
-  %}
+: {% ref_import key="Wiki" title="Universal set" url="https://en.wikipedia.org/w/index.php?title=Universal_set&oldid=1367483581" %}
 
 [2]
 : {% ref_import key="Jech" pages="6" %}

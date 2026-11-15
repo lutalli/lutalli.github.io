@@ -17,12 +17,7 @@ $$ \forall x \in A : x \not\sim a. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Well-founded relation"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Well-founded_relation&oldid=1349653863"
-  %}
+: {% ref_import key="Wiki" title="Well-founded relation" url="https://en.wikipedia.org/w/index.php?title=Well-founded_relation&oldid=1349653863" %}
 
 [2]
 : {% ref_import key="Jech" pages="25" %}

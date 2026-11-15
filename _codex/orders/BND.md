@@ -40,12 +40,7 @@ Let $X$ be a [preordered](/x/PRO) set, $A \subseteq X$ and $a \in X$.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Upper and lower bounds"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Upper_and_lower_bounds&oldid=1327844467"
-  %}
+: {% ref_import key="Wiki" title="Upper and lower bounds" url="https://en.wikipedia.org/w/index.php?title=Upper_and_lower_bounds&oldid=1327844467" %}
 
 [2]
 : {% ref_import key="Jech" pages="16" %}

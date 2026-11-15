@@ -29,12 +29,7 @@ If both $a$ and $a'$ are greatest elements of $X$, $a' \leq a$ and $a \leq a'$, 
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Maximum and minimum"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Maximum_and_minimum&oldid=1361404617"
-  %}
+: {% ref_import key="Wiki" title="Maximum and minimum" url="https://en.wikipedia.org/w/index.php?title=Maximum_and_minimum&oldid=1361404617" %}
 
 [2]
 : {% ref_import key="Jech" pages="16" %}

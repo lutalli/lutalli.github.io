@@ -27,12 +27,7 @@ $$ \sur(X, Y). $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      platform="Wikipedia, The Free Encyclopedia"
-      title="Surjective function"
-      url="https://en.wikipedia.org/w/index.php?title=Surjective_function&oldid=1360549289"
-  %}
+: {% ref_import key="Wiki" title="Surjective function" url="https://en.wikipedia.org/w/index.php?title=Surjective_function&oldid=1360549289" %}
 
 [2]
 : {% ref_import key="Borot" target="Lecture 3" %}

@@ -105,8 +105,8 @@ module Jekyll
       type = item['type']
 
       case type
-      when "wiki"
-        Jekyll::render_ref_wiki(item)
+      when "web"
+        Jekyll::render_ref_web(item)
       when "book"
         Jekyll::render_ref_book(item)
       when "course"

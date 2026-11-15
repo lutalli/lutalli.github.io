@@ -69,12 +69,7 @@ $\leq$ is a partial order if and only if $<$ is a strict partial order.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Partially ordered set"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Partially_ordered_set&oldid=1360404056"
-  %}
+: {% ref_import key="Wiki" title="Partially ordered set" url="https://en.wikipedia.org/w/index.php?title=Partially_ordered_set&oldid=1360404056" %}
 
 [2]
 : {% ref_import key="Jech" pages="16" %}

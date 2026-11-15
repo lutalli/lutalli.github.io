@@ -17,9 +17,4 @@ $$ f(f(x)) = x. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Involution (mathematics)"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Involution_(mathematics)&oldid=1372904372"
-  %}
+: {% ref_import key="Wiki" title="Involution (mathematics)" url="https://en.wikipedia.org/w/index.php?title=Involution_(mathematics)&oldid=1372904372" %}

@@ -32,12 +32,7 @@ For any sets $X$ and $Y$:
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Cardinality"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Cardinality&oldid=1369560425"
-  %}
+: {% ref_import key="Wiki" title="Cardinality" url="https://en.wikipedia.org/w/index.php?title=Cardinality&oldid=1369560425" %}
 
 [2]
 : {% ref_import key="Jech" pages="29" %}

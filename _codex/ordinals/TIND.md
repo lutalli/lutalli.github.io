@@ -26,12 +26,7 @@ Then $C = \Ord$.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Transfinite induction"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Transfinite_induction&oldid=1355154855"
-  %}
+: {% ref_import key="Wiki" title="Transfinite induction" url="https://en.wikipedia.org/w/index.php?title=Transfinite_induction&oldid=1355154855" %}
 
 [2]
 : {% ref_import key="Jech" pages="21" %}

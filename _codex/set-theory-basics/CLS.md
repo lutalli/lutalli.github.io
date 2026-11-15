@@ -53,12 +53,7 @@ A class that is not a set is called a **proper class**.
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Class (set theory)"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Class_(set_theory)&oldid=1330650700"
-  %}
+: {% ref_import key="Wiki" title="Class (set theory)" url="https://en.wikipedia.org/w/index.php?title=Class_(set_theory)&oldid=1330650700" %}
 
 [2]
 : {% ref_import key="Jech" pages="5-6" %}

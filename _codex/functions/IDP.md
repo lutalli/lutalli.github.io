@@ -17,9 +17,4 @@ $$ x * x = x. $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Idempotence"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Idempotence&oldid=1382059785"
-  %}
+: {% ref_import key="Wiki" title="Idempotence" url="https://en.wikipedia.org/w/index.php?title=Idempotence&oldid=1382059785" %}

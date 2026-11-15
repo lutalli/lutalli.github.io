@@ -45,12 +45,7 @@ so $\id_X$ is [injective](/x/INJ). Since for every $x \in X$ we have $(x, x) \in
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      platform="Wikipedia, The Free Encyclopedia"
-      title="Identity function"
-      url="https://en.wikipedia.org/w/index.php?title=Identity_function&oldid=1341292889"
-  %}
+: {% ref_import key="Wiki" title="Identity function" url="https://en.wikipedia.org/w/index.php?title=Identity_function&oldid=1341292889" %}
 
 [2]
 : {% ref_import key="Borot" target="Lecture 3" %}

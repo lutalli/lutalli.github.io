@@ -15,12 +15,7 @@ An [ordinal](/x/ORD) [sequence](/x/TSQ) is **normal** if it is [strictly increas
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Normal function"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Normal_function&oldid=1313132316"
-  %}
+: {% ref_import key="Wiki" title="Normal function" url="https://en.wikipedia.org/w/index.php?title=Normal_function&oldid=1313132316" %}
 
 [2]
 : {% ref_import key="Jech" pages="22" %}

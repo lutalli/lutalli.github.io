@@ -17,9 +17,4 @@ $$ (ab)c = a(bc). $$
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Semigroup"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Semigroup&oldid=1378036854"
-  %}
+: {% ref_import key="Wiki" title="Semigroup" url="https://en.wikipedia.org/w/index.php?title=Semigroup&oldid=1378036854" %}

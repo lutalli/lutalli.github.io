@@ -42,12 +42,7 @@ $$ (a_1, \cdots, a_n) = (b_1, \cdots, b_n) \enspace\lrimp\enspace%
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Tuple"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Tuple&oldid=1361728601"
-  %}
+: {% ref_import key="Wiki" title="Tuple" url="https://en.wikipedia.org/w/index.php?title=Tuple&oldid=1361728601" %}
 
 [2]
 : {% ref_import key="Jech" pages="7" %}

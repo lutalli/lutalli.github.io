@@ -49,12 +49,7 @@ By [SUC # Theorem 2](/x/SUC#T2).
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Cardinal number"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Cardinal_number&oldid=1365179595"
-  %}
+: {% ref_import key="Wiki" title="Cardinal number" url="https://en.wikipedia.org/w/index.php?title=Cardinal_number&oldid=1365179595" %}
 
 [2]
 : {% ref_import key="Jech" pages="29" %}

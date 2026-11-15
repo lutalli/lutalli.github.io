@@ -22,12 +22,7 @@ The **cardinal successor** of an ordinal $\alpha$, denoted by $\alpha^+$, is the
 ## References
 
 [1]
-: {% ref_web
-      author="Wikipedia contributors"
-      title="Successor cardinal"
-      platform="Wikipedia, The Free Encyclopedia"
-      url="https://en.wikipedia.org/w/index.php?title=Successor_cardinal&oldid=1373069898"
-  %}
+: {% ref_import key="Wiki" title="Successor cardinal" url="https://en.wikipedia.org/w/index.php?title=Successor_cardinal&oldid=1373069898" %}
 
 [2]
 : {% ref_import key="Jech" pages="29" %}
